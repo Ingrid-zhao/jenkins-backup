@@ -1,0 +1,13 @@
+commit 9fad7d7e801e82f6cf2d6536da24bc7076554642
+tree 3b90d83b0af104fa0cc84da524c052e0046cc737
+parent ea2d96657ba820db2e1cf0e534585c1e331b816d
+author Ying Zhao <ying.zhao@intel.com> 2021-10-18 23:36:44 +0800
+committer Ying Zhao <ying.zhao@intel.com> 2021-10-18 23:36:44 +0800
+
+    change the name of testpmd again
+    
+    Signed-off-by: Ying Zhao <ying.zhao@intel.com>
+
+
+:100644 100644 3b761d2fba607b47ad21a8f76e7baa2ef2db31aa b432b9925af220e0121c80c2dbeef7195dc48fd8 M	k8s_yamls/sriov/k8s_test_testpmd.yaml
+:100644 100644 e0120a60420b3868d63487c813e9e6233b782422 d8d8b11a2521d1a0a51ac66344be3deb8ed72291 M	k8s_yamls/sriov/k8s_testconfig_testpmd.yaml

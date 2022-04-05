@@ -1,0 +1,74 @@
+Started by user [8mha:////4C8zTO/v0UlG+vQ5Fjm5jTf9kR93yL5yxTMP2X04T9v8AAAAlh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyWEgYu/dLi1CL9ovz8EgDKVWzSvwAAAA==[0mroot
+Running in Durability level: MAX_SURVIVABILITY
+[8mha:////4DOlrZhma2TKYqx8mtRBwGXVE8Xt4z3OJyo/zi+ICDdzAAAAoh+LCAAAAAAAAP9tjTEOwjAQBM8BClpKHuFItIiK1krDC0x8GCfWnbEdkooX8TX+gCESFVvtrLSa5wtWKcKBo5UdUu8otU4GP9jS5Mixv3geZcdn2TIl9igbHBs2eJyx4YwwR1SwULBGaj0nRzbDRnX6rmuvydanHMu2V1A5c4MHCFXMWcf8hSnC9jqYxPTz/BXAFEIGsfuclm8zQVqFvQAAAA==[0m[Pipeline] Start of Pipeline
+[8mha:////4B4K7nOhvaaLmbeE3w0NEhE1GAALwLDjakw9plXgkY6XAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycohUghExsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jduZBmjwAAAAA==[0m[Pipeline] node
+Running on [8mha:////4GiJsi7Mya/6bg7lYfwMQTzNVpzT54TxwGFsrEp/EcRtAAAAoh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyeEgZx/eT83ILSktQi/eTKAkMD3aLUXKBKfQCdwg2/zAAAAA==[0mcyp10-remote in /root/.jenkins/workspace/test-nic@2
+[8mha:////4NUxBMzN6CtFAbQ4pdo7pH8ZuwVHigLf0SdP3FcjQTwyAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gA0xsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jfoP95RwAAAAA==[0m[Pipeline] {
+[8mha:////4OCB1+Up79PmV3LnMeomKr9r+JFCKkFjAfTpr2UorbLOAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gQkxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jc09154wAAAAA==[0m[Pipeline] stage
+[8mha:////4N6KQN35K8CT/Pcr9a+R4oOEu4uEh3phvpB1t67zd2hmAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0ggUxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jek7ggRwAAAAA==[0m[Pipeline] { (set args)
+[8mha:////4KpTcsSlLG7yEvo1vGv2QG1z86HMYkLASFXVuKwhd7SZAAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQTbaWGsbAmNJ0AWEZb8zwLrbuWJvJp3kLiJlZNMMm+a93rDOic4UbLcG+wdZu14DKOti0+U+lugiXu6ck2YKRguzSSpM+cFJRUDS1gDKwEbgzpQdmgLbIVXD9UGhba9lFS/o4DGdQM8gYlqLiqVL8wJdvexy4Q/z18BzLEA29ce4gfg7KmOvAAAAA==[0m[Pipeline] sh
++ python /root/.jenkins/workspace/test-nic/npxtester/conf/change_args.py '{"dpdk_dir":"/opt/APP/utility/DPDK_install/dpdk-stable-20.11.1/","vm_image_conf":{"image1":"ubuntu20.04.img","image2":"ubuntu20.04_2.img","image3":"rhel84rt.img","image4":"rhel84rt2.img","image_dir":"/home/image"},"sut_conf":{"host":"10.112.97.157","connect_switch_sut_pf":"ens787f0","pf1":"ens787f0","pf1_ipv6":"fe80::b696:91ff:fe9c:f760","os":"rehat"},"dhcp":{"ipv4":"192.168.10.10","ipv6":"fe80::b696:91ff:fe9c:f762"}}'
+[8mha:////4ChDQWb8Lvr0RoXQ1L8EY4p37+Po0Q8Mb8bchs8JeqDJAAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQTbGRNjZUtoPAGyiLDkfxZYdytP5NW8g8RNrJxkknnTvNcb1jnBiZLl3mDvMGvHYxhtXXyi1N8CTdzTlWvCTMFwaSZJnTkvKKkYWMIaWAnYGNSBskNbYCu8eqg2KLTtpaT6HQU0rhvgCUxUc1GpfGFOsLuPXSb8ef4KYI6xADvU7j9Dg2gqvAAAAA==[0m[Pipeline] }
+[8mha:////4J0p4zt/+On27QitkvU5TFB8M2wwWYWaAHIuYiUer4fkAAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQRbWRhjZUtoPAGyiLDkfxZYdytP5NW8g8RNrJxkknnTvNcb1jnBiZLl3mDvMGvHYxhtXXyi1N8CTdzTlWvCTMFwaSZJnTkvKKkYWMIaWAnYGNSBskNbYCu8eqg2KLTtpaT6HQU0rhvgCUxUc1GpfGFOsLuPXSb8ef4KYI6xADvU7j9J+wGOvAAAAA==[0m[Pipeline] // stage
+[8mha:////4Ea3/4ZYuTM98yMZ9UntzMXOyQ2ItSOm6XAUUO4QqkITAAAAph+LCAAAAAAAAP9tjTEOwjAQBM9BKWgpeYQDEh2iorXc8AITG+PEugv2haTiRXyNPxCIRMVWOyut5vmCMic4UPKycdgGzHWQXez91ORAqb1EGmRDZ1kTZopOajdosu44oyZ2MEcUsFCwdFhHygE9w0o15m6qaNBXJ07TtldQBHuDBwg1mdkk/sKYYH3tbSb8ef4KYOwYxI6h2G4+x/INtuQqUcEAAAA=[0m[Pipeline] stage
+[8mha:////4IJd0qxfNFkcgwUT9OFke9rxaJjwCH2G9mHJ+5FMmbLfAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+DOrAycoiUzoiJNerCCUITQtLo/zZJSSdOxNW4Ay2VmPBg2Zas93pDGQOcKBjuNHYWY2t570czJ54pdDdPmTu68pYwkte80bkhpc9rbShpWFUw2AjYamw9RYsmwU44+ZCVl2iqSwrzdhTArBrgCYWYyUmG9C1TgP19VJHwx/kLgKlPwOrDYvXyLD8BobDcwgAAAA==[0m[Pipeline] { (run nic case)
+[8mha:////4KACpsxoNqug+yeGIE2K55MD+IyPDLfbYOrean7h1Zl/AAAAox+LCAAAAAAAAP9tjTESwiAURH/iWNhaeggysXWsbBkaT4AJIoT5nwCRVJ7Iq3kH0cxYucXOvm3e8wXrGOBIQTOrcDAYO8O8m3RZLFMYro4ys3RhHWEkp5hQWVCvTgsKSgqWVDWsOGwUdo6iQZ1gy628y8ZJ1M05hfIdONSmH+EBFS/mJEP6whxgd5v6SPjz/BXA7BPUbfupvX8DpQJrNb4AAAA=[0m[Pipeline] sh
++ pytest /root/.jenkins/workspace/test-nic/npxtester/Tests/testNics -s -m nicall --html=/root/testconfig/testlogs/HtmlReport/nic_case_report.html --self-contained-html
+============================= test session starts ==============================
+platform linux -- Python 3.6.8, pytest-6.2.4, py-1.11.0, pluggy-0.13.1
+rootdir: /root/.jenkins/workspace/test-nic/npxtester/Tests/testNics, configfile: pytest.ini
+plugins: metadata-1.11.0, html-3.1.1
+collected 12 items / 6 deselected / 6 selected
+
+../test-nic/npxtester/Tests/testNics/test_network_sriov_stress.py 2021-11-29 15:27:11 - NicTestFixture.py - [line:28] - root - INFO - Starting to run test_PI_Networking_SRIOV_StressTrafficBetweenPFVFAndTestClientFor2Hours_VM_Guest[ubuntu20.04_2.img-ubuntu20.04.img]
+2021-11-29 15:27:11 - NicTestFixture.py - [line:29] - root - INFO - setup log for testing in the fixture class fbefore
+2021-11-29 15:27:11 - test_network_sriov_stress.py - [line:30] - root - INFO - SSH SUT and setup configurations in the setup function.
+2021-11-29 15:27:11 - transport.py - [line:1819] - paramiko.transport - INFO - Connected (version 2.0, client OpenSSH_8.0)
+2021-11-29 15:27:11 - transport.py - [line:1819] - paramiko.transport - INFO - Authentication (publickey) failed.
+2021-11-29 15:27:11 - transport.py - [line:1819] - paramiko.transport - INFO - Authentication (password) successful!
+2021-11-29 15:27:11 - sshInstance.py - [line:28] - root - INFO - SSH on SUT: 10.112.97.157
+2021-11-29 15:27:14 - sshInstance.py - [line:44] - root - INFO - /opt/APP/utility/DPDK_install/dpdk-stable-20.11.1/usertools/dpdk-devbind.py -s | grep ens787f0 | awk '{print $1;}'
+2021-11-29 15:27:15 - sshInstance.py - [line:48] - root - INFO - 0000:31:00.0
+0000:31:01.2
+0000:31:01.3
+
+2021-11-29 15:27:20 - test_network_sriov_stress.py - [line:80] - root - INFO - pf_id was found: 0000:31:00.0
+0000:31:01.2
+0000:31:01.3
+
+2021-11-29 15:27:20 - test_network_sriov_stress.py - [line:466] - root - INFO - format_pf_id is 0000\:31\:00.0
+0000:31:01.2
+0000:31:01.3
+
+2021-11-29 15:27:20 - test_network_sriov_stress.py - [line:469] - root - INFO - pf_id_key: 31
+2021-11-29 15:27:25 - sshInstance.py - [line:89] - root - INFO - Activate the web console with: systemctl enable --now cockpit.socket
+This system is not registered to Red Hat Insights. See https://cloud.redhat.com/
+To register this system, run: insights-client --register
+Last login: Mon Nov 29 15:03:41 2021 from 10.254.212.37
+[root@WW30CYP10 ~]# ifconfig ens787f0 192.168.10.11
+[root@WW30CYP10 ~]# 
+2021-11-29 15:27:28 - test_network_sriov_stress.py - [line:268] - root - INFO - Successfully assigned ip to ethernet: ens787f0
+2021-11-29 15:27:31 - sshInstance.py - [line:44] - root - INFO - echo 4 > /sys/class/net/ens787f0/device/sriov_numvfs
+2021-11-29 15:27:31 - sshInstance.py - [line:48] - root - INFO - 
+2021-11-29 15:27:36 - test_network_sriov_stress.py - [line:95] - root - INFO - Successfully Virtualized PF to VFs.
+2021-11-29 15:27:39 - sshInstance.py - [line:44] - root - INFO -  lspci | grep "Virtual" | awk '{print $1;}'list
+2021-11-29 15:27:39 - sshInstance.py - [line:48] - root - INFO - 31:01.0
+31:01.1
+31:01.2
+31:01.3
+
+2021-11-29 15:27:44 - test_network_sriov_stress.py - [line:109] - root - INFO - Succssfully Gotten vf_id list:
+
+2021-11-29 15:27:47 - sshInstance.py - [line:44] - root - INFO -  modinfo vfio-pci | grep "vfio_pci" | awk '{ print $2;}'
+2021-11-29 15:27:47 - sshInstance.py - [line:48] - root - INFO - vfio_pci
+
+Aborted by [8mha:////4C8zTO/v0UlG+vQ5Fjm5jTf9kR93yL5yxTMP2X04T9v8AAAAlh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyWEgYu/dLi1CL9ovz8EgDKVWzSvwAAAA==[0mroot
+Sending interrupt signal to process
+/root/.jenkins/workspace/test-nic@2@tmp/durable-8784f8a3/script.sh: line 1: 1169284 Terminated              pytest /root/.jenkins/workspace/test-nic/npxtester/Tests/testNics -s -m nicall --html=/root/testconfig/testlogs/HtmlReport/nic_case_report.html --self-contained-html
+script returned exit code 143
+[8mha:////4KMKnj+jwomtBZRlOM1zDNsT7NVP2UylJUBAmwQdpqOFAAAAox+LCAAAAAAAAP9tjTESwiAURH/iWNhaeggyGUvHypah8QSYIEKY/wkQSeWJvJp3EM2MlVvs7NvmPV+wjgGOFDSzCgeDsTPMu0mXxTKF4eooM0sX1hFGcooJlQX16rSgoKRgSVXDisNGYecoGtQJttzKu2ycRN2cUyjfgUNt+hEeUPFiTjKkL8wBdrepj4Q/z18BzN4nqNv9p9o3geV5574AAAA=[0m[Pipeline] }
+[8mha:////4PHbOgS4fTQzlO31aLQygq6Gmyy7LbpReNAbbgHuNOsPAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOICEh2iSmu54QUmNsaJdWdsh6TiRXyNPxCIRMUWq51t5vmCZYpw5GixNdQ5So3D4Hs7LRw4dhfPA7Z8xoYpsTcozSBZm3pGydnAnKKEhYCVocZzcmQzrEWr7qryimx1ynH6DgJKp2/wgEJM5qxi/sIYYXPtdWL6ef4KYAwhQ7nbf2r7Bq/le42+AAAA[0m[Pipeline] // stage
+[8mha:////4I9CBL1TQQZuqbZ2jRHSmcHnuMbbRTwUd9k6KAOagwtcAAAAox+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIRElSIitZKwwtMYowT6y7YF5KKF/E1/kBEJCq22plmXm8sU8SRo1ONpdZTqrzqQu+mpwaO7TXwoBq+qIopcbCqtEPJtT3NWLJYzMtyLDRWlqrAyZMTrHVjHqYIhlxxlji5g0bu6zueyPRUFhPlC2PE5tbXienX+RvA2HWCfLsXZLsP9aSlGr0AAAA=[0m[Pipeline] }
+[8mha:////4AgCtwjc4t5tcZsCa10f3l1mNPWqCUOes7yjbzZP2H6lAAAApB+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIRQqJBVLRWGl5gEmOcWHfBvpBUvIiv8QciIlGx1c4083pjmSKOHJ1qLLWeUuVVF3o3PTVwbK+BB9XwRVVMiYNVpR1Kru1pxpLFYl6WY6GxslQFTp6cYK0b8zBFMOSKs8TJHTRyX9/xRKanspgoXxgjNre+Tky/zt8Axq4T5Nu9INt9AIZLYcO9AAAA[0m[Pipeline] // node
+[8mha:////4HNhgbRMdr5fLy6tNmZPXDu18JtR1J6yjnVzc/IrJ0XIAAAAox+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIRNBSIitZKwwtMYowT6y7YF5KKF/E1/kBEJCq22plmXm8sU8SRo1ONpdZTqrzqQu+mpwaO7TXwoBq+qIopcbCqtEPJtT3NWLJYzMtyLDRWlqrAyZMTrHVjHqYIhlxxlji5g0bu6zueyPRUFhPlC2PE5tbXienX+RvA2HWCfLsXZLsPoFIGib0AAAA=[0m[Pipeline] End of Pipeline
+Finished: ABORTED

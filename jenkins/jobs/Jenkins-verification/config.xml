@@ -1,0 +1,23 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<flow-definition plugin="workflow-job@2.41">
+  <actions/>
+  <description></description>
+  <keepDependencies>false</keepDependencies>
+  <properties/>
+  <definition class="org.jenkinsci.plugins.workflow.cps.CpsFlowDefinition" plugin="workflow-cps@2.94">
+    <script>node(&apos;jenkins-slave&apos;) {
+    stage(&apos;Deploy&apos;) {
+        sh &quot;sh /home/mlc/k8s_yamls/modify_yaml_mlc.sh&quot;
+        sh &apos;sed -i \&apos;24c \\        kubernetes.io/hostname: ying-k8s-jenkins\&apos; /home/mlc/k8s_yamls/k8s_test_mlc.yaml&apos;
+        sh &apos;sed -i \&apos;20c \\        command: [&quot;./MLC.sh&quot;,&quot;PEAK_BANDWIDTH&quot;]\&apos; /home/mlc/k8s_yamls/k8s_test_mlc.yaml&apos;
+        //sh &apos;sed -i \&apos;20c \\        command: [&quot;./MLC.sh&quot;,&quot;REMOTE_LATENCY&quot;]\&apos; /home/mlc/k8s_yamls/k8s_test_mlc.yaml&apos;
+        //sh &apos;sed -i \&apos;20c \\        command: [&quot;./MLC.sh&quot;,&quot;LOCAL_LATENCY&quot;]\&apos; /home/mlc/k8s_yamls/k8s_test_mlc.yaml&apos;
+        sh &quot;kubectl apply -f /home/mlc/k8s_yamls/k8s_test_mlc.yaml&quot;
+        sh &quot;sh /home/mlc/k8s_yamls/log_yaml_mlc.sh&quot;
+    }
+}</script>
+    <sandbox>true</sandbox>
+  </definition>
+  <triggers/>
+  <disabled>false</disabled>
+</flow-definition>

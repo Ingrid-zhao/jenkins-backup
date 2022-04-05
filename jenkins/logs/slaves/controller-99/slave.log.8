@@ -1,0 +1,135 @@
+SSHLauncher{host='10.239.182.99', port=22, credentialsId='4471732f-8529-4717-9752-74c48f3b25b2', jvmOptions='', javaPath='', prefixStartSlaveCmd='', suffixStartSlaveCmd='', launchTimeoutSeconds=60, maxNumRetries=10, retryWaitTime=15, sshHostKeyVerificationStrategy=hudson.plugins.sshslaves.verifiers.NonVerifyingKeyVerificationStrategy, tcpNoDelay=true, trackCredentials=true}
+[03/28/22 22:19:44] [SSH] Opening SSH connection to 10.239.182.99:22.
+[03/28/22 22:19:44] [SSH] WARNING: SSH Host Keys are not being verified. Man-in-the-middle attacks may be possible against this connection.
+[03/28/22 22:19:44] [SSH] Authentication successful.
+[03/28/22 22:19:44] [SSH] The remote user's environment is:
+BASH=/usr/bin/bash
+BASHOPTS=cmdhist:complete_fullquote:extquote:force_fignore:hostcomplete:interactive_comments:progcomp:promptvars:sourcepath
+BASHRCSOURCED=Y
+BASH_ALIASES=()
+BASH_ARGC=()
+BASH_ARGV=()
+BASH_CMDS=()
+BASH_EXECUTION_STRING=set
+BASH_LINENO=()
+BASH_SOURCE=()
+BASH_VERSINFO=([0]="4" [1]="4" [2]="19" [3]="1" [4]="release" [5]="x86_64-redhat-linux-gnu")
+BASH_VERSION='4.4.19(1)-release'
+DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/0/bus
+DIRSTACK=()
+EUID=0
+GROUPS=()
+HOME=/root
+HOSTNAME=npx-cyp8-logserver
+HOSTTYPE=x86_64
+IFS=$' \t\n'
+LANG=en_US.UTF-8
+LESSOPEN='||/usr/bin/lesspipe.sh %s'
+LOGNAME=root
+MACHTYPE=x86_64-redhat-linux-gnu
+OPTERR=1
+OPTIND=1
+OSTYPE=linux-gnu
+PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin
+PIPESTATUS=([0]="0")
+PPID=1647447
+PS4='+ '
+PWD=/root
+SHELL=/bin/bash
+SHELLOPTS=braceexpand:hashall:interactive-comments
+SHLVL=1
+SSH_CLIENT='10.239.182.115 20448 22'
+SSH_CONNECTION='10.239.182.115 20448 10.239.182.99 22'
+S_COLORS=auto
+TERM=dumb
+UID=0
+USER=root
+XDG_DATA_DIRS=/root/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share:/usr/share
+XDG_RUNTIME_DIR=/run/user/0
+XDG_SESSION_ID=213
+_=/etc/bashrc
+new_dirs=/root/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share
+command_not_found_handle () 
+{ 
+    local runcnf=1;
+    local retval=127;
+    [[ $- == *"i"* ]] || runcnf=0;
+    [[ ! -S /run/dbus/system_bus_socket ]] && runcnf=0;
+    [[ ! -x '/usr/libexec/packagekitd' ]] && runcnf=0;
+    [[ -n ${COMP_CWORD-} ]] && runcnf=0;
+    [[ ! -x '/usr/libexec/pk-command-not-found' ]] && runcnf=0;
+    if [ $runcnf -eq 1 ]; then
+        '/usr/libexec/pk-command-not-found' "$@";
+        retval=$?;
+    else
+        if [[ -n "${BASH_VERSION-}" ]]; then
+            printf 'bash: %scommand not found\n' "${1:+$1: }" 1>&2;
+        fi;
+    fi;
+    return $retval
+}
+gawklibpath_append () 
+{ 
+    [ -z "$AWKLIBPATH" ] && AWKLIBPATH=`gawk 'BEGIN {print ENVIRON["AWKLIBPATH"]}'`;
+    export AWKLIBPATH="$AWKLIBPATH:$*"
+}
+gawklibpath_default () 
+{ 
+    unset AWKLIBPATH;
+    export AWKLIBPATH=`gawk 'BEGIN {print ENVIRON["AWKLIBPATH"]}'`
+}
+gawklibpath_prepend () 
+{ 
+    [ -z "$AWKLIBPATH" ] && AWKLIBPATH=`gawk 'BEGIN {print ENVIRON["AWKLIBPATH"]}'`;
+    export AWKLIBPATH="$*:$AWKLIBPATH"
+}
+gawkpath_append () 
+{ 
+    [ -z "$AWKPATH" ] && AWKPATH=`gawk 'BEGIN {print ENVIRON["AWKPATH"]}'`;
+    export AWKPATH="$AWKPATH:$*"
+}
+gawkpath_default () 
+{ 
+    unset AWKPATH;
+    export AWKPATH=`gawk 'BEGIN {print ENVIRON["AWKPATH"]}'`
+}
+gawkpath_prepend () 
+{ 
+    [ -z "$AWKPATH" ] && AWKPATH=`gawk 'BEGIN {print ENVIRON["AWKPATH"]}'`;
+    export AWKPATH="$*:$AWKPATH"
+}
+Checking Java version in the PATH
+openjdk version "1.8.0_282"
+OpenJDK Runtime Environment (build 1.8.0_282-b08)
+OpenJDK 64-Bit Server VM (build 25.282-b08, mixed mode)
+[03/28/22 22:19:44] [SSH] Checking java version of /root/.jenkins/jdk/bin/java
+Couldn't figure out the Java version of /root/.jenkins/jdk/bin/java
+bash: /root/.jenkins/jdk/bin/java: No such file or directory
+
+[03/28/22 22:19:45] [SSH] Checking java version of java
+[03/28/22 22:19:45] [SSH] java -version returned 1.8.0_282.
+[03/28/22 22:19:45] [SSH] Starting sftp client.
+[03/28/22 22:19:45] [SSH] Copying latest remoting.jar...
+Source agent hash is 48F75BD1D39836C61FF29F35F6E5FC60. Installed agent hash is 48F75BD1D39836C61FF29F35F6E5FC60
+Verified agent jar. No update is necessary.
+Expanded the channel window size to 4MB
+[03/28/22 22:19:45] [SSH] Starting agent process: cd "/root/.jenkins" && java  -jar remoting.jar -workDir /root/.jenkins -jar-cache /root/.jenkins/remoting/jarCache
+Mar 29, 2022 6:34:11 AM org.jenkinsci.remoting.engine.WorkDirManager initializeWorkDir
+INFO: Using /root/.jenkins/remoting as a remoting work directory
+Mar 29, 2022 6:34:11 AM org.jenkinsci.remoting.engine.WorkDirManager setupLogging
+INFO: Both error and output logs will be printed to /root/.jenkins/remoting
+Exception in thread "main" java.nio.file.FileSystemException: /root/.jenkins/remoting/logs/remoting.log.0.lck: No space left on device
+	at sun.nio.fs.UnixException.translateToIOException(UnixException.java:91)
+	at sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:102)
+	at sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:107)
+	at sun.nio.fs.UnixFileSystemProvider.newFileChannel(UnixFileSystemProvider.java:177)
+	at java.nio.channels.FileChannel.open(FileChannel.java:287)
+	at java.nio.channels.FileChannel.open(FileChannel.java:335)
+	at java.util.logging.FileHandler.openFiles(FileHandler.java:478)
+	at java.util.logging.FileHandler.<init>(FileHandler.java:420)
+	at org.jenkinsci.remoting.engine.WorkDirManager.setupLogging(WorkDirManager.java:303)
+	at hudson.remoting.Launcher.run(Launcher.java:328)
+	at hudson.remoting.Launcher.main(Launcher.java:297)
+Agent JVM has terminated. Exit code=1
+[03/28/22 22:19:46] Launch failed - cleaning up connection
+[03/28/22 22:19:46] [SSH] Connection closed.

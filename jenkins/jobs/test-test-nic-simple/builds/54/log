@@ -1,0 +1,1973 @@
+Started by user [8mha:////4C8zTO/v0UlG+vQ5Fjm5jTf9kR93yL5yxTMP2X04T9v8AAAAlh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyWEgYu/dLi1CL9ovz8EgDKVWzSvwAAAA==[0mroot
+Running in Durability level: MAX_SURVIVABILITY
+[8mha:////4DOlrZhma2TKYqx8mtRBwGXVE8Xt4z3OJyo/zi+ICDdzAAAAoh+LCAAAAAAAAP9tjTEOwjAQBM8BClpKHuFItIiK1krDC0x8GCfWnbEdkooX8TX+gCESFVvtrLSa5wtWKcKBo5UdUu8otU4GP9jS5Mixv3geZcdn2TIl9igbHBs2eJyx4YwwR1SwULBGaj0nRzbDRnX6rmuvydanHMu2V1A5c4MHCFXMWcf8hSnC9jqYxPTz/BXAFEIGsfuclm8zQVqFvQAAAA==[0m[Pipeline] Start of Pipeline
+[8mha:////4B4K7nOhvaaLmbeE3w0NEhE1GAALwLDjakw9plXgkY6XAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycohUghExsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jduZBmjwAAAAA==[0m[Pipeline] node
+Running on [8mha:////4EheNQ7D4c27QswDGPiDpGtf9rfQF1HauEmyd+/REsZ/AAAAoh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyeEgZx/eT83ILSktQiICOvpCg/Jye1SDdLHwCRPP8lzAAAAA==[0mcontroller-j in /root/.jenkins/workspace/test-test-nic-simple
+[8mha:////4NUxBMzN6CtFAbQ4pdo7pH8ZuwVHigLf0SdP3FcjQTwyAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gA0xsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jfoP95RwAAAAA==[0m[Pipeline] {
+[8mha:////4OCB1+Up79PmV3LnMeomKr9r+JFCKkFjAfTpr2UorbLOAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gQkxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jc09154wAAAAA==[0m[Pipeline] stage
+[8mha:////4N6KQN35K8CT/Pcr9a+R4oOEu4uEh3phvpB1t67zd2hmAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0ggUxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jek7ggRwAAAAA==[0m[Pipeline] { (rm project dir)
+[8mha:////4EWjgIQS1R18e39T6LdOu3ZpSMSXMburmKwxJHd8e163AAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gwExsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jcChmMxwAAAAA==[0m[Pipeline] script
+[8mha:////4NOJ/YVWDlnnBpjDdLKlLZkF5LrR387vblsx7fWhZkPlAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0BAkxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jfpX/cvwAAAAA==[0m[Pipeline] {
+[8mha:////4MAm0moKTc8Eo2PcB0LgkHNHI7Xtf5Poej2Mf/l8xh/lAAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQTbaoyVLaHxBMgiwpL/WWDdrTyRV/MOEjexcpJJ5k3zXm9Y5wQnSpZ7g73DrB2PYbR18YlSfws0cU9XrgkzBcOlmSR15rygpGJgCWtgJWBjUAfKDm2BrfDqodqg0LaXkup3FNC4boAnMFHNRaXyhTnB7j52mfDn+SuAORZg+9pD/AAeoCAqvAAAAA==[0m[Pipeline] sh
++ ls /root/.jenkins/workspace/test-test-nic-simple/npxtester
+1.0.0.0001.version
+conf
+installation
+libs
+log_analyzer
+README.md
+testconf
+testLibs
+Tests
+[8mha:////4F3BY6hez6Yn9lSF4dYULOlz4RwK0Fdsp1OYWtj0vxDtAAAAox+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMKBDglR0VppeIFJjHFi3QX7QlLxIr7GH4iIRMVWO9PM641lijhydKqx1HpKlVdd6N301MCxvQYeVMMXVTElDlaVdii5tqcZSxaLeVmOhcbKUhU4eXKCtW7MwxTBkCvOEid30Mh9fccTmZ7KYqJ8YYzY3Po6Mf06fwMYO0G2F+S7bfcBITL9lL0AAAA=[0m[Pipeline] echo
+dir is exists and rm dir
+[8mha:////4KL1cTFlC/t8/0LRf71hJwxXIUFLIMviWtcIHXR2W8epAAAAox+LCAAAAAAAAP9tjbEOgjAURS8YB1dHP6KEzcQ4uTYsfkGFWgvNe9g+hMkv8tf8B4kkTt7pnrOc1xvrFHHk6FRrqfOUaq/6MLj5qZFjdw08qpYvqmZKHKyq7FhxY08LViwWy7IcK42NpTpw8uQEW92ahymCIVecJc7uoJH75o4nMj2XxUT5whSxuw1NYvp1/gYw9YJsL8jLsv8AYAPmjb0AAAA=[0m[Pipeline] sh
++ rm -rf /root/.jenkins/workspace/test-test-nic-simple/npxtester
+[8mha:////4GzJynz9IX3CLl34e/1JpYOeLz7FDsqMtIihCtFGqNpZAAAAox+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIRVEiIitZKwwtMYowT6y7YF5KKF/E1/kBEJCq22plmXm8sU8SRo1ONpdZTqrzqQu+mpwaO7TXwoBq+qIopcbCqtEPJtT3NWLJYzMtyLDRWlqrAyZMTrHVjHqYIhlxxlji5g0bu6zueyPRUFhPlC2PE5tbXienX+RvA2HWCfLsTZPsPzjQzob0AAAA=[0m[Pipeline] }
+[8mha:////4MvApYhNLg1xEFG2iXyHCog7Z9h4MbdAsNSDoK4wJnDgAAAApB+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIRoqBAVLRWGl5gEmOcWHfBvpBUvIiv8QciIlGx1c4083pjmSKOHJ1qLLWeUuVVF3o3PTVwbK+BB9XwRVVMiYNVpR1Kru1pxpLFYl6WY6GxslQFTp6cYK0b8zBFMOSKs8TJHTRyX9/xRKanspgoXxgjNre+Tky/zt8Axq4T5NudINt/AO8A7Ay9AAAA[0m[Pipeline] // script
+[8mha:////4P1g47DHQeYIMdAQPrqVFJW5XTEYSJkMqP0k+p1upCWxAAAApB+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIREqJBVLRWGl5gEmOcWHfBvpBUvIiv8QciIlGx1c4083pjmSKOHJ1qLLWeUuVVF3o3PTVwbK+BB9XwRVVMiYNVpR1Kru1pxpLFYl6WY6GxslQFTp6cYK0b8zBFMOSKs8TJHTRyX9/xRKanspgoXxgjNre+Tky/zt8Axq4T5NudINt/AGnsy8m9AAAA[0m[Pipeline] }
+[8mha:////4Lc6WrLYEiiAC7rTWY8q4RQPGu1FD+hrgClvEqpzcg2sAAAAox+LCAAAAAAAAP9tjTESgjAQRT84FraWHiKMBZVjZZuh8QQRYgxkdjFZhMoTeTXvICMzVv7qv9e81xvrFHHk6FRrqfOUaq/6MLj5qZFjdw08qpYvqmZKHKyq7FhxY08LViwWy7IcK42NpTpw8uQEW92ahymCIVecJc7uoJH75o4nMj2XxUT5whSxuw1NYvp1/gYw9b0g35eCrPwAY5Sibb0AAAA=[0m[Pipeline] // stage
+[8mha:////4LPzYIRsJlP9vBl87WR2FbvV5590n9jZkqHCRBijPEs5AAAApx+LCAAAAAAAAP9tjTEOwjAQBM9BKWgpeYQjJESDqGgtN7zAxMY4se6CfSGpeBFf4w8EIlGx1c5Kq3m+oMwJDpS8bBy2AXMdZBd7PzU5UGovkQbZ0FnWhJmik9oNmqw7zqiJHcwRBSwULB3WkXJAz7BSjbmbKhr01YnTtO0VFMHe4AFCTWY2ib8wJlhfe5sJf56/Ahg7BrFlKDa7z7F8A6sHc4fBAAAA[0m[Pipeline] stage
+[8mha:////4P0yjWfQiEwQxZO7i9obwDXrYwQclNR3i//1CTGbFwBFAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohULDAgpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD1+IXOLCAAAA[0m[Pipeline] { (clone)
+[8mha:////4I3tKNYAz7At397ZkNOs6SFwEn2bzn3ZBhsoegW1dhRwAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiKpAQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGPIUG53n9qHNxXfVKy+AAAA[0m[Pipeline] sh
++ git clone -b develop https://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@github.com/Jiz1028/applications.validation.network-platform.npxtester.git npxtester
+Cloning into 'npxtester'...
+[8mha:////4CRWXV91kUhqh2bTVXI+2n5U32cQ89nJ7yub5blKQ29bAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiKoQQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGMIGcrt/lO7N9Jjga++AAAA[0m[Pipeline] }
+[8mha:////4I4ZVrOFMvh2sVfxnfT9s6+paGHoH9OzkxEwdR4h+nRDAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOICFDQoFa3lhheYxBgn1l2wHZyKF/E1/oBFJCq2WO1sM683LIOHmr3BTlNvKTQWBzeavDCx76+OE3Z8wYYpsNModZLc6tOMkqOGOUUJCwErTY3jYMlEWItOPVTlFJnqHH3+jgJK297hCYXI5qh8/MLkYXMb28D08/wVwDQMEcr9Ntfu8AERGGHOvgAAAA==[0m[Pipeline] // stage
+[8mha:////4J4BpfnRrLE6odVrNZGgZ11wIRy0HYHBalvcHAcD12j/AAAAph+LCAAAAAAAAP9tjTEOwjAQBM9BKWgpeYQjEB2iorXc8AITG+PEugv2haTiRXyNPxCIRMVWOyut5vmCMic4UPKycdgGzHWQXez91ORAqb1EGmRDZ1kTZopOajdosu44oyZ2MEcUsFCwdFhHygE9w0o15m6qaNBXJ07TtldQBHuDBwg1mdkk/sKYYH3tbSb8ef4KYOwYxI6h2G4+x/INji2eq8EAAAA=[0m[Pipeline] stage
+[8mha:////4AgPhGmio4pMNzq5gItmuDxswb3P5dwyIofUIBdMXBTmAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+DOrAycohUdEVMrFEXThCaEJJG/7dJSjpxIq7GHWipxIQHy7ZkvdcbyhjgRMFwp7GzGFvLez+aOfFMobt5ytzRlbeEkbzmjc4NKX1ea0NJw6qCwUbAVmPrKVo0CXbCyYesvERTXVKYt6MAZtUATyjETE4ypG+ZAuzvo4qEP85fAEx9AlYfFquXZ/kBAsTc3cIAAAA=[0m[Pipeline] { (set args)
+[8mha:////4G9dxluK5ut2lxdfo2JVi6OIov1ZH/881VUFzuPzanonAAAAox+LCAAAAAAAAP9tjTESwiAURH/iWNhaeggyE0vHypah8QSYIEKY/wkQSeWJvJp3EM2MlVvs7NvmPV+wjgGOFDSzCgeDsTPMu0mXxTKF4eooM0sX1hFGcooJlQX16rSgoKRgSVXDisNGYecoGtQJttzKu2ycRN2cUyjfgUNt+hEeUPFiTjKkL8wBdrepj4Q/z18BzD5B3baf2vs3w5BRkb4AAAA=[0m[Pipeline] sh
++ python /root/.jenkins/workspace/test-test-nic-simple/npxtester/conf/change_args.py '{"dpdk_dir":"/opt/APP/utility/DPDK_install/dpdk-stable-20.11.1/","sut_conf":{"host":"10.112.97.62","connect_switch_sut_pf":"ens2f0","pf1":"ens2f0","pf1_ipv6":"fe80::b696:91ff:fe9c:f7a4","os":"rehat","PF1_NIC_type":"4*25"},"dhcp":{"ipv4":"192.168.10.11","ipv6":"fe80::b696:91ff:fea5:9b45"},"sut2_conf":{"host":"10.112.97.60","pf1":"ens2f1"},"drive_info":{"drive_tar_path":"/opt/APP/driver/tmp/ice-1.6.4.tar.gz","drive_name":"ice","drive_version":"1.6.4"}}'
+[8mha:////4FhUQONKPXFSeOjFO92QKbtxv93cUzSuhB7hx3xoWX6KAAAApB+LCAAAAAAAAP9tjbEOwiAURV9rHFwd/QiaNG7GyZWw+AXYIkLJexSodPKL/DX/QbSJk3e4uecu5/mCdQxwpKCZVTgYjJ1h3k26LJYpDFdHmVm6sI4wklNMqCyoV6cFBSUFS6oaVhw2CjtH0aBOsOVW3mXjJOrmnEL5Dhxq04/wgIoXc5IhfWEOsLtNfST8ef4KYPY+Qd3uP9W+Ad3NsHm+AAAA[0m[Pipeline] }
+[8mha:////4EpM1Tihe33kOTBucrClpdwMCq1FF6wGwTU/AEOZmYaNAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIikKgQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGMIGcrd/lPbN8JP5Su+AAAA[0m[Pipeline] // stage
+[8mha:////4JJk4NQMkVX21N+ktknOqKLQw+FD2VU/fvD8dhBPuambAAAApx+LCAAAAAAAAP9tjTEOwjAQBM9BKWgpeYQjIUSDqGgtN7zAxMY4se6CfSGpeBFf4w8EIlGx1c5Kq3m+oMwJDpS8bBy2AXMdZBd7PzU5UGovkQbZ0FnWhJmik9oNmqw7zqiJHcwRBSwULB3WkXJAz7BSjbmbKhr01YnTtO0VFMHe4AFCTWY2ib8wJlhfe5sJf56/Ahg7BrFlKDa7z7F8AzYdm7bBAAAA[0m[Pipeline] stage
+[8mha:////4GToWcz1lEtttcc1F67+obVKf97ChyGWoNBgdNb8ln6iAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUYoABMXWNsnCC0ISQNvq//KS0EyfiatyBlkpMeLBsS9Z7vaGIDCdiJxqLrcdYe9GF3k1JDMTtNdAgGrqImjBSsELZQZGx1VIVJQuLshxWEtYW60DRo0uwkY1+6DJodOU58bQdJeTe3OEJmZzISXP6lpFhe+tNJPxx/gJg7BLku/1sh/lZfAAyQCqkwgAAAA==[0m[Pipeline] { (run nic case)
+[8mha:////4M/BBJOrvLliK1a64sS7A0hf4H4seiclg8D1IX9OqKAVAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIi0YCEqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDhnK7+9Q+vAGvZp0gvgAAAA==[0m[Pipeline] sh
++ pytest /root/.jenkins/workspace/test-test-nic-simple/npxtester/Tests/testNics -s -m nicSimple --capture=tee-sys --html=/root/testconfig/testlogs/HtmlReport/nic_simple_report.html --self-contained-html
+============================= test session starts ==============================
+platform linux -- Python 3.6.8, pytest-6.2.4, py-1.11.0, pluggy-0.13.1
+rootdir: /root/.jenkins/workspace/test-test-nic-simple/npxtester/Tests/testNics, configfile: pytest.ini
+plugins: metadata-1.11.0, html-3.1.1
+collected 16 items / 8 deselected / 8 selected
+
+npxtester/Tests/testNics/test_mtu.py 2022-02-21 10:13:22 - NicTestFixture.py - [line:28] - root - INFO - ============================ Starting to run test_PI_Networking_Jumbo_Packet_CVL case ============================
+2022-02-21 10:13:22 - test_mtu.py - [line:18] - root - INFO - this is Test_mtu setup.
+2022-02-21 10:13:22 - transport.py - [line:1819] - paramiko.transport - INFO - Connected (version 2.0, client OpenSSH_8.0)
+2022-02-21 10:13:22 - transport.py - [line:1819] - paramiko.transport - INFO - Authentication (password) successful!
+2022-02-21 10:13:22 - sshInstance.py - [line:28] - root - INFO - SSH on SUT: 10.112.97.62
+2022-02-21 10:13:22 - transport.py - [line:1819] - paramiko.transport - INFO - Connected (version 2.0, client OpenSSH_8.0)
+2022-02-21 10:13:22 - transport.py - [line:1819] - paramiko.transport - INFO - Authentication (password) successful!
+2022-02-21 10:13:22 - sshInstance.py - [line:28] - root - INFO - SSH on SUT: 10.112.97.60
+2022-02-21 10:13:25 - sshInstance.py - [line:44] - root - INFO - rmmod ice
+2022-02-21 10:13:34 - sshInstance.py - [line:48] - root - INFO - 
+2022-02-21 10:13:42 - sshInstance.py - [line:44] - root - INFO - modprobe ice
+2022-02-21 10:13:42 - sshInstance.py - [line:48] - root - INFO - 
+2022-02-21 10:13:50 - sshInstance.py - [line:44] - root - INFO - ifconfig ens2f0 mtu 1500
+2022-02-21 10:13:50 - sshInstance.py - [line:48] - root - INFO - 
+F2022-02-21 10:13:58 - sshInstance.py - [line:44] - root - INFO - ifconfig ens2f0 mtu 1500
+2022-02-21 10:13:58 - sshInstance.py - [line:48] - root - INFO - 
+2022-02-21 10:14:06 - sshInstance.py - [line:44] - root - INFO - ifconfig ens2f1 mtu 1500
+2022-02-21 10:14:06 - sshInstance.py - [line:48] - root - INFO - 
+2022-02-21 10:14:14 - sshInstance.py - [line:44] - root - INFO - echo 0 > /sys/class/net/ens2f0/device/sriov_numvfs
+2022-02-21 10:14:14 - sshInstance.py - [line:48] - root - INFO - 
+2022-02-21 10:14:19 - test_mtu.py - [line:41] - root - INFO - this is Test_Nics teardown
+2022-02-21 10:14:19 - NicTestFixture.py - [line:32] - root - INFO - ============================ end of run test_PI_Networking_Jumbo_Packet_CVL case ============================
+2022-02-21 10:14:19 - NicTestFixture.py - [line:28] - root - INFO - ============================ Starting to run test_PI_Networking_MTU_set_CVL case ============================
+2022-02-21 10:14:19 - test_mtu.py - [line:18] - root - INFO - this is Test_mtu setup.
+2022-02-21 10:14:19 - transport.py - [line:1819] - paramiko.transport - INFO - Connected (version 2.0, client OpenSSH_8.0)
+2022-02-21 10:14:19 - transport.py - [line:1819] - paramiko.transport - INFO - Authentication (password) successful!
+2022-02-21 10:14:19 - sshInstance.py - [line:28] - root - INFO - SSH on SUT: 10.112.97.62
+2022-02-21 10:14:19 - transport.py - [line:1819] - paramiko.transport - INFO - Connected (version 2.0, client OpenSSH_8.0)
+2022-02-21 10:14:19 - transport.py - [line:1819] - paramiko.transport - INFO - Authentication (password) successful!
+2022-02-21 10:14:19 - sshInstance.py - [line:28] - root - INFO - SSH on SUT: 10.112.97.60
+2022-02-21 10:14:22 - sshInstance.py - [line:44] - root - INFO - rmmod ice
+2022-02-21 10:14:22 - sshInstance.py - [line:48] - root - INFO - 
+2022-02-21 10:14:30 - sshInstance.py - [line:44] - root - INFO - modprobe ice
+2022-02-21 10:14:30 - sshInstance.py - [line:48] - root - INFO - 
+2022-02-21 10:14:38 - sshInstance.py - [line:44] - root - INFO - ifconfig ens2f0 mtu 1500
+2022-02-21 10:14:38 - sshInstance.py - [line:48] - root - INFO - 
+F2022-02-21 10:14:46 - sshInstance.py - [line:44] - root - INFO - ifconfig ens2f0 mtu 1500
+2022-02-21 10:14:46 - sshInstance.py - [line:48] - root - INFO - 
+2022-02-21 10:14:54 - sshInstance.py - [line:44] - root - INFO - ifconfig ens2f1 mtu 1500
+2022-02-21 10:14:54 - sshInstance.py - [line:48] - root - INFO - 
+2022-02-21 10:15:02 - sshInstance.py - [line:44] - root - INFO - echo 0 > /sys/class/net/ens2f0/device/sriov_numvfs
+2022-02-21 10:15:02 - sshInstance.py - [line:48] - root - INFO - 
+2022-02-21 10:15:07 - test_mtu.py - [line:41] - root - INFO - this is Test_Nics teardown
+2022-02-21 10:15:07 - NicTestFixture.py - [line:32] - root - INFO - ============================ end of run test_PI_Networking_MTU_set_CVL case ============================
+                                  [ 25%]
+npxtester/Tests/testNics/test_nics.py 2022-02-21 10:15:07 - NicTestFixture.py - [line:28] - root - INFO - ============================ Starting to run test_silver_Networking_ConnectivityEnableDisable case ============================
+2022-02-21 10:15:07 - test_nics.py - [line:18] - root - INFO - this is Test_Nics setup.
+2022-02-21 10:15:07 - transport.py - [line:1819] - paramiko.transport - INFO - Connected (version 2.0, client OpenSSH_8.0)
+2022-02-21 10:15:07 - transport.py - [line:1819] - paramiko.transport - INFO - Authentication (password) successful!
+2022-02-21 10:15:07 - sshInstance.py - [line:28] - root - INFO - SSH on SUT: 10.112.97.62
+2022-02-21 10:15:07 - transport.py - [line:1819] - paramiko.transport - INFO - Connected (version 2.0, client OpenSSH_8.0)
+2022-02-21 10:15:07 - transport.py - [line:1819] - paramiko.transport - INFO - Authentication (password) successful!
+2022-02-21 10:15:08 - sshInstance.py - [line:28] - root - INFO - SSH on SUT: 10.112.97.60
+2022-02-21 10:15:11 - sshInstance.py - [line:44] - root - INFO - rmmod ice
+2022-02-21 10:15:11 - sshInstance.py - [line:48] - root - INFO - 
+2022-02-21 10:15:19 - sshInstance.py - [line:44] - root - INFO - modprobe ice
+2022-02-21 10:15:24 - sshInstance.py - [line:48] - root - INFO - 
+2022-02-21 10:15:35 - sshInstance.py - [line:92] - root - INFO - Activate the web console with: systemctl enable --now cockpit.socket
+This system is not registered to Red Hat Insights. See https://cloud.redhat.com/
+To register this system, run: insights-client --register
+Last login: Mon Feb 21 10:23:52 2022 from 10.112.97.60
+[root@WW25ICX2 ~]# ifconfig ens2f0 192.168.10.12
+[root@WW25ICX2 ~]# 
+2022-02-21 10:15:42 - sshInstance.py - [line:69] - root - INFO - ping -c 5 192.168.10.11
+PING 192.168.10.11 (192.168.10.11) 56(84) bytes of data.
+64 bytes from 192.168.10.11: icmp_seq=1 ttl=64 time=0.365 ms
+2022-02-21 10:15:43 - sshInstance.py - [line:69] - root - INFO - 64 bytes from 192.168.10.11: icmp_seq=2 ttl=64 time=0.180 ms
+2022-02-21 10:15:44 - sshInstance.py - [line:69] - root - INFO - 64 bytes from 192.168.10.11: icmp_seq=3 ttl=64 time=0.186 ms
+2022-02-21 10:15:45 - sshInstance.py - [line:69] - root - INFO - 64 bytes from 192.168.10.11: icmp_seq=4 ttl=64 time=0.238 ms
+2022-02-21 10:15:46 - sshInstance.py - [line:69] - root - INFO - 64 bytes from 192.168.10.11: icmp_seq=5 ttl=64 time=0.225 ms
+
+--- 192.168.10.11 ping statistics ---
+5 packets transmitted, 5 received, 0% packet loss, time 4102ms
+rtt min/avg/max/mdev = 0.180/0.238/0.365/0.069 ms
+[root@WW25ICX2 ~]# 
+2022-02-21 10:15:55 - sshInstance.py - [line:92] - root - INFO - ifconfig ens2f0 down
+[root@WW25ICX2 ~]# 
+2022-02-21 10:16:04 - sshInstance.py - [line:92] - root - INFO - ifconfig ens2f0 up
+[root@WW25ICX2 ~]# 
+2022-02-21 10:16:11 - sshInstance.py - [line:69] - root - INFO - ping -c 5 192.168.10.11
+PING 192.168.10.11 (192.168.10.11) 56(84) bytes of data.
+64 bytes from 192.168.10.11: icmp_seq=1 ttl=64 time=0.437 ms
+2022-02-21 10:16:12 - sshInstance.py - [line:69] - root - INFO - 64 bytes from 192.168.10.11: icmp_seq=2 ttl=64 time=0.162 ms
+2022-02-21 10:16:13 - sshInstance.py - [line:69] - root - INFO - 64 bytes from 192.168.10.11: icmp_seq=3 ttl=64 time=0.175 ms
+2022-02-21 10:16:14 - sshInstance.py - [line:69] - root - INFO - 64 bytes from 192.168.10.11: icmp_seq=4 ttl=64 time=0.174 ms
+2022-02-21 10:16:15 - sshInstance.py - [line:69] - root - INFO - 64 bytes from 192.168.10.11: icmp_seq=5 ttl=64 time=0.172 ms
+
+--- 192.168.10.11 ping statistics ---
+5 packets transmitted, 5 received, 0% packet loss, time 4125ms
+rtt min/avg/max/mdev = 0.162/0.224/0.437/0.106 ms
+[root@WW25ICX2 ~]# 
+2022-02-21 10:16:24 - sshInstance.py - [line:92] - root - INFO - ifconfig ens2f0 down
+[root@WW25ICX2 ~]# 
+2022-02-21 10:16:33 - sshInstance.py - [line:92] - root - INFO - ifconfig ens2f0 up
+[root@WW25ICX2 ~]# 
+2022-02-21 10:16:40 - sshInstance.py - [line:69] - root - INFO - ping -c 5 192.168.10.11
+PING 192.168.10.11 (192.168.10.11) 56(84) bytes of data.
+64 bytes from 192.168.10.11: icmp_seq=1 ttl=64 time=0.377 ms
+2022-02-21 10:16:41 - sshInstance.py - [line:69] - root - INFO - 64 bytes from 192.168.10.11: icmp_seq=2 ttl=64 time=0.147 ms
+2022-02-21 10:16:42 - sshInstance.py - [line:69] - root - INFO - 64 bytes from 192.168.10.11: icmp_seq=3 ttl=64 time=0.210 ms
+2022-02-21 10:16:43 - sshInstance.py - [line:69] - root - INFO - 64 bytes from 192.168.10.11: icmp_seq=4 ttl=64 time=0.246 ms
+2022-02-21 10:16:44 - sshInstance.py - [line:69] - root - INFO - 64 bytes from 192.168.10.11: icmp_seq=5 ttl=64 time=0.242 ms
+
+--- 192.168.10.11 ping statistics ---
+5 packets transmitted, 5 received, 0% packet loss, time 4083ms
+rtt min/avg/max/mdev = 0.147/0.244/0.377/0.076 ms
+[root@WW25ICX2 ~]# 
+2022-02-21 10:16:53 - sshInstance.py - [line:92] - root - INFO - ifconfig ens2f0 down
+[root@WW25ICX2 ~]# 
+2022-02-21 10:17:02 - sshInstance.py - [line:92] - root - INFO - ifconfig ens2f0 up
+[root@WW25ICX2 ~]# 
+2022-02-21 10:17:09 - sshInstance.py - [line:69] - root - INFO - ping -c 5 192.168.10.11
+PING 192.168.10.11 (192.168.10.11) 56(84) bytes of data.
+64 bytes from 192.168.10.11: icmp_seq=1 ttl=64 time=0.388 ms
+2022-02-21 10:17:10 - sshInstance.py - [line:69] - root - INFO - 64 bytes from 192.168.10.11: icmp_seq=2 ttl=64 time=0.266 ms
+2022-02-21 10:17:11 - sshInstance.py - [line:69] - root - INFO - 64 bytes from 192.168.10.11: icmp_seq=3 ttl=64 time=0.150 ms
+2022-02-21 10:17:12 - sshInstance.py - [line:69] - root - INFO - 64 bytes from 192.168.10.11: icmp_seq=4 ttl=64 time=0.138 ms
+2022-02-21 10:17:13 - sshInstance.py - [line:69] - root - INFO - 64 bytes from 192.168.10.11: icmp_seq=5 ttl=64 time=0.138 ms
+
+--- 192.168.10.11 ping statistics ---
+5 packets transmitted, 5 received, 0% packet loss, time 4105ms
+rtt min/avg/max/mdev = 0.138/0.216/0.388/0.098 ms
+[root@WW25ICX2 ~]# 
+2022-02-21 10:17:22 - sshInstance.py - [line:92] - root - INFO - ifconfig ens2f0 down
+[root@WW25ICX2 ~]# 
+2022-02-21 10:17:31 - sshInstance.py - [line:92] - root - INFO - ifconfig ens2f0 up
+[root@WW25ICX2 ~]# 
+2022-02-21 10:17:38 - sshInstance.py - [line:69] - root - INFO - ping -c 5 192.168.10.11
+PING 192.168.10.11 (192.168.10.11) 56(84) bytes of data.
+64 bytes from 192.168.10.11: icmp_seq=1 ttl=64 time=0.425 ms
+2022-02-21 10:17:39 - sshInstance.py - [line:69] - root - INFO - 64 bytes from 192.168.10.11: icmp_seq=2 ttl=64 time=0.268 ms
+2022-02-21 10:17:40 - sshInstance.py - [line:69] - root - INFO - 64 bytes from 192.168.10.11: icmp_seq=3 ttl=64 time=0.172 ms
+2022-02-21 10:17:41 - sshInstance.py - [line:69] - root - INFO - 64 bytes from 192.168.10.11: icmp_seq=4 ttl=64 time=0.067 ms
+2022-02-21 10:17:42 - sshInstance.py - [line:69] - root - INFO - 64 bytes from 192.168.10.11: icmp_seq=5 ttl=64 time=0.170 ms
+
+--- 192.168.10.11 ping statistics ---
+5 packets transmitted, 5 received, 0% packet loss, time 4128ms
+rtt min/avg/max/mdev = 0.067/0.220/0.425/0.121 ms
+[root@WW25ICX2 ~]# 
+2022-02-21 10:17:51 - sshInstance.py - [line:92] - root - INFO - ifconfig ens2f0 down
+[root@WW25ICX2 ~]# 
+2022-02-21 10:18:00 - sshInstance.py - [line:92] - root - INFO - ifconfig ens2f0 up
+[root@WW25ICX2 ~]# 
+2022-02-21 10:18:07 - sshInstance.py - [line:69] - root - INFO - ping -c 5 192.168.10.11
+PING 192.168.10.11 (192.168.10.11) 56(84) bytes of data.
+64 bytes from 192.168.10.11: icmp_seq=1 ttl=64 time=0.246 ms
+2022-02-21 10:18:08 - sshInstance.py - [line:69] - root - INFO - 64 bytes from 192.168.10.11: icmp_seq=2 ttl=64 time=0.242 ms
+2022-02-21 10:18:09 - sshInstance.py - [line:69] - root - INFO - 64 bytes from 192.168.10.11: icmp_seq=3 ttl=64 time=0.148 ms
+2022-02-21 10:18:10 - sshInstance.py - [line:69] - root - INFO - 64 bytes from 192.168.10.11: icmp_seq=4 ttl=64 time=0.182 ms
+2022-02-21 10:18:11 - sshInstance.py - [line:69] - root - INFO - 64 bytes from 192.168.10.11: icmp_seq=5 ttl=64 time=0.170 ms
+
+--- 192.168.10.11 ping statistics ---
+5 packets transmitted, 5 received, 0% packet loss, time 4087ms
+rtt min/avg/max/mdev = 0.148/0.197/0.246/0.042 ms
+[root@WW25ICX2 ~]# 
+.2022-02-21 10:18:17 - sshInstance.py - [line:44] - root - INFO - echo 0 > /sys/class/net/ens2f0/device/sriov_numvfs
+2022-02-21 10:18:17 - sshInstance.py - [line:48] - root - INFO - 
+2022-02-21 10:18:25 - sshInstance.py - [line:44] - root - INFO - ifconfig ens2f0 0
+2022-02-21 10:18:25 - sshInstance.py - [line:48] - root - INFO - 
+2022-02-21 10:18:30 - test_nics.py - [line:54] - root - INFO - this is Test_Nics teardown
+2022-02-21 10:18:30 - NicTestFixture.py - [line:32] - root - INFO - ============================ end of run test_silver_Networking_ConnectivityEnableDisable case ============================
+2022-02-21 10:18:30 - NicTestFixture.py - [line:28] - root - INFO - ============================ Starting to run test_silver_ConnectivityReboot case ============================
+2022-02-21 10:18:30 - test_nics.py - [line:18] - root - INFO - this is Test_Nics setup.
+2022-02-21 10:18:30 - transport.py - [line:1819] - paramiko.transport - INFO - Connected (version 2.0, client OpenSSH_8.0)
+2022-02-21 10:18:30 - transport.py - [line:1819] - paramiko.transport - INFO - Authentication (password) successful!
+2022-02-21 10:18:30 - sshInstance.py - [line:28] - root - INFO - SSH on SUT: 10.112.97.62
+2022-02-21 10:18:30 - transport.py - [line:1819] - paramiko.transport - INFO - Connected (version 2.0, client OpenSSH_8.0)
+2022-02-21 10:18:30 - transport.py - [line:1819] - paramiko.transport - INFO - Authentication (password) successful!
+2022-02-21 10:18:30 - sshInstance.py - [line:28] - root - INFO - SSH on SUT: 10.112.97.60
+2022-02-21 10:18:33 - sshInstance.py - [line:44] - root - INFO - rmmod ice
+2022-02-21 10:18:41 - sshInstance.py - [line:48] - root - INFO - 
+2022-02-21 10:18:49 - sshInstance.py - [line:44] - root - INFO - modprobe ice
+2022-02-21 10:18:54 - sshInstance.py - [line:48] - root - INFO - 
+2022-02-21 10:18:59 - transport.py - [line:1819] - paramiko.transport - INFO - Connected (version 2.0, client OpenSSH_8.0)
+2022-02-21 10:18:59 - transport.py - [line:1819] - paramiko.transport - INFO - Authentication (password) successful!
+2022-02-21 10:19:00 - sshInstance.py - [line:28] - root - INFO - SSH on SUT: 10.112.97.62
+2022-02-21 10:19:06 - sshInstance.py - [line:92] - root - INFO - Activate the web console with: systemctl enable --now cockpit.socket
+This system is not registered to Red Hat Insights. See https://cloud.redhat.com/
+To register this system, run: insights-client --register
+Last login: Mon Feb 21 10:28:03 2022 from 10.112.97.60
+[root@WW25ICX2 ~]# ifconfig ens2f0 192.168.10.12
+[root@WW25ICX2 ~]# 
+2022-02-21 10:19:13 - sshInstance.py - [line:69] - root - INFO - ping -c 5 192.168.10.11
+PING 192.168.10.11 (192.168.10.11) 56(84) bytes of data.
+64 bytes from 192.168.10.11: icmp_seq=1 ttl=64 time=0.416 ms
+2022-02-21 10:19:14 - sshInstance.py - [line:69] - root - INFO - 64 bytes from 192.168.10.11: icmp_seq=2 ttl=64 time=0.256 ms
+2022-02-21 10:19:15 - sshInstance.py - [line:69] - root - INFO - 64 bytes from 192.168.10.11: icmp_seq=3 ttl=64 time=0.180 ms
+2022-02-21 10:19:16 - sshInstance.py - [line:69] - root - INFO - 64 bytes from 192.168.10.11: icmp_seq=4 ttl=64 time=0.244 ms
+2022-02-21 10:19:17 - sshInstance.py - [line:69] - root - INFO - 64 bytes from 192.168.10.11: icmp_seq=5 ttl=64 time=0.179 ms
+
+--- 192.168.10.11 ping statistics ---
+5 packets transmitted, 5 received, 0% packet loss, time 4120ms
+rtt min/avg/max/mdev = 0.179/0.255/0.416/0.086 ms
+[root@WW25ICX2 ~]# 
+2022-02-21 10:19:24 - sshInstance.py - [line:69] - root - INFO - ping6 -c 5 -I ens2f0 fe80::b696:91ff:fea5:9b45
+ping6: Warning: source address might be selected on device other than ens2f0.
+PING fe80::b696:91ff:fea5:9b45(fe80::b696:91ff:fea5:9b45) from :: ens2f0: 56 data bytes
+64 bytes from fe80::b696:91ff:fea5:9b45%ens2f0: icmp_seq=1 ttl=64 time=0.265 ms
+2022-02-21 10:19:25 - sshInstance.py - [line:69] - root - INFO - 64 bytes from fe80::b696:91ff:fea5:9b45%ens2f0: icmp_seq=2 ttl=64 time=0.239 ms
+2022-02-21 10:19:26 - sshInstance.py - [line:69] - root - INFO - 64 bytes from fe80::b696:91ff:fea5:9b45%ens2f0: icmp_seq=3 ttl=64 time=0.218 ms
+2022-02-21 10:19:27 - sshInstance.py - [line:69] - root - INFO - 64 bytes from fe80::b696:91ff:fea5:9b45%ens2f0: icmp_seq=4 ttl=64 time=0.167 ms
+2022-02-21 10:19:28 - sshInstance.py - [line:69] - root - INFO - 64 bytes from fe80::b696:91ff:fea5:9b45%ens2f0: icmp_seq=5 ttl=64 time=0.169 ms
+
+--- fe80::b696:91ff:fea5:9b45 ping statistics ---
+5 packets transmitted, 5 received, 0% packet loss, time 4113ms
+rtt min/avg/max/mdev = 0.167/0.211/0.265/0.041 ms
+[root@WW25ICX2 ~]# 
+2022-02-21 10:19:37 - sshInstance.py - [line:92] - root - INFO - reboot
+
+2022-02-21 10:19:40 - sshInstance.py - [line:138] - root - INFO - sut server reboot, please wait ......
+2022-02-21 10:20:40 - commonFunc.py - [line:16] - root - INFO - starting to execute the cmd: ping -w 5 10.112.97.62....
+2022-02-21 10:20:45 - commonFunc.py - [line:30] - root - INFO - PING 10.112.97.62 (10.112.97.62) 56(84) bytes of data.
+2022-02-21 10:20:45 - commonFunc.py - [line:30] - root - INFO - 
+2022-02-21 10:20:45 - commonFunc.py - [line:30] - root - INFO - --- 10.112.97.62 ping statistics ---
+2022-02-21 10:20:45 - commonFunc.py - [line:30] - root - INFO - 5 packets transmitted, 0 received, 100% packet loss, time 118ms
+2022-02-21 10:20:45 - commonFunc.py - [line:30] - root - INFO - 
+2022-02-21 10:20:45 - commonFunc.py - [line:30] - root - INFO - 
+2022-02-21 10:20:45 - commonFunc.py - [line:31] - root - INFO - finished exeucting the cmd: ping -w 5 10.112.97.62
+2022-02-21 10:20:50 - commonFunc.py - [line:16] - root - INFO - starting to execute the cmd: ping -w 5 10.112.97.62....
+2022-02-21 10:20:53 - commonFunc.py - [line:30] - root - INFO - PING 10.112.97.62 (10.112.97.62) 56(84) bytes of data.
+2022-02-21 10:20:53 - commonFunc.py - [line:30] - root - INFO - From 10.112.97.60 icmp_seq=1 Destination Host Unreachable
+2022-02-21 10:20:53 - commonFunc.py - [line:30] - root - INFO - From 10.112.97.60 icmp_seq=2 Destination Host Unreachable
+2022-02-21 10:20:53 - commonFunc.py - [line:30] - root - INFO - From 10.112.97.60 icmp_seq=3 Destination Host Unreachable
+2022-02-21 10:20:53 - commonFunc.py - [line:30] - root - INFO - 
+2022-02-21 10:20:53 - commonFunc.py - [line:30] - root - INFO - --- 10.112.97.62 ping statistics ---
+2022-02-21 10:20:53 - commonFunc.py - [line:30] - root - INFO - 3 packets transmitted, 0 received, +3 errors, 100% packet loss, time 43ms
+2022-02-21 10:20:53 - commonFunc.py - [line:30] - root - INFO - pipe 3
+2022-02-21 10:20:53 - commonFunc.py - [line:30] - root - INFO - 
+2022-02-21 10:20:53 - commonFunc.py - [line:31] - root - INFO - finished exeucting the cmd: ping -w 5 10.112.97.62
+2022-02-21 10:20:58 - commonFunc.py - [line:16] - root - INFO - starting to execute the cmd: ping -w 5 10.112.97.62....
+2022-02-21 10:21:01 - commonFunc.py - [line:30] - root - INFO - PING 10.112.97.62 (10.112.97.62) 56(84) bytes of data.
+2022-02-21 10:21:01 - commonFunc.py - [line:30] - root - INFO - From 10.112.97.60 icmp_seq=1 Destination Host Unreachable
+2022-02-21 10:21:01 - commonFunc.py - [line:30] - root - INFO - From 10.112.97.60 icmp_seq=2 Destination Host Unreachable
+2022-02-21 10:21:01 - commonFunc.py - [line:30] - root - INFO - From 10.112.97.60 icmp_seq=3 Destination Host Unreachable
+2022-02-21 10:21:01 - commonFunc.py - [line:30] - root - INFO - 
+2022-02-21 10:21:01 - commonFunc.py - [line:30] - root - INFO - --- 10.112.97.62 ping statistics ---
+2022-02-21 10:21:01 - commonFunc.py - [line:30] - root - INFO - 3 packets transmitted, 0 received, +3 errors, 100% packet loss, time 33ms
+2022-02-21 10:21:01 - commonFunc.py - [line:30] - root - INFO - pipe 3
+2022-02-21 10:21:01 - commonFunc.py - [line:30] - root - INFO - 
+2022-02-21 10:21:01 - commonFunc.py - [line:31] - root - INFO - finished exeucting the cmd: ping -w 5 10.112.97.62
+2022-02-21 10:21:06 - commonFunc.py - [line:16] - root - INFO - starting to execute the cmd: ping -w 5 10.112.97.62....
+2022-02-21 10:21:09 - commonFunc.py - [line:30] - root - INFO - PING 10.112.97.62 (10.112.97.62) 56(84) bytes of data.
+2022-02-21 10:21:09 - commonFunc.py - [line:30] - root - INFO - From 10.112.97.60 icmp_seq=1 Destination Host Unreachable
+2022-02-21 10:21:09 - commonFunc.py - [line:30] - root - INFO - From 10.112.97.60 icmp_seq=2 Destination Host Unreachable
+2022-02-21 10:21:09 - commonFunc.py - [line:30] - root - INFO - From 10.112.97.60 icmp_seq=3 Destination Host Unreachable
+2022-02-21 10:21:09 - commonFunc.py - [line:30] - root - INFO - 
+2022-02-21 10:21:09 - commonFunc.py - [line:30] - root - INFO - --- 10.112.97.62 ping statistics ---
+2022-02-21 10:21:09 - commonFunc.py - [line:30] - root - INFO - 3 packets transmitted, 0 received, +3 errors, 100% packet loss, time 32ms
+2022-02-21 10:21:09 - commonFunc.py - [line:30] - root - INFO - pipe 3
+2022-02-21 10:21:09 - commonFunc.py - [line:30] - root - INFO - 
+2022-02-21 10:21:09 - commonFunc.py - [line:31] - root - INFO - finished exeucting the cmd: ping -w 5 10.112.97.62
+2022-02-21 10:21:14 - commonFunc.py - [line:16] - root - INFO - starting to execute the cmd: ping -w 5 10.112.97.62....
+2022-02-21 10:21:17 - commonFunc.py - [line:30] - root - INFO - PING 10.112.97.62 (10.112.97.62) 56(84) bytes of data.
+2022-02-21 10:21:17 - commonFunc.py - [line:30] - root - INFO - From 10.112.97.60 icmp_seq=1 Destination Host Unreachable
+2022-02-21 10:21:17 - commonFunc.py - [line:30] - root - INFO - From 10.112.97.60 icmp_seq=2 Destination Host Unreachable
+2022-02-21 10:21:17 - commonFunc.py - [line:30] - root - INFO - From 10.112.97.60 icmp_seq=3 Destination Host Unreachable
+2022-02-21 10:21:17 - commonFunc.py - [line:30] - root - INFO - 
+2022-02-21 10:21:17 - commonFunc.py - [line:30] - root - INFO - --- 10.112.97.62 ping statistics ---
+2022-02-21 10:21:17 - commonFunc.py - [line:30] - root - INFO - 3 packets transmitted, 0 received, +3 errors, 100% packet loss, time 33ms
+2022-02-21 10:21:17 - commonFunc.py - [line:30] - root - INFO - pipe 3
+2022-02-21 10:21:17 - commonFunc.py - [line:30] - root - INFO - 
+2022-02-21 10:21:17 - commonFunc.py - [line:31] - root - INFO - finished exeucting the cmd: ping -w 5 10.112.97.62
+2022-02-21 10:21:22 - commonFunc.py - [line:16] - root - INFO - starting to execute the cmd: ping -w 5 10.112.97.62....
+2022-02-21 10:21:25 - commonFunc.py - [line:30] - root - INFO - PING 10.112.97.62 (10.112.97.62) 56(84) bytes of data.
+2022-02-21 10:21:25 - commonFunc.py - [line:30] - root - INFO - From 10.112.97.60 icmp_seq=1 Destination Host Unreachable
+2022-02-21 10:21:25 - commonFunc.py - [line:30] - root - INFO - From 10.112.97.60 icmp_seq=2 Destination Host Unreachable
+2022-02-21 10:21:25 - commonFunc.py - [line:30] - root - INFO - From 10.112.97.60 icmp_seq=3 Destination Host Unreachable
+2022-02-21 10:21:25 - commonFunc.py - [line:30] - root - INFO - 
+2022-02-21 10:21:25 - commonFunc.py - [line:30] - root - INFO - --- 10.112.97.62 ping statistics ---
+2022-02-21 10:21:25 - commonFunc.py - [line:30] - root - INFO - 3 packets transmitted, 0 received, +3 errors, 100% packet loss, time 32ms
+2022-02-21 10:21:25 - commonFunc.py - [line:30] - root - INFO - pipe 3
+2022-02-21 10:21:25 - commonFunc.py - [line:30] - root - INFO - 
+2022-02-21 10:21:25 - commonFunc.py - [line:31] - root - INFO - finished exeucting the cmd: ping -w 5 10.112.97.62
+2022-02-21 10:21:30 - commonFunc.py - [line:16] - root - INFO - starting to execute the cmd: ping -w 5 10.112.97.62....
+2022-02-21 10:21:33 - commonFunc.py - [line:30] - root - INFO - PING 10.112.97.62 (10.112.97.62) 56(84) bytes of data.
+2022-02-21 10:21:33 - commonFunc.py - [line:30] - root - INFO - From 10.112.97.60 icmp_seq=1 Destination Host Unreachable
+2022-02-21 10:21:33 - commonFunc.py - [line:30] - root - INFO - From 10.112.97.60 icmp_seq=2 Destination Host Unreachable
+2022-02-21 10:21:33 - commonFunc.py - [line:30] - root - INFO - From 10.112.97.60 icmp_seq=3 Destination Host Unreachable
+2022-02-21 10:21:33 - commonFunc.py - [line:30] - root - INFO - 
+2022-02-21 10:21:33 - commonFunc.py - [line:30] - root - INFO - --- 10.112.97.62 ping statistics ---
+2022-02-21 10:21:33 - commonFunc.py - [line:30] - root - INFO - 3 packets transmitted, 0 received, +3 errors, 100% packet loss, time 32ms
+2022-02-21 10:21:33 - commonFunc.py - [line:30] - root - INFO - pipe 3
+2022-02-21 10:21:33 - commonFunc.py - [line:30] - root - INFO - 
+2022-02-21 10:21:33 - commonFunc.py - [line:31] - root - INFO - finished exeucting the cmd: ping -w 5 10.112.97.62
+2022-02-21 10:21:38 - commonFunc.py - [line:16] - root - INFO - starting to execute the cmd: ping -w 5 10.112.97.62....
+2022-02-21 10:21:41 - commonFunc.py - [line:30] - root - INFO - PING 10.112.97.62 (10.112.97.62) 56(84) bytes of data.
+2022-02-21 10:21:41 - commonFunc.py - [line:30] - root - INFO - From 10.112.97.60 icmp_seq=1 Destination Host Unreachable
+2022-02-21 10:21:41 - commonFunc.py - [line:30] - root - INFO - From 10.112.97.60 icmp_seq=2 Destination Host Unreachable
+2022-02-21 10:21:41 - commonFunc.py - [line:30] - root - INFO - From 10.112.97.60 icmp_seq=3 Destination Host Unreachable
+2022-02-21 10:21:41 - commonFunc.py - [line:30] - root - INFO - 
+2022-02-21 10:21:41 - commonFunc.py - [line:30] - root - INFO - --- 10.112.97.62 ping statistics ---
+2022-02-21 10:21:41 - commonFunc.py - [line:30] - root - INFO - 3 packets transmitted, 0 received, +3 errors, 100% packet loss, time 33ms
+2022-02-21 10:21:41 - commonFunc.py - [line:30] - root - INFO - pipe 3
+2022-02-21 10:21:41 - commonFunc.py - [line:30] - root - INFO - 
+2022-02-21 10:21:41 - commonFunc.py - [line:31] - root - INFO - finished exeucting the cmd: ping -w 5 10.112.97.62
+2022-02-21 10:21:46 - commonFunc.py - [line:16] - root - INFO - starting to execute the cmd: ping -w 5 10.112.97.62....
+2022-02-21 10:21:49 - commonFunc.py - [line:30] - root - INFO - PING 10.112.97.62 (10.112.97.62) 56(84) bytes of data.
+2022-02-21 10:21:49 - commonFunc.py - [line:30] - root - INFO - From 10.112.97.60 icmp_seq=1 Destination Host Unreachable
+2022-02-21 10:21:49 - commonFunc.py - [line:30] - root - INFO - From 10.112.97.60 icmp_seq=2 Destination Host Unreachable
+2022-02-21 10:21:49 - commonFunc.py - [line:30] - root - INFO - From 10.112.97.60 icmp_seq=3 Destination Host Unreachable
+2022-02-21 10:21:49 - commonFunc.py - [line:30] - root - INFO - 
+2022-02-21 10:21:49 - commonFunc.py - [line:30] - root - INFO - --- 10.112.97.62 ping statistics ---
+2022-02-21 10:21:49 - commonFunc.py - [line:30] - root - INFO - 3 packets transmitted, 0 received, +3 errors, 100% packet loss, time 33ms
+2022-02-21 10:21:49 - commonFunc.py - [line:30] - root - INFO - pipe 3
+2022-02-21 10:21:49 - commonFunc.py - [line:30] - root - INFO - 
+2022-02-21 10:21:49 - commonFunc.py - [line:31] - root - INFO - finished exeucting the cmd: ping -w 5 10.112.97.62
+2022-02-21 10:21:54 - commonFunc.py - [line:16] - root - INFO - starting to execute the cmd: ping -w 5 10.112.97.62....
+2022-02-21 10:21:57 - commonFunc.py - [line:30] - root - INFO - PING 10.112.97.62 (10.112.97.62) 56(84) bytes of data.
+2022-02-21 10:21:57 - commonFunc.py - [line:30] - root - INFO - From 10.112.97.60 icmp_seq=1 Destination Host Unreachable
+2022-02-21 10:21:57 - commonFunc.py - [line:30] - root - INFO - From 10.112.97.60 icmp_seq=2 Destination Host Unreachable
+2022-02-21 10:21:57 - commonFunc.py - [line:30] - root - INFO - From 10.112.97.60 icmp_seq=3 Destination Host Unreachable
+2022-02-21 10:21:57 - commonFunc.py - [line:30] - root - INFO - 
+2022-02-21 10:21:57 - commonFunc.py - [line:30] - root - INFO - --- 10.112.97.62 ping statistics ---
+2022-02-21 10:21:57 - commonFunc.py - [line:30] - root - INFO - 3 packets transmitted, 0 received, +3 errors, 100% packet loss, time 32ms
+2022-02-21 10:21:57 - commonFunc.py - [line:30] - root - INFO - pipe 3
+2022-02-21 10:21:57 - commonFunc.py - [line:30] - root - INFO - 
+2022-02-21 10:21:57 - commonFunc.py - [line:31] - root - INFO - finished exeucting the cmd: ping -w 5 10.112.97.62
+2022-02-21 10:22:02 - commonFunc.py - [line:16] - root - INFO - starting to execute the cmd: ping -w 5 10.112.97.62....
+2022-02-21 10:22:05 - commonFunc.py - [line:30] - root - INFO - PING 10.112.97.62 (10.112.97.62) 56(84) bytes of data.
+2022-02-21 10:22:05 - commonFunc.py - [line:30] - root - INFO - From 10.112.97.60 icmp_seq=1 Destination Host Unreachable
+2022-02-21 10:22:05 - commonFunc.py - [line:30] - root - INFO - From 10.112.97.60 icmp_seq=2 Destination Host Unreachable
+2022-02-21 10:22:05 - commonFunc.py - [line:30] - root - INFO - From 10.112.97.60 icmp_seq=3 Destination Host Unreachable
+2022-02-21 10:22:05 - commonFunc.py - [line:30] - root - INFO - 
+2022-02-21 10:22:05 - commonFunc.py - [line:30] - root - INFO - --- 10.112.97.62 ping statistics ---
+2022-02-21 10:22:05 - commonFunc.py - [line:30] - root - INFO - 3 packets transmitted, 0 received, +3 errors, 100% packet loss, time 32ms
+2022-02-21 10:22:05 - commonFunc.py - [line:30] - root - INFO - pipe 3
+2022-02-21 10:22:05 - commonFunc.py - [line:30] - root - INFO - 
+2022-02-21 10:22:05 - commonFunc.py - [line:31] - root - INFO - finished exeucting the cmd: ping -w 5 10.112.97.62
+2022-02-21 10:22:10 - commonFunc.py - [line:16] - root - INFO - starting to execute the cmd: ping -w 5 10.112.97.62....
+2022-02-21 10:22:13 - commonFunc.py - [line:30] - root - INFO - PING 10.112.97.62 (10.112.97.62) 56(84) bytes of data.
+2022-02-21 10:22:13 - commonFunc.py - [line:30] - root - INFO - From 10.112.97.60 icmp_seq=1 Destination Host Unreachable
+2022-02-21 10:22:13 - commonFunc.py - [line:30] - root - INFO - From 10.112.97.60 icmp_seq=2 Destination Host Unreachable
+2022-02-21 10:22:13 - commonFunc.py - [line:30] - root - INFO - From 10.112.97.60 icmp_seq=3 Destination Host Unreachable
+2022-02-21 10:22:13 - commonFunc.py - [line:30] - root - INFO - 
+2022-02-21 10:22:13 - commonFunc.py - [line:30] - root - INFO - --- 10.112.97.62 ping statistics ---
+2022-02-21 10:22:13 - commonFunc.py - [line:30] - root - INFO - 3 packets transmitted, 0 received, +3 errors, 100% packet loss, time 33ms
+2022-02-21 10:22:13 - commonFunc.py - [line:30] - root - INFO - pipe 3
+2022-02-21 10:22:13 - commonFunc.py - [line:30] - root - INFO - 
+2022-02-21 10:22:13 - commonFunc.py - [line:31] - root - INFO - finished exeucting the cmd: ping -w 5 10.112.97.62
+2022-02-21 10:22:18 - commonFunc.py - [line:16] - root - INFO - starting to execute the cmd: ping -w 5 10.112.97.62....
+2022-02-21 10:22:21 - commonFunc.py - [line:30] - root - INFO - PING 10.112.97.62 (10.112.97.62) 56(84) bytes of data.
+2022-02-21 10:22:21 - commonFunc.py - [line:30] - root - INFO - From 10.112.97.60 icmp_seq=1 Destination Host Unreachable
+2022-02-21 10:22:21 - commonFunc.py - [line:30] - root - INFO - From 10.112.97.60 icmp_seq=2 Destination Host Unreachable
+2022-02-21 10:22:21 - commonFunc.py - [line:30] - root - INFO - From 10.112.97.60 icmp_seq=3 Destination Host Unreachable
+2022-02-21 10:22:21 - commonFunc.py - [line:30] - root - INFO - 
+2022-02-21 10:22:21 - commonFunc.py - [line:30] - root - INFO - --- 10.112.97.62 ping statistics ---
+2022-02-21 10:22:21 - commonFunc.py - [line:30] - root - INFO - 3 packets transmitted, 0 received, +3 errors, 100% packet loss, time 33ms
+2022-02-21 10:22:21 - commonFunc.py - [line:30] - root - INFO - pipe 3
+2022-02-21 10:22:21 - commonFunc.py - [line:30] - root - INFO - 
+2022-02-21 10:22:21 - commonFunc.py - [line:31] - root - INFO - finished exeucting the cmd: ping -w 5 10.112.97.62
+2022-02-21 10:22:26 - commonFunc.py - [line:16] - root - INFO - starting to execute the cmd: ping -w 5 10.112.97.62....
+2022-02-21 10:22:29 - commonFunc.py - [line:30] - root - INFO - PING 10.112.97.62 (10.112.97.62) 56(84) bytes of data.
+2022-02-21 10:22:29 - commonFunc.py - [line:30] - root - INFO - From 10.112.97.60 icmp_seq=1 Destination Host Unreachable
+2022-02-21 10:22:29 - commonFunc.py - [line:30] - root - INFO - From 10.112.97.60 icmp_seq=2 Destination Host Unreachable
+2022-02-21 10:22:29 - commonFunc.py - [line:30] - root - INFO - From 10.112.97.60 icmp_seq=3 Destination Host Unreachable
+2022-02-21 10:22:29 - commonFunc.py - [line:30] - root - INFO - 
+2022-02-21 10:22:29 - commonFunc.py - [line:30] - root - INFO - --- 10.112.97.62 ping statistics ---
+2022-02-21 10:22:29 - commonFunc.py - [line:30] - root - INFO - 3 packets transmitted, 0 received, +3 errors, 100% packet loss, time 32ms
+2022-02-21 10:22:29 - commonFunc.py - [line:30] - root - INFO - pipe 3
+2022-02-21 10:22:29 - commonFunc.py - [line:30] - root - INFO - 
+2022-02-21 10:22:29 - commonFunc.py - [line:31] - root - INFO - finished exeucting the cmd: ping -w 5 10.112.97.62
+2022-02-21 10:22:34 - commonFunc.py - [line:16] - root - INFO - starting to execute the cmd: ping -w 5 10.112.97.62....
+2022-02-21 10:22:38 - commonFunc.py - [line:30] - root - INFO - PING 10.112.97.62 (10.112.97.62) 56(84) bytes of data.
+2022-02-21 10:22:38 - commonFunc.py - [line:30] - root - INFO - From 10.112.97.60 icmp_seq=1 Destination Host Unreachable
+2022-02-21 10:22:38 - commonFunc.py - [line:30] - root - INFO - From 10.112.97.60 icmp_seq=2 Destination Host Unreachable
+2022-02-21 10:22:38 - commonFunc.py - [line:30] - root - INFO - From 10.112.97.60 icmp_seq=3 Destination Host Unreachable
+2022-02-21 10:22:38 - commonFunc.py - [line:30] - root - INFO - 
+2022-02-21 10:22:38 - commonFunc.py - [line:30] - root - INFO - --- 10.112.97.62 ping statistics ---
+2022-02-21 10:22:38 - commonFunc.py - [line:30] - root - INFO - 3 packets transmitted, 0 received, +3 errors, 100% packet loss, time 33ms
+2022-02-21 10:22:38 - commonFunc.py - [line:30] - root - INFO - pipe 3
+2022-02-21 10:22:38 - commonFunc.py - [line:30] - root - INFO - 
+2022-02-21 10:22:38 - commonFunc.py - [line:31] - root - INFO - finished exeucting the cmd: ping -w 5 10.112.97.62
+2022-02-21 10:22:43 - commonFunc.py - [line:16] - root - INFO - starting to execute the cmd: ping -w 5 10.112.97.62....
+2022-02-21 10:22:46 - commonFunc.py - [line:30] - root - INFO - PING 10.112.97.62 (10.112.97.62) 56(84) bytes of data.
+2022-02-21 10:22:46 - commonFunc.py - [line:30] - root - INFO - From 10.112.97.60 icmp_seq=1 Destination Host Unreachable
+2022-02-21 10:22:46 - commonFunc.py - [line:30] - root - INFO - From 10.112.97.60 icmp_seq=2 Destination Host Unreachable
+2022-02-21 10:22:46 - commonFunc.py - [line:30] - root - INFO - From 10.112.97.60 icmp_seq=3 Destination Host Unreachable
+2022-02-21 10:22:46 - commonFunc.py - [line:30] - root - INFO - 
+2022-02-21 10:22:46 - commonFunc.py - [line:30] - root - INFO - --- 10.112.97.62 ping statistics ---
+2022-02-21 10:22:46 - commonFunc.py - [line:30] - root - INFO - 3 packets transmitted, 0 received, +3 errors, 100% packet loss, time 32ms
+2022-02-21 10:22:46 - commonFunc.py - [line:30] - root - INFO - pipe 3
+2022-02-21 10:22:46 - commonFunc.py - [line:30] - root - INFO - 
+2022-02-21 10:22:46 - commonFunc.py - [line:31] - root - INFO - finished exeucting the cmd: ping -w 5 10.112.97.62
+2022-02-21 10:22:51 - commonFunc.py - [line:16] - root - INFO - starting to execute the cmd: ping -w 5 10.112.97.62....
+2022-02-21 10:22:54 - commonFunc.py - [line:30] - root - INFO - PING 10.112.97.62 (10.112.97.62) 56(84) bytes of data.
+2022-02-21 10:22:54 - commonFunc.py - [line:30] - root - INFO - From 10.112.97.60 icmp_seq=1 Destination Host Unreachable
+2022-02-21 10:22:54 - commonFunc.py - [line:30] - root - INFO - From 10.112.97.60 icmp_seq=2 Destination Host Unreachable
+2022-02-21 10:22:54 - commonFunc.py - [line:30] - root - INFO - From 10.112.97.60 icmp_seq=3 Destination Host Unreachable
+2022-02-21 10:22:54 - commonFunc.py - [line:30] - root - INFO - 
+2022-02-21 10:22:54 - commonFunc.py - [line:30] - root - INFO - --- 10.112.97.62 ping statistics ---
+2022-02-21 10:22:54 - commonFunc.py - [line:30] - root - INFO - 3 packets transmitted, 0 received, +3 errors, 100% packet loss, time 32ms
+2022-02-21 10:22:54 - commonFunc.py - [line:30] - root - INFO - pipe 3
+2022-02-21 10:22:54 - commonFunc.py - [line:30] - root - INFO - 
+2022-02-21 10:22:54 - commonFunc.py - [line:31] - root - INFO - finished exeucting the cmd: ping -w 5 10.112.97.62
+2022-02-21 10:22:59 - commonFunc.py - [line:16] - root - INFO - starting to execute the cmd: ping -w 5 10.112.97.62....
+2022-02-21 10:23:04 - commonFunc.py - [line:30] - root - INFO - PING 10.112.97.62 (10.112.97.62) 56(84) bytes of data.
+2022-02-21 10:23:04 - commonFunc.py - [line:30] - root - INFO - 64 bytes from 10.112.97.62: icmp_seq=1 ttl=64 time=1.08 ms
+2022-02-21 10:23:04 - commonFunc.py - [line:30] - root - INFO - 64 bytes from 10.112.97.62: icmp_seq=2 ttl=64 time=0.189 ms
+2022-02-21 10:23:04 - commonFunc.py - [line:30] - root - INFO - 64 bytes from 10.112.97.62: icmp_seq=3 ttl=64 time=0.281 ms
+2022-02-21 10:23:04 - commonFunc.py - [line:30] - root - INFO - 64 bytes from 10.112.97.62: icmp_seq=4 ttl=64 time=0.239 ms
+2022-02-21 10:23:04 - commonFunc.py - [line:30] - root - INFO - 64 bytes from 10.112.97.62: icmp_seq=5 ttl=64 time=0.215 ms
+2022-02-21 10:23:04 - commonFunc.py - [line:30] - root - INFO - 
+2022-02-21 10:23:04 - commonFunc.py - [line:30] - root - INFO - --- 10.112.97.62 ping statistics ---
+2022-02-21 10:23:04 - commonFunc.py - [line:30] - root - INFO - 5 packets transmitted, 5 received, 0% packet loss, time 82ms
+2022-02-21 10:23:04 - commonFunc.py - [line:30] - root - INFO - rtt min/avg/max/mdev = 0.189/0.401/1.084/0.343 ms
+2022-02-21 10:23:04 - commonFunc.py - [line:30] - root - INFO - 
+2022-02-21 10:23:04 - commonFunc.py - [line:31] - root - INFO - finished exeucting the cmd: ping -w 5 10.112.97.62
+2022-02-21 10:23:04 - transport.py - [line:1819] - paramiko.transport - INFO - Connected (version 2.0, client OpenSSH_8.0)
+2022-02-21 10:23:04 - transport.py - [line:1819] - paramiko.transport - INFO - Authentication (password) successful!
+2022-02-21 10:23:04 - sshInstance.py - [line:28] - root - INFO - SSH on SUT: 10.112.97.62
+2022-02-21 10:23:10 - sshInstance.py - [line:92] - root - INFO - Activate the web console with: systemctl enable --now cockpit.socket
+This system is not registered to Red Hat Insights. See https://cloud.redhat.com/
+To register this system, run: insights-client --register
+Last login: Mon Feb 21 10:32:46 2022
+[root@WW25ICX2 ~]# ifconfig ens2f0 192.168.10.12
+[root@WW25ICX2 ~]# 
+2022-02-21 10:23:17 - sshInstance.py - [line:69] - root - INFO - ping -c 5 192.168.10.11
+PING 192.168.10.11 (192.168.10.11) 56(84) bytes of data.
+64 bytes from 192.168.10.11: icmp_seq=1 ttl=64 time=0.315 ms
+2022-02-21 10:23:18 - sshInstance.py - [line:69] - root - INFO - 64 bytes from 192.168.10.11: icmp_seq=2 ttl=64 time=0.240 ms
+2022-02-21 10:23:19 - sshInstance.py - [line:69] - root - INFO - 64 bytes from 192.168.10.11: icmp_seq=3 ttl=64 time=0.151 ms
+2022-02-21 10:23:20 - sshInstance.py - [line:69] - root - INFO - 64 bytes from 192.168.10.11: icmp_seq=4 ttl=64 time=0.166 ms
+2022-02-21 10:23:21 - sshInstance.py - [line:69] - root - INFO - 64 bytes from 192.168.10.11: icmp_seq=5 ttl=64 time=0.161 ms
+
+--- 192.168.10.11 ping statistics ---
+5 packets transmitted, 5 received, 0% packet loss, time 4097ms
+rtt min/avg/max/mdev = 0.151/0.206/0.315/0.064 ms
+[root@WW25ICX2 ~]# 
+2022-02-21 10:23:28 - sshInstance.py - [line:69] - root - INFO - ping6 -c 5 -I ens2f0 fe80::b696:91ff:fea5:9b45
+ping6: Warning: source address might be selected on device other than ens2f0.
+PING fe80::b696:91ff:fea5:9b45(fe80::b696:91ff:fea5:9b45) from :: ens2f0: 56 data bytes
+64 bytes from fe80::b696:91ff:fea5:9b45%ens2f0: icmp_seq=1 ttl=64 time=0.242 ms
+2022-02-21 10:23:29 - sshInstance.py - [line:69] - root - INFO - 64 bytes from fe80::b696:91ff:fea5:9b45%ens2f0: icmp_seq=2 ttl=64 time=0.220 ms
+2022-02-21 10:23:30 - sshInstance.py - [line:69] - root - INFO - 64 bytes from fe80::b696:91ff:fea5:9b45%ens2f0: icmp_seq=3 ttl=64 time=0.175 ms
+2022-02-21 10:23:31 - sshInstance.py - [line:69] - root - INFO - 64 bytes from fe80::b696:91ff:fea5:9b45%ens2f0: icmp_seq=4 ttl=64 time=0.141 ms
+2022-02-21 10:23:32 - sshInstance.py - [line:69] - root - INFO - 64 bytes from fe80::b696:91ff:fea5:9b45%ens2f0: icmp_seq=5 ttl=64 time=0.148 ms
+
+--- fe80::b696:91ff:fea5:9b45 ping statistics ---
+5 packets transmitted, 5 received, 0% packet loss, time 4090ms
+rtt min/avg/max/mdev = 0.141/0.185/0.242/0.040 ms
+[root@WW25ICX2 ~]# 
+2022-02-21 10:23:41 - sshInstance.py - [line:92] - root - INFO - reboot
+[root@WW25ICX2 ~]# 
+2022-02-21 10:23:44 - sshInstance.py - [line:138] - root - INFO - sut server reboot, please wait ......
+2022-02-21 10:24:44 - commonFunc.py - [line:16] - root - INFO - starting to execute the cmd: ping -w 5 10.112.97.62....
+2022-02-21 10:24:49 - commonFunc.py - [line:30] - root - INFO - PING 10.112.97.62 (10.112.97.62) 56(84) bytes of data.
+2022-02-21 10:24:49 - commonFunc.py - [line:30] - root - INFO - 
+2022-02-21 10:24:49 - commonFunc.py - [line:30] - root - INFO - --- 10.112.97.62 ping statistics ---
+2022-02-21 10:24:49 - commonFunc.py - [line:30] - root - INFO - 5 packets transmitted, 0 received, 100% packet loss, time 129ms
+2022-02-21 10:24:49 - commonFunc.py - [line:30] - root - INFO - 
+2022-02-21 10:24:49 - commonFunc.py - [line:30] - root - INFO - 
+2022-02-21 10:24:49 - commonFunc.py - [line:31] - root - INFO - finished exeucting the cmd: ping -w 5 10.112.97.62
+2022-02-21 10:24:54 - commonFunc.py - [line:16] - root - INFO - starting to execute the cmd: ping -w 5 10.112.97.62....
+2022-02-21 10:24:57 - commonFunc.py - [line:30] - root - INFO - PING 10.112.97.62 (10.112.97.62) 56(84) bytes of data.
+2022-02-21 10:24:57 - commonFunc.py - [line:30] - root - INFO - From 10.112.97.60 icmp_seq=1 Destination Host Unreachable
+2022-02-21 10:24:57 - commonFunc.py - [line:30] - root - INFO - From 10.112.97.60 icmp_seq=2 Destination Host Unreachable
+2022-02-21 10:24:57 - commonFunc.py - [line:30] - root - INFO - From 10.112.97.60 icmp_seq=3 Destination Host Unreachable
+2022-02-21 10:24:57 - commonFunc.py - [line:30] - root - INFO - 
+2022-02-21 10:24:57 - commonFunc.py - [line:30] - root - INFO - --- 10.112.97.62 ping statistics ---
+2022-02-21 10:24:57 - commonFunc.py - [line:30] - root - INFO - 3 packets transmitted, 0 received, +3 errors, 100% packet loss, time 54ms
+2022-02-21 10:24:57 - commonFunc.py - [line:30] - root - INFO - pipe 3
+2022-02-21 10:24:57 - commonFunc.py - [line:30] - root - INFO - 
+2022-02-21 10:24:57 - commonFunc.py - [line:31] - root - INFO - finished exeucting the cmd: ping -w 5 10.112.97.62
+2022-02-21 10:25:02 - commonFunc.py - [line:16] - root - INFO - starting to execute the cmd: ping -w 5 10.112.97.62....
+2022-02-21 10:25:05 - commonFunc.py - [line:30] - root - INFO - PING 10.112.97.62 (10.112.97.62) 56(84) bytes of data.
+2022-02-21 10:25:05 - commonFunc.py - [line:30] - root - INFO - From 10.112.97.60 icmp_seq=1 Destination Host Unreachable
+2022-02-21 10:25:05 - commonFunc.py - [line:30] - root - INFO - From 10.112.97.60 icmp_seq=2 Destination Host Unreachable
+2022-02-21 10:25:05 - commonFunc.py - [line:30] - root - INFO - From 10.112.97.60 icmp_seq=3 Destination Host Unreachable
+2022-02-21 10:25:05 - commonFunc.py - [line:30] - root - INFO - 
+2022-02-21 10:25:05 - commonFunc.py - [line:30] - root - INFO - --- 10.112.97.62 ping statistics ---
+2022-02-21 10:25:05 - commonFunc.py - [line:30] - root - INFO - 3 packets transmitted, 0 received, +3 errors, 100% packet loss, time 33ms
+2022-02-21 10:25:05 - commonFunc.py - [line:30] - root - INFO - pipe 3
+2022-02-21 10:25:05 - commonFunc.py - [line:30] - root - INFO - 
+2022-02-21 10:25:05 - commonFunc.py - [line:31] - root - INFO - finished exeucting the cmd: ping -w 5 10.112.97.62
+2022-02-21 10:25:10 - commonFunc.py - [line:16] - root - INFO - starting to execute the cmd: ping -w 5 10.112.97.62....
+2022-02-21 10:25:13 - commonFunc.py - [line:30] - root - INFO - PING 10.112.97.62 (10.112.97.62) 56(84) bytes of data.
+2022-02-21 10:25:13 - commonFunc.py - [line:30] - root - INFO - From 10.112.97.60 icmp_seq=1 Destination Host Unreachable
+2022-02-21 10:25:13 - commonFunc.py - [line:30] - root - INFO - From 10.112.97.60 icmp_seq=2 Destination Host Unreachable
+2022-02-21 10:25:13 - commonFunc.py - [line:30] - root - INFO - From 10.112.97.60 icmp_seq=3 Destination Host Unreachable
+2022-02-21 10:25:13 - commonFunc.py - [line:30] - root - INFO - 
+2022-02-21 10:25:13 - commonFunc.py - [line:30] - root - INFO - --- 10.112.97.62 ping statistics ---
+2022-02-21 10:25:13 - commonFunc.py - [line:30] - root - INFO - 3 packets transmitted, 0 received, +3 errors, 100% packet loss, time 33ms
+2022-02-21 10:25:13 - commonFunc.py - [line:30] - root - INFO - pipe 3
+2022-02-21 10:25:13 - commonFunc.py - [line:30] - root - INFO - 
+2022-02-21 10:25:13 - commonFunc.py - [line:31] - root - INFO - finished exeucting the cmd: ping -w 5 10.112.97.62
+2022-02-21 10:25:18 - commonFunc.py - [line:16] - root - INFO - starting to execute the cmd: ping -w 5 10.112.97.62....
+2022-02-21 10:25:21 - commonFunc.py - [line:30] - root - INFO - PING 10.112.97.62 (10.112.97.62) 56(84) bytes of data.
+2022-02-21 10:25:21 - commonFunc.py - [line:30] - root - INFO - From 10.112.97.60 icmp_seq=1 Destination Host Unreachable
+2022-02-21 10:25:21 - commonFunc.py - [line:30] - root - INFO - From 10.112.97.60 icmp_seq=2 Destination Host Unreachable
+2022-02-21 10:25:21 - commonFunc.py - [line:30] - root - INFO - From 10.112.97.60 icmp_seq=3 Destination Host Unreachable
+2022-02-21 10:25:21 - commonFunc.py - [line:30] - root - INFO - 
+2022-02-21 10:25:21 - commonFunc.py - [line:30] - root - INFO - --- 10.112.97.62 ping statistics ---
+2022-02-21 10:25:21 - commonFunc.py - [line:30] - root - INFO - 3 packets transmitted, 0 received, +3 errors, 100% packet loss, time 33ms
+2022-02-21 10:25:21 - commonFunc.py - [line:30] - root - INFO - pipe 3
+2022-02-21 10:25:21 - commonFunc.py - [line:30] - root - INFO - 
+2022-02-21 10:25:21 - commonFunc.py - [line:31] - root - INFO - finished exeucting the cmd: ping -w 5 10.112.97.62
+2022-02-21 10:25:26 - commonFunc.py - [line:16] - root - INFO - starting to execute the cmd: ping -w 5 10.112.97.62....
+2022-02-21 10:25:29 - commonFunc.py - [line:30] - root - INFO - PING 10.112.97.62 (10.112.97.62) 56(84) bytes of data.
+2022-02-21 10:25:29 - commonFunc.py - [line:30] - root - INFO - From 10.112.97.60 icmp_seq=1 Destination Host Unreachable
+2022-02-21 10:25:29 - commonFunc.py - [line:30] - root - INFO - From 10.112.97.60 icmp_seq=2 Destination Host Unreachable
+2022-02-21 10:25:29 - commonFunc.py - [line:30] - root - INFO - From 10.112.97.60 icmp_seq=3 Destination Host Unreachable
+2022-02-21 10:25:29 - commonFunc.py - [line:30] - root - INFO - 
+2022-02-21 10:25:29 - commonFunc.py - [line:30] - root - INFO - --- 10.112.97.62 ping statistics ---
+2022-02-21 10:25:29 - commonFunc.py - [line:30] - root - INFO - 3 packets transmitted, 0 received, +3 errors, 100% packet loss, time 33ms
+2022-02-21 10:25:29 - commonFunc.py - [line:30] - root - INFO - pipe 3
+2022-02-21 10:25:29 - commonFunc.py - [line:30] - root - INFO - 
+2022-02-21 10:25:29 - commonFunc.py - [line:31] - root - INFO - finished exeucting the cmd: ping -w 5 10.112.97.62
+2022-02-21 10:25:34 - commonFunc.py - [line:16] - root - INFO - starting to execute the cmd: ping -w 5 10.112.97.62....
+2022-02-21 10:25:37 - commonFunc.py - [line:30] - root - INFO - PING 10.112.97.62 (10.112.97.62) 56(84) bytes of data.
+2022-02-21 10:25:37 - commonFunc.py - [line:30] - root - INFO - From 10.112.97.60 icmp_seq=1 Destination Host Unreachable
+2022-02-21 10:25:37 - commonFunc.py - [line:30] - root - INFO - From 10.112.97.60 icmp_seq=2 Destination Host Unreachable
+2022-02-21 10:25:37 - commonFunc.py - [line:30] - root - INFO - From 10.112.97.60 icmp_seq=3 Destination Host Unreachable
+2022-02-21 10:25:37 - commonFunc.py - [line:30] - root - INFO - 
+2022-02-21 10:25:37 - commonFunc.py - [line:30] - root - INFO - --- 10.112.97.62 ping statistics ---
+2022-02-21 10:25:37 - commonFunc.py - [line:30] - root - INFO - 3 packets transmitted, 0 received, +3 errors, 100% packet loss, time 32ms
+2022-02-21 10:25:37 - commonFunc.py - [line:30] - root - INFO - pipe 3
+2022-02-21 10:25:37 - commonFunc.py - [line:30] - root - INFO - 
+2022-02-21 10:25:37 - commonFunc.py - [line:31] - root - INFO - finished exeucting the cmd: ping -w 5 10.112.97.62
+2022-02-21 10:25:42 - commonFunc.py - [line:16] - root - INFO - starting to execute the cmd: ping -w 5 10.112.97.62....
+2022-02-21 10:25:45 - commonFunc.py - [line:30] - root - INFO - PING 10.112.97.62 (10.112.97.62) 56(84) bytes of data.
+2022-02-21 10:25:45 - commonFunc.py - [line:30] - root - INFO - From 10.112.97.60 icmp_seq=1 Destination Host Unreachable
+2022-02-21 10:25:45 - commonFunc.py - [line:30] - root - INFO - From 10.112.97.60 icmp_seq=2 Destination Host Unreachable
+2022-02-21 10:25:45 - commonFunc.py - [line:30] - root - INFO - From 10.112.97.60 icmp_seq=3 Destination Host Unreachable
+2022-02-21 10:25:45 - commonFunc.py - [line:30] - root - INFO - 
+2022-02-21 10:25:45 - commonFunc.py - [line:30] - root - INFO - --- 10.112.97.62 ping statistics ---
+2022-02-21 10:25:45 - commonFunc.py - [line:30] - root - INFO - 3 packets transmitted, 0 received, +3 errors, 100% packet loss, time 32ms
+2022-02-21 10:25:45 - commonFunc.py - [line:30] - root - INFO - pipe 3
+2022-02-21 10:25:45 - commonFunc.py - [line:30] - root - INFO - 
+2022-02-21 10:25:45 - commonFunc.py - [line:31] - root - INFO - finished exeucting the cmd: ping -w 5 10.112.97.62
+2022-02-21 10:25:50 - commonFunc.py - [line:16] - root - INFO - starting to execute the cmd: ping -w 5 10.112.97.62....
+2022-02-21 10:25:53 - commonFunc.py - [line:30] - root - INFO - PING 10.112.97.62 (10.112.97.62) 56(84) bytes of data.
+2022-02-21 10:25:53 - commonFunc.py - [line:30] - root - INFO - From 10.112.97.60 icmp_seq=1 Destination Host Unreachable
+2022-02-21 10:25:53 - commonFunc.py - [line:30] - root - INFO - From 10.112.97.60 icmp_seq=2 Destination Host Unreachable
+2022-02-21 10:25:53 - commonFunc.py - [line:30] - root - INFO - From 10.112.97.60 icmp_seq=3 Destination Host Unreachable
+2022-02-21 10:25:53 - commonFunc.py - [line:30] - root - INFO - 
+2022-02-21 10:25:53 - commonFunc.py - [line:30] - root - INFO - --- 10.112.97.62 ping statistics ---
+2022-02-21 10:25:53 - commonFunc.py - [line:30] - root - INFO - 3 packets transmitted, 0 received, +3 errors, 100% packet loss, time 32ms
+2022-02-21 10:25:53 - commonFunc.py - [line:30] - root - INFO - pipe 3
+2022-02-21 10:25:53 - commonFunc.py - [line:30] - root - INFO - 
+2022-02-21 10:25:53 - commonFunc.py - [line:31] - root - INFO - finished exeucting the cmd: ping -w 5 10.112.97.62
+2022-02-21 10:25:58 - commonFunc.py - [line:16] - root - INFO - starting to execute the cmd: ping -w 5 10.112.97.62....
+2022-02-21 10:26:02 - commonFunc.py - [line:30] - root - INFO - PING 10.112.97.62 (10.112.97.62) 56(84) bytes of data.
+2022-02-21 10:26:02 - commonFunc.py - [line:30] - root - INFO - From 10.112.97.60 icmp_seq=1 Destination Host Unreachable
+2022-02-21 10:26:02 - commonFunc.py - [line:30] - root - INFO - From 10.112.97.60 icmp_seq=2 Destination Host Unreachable
+2022-02-21 10:26:02 - commonFunc.py - [line:30] - root - INFO - From 10.112.97.60 icmp_seq=3 Destination Host Unreachable
+2022-02-21 10:26:02 - commonFunc.py - [line:30] - root - INFO - 
+2022-02-21 10:26:02 - commonFunc.py - [line:30] - root - INFO - --- 10.112.97.62 ping statistics ---
+2022-02-21 10:26:02 - commonFunc.py - [line:30] - root - INFO - 3 packets transmitted, 0 received, +3 errors, 100% packet loss, time 32ms
+2022-02-21 10:26:02 - commonFunc.py - [line:30] - root - INFO - pipe 3
+2022-02-21 10:26:02 - commonFunc.py - [line:30] - root - INFO - 
+2022-02-21 10:26:02 - commonFunc.py - [line:31] - root - INFO - finished exeucting the cmd: ping -w 5 10.112.97.62
+2022-02-21 10:26:07 - commonFunc.py - [line:16] - root - INFO - starting to execute the cmd: ping -w 5 10.112.97.62....
+2022-02-21 10:26:10 - commonFunc.py - [line:30] - root - INFO - PING 10.112.97.62 (10.112.97.62) 56(84) bytes of data.
+2022-02-21 10:26:10 - commonFunc.py - [line:30] - root - INFO - From 10.112.97.60 icmp_seq=1 Destination Host Unreachable
+2022-02-21 10:26:10 - commonFunc.py - [line:30] - root - INFO - From 10.112.97.60 icmp_seq=2 Destination Host Unreachable
+2022-02-21 10:26:10 - commonFunc.py - [line:30] - root - INFO - From 10.112.97.60 icmp_seq=3 Destination Host Unreachable
+2022-02-21 10:26:10 - commonFunc.py - [line:30] - root - INFO - 
+2022-02-21 10:26:10 - commonFunc.py - [line:30] - root - INFO - --- 10.112.97.62 ping statistics ---
+2022-02-21 10:26:10 - commonFunc.py - [line:30] - root - INFO - 3 packets transmitted, 0 received, +3 errors, 100% packet loss, time 32ms
+2022-02-21 10:26:10 - commonFunc.py - [line:30] - root - INFO - pipe 3
+2022-02-21 10:26:10 - commonFunc.py - [line:30] - root - INFO - 
+2022-02-21 10:26:10 - commonFunc.py - [line:31] - root - INFO - finished exeucting the cmd: ping -w 5 10.112.97.62
+2022-02-21 10:26:15 - commonFunc.py - [line:16] - root - INFO - starting to execute the cmd: ping -w 5 10.112.97.62....
+2022-02-21 10:26:18 - commonFunc.py - [line:30] - root - INFO - PING 10.112.97.62 (10.112.97.62) 56(84) bytes of data.
+2022-02-21 10:26:18 - commonFunc.py - [line:30] - root - INFO - From 10.112.97.60 icmp_seq=1 Destination Host Unreachable
+2022-02-21 10:26:18 - commonFunc.py - [line:30] - root - INFO - From 10.112.97.60 icmp_seq=2 Destination Host Unreachable
+2022-02-21 10:26:18 - commonFunc.py - [line:30] - root - INFO - From 10.112.97.60 icmp_seq=3 Destination Host Unreachable
+2022-02-21 10:26:18 - commonFunc.py - [line:30] - root - INFO - 
+2022-02-21 10:26:18 - commonFunc.py - [line:30] - root - INFO - --- 10.112.97.62 ping statistics ---
+2022-02-21 10:26:18 - commonFunc.py - [line:30] - root - INFO - 3 packets transmitted, 0 received, +3 errors, 100% packet loss, time 33ms
+2022-02-21 10:26:18 - commonFunc.py - [line:30] - root - INFO - pipe 3
+2022-02-21 10:26:18 - commonFunc.py - [line:30] - root - INFO - 
+2022-02-21 10:26:18 - commonFunc.py - [line:31] - root - INFO - finished exeucting the cmd: ping -w 5 10.112.97.62
+2022-02-21 10:26:23 - commonFunc.py - [line:16] - root - INFO - starting to execute the cmd: ping -w 5 10.112.97.62....
+2022-02-21 10:26:26 - commonFunc.py - [line:30] - root - INFO - PING 10.112.97.62 (10.112.97.62) 56(84) bytes of data.
+2022-02-21 10:26:26 - commonFunc.py - [line:30] - root - INFO - From 10.112.97.60 icmp_seq=1 Destination Host Unreachable
+2022-02-21 10:26:26 - commonFunc.py - [line:30] - root - INFO - From 10.112.97.60 icmp_seq=2 Destination Host Unreachable
+2022-02-21 10:26:26 - commonFunc.py - [line:30] - root - INFO - From 10.112.97.60 icmp_seq=3 Destination Host Unreachable
+2022-02-21 10:26:26 - commonFunc.py - [line:30] - root - INFO - 
+2022-02-21 10:26:26 - commonFunc.py - [line:30] - root - INFO - --- 10.112.97.62 ping statistics ---
+2022-02-21 10:26:26 - commonFunc.py - [line:30] - root - INFO - 3 packets transmitted, 0 received, +3 errors, 100% packet loss, time 32ms
+2022-02-21 10:26:26 - commonFunc.py - [line:30] - root - INFO - pipe 3
+2022-02-21 10:26:26 - commonFunc.py - [line:30] - root - INFO - 
+2022-02-21 10:26:26 - commonFunc.py - [line:31] - root - INFO - finished exeucting the cmd: ping -w 5 10.112.97.62
+2022-02-21 10:26:31 - commonFunc.py - [line:16] - root - INFO - starting to execute the cmd: ping -w 5 10.112.97.62....
+2022-02-21 10:26:34 - commonFunc.py - [line:30] - root - INFO - PING 10.112.97.62 (10.112.97.62) 56(84) bytes of data.
+2022-02-21 10:26:34 - commonFunc.py - [line:30] - root - INFO - From 10.112.97.60 icmp_seq=1 Destination Host Unreachable
+2022-02-21 10:26:34 - commonFunc.py - [line:30] - root - INFO - From 10.112.97.60 icmp_seq=2 Destination Host Unreachable
+2022-02-21 10:26:34 - commonFunc.py - [line:30] - root - INFO - From 10.112.97.60 icmp_seq=3 Destination Host Unreachable
+2022-02-21 10:26:34 - commonFunc.py - [line:30] - root - INFO - 
+2022-02-21 10:26:34 - commonFunc.py - [line:30] - root - INFO - --- 10.112.97.62 ping statistics ---
+2022-02-21 10:26:34 - commonFunc.py - [line:30] - root - INFO - 3 packets transmitted, 0 received, +3 errors, 100% packet loss, time 32ms
+2022-02-21 10:26:34 - commonFunc.py - [line:30] - root - INFO - pipe 3
+2022-02-21 10:26:34 - commonFunc.py - [line:30] - root - INFO - 
+2022-02-21 10:26:34 - commonFunc.py - [line:31] - root - INFO - finished exeucting the cmd: ping -w 5 10.112.97.62
+2022-02-21 10:26:39 - commonFunc.py - [line:16] - root - INFO - starting to execute the cmd: ping -w 5 10.112.97.62....
+2022-02-21 10:26:42 - commonFunc.py - [line:30] - root - INFO - PING 10.112.97.62 (10.112.97.62) 56(84) bytes of data.
+2022-02-21 10:26:42 - commonFunc.py - [line:30] - root - INFO - From 10.112.97.60 icmp_seq=1 Destination Host Unreachable
+2022-02-21 10:26:42 - commonFunc.py - [line:30] - root - INFO - From 10.112.97.60 icmp_seq=2 Destination Host Unreachable
+2022-02-21 10:26:42 - commonFunc.py - [line:30] - root - INFO - From 10.112.97.60 icmp_seq=3 Destination Host Unreachable
+2022-02-21 10:26:42 - commonFunc.py - [line:30] - root - INFO - 
+2022-02-21 10:26:42 - commonFunc.py - [line:30] - root - INFO - --- 10.112.97.62 ping statistics ---
+2022-02-21 10:26:42 - commonFunc.py - [line:30] - root - INFO - 3 packets transmitted, 0 received, +3 errors, 100% packet loss, time 33ms
+2022-02-21 10:26:42 - commonFunc.py - [line:30] - root - INFO - pipe 3
+2022-02-21 10:26:42 - commonFunc.py - [line:30] - root - INFO - 
+2022-02-21 10:26:42 - commonFunc.py - [line:31] - root - INFO - finished exeucting the cmd: ping -w 5 10.112.97.62
+2022-02-21 10:26:47 - commonFunc.py - [line:16] - root - INFO - starting to execute the cmd: ping -w 5 10.112.97.62....
+2022-02-21 10:26:50 - commonFunc.py - [line:30] - root - INFO - PING 10.112.97.62 (10.112.97.62) 56(84) bytes of data.
+2022-02-21 10:26:50 - commonFunc.py - [line:30] - root - INFO - From 10.112.97.60 icmp_seq=1 Destination Host Unreachable
+2022-02-21 10:26:50 - commonFunc.py - [line:30] - root - INFO - From 10.112.97.60 icmp_seq=2 Destination Host Unreachable
+2022-02-21 10:26:50 - commonFunc.py - [line:30] - root - INFO - From 10.112.97.60 icmp_seq=3 Destination Host Unreachable
+2022-02-21 10:26:50 - commonFunc.py - [line:30] - root - INFO - 
+2022-02-21 10:26:50 - commonFunc.py - [line:30] - root - INFO - --- 10.112.97.62 ping statistics ---
+2022-02-21 10:26:50 - commonFunc.py - [line:30] - root - INFO - 3 packets transmitted, 0 received, +3 errors, 100% packet loss, time 32ms
+2022-02-21 10:26:50 - commonFunc.py - [line:30] - root - INFO - pipe 3
+2022-02-21 10:26:50 - commonFunc.py - [line:30] - root - INFO - 
+2022-02-21 10:26:50 - commonFunc.py - [line:31] - root - INFO - finished exeucting the cmd: ping -w 5 10.112.97.62
+2022-02-21 10:26:55 - commonFunc.py - [line:16] - root - INFO - starting to execute the cmd: ping -w 5 10.112.97.62....
+2022-02-21 10:27:00 - commonFunc.py - [line:30] - root - INFO - PING 10.112.97.62 (10.112.97.62) 56(84) bytes of data.
+2022-02-21 10:27:00 - commonFunc.py - [line:30] - root - INFO - 64 bytes from 10.112.97.62: icmp_seq=1 ttl=64 time=1555 ms
+2022-02-21 10:27:00 - commonFunc.py - [line:30] - root - INFO - 64 bytes from 10.112.97.62: icmp_seq=2 ttl=64 time=549 ms
+2022-02-21 10:27:00 - commonFunc.py - [line:30] - root - INFO - 64 bytes from 10.112.97.62: icmp_seq=3 ttl=64 time=0.282 ms
+2022-02-21 10:27:00 - commonFunc.py - [line:30] - root - INFO - 64 bytes from 10.112.97.62: icmp_seq=4 ttl=64 time=0.132 ms
+2022-02-21 10:27:00 - commonFunc.py - [line:30] - root - INFO - 64 bytes from 10.112.97.62: icmp_seq=5 ttl=64 time=0.222 ms
+2022-02-21 10:27:00 - commonFunc.py - [line:30] - root - INFO - 
+2022-02-21 10:27:00 - commonFunc.py - [line:30] - root - INFO - --- 10.112.97.62 ping statistics ---
+2022-02-21 10:27:00 - commonFunc.py - [line:30] - root - INFO - 5 packets transmitted, 5 received, 0% packet loss, time 82ms
+2022-02-21 10:27:00 - commonFunc.py - [line:30] - root - INFO - rtt min/avg/max/mdev = 0.132/421.032/1555.310/605.687 ms, pipe 2
+2022-02-21 10:27:00 - commonFunc.py - [line:30] - root - INFO - 
+2022-02-21 10:27:00 - commonFunc.py - [line:31] - root - INFO - finished exeucting the cmd: ping -w 5 10.112.97.62
+2022-02-21 10:27:00 - transport.py - [line:1819] - paramiko.transport - INFO - Connected (version 2.0, client OpenSSH_8.0)
+2022-02-21 10:27:00 - transport.py - [line:1819] - paramiko.transport - INFO - Authentication (password) successful!
+2022-02-21 10:27:00 - sshInstance.py - [line:28] - root - INFO - SSH on SUT: 10.112.97.62
+2022-02-21 10:27:06 - sshInstance.py - [line:92] - root - INFO - Activate the web console with: systemctl enable --now cockpit.socket
+This system is not registered to Red Hat Insights. See https://cloud.redhat.com/
+To register this system, run: insights-client --register
+Last login: Mon Feb 21 10:32:54 2022 from 10.112.97.60
+[root@WW25ICX2 ~]# ifconfig ens2f0 192.168.10.12
+[root@WW25ICX2 ~]# 
+2022-02-21 10:27:13 - sshInstance.py - [line:69] - root - INFO - ping -c 5 192.168.10.11
+PING 192.168.10.11 (192.168.10.11) 56(84) bytes of data.
+64 bytes from 192.168.10.11: icmp_seq=1 ttl=64 time=0.315 ms
+2022-02-21 10:27:14 - sshInstance.py - [line:69] - root - INFO - 64 bytes from 192.168.10.11: icmp_seq=2 ttl=64 time=0.164 ms
+2022-02-21 10:27:15 - sshInstance.py - [line:69] - root - INFO - 64 bytes from 192.168.10.11: icmp_seq=3 ttl=64 time=0.215 ms
+2022-02-21 10:27:16 - sshInstance.py - [line:69] - root - INFO - 64 bytes from 192.168.10.11: icmp_seq=4 ttl=64 time=0.205 ms
+2022-02-21 10:27:17 - sshInstance.py - [line:69] - root - INFO - 64 bytes from 192.168.10.11: icmp_seq=5 ttl=64 time=0.248 ms
+
+--- 192.168.10.11 ping statistics ---
+5 packets transmitted, 5 received, 0% packet loss, time 4077ms
+rtt min/avg/max/mdev = 0.164/0.229/0.315/0.052 ms
+[root@WW25ICX2 ~]# 
+2022-02-21 10:27:24 - sshInstance.py - [line:69] - root - INFO - ping6 -c 5 -I ens2f0 fe80::b696:91ff:fea5:9b45
+ping6: Warning: source address might be selected on device other than ens2f0.
+PING fe80::b696:91ff:fea5:9b45(fe80::b696:91ff:fea5:9b45) from :: ens2f0: 56 data bytes
+64 bytes from fe80::b696:91ff:fea5:9b45%ens2f0: icmp_seq=1 ttl=64 time=0.319 ms
+2022-02-21 10:27:25 - sshInstance.py - [line:69] - root - INFO - 64 bytes from fe80::b696:91ff:fea5:9b45%ens2f0: icmp_seq=2 ttl=64 time=0.243 ms
+2022-02-21 10:27:26 - sshInstance.py - [line:69] - root - INFO - 64 bytes from fe80::b696:91ff:fea5:9b45%ens2f0: icmp_seq=3 ttl=64 time=0.235 ms
+2022-02-21 10:27:27 - sshInstance.py - [line:69] - root - INFO - 64 bytes from fe80::b696:91ff:fea5:9b45%ens2f0: icmp_seq=4 ttl=64 time=0.252 ms
+2022-02-21 10:27:28 - sshInstance.py - [line:69] - root - INFO - 64 bytes from fe80::b696:91ff:fea5:9b45%ens2f0: icmp_seq=5 ttl=64 time=0.234 ms
+
+--- fe80::b696:91ff:fea5:9b45 ping statistics ---
+5 packets transmitted, 5 received, 0% packet loss, time 4136ms
+rtt min/avg/max/mdev = 0.234/0.256/0.319/0.036 ms
+[root@WW25ICX2 ~]# 
+2022-02-21 10:27:37 - sshInstance.py - [line:92] - root - INFO - reboot
+[root@WW25ICX2 ~]# 
+2022-02-21 10:27:40 - sshInstance.py - [line:138] - root - INFO - sut server reboot, please wait ......
+2022-02-21 10:28:40 - commonFunc.py - [line:16] - root - INFO - starting to execute the cmd: ping -w 5 10.112.97.62....
+2022-02-21 10:28:45 - commonFunc.py - [line:30] - root - INFO - PING 10.112.97.62 (10.112.97.62) 56(84) bytes of data.
+2022-02-21 10:28:45 - commonFunc.py - [line:30] - root - INFO - 
+2022-02-21 10:28:45 - commonFunc.py - [line:30] - root - INFO - --- 10.112.97.62 ping statistics ---
+2022-02-21 10:28:45 - commonFunc.py - [line:30] - root - INFO - 5 packets transmitted, 0 received, 100% packet loss, time 124ms
+2022-02-21 10:28:45 - commonFunc.py - [line:30] - root - INFO - 
+2022-02-21 10:28:45 - commonFunc.py - [line:30] - root - INFO - 
+2022-02-21 10:28:45 - commonFunc.py - [line:31] - root - INFO - finished exeucting the cmd: ping -w 5 10.112.97.62
+2022-02-21 10:28:50 - commonFunc.py - [line:16] - root - INFO - starting to execute the cmd: ping -w 5 10.112.97.62....
+2022-02-21 10:28:53 - commonFunc.py - [line:30] - root - INFO - PING 10.112.97.62 (10.112.97.62) 56(84) bytes of data.
+2022-02-21 10:28:53 - commonFunc.py - [line:30] - root - INFO - From 10.112.97.60 icmp_seq=1 Destination Host Unreachable
+2022-02-21 10:28:53 - commonFunc.py - [line:30] - root - INFO - From 10.112.97.60 icmp_seq=2 Destination Host Unreachable
+2022-02-21 10:28:53 - commonFunc.py - [line:30] - root - INFO - From 10.112.97.60 icmp_seq=3 Destination Host Unreachable
+2022-02-21 10:28:53 - commonFunc.py - [line:30] - root - INFO - 
+2022-02-21 10:28:53 - commonFunc.py - [line:30] - root - INFO - --- 10.112.97.62 ping statistics ---
+2022-02-21 10:28:53 - commonFunc.py - [line:30] - root - INFO - 3 packets transmitted, 0 received, +3 errors, 100% packet loss, time 49ms
+2022-02-21 10:28:53 - commonFunc.py - [line:30] - root - INFO - pipe 3
+2022-02-21 10:28:53 - commonFunc.py - [line:30] - root - INFO - 
+2022-02-21 10:28:53 - commonFunc.py - [line:31] - root - INFO - finished exeucting the cmd: ping -w 5 10.112.97.62
+2022-02-21 10:28:58 - commonFunc.py - [line:16] - root - INFO - starting to execute the cmd: ping -w 5 10.112.97.62....
+2022-02-21 10:29:01 - commonFunc.py - [line:30] - root - INFO - PING 10.112.97.62 (10.112.97.62) 56(84) bytes of data.
+2022-02-21 10:29:01 - commonFunc.py - [line:30] - root - INFO - From 10.112.97.60 icmp_seq=1 Destination Host Unreachable
+2022-02-21 10:29:01 - commonFunc.py - [line:30] - root - INFO - From 10.112.97.60 icmp_seq=2 Destination Host Unreachable
+2022-02-21 10:29:01 - commonFunc.py - [line:30] - root - INFO - From 10.112.97.60 icmp_seq=3 Destination Host Unreachable
+2022-02-21 10:29:01 - commonFunc.py - [line:30] - root - INFO - 
+2022-02-21 10:29:01 - commonFunc.py - [line:30] - root - INFO - --- 10.112.97.62 ping statistics ---
+2022-02-21 10:29:01 - commonFunc.py - [line:30] - root - INFO - 3 packets transmitted, 0 received, +3 errors, 100% packet loss, time 33ms
+2022-02-21 10:29:01 - commonFunc.py - [line:30] - root - INFO - pipe 3
+2022-02-21 10:29:01 - commonFunc.py - [line:30] - root - INFO - 
+2022-02-21 10:29:01 - commonFunc.py - [line:31] - root - INFO - finished exeucting the cmd: ping -w 5 10.112.97.62
+2022-02-21 10:29:06 - commonFunc.py - [line:16] - root - INFO - starting to execute the cmd: ping -w 5 10.112.97.62....
+2022-02-21 10:29:09 - commonFunc.py - [line:30] - root - INFO - PING 10.112.97.62 (10.112.97.62) 56(84) bytes of data.
+2022-02-21 10:29:09 - commonFunc.py - [line:30] - root - INFO - From 10.112.97.60 icmp_seq=1 Destination Host Unreachable
+2022-02-21 10:29:09 - commonFunc.py - [line:30] - root - INFO - From 10.112.97.60 icmp_seq=2 Destination Host Unreachable
+2022-02-21 10:29:09 - commonFunc.py - [line:30] - root - INFO - From 10.112.97.60 icmp_seq=3 Destination Host Unreachable
+2022-02-21 10:29:09 - commonFunc.py - [line:30] - root - INFO - 
+2022-02-21 10:29:09 - commonFunc.py - [line:30] - root - INFO - --- 10.112.97.62 ping statistics ---
+2022-02-21 10:29:09 - commonFunc.py - [line:30] - root - INFO - 3 packets transmitted, 0 received, +3 errors, 100% packet loss, time 32ms
+2022-02-21 10:29:09 - commonFunc.py - [line:30] - root - INFO - pipe 3
+2022-02-21 10:29:09 - commonFunc.py - [line:30] - root - INFO - 
+2022-02-21 10:29:09 - commonFunc.py - [line:31] - root - INFO - finished exeucting the cmd: ping -w 5 10.112.97.62
+2022-02-21 10:29:14 - commonFunc.py - [line:16] - root - INFO - starting to execute the cmd: ping -w 5 10.112.97.62....
+2022-02-21 10:29:17 - commonFunc.py - [line:30] - root - INFO - PING 10.112.97.62 (10.112.97.62) 56(84) bytes of data.
+2022-02-21 10:29:17 - commonFunc.py - [line:30] - root - INFO - From 10.112.97.60 icmp_seq=1 Destination Host Unreachable
+2022-02-21 10:29:17 - commonFunc.py - [line:30] - root - INFO - From 10.112.97.60 icmp_seq=2 Destination Host Unreachable
+2022-02-21 10:29:17 - commonFunc.py - [line:30] - root - INFO - From 10.112.97.60 icmp_seq=3 Destination Host Unreachable
+2022-02-21 10:29:17 - commonFunc.py - [line:30] - root - INFO - 
+2022-02-21 10:29:17 - commonFunc.py - [line:30] - root - INFO - --- 10.112.97.62 ping statistics ---
+2022-02-21 10:29:17 - commonFunc.py - [line:30] - root - INFO - 3 packets transmitted, 0 received, +3 errors, 100% packet loss, time 32ms
+2022-02-21 10:29:17 - commonFunc.py - [line:30] - root - INFO - pipe 3
+2022-02-21 10:29:17 - commonFunc.py - [line:30] - root - INFO - 
+2022-02-21 10:29:17 - commonFunc.py - [line:31] - root - INFO - finished exeucting the cmd: ping -w 5 10.112.97.62
+2022-02-21 10:29:22 - commonFunc.py - [line:16] - root - INFO - starting to execute the cmd: ping -w 5 10.112.97.62....
+2022-02-21 10:29:26 - commonFunc.py - [line:30] - root - INFO - PING 10.112.97.62 (10.112.97.62) 56(84) bytes of data.
+2022-02-21 10:29:26 - commonFunc.py - [line:30] - root - INFO - From 10.112.97.60 icmp_seq=1 Destination Host Unreachable
+2022-02-21 10:29:26 - commonFunc.py - [line:30] - root - INFO - From 10.112.97.60 icmp_seq=2 Destination Host Unreachable
+2022-02-21 10:29:26 - commonFunc.py - [line:30] - root - INFO - From 10.112.97.60 icmp_seq=3 Destination Host Unreachable
+2022-02-21 10:29:26 - commonFunc.py - [line:30] - root - INFO - 
+2022-02-21 10:29:26 - commonFunc.py - [line:30] - root - INFO - --- 10.112.97.62 ping statistics ---
+2022-02-21 10:29:26 - commonFunc.py - [line:30] - root - INFO - 3 packets transmitted, 0 received, +3 errors, 100% packet loss, time 32ms
+2022-02-21 10:29:26 - commonFunc.py - [line:30] - root - INFO - pipe 3
+2022-02-21 10:29:26 - commonFunc.py - [line:30] - root - INFO - 
+2022-02-21 10:29:26 - commonFunc.py - [line:31] - root - INFO - finished exeucting the cmd: ping -w 5 10.112.97.62
+2022-02-21 10:29:31 - commonFunc.py - [line:16] - root - INFO - starting to execute the cmd: ping -w 5 10.112.97.62....
+2022-02-21 10:29:34 - commonFunc.py - [line:30] - root - INFO - PING 10.112.97.62 (10.112.97.62) 56(84) bytes of data.
+2022-02-21 10:29:34 - commonFunc.py - [line:30] - root - INFO - From 10.112.97.60 icmp_seq=1 Destination Host Unreachable
+2022-02-21 10:29:34 - commonFunc.py - [line:30] - root - INFO - From 10.112.97.60 icmp_seq=2 Destination Host Unreachable
+2022-02-21 10:29:34 - commonFunc.py - [line:30] - root - INFO - From 10.112.97.60 icmp_seq=3 Destination Host Unreachable
+2022-02-21 10:29:34 - commonFunc.py - [line:30] - root - INFO - 
+2022-02-21 10:29:34 - commonFunc.py - [line:30] - root - INFO - --- 10.112.97.62 ping statistics ---
+2022-02-21 10:29:34 - commonFunc.py - [line:30] - root - INFO - 3 packets transmitted, 0 received, +3 errors, 100% packet loss, time 33ms
+2022-02-21 10:29:34 - commonFunc.py - [line:30] - root - INFO - pipe 3
+2022-02-21 10:29:34 - commonFunc.py - [line:30] - root - INFO - 
+2022-02-21 10:29:34 - commonFunc.py - [line:31] - root - INFO - finished exeucting the cmd: ping -w 5 10.112.97.62
+2022-02-21 10:29:39 - commonFunc.py - [line:16] - root - INFO - starting to execute the cmd: ping -w 5 10.112.97.62....
+2022-02-21 10:29:42 - commonFunc.py - [line:30] - root - INFO - PING 10.112.97.62 (10.112.97.62) 56(84) bytes of data.
+2022-02-21 10:29:42 - commonFunc.py - [line:30] - root - INFO - From 10.112.97.60 icmp_seq=1 Destination Host Unreachable
+2022-02-21 10:29:42 - commonFunc.py - [line:30] - root - INFO - From 10.112.97.60 icmp_seq=2 Destination Host Unreachable
+2022-02-21 10:29:42 - commonFunc.py - [line:30] - root - INFO - From 10.112.97.60 icmp_seq=3 Destination Host Unreachable
+2022-02-21 10:29:42 - commonFunc.py - [line:30] - root - INFO - 
+2022-02-21 10:29:42 - commonFunc.py - [line:30] - root - INFO - --- 10.112.97.62 ping statistics ---
+2022-02-21 10:29:42 - commonFunc.py - [line:30] - root - INFO - 3 packets transmitted, 0 received, +3 errors, 100% packet loss, time 33ms
+2022-02-21 10:29:42 - commonFunc.py - [line:30] - root - INFO - pipe 3
+2022-02-21 10:29:42 - commonFunc.py - [line:30] - root - INFO - 
+2022-02-21 10:29:42 - commonFunc.py - [line:31] - root - INFO - finished exeucting the cmd: ping -w 5 10.112.97.62
+2022-02-21 10:29:47 - commonFunc.py - [line:16] - root - INFO - starting to execute the cmd: ping -w 5 10.112.97.62....
+2022-02-21 10:29:50 - commonFunc.py - [line:30] - root - INFO - PING 10.112.97.62 (10.112.97.62) 56(84) bytes of data.
+2022-02-21 10:29:50 - commonFunc.py - [line:30] - root - INFO - From 10.112.97.60 icmp_seq=1 Destination Host Unreachable
+2022-02-21 10:29:50 - commonFunc.py - [line:30] - root - INFO - From 10.112.97.60 icmp_seq=2 Destination Host Unreachable
+2022-02-21 10:29:50 - commonFunc.py - [line:30] - root - INFO - From 10.112.97.60 icmp_seq=3 Destination Host Unreachable
+2022-02-21 10:29:50 - commonFunc.py - [line:30] - root - INFO - 
+2022-02-21 10:29:50 - commonFunc.py - [line:30] - root - INFO - --- 10.112.97.62 ping statistics ---
+2022-02-21 10:29:50 - commonFunc.py - [line:30] - root - INFO - 3 packets transmitted, 0 received, +3 errors, 100% packet loss, time 33ms
+2022-02-21 10:29:50 - commonFunc.py - [line:30] - root - INFO - pipe 3
+2022-02-21 10:29:50 - commonFunc.py - [line:30] - root - INFO - 
+2022-02-21 10:29:50 - commonFunc.py - [line:31] - root - INFO - finished exeucting the cmd: ping -w 5 10.112.97.62
+2022-02-21 10:29:55 - commonFunc.py - [line:16] - root - INFO - starting to execute the cmd: ping -w 5 10.112.97.62....
+2022-02-21 10:29:58 - commonFunc.py - [line:30] - root - INFO - PING 10.112.97.62 (10.112.97.62) 56(84) bytes of data.
+2022-02-21 10:29:58 - commonFunc.py - [line:30] - root - INFO - From 10.112.97.60 icmp_seq=1 Destination Host Unreachable
+2022-02-21 10:29:58 - commonFunc.py - [line:30] - root - INFO - From 10.112.97.60 icmp_seq=2 Destination Host Unreachable
+2022-02-21 10:29:58 - commonFunc.py - [line:30] - root - INFO - From 10.112.97.60 icmp_seq=3 Destination Host Unreachable
+2022-02-21 10:29:58 - commonFunc.py - [line:30] - root - INFO - 
+2022-02-21 10:29:58 - commonFunc.py - [line:30] - root - INFO - --- 10.112.97.62 ping statistics ---
+2022-02-21 10:29:58 - commonFunc.py - [line:30] - root - INFO - 3 packets transmitted, 0 received, +3 errors, 100% packet loss, time 33ms
+2022-02-21 10:29:58 - commonFunc.py - [line:30] - root - INFO - pipe 3
+2022-02-21 10:29:58 - commonFunc.py - [line:30] - root - INFO - 
+2022-02-21 10:29:58 - commonFunc.py - [line:31] - root - INFO - finished exeucting the cmd: ping -w 5 10.112.97.62
+2022-02-21 10:30:03 - commonFunc.py - [line:16] - root - INFO - starting to execute the cmd: ping -w 5 10.112.97.62....
+2022-02-21 10:30:06 - commonFunc.py - [line:30] - root - INFO - PING 10.112.97.62 (10.112.97.62) 56(84) bytes of data.
+2022-02-21 10:30:06 - commonFunc.py - [line:30] - root - INFO - From 10.112.97.60 icmp_seq=1 Destination Host Unreachable
+2022-02-21 10:30:06 - commonFunc.py - [line:30] - root - INFO - From 10.112.97.60 icmp_seq=2 Destination Host Unreachable
+2022-02-21 10:30:06 - commonFunc.py - [line:30] - root - INFO - From 10.112.97.60 icmp_seq=3 Destination Host Unreachable
+2022-02-21 10:30:06 - commonFunc.py - [line:30] - root - INFO - 
+2022-02-21 10:30:06 - commonFunc.py - [line:30] - root - INFO - --- 10.112.97.62 ping statistics ---
+2022-02-21 10:30:06 - commonFunc.py - [line:30] - root - INFO - 3 packets transmitted, 0 received, +3 errors, 100% packet loss, time 33ms
+2022-02-21 10:30:06 - commonFunc.py - [line:30] - root - INFO - pipe 3
+2022-02-21 10:30:06 - commonFunc.py - [line:30] - root - INFO - 
+2022-02-21 10:30:06 - commonFunc.py - [line:31] - root - INFO - finished exeucting the cmd: ping -w 5 10.112.97.62
+2022-02-21 10:30:11 - commonFunc.py - [line:16] - root - INFO - starting to execute the cmd: ping -w 5 10.112.97.62....
+2022-02-21 10:30:14 - commonFunc.py - [line:30] - root - INFO - PING 10.112.97.62 (10.112.97.62) 56(84) bytes of data.
+2022-02-21 10:30:14 - commonFunc.py - [line:30] - root - INFO - From 10.112.97.60 icmp_seq=1 Destination Host Unreachable
+2022-02-21 10:30:14 - commonFunc.py - [line:30] - root - INFO - From 10.112.97.60 icmp_seq=2 Destination Host Unreachable
+2022-02-21 10:30:14 - commonFunc.py - [line:30] - root - INFO - From 10.112.97.60 icmp_seq=3 Destination Host Unreachable
+2022-02-21 10:30:14 - commonFunc.py - [line:30] - root - INFO - 
+2022-02-21 10:30:14 - commonFunc.py - [line:30] - root - INFO - --- 10.112.97.62 ping statistics ---
+2022-02-21 10:30:14 - commonFunc.py - [line:30] - root - INFO - 3 packets transmitted, 0 received, +3 errors, 100% packet loss, time 33ms
+2022-02-21 10:30:14 - commonFunc.py - [line:30] - root - INFO - pipe 3
+2022-02-21 10:30:14 - commonFunc.py - [line:30] - root - INFO - 
+2022-02-21 10:30:14 - commonFunc.py - [line:31] - root - INFO - finished exeucting the cmd: ping -w 5 10.112.97.62
+2022-02-21 10:30:19 - commonFunc.py - [line:16] - root - INFO - starting to execute the cmd: ping -w 5 10.112.97.62....
+2022-02-21 10:30:22 - commonFunc.py - [line:30] - root - INFO - PING 10.112.97.62 (10.112.97.62) 56(84) bytes of data.
+2022-02-21 10:30:22 - commonFunc.py - [line:30] - root - INFO - From 10.112.97.60 icmp_seq=1 Destination Host Unreachable
+2022-02-21 10:30:22 - commonFunc.py - [line:30] - root - INFO - From 10.112.97.60 icmp_seq=2 Destination Host Unreachable
+2022-02-21 10:30:22 - commonFunc.py - [line:30] - root - INFO - From 10.112.97.60 icmp_seq=3 Destination Host Unreachable
+2022-02-21 10:30:22 - commonFunc.py - [line:30] - root - INFO - 
+2022-02-21 10:30:22 - commonFunc.py - [line:30] - root - INFO - --- 10.112.97.62 ping statistics ---
+2022-02-21 10:30:22 - commonFunc.py - [line:30] - root - INFO - 3 packets transmitted, 0 received, +3 errors, 100% packet loss, time 33ms
+2022-02-21 10:30:22 - commonFunc.py - [line:30] - root - INFO - pipe 3
+2022-02-21 10:30:22 - commonFunc.py - [line:30] - root - INFO - 
+2022-02-21 10:30:22 - commonFunc.py - [line:31] - root - INFO - finished exeucting the cmd: ping -w 5 10.112.97.62
+2022-02-21 10:30:27 - commonFunc.py - [line:16] - root - INFO - starting to execute the cmd: ping -w 5 10.112.97.62....
+2022-02-21 10:30:30 - commonFunc.py - [line:30] - root - INFO - PING 10.112.97.62 (10.112.97.62) 56(84) bytes of data.
+2022-02-21 10:30:30 - commonFunc.py - [line:30] - root - INFO - From 10.112.97.60 icmp_seq=1 Destination Host Unreachable
+2022-02-21 10:30:30 - commonFunc.py - [line:30] - root - INFO - From 10.112.97.60 icmp_seq=2 Destination Host Unreachable
+2022-02-21 10:30:30 - commonFunc.py - [line:30] - root - INFO - From 10.112.97.60 icmp_seq=3 Destination Host Unreachable
+2022-02-21 10:30:30 - commonFunc.py - [line:30] - root - INFO - 
+2022-02-21 10:30:30 - commonFunc.py - [line:30] - root - INFO - --- 10.112.97.62 ping statistics ---
+2022-02-21 10:30:30 - commonFunc.py - [line:30] - root - INFO - 3 packets transmitted, 0 received, +3 errors, 100% packet loss, time 32ms
+2022-02-21 10:30:30 - commonFunc.py - [line:30] - root - INFO - pipe 3
+2022-02-21 10:30:30 - commonFunc.py - [line:30] - root - INFO - 
+2022-02-21 10:30:30 - commonFunc.py - [line:31] - root - INFO - finished exeucting the cmd: ping -w 5 10.112.97.62
+2022-02-21 10:30:35 - commonFunc.py - [line:16] - root - INFO - starting to execute the cmd: ping -w 5 10.112.97.62....
+2022-02-21 10:30:38 - commonFunc.py - [line:30] - root - INFO - PING 10.112.97.62 (10.112.97.62) 56(84) bytes of data.
+2022-02-21 10:30:38 - commonFunc.py - [line:30] - root - INFO - From 10.112.97.60 icmp_seq=1 Destination Host Unreachable
+2022-02-21 10:30:38 - commonFunc.py - [line:30] - root - INFO - From 10.112.97.60 icmp_seq=2 Destination Host Unreachable
+2022-02-21 10:30:38 - commonFunc.py - [line:30] - root - INFO - From 10.112.97.60 icmp_seq=3 Destination Host Unreachable
+2022-02-21 10:30:38 - commonFunc.py - [line:30] - root - INFO - 
+2022-02-21 10:30:38 - commonFunc.py - [line:30] - root - INFO - --- 10.112.97.62 ping statistics ---
+2022-02-21 10:30:38 - commonFunc.py - [line:30] - root - INFO - 3 packets transmitted, 0 received, +3 errors, 100% packet loss, time 32ms
+2022-02-21 10:30:38 - commonFunc.py - [line:30] - root - INFO - pipe 3
+2022-02-21 10:30:38 - commonFunc.py - [line:30] - root - INFO - 
+2022-02-21 10:30:38 - commonFunc.py - [line:31] - root - INFO - finished exeucting the cmd: ping -w 5 10.112.97.62
+2022-02-21 10:30:43 - commonFunc.py - [line:16] - root - INFO - starting to execute the cmd: ping -w 5 10.112.97.62....
+2022-02-21 10:30:46 - commonFunc.py - [line:30] - root - INFO - PING 10.112.97.62 (10.112.97.62) 56(84) bytes of data.
+2022-02-21 10:30:46 - commonFunc.py - [line:30] - root - INFO - From 10.112.97.60 icmp_seq=1 Destination Host Unreachable
+2022-02-21 10:30:46 - commonFunc.py - [line:30] - root - INFO - From 10.112.97.60 icmp_seq=2 Destination Host Unreachable
+2022-02-21 10:30:46 - commonFunc.py - [line:30] - root - INFO - From 10.112.97.60 icmp_seq=3 Destination Host Unreachable
+2022-02-21 10:30:46 - commonFunc.py - [line:30] - root - INFO - 
+2022-02-21 10:30:46 - commonFunc.py - [line:30] - root - INFO - --- 10.112.97.62 ping statistics ---
+2022-02-21 10:30:46 - commonFunc.py - [line:30] - root - INFO - 3 packets transmitted, 0 received, +3 errors, 100% packet loss, time 33ms
+2022-02-21 10:30:46 - commonFunc.py - [line:30] - root - INFO - pipe 3
+2022-02-21 10:30:46 - commonFunc.py - [line:30] - root - INFO - 
+2022-02-21 10:30:46 - commonFunc.py - [line:31] - root - INFO - finished exeucting the cmd: ping -w 5 10.112.97.62
+2022-02-21 10:30:51 - commonFunc.py - [line:16] - root - INFO - starting to execute the cmd: ping -w 5 10.112.97.62....
+2022-02-21 10:30:56 - commonFunc.py - [line:30] - root - INFO - PING 10.112.97.62 (10.112.97.62) 56(84) bytes of data.
+2022-02-21 10:30:56 - commonFunc.py - [line:30] - root - INFO - 64 bytes from 10.112.97.62: icmp_seq=1 ttl=64 time=2265 ms
+2022-02-21 10:30:56 - commonFunc.py - [line:30] - root - INFO - 64 bytes from 10.112.97.62: icmp_seq=2 ttl=64 time=1259 ms
+2022-02-21 10:30:56 - commonFunc.py - [line:30] - root - INFO - 64 bytes from 10.112.97.62: icmp_seq=3 ttl=64 time=235 ms
+2022-02-21 10:30:56 - commonFunc.py - [line:30] - root - INFO - 64 bytes from 10.112.97.62: icmp_seq=4 ttl=64 time=0.177 ms
+2022-02-21 10:30:56 - commonFunc.py - [line:30] - root - INFO - 64 bytes from 10.112.97.62: icmp_seq=5 ttl=64 time=0.182 ms
+2022-02-21 10:30:56 - commonFunc.py - [line:30] - root - INFO - 
+2022-02-21 10:30:56 - commonFunc.py - [line:30] - root - INFO - --- 10.112.97.62 ping statistics ---
+2022-02-21 10:30:56 - commonFunc.py - [line:30] - root - INFO - 5 packets transmitted, 5 received, 0% packet loss, time 82ms
+2022-02-21 10:30:56 - commonFunc.py - [line:30] - root - INFO - rtt min/avg/max/mdev = 0.177/751.985/2265.368/888.266 ms, pipe 3
+2022-02-21 10:30:56 - commonFunc.py - [line:30] - root - INFO - 
+2022-02-21 10:30:56 - commonFunc.py - [line:31] - root - INFO - finished exeucting the cmd: ping -w 5 10.112.97.62
+2022-02-21 10:30:56 - transport.py - [line:1819] - paramiko.transport - INFO - Connected (version 2.0, client OpenSSH_8.0)
+2022-02-21 10:30:56 - transport.py - [line:1819] - paramiko.transport - INFO - Authentication (password) successful!
+2022-02-21 10:30:56 - sshInstance.py - [line:28] - root - INFO - SSH on SUT: 10.112.97.62
+2022-02-21 10:31:02 - sshInstance.py - [line:92] - root - INFO - Activate the web console with: systemctl enable --now cockpit.socket
+This system is not registered to Red Hat Insights. See https://cloud.redhat.com/
+To register this system, run: insights-client --register
+Last login: Mon Feb 21 10:40:46 2022
+[root@WW25ICX2 ~]# ifconfig ens2f0 192.168.10.12
+[root@WW25ICX2 ~]# 
+2022-02-21 10:31:09 - sshInstance.py - [line:69] - root - INFO - ping -c 5 192.168.10.11
+PING 192.168.10.11 (192.168.10.11) 56(84) bytes of data.
+64 bytes from 192.168.10.11: icmp_seq=1 ttl=64 time=0.226 ms
+2022-02-21 10:31:10 - sshInstance.py - [line:69] - root - INFO - 64 bytes from 192.168.10.11: icmp_seq=2 ttl=64 time=0.074 ms
+2022-02-21 10:31:11 - sshInstance.py - [line:69] - root - INFO - 64 bytes from 192.168.10.11: icmp_seq=3 ttl=64 time=0.219 ms
+2022-02-21 10:31:12 - sshInstance.py - [line:69] - root - INFO - 64 bytes from 192.168.10.11: icmp_seq=4 ttl=64 time=0.169 ms
+2022-02-21 10:31:13 - sshInstance.py - [line:69] - root - INFO - 64 bytes from 192.168.10.11: icmp_seq=5 ttl=64 time=0.190 ms
+
+--- 192.168.10.11 ping statistics ---
+5 packets transmitted, 5 received, 0% packet loss, time 4079ms
+rtt min/avg/max/mdev = 0.074/0.175/0.226/0.056 ms
+[root@WW25ICX2 ~]# 
+2022-02-21 10:31:20 - sshInstance.py - [line:69] - root - INFO - ping6 -c 5 -I ens2f0 fe80::b696:91ff:fea5:9b45
+ping6: Warning: source address might be selected on device other than ens2f0.
+PING fe80::b696:91ff:fea5:9b45(fe80::b696:91ff:fea5:9b45) from :: ens2f0: 56 data bytes
+64 bytes from fe80::b696:91ff:fea5:9b45%ens2f0: icmp_seq=1 ttl=64 time=0.235 ms
+2022-02-21 10:31:21 - sshInstance.py - [line:69] - root - INFO - 64 bytes from fe80::b696:91ff:fea5:9b45%ens2f0: icmp_seq=2 ttl=64 time=0.193 ms
+2022-02-21 10:31:22 - sshInstance.py - [line:69] - root - INFO - 64 bytes from fe80::b696:91ff:fea5:9b45%ens2f0: icmp_seq=3 ttl=64 time=0.162 ms
+2022-02-21 10:31:23 - sshInstance.py - [line:69] - root - INFO - 64 bytes from fe80::b696:91ff:fea5:9b45%ens2f0: icmp_seq=4 ttl=64 time=0.064 ms
+2022-02-21 10:31:24 - sshInstance.py - [line:69] - root - INFO - 64 bytes from fe80::b696:91ff:fea5:9b45%ens2f0: icmp_seq=5 ttl=64 time=0.155 ms
+
+--- fe80::b696:91ff:fea5:9b45 ping statistics ---
+5 packets transmitted, 5 received, 0% packet loss, time 4136ms
+rtt min/avg/max/mdev = 0.064/0.161/0.235/0.058 ms
+[root@WW25ICX2 ~]# 
+2022-02-21 10:31:33 - sshInstance.py - [line:92] - root - INFO - reboot
+
+2022-02-21 10:31:36 - sshInstance.py - [line:138] - root - INFO - sut server reboot, please wait ......
+2022-02-21 10:32:36 - commonFunc.py - [line:16] - root - INFO - starting to execute the cmd: ping -w 5 10.112.97.62....
+2022-02-21 10:32:41 - commonFunc.py - [line:30] - root - INFO - PING 10.112.97.62 (10.112.97.62) 56(84) bytes of data.
+2022-02-21 10:32:41 - commonFunc.py - [line:30] - root - INFO - 
+2022-02-21 10:32:41 - commonFunc.py - [line:30] - root - INFO - --- 10.112.97.62 ping statistics ---
+2022-02-21 10:32:41 - commonFunc.py - [line:30] - root - INFO - 5 packets transmitted, 0 received, 100% packet loss, time 125ms
+2022-02-21 10:32:41 - commonFunc.py - [line:30] - root - INFO - 
+2022-02-21 10:32:41 - commonFunc.py - [line:30] - root - INFO - 
+2022-02-21 10:32:41 - commonFunc.py - [line:31] - root - INFO - finished exeucting the cmd: ping -w 5 10.112.97.62
+2022-02-21 10:32:46 - commonFunc.py - [line:16] - root - INFO - starting to execute the cmd: ping -w 5 10.112.97.62....
+2022-02-21 10:32:50 - commonFunc.py - [line:30] - root - INFO - PING 10.112.97.62 (10.112.97.62) 56(84) bytes of data.
+2022-02-21 10:32:50 - commonFunc.py - [line:30] - root - INFO - From 10.112.97.60 icmp_seq=1 Destination Host Unreachable
+2022-02-21 10:32:50 - commonFunc.py - [line:30] - root - INFO - From 10.112.97.60 icmp_seq=2 Destination Host Unreachable
+2022-02-21 10:32:50 - commonFunc.py - [line:30] - root - INFO - From 10.112.97.60 icmp_seq=3 Destination Host Unreachable
+2022-02-21 10:32:50 - commonFunc.py - [line:30] - root - INFO - 
+2022-02-21 10:32:50 - commonFunc.py - [line:30] - root - INFO - --- 10.112.97.62 ping statistics ---
+2022-02-21 10:32:50 - commonFunc.py - [line:30] - root - INFO - 3 packets transmitted, 0 received, +3 errors, 100% packet loss, time 50ms
+2022-02-21 10:32:50 - commonFunc.py - [line:30] - root - INFO - pipe 3
+2022-02-21 10:32:50 - commonFunc.py - [line:30] - root - INFO - 
+2022-02-21 10:32:50 - commonFunc.py - [line:31] - root - INFO - finished exeucting the cmd: ping -w 5 10.112.97.62
+2022-02-21 10:32:55 - commonFunc.py - [line:16] - root - INFO - starting to execute the cmd: ping -w 5 10.112.97.62....
+2022-02-21 10:32:58 - commonFunc.py - [line:30] - root - INFO - PING 10.112.97.62 (10.112.97.62) 56(84) bytes of data.
+2022-02-21 10:32:58 - commonFunc.py - [line:30] - root - INFO - From 10.112.97.60 icmp_seq=1 Destination Host Unreachable
+2022-02-21 10:32:58 - commonFunc.py - [line:30] - root - INFO - From 10.112.97.60 icmp_seq=2 Destination Host Unreachable
+2022-02-21 10:32:58 - commonFunc.py - [line:30] - root - INFO - From 10.112.97.60 icmp_seq=3 Destination Host Unreachable
+2022-02-21 10:32:58 - commonFunc.py - [line:30] - root - INFO - 
+2022-02-21 10:32:58 - commonFunc.py - [line:30] - root - INFO - --- 10.112.97.62 ping statistics ---
+2022-02-21 10:32:58 - commonFunc.py - [line:30] - root - INFO - 3 packets transmitted, 0 received, +3 errors, 100% packet loss, time 33ms
+2022-02-21 10:32:58 - commonFunc.py - [line:30] - root - INFO - pipe 3
+2022-02-21 10:32:58 - commonFunc.py - [line:30] - root - INFO - 
+2022-02-21 10:32:58 - commonFunc.py - [line:31] - root - INFO - finished exeucting the cmd: ping -w 5 10.112.97.62
+2022-02-21 10:33:03 - commonFunc.py - [line:16] - root - INFO - starting to execute the cmd: ping -w 5 10.112.97.62....
+2022-02-21 10:33:06 - commonFunc.py - [line:30] - root - INFO - PING 10.112.97.62 (10.112.97.62) 56(84) bytes of data.
+2022-02-21 10:33:06 - commonFunc.py - [line:30] - root - INFO - From 10.112.97.60 icmp_seq=1 Destination Host Unreachable
+2022-02-21 10:33:06 - commonFunc.py - [line:30] - root - INFO - From 10.112.97.60 icmp_seq=2 Destination Host Unreachable
+2022-02-21 10:33:06 - commonFunc.py - [line:30] - root - INFO - From 10.112.97.60 icmp_seq=3 Destination Host Unreachable
+2022-02-21 10:33:06 - commonFunc.py - [line:30] - root - INFO - 
+2022-02-21 10:33:06 - commonFunc.py - [line:30] - root - INFO - --- 10.112.97.62 ping statistics ---
+2022-02-21 10:33:06 - commonFunc.py - [line:30] - root - INFO - 3 packets transmitted, 0 received, +3 errors, 100% packet loss, time 32ms
+2022-02-21 10:33:06 - commonFunc.py - [line:30] - root - INFO - pipe 3
+2022-02-21 10:33:06 - commonFunc.py - [line:30] - root - INFO - 
+2022-02-21 10:33:06 - commonFunc.py - [line:31] - root - INFO - finished exeucting the cmd: ping -w 5 10.112.97.62
+2022-02-21 10:33:11 - commonFunc.py - [line:16] - root - INFO - starting to execute the cmd: ping -w 5 10.112.97.62....
+2022-02-21 10:33:14 - commonFunc.py - [line:30] - root - INFO - PING 10.112.97.62 (10.112.97.62) 56(84) bytes of data.
+2022-02-21 10:33:14 - commonFunc.py - [line:30] - root - INFO - From 10.112.97.60 icmp_seq=1 Destination Host Unreachable
+2022-02-21 10:33:14 - commonFunc.py - [line:30] - root - INFO - From 10.112.97.60 icmp_seq=2 Destination Host Unreachable
+2022-02-21 10:33:14 - commonFunc.py - [line:30] - root - INFO - From 10.112.97.60 icmp_seq=3 Destination Host Unreachable
+2022-02-21 10:33:14 - commonFunc.py - [line:30] - root - INFO - 
+2022-02-21 10:33:14 - commonFunc.py - [line:30] - root - INFO - --- 10.112.97.62 ping statistics ---
+2022-02-21 10:33:14 - commonFunc.py - [line:30] - root - INFO - 3 packets transmitted, 0 received, +3 errors, 100% packet loss, time 32ms
+2022-02-21 10:33:14 - commonFunc.py - [line:30] - root - INFO - pipe 3
+2022-02-21 10:33:14 - commonFunc.py - [line:30] - root - INFO - 
+2022-02-21 10:33:14 - commonFunc.py - [line:31] - root - INFO - finished exeucting the cmd: ping -w 5 10.112.97.62
+2022-02-21 10:33:19 - commonFunc.py - [line:16] - root - INFO - starting to execute the cmd: ping -w 5 10.112.97.62....
+2022-02-21 10:33:22 - commonFunc.py - [line:30] - root - INFO - PING 10.112.97.62 (10.112.97.62) 56(84) bytes of data.
+2022-02-21 10:33:22 - commonFunc.py - [line:30] - root - INFO - From 10.112.97.60 icmp_seq=1 Destination Host Unreachable
+2022-02-21 10:33:22 - commonFunc.py - [line:30] - root - INFO - From 10.112.97.60 icmp_seq=2 Destination Host Unreachable
+2022-02-21 10:33:22 - commonFunc.py - [line:30] - root - INFO - From 10.112.97.60 icmp_seq=3 Destination Host Unreachable
+2022-02-21 10:33:22 - commonFunc.py - [line:30] - root - INFO - 
+2022-02-21 10:33:22 - commonFunc.py - [line:30] - root - INFO - --- 10.112.97.62 ping statistics ---
+2022-02-21 10:33:22 - commonFunc.py - [line:30] - root - INFO - 3 packets transmitted, 0 received, +3 errors, 100% packet loss, time 33ms
+2022-02-21 10:33:22 - commonFunc.py - [line:30] - root - INFO - pipe 3
+2022-02-21 10:33:22 - commonFunc.py - [line:30] - root - INFO - 
+2022-02-21 10:33:22 - commonFunc.py - [line:31] - root - INFO - finished exeucting the cmd: ping -w 5 10.112.97.62
+2022-02-21 10:33:27 - commonFunc.py - [line:16] - root - INFO - starting to execute the cmd: ping -w 5 10.112.97.62....
+2022-02-21 10:33:30 - commonFunc.py - [line:30] - root - INFO - PING 10.112.97.62 (10.112.97.62) 56(84) bytes of data.
+2022-02-21 10:33:30 - commonFunc.py - [line:30] - root - INFO - From 10.112.97.60 icmp_seq=1 Destination Host Unreachable
+2022-02-21 10:33:30 - commonFunc.py - [line:30] - root - INFO - From 10.112.97.60 icmp_seq=2 Destination Host Unreachable
+2022-02-21 10:33:30 - commonFunc.py - [line:30] - root - INFO - From 10.112.97.60 icmp_seq=3 Destination Host Unreachable
+2022-02-21 10:33:30 - commonFunc.py - [line:30] - root - INFO - 
+2022-02-21 10:33:30 - commonFunc.py - [line:30] - root - INFO - --- 10.112.97.62 ping statistics ---
+2022-02-21 10:33:30 - commonFunc.py - [line:30] - root - INFO - 3 packets transmitted, 0 received, +3 errors, 100% packet loss, time 32ms
+2022-02-21 10:33:30 - commonFunc.py - [line:30] - root - INFO - pipe 3
+2022-02-21 10:33:30 - commonFunc.py - [line:30] - root - INFO - 
+2022-02-21 10:33:30 - commonFunc.py - [line:31] - root - INFO - finished exeucting the cmd: ping -w 5 10.112.97.62
+2022-02-21 10:33:35 - commonFunc.py - [line:16] - root - INFO - starting to execute the cmd: ping -w 5 10.112.97.62....
+2022-02-21 10:33:38 - commonFunc.py - [line:30] - root - INFO - PING 10.112.97.62 (10.112.97.62) 56(84) bytes of data.
+2022-02-21 10:33:38 - commonFunc.py - [line:30] - root - INFO - From 10.112.97.60 icmp_seq=1 Destination Host Unreachable
+2022-02-21 10:33:38 - commonFunc.py - [line:30] - root - INFO - From 10.112.97.60 icmp_seq=2 Destination Host Unreachable
+2022-02-21 10:33:38 - commonFunc.py - [line:30] - root - INFO - From 10.112.97.60 icmp_seq=3 Destination Host Unreachable
+2022-02-21 10:33:38 - commonFunc.py - [line:30] - root - INFO - 
+2022-02-21 10:33:38 - commonFunc.py - [line:30] - root - INFO - --- 10.112.97.62 ping statistics ---
+2022-02-21 10:33:38 - commonFunc.py - [line:30] - root - INFO - 3 packets transmitted, 0 received, +3 errors, 100% packet loss, time 32ms
+2022-02-21 10:33:38 - commonFunc.py - [line:30] - root - INFO - pipe 3
+2022-02-21 10:33:38 - commonFunc.py - [line:30] - root - INFO - 
+2022-02-21 10:33:38 - commonFunc.py - [line:31] - root - INFO - finished exeucting the cmd: ping -w 5 10.112.97.62
+2022-02-21 10:33:43 - commonFunc.py - [line:16] - root - INFO - starting to execute the cmd: ping -w 5 10.112.97.62....
+2022-02-21 10:33:46 - commonFunc.py - [line:30] - root - INFO - PING 10.112.97.62 (10.112.97.62) 56(84) bytes of data.
+2022-02-21 10:33:46 - commonFunc.py - [line:30] - root - INFO - From 10.112.97.60 icmp_seq=1 Destination Host Unreachable
+2022-02-21 10:33:46 - commonFunc.py - [line:30] - root - INFO - From 10.112.97.60 icmp_seq=2 Destination Host Unreachable
+2022-02-21 10:33:46 - commonFunc.py - [line:30] - root - INFO - From 10.112.97.60 icmp_seq=3 Destination Host Unreachable
+2022-02-21 10:33:46 - commonFunc.py - [line:30] - root - INFO - 
+2022-02-21 10:33:46 - commonFunc.py - [line:30] - root - INFO - --- 10.112.97.62 ping statistics ---
+2022-02-21 10:33:46 - commonFunc.py - [line:30] - root - INFO - 3 packets transmitted, 0 received, +3 errors, 100% packet loss, time 33ms
+2022-02-21 10:33:46 - commonFunc.py - [line:30] - root - INFO - pipe 3
+2022-02-21 10:33:46 - commonFunc.py - [line:30] - root - INFO - 
+2022-02-21 10:33:46 - commonFunc.py - [line:31] - root - INFO - finished exeucting the cmd: ping -w 5 10.112.97.62
+2022-02-21 10:33:51 - commonFunc.py - [line:16] - root - INFO - starting to execute the cmd: ping -w 5 10.112.97.62....
+2022-02-21 10:33:54 - commonFunc.py - [line:30] - root - INFO - PING 10.112.97.62 (10.112.97.62) 56(84) bytes of data.
+2022-02-21 10:33:54 - commonFunc.py - [line:30] - root - INFO - From 10.112.97.60 icmp_seq=1 Destination Host Unreachable
+2022-02-21 10:33:54 - commonFunc.py - [line:30] - root - INFO - From 10.112.97.60 icmp_seq=2 Destination Host Unreachable
+2022-02-21 10:33:54 - commonFunc.py - [line:30] - root - INFO - From 10.112.97.60 icmp_seq=3 Destination Host Unreachable
+2022-02-21 10:33:54 - commonFunc.py - [line:30] - root - INFO - 
+2022-02-21 10:33:54 - commonFunc.py - [line:30] - root - INFO - --- 10.112.97.62 ping statistics ---
+2022-02-21 10:33:54 - commonFunc.py - [line:30] - root - INFO - 3 packets transmitted, 0 received, +3 errors, 100% packet loss, time 33ms
+2022-02-21 10:33:54 - commonFunc.py - [line:30] - root - INFO - pipe 3
+2022-02-21 10:33:54 - commonFunc.py - [line:30] - root - INFO - 
+2022-02-21 10:33:54 - commonFunc.py - [line:31] - root - INFO - finished exeucting the cmd: ping -w 5 10.112.97.62
+2022-02-21 10:33:59 - commonFunc.py - [line:16] - root - INFO - starting to execute the cmd: ping -w 5 10.112.97.62....
+2022-02-21 10:34:02 - commonFunc.py - [line:30] - root - INFO - PING 10.112.97.62 (10.112.97.62) 56(84) bytes of data.
+2022-02-21 10:34:02 - commonFunc.py - [line:30] - root - INFO - From 10.112.97.60 icmp_seq=1 Destination Host Unreachable
+2022-02-21 10:34:02 - commonFunc.py - [line:30] - root - INFO - From 10.112.97.60 icmp_seq=2 Destination Host Unreachable
+2022-02-21 10:34:02 - commonFunc.py - [line:30] - root - INFO - From 10.112.97.60 icmp_seq=3 Destination Host Unreachable
+2022-02-21 10:34:02 - commonFunc.py - [line:30] - root - INFO - 
+2022-02-21 10:34:02 - commonFunc.py - [line:30] - root - INFO - --- 10.112.97.62 ping statistics ---
+2022-02-21 10:34:02 - commonFunc.py - [line:30] - root - INFO - 3 packets transmitted, 0 received, +3 errors, 100% packet loss, time 33ms
+2022-02-21 10:34:02 - commonFunc.py - [line:30] - root - INFO - pipe 3
+2022-02-21 10:34:02 - commonFunc.py - [line:30] - root - INFO - 
+2022-02-21 10:34:02 - commonFunc.py - [line:31] - root - INFO - finished exeucting the cmd: ping -w 5 10.112.97.62
+2022-02-21 10:34:07 - commonFunc.py - [line:16] - root - INFO - starting to execute the cmd: ping -w 5 10.112.97.62....
+2022-02-21 10:34:10 - commonFunc.py - [line:30] - root - INFO - PING 10.112.97.62 (10.112.97.62) 56(84) bytes of data.
+2022-02-21 10:34:10 - commonFunc.py - [line:30] - root - INFO - From 10.112.97.60 icmp_seq=1 Destination Host Unreachable
+2022-02-21 10:34:10 - commonFunc.py - [line:30] - root - INFO - From 10.112.97.60 icmp_seq=2 Destination Host Unreachable
+2022-02-21 10:34:10 - commonFunc.py - [line:30] - root - INFO - From 10.112.97.60 icmp_seq=3 Destination Host Unreachable
+2022-02-21 10:34:10 - commonFunc.py - [line:30] - root - INFO - 
+2022-02-21 10:34:10 - commonFunc.py - [line:30] - root - INFO - --- 10.112.97.62 ping statistics ---
+2022-02-21 10:34:10 - commonFunc.py - [line:30] - root - INFO - 3 packets transmitted, 0 received, +3 errors, 100% packet loss, time 32ms
+2022-02-21 10:34:10 - commonFunc.py - [line:30] - root - INFO - pipe 3
+2022-02-21 10:34:10 - commonFunc.py - [line:30] - root - INFO - 
+2022-02-21 10:34:10 - commonFunc.py - [line:31] - root - INFO - finished exeucting the cmd: ping -w 5 10.112.97.62
+2022-02-21 10:34:15 - commonFunc.py - [line:16] - root - INFO - starting to execute the cmd: ping -w 5 10.112.97.62....
+2022-02-21 10:34:18 - commonFunc.py - [line:30] - root - INFO - PING 10.112.97.62 (10.112.97.62) 56(84) bytes of data.
+2022-02-21 10:34:18 - commonFunc.py - [line:30] - root - INFO - From 10.112.97.60 icmp_seq=1 Destination Host Unreachable
+2022-02-21 10:34:18 - commonFunc.py - [line:30] - root - INFO - From 10.112.97.60 icmp_seq=2 Destination Host Unreachable
+2022-02-21 10:34:18 - commonFunc.py - [line:30] - root - INFO - From 10.112.97.60 icmp_seq=3 Destination Host Unreachable
+2022-02-21 10:34:18 - commonFunc.py - [line:30] - root - INFO - 
+2022-02-21 10:34:18 - commonFunc.py - [line:30] - root - INFO - --- 10.112.97.62 ping statistics ---
+2022-02-21 10:34:18 - commonFunc.py - [line:30] - root - INFO - 3 packets transmitted, 0 received, +3 errors, 100% packet loss, time 33ms
+2022-02-21 10:34:18 - commonFunc.py - [line:30] - root - INFO - pipe 3
+2022-02-21 10:34:18 - commonFunc.py - [line:30] - root - INFO - 
+2022-02-21 10:34:18 - commonFunc.py - [line:31] - root - INFO - finished exeucting the cmd: ping -w 5 10.112.97.62
+2022-02-21 10:34:23 - commonFunc.py - [line:16] - root - INFO - starting to execute the cmd: ping -w 5 10.112.97.62....
+2022-02-21 10:34:26 - commonFunc.py - [line:30] - root - INFO - PING 10.112.97.62 (10.112.97.62) 56(84) bytes of data.
+2022-02-21 10:34:26 - commonFunc.py - [line:30] - root - INFO - From 10.112.97.60 icmp_seq=1 Destination Host Unreachable
+2022-02-21 10:34:26 - commonFunc.py - [line:30] - root - INFO - From 10.112.97.60 icmp_seq=2 Destination Host Unreachable
+2022-02-21 10:34:26 - commonFunc.py - [line:30] - root - INFO - From 10.112.97.60 icmp_seq=3 Destination Host Unreachable
+2022-02-21 10:34:26 - commonFunc.py - [line:30] - root - INFO - 
+2022-02-21 10:34:26 - commonFunc.py - [line:30] - root - INFO - --- 10.112.97.62 ping statistics ---
+2022-02-21 10:34:26 - commonFunc.py - [line:30] - root - INFO - 3 packets transmitted, 0 received, +3 errors, 100% packet loss, time 33ms
+2022-02-21 10:34:26 - commonFunc.py - [line:30] - root - INFO - pipe 3
+2022-02-21 10:34:26 - commonFunc.py - [line:30] - root - INFO - 
+2022-02-21 10:34:26 - commonFunc.py - [line:31] - root - INFO - finished exeucting the cmd: ping -w 5 10.112.97.62
+2022-02-21 10:34:31 - commonFunc.py - [line:16] - root - INFO - starting to execute the cmd: ping -w 5 10.112.97.62....
+2022-02-21 10:34:34 - commonFunc.py - [line:30] - root - INFO - PING 10.112.97.62 (10.112.97.62) 56(84) bytes of data.
+2022-02-21 10:34:34 - commonFunc.py - [line:30] - root - INFO - From 10.112.97.60 icmp_seq=1 Destination Host Unreachable
+2022-02-21 10:34:34 - commonFunc.py - [line:30] - root - INFO - From 10.112.97.60 icmp_seq=2 Destination Host Unreachable
+2022-02-21 10:34:34 - commonFunc.py - [line:30] - root - INFO - From 10.112.97.60 icmp_seq=3 Destination Host Unreachable
+2022-02-21 10:34:34 - commonFunc.py - [line:30] - root - INFO - 
+2022-02-21 10:34:34 - commonFunc.py - [line:30] - root - INFO - --- 10.112.97.62 ping statistics ---
+2022-02-21 10:34:34 - commonFunc.py - [line:30] - root - INFO - 3 packets transmitted, 0 received, +3 errors, 100% packet loss, time 32ms
+2022-02-21 10:34:34 - commonFunc.py - [line:30] - root - INFO - pipe 3
+2022-02-21 10:34:34 - commonFunc.py - [line:30] - root - INFO - 
+2022-02-21 10:34:34 - commonFunc.py - [line:31] - root - INFO - finished exeucting the cmd: ping -w 5 10.112.97.62
+2022-02-21 10:34:39 - commonFunc.py - [line:16] - root - INFO - starting to execute the cmd: ping -w 5 10.112.97.62....
+2022-02-21 10:34:42 - commonFunc.py - [line:30] - root - INFO - PING 10.112.97.62 (10.112.97.62) 56(84) bytes of data.
+2022-02-21 10:34:42 - commonFunc.py - [line:30] - root - INFO - From 10.112.97.60 icmp_seq=1 Destination Host Unreachable
+2022-02-21 10:34:42 - commonFunc.py - [line:30] - root - INFO - From 10.112.97.60 icmp_seq=2 Destination Host Unreachable
+2022-02-21 10:34:42 - commonFunc.py - [line:30] - root - INFO - From 10.112.97.60 icmp_seq=3 Destination Host Unreachable
+2022-02-21 10:34:42 - commonFunc.py - [line:30] - root - INFO - 
+2022-02-21 10:34:42 - commonFunc.py - [line:30] - root - INFO - --- 10.112.97.62 ping statistics ---
+2022-02-21 10:34:42 - commonFunc.py - [line:30] - root - INFO - 3 packets transmitted, 0 received, +3 errors, 100% packet loss, time 33ms
+2022-02-21 10:34:42 - commonFunc.py - [line:30] - root - INFO - pipe 3
+2022-02-21 10:34:42 - commonFunc.py - [line:30] - root - INFO - 
+2022-02-21 10:34:42 - commonFunc.py - [line:31] - root - INFO - finished exeucting the cmd: ping -w 5 10.112.97.62
+2022-02-21 10:34:47 - commonFunc.py - [line:16] - root - INFO - starting to execute the cmd: ping -w 5 10.112.97.62....
+2022-02-21 10:34:52 - commonFunc.py - [line:30] - root - INFO - PING 10.112.97.62 (10.112.97.62) 56(84) bytes of data.
+2022-02-21 10:34:52 - commonFunc.py - [line:30] - root - INFO - 64 bytes from 10.112.97.62: icmp_seq=1 ttl=64 time=1575 ms
+2022-02-21 10:34:52 - commonFunc.py - [line:30] - root - INFO - 64 bytes from 10.112.97.62: icmp_seq=2 ttl=64 time=569 ms
+2022-02-21 10:34:52 - commonFunc.py - [line:30] - root - INFO - 64 bytes from 10.112.97.62: icmp_seq=3 ttl=64 time=0.248 ms
+2022-02-21 10:34:52 - commonFunc.py - [line:30] - root - INFO - 64 bytes from 10.112.97.62: icmp_seq=4 ttl=64 time=0.220 ms
+2022-02-21 10:34:52 - commonFunc.py - [line:30] - root - INFO - 64 bytes from 10.112.97.62: icmp_seq=5 ttl=64 time=0.220 ms
+2022-02-21 10:34:52 - commonFunc.py - [line:30] - root - INFO - 
+2022-02-21 10:34:52 - commonFunc.py - [line:30] - root - INFO - --- 10.112.97.62 ping statistics ---
+2022-02-21 10:34:52 - commonFunc.py - [line:30] - root - INFO - 5 packets transmitted, 5 received, 0% packet loss, time 82ms
+2022-02-21 10:34:52 - commonFunc.py - [line:30] - root - INFO - rtt min/avg/max/mdev = 0.220/428.925/1575.117/613.949 ms, pipe 2
+2022-02-21 10:34:52 - commonFunc.py - [line:30] - root - INFO - 
+2022-02-21 10:34:52 - commonFunc.py - [line:31] - root - INFO - finished exeucting the cmd: ping -w 5 10.112.97.62
+2022-02-21 10:34:52 - transport.py - [line:1819] - paramiko.transport - INFO - Connected (version 2.0, client OpenSSH_8.0)
+2022-02-21 10:34:52 - transport.py - [line:1819] - paramiko.transport - INFO - Authentication (password) successful!
+2022-02-21 10:34:53 - sshInstance.py - [line:28] - root - INFO - SSH on SUT: 10.112.97.62
+2022-02-21 10:34:59 - sshInstance.py - [line:92] - root - INFO - Activate the web console with: systemctl enable --now cockpit.socket
+This system is not registered to Red Hat Insights. See https://cloud.redhat.com/
+To register this system, run: insights-client --register
+Last login: Mon Feb 21 10:44:41 2022
+[root@WW25ICX2 ~]# ifconfig ens2f0 192.168.10.12
+[root@WW25ICX2 ~]# 
+2022-02-21 10:35:06 - sshInstance.py - [line:69] - root - INFO - ping -c 5 192.168.10.11
+PING 192.168.10.11 (192.168.10.11) 56(84) bytes of data.
+64 bytes from 192.168.10.11: icmp_seq=1 ttl=64 time=0.323 ms
+2022-02-21 10:35:07 - sshInstance.py - [line:69] - root - INFO - 64 bytes from 192.168.10.11: icmp_seq=2 ttl=64 time=0.232 ms
+2022-02-21 10:35:08 - sshInstance.py - [line:69] - root - INFO - 64 bytes from 192.168.10.11: icmp_seq=3 ttl=64 time=0.155 ms
+2022-02-21 10:35:09 - sshInstance.py - [line:69] - root - INFO - 64 bytes from 192.168.10.11: icmp_seq=4 ttl=64 time=0.120 ms
+2022-02-21 10:35:10 - sshInstance.py - [line:69] - root - INFO - 64 bytes from 192.168.10.11: icmp_seq=5 ttl=64 time=0.159 ms
+
+--- 192.168.10.11 ping statistics ---
+5 packets transmitted, 5 received, 0% packet loss, time 4096ms
+rtt min/avg/max/mdev = 0.120/0.197/0.323/0.074 ms
+[root@WW25ICX2 ~]# 
+2022-02-21 10:35:17 - sshInstance.py - [line:69] - root - INFO - ping6 -c 5 -I ens2f0 fe80::b696:91ff:fea5:9b45
+ping6: Warning: source address might be selected on device other than ens2f0.
+PING fe80::b696:91ff:fea5:9b45(fe80::b696:91ff:fea5:9b45) from :: ens2f0: 56 data bytes
+64 bytes from fe80::b696:91ff:fea5:9b45%ens2f0: icmp_seq=1 ttl=64 time=0.299 ms
+2022-02-21 10:35:18 - sshInstance.py - [line:69] - root - INFO - 64 bytes from fe80::b696:91ff:fea5:9b45%ens2f0: icmp_seq=2 ttl=64 time=0.134 ms
+2022-02-21 10:35:19 - sshInstance.py - [line:69] - root - INFO - 64 bytes from fe80::b696:91ff:fea5:9b45%ens2f0: icmp_seq=3 ttl=64 time=0.179 ms
+2022-02-21 10:35:20 - sshInstance.py - [line:69] - root - INFO - 64 bytes from fe80::b696:91ff:fea5:9b45%ens2f0: icmp_seq=4 ttl=64 time=0.163 ms
+2022-02-21 10:35:21 - sshInstance.py - [line:69] - root - INFO - 64 bytes from fe80::b696:91ff:fea5:9b45%ens2f0: icmp_seq=5 ttl=64 time=0.183 ms
+
+--- fe80::b696:91ff:fea5:9b45 ping statistics ---
+5 packets transmitted, 5 received, 0% packet loss, time 4090ms
+rtt min/avg/max/mdev = 0.134/0.191/0.299/0.058 ms
+[root@WW25ICX2 ~]# 
+2022-02-21 10:35:30 - sshInstance.py - [line:92] - root - INFO - reboot
+
+2022-02-21 10:35:33 - sshInstance.py - [line:138] - root - INFO - sut server reboot, please wait ......
+2022-02-21 10:36:33 - commonFunc.py - [line:16] - root - INFO - starting to execute the cmd: ping -w 5 10.112.97.62....
+2022-02-21 10:36:38 - commonFunc.py - [line:30] - root - INFO - PING 10.112.97.62 (10.112.97.62) 56(84) bytes of data.
+2022-02-21 10:36:38 - commonFunc.py - [line:30] - root - INFO - 
+2022-02-21 10:36:38 - commonFunc.py - [line:30] - root - INFO - --- 10.112.97.62 ping statistics ---
+2022-02-21 10:36:38 - commonFunc.py - [line:30] - root - INFO - 5 packets transmitted, 0 received, 100% packet loss, time 130ms
+2022-02-21 10:36:38 - commonFunc.py - [line:30] - root - INFO - 
+2022-02-21 10:36:38 - commonFunc.py - [line:30] - root - INFO - 
+2022-02-21 10:36:38 - commonFunc.py - [line:31] - root - INFO - finished exeucting the cmd: ping -w 5 10.112.97.62
+2022-02-21 10:36:43 - commonFunc.py - [line:16] - root - INFO - starting to execute the cmd: ping -w 5 10.112.97.62....
+2022-02-21 10:36:46 - commonFunc.py - [line:30] - root - INFO - PING 10.112.97.62 (10.112.97.62) 56(84) bytes of data.
+2022-02-21 10:36:46 - commonFunc.py - [line:30] - root - INFO - From 10.112.97.60 icmp_seq=1 Destination Host Unreachable
+2022-02-21 10:36:46 - commonFunc.py - [line:30] - root - INFO - From 10.112.97.60 icmp_seq=2 Destination Host Unreachable
+2022-02-21 10:36:46 - commonFunc.py - [line:30] - root - INFO - From 10.112.97.60 icmp_seq=3 Destination Host Unreachable
+2022-02-21 10:36:46 - commonFunc.py - [line:30] - root - INFO - 
+2022-02-21 10:36:46 - commonFunc.py - [line:30] - root - INFO - --- 10.112.97.62 ping statistics ---
+2022-02-21 10:36:46 - commonFunc.py - [line:30] - root - INFO - 3 packets transmitted, 0 received, +3 errors, 100% packet loss, time 54ms
+2022-02-21 10:36:46 - commonFunc.py - [line:30] - root - INFO - pipe 3
+2022-02-21 10:36:46 - commonFunc.py - [line:30] - root - INFO - 
+2022-02-21 10:36:46 - commonFunc.py - [line:31] - root - INFO - finished exeucting the cmd: ping -w 5 10.112.97.62
+2022-02-21 10:36:51 - commonFunc.py - [line:16] - root - INFO - starting to execute the cmd: ping -w 5 10.112.97.62....
+2022-02-21 10:36:54 - commonFunc.py - [line:30] - root - INFO - PING 10.112.97.62 (10.112.97.62) 56(84) bytes of data.
+2022-02-21 10:36:54 - commonFunc.py - [line:30] - root - INFO - From 10.112.97.60 icmp_seq=1 Destination Host Unreachable
+2022-02-21 10:36:54 - commonFunc.py - [line:30] - root - INFO - From 10.112.97.60 icmp_seq=2 Destination Host Unreachable
+2022-02-21 10:36:54 - commonFunc.py - [line:30] - root - INFO - From 10.112.97.60 icmp_seq=3 Destination Host Unreachable
+2022-02-21 10:36:54 - commonFunc.py - [line:30] - root - INFO - 
+2022-02-21 10:36:54 - commonFunc.py - [line:30] - root - INFO - --- 10.112.97.62 ping statistics ---
+2022-02-21 10:36:54 - commonFunc.py - [line:30] - root - INFO - 3 packets transmitted, 0 received, +3 errors, 100% packet loss, time 33ms
+2022-02-21 10:36:54 - commonFunc.py - [line:30] - root - INFO - pipe 3
+2022-02-21 10:36:54 - commonFunc.py - [line:30] - root - INFO - 
+2022-02-21 10:36:54 - commonFunc.py - [line:31] - root - INFO - finished exeucting the cmd: ping -w 5 10.112.97.62
+2022-02-21 10:36:59 - commonFunc.py - [line:16] - root - INFO - starting to execute the cmd: ping -w 5 10.112.97.62....
+2022-02-21 10:37:02 - commonFunc.py - [line:30] - root - INFO - PING 10.112.97.62 (10.112.97.62) 56(84) bytes of data.
+2022-02-21 10:37:02 - commonFunc.py - [line:30] - root - INFO - From 10.112.97.60 icmp_seq=1 Destination Host Unreachable
+2022-02-21 10:37:02 - commonFunc.py - [line:30] - root - INFO - From 10.112.97.60 icmp_seq=2 Destination Host Unreachable
+2022-02-21 10:37:02 - commonFunc.py - [line:30] - root - INFO - From 10.112.97.60 icmp_seq=3 Destination Host Unreachable
+2022-02-21 10:37:02 - commonFunc.py - [line:30] - root - INFO - 
+2022-02-21 10:37:02 - commonFunc.py - [line:30] - root - INFO - --- 10.112.97.62 ping statistics ---
+2022-02-21 10:37:02 - commonFunc.py - [line:30] - root - INFO - 3 packets transmitted, 0 received, +3 errors, 100% packet loss, time 32ms
+2022-02-21 10:37:02 - commonFunc.py - [line:30] - root - INFO - pipe 3
+2022-02-21 10:37:02 - commonFunc.py - [line:30] - root - INFO - 
+2022-02-21 10:37:02 - commonFunc.py - [line:31] - root - INFO - finished exeucting the cmd: ping -w 5 10.112.97.62
+2022-02-21 10:37:07 - commonFunc.py - [line:16] - root - INFO - starting to execute the cmd: ping -w 5 10.112.97.62....
+2022-02-21 10:37:10 - commonFunc.py - [line:30] - root - INFO - PING 10.112.97.62 (10.112.97.62) 56(84) bytes of data.
+2022-02-21 10:37:10 - commonFunc.py - [line:30] - root - INFO - From 10.112.97.60 icmp_seq=1 Destination Host Unreachable
+2022-02-21 10:37:10 - commonFunc.py - [line:30] - root - INFO - From 10.112.97.60 icmp_seq=2 Destination Host Unreachable
+2022-02-21 10:37:10 - commonFunc.py - [line:30] - root - INFO - From 10.112.97.60 icmp_seq=3 Destination Host Unreachable
+2022-02-21 10:37:10 - commonFunc.py - [line:30] - root - INFO - 
+2022-02-21 10:37:10 - commonFunc.py - [line:30] - root - INFO - --- 10.112.97.62 ping statistics ---
+2022-02-21 10:37:10 - commonFunc.py - [line:30] - root - INFO - 3 packets transmitted, 0 received, +3 errors, 100% packet loss, time 32ms
+2022-02-21 10:37:10 - commonFunc.py - [line:30] - root - INFO - pipe 3
+2022-02-21 10:37:10 - commonFunc.py - [line:30] - root - INFO - 
+2022-02-21 10:37:10 - commonFunc.py - [line:31] - root - INFO - finished exeucting the cmd: ping -w 5 10.112.97.62
+2022-02-21 10:37:15 - commonFunc.py - [line:16] - root - INFO - starting to execute the cmd: ping -w 5 10.112.97.62....
+2022-02-21 10:37:18 - commonFunc.py - [line:30] - root - INFO - PING 10.112.97.62 (10.112.97.62) 56(84) bytes of data.
+2022-02-21 10:37:18 - commonFunc.py - [line:30] - root - INFO - From 10.112.97.60 icmp_seq=1 Destination Host Unreachable
+2022-02-21 10:37:18 - commonFunc.py - [line:30] - root - INFO - From 10.112.97.60 icmp_seq=2 Destination Host Unreachable
+2022-02-21 10:37:18 - commonFunc.py - [line:30] - root - INFO - From 10.112.97.60 icmp_seq=3 Destination Host Unreachable
+2022-02-21 10:37:18 - commonFunc.py - [line:30] - root - INFO - 
+2022-02-21 10:37:18 - commonFunc.py - [line:30] - root - INFO - --- 10.112.97.62 ping statistics ---
+2022-02-21 10:37:18 - commonFunc.py - [line:30] - root - INFO - 3 packets transmitted, 0 received, +3 errors, 100% packet loss, time 32ms
+2022-02-21 10:37:18 - commonFunc.py - [line:30] - root - INFO - pipe 3
+2022-02-21 10:37:18 - commonFunc.py - [line:30] - root - INFO - 
+2022-02-21 10:37:18 - commonFunc.py - [line:31] - root - INFO - finished exeucting the cmd: ping -w 5 10.112.97.62
+2022-02-21 10:37:23 - commonFunc.py - [line:16] - root - INFO - starting to execute the cmd: ping -w 5 10.112.97.62....
+2022-02-21 10:37:26 - commonFunc.py - [line:30] - root - INFO - PING 10.112.97.62 (10.112.97.62) 56(84) bytes of data.
+2022-02-21 10:37:26 - commonFunc.py - [line:30] - root - INFO - From 10.112.97.60 icmp_seq=1 Destination Host Unreachable
+2022-02-21 10:37:26 - commonFunc.py - [line:30] - root - INFO - From 10.112.97.60 icmp_seq=2 Destination Host Unreachable
+2022-02-21 10:37:26 - commonFunc.py - [line:30] - root - INFO - From 10.112.97.60 icmp_seq=3 Destination Host Unreachable
+2022-02-21 10:37:26 - commonFunc.py - [line:30] - root - INFO - 
+2022-02-21 10:37:26 - commonFunc.py - [line:30] - root - INFO - --- 10.112.97.62 ping statistics ---
+2022-02-21 10:37:26 - commonFunc.py - [line:30] - root - INFO - 3 packets transmitted, 0 received, +3 errors, 100% packet loss, time 32ms
+2022-02-21 10:37:26 - commonFunc.py - [line:30] - root - INFO - pipe 3
+2022-02-21 10:37:26 - commonFunc.py - [line:30] - root - INFO - 
+2022-02-21 10:37:26 - commonFunc.py - [line:31] - root - INFO - finished exeucting the cmd: ping -w 5 10.112.97.62
+2022-02-21 10:37:31 - commonFunc.py - [line:16] - root - INFO - starting to execute the cmd: ping -w 5 10.112.97.62....
+2022-02-21 10:37:34 - commonFunc.py - [line:30] - root - INFO - PING 10.112.97.62 (10.112.97.62) 56(84) bytes of data.
+2022-02-21 10:37:34 - commonFunc.py - [line:30] - root - INFO - From 10.112.97.60 icmp_seq=1 Destination Host Unreachable
+2022-02-21 10:37:34 - commonFunc.py - [line:30] - root - INFO - From 10.112.97.60 icmp_seq=2 Destination Host Unreachable
+2022-02-21 10:37:34 - commonFunc.py - [line:30] - root - INFO - From 10.112.97.60 icmp_seq=3 Destination Host Unreachable
+2022-02-21 10:37:34 - commonFunc.py - [line:30] - root - INFO - 
+2022-02-21 10:37:34 - commonFunc.py - [line:30] - root - INFO - --- 10.112.97.62 ping statistics ---
+2022-02-21 10:37:34 - commonFunc.py - [line:30] - root - INFO - 3 packets transmitted, 0 received, +3 errors, 100% packet loss, time 32ms
+2022-02-21 10:37:34 - commonFunc.py - [line:30] - root - INFO - pipe 3
+2022-02-21 10:37:34 - commonFunc.py - [line:30] - root - INFO - 
+2022-02-21 10:37:34 - commonFunc.py - [line:31] - root - INFO - finished exeucting the cmd: ping -w 5 10.112.97.62
+2022-02-21 10:37:39 - commonFunc.py - [line:16] - root - INFO - starting to execute the cmd: ping -w 5 10.112.97.62....
+2022-02-21 10:37:42 - commonFunc.py - [line:30] - root - INFO - PING 10.112.97.62 (10.112.97.62) 56(84) bytes of data.
+2022-02-21 10:37:42 - commonFunc.py - [line:30] - root - INFO - From 10.112.97.60 icmp_seq=1 Destination Host Unreachable
+2022-02-21 10:37:42 - commonFunc.py - [line:30] - root - INFO - From 10.112.97.60 icmp_seq=2 Destination Host Unreachable
+2022-02-21 10:37:42 - commonFunc.py - [line:30] - root - INFO - From 10.112.97.60 icmp_seq=3 Destination Host Unreachable
+2022-02-21 10:37:42 - commonFunc.py - [line:30] - root - INFO - 
+2022-02-21 10:37:42 - commonFunc.py - [line:30] - root - INFO - --- 10.112.97.62 ping statistics ---
+2022-02-21 10:37:42 - commonFunc.py - [line:30] - root - INFO - 3 packets transmitted, 0 received, +3 errors, 100% packet loss, time 32ms
+2022-02-21 10:37:42 - commonFunc.py - [line:30] - root - INFO - pipe 3
+2022-02-21 10:37:42 - commonFunc.py - [line:30] - root - INFO - 
+2022-02-21 10:37:42 - commonFunc.py - [line:31] - root - INFO - finished exeucting the cmd: ping -w 5 10.112.97.62
+2022-02-21 10:37:47 - commonFunc.py - [line:16] - root - INFO - starting to execute the cmd: ping -w 5 10.112.97.62....
+2022-02-21 10:37:50 - commonFunc.py - [line:30] - root - INFO - PING 10.112.97.62 (10.112.97.62) 56(84) bytes of data.
+2022-02-21 10:37:50 - commonFunc.py - [line:30] - root - INFO - From 10.112.97.60 icmp_seq=1 Destination Host Unreachable
+2022-02-21 10:37:50 - commonFunc.py - [line:30] - root - INFO - From 10.112.97.60 icmp_seq=2 Destination Host Unreachable
+2022-02-21 10:37:50 - commonFunc.py - [line:30] - root - INFO - From 10.112.97.60 icmp_seq=3 Destination Host Unreachable
+2022-02-21 10:37:50 - commonFunc.py - [line:30] - root - INFO - 
+2022-02-21 10:37:50 - commonFunc.py - [line:30] - root - INFO - --- 10.112.97.62 ping statistics ---
+2022-02-21 10:37:50 - commonFunc.py - [line:30] - root - INFO - 3 packets transmitted, 0 received, +3 errors, 100% packet loss, time 32ms
+2022-02-21 10:37:50 - commonFunc.py - [line:30] - root - INFO - pipe 3
+2022-02-21 10:37:50 - commonFunc.py - [line:30] - root - INFO - 
+2022-02-21 10:37:50 - commonFunc.py - [line:31] - root - INFO - finished exeucting the cmd: ping -w 5 10.112.97.62
+2022-02-21 10:37:55 - commonFunc.py - [line:16] - root - INFO - starting to execute the cmd: ping -w 5 10.112.97.62....
+2022-02-21 10:37:58 - commonFunc.py - [line:30] - root - INFO - PING 10.112.97.62 (10.112.97.62) 56(84) bytes of data.
+2022-02-21 10:37:58 - commonFunc.py - [line:30] - root - INFO - From 10.112.97.60 icmp_seq=1 Destination Host Unreachable
+2022-02-21 10:37:58 - commonFunc.py - [line:30] - root - INFO - From 10.112.97.60 icmp_seq=2 Destination Host Unreachable
+2022-02-21 10:37:58 - commonFunc.py - [line:30] - root - INFO - From 10.112.97.60 icmp_seq=3 Destination Host Unreachable
+2022-02-21 10:37:58 - commonFunc.py - [line:30] - root - INFO - 
+2022-02-21 10:37:58 - commonFunc.py - [line:30] - root - INFO - --- 10.112.97.62 ping statistics ---
+2022-02-21 10:37:58 - commonFunc.py - [line:30] - root - INFO - 3 packets transmitted, 0 received, +3 errors, 100% packet loss, time 33ms
+2022-02-21 10:37:58 - commonFunc.py - [line:30] - root - INFO - pipe 3
+2022-02-21 10:37:58 - commonFunc.py - [line:30] - root - INFO - 
+2022-02-21 10:37:58 - commonFunc.py - [line:31] - root - INFO - finished exeucting the cmd: ping -w 5 10.112.97.62
+2022-02-21 10:38:03 - commonFunc.py - [line:16] - root - INFO - starting to execute the cmd: ping -w 5 10.112.97.62....
+2022-02-21 10:38:06 - commonFunc.py - [line:30] - root - INFO - PING 10.112.97.62 (10.112.97.62) 56(84) bytes of data.
+2022-02-21 10:38:06 - commonFunc.py - [line:30] - root - INFO - From 10.112.97.60 icmp_seq=1 Destination Host Unreachable
+2022-02-21 10:38:06 - commonFunc.py - [line:30] - root - INFO - From 10.112.97.60 icmp_seq=2 Destination Host Unreachable
+2022-02-21 10:38:06 - commonFunc.py - [line:30] - root - INFO - From 10.112.97.60 icmp_seq=3 Destination Host Unreachable
+2022-02-21 10:38:06 - commonFunc.py - [line:30] - root - INFO - 
+2022-02-21 10:38:06 - commonFunc.py - [line:30] - root - INFO - --- 10.112.97.62 ping statistics ---
+2022-02-21 10:38:06 - commonFunc.py - [line:30] - root - INFO - 3 packets transmitted, 0 received, +3 errors, 100% packet loss, time 31ms
+2022-02-21 10:38:06 - commonFunc.py - [line:30] - root - INFO - pipe 3
+2022-02-21 10:38:06 - commonFunc.py - [line:30] - root - INFO - 
+2022-02-21 10:38:06 - commonFunc.py - [line:31] - root - INFO - finished exeucting the cmd: ping -w 5 10.112.97.62
+2022-02-21 10:38:11 - commonFunc.py - [line:16] - root - INFO - starting to execute the cmd: ping -w 5 10.112.97.62....
+2022-02-21 10:38:14 - commonFunc.py - [line:30] - root - INFO - PING 10.112.97.62 (10.112.97.62) 56(84) bytes of data.
+2022-02-21 10:38:14 - commonFunc.py - [line:30] - root - INFO - From 10.112.97.60 icmp_seq=1 Destination Host Unreachable
+2022-02-21 10:38:14 - commonFunc.py - [line:30] - root - INFO - From 10.112.97.60 icmp_seq=2 Destination Host Unreachable
+2022-02-21 10:38:14 - commonFunc.py - [line:30] - root - INFO - From 10.112.97.60 icmp_seq=3 Destination Host Unreachable
+2022-02-21 10:38:14 - commonFunc.py - [line:30] - root - INFO - 
+2022-02-21 10:38:14 - commonFunc.py - [line:30] - root - INFO - --- 10.112.97.62 ping statistics ---
+2022-02-21 10:38:14 - commonFunc.py - [line:30] - root - INFO - 3 packets transmitted, 0 received, +3 errors, 100% packet loss, time 32ms
+2022-02-21 10:38:14 - commonFunc.py - [line:30] - root - INFO - pipe 3
+2022-02-21 10:38:14 - commonFunc.py - [line:30] - root - INFO - 
+2022-02-21 10:38:14 - commonFunc.py - [line:31] - root - INFO - finished exeucting the cmd: ping -w 5 10.112.97.62
+2022-02-21 10:38:19 - commonFunc.py - [line:16] - root - INFO - starting to execute the cmd: ping -w 5 10.112.97.62....
+2022-02-21 10:38:23 - commonFunc.py - [line:30] - root - INFO - PING 10.112.97.62 (10.112.97.62) 56(84) bytes of data.
+2022-02-21 10:38:23 - commonFunc.py - [line:30] - root - INFO - From 10.112.97.60 icmp_seq=1 Destination Host Unreachable
+2022-02-21 10:38:23 - commonFunc.py - [line:30] - root - INFO - From 10.112.97.60 icmp_seq=2 Destination Host Unreachable
+2022-02-21 10:38:23 - commonFunc.py - [line:30] - root - INFO - From 10.112.97.60 icmp_seq=3 Destination Host Unreachable
+2022-02-21 10:38:23 - commonFunc.py - [line:30] - root - INFO - 
+2022-02-21 10:38:23 - commonFunc.py - [line:30] - root - INFO - --- 10.112.97.62 ping statistics ---
+2022-02-21 10:38:23 - commonFunc.py - [line:30] - root - INFO - 3 packets transmitted, 0 received, +3 errors, 100% packet loss, time 33ms
+2022-02-21 10:38:23 - commonFunc.py - [line:30] - root - INFO - pipe 3
+2022-02-21 10:38:23 - commonFunc.py - [line:30] - root - INFO - 
+2022-02-21 10:38:23 - commonFunc.py - [line:31] - root - INFO - finished exeucting the cmd: ping -w 5 10.112.97.62
+2022-02-21 10:38:28 - commonFunc.py - [line:16] - root - INFO - starting to execute the cmd: ping -w 5 10.112.97.62....
+2022-02-21 10:38:31 - commonFunc.py - [line:30] - root - INFO - PING 10.112.97.62 (10.112.97.62) 56(84) bytes of data.
+2022-02-21 10:38:31 - commonFunc.py - [line:30] - root - INFO - From 10.112.97.60 icmp_seq=1 Destination Host Unreachable
+2022-02-21 10:38:31 - commonFunc.py - [line:30] - root - INFO - From 10.112.97.60 icmp_seq=2 Destination Host Unreachable
+2022-02-21 10:38:31 - commonFunc.py - [line:30] - root - INFO - From 10.112.97.60 icmp_seq=3 Destination Host Unreachable
+2022-02-21 10:38:31 - commonFunc.py - [line:30] - root - INFO - 
+2022-02-21 10:38:31 - commonFunc.py - [line:30] - root - INFO - --- 10.112.97.62 ping statistics ---
+2022-02-21 10:38:31 - commonFunc.py - [line:30] - root - INFO - 3 packets transmitted, 0 received, +3 errors, 100% packet loss, time 32ms
+2022-02-21 10:38:31 - commonFunc.py - [line:30] - root - INFO - pipe 3
+2022-02-21 10:38:31 - commonFunc.py - [line:30] - root - INFO - 
+2022-02-21 10:38:31 - commonFunc.py - [line:31] - root - INFO - finished exeucting the cmd: ping -w 5 10.112.97.62
+2022-02-21 10:38:36 - commonFunc.py - [line:16] - root - INFO - starting to execute the cmd: ping -w 5 10.112.97.62....
+2022-02-21 10:38:39 - commonFunc.py - [line:30] - root - INFO - PING 10.112.97.62 (10.112.97.62) 56(84) bytes of data.
+2022-02-21 10:38:39 - commonFunc.py - [line:30] - root - INFO - From 10.112.97.60 icmp_seq=1 Destination Host Unreachable
+2022-02-21 10:38:39 - commonFunc.py - [line:30] - root - INFO - From 10.112.97.60 icmp_seq=2 Destination Host Unreachable
+2022-02-21 10:38:39 - commonFunc.py - [line:30] - root - INFO - From 10.112.97.60 icmp_seq=3 Destination Host Unreachable
+2022-02-21 10:38:39 - commonFunc.py - [line:30] - root - INFO - 
+2022-02-21 10:38:39 - commonFunc.py - [line:30] - root - INFO - --- 10.112.97.62 ping statistics ---
+2022-02-21 10:38:39 - commonFunc.py - [line:30] - root - INFO - 3 packets transmitted, 0 received, +3 errors, 100% packet loss, time 32ms
+2022-02-21 10:38:39 - commonFunc.py - [line:30] - root - INFO - pipe 3
+2022-02-21 10:38:39 - commonFunc.py - [line:30] - root - INFO - 
+2022-02-21 10:38:39 - commonFunc.py - [line:31] - root - INFO - finished exeucting the cmd: ping -w 5 10.112.97.62
+2022-02-21 10:38:44 - commonFunc.py - [line:16] - root - INFO - starting to execute the cmd: ping -w 5 10.112.97.62....
+2022-02-21 10:38:47 - commonFunc.py - [line:30] - root - INFO - PING 10.112.97.62 (10.112.97.62) 56(84) bytes of data.
+2022-02-21 10:38:47 - commonFunc.py - [line:30] - root - INFO - From 10.112.97.60 icmp_seq=1 Destination Host Unreachable
+2022-02-21 10:38:47 - commonFunc.py - [line:30] - root - INFO - From 10.112.97.60 icmp_seq=2 Destination Host Unreachable
+2022-02-21 10:38:47 - commonFunc.py - [line:30] - root - INFO - From 10.112.97.60 icmp_seq=3 Destination Host Unreachable
+2022-02-21 10:38:47 - commonFunc.py - [line:30] - root - INFO - 
+2022-02-21 10:38:47 - commonFunc.py - [line:30] - root - INFO - --- 10.112.97.62 ping statistics ---
+2022-02-21 10:38:47 - commonFunc.py - [line:30] - root - INFO - 3 packets transmitted, 0 received, +3 errors, 100% packet loss, time 33ms
+2022-02-21 10:38:47 - commonFunc.py - [line:30] - root - INFO - pipe 3
+2022-02-21 10:38:47 - commonFunc.py - [line:30] - root - INFO - 
+2022-02-21 10:38:47 - commonFunc.py - [line:31] - root - INFO - finished exeucting the cmd: ping -w 5 10.112.97.62
+2022-02-21 10:38:52 - commonFunc.py - [line:16] - root - INFO - starting to execute the cmd: ping -w 5 10.112.97.62....
+2022-02-21 10:38:57 - commonFunc.py - [line:30] - root - INFO - PING 10.112.97.62 (10.112.97.62) 56(84) bytes of data.
+2022-02-21 10:38:57 - commonFunc.py - [line:30] - root - INFO - 64 bytes from 10.112.97.62: icmp_seq=1 ttl=64 time=1.13 ms
+2022-02-21 10:38:57 - commonFunc.py - [line:30] - root - INFO - 64 bytes from 10.112.97.62: icmp_seq=2 ttl=64 time=0.252 ms
+2022-02-21 10:38:57 - commonFunc.py - [line:30] - root - INFO - 64 bytes from 10.112.97.62: icmp_seq=3 ttl=64 time=0.275 ms
+2022-02-21 10:38:57 - commonFunc.py - [line:30] - root - INFO - 64 bytes from 10.112.97.62: icmp_seq=4 ttl=64 time=0.244 ms
+2022-02-21 10:38:57 - commonFunc.py - [line:30] - root - INFO - 64 bytes from 10.112.97.62: icmp_seq=5 ttl=64 time=0.247 ms
+2022-02-21 10:38:57 - commonFunc.py - [line:30] - root - INFO - 
+2022-02-21 10:38:57 - commonFunc.py - [line:30] - root - INFO - --- 10.112.97.62 ping statistics ---
+2022-02-21 10:38:57 - commonFunc.py - [line:30] - root - INFO - 5 packets transmitted, 5 received, 0% packet loss, time 81ms
+2022-02-21 10:38:57 - commonFunc.py - [line:30] - root - INFO - rtt min/avg/max/mdev = 0.244/0.430/1.134/0.352 ms
+2022-02-21 10:38:57 - commonFunc.py - [line:30] - root - INFO - 
+2022-02-21 10:38:57 - commonFunc.py - [line:31] - root - INFO - finished exeucting the cmd: ping -w 5 10.112.97.62
+.2022-02-21 10:39:00 - sshInstance.py - [line:44] - root - INFO - echo 0 > /sys/class/net/ens2f0/device/sriov_numvfs
+2022-02-21 10:39:00 - transport.py - [line:1819] - paramiko.transport - INFO - Connected (version 2.0, client OpenSSH_8.0)
+2022-02-21 10:39:00 - transport.py - [line:1819] - paramiko.transport - INFO - Authentication (password) successful!
+2022-02-21 10:39:00 - sshInstance.py - [line:28] - root - INFO - SSH on SUT: 10.112.97.62
+2022-02-21 10:39:03 - sshInstance.py - [line:44] - root - INFO - echo 0 > /sys/class/net/ens2f0/device/sriov_numvfs
+2022-02-21 10:39:03 - sshInstance.py - [line:48] - root - INFO - 
+2022-02-21 10:39:11 - sshInstance.py - [line:44] - root - INFO - ifconfig ens2f0 0
+2022-02-21 10:39:11 - sshInstance.py - [line:48] - root - INFO - 
+2022-02-21 10:39:16 - test_nics.py - [line:54] - root - INFO - this is Test_Nics teardown
+2022-02-21 10:39:16 - NicTestFixture.py - [line:32] - root - INFO - ============================ end of run test_silver_ConnectivityReboot case ============================
+2022-02-21 10:39:16 - NicTestFixture.py - [line:28] - root - INFO - ============================ Starting to run test_gold_PI_Networking_SRIOV_CheckDevice case ============================
+2022-02-21 10:39:16 - test_nics.py - [line:18] - root - INFO - this is Test_Nics setup.
+2022-02-21 10:39:16 - transport.py - [line:1819] - paramiko.transport - INFO - Connected (version 2.0, client OpenSSH_8.0)
+2022-02-21 10:39:16 - transport.py - [line:1819] - paramiko.transport - INFO - Authentication (password) successful!
+2022-02-21 10:39:16 - sshInstance.py - [line:28] - root - INFO - SSH on SUT: 10.112.97.62
+2022-02-21 10:39:16 - transport.py - [line:1819] - paramiko.transport - INFO - Connected (version 2.0, client OpenSSH_8.0)
+2022-02-21 10:39:16 - transport.py - [line:1819] - paramiko.transport - INFO - Authentication (password) successful!
+2022-02-21 10:39:16 - sshInstance.py - [line:28] - root - INFO - SSH on SUT: 10.112.97.60
+2022-02-21 10:39:19 - sshInstance.py - [line:44] - root - INFO - rmmod ice
+2022-02-21 10:39:28 - sshInstance.py - [line:48] - root - INFO - 
+2022-02-21 10:39:36 - sshInstance.py - [line:44] - root - INFO - modprobe ice
+2022-02-21 10:39:41 - sshInstance.py - [line:48] - root - INFO - 
+2022-02-21 10:39:49 - sshInstance.py - [line:44] - root - INFO - echo 4 > /sys/class/net/ens2f0/device/sriov_numvfs
+2022-02-21 10:39:49 - sshInstance.py - [line:48] - root - INFO - 
+2022-02-21 10:39:57 - sshInstance.py - [line:44] - root - INFO - ifconfig ens2f0v0 192.168.10.11
+2022-02-21 10:39:57 - sshInstance.py - [line:48] - root - INFO - 
+2022-02-21 10:40:05 - sshInstance.py - [line:44] - root - INFO - ifconfig ens2f0v1 192.168.10.12
+2022-02-21 10:40:05 - sshInstance.py - [line:48] - root - INFO - 
+2022-02-21 10:40:13 - sshInstance.py - [line:44] - root - INFO - ifconfig ens2f0v2 192.168.10.13
+2022-02-21 10:40:13 - sshInstance.py - [line:48] - root - INFO - 
+2022-02-21 10:40:21 - sshInstance.py - [line:44] - root - INFO - ifconfig ens2f0v3 192.168.10.14
+2022-02-21 10:40:21 - sshInstance.py - [line:48] - root - INFO - 
+2022-02-21 10:40:29 - sshInstance.py - [line:44] - root - INFO - ping -c 5 192.168.10.11
+2022-02-21 10:40:33 - sshInstance.py - [line:48] - root - INFO - PING 192.168.10.11 (192.168.10.11) 56(84) bytes of data.
+64 bytes from 192.168.10.11: icmp_seq=1 ttl=64 time=0.017 ms
+64 bytes from 192.168.10.11: icmp_seq=2 ttl=64 time=0.026 ms
+64 bytes from 192.168.10.11: icmp_seq=3 ttl=64 time=0.027 ms
+64 bytes from 192.168.10.11: icmp_seq=4 ttl=64 time=0.027 ms
+64 bytes from 192.168.10.11: icmp_seq=5 ttl=64 time=0.026 ms
+
+--- 192.168.10.11 ping statistics ---
+5 packets transmitted, 5 received, 0% packet loss, time 4129ms
+rtt min/avg/max/mdev = 0.017/0.024/0.027/0.006 ms
+
+2022-02-21 10:40:41 - sshInstance.py - [line:44] - root - INFO - ifconfig ens2f0v0 up
+2022-02-21 10:40:41 - sshInstance.py - [line:48] - root - INFO - 
+2022-02-21 10:40:49 - sshInstance.py - [line:44] - root - INFO - ping6 -c 5 -I ens2f0v0 fe80::b696:91ff:fea5:9b45
+2022-02-21 10:40:53 - sshInstance.py - [line:48] - root - INFO - PING fe80::b696:91ff:fea5:9b45(fe80::b696:91ff:fea5:9b45) from :: ens2f0v0: 56 data bytes
+64 bytes from fe80::b696:91ff:fea5:9b45%ens2f0v0: icmp_seq=1 ttl=64 time=0.350 ms
+64 bytes from fe80::b696:91ff:fea5:9b45%ens2f0v0: icmp_seq=2 ttl=64 time=0.144 ms
+64 bytes from fe80::b696:91ff:fea5:9b45%ens2f0v0: icmp_seq=3 ttl=64 time=0.186 ms
+64 bytes from fe80::b696:91ff:fea5:9b45%ens2f0v0: icmp_seq=4 ttl=64 time=0.170 ms
+64 bytes from fe80::b696:91ff:fea5:9b45%ens2f0v0: icmp_seq=5 ttl=64 time=0.167 ms
+
+--- fe80::b696:91ff:fea5:9b45 ping statistics ---
+5 packets transmitted, 5 received, 0% packet loss, time 4097ms
+rtt min/avg/max/mdev = 0.144/0.203/0.350/0.075 ms
+
+2022-02-21 10:41:01 - sshInstance.py - [line:44] - root - INFO - ping -c 5 192.168.10.11
+2022-02-21 10:41:06 - sshInstance.py - [line:48] - root - INFO - PING 192.168.10.11 (192.168.10.11) 56(84) bytes of data.
+64 bytes from 192.168.10.11: icmp_seq=1 ttl=64 time=0.011 ms
+64 bytes from 192.168.10.11: icmp_seq=2 ttl=64 time=0.009 ms
+64 bytes from 192.168.10.11: icmp_seq=3 ttl=64 time=0.027 ms
+64 bytes from 192.168.10.11: icmp_seq=4 ttl=64 time=0.026 ms
+64 bytes from 192.168.10.11: icmp_seq=5 ttl=64 time=0.010 ms
+
+--- 192.168.10.11 ping statistics ---
+5 packets transmitted, 5 received, 0% packet loss, time 4122ms
+rtt min/avg/max/mdev = 0.009/0.016/0.027/0.009 ms
+
+2022-02-21 10:41:14 - sshInstance.py - [line:44] - root - INFO - ifconfig ens2f0v1 up
+2022-02-21 10:41:14 - sshInstance.py - [line:48] - root - INFO - 
+2022-02-21 10:41:22 - sshInstance.py - [line:44] - root - INFO - ping6 -c 5 -I ens2f0v1 fe80::b696:91ff:fea5:9b45
+2022-02-21 10:41:26 - sshInstance.py - [line:48] - root - INFO - PING fe80::b696:91ff:fea5:9b45(fe80::b696:91ff:fea5:9b45) from :: ens2f0v1: 56 data bytes
+64 bytes from fe80::b696:91ff:fea5:9b45%ens2f0v1: icmp_seq=1 ttl=64 time=0.322 ms
+64 bytes from fe80::b696:91ff:fea5:9b45%ens2f0v1: icmp_seq=2 ttl=64 time=0.234 ms
+64 bytes from fe80::b696:91ff:fea5:9b45%ens2f0v1: icmp_seq=3 ttl=64 time=0.175 ms
+64 bytes from fe80::b696:91ff:fea5:9b45%ens2f0v1: icmp_seq=4 ttl=64 time=0.261 ms
+64 bytes from fe80::b696:91ff:fea5:9b45%ens2f0v1: icmp_seq=5 ttl=64 time=0.251 ms
+
+--- fe80::b696:91ff:fea5:9b45 ping statistics ---
+5 packets transmitted, 5 received, 0% packet loss, time 4095ms
+rtt min/avg/max/mdev = 0.175/0.248/0.322/0.050 ms
+
+2022-02-21 10:41:34 - sshInstance.py - [line:44] - root - INFO - ping -c 5 192.168.10.11
+2022-02-21 10:41:38 - sshInstance.py - [line:48] - root - INFO - PING 192.168.10.11 (192.168.10.11) 56(84) bytes of data.
+64 bytes from 192.168.10.11: icmp_seq=1 ttl=64 time=0.014 ms
+64 bytes from 192.168.10.11: icmp_seq=2 ttl=64 time=0.028 ms
+64 bytes from 192.168.10.11: icmp_seq=3 ttl=64 time=0.027 ms
+64 bytes from 192.168.10.11: icmp_seq=4 ttl=64 time=0.027 ms
+64 bytes from 192.168.10.11: icmp_seq=5 ttl=64 time=0.028 ms
+
+--- 192.168.10.11 ping statistics ---
+5 packets transmitted, 5 received, 0% packet loss, time 4127ms
+rtt min/avg/max/mdev = 0.014/0.024/0.028/0.008 ms
+
+2022-02-21 10:41:46 - sshInstance.py - [line:44] - root - INFO - ifconfig ens2f0v2 up
+2022-02-21 10:41:46 - sshInstance.py - [line:48] - root - INFO - 
+2022-02-21 10:41:54 - sshInstance.py - [line:44] - root - INFO - ping6 -c 5 -I ens2f0v2 fe80::b696:91ff:fea5:9b45
+2022-02-21 10:41:58 - sshInstance.py - [line:48] - root - INFO - PING fe80::b696:91ff:fea5:9b45(fe80::b696:91ff:fea5:9b45) from :: ens2f0v2: 56 data bytes
+64 bytes from fe80::b696:91ff:fea5:9b45%ens2f0v2: icmp_seq=1 ttl=64 time=0.344 ms
+64 bytes from fe80::b696:91ff:fea5:9b45%ens2f0v2: icmp_seq=2 ttl=64 time=0.168 ms
+64 bytes from fe80::b696:91ff:fea5:9b45%ens2f0v2: icmp_seq=3 ttl=64 time=0.163 ms
+64 bytes from fe80::b696:91ff:fea5:9b45%ens2f0v2: icmp_seq=4 ttl=64 time=0.165 ms
+64 bytes from fe80::b696:91ff:fea5:9b45%ens2f0v2: icmp_seq=5 ttl=64 time=0.157 ms
+
+--- fe80::b696:91ff:fea5:9b45 ping statistics ---
+5 packets transmitted, 5 received, 0% packet loss, time 4095ms
+rtt min/avg/max/mdev = 0.157/0.199/0.344/0.073 ms
+
+2022-02-21 10:42:06 - sshInstance.py - [line:44] - root - INFO - ping -c 5 192.168.10.11
+2022-02-21 10:42:10 - sshInstance.py - [line:48] - root - INFO - PING 192.168.10.11 (192.168.10.11) 56(84) bytes of data.
+64 bytes from 192.168.10.11: icmp_seq=1 ttl=64 time=0.012 ms
+64 bytes from 192.168.10.11: icmp_seq=2 ttl=64 time=0.028 ms
+64 bytes from 192.168.10.11: icmp_seq=3 ttl=64 time=0.009 ms
+64 bytes from 192.168.10.11: icmp_seq=4 ttl=64 time=0.028 ms
+64 bytes from 192.168.10.11: icmp_seq=5 ttl=64 time=0.028 ms
+
+--- 192.168.10.11 ping statistics ---
+5 packets transmitted, 5 received, 0% packet loss, time 4127ms
+rtt min/avg/max/mdev = 0.009/0.021/0.028/0.008 ms
+
+2022-02-21 10:42:18 - sshInstance.py - [line:44] - root - INFO - ifconfig ens2f0v3 up
+2022-02-21 10:42:18 - sshInstance.py - [line:48] - root - INFO - 
+2022-02-21 10:42:26 - sshInstance.py - [line:44] - root - INFO - ping6 -c 5 -I ens2f0v3 fe80::b696:91ff:fea5:9b45
+2022-02-21 10:42:30 - sshInstance.py - [line:48] - root - INFO - PING fe80::b696:91ff:fea5:9b45(fe80::b696:91ff:fea5:9b45) from :: ens2f0v3: 56 data bytes
+64 bytes from fe80::b696:91ff:fea5:9b45%ens2f0v3: icmp_seq=1 ttl=64 time=0.427 ms
+64 bytes from fe80::b696:91ff:fea5:9b45%ens2f0v3: icmp_seq=2 ttl=64 time=0.167 ms
+64 bytes from fe80::b696:91ff:fea5:9b45%ens2f0v3: icmp_seq=3 ttl=64 time=0.180 ms
+64 bytes from fe80::b696:91ff:fea5:9b45%ens2f0v3: icmp_seq=4 ttl=64 time=0.123 ms
+64 bytes from fe80::b696:91ff:fea5:9b45%ens2f0v3: icmp_seq=5 ttl=64 time=0.177 ms
+
+--- fe80::b696:91ff:fea5:9b45 ping statistics ---
+5 packets transmitted, 5 received, 0% packet loss, time 4094ms
+rtt min/avg/max/mdev = 0.123/0.214/0.427/0.109 ms
+
+.2022-02-21 10:42:38 - sshInstance.py - [line:44] - root - INFO - echo 0 > /sys/class/net/ens2f0/device/sriov_numvfs
+2022-02-21 10:42:40 - sshInstance.py - [line:48] - root - INFO - 
+2022-02-21 10:42:48 - sshInstance.py - [line:44] - root - INFO - ifconfig ens2f0 0
+2022-02-21 10:42:49 - sshInstance.py - [line:48] - root - INFO - 
+2022-02-21 10:42:54 - test_nics.py - [line:54] - root - INFO - this is Test_Nics teardown
+2022-02-21 10:42:54 - NicTestFixture.py - [line:32] - root - INFO - ============================ end of run test_gold_PI_Networking_SRIOV_CheckDevice case ============================
+2022-02-21 10:42:54 - NicTestFixture.py - [line:28] - root - INFO - ============================ Starting to run test_PI_Networking_DriverInstallationUninstall case ============================
+2022-02-21 10:42:54 - test_nics.py - [line:18] - root - INFO - this is Test_Nics setup.
+2022-02-21 10:42:54 - transport.py - [line:1819] - paramiko.transport - INFO - Connected (version 2.0, client OpenSSH_8.0)
+2022-02-21 10:42:54 - transport.py - [line:1819] - paramiko.transport - INFO - Authentication (password) successful!
+2022-02-21 10:42:54 - sshInstance.py - [line:28] - root - INFO - SSH on SUT: 10.112.97.62
+2022-02-21 10:42:54 - transport.py - [line:1819] - paramiko.transport - INFO - Connected (version 2.0, client OpenSSH_8.0)
+2022-02-21 10:42:54 - transport.py - [line:1819] - paramiko.transport - INFO - Authentication (password) successful!
+2022-02-21 10:42:54 - sshInstance.py - [line:28] - root - INFO - SSH on SUT: 10.112.97.60
+2022-02-21 10:42:57 - sshInstance.py - [line:44] - root - INFO - rmmod ice
+2022-02-21 10:43:05 - sshInstance.py - [line:48] - root - INFO - 
+2022-02-21 10:43:13 - sshInstance.py - [line:44] - root - INFO - modprobe ice
+2022-02-21 10:43:18 - sshInstance.py - [line:48] - root - INFO - 
+2022-02-21 10:43:26 - sshInstance.py - [line:44] - root - INFO - tar -zxvf /opt/APP/driver/tmp/ice-1.6.4.tar.gz -C /opt/APP/driver/tmp
+2022-02-21 10:43:26 - sshInstance.py - [line:48] - root - INFO - ice-1.6.4/
+ice-1.6.4/SUMS
+ice-1.6.4/ddp/
+ice-1.6.4/ddp/README
+ice-1.6.4/ddp/LICENSE
+ice-1.6.4/ddp/ice-1.3.26.0.pkg
+ice-1.6.4/README
+ice-1.6.4/pci.updates
+ice-1.6.4/src/
+ice-1.6.4/src/ice_fwlog.c
+ice-1.6.4/src/ice_cgu_regs.h
+ice-1.6.4/src/kcompat_dim.c
+ice-1.6.4/src/ice_ptp.h
+ice-1.6.4/src/ice_hw_autogen.h
+ice-1.6.4/src/ice_debugfs.c
+ice-1.6.4/src/ice_nvm.c
+ice-1.6.4/src/ice_devlink.h
+ice-1.6.4/src/Makefile
+ice-1.6.4/src/ice_repr.c
+ice-1.6.4/src/ice_fdir.h
+ice-1.6.4/src/ice_xsk.c
+ice-1.6.4/src/ice_dcb.h
+ice-1.6.4/src/ice_txrx.h
+ice-1.6.4/src/ice_lib.h
+ice-1.6.4/src/ice_dcf.h
+ice-1.6.4/src/ice_ptp_consts.h
+ice-1.6.4/src/ice_fw_update.h
+ice-1.6.4/src/kcompat_net_dim.c
+ice-1.6.4/src/ice_xsk.h
+ice-1.6.4/src/ice_virtchnl_allowlist.c
+ice-1.6.4/src/ice_fltr.c
+ice-1.6.4/src/ice_eswitch.h
+ice-1.6.4/src/ice_virtchnl_pf.h
+ice-1.6.4/src/kcompat_ubuntu_defs.h
+ice-1.6.4/src/ice_fwlog.h
+ice-1.6.4/src/kcompat_dim.h
+ice-1.6.4/src/ice_ptp.c
+ice-1.6.4/src/ice_dcb_lib.c
+ice-1.6.4/src/ice_ptp_hw.c
+ice-1.6.4/src/Module.supported
+ice-1.6.4/src/ice_txrx_lib.c
+ice-1.6.4/src/ice_idc.h
+ice-1.6.4/src/ice_ethtool.h
+ice-1.6.4/src/kcompat_std_defs.h
+ice-1.6.4/src/ice_lan_tx_rx.h
+ice-1.6.4/src/ice_status.h
+ice-1.6.4/src/ice_trace.h
+ice-1.6.4/src/ice_cgu_ops.c
+ice-1.6.4/src/ice_sched.c
+ice-1.6.4/src/ice_flow.h
+ice-1.6.4/src/ice_idc_int.h
+ice-1.6.4/src/ice_vf_vsi_vlan_ops.c
+ice-1.6.4/src/ice.h
+ice-1.6.4/src/ice_adminq_cmd.h
+ice-1.6.4/src/virtchnl_inline_ipsec.h
+ice-1.6.4/src/ice_sriov.c
+ice-1.6.4/src/ice_switch.h
+ice-1.6.4/src/ice_common.c
+ice-1.6.4/src/ice_vsi_vlan_lib.h
+ice-1.6.4/src/ice_switch.c
+ice-1.6.4/src/ice_sriov.h
+ice-1.6.4/src/ice_main.c
+ice-1.6.4/src/ice_txrx.c
+ice-1.6.4/src/ice_tc_lib.c
+ice-1.6.4/src/ice_flex_pipe.c
+ice-1.6.4/src/ice_acl_main.c
+ice-1.6.4/src/ice_dcf.c
+ice-1.6.4/src/ice_sbq_cmd.h
+ice-1.6.4/src/ice_pf_vsi_vlan_ops.c
+ice-1.6.4/src/kcompat_pldmfw.c
+ice-1.6.4/src/ice_cgu.h
+ice-1.6.4/src/ice_flow.c
+ice-1.6.4/src/ice_vsi_vlan_ops.c
+ice-1.6.4/src/ice_virtchnl_pf.c
+ice-1.6.4/src/ice_controlq.h
+ice-1.6.4/src/ice_ethtool_fdir.c
+ice-1.6.4/src/ice_dcb_nl.c
+ice-1.6.4/src/kcompat.h
+ice-1.6.4/src/ice_txrx_lib.h
+ice-1.6.4/src/ice_lib.c
+ice-1.6.4/src/ice_arfs.h
+ice-1.6.4/src/ice_ethtool.c
+ice-1.6.4/src/ice_osdep.h
+ice-1.6.4/src/ice_cgu_util.c
+ice-1.6.4/src/ice_base.c
+ice-1.6.4/src/ice_nvm.h
+ice-1.6.4/src/ice_acl.c
+ice-1.6.4/src/ice_vlan.h
+ice-1.6.4/src/ice_devids.h
+ice-1.6.4/src/ice_controlq.c
+ice-1.6.4/src/ice_cgu_ops.h
+ice-1.6.4/src/ice_tc_lib.h
+ice-1.6.4/src/ice_virtchnl_allowlist.h
+ice-1.6.4/src/ice_protocol_type.h
+ice-1.6.4/src/ice_vsi_vlan_lib.c
+ice-1.6.4/src/ice_base.h
+ice-1.6.4/src/ice_dcb.c
+ice-1.6.4/src/ice_idc.c
+ice-1.6.4/src/ice_flex_pipe.h
+ice-1.6.4/src/ice_vlan_mode.h
+ice-1.6.4/src/ice_type.h
+ice-1.6.4/src/ice_arfs.c
+ice-1.6.4/src/ice_dcb_lib.h
+ice-1.6.4/src/ice_virtchnl_fdir.c
+ice-1.6.4/src/ice_ptp_hw.h
+ice-1.6.4/src/ice_sched.h
+ice-1.6.4/src/ice_fw_update.c
+ice-1.6.4/src/virtchnl.h
+ice-1.6.4/src/ice_common.h
+ice-1.6.4/src/ice_lag.h
+ice-1.6.4/src/ice_dcb_nl.h
+ice-1.6.4/src/kcompat_rhel_defs.h
+ice-1.6.4/src/kcompat_pldmfw.h
+ice-1.6.4/src/ice_acl.h
+ice-1.6.4/src/ice_lag.c
+ice-1.6.4/src/ice_repr.h
+ice-1.6.4/src/ice_eswitch.c
+ice-1.6.4/src/kcompat.c
+ice-1.6.4/src/ice_devlink.c
+ice-1.6.4/src/kcompat_impl.h
+ice-1.6.4/src/ice_fdir.c
+ice-1.6.4/src/ice_fltr.h
+ice-1.6.4/src/kcompat_sles_defs.h
+ice-1.6.4/src/ice_pf_vsi_vlan_ops.h
+ice-1.6.4/src/ice_cgu_util.h
+ice-1.6.4/src/kcompat_overflow.h
+ice-1.6.4/src/ice_virtchnl_fdir.h
+ice-1.6.4/src/ice_vf_vsi_vlan_ops.h
+ice-1.6.4/src/common.mk
+ice-1.6.4/src/ice_flex_type.h
+ice-1.6.4/src/ice_vsi_vlan_ops.h
+ice-1.6.4/src/ice_vlan_mode.c
+ice-1.6.4/src/ice_acl_ctrl.c
+ice-1.6.4/src/virtchnl_lan_desc.h
+ice-1.6.4/scripts/
+ice-1.6.4/scripts/set_irq_affinity
+ice-1.6.4/scripts/set_arfs
+ice-1.6.4/scripts/set_xps_rxqs
+ice-1.6.4/ice.7
+ice-1.6.4/ice.spec
+ice-1.6.4/COPYING
+
+2022-02-21 10:45:42 - sshInstance.py - [line:92] - root - INFO - Activate the web console with: systemctl enable --now cockpit.socket
+This system is not registered to Red Hat Insights. See https://cloud.redhat.com/
+To register this system, run: insights-client --register
+Last login: Mon Feb 21 10:49:06 2022 from 10.112.97.60
+[root@WW25ICX2 ~]# cd /opt/APP/driver/tmp/ice-1.6.4/src && make && make install
+echo "*** The target kernel has CONFIG_MODULE_SIG_ALL enabled, but" ; echo "*** the signing key cannot be found. Module signing has been" ; echo "*** disabled for this build." ; make  ccflags-y="" -C "/lib/modules/4.18.0-305.el8.x86_64/source" CONFIG_ICE=m CONFIG_MODULE_SIG=n CONFIG_MODULE_SIG_ALL= M="/opt/APP/driver/tmp/ice-1.6.4/src"    modules
+*** The target kernel has CONFIG_MODULE_SIG_ALL enabled, but
+*** the signing key cannot be found. Module signing has been
+*** disabled for this build.
+make[1]: Entering directory '/usr/src/kernels/4.18.0-305.el8.x86_64'
+  Building modules, stage 2.
+  MODPOST 1 modules
+make[1]: Leaving directory '/usr/src/kernels/4.18.0-305.el8.x86_64'
+echo "*** The target kernel has CONFIG_MODULE_SIG_ALL enabled, but" ; echo "*** the signing key cannot be found. Module signing has been" ; echo "*** disabled for this build." ; make  ccflags-y="" -C "/lib/modules/4.18.0-305.el8.x86_64/source" CONFIG_ICE=m CONFIG_MODULE_SIG=n CONFIG_MODULE_SIG_ALL= M="/opt/APP/driver/tmp/ice-1.6.4/src"    modules
+*** The target kernel has CONFIG_MODULE_SIG_ALL enabled, but
+*** the signing key cannot be found. Module signing has been
+*** disabled for this build.
+make[1]: Entering directory '/usr/src/kernels/4.18.0-305.el8.x86_64'
+  Building modules, stage 2.
+  MODPOST 1 modules
+make[1]: Leaving directory '/usr/src/kernels/4.18.0-305.el8.x86_64'
+echo "*** The target kernel has CONFIG_MODULE_SIG_ALL enabled, but" ; echo "*** the signing key cannot be found. Module signing has been" ; echo "*** disabled for this build." ; make  ccflags-y="" -C "/lib/modules/4.18.0-305.el8.x86_64/source" CONFIG_ICE=m CONFIG_MODULE_SIG=n CONFIG_MODULE_SIG_ALL= M="/opt/APP/driver/tmp/ice-1.6.4/src"    modules_install
+*** The target kernel has CONFIG_MODULE_SIG_ALL enabled, but
+*** the signing key cannot be found. Module signing has been
+*** disabled for this build.
+make[1]: Entering directory '/usr/src/kernels/4.18.0-305.el8.x86_64'
+  INSTALL /opt/APP/driver/tmp/ice-1.6.4/src/ice.ko
+  DEPMOD  4.18.0-305.el8.x86_64
+depmod: WARNING: /lib/modules/4.18.0-305.el8.x86_64/kernel/drivers/crypto/qat/qat_4xxx/qat_4xxx.ko.xz needs unknown symbol adf_gen4_init_hw_csr_ops
+make[1]: Leaving directory '/usr/src/kernels/4.18.0-305.el8.x86_64'
+install -D -m 644 ../ddp/ice-1.3.26.0.pkg /lib/firmware/updates/intel/ice/ddp/ice-1.3.26.0.pkg
+(cd /lib/firmware/updates/intel/ice/ddp && ln -sf ice-1.3.26.0.pkg ice.pkg)
+install -D -m 644 ../ddp/LICENSE /lib/firmware/updates/intel/ice/ddp/LICENSE \
+	2>/dev/null || true
+install -D -m 644 ice.7.gz /usr/share/man/man7/ice.7.gz
+/sbin/depmod -e -F /lib/modules/4.18.0-305.el8.x86_64/source/System.map  -a 4.18.0-305.el8.x86_64
+depmod: WARNING: /lib/modules/4.18.0-305.el8.x86_64/kernel/drivers/crypto/qat/qat_4xxx/qat_4xxx.ko.xz needs unknown symbol adf_gen4_init_hw_csr_ops
+Updating initramfs...
+dracut --force
+[root@WW25ICX2 src]# 
+2022-02-21 10:45:48 - sshInstance.py - [line:44] - root - INFO - lsmod |grep ice
+2022-02-21 10:45:48 - sshInstance.py - [line:48] - root - INFO - ice                  1019904  0
+
+2022-02-21 10:45:56 - sshInstance.py - [line:44] - root - INFO - rmmod ice
+2022-02-21 10:46:04 - sshInstance.py - [line:48] - root - INFO - 
+2022-02-21 10:46:12 - sshInstance.py - [line:44] - root - INFO - modprobe ice
+2022-02-21 10:46:17 - sshInstance.py - [line:48] - root - INFO - 
+2022-02-21 10:46:25 - sshInstance.py - [line:44] - root - INFO - modinfo ice
+2022-02-21 10:46:25 - sshInstance.py - [line:48] - root - INFO - filename:       /lib/modules/4.18.0-305.el8.x86_64/updates/drivers/net/ethernet/intel/ice/ice.ko
+firmware:       intel/ice/ddp/ice.pkg
+version:        1.6.4
+license:        GPL v2
+description:    Intel(R) Ethernet Connection E800 Series Linux Driver
+author:         Intel Corporation, <linux.nics@intel.com>
+rhelversion:    8.4
+srcversion:     C8EA21B2A34EA565E9AC844
+alias:          pci:v00008086d0000151Dsv*sd*bc*sc*i*
+alias:          pci:v00008086d0000124Fsv*sd*bc*sc*i*
+alias:          pci:v00008086d0000124Esv*sd*bc*sc*i*
+alias:          pci:v00008086d0000124Dsv*sd*bc*sc*i*
+alias:          pci:v00008086d0000124Csv*sd*bc*sc*i*
+alias:          pci:v00008086d0000189Asv*sd*bc*sc*i*
+alias:          pci:v00008086d00001899sv*sd*bc*sc*i*
+alias:          pci:v00008086d00001898sv*sd*bc*sc*i*
+alias:          pci:v00008086d00001897sv*sd*bc*sc*i*
+alias:          pci:v00008086d00001894sv*sd*bc*sc*i*
+alias:          pci:v00008086d00001893sv*sd*bc*sc*i*
+alias:          pci:v00008086d00001892sv*sd*bc*sc*i*
+alias:          pci:v00008086d00001891sv*sd*bc*sc*i*
+alias:          pci:v00008086d00001890sv*sd*bc*sc*i*
+alias:          pci:v00008086d0000188Esv*sd*bc*sc*i*
+alias:          pci:v00008086d0000188Dsv*sd*bc*sc*i*
+alias:          pci:v00008086d0000188Csv*sd*bc*sc*i*
+alias:          pci:v00008086d0000188Bsv*sd*bc*sc*i*
+alias:          pci:v00008086d0000188Asv*sd*bc*sc*i*
+alias:          pci:v00008086d0000159Bsv*sd*bc*sc*i*
+alias:          pci:v00008086d0000159Asv*sd*bc*sc*i*
+alias:          pci:v00008086d00001599sv*sd*bc*sc*i*
+alias:          pci:v00008086d00001593sv*sd*bc*sc*i*
+alias:          pci:v00008086d00001592sv*sd*bc*sc*i*
+alias:          pci:v00008086d00001591sv*sd*bc*sc*i*
+depends:        
+name:           ice
+vermagic:       4.18.0-305.el8.x86_64 SMP mod_unload modversions 
+parm:           debug:netif level (0=none,...,16=all) (int)
+parm:           fwlog_level:FW event level to log. All levels <= to the specified value are enabled. Values: 0=none, 1=error, 2=warning, 3=normal, 4=verbose. Invalid values: >=5
+ (ushort)
+parm:           fwlog_events:FW events to log (32-bit mask)
+ (ulong)
+
+.2022-02-21 10:46:33 - sshInstance.py - [line:44] - root - INFO - echo 0 > /sys/class/net/ens2f0/device/sriov_numvfs
+2022-02-21 10:46:33 - sshInstance.py - [line:48] - root - INFO - 
+2022-02-21 10:46:41 - sshInstance.py - [line:44] - root - INFO - ifconfig ens2f0 0
+2022-02-21 10:46:41 - sshInstance.py - [line:48] - root - INFO - 
+2022-02-21 10:46:46 - test_nics.py - [line:54] - root - INFO - this is Test_Nics teardown
+2022-02-21 10:46:46 - NicTestFixture.py - [line:32] - root - INFO - ============================ end of run test_PI_Networking_DriverInstallationUninstall case ============================
+2022-02-21 10:46:46 - NicTestFixture.py - [line:28] - root - INFO - ============================ Starting to run test_PI_Networking_InternetProtocolv4v6_CVL case ============================
+2022-02-21 10:46:46 - test_nics.py - [line:18] - root - INFO - this is Test_Nics setup.
+2022-02-21 10:46:46 - transport.py - [line:1819] - paramiko.transport - INFO - Connected (version 2.0, client OpenSSH_8.0)
+2022-02-21 10:46:46 - transport.py - [line:1819] - paramiko.transport - INFO - Authentication (password) successful!
+2022-02-21 10:46:46 - sshInstance.py - [line:28] - root - INFO - SSH on SUT: 10.112.97.62
+2022-02-21 10:46:46 - transport.py - [line:1819] - paramiko.transport - INFO - Connected (version 2.0, client OpenSSH_8.0)
+2022-02-21 10:46:47 - transport.py - [line:1819] - paramiko.transport - INFO - Authentication (password) successful!
+2022-02-21 10:46:47 - sshInstance.py - [line:28] - root - INFO - SSH on SUT: 10.112.97.60
+2022-02-21 10:46:50 - sshInstance.py - [line:44] - root - INFO - rmmod ice
+2022-02-21 10:46:58 - sshInstance.py - [line:48] - root - INFO - 
+2022-02-21 10:47:06 - sshInstance.py - [line:44] - root - INFO - modprobe ice
+2022-02-21 10:47:11 - sshInstance.py - [line:48] - root - INFO - 
+2022-02-21 10:47:19 - sshInstance.py - [line:44] - root - INFO - ifconfig ens2f0 192.168.10.10
+2022-02-21 10:47:19 - sshInstance.py - [line:48] - root - INFO - 
+2022-02-21 10:47:27 - sshInstance.py - [line:44] - root - INFO - ifconfig ens2f1 192.168.10.11
+2022-02-21 10:47:27 - sshInstance.py - [line:48] - root - INFO - 
+2022-02-21 10:47:35 - sshInstance.py - [line:44] - root - INFO - ping -w 5 192.168.10.11
+2022-02-21 10:47:40 - sshInstance.py - [line:48] - root - INFO - PING 192.168.10.11 (192.168.10.11) 56(84) bytes of data.
+64 bytes from 192.168.10.11: icmp_seq=1 ttl=64 time=0.354 ms
+64 bytes from 192.168.10.11: icmp_seq=2 ttl=64 time=0.158 ms
+64 bytes from 192.168.10.11: icmp_seq=3 ttl=64 time=0.120 ms
+64 bytes from 192.168.10.11: icmp_seq=4 ttl=64 time=0.168 ms
+64 bytes from 192.168.10.11: icmp_seq=5 ttl=64 time=0.151 ms
+
+--- 192.168.10.11 ping statistics ---
+5 packets transmitted, 5 received, 0% packet loss, time 4135ms
+rtt min/avg/max/mdev = 0.120/0.190/0.354/0.083 ms
+
+2022-02-21 10:47:48 - sshInstance.py - [line:44] - root - INFO - ping6 -c 5 -I ens2f0 fe80::b696:91ff:fea5:9b45
+2022-02-21 10:47:52 - sshInstance.py - [line:48] - root - INFO - PING fe80::b696:91ff:fea5:9b45(fe80::b696:91ff:fea5:9b45) from :: ens2f0: 56 data bytes
+64 bytes from fe80::b696:91ff:fea5:9b45%ens2f0: icmp_seq=1 ttl=64 time=0.316 ms
+64 bytes from fe80::b696:91ff:fea5:9b45%ens2f0: icmp_seq=2 ttl=64 time=0.164 ms
+64 bytes from fe80::b696:91ff:fea5:9b45%ens2f0: icmp_seq=3 ttl=64 time=0.169 ms
+64 bytes from fe80::b696:91ff:fea5:9b45%ens2f0: icmp_seq=4 ttl=64 time=0.173 ms
+64 bytes from fe80::b696:91ff:fea5:9b45%ens2f0: icmp_seq=5 ttl=64 time=0.168 ms
+
+--- fe80::b696:91ff:fea5:9b45 ping statistics ---
+5 packets transmitted, 5 received, 0% packet loss, time 4092ms
+rtt min/avg/max/mdev = 0.164/0.198/0.316/0.059 ms
+
+.2022-02-21 10:48:00 - sshInstance.py - [line:44] - root - INFO - echo 0 > /sys/class/net/ens2f0/device/sriov_numvfs
+2022-02-21 10:48:00 - sshInstance.py - [line:48] - root - INFO - 
+2022-02-21 10:48:08 - sshInstance.py - [line:44] - root - INFO - ifconfig ens2f0 0
+2022-02-21 10:48:08 - sshInstance.py - [line:48] - root - INFO - 
+2022-02-21 10:48:13 - test_nics.py - [line:54] - root - INFO - this is Test_Nics teardown
+2022-02-21 10:48:13 - NicTestFixture.py - [line:32] - root - INFO - ============================ end of run test_PI_Networking_InternetProtocolv4v6_CVL case ============================
+2022-02-21 10:48:13 - NicTestFixture.py - [line:28] - root - INFO - ============================ Starting to run test_PI_Networking_Link_State_Check_CVL case ============================
+2022-02-21 10:48:13 - test_nics.py - [line:18] - root - INFO - this is Test_Nics setup.
+2022-02-21 10:48:13 - transport.py - [line:1819] - paramiko.transport - INFO - Connected (version 2.0, client OpenSSH_8.0)
+2022-02-21 10:48:13 - transport.py - [line:1819] - paramiko.transport - INFO - Authentication (password) successful!
+2022-02-21 10:48:13 - sshInstance.py - [line:28] - root - INFO - SSH on SUT: 10.112.97.62
+2022-02-21 10:48:13 - transport.py - [line:1819] - paramiko.transport - INFO - Connected (version 2.0, client OpenSSH_8.0)
+2022-02-21 10:48:13 - transport.py - [line:1819] - paramiko.transport - INFO - Authentication (password) successful!
+2022-02-21 10:48:13 - sshInstance.py - [line:28] - root - INFO - SSH on SUT: 10.112.97.60
+2022-02-21 10:48:16 - sshInstance.py - [line:44] - root - INFO - rmmod ice
+2022-02-21 10:48:24 - sshInstance.py - [line:48] - root - INFO - 
+2022-02-21 10:48:32 - sshInstance.py - [line:44] - root - INFO - modprobe ice
+2022-02-21 10:48:37 - sshInstance.py - [line:48] - root - INFO - 
+2022-02-21 10:48:45 - sshInstance.py - [line:44] - root - INFO - /opt/APP/utility/DPDK_install/dpdk-stable-20.11.1/usertools/dpdk-devbind.py -s | grep ens2f0 | awk '{print $1;}'
+2022-02-21 10:48:46 - sshInstance.py - [line:48] - root - INFO - 0000:4b:00.0
+
+2022-02-21 10:48:54 - sshInstance.py - [line:44] - root - INFO - lspci -vvs 00:4b:00.0 | grep LnkCap:
+2022-02-21 10:48:54 - sshInstance.py - [line:48] - root - INFO - 		LnkCap:	Port #0, Speed 16GT/s, Width x16, ASPM not supported
+
+2022-02-21 10:49:02 - sshInstance.py - [line:44] - root - INFO - lspci -vvs 00:4b:00.0 | grep LnkSta:
+2022-02-21 10:49:02 - sshInstance.py - [line:48] - root - INFO - 		LnkSta:	Speed 16GT/s (ok), Width x16 (ok)
+
+2022-02-21 10:49:07 - test_nics.py - [line:210] - root - INFO - speed and width value is current
+.2022-02-21 10:49:10 - sshInstance.py - [line:44] - root - INFO - echo 0 > /sys/class/net/ens2f0/device/sriov_numvfs
+2022-02-21 10:49:10 - sshInstance.py - [line:48] - root - INFO - 
+2022-02-21 10:49:18 - sshInstance.py - [line:44] - root - INFO - ifconfig ens2f0 0
+2022-02-21 10:49:18 - sshInstance.py - [line:48] - root - INFO - 
+2022-02-21 10:49:23 - test_nics.py - [line:54] - root - INFO - this is Test_Nics teardown
+2022-02-21 10:49:23 - NicTestFixture.py - [line:32] - root - INFO - ============================ end of run test_PI_Networking_Link_State_Check_CVL case ============================
+                             [100%]
+
+=================================== FAILURES ===================================
+_________________ Test_mtu.test_PI_Networking_Jumbo_Packet_CVL _________________
+
+self = <Tests.testNics.test_mtu.Test_mtu object at 0x7f987a0c5668>
+
+    @pytest.mark.usefixtures("fbefore")
+    @pytest.mark.two_sut_CVL
+    @pytest.mark.nicSimple
+    def test_PI_Networking_Jumbo_Packet_CVL(self):
+        stdout, stderr = self.cn_test_sut.ssh_exec_cmd(self.sut1_cli, 'ifconfig {} mtu 1500'.\
+                                      format(self.sut_conf["pf1"]))
+        if stdout or stderr:
+>           assert 200 == 400, "set sut1 mtu is error"
+E           AssertionError: set sut1 mtu is error
+E           assert 200 == 400
+
+npxtester/Tests/testNics/test_mtu.py:58: AssertionError
+---------------------------- Captured stdout setup -----------------------------
+2022-02-21 10:13:22 - NicTestFixture.py - [line:28] - root - INFO - ============================ Starting to run test_PI_Networking_Jumbo_Packet_CVL case ============================
+2022-02-21 10:13:22 - test_mtu.py - [line:18] - root - INFO - this is Test_mtu setup.
+2022-02-21 10:13:22 - transport.py - [line:1819] - paramiko.transport - INFO - Connected (version 2.0, client OpenSSH_8.0)
+2022-02-21 10:13:22 - transport.py - [line:1819] - paramiko.transport - INFO - Authentication (password) successful!
+2022-02-21 10:13:22 - sshInstance.py - [line:28] - root - INFO - SSH on SUT: 10.112.97.62
+2022-02-21 10:13:22 - transport.py - [line:1819] - paramiko.transport - INFO - Connected (version 2.0, client OpenSSH_8.0)
+2022-02-21 10:13:22 - transport.py - [line:1819] - paramiko.transport - INFO - Authentication (password) successful!
+2022-02-21 10:13:22 - sshInstance.py - [line:28] - root - INFO - SSH on SUT: 10.112.97.60
+2022-02-21 10:13:25 - sshInstance.py - [line:44] - root - INFO - rmmod ice
+2022-02-21 10:13:34 - sshInstance.py - [line:48] - root - INFO - 
+2022-02-21 10:13:42 - sshInstance.py - [line:44] - root - INFO - modprobe ice
+2022-02-21 10:13:42 - sshInstance.py - [line:48] - root - INFO - 
+----------------------------- Captured stdout call -----------------------------
+2022-02-21 10:13:50 - sshInstance.py - [line:44] - root - INFO - ifconfig ens2f0 mtu 1500
+2022-02-21 10:13:50 - sshInstance.py - [line:48] - root - INFO - 
+------------------------------ Captured log call -------------------------------
+INFO     root:sshInstance.py:44 ifconfig ens2f0 mtu 1500
+INFO     root:sshInstance.py:48
+___________________ Test_mtu.test_PI_Networking_MTU_set_CVL ____________________
+
+self = <Tests.testNics.test_mtu.Test_mtu object at 0x7f9879f43710>
+
+    @pytest.mark.usefixtures("fbefore")
+    @pytest.mark.two_sut_CVL
+    @pytest.mark.nicSimple
+    def test_PI_Networking_MTU_set_CVL(self):
+        stdout, stderr = self.cn_test_sut.ssh_exec_cmd(self.sut1_cli, 'ifconfig {} mtu 1500'.\
+                                      format(self.sut_conf["pf1"]))
+        if stdout or stderr:
+>           assert 200 == 400, "set sut1 mtu is error"
+E           AssertionError: set sut1 mtu is error
+E           assert 200 == 400
+
+npxtester/Tests/testNics/test_mtu.py:97: AssertionError
+---------------------------- Captured stdout setup -----------------------------
+2022-02-21 10:14:19 - NicTestFixture.py - [line:28] - root - INFO - ============================ Starting to run test_PI_Networking_MTU_set_CVL case ============================
+2022-02-21 10:14:19 - test_mtu.py - [line:18] - root - INFO - this is Test_mtu setup.
+2022-02-21 10:14:19 - transport.py - [line:1819] - paramiko.transport - INFO - Connected (version 2.0, client OpenSSH_8.0)
+2022-02-21 10:14:19 - transport.py - [line:1819] - paramiko.transport - INFO - Authentication (password) successful!
+2022-02-21 10:14:19 - sshInstance.py - [line:28] - root - INFO - SSH on SUT: 10.112.97.62
+2022-02-21 10:14:19 - transport.py - [line:1819] - paramiko.transport - INFO - Connected (version 2.0, client OpenSSH_8.0)
+2022-02-21 10:14:19 - transport.py - [line:1819] - paramiko.transport - INFO - Authentication (password) successful!
+2022-02-21 10:14:19 - sshInstance.py - [line:28] - root - INFO - SSH on SUT: 10.112.97.60
+2022-02-21 10:14:22 - sshInstance.py - [line:44] - root - INFO - rmmod ice
+2022-02-21 10:14:22 - sshInstance.py - [line:48] - root - INFO - 
+2022-02-21 10:14:30 - sshInstance.py - [line:44] - root - INFO - modprobe ice
+2022-02-21 10:14:30 - sshInstance.py - [line:48] - root - INFO - 
+----------------------------- Captured stdout call -----------------------------
+2022-02-21 10:14:38 - sshInstance.py - [line:44] - root - INFO - ifconfig ens2f0 mtu 1500
+2022-02-21 10:14:38 - sshInstance.py - [line:48] - root - INFO - 
+------------------------------ Captured log call -------------------------------
+INFO     root:sshInstance.py:44 ifconfig ens2f0 mtu 1500
+INFO     root:sshInstance.py:48
+=============================== warnings summary ===============================
+npxtester/Tests/testNics/test_iperf_client_4hour.py:45
+  /root/.jenkins/workspace/test-test-nic-simple/npxtester/Tests/testNics/test_iperf_client_4hour.py:45: PytestUnknownMarkWarning: Unknown pytest.mark.iperf_tcp - is this a typo?  You can register custom marks to avoid this warning - for details, see https://docs.pytest.org/en/stable/mark.html
+    @pytest.mark.iperf_tcp
+
+npxtester/Tests/testNics/test_iperf_client_4hour.py:78
+  /root/.jenkins/workspace/test-test-nic-simple/npxtester/Tests/testNics/test_iperf_client_4hour.py:78: PytestUnknownMarkWarning: Unknown pytest.mark.iperf_udp - is this a typo?  You can register custom marks to avoid this warning - for details, see https://docs.pytest.org/en/stable/mark.html
+    @pytest.mark.iperf_udp
+
+npxtester/Tests/testNics/test_mtu.py:53
+  /root/.jenkins/workspace/test-test-nic-simple/npxtester/Tests/testNics/test_mtu.py:53: PytestUnknownMarkWarning: Unknown pytest.mark.nicSimple - is this a typo?  You can register custom marks to avoid this warning - for details, see https://docs.pytest.org/en/stable/mark.html
+    @pytest.mark.nicSimple
+
+npxtester/Tests/testNics/test_mtu.py:92
+  /root/.jenkins/workspace/test-test-nic-simple/npxtester/Tests/testNics/test_mtu.py:92: PytestUnknownMarkWarning: Unknown pytest.mark.nicSimple - is this a typo?  You can register custom marks to avoid this warning - for details, see https://docs.pytest.org/en/stable/mark.html
+    @pytest.mark.nicSimple
+
+npxtester/Tests/testNics/test_network_sriov_stress.py:367
+  /root/.jenkins/workspace/test-test-nic-simple/npxtester/Tests/testNics/test_network_sriov_stress.py:367: PytestUnknownMarkWarning: Unknown pytest.mark.nicSriov5times - is this a typo?  You can register custom marks to avoid this warning - for details, see https://docs.pytest.org/en/stable/mark.html
+    @pytest.mark.nicSriov5times
+
+npxtester/Tests/testNics/test_network_sriov_stress.py:483
+  /root/.jenkins/workspace/test-test-nic-simple/npxtester/Tests/testNics/test_network_sriov_stress.py:483: PytestUnknownMarkWarning: Unknown pytest.mark.nicSriov2hours - is this a typo?  You can register custom marks to avoid this warning - for details, see https://docs.pytest.org/en/stable/mark.html
+    @pytest.mark.nicSriov2hours
+
+npxtester/Tests/testNics/test_network_sriov_stress.py:781
+  /root/.jenkins/workspace/test-test-nic-simple/npxtester/Tests/testNics/test_network_sriov_stress.py:781: PytestUnknownMarkWarning: Unknown pytest.mark.SriovVfIperf - is this a typo?  You can register custom marks to avoid this warning - for details, see https://docs.pytest.org/en/stable/mark.html
+    @pytest.mark.SriovVfIperf
+
+npxtester/Tests/testNics/test_nics.py:58
+  /root/.jenkins/workspace/test-test-nic-simple/npxtester/Tests/testNics/test_nics.py:58: PytestUnknownMarkWarning: Unknown pytest.mark.nicSimple - is this a typo?  You can register custom marks to avoid this warning - for details, see https://docs.pytest.org/en/stable/mark.html
+    @pytest.mark.nicSimple
+
+npxtester/Tests/testNics/test_nics.py:82
+  /root/.jenkins/workspace/test-test-nic-simple/npxtester/Tests/testNics/test_nics.py:82: PytestUnknownMarkWarning: Unknown pytest.mark.nicSimple - is this a typo?  You can register custom marks to avoid this warning - for details, see https://docs.pytest.org/en/stable/mark.html
+    @pytest.mark.nicSimple
+
+npxtester/Tests/testNics/test_nics.py:104
+  /root/.jenkins/workspace/test-test-nic-simple/npxtester/Tests/testNics/test_nics.py:104: PytestUnknownMarkWarning: Unknown pytest.mark.nicSimple - is this a typo?  You can register custom marks to avoid this warning - for details, see https://docs.pytest.org/en/stable/mark.html
+    @pytest.mark.nicSimple
+
+npxtester/Tests/testNics/test_nics.py:130
+  /root/.jenkins/workspace/test-test-nic-simple/npxtester/Tests/testNics/test_nics.py:130: PytestUnknownMarkWarning: Unknown pytest.mark.nicSimple - is this a typo?  You can register custom marks to avoid this warning - for details, see https://docs.pytest.org/en/stable/mark.html
+    @pytest.mark.nicSimple
+
+npxtester/Tests/testNics/test_nics.py:168
+  /root/.jenkins/workspace/test-test-nic-simple/npxtester/Tests/testNics/test_nics.py:168: PytestUnknownMarkWarning: Unknown pytest.mark.nicSimple - is this a typo?  You can register custom marks to avoid this warning - for details, see https://docs.pytest.org/en/stable/mark.html
+    @pytest.mark.nicSimple
+
+npxtester/Tests/testNics/test_nics.py:192
+  /root/.jenkins/workspace/test-test-nic-simple/npxtester/Tests/testNics/test_nics.py:192: PytestUnknownMarkWarning: Unknown pytest.mark.nicSimple - is this a typo?  You can register custom marks to avoid this warning - for details, see https://docs.pytest.org/en/stable/mark.html
+    @pytest.mark.nicSimple
+
+-- Docs: https://docs.pytest.org/en/stable/warnings.html
+- generated html file: file:///root/testconfig/testlogs/HtmlReport/nic_simple_report.html -
+=========================== short test summary info ============================
+FAILED npxtester/Tests/testNics/test_mtu.py::Test_mtu::test_PI_Networking_Jumbo_Packet_CVL
+FAILED npxtester/Tests/testNics/test_mtu.py::Test_mtu::test_PI_Networking_MTU_set_CVL
+===== 2 failed, 6 passed, 8 deselected, 13 warnings in 2161.10s (0:36:01) ======
+[8mha:////4LeiMYyvaTAszhIQ10pdIeDepJ20hGjpoNTSDQ54vTlOAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIi0SCEqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDyFBu95/avQGMKkS1vgAAAA==[0m[Pipeline] }
+[8mha:////4I/tRoD/KV6lJ76TTEJ8vusLD5mbZiDJ1z7tZBIwhHThAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKCQKJBqWgtN7zAJMY4se6C7eBUvIiv8QcsIlGxxWpnm3m9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKZhiFDut7l2hw9mQDtDvgAAAA==[0m[Pipeline] // stage
+[8mha:////4CAP7WQdC2FMpNczqgZSKdPjM+Zu6Lz59I8VEE3/AlUOAAAAph+LCAAAAAAAAP9tjTEOwjAQBM9BKWgpeYQjBB2iorXc8AITG+PEugv2haTiRXyNPxCIRMVWOyut5vmCMic4UPKycdgGzHWQXez91ORAqb1EGmRDZ1kTZopOajdosu44oyZ2MEcUsFCwdFhHygE9w0o15m6qaNBXJ07TtldQBHuDBwg1mdkk/sKYYH3tbSb8ef4KYOwYxI6h2G4+x/INOibpDcEAAAA=[0m[Pipeline] stage
+[8mha:////4Db8sOlSRxZnVxb7xJBDSAteoF0PgC9lkQldzKIJFwYiAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUwIiYukZZOEFoQkgb/V9+UtqJE3E17kBLJSY8WLYl673eUESGE7ETjcXWY6y96ELvpiQG4vYaaBANXURNGClYoeygyNhqqYqShUVZDisJa4t1oOjRJdjIRj90GTS68px42o4Scm/u8IRMTuSkOX3LyLC99SYS/jh/ATB2CfLDbrb9/Cw+2YMO4MIAAAA=[0m[Pipeline] { (collect logs)
+Stage "collect logs" skipped due to earlier failure(s)
+[8mha:////4AfI3SthhIf/wHKBxkZZVuznCBOLGICd+mTaK5J1XhvpAAAAox+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIikRJR0VppeIFJjLFj3Tm2g1PxIr7GHwhEomKL1c4283zBOgY4ctBoFfWGYmvQu1HPCzOH/uo4o+ULtkyRncJG5YY7dVqw4aRgSVHCSsBGUes4GtIJtsLKu6ycJF2dU5i/g4DSdAM8oBCzOcmQvjAF2N3GLjL9PH8FMHmfoKzrT+3fkMfZ274AAAA=[0m[Pipeline] }
+[8mha:////4O1G14z5oV6C9jl1Q5yIn+pZFQRmsElhyj6JiXyHA8ixAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiBB2iSmu54QUmNsaJdWdsh6TiRXyNPxCIRMUWq51t5vmCZYpw5GixNdQ5So3D4Hs7LRw4dhfPA7Z8xoYpsTcozSBZm3pGydnAnKKEhYCVocZzcmQzrEWr7qryimx1ynH6DgJKp2/wgEJM5qxi/sIYYXPtdWL6ef4KYAwhQ7nbf2r7BpKm1V++AAAA[0m[Pipeline] // stage
+[8mha:////4KtBCOpIKS64HlRGbxVDHBnhT4546C6ceKSEgLxKWO63AAAAox+LCAAAAAAAAP9tjTESgjAQRT84FraWHiIUauVY2WZoPEGEGAOZXUwWofJEXs07yMiMlb/67zXv9cYyRRw5OtVYaj2lyqsu9G56auDYXgMPquGLqpgSB6tKO5Rc29OMJYvFvCzHQmNlqQqcPDnBWjfmYYpgyBVniZM7aOS+vuOJTE9lMVG+MEZsbn2dmH6dvwGMXSfIt3tBtvsA/gVtV70AAAA=[0m[Pipeline] }
+[8mha:////4PVa+eOfGCB5ryE2GyokIfyPZOVvh3emQVgJTOuHuCGAAAAAox+LCAAAAAAAAP9tjbEOgjAURS8YB1dHP6IMJC7GybVh8Qsq1Fpo3sP2IUx+kb/mP0gkcfJO95zlvN5Yp4gjR6daS52nVHvVh8HNT40cu2vgUbV8UTVT4mBVZceKG3tasGKxWJblWGlsLNWBkycn2OrWPEwRDLniLHF2B43cN3c8kem5LCbKF6aI3W1oEtOv8zeAqe8FebkXZOUHjeqpjr0AAAA=[0m[Pipeline] // node
+[8mha:////4OyM7hMK6utvbTfbnNkjhtaoCHWCq3+ZbQ+BNe9AvJHZAAAApB+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMKRoKBAVLRWGl5gEmOcWHfBvpBUvIiv8QciIlGx1c4083pjmSKOHJ1qLLWeUuVVF3o3PTVwbK+BB9XwRVVMiYNVpR1Kru1pxpLFYl6WY6GxslQFTp6cYK0b8zBFMOSKs8TJHTRyX9/xRKanspgoXxgjNre+Tky/zt8Axq4T5Lu9INt+AKvzzsS9AAAA[0m[Pipeline] End of Pipeline
+ERROR: script returned exit code 1
+Finished: FAILURE

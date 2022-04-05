@@ -1,0 +1,26 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<Tag plugin="workflow-support@3.8">
+  <node class="cps.n.StepAtomNode" plugin="workflow-cps@2.94">
+    <parentIds>
+      <string>22</string>
+    </parentIds>
+    <id>23</id>
+    <descriptorId>org.jenkinsci.plugins.workflow.steps.durable_task.ShellStep</descriptorId>
+  </node>
+  <actions>
+    <cps.a.ArgumentsActionImpl plugin="workflow-cps@2.94">
+      <arguments>
+        <entry>
+          <string>script</string>
+          <string>python /root/.jenkins/workspace/test-test-nic-driveinstalluninstall/npxtester/conf/change_args.py  &apos;{&quot;sut_conf&quot;:{&quot;host&quot;:&quot;10.112.97.62&quot;,&quot;pf1&quot;:&quot;ens2f0&quot;},&quot;drive_info&quot;:{&quot;drive_tar_path&quot;:&quot;/opt/APP/driver/tmp/ice-1.6.4.tar.gz&quot;,&quot;drive_name&quot;:&quot;ice&quot;,&quot;drive_version&quot;:&quot;1.6.4&quot;}}&apos;</string>
+        </entry>
+      </arguments>
+      <sensitiveVariables/>
+      <isUnmodifiedBySanitization>true</isUnmodifiedBySanitization>
+    </cps.a.ArgumentsActionImpl>
+    <wf.a.TimingAction plugin="workflow-api@2.46">
+      <startTime>1648141512446</startTime>
+    </wf.a.TimingAction>
+    <s.a.LogStorageAction/>
+  </actions>
+</Tag>

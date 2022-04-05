@@ -1,0 +1,51 @@
+commit 78ebe59d18bfba5993e5229051e56ecc2da0b459
+tree 506529c70283c585323a7c7a7529bc8229877ac9
+parent 10f09869c15673f2dd165120ee7db5f26d583dc0
+author Ying Zhao <ying.zhao@intel.com> 2021-10-21 10:19:57 +0800
+committer Ying Zhao <ying.zhao@intel.com> 2021-10-21 10:19:57 +0800
+
+    fixed delete job issue
+    
+    Signed-off-by: Ying Zhao <ying.zhao@intel.com>
+
+
+:100644 100644 b758eccda309a6d4e2e514edef8156519e25b872 c683f992415569793b0dee1a4e4c257e8129c7bf M	k8s_yamls/pipeline_test_sriov
+commit 10f09869c15673f2dd165120ee7db5f26d583dc0
+tree 073d5da33bbcfadce40accc28c5bb44be08c5559
+parent bdb0082addaf99e12dffb2ee0d043b99c94f9a4b
+author Ying Zhao <ying.zhao@intel.com> 2021-10-21 10:15:59 +0800
+committer Ying Zhao <ying.zhao@intel.com> 2021-10-21 10:15:59 +0800
+
+    fixed clean job issue
+    
+    Signed-off-by: Ying Zhao <ying.zhao@intel.com>
+
+
+:100644 100644 d7a18aea8d4be5f19f956b6882815ef031bbf255 b758eccda309a6d4e2e514edef8156519e25b872 M	k8s_yamls/pipeline_test_sriov
+commit bdb0082addaf99e12dffb2ee0d043b99c94f9a4b
+tree ab6f345009fdbd000cad85580f5bd45b27b44426
+parent 757fc1c246bcfff989860ad268ea088bdba52770
+author Ying Zhao <ying.zhao@intel.com> 2021-10-21 10:15:01 +0800
+committer Ying Zhao <ying.zhao@intel.com> 2021-10-21 10:15:01 +0800
+
+    fixed clean job issue
+    
+    Signed-off-by: Ying Zhao <ying.zhao@intel.com>
+
+
+:100644 100644 c059f0885bde2581908c06f822632f49b0b1839f d7a18aea8d4be5f19f956b6882815ef031bbf255 M	k8s_yamls/pipeline_test_sriov
+commit 757fc1c246bcfff989860ad268ea088bdba52770
+tree 806b6a7e5d48e1e6335ebdc6b12a57762b16708d
+parent 304b63cd297c4e442cba748bee3eb832421e7957
+author Ying Zhao <ying.zhao@intel.com> 2021-10-21 10:11:17 +0800
+committer Ying Zhao <ying.zhao@intel.com> 2021-10-21 10:11:17 +0800
+
+    fixed job name issue
+    
+    Signed-off-by: Ying Zhao <ying.zhao@intel.com>
+
+
+:100644 100644 9bc783382c0218bc25ce8c5c86cd2959f78ade9d c059f0885bde2581908c06f822632f49b0b1839f M	k8s_yamls/pipeline_test_sriov
+:100644 100644 2ae4c25f21974253e3fcd92e3e281f7e5fe57a59 b296cad04bd8332f5405e6f581081665ffa5d3ac M	k8s_yamls/sriov/k8s_test_pktgen.yaml
+:100644 100644 e28477d64d1538b43a13bb0aac3e5a5661f7cf35 3b761d2fba607b47ad21a8f76e7baa2ef2db31aa M	k8s_yamls/sriov/k8s_test_testpmd.yaml
+:100644 100644 8ba34062ac65e54357dbed1fb39751bc4225e35c e0120a60420b3868d63487c813e9e6233b782422 M	k8s_yamls/sriov/k8s_testconfig_testpmd.yaml

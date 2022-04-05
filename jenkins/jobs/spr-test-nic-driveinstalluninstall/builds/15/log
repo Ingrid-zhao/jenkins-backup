@@ -1,0 +1,227 @@
+Started by timer
+Running in Durability level: MAX_SURVIVABILITY
+[8mha:////4DOlrZhma2TKYqx8mtRBwGXVE8Xt4z3OJyo/zi+ICDdzAAAAoh+LCAAAAAAAAP9tjTEOwjAQBM8BClpKHuFItIiK1krDC0x8GCfWnbEdkooX8TX+gCESFVvtrLSa5wtWKcKBo5UdUu8otU4GP9jS5Mixv3geZcdn2TIl9igbHBs2eJyx4YwwR1SwULBGaj0nRzbDRnX6rmuvydanHMu2V1A5c4MHCFXMWcf8hSnC9jqYxPTz/BXAFEIGsfuclm8zQVqFvQAAAA==[0m[Pipeline] Start of Pipeline
+[8mha:////4B4K7nOhvaaLmbeE3w0NEhE1GAALwLDjakw9plXgkY6XAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycohUghExsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jduZBmjwAAAAA==[0m[Pipeline] node
+Running on [8mha:////4EheNQ7D4c27QswDGPiDpGtf9rfQF1HauEmyd+/REsZ/AAAAoh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyeEgZx/eT83ILSktQiICOvpCg/Jye1SDdLHwCRPP8lzAAAAA==[0mcontroller-j in /root/.jenkins/workspace/spr-test-nic-driveinstalluninstall
+[8mha:////4NUxBMzN6CtFAbQ4pdo7pH8ZuwVHigLf0SdP3FcjQTwyAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gA0xsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jfoP95RwAAAAA==[0m[Pipeline] {
+[8mha:////4OCB1+Up79PmV3LnMeomKr9r+JFCKkFjAfTpr2UorbLOAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gQkxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jc09154wAAAAA==[0m[Pipeline] stage
+[8mha:////4N6KQN35K8CT/Pcr9a+R4oOEu4uEh3phvpB1t67zd2hmAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0ggUxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jek7ggRwAAAAA==[0m[Pipeline] { (rm project dir)
+[8mha:////4EWjgIQS1R18e39T6LdOu3ZpSMSXMburmKwxJHd8e163AAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gwExsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jcChmMxwAAAAA==[0m[Pipeline] script
+[8mha:////4NOJ/YVWDlnnBpjDdLKlLZkF5LrR387vblsx7fWhZkPlAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0BAkxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jfpX/cvwAAAAA==[0m[Pipeline] {
+[8mha:////4MAm0moKTc8Eo2PcB0LgkHNHI7Xtf5Poej2Mf/l8xh/lAAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQTbaoyVLaHxBMgiwpL/WWDdrTyRV/MOEjexcpJJ5k3zXm9Y5wQnSpZ7g73DrB2PYbR18YlSfws0cU9XrgkzBcOlmSR15rygpGJgCWtgJWBjUAfKDm2BrfDqodqg0LaXkup3FNC4boAnMFHNRaXyhTnB7j52mfDn+SuAORZg+9pD/AAeoCAqvAAAAA==[0m[Pipeline] sh
++ ls /root/.jenkins/workspace/spr-test-nic-driveinstalluninstall/npxtester
+1.0.0.0001.version
+conf
+installation
+libs
+log_analyzer
+README.md
+testconf
+testLibs
+Tests
+[8mha:////4F3BY6hez6Yn9lSF4dYULOlz4RwK0Fdsp1OYWtj0vxDtAAAAox+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMKBDglR0VppeIFJjHFi3QX7QlLxIr7GH4iIRMVWO9PM641lijhydKqx1HpKlVdd6N301MCxvQYeVMMXVTElDlaVdii5tqcZSxaLeVmOhcbKUhU4eXKCtW7MwxTBkCvOEid30Mh9fccTmZ7KYqJ8YYzY3Po6Mf06fwMYO0G2F+S7bfcBITL9lL0AAAA=[0m[Pipeline] echo
+dir is exists and rm dir
+[8mha:////4KL1cTFlC/t8/0LRf71hJwxXIUFLIMviWtcIHXR2W8epAAAAox+LCAAAAAAAAP9tjbEOgjAURS8YB1dHP6KEzcQ4uTYsfkGFWgvNe9g+hMkv8tf8B4kkTt7pnrOc1xvrFHHk6FRrqfOUaq/6MLj5qZFjdw08qpYvqmZKHKyq7FhxY08LViwWy7IcK42NpTpw8uQEW92ahymCIVecJc7uoJH75o4nMj2XxUT5whSxuw1NYvp1/gYw9YJsL8jLsv8AYAPmjb0AAAA=[0m[Pipeline] sh
++ rm -rf /root/.jenkins/workspace/spr-test-nic-driveinstalluninstall/npxtester
+[8mha:////4GzJynz9IX3CLl34e/1JpYOeLz7FDsqMtIihCtFGqNpZAAAAox+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIRVEiIitZKwwtMYowT6y7YF5KKF/E1/kBEJCq22plmXm8sU8SRo1ONpdZTqrzqQu+mpwaO7TXwoBq+qIopcbCqtEPJtT3NWLJYzMtyLDRWlqrAyZMTrHVjHqYIhlxxlji5g0bu6zueyPRUFhPlC2PE5tbXienX+RvA2HWCfLsTZPsPzjQzob0AAAA=[0m[Pipeline] }
+[8mha:////4MvApYhNLg1xEFG2iXyHCog7Z9h4MbdAsNSDoK4wJnDgAAAApB+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIRoqBAVLRWGl5gEmOcWHfBvpBUvIiv8QciIlGx1c4083pjmSKOHJ1qLLWeUuVVF3o3PTVwbK+BB9XwRVVMiYNVpR1Kru1pxpLFYl6WY6GxslQFTp6cYK0b8zBFMOSKs8TJHTRyX9/xRKanspgoXxgjNre+Tky/zt8Axq4T5NudINt/AO8A7Ay9AAAA[0m[Pipeline] // script
+[8mha:////4P1g47DHQeYIMdAQPrqVFJW5XTEYSJkMqP0k+p1upCWxAAAApB+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIREqJBVLRWGl5gEmOcWHfBvpBUvIiv8QciIlGx1c4083pjmSKOHJ1qLLWeUuVVF3o3PTVwbK+BB9XwRVVMiYNVpR1Kru1pxpLFYl6WY6GxslQFTp6cYK0b8zBFMOSKs8TJHTRyX9/xRKanspgoXxgjNre+Tky/zt8Axq4T5NudINt/AGnsy8m9AAAA[0m[Pipeline] }
+[8mha:////4Lc6WrLYEiiAC7rTWY8q4RQPGu1FD+hrgClvEqpzcg2sAAAAox+LCAAAAAAAAP9tjTESgjAQRT84FraWHiKMBZVjZZuh8QQRYgxkdjFZhMoTeTXvICMzVv7qv9e81xvrFHHk6FRrqfOUaq/6MLj5qZFjdw08qpYvqmZKHKyq7FhxY08LViwWy7IcK42NpTpw8uQEW92ahymCIVecJc7uoJH75o4nMj2XxUT5whSxuw1NYvp1/gYw9b0g35eCrPwAY5Sibb0AAAA=[0m[Pipeline] // stage
+[8mha:////4LPzYIRsJlP9vBl87WR2FbvV5590n9jZkqHCRBijPEs5AAAApx+LCAAAAAAAAP9tjTEOwjAQBM9BKWgpeYQjJESDqGgtN7zAxMY4se6CfSGpeBFf4w8EIlGx1c5Kq3m+oMwJDpS8bBy2AXMdZBd7PzU5UGovkQbZ0FnWhJmik9oNmqw7zqiJHcwRBSwULB3WkXJAz7BSjbmbKhr01YnTtO0VFMHe4AFCTWY2ib8wJlhfe5sJf56/Ahg7BrFlKDa7z7F8A6sHc4fBAAAA[0m[Pipeline] stage
+[8mha:////4P0yjWfQiEwQxZO7i9obwDXrYwQclNR3i//1CTGbFwBFAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohULDAgpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD1+IXOLCAAAA[0m[Pipeline] { (clone)
+[8mha:////4I3tKNYAz7At397ZkNOs6SFwEn2bzn3ZBhsoegW1dhRwAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiKpAQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGPIUG53n9qHNxXfVKy+AAAA[0m[Pipeline] sh
++ git clone -b develop https://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@github.com/intel-innersource/applications.validation.network-platform.npxtester.git npxtester
+Cloning into 'npxtester'...
+[8mha:////4CRWXV91kUhqh2bTVXI+2n5U32cQ89nJ7yub5blKQ29bAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiKoQQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGMIGcrt/lO7N9Jjga++AAAA[0m[Pipeline] }
+[8mha:////4I4ZVrOFMvh2sVfxnfT9s6+paGHoH9OzkxEwdR4h+nRDAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOICFDQoFa3lhheYxBgn1l2wHZyKF/E1/oBFJCq2WO1sM683LIOHmr3BTlNvKTQWBzeavDCx76+OE3Z8wYYpsNModZLc6tOMkqOGOUUJCwErTY3jYMlEWItOPVTlFJnqHH3+jgJK297hCYXI5qh8/MLkYXMb28D08/wVwDQMEcr9Ntfu8AERGGHOvgAAAA==[0m[Pipeline] // stage
+[8mha:////4J4BpfnRrLE6odVrNZGgZ11wIRy0HYHBalvcHAcD12j/AAAAph+LCAAAAAAAAP9tjTEOwjAQBM9BKWgpeYQjEB2iorXc8AITG+PEugv2haTiRXyNPxCIRMVWOyut5vmCMic4UPKycdgGzHWQXez91ORAqb1EGmRDZ1kTZopOajdosu44oyZ2MEcUsFCwdFhHygE9w0o15m6qaNBXJ07TtldQBHuDBwg1mdkk/sKYYH3tbSb8ef4KYOwYxI6h2G4+x/INji2eq8EAAAA=[0m[Pipeline] stage
+[8mha:////4AgPhGmio4pMNzq5gItmuDxswb3P5dwyIofUIBdMXBTmAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+DOrAycohUdEVMrFEXThCaEJJG/7dJSjpxIq7GHWipxIQHy7ZkvdcbyhjgRMFwp7GzGFvLez+aOfFMobt5ytzRlbeEkbzmjc4NKX1ea0NJw6qCwUbAVmPrKVo0CXbCyYesvERTXVKYt6MAZtUATyjETE4ypG+ZAuzvo4qEP85fAEx9AlYfFquXZ/kBAsTc3cIAAAA=[0m[Pipeline] { (set args)
+[8mha:////4G9dxluK5ut2lxdfo2JVi6OIov1ZH/881VUFzuPzanonAAAAox+LCAAAAAAAAP9tjTESwiAURH/iWNhaeggyE0vHypah8QSYIEKY/wkQSeWJvJp3EM2MlVvs7NvmPV+wjgGOFDSzCgeDsTPMu0mXxTKF4eooM0sX1hFGcooJlQX16rSgoKRgSVXDisNGYecoGtQJttzKu2ycRN2cUyjfgUNt+hEeUPFiTjKkL8wBdrepj4Q/z18BzD5B3baf2vs3w5BRkb4AAAA=[0m[Pipeline] sh
++ python /root/.jenkins/workspace/spr-test-nic-driveinstalluninstall/npxtester/conf/change_args.py '{"sut_conf":{"host":"10.239.183.130"},"drive_info":{"drive_tar_path":"/opt/APP/driver/tmp/ice-1.6.4.tar.gz","drive_name":"ice","drive_version":"5.15.0-1003-realtime"}}'
+[8mha:////4FhUQONKPXFSeOjFO92QKbtxv93cUzSuhB7hx3xoWX6KAAAApB+LCAAAAAAAAP9tjbEOwiAURV9rHFwd/QiaNG7GyZWw+AXYIkLJexSodPKL/DX/QbSJk3e4uecu5/mCdQxwpKCZVTgYjJ1h3k26LJYpDFdHmVm6sI4wklNMqCyoV6cFBSUFS6oaVhw2CjtH0aBOsOVW3mXjJOrmnEL5Dhxq04/wgIoXc5IhfWEOsLtNfST8ef4KYPY+Qd3uP9W+Ad3NsHm+AAAA[0m[Pipeline] }
+[8mha:////4EpM1Tihe33kOTBucrClpdwMCq1FF6wGwTU/AEOZmYaNAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIikKgQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGMIGcrd/lPbN8JP5Su+AAAA[0m[Pipeline] // stage
+[8mha:////4JJk4NQMkVX21N+ktknOqKLQw+FD2VU/fvD8dhBPuambAAAApx+LCAAAAAAAAP9tjTEOwjAQBM9BKWgpeYQjIUSDqGgtN7zAxMY4se6CfSGpeBFf4w8EIlGx1c5Kq3m+oMwJDpS8bBy2AXMdZBd7PzU5UGovkQbZ0FnWhJmik9oNmqw7zqiJHcwRBSwULB3WkXJAz7BSjbmbKhr01YnTtO0VFMHe4AFCTWY2ib8wJlhfe5sJf56/Ahg7BrFlKDa7z7F8AzYdm7bBAAAA[0m[Pipeline] stage
+[8mha:////4GToWcz1lEtttcc1F67+obVKf97ChyGWoNBgdNb8ln6iAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUYoABMXWNsnCC0ISQNvq//KS0EyfiatyBlkpMeLBsS9Z7vaGIDCdiJxqLrcdYe9GF3k1JDMTtNdAgGrqImjBSsELZQZGx1VIVJQuLshxWEtYW60DRo0uwkY1+6DJodOU58bQdJeTe3OEJmZzISXP6lpFhe+tNJPxx/gJg7BLku/1sh/lZfAAyQCqkwgAAAA==[0m[Pipeline] { (run drive install uninstall)
+[8mha:////4M/BBJOrvLliK1a64sS7A0hf4H4seiclg8D1IX9OqKAVAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIi0YCEqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDhnK7+9Q+vAGvZp0gvgAAAA==[0m[Pipeline] sh
++ pytest /root/.jenkins/workspace/spr-test-nic-driveinstalluninstall/npxtester/Tests/testNics -s -m driveInstall --capture=tee-sys --html=/root/testconfig/testlogs/HtmlReport/drive_installuninstall_report.html --self-contained-html
+============================= test session starts ==============================
+platform linux -- Python 3.6.8, pytest-6.2.4, py-1.11.0, pluggy-0.13.1
+rootdir: /root/.jenkins/workspace/spr-test-nic-driveinstalluninstall/npxtester/Tests/testNics, configfile: pytest.ini
+plugins: metadata-1.11.0, html-3.1.1
+collected 16 items / 15 deselected / 1 selected
+
+npxtester/Tests/testNics/test_nics.py 2022-03-30 01:17:28 - NicTestFixture.py - [line:27] - root - INFO - case_logpath: /root/testconfig/testlogs/2022-03-30/test_PI_Networking_DriverInstallationUninstall_01_17_28/test_PI_Networking_DriverInstallationUninstall.log, case_logdir: /root/testconfig/testlogs/2022-03-30/test_PI_Networking_DriverInstallationUninstall_01_17_28
+2022-03-30 01:17:28 - NicTestFixture.py - [line:31] - root - INFO - ============================ Starting to run test_PI_Networking_DriverInstallationUninstall case ============================
+2022-03-30 01:17:28 - test_nics.py - [line:21] - root - INFO - this is Test_Nics setup.
+2022-03-30 01:17:28 - transport.py - [line:1819] - paramiko.transport - INFO - Connected (version 2.0, client OpenSSH_8.8p1)
+2022-03-30 01:17:29 - transport.py - [line:1819] - paramiko.transport - INFO - Authentication (password) successful!
+2022-03-30 01:17:29 - sshInstance.py - [line:28] - root - INFO - SSH on SUT: 10.239.183.130
+2022-03-30 01:17:29 - transport.py - [line:1819] - paramiko.transport - INFO - Connected (version 2.0, client OpenSSH_8.0)
+2022-03-30 01:17:29 - transport.py - [line:1819] - paramiko.transport - INFO - Authentication (password) successful!
+2022-03-30 01:17:29 - sshInstance.py - [line:28] - root - INFO - SSH on SUT: 10.112.97.60
+2022-03-30 01:17:29 - sftp.py - [line:158] - paramiko.transport.sftp - INFO - [chan 1] Opened sftp connection (server version 3)
+2022-03-30 01:17:29 - test_nics.py - [line:31] - root - INFO - --Start rmmod irdma --
+2022-03-30 01:17:32 - sshInstance.py - [line:50] - root - INFO - rmmod irdma
+2022-03-30 01:17:32 - sshInstance.py - [line:54] - root - INFO - 
+2022-03-30 01:17:37 - test_nics.py - [line:33] - root - INFO - --Finish rmmod irdma --
+2022-03-30 01:17:37 - test_nics.py - [line:34] - root - INFO - --Start rmmod ice --
+2022-03-30 01:17:40 - sshInstance.py - [line:50] - root - INFO - rmmod ice
+2022-03-30 01:17:46 - sshInstance.py - [line:54] - root - INFO - 
+2022-03-30 01:17:51 - test_nics.py - [line:36] - root - INFO - --Finish rmmod ice --
+2022-03-30 01:17:51 - test_nics.py - [line:37] - root - INFO - --Start modprobe ice --
+2022-03-30 01:17:54 - sshInstance.py - [line:50] - root - INFO - modprobe ice
+2022-03-30 01:18:29 - sshInstance.py - [line:54] - root - INFO - 
+2022-03-30 01:18:34 - test_nics.py - [line:39] - root - INFO - --Finish modprobe ice --
+2022-03-30 01:18:37 - sshInstance.py - [line:50] - root - INFO - ifconfig ens2f0 up
+2022-03-30 01:18:37 - sshInstance.py - [line:54] - root - INFO - ens2f0: ERROR while getting interface flags: No such device
+
+2022-03-30 01:18:45 - sshInstance.py - [line:50] - root - INFO - ethtool -i ens2f0 | grep ^version:
+2022-03-30 01:18:45 - sshInstance.py - [line:54] - root - INFO - Cannot get driver information: No such device
+
+E2022-03-30 01:18:50 - NicTestFixture.py - [line:35] - root - INFO - ============================ end of run test_PI_Networking_DriverInstallationUninstall case ============================
+                                  [100%]
+
+==================================== ERRORS ====================================
+__ ERROR at setup of Test_Nics.test_PI_Networking_DriverInstallationUninstall __
+
+self = <Tests.testNics.test_nics.Test_Nics object at 0x7f58c4033748>
+
+    def setup(self):
+        logging.info("this is Test_Nics setup.")
+        self.sut_conf = settings.__getattribute__("sut_conf")
+        self.pkg_generator = settings.__getattribute__("pkg_generator")
+        self.drive_info = settings.__getattribute__("drive_info")
+        self.check_str = settings.__getattribute__("check_str")
+        self.dpdk_dir = settings.__getattribute__("dpdk_dir")
+        self.cn_test_sut = sshInstance()
+        self.client, self.session = self.cn_test_sut.get_ssh_instance(self.sut_conf["host"], self.sut_conf["user"], self.sut_conf["password"], self.sut_conf["port"])
+        self.client2, self.session2 = self.cn_test_sut.get_ssh_instance(self.pkg_generator["host"], self.pkg_generator["user"], self.pkg_generator["password"], self.pkg_generator["port"])
+        self.sftp = self.client.open_sftp()
+        logging.info("--Start rmmod irdma --")
+        self.cn_test_sut.ssh_exec_cmd(self.client, "rmmod irdma")
+        logging.info("--Finish rmmod irdma --")
+        logging.info("--Start rmmod ice --")
+        self.cn_test_sut.ssh_exec_cmd(self.client, "rmmod ice")
+        logging.info("--Finish rmmod ice --")
+        logging.info("--Start modprobe ice --")
+        self.cn_test_sut.ssh_exec_cmd(self.client, "modprobe ice")
+        logging.info("--Finish modprobe ice --")
+        self.cn_test_sut.ssh_exec_cmd(self.client, "ifconfig {} up".format(self.sut_conf["pf1"]))
+        stdout, stderr = self.cn_test_sut.ssh_exec_cmd(self.client, "ethtool -i {} | grep ^version:".format(self.sut_conf["pf1"]))
+        st = False
+        for line in stdout.split("\n"):
+            if line.find("version:") == 0 and line.find(self.drive_info["drive_version"]) > -1:
+                st = True
+        if not st:
+>           assert 200 == 400, "driver version mismatch version ,please check"
+E           AssertionError: driver version mismatch version ,please check
+E           assert 200 == 400
+
+npxtester/Tests/testNics/test_nics.py:47: AssertionError
+---------------------------- Captured stdout setup -----------------------------
+2022-03-30 01:17:28 - NicTestFixture.py - [line:27] - root - INFO - case_logpath: /root/testconfig/testlogs/2022-03-30/test_PI_Networking_DriverInstallationUninstall_01_17_28/test_PI_Networking_DriverInstallationUninstall.log, case_logdir: /root/testconfig/testlogs/2022-03-30/test_PI_Networking_DriverInstallationUninstall_01_17_28
+2022-03-30 01:17:28 - NicTestFixture.py - [line:31] - root - INFO - ============================ Starting to run test_PI_Networking_DriverInstallationUninstall case ============================
+2022-03-30 01:17:28 - test_nics.py - [line:21] - root - INFO - this is Test_Nics setup.
+2022-03-30 01:17:28 - transport.py - [line:1819] - paramiko.transport - INFO - Connected (version 2.0, client OpenSSH_8.8p1)
+2022-03-30 01:17:29 - transport.py - [line:1819] - paramiko.transport - INFO - Authentication (password) successful!
+2022-03-30 01:17:29 - sshInstance.py - [line:28] - root - INFO - SSH on SUT: 10.239.183.130
+2022-03-30 01:17:29 - transport.py - [line:1819] - paramiko.transport - INFO - Connected (version 2.0, client OpenSSH_8.0)
+2022-03-30 01:17:29 - transport.py - [line:1819] - paramiko.transport - INFO - Authentication (password) successful!
+2022-03-30 01:17:29 - sshInstance.py - [line:28] - root - INFO - SSH on SUT: 10.112.97.60
+2022-03-30 01:17:29 - sftp.py - [line:158] - paramiko.transport.sftp - INFO - [chan 1] Opened sftp connection (server version 3)
+2022-03-30 01:17:29 - test_nics.py - [line:31] - root - INFO - --Start rmmod irdma --
+2022-03-30 01:17:32 - sshInstance.py - [line:50] - root - INFO - rmmod irdma
+2022-03-30 01:17:32 - sshInstance.py - [line:54] - root - INFO - 
+2022-03-30 01:17:37 - test_nics.py - [line:33] - root - INFO - --Finish rmmod irdma --
+2022-03-30 01:17:37 - test_nics.py - [line:34] - root - INFO - --Start rmmod ice --
+2022-03-30 01:17:40 - sshInstance.py - [line:50] - root - INFO - rmmod ice
+2022-03-30 01:17:46 - sshInstance.py - [line:54] - root - INFO - 
+2022-03-30 01:17:51 - test_nics.py - [line:36] - root - INFO - --Finish rmmod ice --
+2022-03-30 01:17:51 - test_nics.py - [line:37] - root - INFO - --Start modprobe ice --
+2022-03-30 01:17:54 - sshInstance.py - [line:50] - root - INFO - modprobe ice
+2022-03-30 01:18:29 - sshInstance.py - [line:54] - root - INFO - 
+2022-03-30 01:18:34 - test_nics.py - [line:39] - root - INFO - --Finish modprobe ice --
+2022-03-30 01:18:37 - sshInstance.py - [line:50] - root - INFO - ifconfig ens2f0 up
+2022-03-30 01:18:37 - sshInstance.py - [line:54] - root - INFO - ens2f0: ERROR while getting interface flags: No such device
+
+2022-03-30 01:18:45 - sshInstance.py - [line:50] - root - INFO - ethtool -i ens2f0 | grep ^version:
+2022-03-30 01:18:45 - sshInstance.py - [line:54] - root - INFO - Cannot get driver information: No such device
+
+=============================== warnings summary ===============================
+npxtester/Tests/testNics/test_iperf_client_4hour.py:74
+  /root/.jenkins/workspace/spr-test-nic-driveinstalluninstall/npxtester/Tests/testNics/test_iperf_client_4hour.py:74: PytestUnknownMarkWarning: Unknown pytest.mark.iperf_tcp - is this a typo?  You can register custom marks to avoid this warning - for details, see https://docs.pytest.org/en/stable/mark.html
+    @pytest.mark.iperf_tcp
+
+npxtester/Tests/testNics/test_iperf_client_4hour.py:121
+  /root/.jenkins/workspace/spr-test-nic-driveinstalluninstall/npxtester/Tests/testNics/test_iperf_client_4hour.py:121: PytestUnknownMarkWarning: Unknown pytest.mark.iperf_udp - is this a typo?  You can register custom marks to avoid this warning - for details, see https://docs.pytest.org/en/stable/mark.html
+    @pytest.mark.iperf_udp
+
+npxtester/Tests/testNics/test_mtu.py:69
+  /root/.jenkins/workspace/spr-test-nic-driveinstalluninstall/npxtester/Tests/testNics/test_mtu.py:69: PytestUnknownMarkWarning: Unknown pytest.mark.two_sut_CVL - is this a typo?  You can register custom marks to avoid this warning - for details, see https://docs.pytest.org/en/stable/mark.html
+    @pytest.mark.two_sut_CVL
+
+npxtester/Tests/testNics/test_mtu.py:70
+  /root/.jenkins/workspace/spr-test-nic-driveinstalluninstall/npxtester/Tests/testNics/test_mtu.py:70: PytestUnknownMarkWarning: Unknown pytest.mark.nicSimple - is this a typo?  You can register custom marks to avoid this warning - for details, see https://docs.pytest.org/en/stable/mark.html
+    @pytest.mark.nicSimple
+
+npxtester/Tests/testNics/test_mtu.py:109
+  /root/.jenkins/workspace/spr-test-nic-driveinstalluninstall/npxtester/Tests/testNics/test_mtu.py:109: PytestUnknownMarkWarning: Unknown pytest.mark.two_sut_CVL - is this a typo?  You can register custom marks to avoid this warning - for details, see https://docs.pytest.org/en/stable/mark.html
+    @pytest.mark.two_sut_CVL
+
+npxtester/Tests/testNics/test_mtu.py:110
+  /root/.jenkins/workspace/spr-test-nic-driveinstalluninstall/npxtester/Tests/testNics/test_mtu.py:110: PytestUnknownMarkWarning: Unknown pytest.mark.nicSimple - is this a typo?  You can register custom marks to avoid this warning - for details, see https://docs.pytest.org/en/stable/mark.html
+    @pytest.mark.nicSimple
+
+npxtester/Tests/testNics/test_network_sriov_stress.py:414
+  /root/.jenkins/workspace/spr-test-nic-driveinstalluninstall/npxtester/Tests/testNics/test_network_sriov_stress.py:414: PytestUnknownMarkWarning: Unknown pytest.mark.nicSriov5times - is this a typo?  You can register custom marks to avoid this warning - for details, see https://docs.pytest.org/en/stable/mark.html
+    @pytest.mark.nicSriov5times
+
+npxtester/Tests/testNics/test_network_sriov_stress.py:540
+  /root/.jenkins/workspace/spr-test-nic-driveinstalluninstall/npxtester/Tests/testNics/test_network_sriov_stress.py:540: PytestUnknownMarkWarning: Unknown pytest.mark.nicSriov2hours - is this a typo?  You can register custom marks to avoid this warning - for details, see https://docs.pytest.org/en/stable/mark.html
+    @pytest.mark.nicSriov2hours
+
+npxtester/Tests/testNics/test_network_sriov_stress.py:846
+  /root/.jenkins/workspace/spr-test-nic-driveinstalluninstall/npxtester/Tests/testNics/test_network_sriov_stress.py:846: PytestUnknownMarkWarning: Unknown pytest.mark.SriovVfIperf - is this a typo?  You can register custom marks to avoid this warning - for details, see https://docs.pytest.org/en/stable/mark.html
+    @pytest.mark.SriovVfIperf
+
+npxtester/Tests/testNics/test_nics.py:84
+  /root/.jenkins/workspace/spr-test-nic-driveinstalluninstall/npxtester/Tests/testNics/test_nics.py:84: PytestUnknownMarkWarning: Unknown pytest.mark.nicSimple - is this a typo?  You can register custom marks to avoid this warning - for details, see https://docs.pytest.org/en/stable/mark.html
+    @pytest.mark.nicSimple
+
+npxtester/Tests/testNics/test_nics.py:111
+  /root/.jenkins/workspace/spr-test-nic-driveinstalluninstall/npxtester/Tests/testNics/test_nics.py:111: PytestUnknownMarkWarning: Unknown pytest.mark.nicSimple - is this a typo?  You can register custom marks to avoid this warning - for details, see https://docs.pytest.org/en/stable/mark.html
+    @pytest.mark.nicSimple
+
+npxtester/Tests/testNics/test_nics.py:141
+  /root/.jenkins/workspace/spr-test-nic-driveinstalluninstall/npxtester/Tests/testNics/test_nics.py:141: PytestUnknownMarkWarning: Unknown pytest.mark.nicSimple - is this a typo?  You can register custom marks to avoid this warning - for details, see https://docs.pytest.org/en/stable/mark.html
+    @pytest.mark.nicSimple
+
+npxtester/Tests/testNics/test_nics.py:212
+  /root/.jenkins/workspace/spr-test-nic-driveinstalluninstall/npxtester/Tests/testNics/test_nics.py:212: PytestUnknownMarkWarning: Unknown pytest.mark.nicSimple - is this a typo?  You can register custom marks to avoid this warning - for details, see https://docs.pytest.org/en/stable/mark.html
+    @pytest.mark.nicSimple
+
+npxtester/Tests/testNics/test_nics.py:238
+  /root/.jenkins/workspace/spr-test-nic-driveinstalluninstall/npxtester/Tests/testNics/test_nics.py:238: PytestUnknownMarkWarning: Unknown pytest.mark.nicSimple - is this a typo?  You can register custom marks to avoid this warning - for details, see https://docs.pytest.org/en/stable/mark.html
+    @pytest.mark.nicSimple
+
+npxtester/Tests/testNics/test_nics.py:281
+  /root/.jenkins/workspace/spr-test-nic-driveinstalluninstall/npxtester/Tests/testNics/test_nics.py:281: PytestUnknownMarkWarning: Unknown pytest.mark.nicSimple - is this a typo?  You can register custom marks to avoid this warning - for details, see https://docs.pytest.org/en/stable/mark.html
+    @pytest.mark.nicSimple
+
+-- Docs: https://docs.pytest.org/en/stable/warnings.html
+- generated html file: file:///root/testconfig/testlogs/HtmlReport/drive_installuninstall_report.html -
+=========================== short test summary info ============================
+ERROR npxtester/Tests/testNics/test_nics.py::Test_Nics::test_PI_Networking_DriverInstallationUninstall
+=========== 15 deselected, 15 warnings, 1 error in 81.79s (0:01:21) ============
+[8mha:////4LeiMYyvaTAszhIQ10pdIeDepJ20hGjpoNTSDQ54vTlOAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIi0SCEqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDyFBu95/avQGMKkS1vgAAAA==[0m[Pipeline] }
+[8mha:////4I/tRoD/KV6lJ76TTEJ8vusLD5mbZiDJ1z7tZBIwhHThAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKCQKJBqWgtN7zAJMY4se6C7eBUvIiv8QcsIlGxxWpnm3m9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKZhiFDut7l2hw9mQDtDvgAAAA==[0m[Pipeline] // stage
+[8mha:////4CAP7WQdC2FMpNczqgZSKdPjM+Zu6Lz59I8VEE3/AlUOAAAAph+LCAAAAAAAAP9tjTEOwjAQBM9BKWgpeYQjBB2iorXc8AITG+PEugv2haTiRXyNPxCIRMVWOyut5vmCMic4UPKycdgGzHWQXez91ORAqb1EGmRDZ1kTZopOajdosu44oyZ2MEcUsFCwdFhHygE9w0o15m6qaNBXJ07TtldQBHuDBwg1mdkk/sKYYH3tbSb8ef4KYOwYxI6h2G4+x/INOibpDcEAAAA=[0m[Pipeline] stage
+[8mha:////4Db8sOlSRxZnVxb7xJBDSAteoF0PgC9lkQldzKIJFwYiAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUwIiYukZZOEFoQkgb/V9+UtqJE3E17kBLJSY8WLYl673eUESGE7ETjcXWY6y96ELvpiQG4vYaaBANXURNGClYoeygyNhqqYqShUVZDisJa4t1oOjRJdjIRj90GTS68px42o4Scm/u8IRMTuSkOX3LyLC99SYS/jh/ATB2CfLDbrb9/Cw+2YMO4MIAAAA=[0m[Pipeline] { (collect logs)
+Stage "collect logs" skipped due to earlier failure(s)
+[8mha:////4AfI3SthhIf/wHKBxkZZVuznCBOLGICd+mTaK5J1XhvpAAAAox+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIikRJR0VppeIFJjLFj3Tm2g1PxIr7GHwhEomKL1c4283zBOgY4ctBoFfWGYmvQu1HPCzOH/uo4o+ULtkyRncJG5YY7dVqw4aRgSVHCSsBGUes4GtIJtsLKu6ycJF2dU5i/g4DSdAM8oBCzOcmQvjAF2N3GLjL9PH8FMHmfoKzrT+3fkMfZ274AAAA=[0m[Pipeline] }
+[8mha:////4O1G14z5oV6C9jl1Q5yIn+pZFQRmsElhyj6JiXyHA8ixAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiBB2iSmu54QUmNsaJdWdsh6TiRXyNPxCIRMUWq51t5vmCZYpw5GixNdQ5So3D4Hs7LRw4dhfPA7Z8xoYpsTcozSBZm3pGydnAnKKEhYCVocZzcmQzrEWr7qryimx1ynH6DgJKp2/wgEJM5qxi/sIYYXPtdWL6ef4KYAwhQ7nbf2r7BpKm1V++AAAA[0m[Pipeline] // stage
+[8mha:////4KtBCOpIKS64HlRGbxVDHBnhT4546C6ceKSEgLxKWO63AAAAox+LCAAAAAAAAP9tjTESgjAQRT84FraWHiIUauVY2WZoPEGEGAOZXUwWofJEXs07yMiMlb/67zXv9cYyRRw5OtVYaj2lyqsu9G56auDYXgMPquGLqpgSB6tKO5Rc29OMJYvFvCzHQmNlqQqcPDnBWjfmYYpgyBVniZM7aOS+vuOJTE9lMVG+MEZsbn2dmH6dvwGMXSfIt3tBtvsA/gVtV70AAAA=[0m[Pipeline] }
+[8mha:////4PVa+eOfGCB5ryE2GyokIfyPZOVvh3emQVgJTOuHuCGAAAAAox+LCAAAAAAAAP9tjbEOgjAURS8YB1dHP6IMJC7GybVh8Qsq1Fpo3sP2IUx+kb/mP0gkcfJO95zlvN5Yp4gjR6daS52nVHvVh8HNT40cu2vgUbV8UTVT4mBVZceKG3tasGKxWJblWGlsLNWBkycn2OrWPEwRDLniLHF2B43cN3c8kem5LCbKF6aI3W1oEtOv8zeAqe8FebkXZOUHjeqpjr0AAAA=[0m[Pipeline] // node
+[8mha:////4OyM7hMK6utvbTfbnNkjhtaoCHWCq3+ZbQ+BNe9AvJHZAAAApB+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMKRoKBAVLRWGl5gEmOcWHfBvpBUvIiv8QciIlGx1c4083pjmSKOHJ1qLLWeUuVVF3o3PTVwbK+BB9XwRVVMiYNVpR1Kru1pxpLFYl6WY6GxslQFTp6cYK0b8zBFMOSKs8TJHTRyX9/xRKanspgoXxgjNre+Tky/zt8Axq4T5Lu9INt+AKvzzsS9AAAA[0m[Pipeline] End of Pipeline
+ERROR: script returned exit code 1
+Finished: FAILURE

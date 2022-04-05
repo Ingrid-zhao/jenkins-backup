@@ -1,0 +1,17 @@
+commit 4b40771edfb899e5af1a013380e13bb018d40792
+tree d8bc7a3b3330ed6259813f9f2296ef15c943edd0
+parent 0f536a62828890a34bc32401b11960f14a51dc55
+author Ying Zhao <ying.zhao@intel.com> 2021-10-24 19:13:43 +0800
+committer Ying Zhao <ying.zhao@intel.com> 2021-10-24 19:13:43 +0800
+
+    rename the files of sriov log
+    
+    Signed-off-by: Ying Zhao <ying.zhao@intel.com>
+
+
+:100644 000000 999c7b42a5a6add4da237cc60770b8c3dc9b376f 0000000000000000000000000000000000000000 D	dockerFiles/pktgen_container/.Dockerfile.swp
+:100644 000000 3db061b88e9cff42b5c54b3f27166d95c7368d95 0000000000000000000000000000000000000000 D	dockerFiles/pktgen_container/Dockerfile_Reh
+:100644 100644 30a749ab6a15152768363af67f2e7ea9f55f7df8 30a749ab6a15152768363af67f2e7ea9f55f7df8 R100	dockerFiles/pktgen_container/Dockerfile_Rh8.2	dockerFiles/pktgen_container/Dockerfile_Rhl
+:100644 100644 44d726c11ff74007239efd2fa5fe7e2556f4b29e 44d726c11ff74007239efd2fa5fe7e2556f4b29e R100	k8s_yamls/log_yaml_mlc.sh	k8s_yamls/log_yaml_sriov.sh
+:100644 000000 c03f75c75f741e4b29985a82c958663ca75ce61d 0000000000000000000000000000000000000000 D	k8s_yamls/modify_yaml_mlc.sh
+:100644 100644 c683f992415569793b0dee1a4e4c257e8129c7bf eec0629e4d96951c3e5c02ed1ad1b4384ac9e42d M	k8s_yamls/pipeline_test_sriov

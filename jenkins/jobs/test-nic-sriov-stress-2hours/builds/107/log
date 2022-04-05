@@ -1,0 +1,279 @@
+Started by user [8mha:////4C8zTO/v0UlG+vQ5Fjm5jTf9kR93yL5yxTMP2X04T9v8AAAAlh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyWEgYu/dLi1CL9ovz8EgDKVWzSvwAAAA==[0mroot
+Running in Durability level: MAX_SURVIVABILITY
+[8mha:////4DOlrZhma2TKYqx8mtRBwGXVE8Xt4z3OJyo/zi+ICDdzAAAAoh+LCAAAAAAAAP9tjTEOwjAQBM8BClpKHuFItIiK1krDC0x8GCfWnbEdkooX8TX+gCESFVvtrLSa5wtWKcKBo5UdUu8otU4GP9jS5Mixv3geZcdn2TIl9igbHBs2eJyx4YwwR1SwULBGaj0nRzbDRnX6rmuvydanHMu2V1A5c4MHCFXMWcf8hSnC9jqYxPTz/BXAFEIGsfuclm8zQVqFvQAAAA==[0m[Pipeline] Start of Pipeline
+[8mha:////4B4K7nOhvaaLmbeE3w0NEhE1GAALwLDjakw9plXgkY6XAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycohUghExsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jduZBmjwAAAAA==[0m[Pipeline] node
+Running on [8mha:////4GiJsi7Mya/6bg7lYfwMQTzNVpzT54TxwGFsrEp/EcRtAAAAoh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyeEgZx/eT83ILSktQi/eTKAkMD3aLUXKBKfQCdwg2/zAAAAA==[0mcyp10-remote in /root/.jenkins/workspace/test-nic
+[8mha:////4NUxBMzN6CtFAbQ4pdo7pH8ZuwVHigLf0SdP3FcjQTwyAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gA0xsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jfoP95RwAAAAA==[0m[Pipeline] {
+[8mha:////4OCB1+Up79PmV3LnMeomKr9r+JFCKkFjAfTpr2UorbLOAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gQkxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jc09154wAAAAA==[0m[Pipeline] stage
+[8mha:////4N6KQN35K8CT/Pcr9a+R4oOEu4uEh3phvpB1t67zd2hmAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0ggUxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jek7ggRwAAAAA==[0m[Pipeline] { (set args)
+[8mha:////4KpTcsSlLG7yEvo1vGv2QG1z86HMYkLASFXVuKwhd7SZAAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQTbaWGsbAmNJ0AWEZb8zwLrbuWJvJp3kLiJlZNMMm+a93rDOic4UbLcG+wdZu14DKOti0+U+lugiXu6ck2YKRguzSSpM+cFJRUDS1gDKwEbgzpQdmgLbIVXD9UGhba9lFS/o4DGdQM8gYlqLiqVL8wJdvexy4Q/z18BzLEA29ce4gfg7KmOvAAAAA==[0m[Pipeline] sh
++ python /root/.jenkins/workspace/test-nic/npxtester/conf/change_args.py '{"vm_image_conf":{"image1":"ubuntu20.04.img","image2":"ubuntu20.04_2.img","image3":"rhel84rt.img","image4":"rhel84rt2.img","image_dir":"/home/image"},"sut_conf":{"host":"10.112.97.157","connect_switch_sut_pf":"ens787f0","pf1":"ens787f0","pf1_ipv6":"fe80::b696:91ff:fe9c:f760","os":"rehat"},"dhcp":{"ipv4":"192.168.10.10","ipv6":"fe80::b696:91ff:fe9c:f762"}}'
+[8mha:////4ChDQWb8Lvr0RoXQ1L8EY4p37+Po0Q8Mb8bchs8JeqDJAAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQTbGRNjZUtoPAGyiLDkfxZYdytP5NW8g8RNrJxkknnTvNcb1jnBiZLl3mDvMGvHYxhtXXyi1N8CTdzTlWvCTMFwaSZJnTkvKKkYWMIaWAnYGNSBskNbYCu8eqg2KLTtpaT6HQU0rhvgCUxUc1GpfGFOsLuPXSb8ef4KYI6xADvU7j9Dg2gqvAAAAA==[0m[Pipeline] }
+[8mha:////4J0p4zt/+On27QitkvU5TFB8M2wwWYWaAHIuYiUer4fkAAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQRbWRhjZUtoPAGyiLDkfxZYdytP5NW8g8RNrJxkknnTvNcb1jnBiZLl3mDvMGvHYxhtXXyi1N8CTdzTlWvCTMFwaSZJnTkvKKkYWMIaWAnYGNSBskNbYCu8eqg2KLTtpaT6HQU0rhvgCUxUc1GpfGFOsLuPXSb8ef4KYI6xADvU7j9J+wGOvAAAAA==[0m[Pipeline] // stage
+[8mha:////4Ea3/4ZYuTM98yMZ9UntzMXOyQ2ItSOm6XAUUO4QqkITAAAAph+LCAAAAAAAAP9tjTEOwjAQBM9BKWgpeYQDEh2iorXc8AITG+PEugv2haTiRXyNPxCIRMVWOyut5vmCMic4UPKycdgGzHWQXez91ORAqb1EGmRDZ1kTZopOajdosu44oyZ2MEcUsFCwdFhHygE9w0o15m6qaNBXJ07TtldQBHuDBwg1mdkk/sKYYH3tbSb8ef4KYOwYxI6h2G4+x/INtuQqUcEAAAA=[0m[Pipeline] stage
+[8mha:////4IJd0qxfNFkcgwUT9OFke9rxaJjwCH2G9mHJ+5FMmbLfAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+DOrAycoiUzoiJNerCCUITQtLo/zZJSSdOxNW4Ay2VmPBg2Zas93pDGQOcKBjuNHYWY2t570czJ54pdDdPmTu68pYwkte80bkhpc9rbShpWFUw2AjYamw9RYsmwU44+ZCVl2iqSwrzdhTArBrgCYWYyUmG9C1TgP19VJHwx/kLgKlPwOrDYvXyLD8BobDcwgAAAA==[0m[Pipeline] { (run silver nic case)
+[8mha:////4KACpsxoNqug+yeGIE2K55MD+IyPDLfbYOrean7h1Zl/AAAAox+LCAAAAAAAAP9tjTESwiAURH/iWNhaeggysXWsbBkaT4AJIoT5nwCRVJ7Iq3kH0cxYucXOvm3e8wXrGOBIQTOrcDAYO8O8m3RZLFMYro4ys3RhHWEkp5hQWVCvTgsKSgqWVDWsOGwUdo6iQZ1gy628y8ZJ1M05hfIdONSmH+EBFS/mJEP6whxgd5v6SPjz/BXA7BPUbfupvX8DpQJrNb4AAAA=[0m[Pipeline] sh
++ pytest /root/.jenkins/workspace/test-nic/npxtester/Tests/testNics/test_nics.py -m nicall -s
+============================= test session starts ==============================
+platform linux -- Python 3.6.8, pytest-6.2.4, py-1.11.0, pluggy-0.13.1
+rootdir: /root/.jenkins/workspace/test-nic/npxtester/Tests/testNics, configfile: pytest.ini
+plugins: metadata-1.11.0, html-3.1.1
+collected 3 items / 2 deselected / 1 selected
+
+npxtester/Tests/testNics/test_nics.py 2021-11-24 09:38:19 - NicTestFixture.py - [line:28] - root - INFO - Starting to run test_gold_PI_Networking_SRIOV_CheckDevice
+2021-11-24 09:38:19 - NicTestFixture.py - [line:29] - root - INFO - setup log for testing in the fixture class fbefore
+2021-11-24 09:38:19 - test_nics.py - [line:18] - root - INFO - this is Test_Nics setup.
+2021-11-24 09:38:19 - transport.py - [line:1819] - paramiko.transport - INFO - Connected (version 2.0, client OpenSSH_8.0)
+2021-11-24 09:38:19 - transport.py - [line:1819] - paramiko.transport - INFO - Authentication (publickey) failed.
+2021-11-24 09:38:19 - transport.py - [line:1819] - paramiko.transport - INFO - Authentication (password) successful!
+2021-11-24 09:38:19 - sshInstance.py - [line:28] - root - INFO - SSH on SUT: 10.112.97.157
+2021-11-24 09:38:19 - test_nics.py - [line:74] - root - INFO - run gold_PI_Networking_SRIOV_CheckDevice
+2021-11-24 09:38:22 - sshInstance.py - [line:44] - root - INFO - echo 4 > /sys/class/net/ens787f0/device/sriov_numvfs
+2021-11-24 09:38:23 - sshInstance.py - [line:48] - root - INFO - 
+2021-11-24 09:38:31 - sshInstance.py - [line:44] - root - INFO - ifconfig ens787f0v0 192.168.10.11
+2021-11-24 09:38:31 - sshInstance.py - [line:48] - root - INFO - 
+2021-11-24 09:38:39 - sshInstance.py - [line:44] - root - INFO - ifconfig ens787f0v1 192.168.10.12
+2021-11-24 09:38:39 - sshInstance.py - [line:48] - root - INFO - 
+2021-11-24 09:38:47 - sshInstance.py - [line:44] - root - INFO - ifconfig ens787f0v2 192.168.10.13
+2021-11-24 09:38:47 - sshInstance.py - [line:48] - root - INFO - 
+2021-11-24 09:38:55 - sshInstance.py - [line:44] - root - INFO - ifconfig ens787f0v3 192.168.10.14
+2021-11-24 09:38:55 - sshInstance.py - [line:48] - root - INFO - 
+2021-11-24 09:39:03 - sshInstance.py - [line:44] - root - INFO - ping -c 5 192.168.10.10
+2021-11-24 09:39:07 - sshInstance.py - [line:48] - root - INFO - PING 192.168.10.10 (192.168.10.10) 56(84) bytes of data.
+64 bytes from 192.168.10.10: icmp_seq=1 ttl=64 time=0.037 ms
+64 bytes from 192.168.10.10: icmp_seq=2 ttl=64 time=0.011 ms
+64 bytes from 192.168.10.10: icmp_seq=3 ttl=64 time=0.016 ms
+64 bytes from 192.168.10.10: icmp_seq=4 ttl=64 time=0.013 ms
+64 bytes from 192.168.10.10: icmp_seq=5 ttl=64 time=0.009 ms
+
+--- 192.168.10.10 ping statistics ---
+5 packets transmitted, 5 received, 0% packet loss, time 4101ms
+rtt min/avg/max/mdev = 0.009/0.017/0.037/0.010 ms
+
+2021-11-24 09:39:15 - sshInstance.py - [line:44] - root - INFO - ping6 -c 5 -I ens787f0v0 fe80::b696:91ff:fe9c:f762
+2021-11-24 09:39:29 - sshInstance.py - [line:48] - root - INFO - PING fe80::b696:91ff:fe9c:f762(fe80::b696:91ff:fe9c:f762) from :: ens787f0v0: 56 data bytes
+
+--- fe80::b696:91ff:fe9c:f762 ping statistics ---
+5 packets transmitted, 0 received, 100% packet loss, time 4110ms
+
+
+2021-11-24 09:39:37 - sshInstance.py - [line:44] - root - INFO - ping -c 5 192.168.10.10
+2021-11-24 09:39:41 - sshInstance.py - [line:48] - root - INFO - PING 192.168.10.10 (192.168.10.10) 56(84) bytes of data.
+64 bytes from 192.168.10.10: icmp_seq=1 ttl=64 time=0.036 ms
+64 bytes from 192.168.10.10: icmp_seq=2 ttl=64 time=0.011 ms
+64 bytes from 192.168.10.10: icmp_seq=3 ttl=64 time=0.008 ms
+64 bytes from 192.168.10.10: icmp_seq=4 ttl=64 time=0.008 ms
+64 bytes from 192.168.10.10: icmp_seq=5 ttl=64 time=0.007 ms
+
+--- 192.168.10.10 ping statistics ---
+5 packets transmitted, 5 received, 0% packet loss, time 4092ms
+rtt min/avg/max/mdev = 0.007/0.014/0.036/0.011 ms
+
+2021-11-24 09:39:49 - sshInstance.py - [line:44] - root - INFO - ping6 -c 5 -I ens787f0v1 fe80::b696:91ff:fe9c:f762
+2021-11-24 09:40:03 - sshInstance.py - [line:48] - root - INFO - PING fe80::b696:91ff:fe9c:f762(fe80::b696:91ff:fe9c:f762) from :: ens787f0v1: 56 data bytes
+
+--- fe80::b696:91ff:fe9c:f762 ping statistics ---
+5 packets transmitted, 0 received, 100% packet loss, time 4107ms
+
+
+2021-11-24 09:40:11 - sshInstance.py - [line:44] - root - INFO - ping -c 5 192.168.10.10
+2021-11-24 09:40:15 - sshInstance.py - [line:48] - root - INFO - PING 192.168.10.10 (192.168.10.10) 56(84) bytes of data.
+64 bytes from 192.168.10.10: icmp_seq=1 ttl=64 time=0.036 ms
+64 bytes from 192.168.10.10: icmp_seq=2 ttl=64 time=0.021 ms
+64 bytes from 192.168.10.10: icmp_seq=3 ttl=64 time=0.015 ms
+64 bytes from 192.168.10.10: icmp_seq=4 ttl=64 time=0.008 ms
+64 bytes from 192.168.10.10: icmp_seq=5 ttl=64 time=0.009 ms
+
+--- 192.168.10.10 ping statistics ---
+5 packets transmitted, 5 received, 0% packet loss, time 4092ms
+rtt min/avg/max/mdev = 0.008/0.017/0.036/0.011 ms
+
+2021-11-24 09:40:23 - sshInstance.py - [line:44] - root - INFO - ping6 -c 5 -I ens787f0v2 fe80::b696:91ff:fe9c:f762
+2021-11-24 09:40:38 - sshInstance.py - [line:48] - root - INFO - PING fe80::b696:91ff:fe9c:f762(fe80::b696:91ff:fe9c:f762) from :: ens787f0v2: 56 data bytes
+
+--- fe80::b696:91ff:fe9c:f762 ping statistics ---
+5 packets transmitted, 0 received, 100% packet loss, time 4108ms
+
+
+2021-11-24 09:40:46 - sshInstance.py - [line:44] - root - INFO - ping -c 5 192.168.10.10
+2021-11-24 09:40:50 - sshInstance.py - [line:48] - root - INFO - PING 192.168.10.10 (192.168.10.10) 56(84) bytes of data.
+64 bytes from 192.168.10.10: icmp_seq=1 ttl=64 time=0.040 ms
+64 bytes from 192.168.10.10: icmp_seq=2 ttl=64 time=0.012 ms
+64 bytes from 192.168.10.10: icmp_seq=3 ttl=64 time=0.026 ms
+64 bytes from 192.168.10.10: icmp_seq=4 ttl=64 time=0.010 ms
+64 bytes from 192.168.10.10: icmp_seq=5 ttl=64 time=0.008 ms
+
+--- 192.168.10.10 ping statistics ---
+5 packets transmitted, 5 received, 0% packet loss, time 4093ms
+rtt min/avg/max/mdev = 0.008/0.019/0.040/0.012 ms
+
+2021-11-24 09:40:58 - sshInstance.py - [line:44] - root - INFO - ping6 -c 5 -I ens787f0v3 fe80::b696:91ff:fe9c:f762
+2021-11-24 09:41:12 - sshInstance.py - [line:48] - root - INFO - PING fe80::b696:91ff:fe9c:f762(fe80::b696:91ff:fe9c:f762) from :: ens787f0v3: 56 data bytes
+
+--- fe80::b696:91ff:fe9c:f762 ping statistics ---
+5 packets transmitted, 0 received, 100% packet loss, time 4107ms
+
+
+.2021-11-24 09:41:17 - sshInstance.py - [line:39] - root - INFO - closing ssh client on SUT
+2021-11-24 09:41:17 - test_nics.py - [line:28] - root - INFO - this is Test_Nics teardown
+
+
+================= 1 passed, 2 deselected in 177.72s (0:02:57) ==================
+[8mha:////4KMKnj+jwomtBZRlOM1zDNsT7NVP2UylJUBAmwQdpqOFAAAAox+LCAAAAAAAAP9tjTESwiAURH/iWNhaeggyGUvHypah8QSYIEKY/wkQSeWJvJp3EM2MlVvs7NvmPV+wjgGOFDSzCgeDsTPMu0mXxTKF4eooM0sX1hFGcooJlQX16rSgoKRgSVXDisNGYecoGtQJttzKu2ycRN2cUyjfgUNt+hEeUPFiTjKkL8wBdrepj4Q/z18BzN4nqNv9p9o3geV5574AAAA=[0m[Pipeline] }
+[8mha:////4PHbOgS4fTQzlO31aLQygq6Gmyy7LbpReNAbbgHuNOsPAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOICEh2iSmu54QUmNsaJdWdsh6TiRXyNPxCIRMUWq51t5vmCZYpw5GixNdQ5So3D4Hs7LRw4dhfPA7Z8xoYpsTcozSBZm3pGydnAnKKEhYCVocZzcmQzrEWr7qryimx1ynH6DgJKp2/wgEJM5qxi/sIYYXPtdWL6ef4KYAwhQ7nbf2r7Bq/le42+AAAA[0m[Pipeline] // stage
+[8mha:////4MZyk33+V/AiT4fn8n6G3pw2AKptiha+GL2FVGy8vSODAAAAph+LCAAAAAAAAP9tjTEOwjAQBM9BKWgpeYQjJKgQFa3lhheY2Bgn1l2wLyQVL+Jr/IFAJCq22llpNc8XlDnBgZKXjcM2YK6D7GLvpyYHSu0l0iAbOsuaMFN0UrtBk3XHGTWxgzmigIWCpcM6Ug7oGVaqMXdTRYO+OnGatr2CItgbPECoycwm8RfGBOtrbzPhz/NXAGPHILYMxWb3OZZvBXXnAcEAAAA=[0m[Pipeline] stage
+[8mha:////4IbAYeEfzIYrbjXur3hhLHFS6T3zmMsYQQAYadAUrpZ/AAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUDLAgpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD/s94rDCAAAA[0m[Pipeline] { (run gold nic sriov stress vm)
+[8mha:////4FPk2mTBzwof/oyzK3/Y2W4GOSwpNdCdlxh/EpNq5ACcAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiGigQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGPIUG53n9qHN27Iu42+AAAA[0m[Pipeline] sh
++ pytest /root/.jenkins/workspace/test-nic/npxtester/Tests/testNics/test_network_sriov_stress.py -m nicall -s
+============================= test session starts ==============================
+platform linux -- Python 3.6.8, pytest-6.2.4, py-1.11.0, pluggy-0.13.1
+rootdir: /root/.jenkins/workspace/test-nic/npxtester/Tests/testNics, configfile: pytest.ini
+plugins: metadata-1.11.0, html-3.1.1
+collected 3 items / 1 deselected / 2 selected
+
+npxtester/Tests/testNics/test_network_sriov_stress.py 2021-11-24 09:41:18 - NicTestFixture.py - [line:28] - root - INFO - Starting to run test_PI_Networking_SRIOV_StressDisableEnableFor5TimesWhenVFIsAssigned_VM_Guest[ubuntu20.04_2.img-ubuntu20.04.img]
+2021-11-24 09:41:18 - NicTestFixture.py - [line:29] - root - INFO - setup log for testing in the fixture class fbefore
+2021-11-24 09:41:18 - test_network_sriov_stress.py - [line:30] - root - INFO - SSH SUT and setup configurations in the setup function.
+2021-11-24 09:41:18 - transport.py - [line:1819] - paramiko.transport - INFO - Connected (version 2.0, client OpenSSH_8.0)
+2021-11-24 09:41:18 - transport.py - [line:1819] - paramiko.transport - INFO - Authentication (publickey) failed.
+2021-11-24 09:41:18 - transport.py - [line:1819] - paramiko.transport - INFO - Authentication (password) successful!
+2021-11-24 09:41:18 - sshInstance.py - [line:28] - root - INFO - SSH on SUT: 10.112.97.157
+2021-11-24 09:41:18 - transport.py - [line:1819] - paramiko.transport - INFO - Connected (version 2.0, client OpenSSH_8.0)
+2021-11-24 09:41:18 - transport.py - [line:1819] - paramiko.transport - INFO - Authentication (publickey) failed.
+2021-11-24 09:41:18 - transport.py - [line:1819] - paramiko.transport - INFO - Authentication (password) successful!
+2021-11-24 09:41:18 - sshInstance.py - [line:28] - root - INFO - SSH on SUT: 127.0.0.1
+2021-11-24 09:41:18 - test_network_sriov_stress.py - [line:352] - root - INFO - 
+
+********************************************************Stress Disable and Enable for 1 time when VF is Assigned VM guest.*************************************************************
+
+
+2021-11-24 09:41:21 - sshInstance.py - [line:44] - root - INFO - /usr/src/dpdk/usertools/dpdk-devbind.py -s | grep ens787f0 | awk '{print $1;}'
+2021-11-24 09:41:21 - sshInstance.py - [line:48] - root - INFO - 
+2021-11-24 09:41:26 - test_network_sriov_stress.py - [line:79] - root - ERROR - 
+2021-11-24 09:41:26 - test_network_sriov_stress.py - [line:80] - root - ERROR - not found any pf_id
+F2021-11-24 09:41:26 - test_network_sriov_stress.py - [line:55] - root - INFO - this is the teardown of Test_Network_SRIOV_Stress.
+2021-11-24 09:41:29 - sshInstance.py - [line:44] - root - INFO - virsh destroy VMtest2
+2021-11-24 09:41:30 - sshInstance.py - [line:48] - root - INFO - 
+
+2021-11-24 09:41:35 - test_network_sriov_stress.py - [line:252] - root - ERROR - Failed to shut down the VM VMtest2
+2021-11-24 09:41:38 - sshInstance.py - [line:44] - root - INFO - virsh destroy VMtest1
+2021-11-24 09:41:38 - sshInstance.py - [line:48] - root - INFO - 
+
+2021-11-24 09:41:43 - test_network_sriov_stress.py - [line:252] - root - ERROR - Failed to shut down the VM VMtest1
+2021-11-24 09:41:43 - sshInstance.py - [line:39] - root - INFO - closing ssh client on SUT
+2021-11-24 09:41:43 - test_network_sriov_stress.py - [line:60] - root - INFO - =============================================Finished run the test case===============================================
+2021-11-24 09:41:43 - NicTestFixture.py - [line:28] - root - INFO - Starting to run test_PI_Networking_SRIOV_StressTrafficBetweenPFVFAndTestClientFor2Hours_VM_Guest[ubuntu20.04_2.img-ubuntu20.04.img]
+2021-11-24 09:41:43 - NicTestFixture.py - [line:29] - root - INFO - setup log for testing in the fixture class fbefore
+2021-11-24 09:41:43 - test_network_sriov_stress.py - [line:30] - root - INFO - SSH SUT and setup configurations in the setup function.
+2021-11-24 09:41:43 - transport.py - [line:1819] - paramiko.transport - INFO - Connected (version 2.0, client OpenSSH_8.0)
+2021-11-24 09:41:43 - transport.py - [line:1819] - paramiko.transport - INFO - Authentication (publickey) failed.
+2021-11-24 09:41:43 - transport.py - [line:1819] - paramiko.transport - INFO - Authentication (password) successful!
+2021-11-24 09:41:43 - sshInstance.py - [line:28] - root - INFO - SSH on SUT: 10.112.97.157
+2021-11-24 09:41:43 - transport.py - [line:1819] - paramiko.transport - INFO - Connected (version 2.0, client OpenSSH_8.0)
+2021-11-24 09:41:43 - transport.py - [line:1819] - paramiko.transport - INFO - Authentication (publickey) failed.
+2021-11-24 09:41:43 - transport.py - [line:1819] - paramiko.transport - INFO - Authentication (password) successful!
+2021-11-24 09:41:43 - sshInstance.py - [line:28] - root - INFO - SSH on SUT: 127.0.0.1
+2021-11-24 09:41:46 - sshInstance.py - [line:44] - root - INFO - /usr/src/dpdk/usertools/dpdk-devbind.py -s | grep ens787f0 | awk '{print $1;}'
+2021-11-24 09:41:46 - sshInstance.py - [line:48] - root - INFO - 
+2021-11-24 09:41:51 - test_network_sriov_stress.py - [line:79] - root - ERROR - 
+2021-11-24 09:41:51 - test_network_sriov_stress.py - [line:80] - root - ERROR - not found any pf_id
+F2021-11-24 09:41:51 - test_network_sriov_stress.py - [line:55] - root - INFO - this is the teardown of Test_Network_SRIOV_Stress.
+2021-11-24 09:41:54 - sshInstance.py - [line:44] - root - INFO - virsh destroy VMtest2
+2021-11-24 09:41:54 - sshInstance.py - [line:48] - root - INFO - 
+
+2021-11-24 09:41:59 - test_network_sriov_stress.py - [line:252] - root - ERROR - Failed to shut down the VM VMtest2
+2021-11-24 09:42:02 - sshInstance.py - [line:44] - root - INFO - virsh destroy VMtest1
+2021-11-24 09:42:02 - sshInstance.py - [line:48] - root - INFO - 
+
+2021-11-24 09:42:07 - test_network_sriov_stress.py - [line:252] - root - ERROR - Failed to shut down the VM VMtest1
+2021-11-24 09:42:07 - sshInstance.py - [line:39] - root - INFO - closing ssh client on SUT
+2021-11-24 09:42:07 - test_network_sriov_stress.py - [line:60] - root - INFO - =============================================Finished run the test case===============================================
+
+
+=================================== FAILURES ===================================
+_ Test_Network_SRIOV_Stress.test_PI_Networking_SRIOV_StressDisableEnableFor5TimesWhenVFIsAssigned_VM_Guest[ubuntu20.04_2.img-ubuntu20.04.img] _
+
+self = <Tests.testNics.test_network_sriov_stress.Test_Network_SRIOV_Stress object at 0x7f48fb244940>
+vm1_image = 'ubuntu20.04_2.img', vm2_image = 'ubuntu20.04.img'
+
+    @pytest.mark.nicall
+    @pytest.mark.usefixtures("fbefore")
+    @pytest.mark.parametrize('vm1_image, vm2_image', vm_image)
+    def test_PI_Networking_SRIOV_StressDisableEnableFor5TimesWhenVFIsAssigned_VM_Guest(self, vm1_image, vm2_image):
+        for j in range(1, 6):
+            logging.info("\n\n********************************************************Stress Disable and Enable for {} time when VF is Assigned VM guest.*************************************************************\n\n".format(j))
+            # get pf id: 0000:xx:xx.x
+            pf_id, status= self.get_pf_id(self.pf_name)
+            # transfer pf_id to 0000\:00\:00.0 format
+            if not pf_id:
+>               assert 200 == status
+E               assert 200 == 400
+
+npxtester/Tests/testNics/test_network_sriov_stress.py:357: AssertionError
+------------------------------ Captured log call -------------------------------
+INFO     root:test_network_sriov_stress.py:352 
+
+********************************************************Stress Disable and Enable for 1 time when VF is Assigned VM guest.*************************************************************
+
+
+INFO     root:sshInstance.py:44 /usr/src/dpdk/usertools/dpdk-devbind.py -s | grep ens787f0 | awk '{print $1;}'
+INFO     root:sshInstance.py:48 
+ERROR    root:test_network_sriov_stress.py:79 
+ERROR    root:test_network_sriov_stress.py:80 not found any pf_id
+---------------------------- Captured log teardown -----------------------------
+INFO     root:test_network_sriov_stress.py:55 this is the teardown of Test_Network_SRIOV_Stress.
+INFO     root:sshInstance.py:44 virsh destroy VMtest2
+INFO     root:sshInstance.py:48 
+
+ERROR    root:test_network_sriov_stress.py:252 Failed to shut down the VM VMtest2
+INFO     root:sshInstance.py:44 virsh destroy VMtest1
+INFO     root:sshInstance.py:48 
+
+ERROR    root:test_network_sriov_stress.py:252 Failed to shut down the VM VMtest1
+INFO     root:sshInstance.py:39 closing ssh client on SUT
+INFO     root:test_network_sriov_stress.py:60 =============================================Finished run the test case===============================================
+_ Test_Network_SRIOV_Stress.test_PI_Networking_SRIOV_StressTrafficBetweenPFVFAndTestClientFor2Hours_VM_Guest[ubuntu20.04_2.img-ubuntu20.04.img] _
+
+self = <Tests.testNics.test_network_sriov_stress.Test_Network_SRIOV_Stress object at 0x7f48fb1f07f0>
+vm1_image = 'ubuntu20.04_2.img', vm2_image = 'ubuntu20.04.img'
+
+    @pytest.mark.nicall
+    @pytest.mark.usefixtures("fbefore")
+    @pytest.mark.parametrize('vm1_image, vm2_image', vm_image)
+    def test_PI_Networking_SRIOV_StressTrafficBetweenPFVFAndTestClientFor2Hours_VM_Guest(self,vm1_image, vm2_image):
+    
+        pf_id, status = self.get_pf_id(self.pf_name)
+        # transfer pf_id to 0000\:00\:00.0 format
+        if not pf_id:
+>           assert 200 == status
+E           assert 200 == 400
+
+npxtester/Tests/testNics/test_network_sriov_stress.py:467: AssertionError
+------------------------------ Captured log call -------------------------------
+INFO     root:sshInstance.py:44 /usr/src/dpdk/usertools/dpdk-devbind.py -s | grep ens787f0 | awk '{print $1;}'
+INFO     root:sshInstance.py:48 
+ERROR    root:test_network_sriov_stress.py:79 
+ERROR    root:test_network_sriov_stress.py:80 not found any pf_id
+---------------------------- Captured log teardown -----------------------------
+INFO     root:test_network_sriov_stress.py:55 this is the teardown of Test_Network_SRIOV_Stress.
+INFO     root:sshInstance.py:44 virsh destroy VMtest2
+INFO     root:sshInstance.py:48 
+
+ERROR    root:test_network_sriov_stress.py:252 Failed to shut down the VM VMtest2
+INFO     root:sshInstance.py:44 virsh destroy VMtest1
+INFO     root:sshInstance.py:48 
+
+ERROR    root:test_network_sriov_stress.py:252 Failed to shut down the VM VMtest1
+INFO     root:sshInstance.py:39 closing ssh client on SUT
+INFO     root:test_network_sriov_stress.py:60 =============================================Finished run the test case===============================================
+=========================== short test summary info ============================
+FAILED npxtester/Tests/testNics/test_network_sriov_stress.py::Test_Network_SRIOV_Stress::test_PI_Networking_SRIOV_StressDisableEnableFor5TimesWhenVFIsAssigned_VM_Guest[ubuntu20.04_2.img-ubuntu20.04.img]
+FAILED npxtester/Tests/testNics/test_network_sriov_stress.py::Test_Network_SRIOV_Stress::test_PI_Networking_SRIOV_StressTrafficBetweenPFVFAndTestClientFor2Hours_VM_Guest[ubuntu20.04_2.img-ubuntu20.04.img]
+======================= 2 failed, 1 deselected in 49.42s =======================
+[8mha:////4LYnTL2kHEK3xk4r0Ko1+Seo0jzleqkNHqW+48vbd8D5AAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiGoSEqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDyFBu95/avQHhgNoTvgAAAA==[0m[Pipeline] }
+[8mha:////4NMYSizRLQ1dZuwWSEHzgQ6w9lPsBbHRCtMg5H1rEwslAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiCgqEqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDyFBu95/avQH+Ao9BvgAAAA==[0m[Pipeline] // stage
+[8mha:////4DKXsabp5/afXFSsWLUBDHMQEXD3jgAzV8WEfOF26pEaAAAAox+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMJBiA5R0VppeIFJjHFi3QX7QlLxIr7GH4iIRMVWO9PM641lijhydKqx1HpKlVdd6N301MCxvQYeVMMXVTElDlaVdii5tqcZSxaLeVmOhcbKUhU4eXKCtW7MwxTBkCvOEid30Mh9fccTmZ7KYqJ8YYzY3Po6Mf06fwMYu06Q77aCbP8BK1nRVL0AAAA=[0m[Pipeline] }
+[8mha:////4HmorPDDfMRqsF6zz9/2vCOvXnWMSW4cx9qE6GTxL9MFAAAAoh+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIRUCIqWisNLzCJMU6su2BfSCpexNf4AxGRqNhqZ5p5vbFMEUeOTjWWWk+p8qoLvZueGji218CDaviiKqbEwarSDiXX9jRjyWIxL8ux0FhZqgInT06w1o15mCIYcsVZ4uQOGrmv73gi01NZTJQvjBGbW18npl/nbwBj1wny3VaQ7T845dX3vQAAAA==[0m[Pipeline] // node
+[8mha:////4BE+fprF9eommgtvg+AAT8POwnI+05QgEWtQ8SEssetUAAAAoh+LCAAAAAAAAP9tjbEOgjAURS8YB1dHP6IkrMbJtWHxCyrUWmjeg/YhTH6Rv+Y/SCRx8k73nOW83timiBNHp1pLnadUe9WH0S1PTRy7W+BJtXxVNVPiYFVlp4obe16xYrFYl+XYaOws1YGTJyfY69Y8TBEMueIicXFHjdw3A57I9FIWE+ULc8ThPjaJ6df5G8Dc94K8LAVZ+QF+r3LHvQAAAA==[0m[Pipeline] End of Pipeline
+ERROR: script returned exit code 1
+Finished: FAILURE

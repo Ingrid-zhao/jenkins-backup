@@ -1,0 +1,1268 @@
+Started by user [8mha:////4C8zTO/v0UlG+vQ5Fjm5jTf9kR93yL5yxTMP2X04T9v8AAAAlh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyWEgYu/dLi1CL9ovz8EgDKVWzSvwAAAA==[0mroot
+Running in Durability level: MAX_SURVIVABILITY
+[8mha:////4DOlrZhma2TKYqx8mtRBwGXVE8Xt4z3OJyo/zi+ICDdzAAAAoh+LCAAAAAAAAP9tjTEOwjAQBM8BClpKHuFItIiK1krDC0x8GCfWnbEdkooX8TX+gCESFVvtrLSa5wtWKcKBo5UdUu8otU4GP9jS5Mixv3geZcdn2TIl9igbHBs2eJyx4YwwR1SwULBGaj0nRzbDRnX6rmuvydanHMu2V1A5c4MHCFXMWcf8hSnC9jqYxPTz/BXAFEIGsfuclm8zQVqFvQAAAA==[0m[Pipeline] Start of Pipeline
+[8mha:////4B4K7nOhvaaLmbeE3w0NEhE1GAALwLDjakw9plXgkY6XAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycohUghExsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jduZBmjwAAAAA==[0m[Pipeline] node
+Running on [8mha:////4EheNQ7D4c27QswDGPiDpGtf9rfQF1HauEmyd+/REsZ/AAAAoh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyeEgZx/eT83ILSktQiICOvpCg/Jye1SDdLHwCRPP8lzAAAAA==[0mcontroller-j in /root/.jenkins/workspace/test-test-nic-simple
+[8mha:////4NUxBMzN6CtFAbQ4pdo7pH8ZuwVHigLf0SdP3FcjQTwyAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gA0xsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jfoP95RwAAAAA==[0m[Pipeline] {
+[8mha:////4OCB1+Up79PmV3LnMeomKr9r+JFCKkFjAfTpr2UorbLOAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gQkxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jc09154wAAAAA==[0m[Pipeline] stage
+[8mha:////4N6KQN35K8CT/Pcr9a+R4oOEu4uEh3phvpB1t67zd2hmAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0ggUxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jek7ggRwAAAAA==[0m[Pipeline] { (rm project dir)
+[8mha:////4EWjgIQS1R18e39T6LdOu3ZpSMSXMburmKwxJHd8e163AAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gwExsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jcChmMxwAAAAA==[0m[Pipeline] script
+[8mha:////4NOJ/YVWDlnnBpjDdLKlLZkF5LrR387vblsx7fWhZkPlAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0BAkxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jfpX/cvwAAAAA==[0m[Pipeline] {
+[8mha:////4MAm0moKTc8Eo2PcB0LgkHNHI7Xtf5Poej2Mf/l8xh/lAAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQTbaoyVLaHxBMgiwpL/WWDdrTyRV/MOEjexcpJJ5k3zXm9Y5wQnSpZ7g73DrB2PYbR18YlSfws0cU9XrgkzBcOlmSR15rygpGJgCWtgJWBjUAfKDm2BrfDqodqg0LaXkup3FNC4boAnMFHNRaXyhTnB7j52mfDn+SuAORZg+9pD/AAeoCAqvAAAAA==[0m[Pipeline] sh
++ ls /root/.jenkins/workspace/test-test-nic-simple/npxtester
+1.0.0.0001.version
+conf
+installation
+libs
+log_analyzer
+README.md
+testconf
+testLibs
+Tests
+[8mha:////4F3BY6hez6Yn9lSF4dYULOlz4RwK0Fdsp1OYWtj0vxDtAAAAox+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMKBDglR0VppeIFJjHFi3QX7QlLxIr7GH4iIRMVWO9PM641lijhydKqx1HpKlVdd6N301MCxvQYeVMMXVTElDlaVdii5tqcZSxaLeVmOhcbKUhU4eXKCtW7MwxTBkCvOEid30Mh9fccTmZ7KYqJ8YYzY3Po6Mf06fwMYO0G2F+S7bfcBITL9lL0AAAA=[0m[Pipeline] echo
+dir is exists and rm dir
+[8mha:////4KL1cTFlC/t8/0LRf71hJwxXIUFLIMviWtcIHXR2W8epAAAAox+LCAAAAAAAAP9tjbEOgjAURS8YB1dHP6KEzcQ4uTYsfkGFWgvNe9g+hMkv8tf8B4kkTt7pnrOc1xvrFHHk6FRrqfOUaq/6MLj5qZFjdw08qpYvqmZKHKyq7FhxY08LViwWy7IcK42NpTpw8uQEW92ahymCIVecJc7uoJH75o4nMj2XxUT5whSxuw1NYvp1/gYw9YJsL8jLsv8AYAPmjb0AAAA=[0m[Pipeline] sh
++ rm -rf /root/.jenkins/workspace/test-test-nic-simple/npxtester
+[8mha:////4GzJynz9IX3CLl34e/1JpYOeLz7FDsqMtIihCtFGqNpZAAAAox+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIRVEiIitZKwwtMYowT6y7YF5KKF/E1/kBEJCq22plmXm8sU8SRo1ONpdZTqrzqQu+mpwaO7TXwoBq+qIopcbCqtEPJtT3NWLJYzMtyLDRWlqrAyZMTrHVjHqYIhlxxlji5g0bu6zueyPRUFhPlC2PE5tbXienX+RvA2HWCfLsTZPsPzjQzob0AAAA=[0m[Pipeline] }
+[8mha:////4MvApYhNLg1xEFG2iXyHCog7Z9h4MbdAsNSDoK4wJnDgAAAApB+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIRoqBAVLRWGl5gEmOcWHfBvpBUvIiv8QciIlGx1c4083pjmSKOHJ1qLLWeUuVVF3o3PTVwbK+BB9XwRVVMiYNVpR1Kru1pxpLFYl6WY6GxslQFTp6cYK0b8zBFMOSKs8TJHTRyX9/xRKanspgoXxgjNre+Tky/zt8Axq4T5NudINt/AO8A7Ay9AAAA[0m[Pipeline] // script
+[8mha:////4P1g47DHQeYIMdAQPrqVFJW5XTEYSJkMqP0k+p1upCWxAAAApB+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIREqJBVLRWGl5gEmOcWHfBvpBUvIiv8QciIlGx1c4083pjmSKOHJ1qLLWeUuVVF3o3PTVwbK+BB9XwRVVMiYNVpR1Kru1pxpLFYl6WY6GxslQFTp6cYK0b8zBFMOSKs8TJHTRyX9/xRKanspgoXxgjNre+Tky/zt8Axq4T5NudINt/AGnsy8m9AAAA[0m[Pipeline] }
+[8mha:////4Lc6WrLYEiiAC7rTWY8q4RQPGu1FD+hrgClvEqpzcg2sAAAAox+LCAAAAAAAAP9tjTESgjAQRT84FraWHiKMBZVjZZuh8QQRYgxkdjFZhMoTeTXvICMzVv7qv9e81xvrFHHk6FRrqfOUaq/6MLj5qZFjdw08qpYvqmZKHKyq7FhxY08LViwWy7IcK42NpTpw8uQEW92ahymCIVecJc7uoJH75o4nMj2XxUT5whSxuw1NYvp1/gYw9b0g35eCrPwAY5Sibb0AAAA=[0m[Pipeline] // stage
+[8mha:////4LPzYIRsJlP9vBl87WR2FbvV5590n9jZkqHCRBijPEs5AAAApx+LCAAAAAAAAP9tjTEOwjAQBM9BKWgpeYQjJESDqGgtN7zAxMY4se6CfSGpeBFf4w8EIlGx1c5Kq3m+oMwJDpS8bBy2AXMdZBd7PzU5UGovkQbZ0FnWhJmik9oNmqw7zqiJHcwRBSwULB3WkXJAz7BSjbmbKhr01YnTtO0VFMHe4AFCTWY2ib8wJlhfe5sJf56/Ahg7BrFlKDa7z7F8A6sHc4fBAAAA[0m[Pipeline] stage
+[8mha:////4P0yjWfQiEwQxZO7i9obwDXrYwQclNR3i//1CTGbFwBFAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohULDAgpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD1+IXOLCAAAA[0m[Pipeline] { (clone)
+[8mha:////4I3tKNYAz7At397ZkNOs6SFwEn2bzn3ZBhsoegW1dhRwAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiKpAQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGPIUG53n9qHNxXfVKy+AAAA[0m[Pipeline] sh
++ git clone -b develop https://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@github.com/Jiz1028/applications.validation.network-platform.npxtester.git npxtester
+Cloning into 'npxtester'...
+[8mha:////4CRWXV91kUhqh2bTVXI+2n5U32cQ89nJ7yub5blKQ29bAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiKoQQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGMIGcrt/lO7N9Jjga++AAAA[0m[Pipeline] }
+[8mha:////4I4ZVrOFMvh2sVfxnfT9s6+paGHoH9OzkxEwdR4h+nRDAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOICFDQoFa3lhheYxBgn1l2wHZyKF/E1/oBFJCq2WO1sM683LIOHmr3BTlNvKTQWBzeavDCx76+OE3Z8wYYpsNModZLc6tOMkqOGOUUJCwErTY3jYMlEWItOPVTlFJnqHH3+jgJK297hCYXI5qh8/MLkYXMb28D08/wVwDQMEcr9Ntfu8AERGGHOvgAAAA==[0m[Pipeline] // stage
+[8mha:////4J4BpfnRrLE6odVrNZGgZ11wIRy0HYHBalvcHAcD12j/AAAAph+LCAAAAAAAAP9tjTEOwjAQBM9BKWgpeYQjEB2iorXc8AITG+PEugv2haTiRXyNPxCIRMVWOyut5vmCMic4UPKycdgGzHWQXez91ORAqb1EGmRDZ1kTZopOajdosu44oyZ2MEcUsFCwdFhHygE9w0o15m6qaNBXJ07TtldQBHuDBwg1mdkk/sKYYH3tbSb8ef4KYOwYxI6h2G4+x/INji2eq8EAAAA=[0m[Pipeline] stage
+[8mha:////4AgPhGmio4pMNzq5gItmuDxswb3P5dwyIofUIBdMXBTmAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+DOrAycohUdEVMrFEXThCaEJJG/7dJSjpxIq7GHWipxIQHy7ZkvdcbyhjgRMFwp7GzGFvLez+aOfFMobt5ytzRlbeEkbzmjc4NKX1ea0NJw6qCwUbAVmPrKVo0CXbCyYesvERTXVKYt6MAZtUATyjETE4ypG+ZAuzvo4qEP85fAEx9AlYfFquXZ/kBAsTc3cIAAAA=[0m[Pipeline] { (set args)
+[8mha:////4G9dxluK5ut2lxdfo2JVi6OIov1ZH/881VUFzuPzanonAAAAox+LCAAAAAAAAP9tjTESwiAURH/iWNhaeggyE0vHypah8QSYIEKY/wkQSeWJvJp3EM2MlVvs7NvmPV+wjgGOFDSzCgeDsTPMu0mXxTKF4eooM0sX1hFGcooJlQX16rSgoKRgSVXDisNGYecoGtQJttzKu2ycRN2cUyjfgUNt+hEeUPFiTjKkL8wBdrepj4Q/z18BzD5B3baf2vs3w5BRkb4AAAA=[0m[Pipeline] sh
++ python /root/.jenkins/workspace/test-test-nic-simple/npxtester/conf/change_args.py '{"dpdk_dir":"/opt/APP/utility/DPDK_install/dpdk-stable-20.11.1/","sut_conf":{"host":"10.112.97.62","connect_switch_sut_pf":"ens2f0","pf1":"ens2f0","pf1_ipv6":"fe80::b696:91ff:fe9c:f7a4","os":"rehat","PF1_NIC_type":"4*25"},"dhcp":{"ipv4":"192.168.10.11","ipv6":"fe80::b696:91ff:fea5:9b45"},"sut2_conf":{"host":"10.112.97.60","pf1":"ens2f1"},"drive_info":{"drive_tar_path":"/opt/APP/driver/tmp/ice-1.6.4.tar.gz","drive_name":"ice","drive_version":"1.6.4"}}'
+[8mha:////4FhUQONKPXFSeOjFO92QKbtxv93cUzSuhB7hx3xoWX6KAAAApB+LCAAAAAAAAP9tjbEOwiAURV9rHFwd/QiaNG7GyZWw+AXYIkLJexSodPKL/DX/QbSJk3e4uecu5/mCdQxwpKCZVTgYjJ1h3k26LJYpDFdHmVm6sI4wklNMqCyoV6cFBSUFS6oaVhw2CjtH0aBOsOVW3mXjJOrmnEL5Dhxq04/wgIoXc5IhfWEOsLtNfST8ef4KYPY+Qd3uP9W+Ad3NsHm+AAAA[0m[Pipeline] }
+[8mha:////4EpM1Tihe33kOTBucrClpdwMCq1FF6wGwTU/AEOZmYaNAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIikKgQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGMIGcrd/lPbN8JP5Su+AAAA[0m[Pipeline] // stage
+[8mha:////4JJk4NQMkVX21N+ktknOqKLQw+FD2VU/fvD8dhBPuambAAAApx+LCAAAAAAAAP9tjTEOwjAQBM9BKWgpeYQjIUSDqGgtN7zAxMY4se6CfSGpeBFf4w8EIlGx1c5Kq3m+oMwJDpS8bBy2AXMdZBd7PzU5UGovkQbZ0FnWhJmik9oNmqw7zqiJHcwRBSwULB3WkXJAz7BSjbmbKhr01YnTtO0VFMHe4AFCTWY2ib8wJlhfe5sJf56/Ahg7BrFlKDa7z7F8AzYdm7bBAAAA[0m[Pipeline] stage
+[8mha:////4GToWcz1lEtttcc1F67+obVKf97ChyGWoNBgdNb8ln6iAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUYoABMXWNsnCC0ISQNvq//KS0EyfiatyBlkpMeLBsS9Z7vaGIDCdiJxqLrcdYe9GF3k1JDMTtNdAgGrqImjBSsELZQZGx1VIVJQuLshxWEtYW60DRo0uwkY1+6DJodOU58bQdJeTe3OEJmZzISXP6lpFhe+tNJPxx/gJg7BLku/1sh/lZfAAyQCqkwgAAAA==[0m[Pipeline] { (run nic case)
+[8mha:////4M/BBJOrvLliK1a64sS7A0hf4H4seiclg8D1IX9OqKAVAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIi0YCEqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDhnK7+9Q+vAGvZp0gvgAAAA==[0m[Pipeline] sh
++ pytest /root/.jenkins/workspace/test-test-nic-simple/npxtester/Tests/testNics -s -m nicSimple --capture=tee-sys --html=/root/testconfig/testlogs/HtmlReport/nic_simple_report.html --self-contained-html
+============================= test session starts ==============================
+platform linux -- Python 3.6.8, pytest-6.2.4, py-1.11.0, pluggy-0.13.1
+rootdir: /root/.jenkins/workspace/test-test-nic-simple/npxtester/Tests/testNics, configfile: pytest.ini
+plugins: metadata-1.11.0, html-3.1.1
+collected 16 items / 8 deselected / 8 selected
+
+npxtester/Tests/testNics/test_mtu.py 2022-02-22 10:40:49 - NicTestFixture.py - [line:28] - root - INFO - ============================ Starting to run test_PI_Networking_Jumbo_Packet_CVL case ============================
+2022-02-22 10:40:49 - test_mtu.py - [line:18] - root - INFO - this is Test_mtu setup.
+2022-02-22 10:40:49 - transport.py - [line:1819] - paramiko.transport - INFO - Connected (version 2.0, client OpenSSH_8.0)
+2022-02-22 10:40:49 - transport.py - [line:1819] - paramiko.transport - INFO - Authentication (password) successful!
+2022-02-22 10:40:49 - sshInstance.py - [line:28] - root - INFO - SSH on SUT: 10.112.97.62
+2022-02-22 10:40:49 - transport.py - [line:1819] - paramiko.transport - INFO - Connected (version 2.0, client OpenSSH_8.0)
+2022-02-22 10:40:49 - transport.py - [line:1819] - paramiko.transport - INFO - Authentication (password) successful!
+2022-02-22 10:40:49 - sshInstance.py - [line:28] - root - INFO - SSH on SUT: 10.112.97.60
+2022-02-22 10:40:52 - sshInstance.py - [line:46] - root - INFO - rmmod ice
+2022-02-22 10:41:00 - sshInstance.py - [line:50] - root - INFO - 
+2022-02-22 10:41:08 - sshInstance.py - [line:46] - root - INFO - modprobe ice
+2022-02-22 10:41:13 - sshInstance.py - [line:50] - root - INFO - 
+E2022-02-22 10:41:18 - NicTestFixture.py - [line:32] - root - INFO - ============================ end of run test_PI_Networking_Jumbo_Packet_CVL case ============================
+2022-02-22 10:41:18 - NicTestFixture.py - [line:28] - root - INFO - ============================ Starting to run test_PI_Networking_MTU_set_CVL case ============================
+2022-02-22 10:41:18 - test_mtu.py - [line:18] - root - INFO - this is Test_mtu setup.
+2022-02-22 10:41:18 - transport.py - [line:1819] - paramiko.transport - INFO - Connected (version 2.0, client OpenSSH_8.0)
+2022-02-22 10:41:18 - transport.py - [line:1819] - paramiko.transport - INFO - Authentication (password) successful!
+2022-02-22 10:41:18 - sshInstance.py - [line:28] - root - INFO - SSH on SUT: 10.112.97.62
+2022-02-22 10:41:18 - transport.py - [line:1819] - paramiko.transport - INFO - Connected (version 2.0, client OpenSSH_8.0)
+2022-02-22 10:41:19 - transport.py - [line:1819] - paramiko.transport - INFO - Authentication (password) successful!
+2022-02-22 10:41:19 - sshInstance.py - [line:28] - root - INFO - SSH on SUT: 10.112.97.60
+2022-02-22 10:41:22 - sshInstance.py - [line:46] - root - INFO - rmmod ice
+2022-02-22 10:41:29 - sshInstance.py - [line:50] - root - INFO - 
+2022-02-22 10:41:37 - sshInstance.py - [line:46] - root - INFO - modprobe ice
+2022-02-22 10:41:43 - sshInstance.py - [line:50] - root - INFO - 
+E2022-02-22 10:41:48 - NicTestFixture.py - [line:32] - root - INFO - ============================ end of run test_PI_Networking_MTU_set_CVL case ============================
+                                  [ 25%]
+npxtester/Tests/testNics/test_nics.py 2022-02-22 10:41:48 - NicTestFixture.py - [line:28] - root - INFO - ============================ Starting to run test_silver_Networking_ConnectivityEnableDisable case ============================
+2022-02-22 10:41:48 - test_nics.py - [line:18] - root - INFO - this is Test_Nics setup.
+2022-02-22 10:41:48 - transport.py - [line:1819] - paramiko.transport - INFO - Connected (version 2.0, client OpenSSH_8.0)
+2022-02-22 10:41:48 - transport.py - [line:1819] - paramiko.transport - INFO - Authentication (password) successful!
+2022-02-22 10:41:48 - sshInstance.py - [line:28] - root - INFO - SSH on SUT: 10.112.97.62
+2022-02-22 10:41:48 - transport.py - [line:1819] - paramiko.transport - INFO - Connected (version 2.0, client OpenSSH_8.0)
+2022-02-22 10:41:48 - transport.py - [line:1819] - paramiko.transport - INFO - Authentication (password) successful!
+2022-02-22 10:41:48 - sshInstance.py - [line:28] - root - INFO - SSH on SUT: 10.112.97.60
+2022-02-22 10:41:51 - sshInstance.py - [line:46] - root - INFO - rmmod ice
+2022-02-22 10:41:59 - sshInstance.py - [line:50] - root - INFO - 
+2022-02-22 10:42:07 - sshInstance.py - [line:46] - root - INFO - modprobe ice
+2022-02-22 10:42:12 - sshInstance.py - [line:50] - root - INFO - 
+2022-02-22 10:42:20 - sshInstance.py - [line:46] - root - INFO - modinfo ice
+2022-02-22 10:42:20 - sshInstance.py - [line:50] - root - INFO - filename:       /lib/modules/4.18.0-305.el8.x86_64/updates/drivers/net/ethernet/intel/ice/ice.ko
+firmware:       intel/ice/ddp/ice.pkg
+version:        1.6.4
+license:        GPL v2
+description:    Intel(R) Ethernet Connection E800 Series Linux Driver
+author:         Intel Corporation, <linux.nics@intel.com>
+rhelversion:    8.4
+srcversion:     C8EA21B2A34EA565E9AC844
+alias:          pci:v00008086d0000151Dsv*sd*bc*sc*i*
+alias:          pci:v00008086d0000124Fsv*sd*bc*sc*i*
+alias:          pci:v00008086d0000124Esv*sd*bc*sc*i*
+alias:          pci:v00008086d0000124Dsv*sd*bc*sc*i*
+alias:          pci:v00008086d0000124Csv*sd*bc*sc*i*
+alias:          pci:v00008086d0000189Asv*sd*bc*sc*i*
+alias:          pci:v00008086d00001899sv*sd*bc*sc*i*
+alias:          pci:v00008086d00001898sv*sd*bc*sc*i*
+alias:          pci:v00008086d00001897sv*sd*bc*sc*i*
+alias:          pci:v00008086d00001894sv*sd*bc*sc*i*
+alias:          pci:v00008086d00001893sv*sd*bc*sc*i*
+alias:          pci:v00008086d00001892sv*sd*bc*sc*i*
+alias:          pci:v00008086d00001891sv*sd*bc*sc*i*
+alias:          pci:v00008086d00001890sv*sd*bc*sc*i*
+alias:          pci:v00008086d0000188Esv*sd*bc*sc*i*
+alias:          pci:v00008086d0000188Dsv*sd*bc*sc*i*
+alias:          pci:v00008086d0000188Csv*sd*bc*sc*i*
+alias:          pci:v00008086d0000188Bsv*sd*bc*sc*i*
+alias:          pci:v00008086d0000188Asv*sd*bc*sc*i*
+alias:          pci:v00008086d0000159Bsv*sd*bc*sc*i*
+alias:          pci:v00008086d0000159Asv*sd*bc*sc*i*
+alias:          pci:v00008086d00001599sv*sd*bc*sc*i*
+alias:          pci:v00008086d00001593sv*sd*bc*sc*i*
+alias:          pci:v00008086d00001592sv*sd*bc*sc*i*
+alias:          pci:v00008086d00001591sv*sd*bc*sc*i*
+depends:        
+name:           ice
+vermagic:       4.18.0-305.el8.x86_64 SMP mod_unload modversions 
+parm:           debug:netif level (0=none,...,16=all) (int)
+parm:           fwlog_level:FW event level to log. All levels <= to the specified value are enabled. Values: 0=none, 1=error, 2=warning, 3=normal, 4=verbose. Invalid values: >=5
+ (ushort)
+parm:           fwlog_events:FW events to log (32-bit mask)
+ (ulong)
+
+2022-02-22 10:42:31 - sshInstance.py - [line:94] - root - INFO - Activate the web console with: systemctl enable --now cockpit.socket
+This system is not registered to Red Hat Insights. See https://cloud.redhat.com/
+To register this system, run: insights-client --register
+Last login: Tue Feb 22 10:49:20 2022 from 10.112.97.60
+[root@WW25ICX2 ~]# ifconfig ens2f0 192.168.10.12
+[root@WW25ICX2 ~]# 
+2022-02-22 10:42:38 - sshInstance.py - [line:71] - root - INFO - ping -c 5 192.168.10.11
+PING 192.168.10.11 (192.168.10.11) 56(84) bytes of data.
+2022-02-22 10:42:41 - sshInstance.py - [line:71] - root - INFO - From 192.168.10.12 icmp_seq=1 Destination Host Unreachable
+From 192.168.10.12 icmp_seq=2 Destination Host Unreachable
+From 192.168.10.12 icmp_seq=3 Destination Host Unreachable
+2022-02-22 10:42:44 - sshInstance.py - [line:71] - root - INFO - From 192.168.10.12 icmp_seq=4 Destination Host Unreachable
+From 192.168.10.12 icmp_seq=5 Destination Host Unreachable
+
+--- 192.168.10.11 ping statistics ---
+5 packets transmitted, 0 received, +5 errors, 100% packet loss, time 4106ms
+pipe 4
+[root@WW25ICX2 ~]# 
+F2022-02-22 10:42:50 - sshInstance.py - [line:46] - root - INFO - echo 0 > /sys/class/net/ens2f0/device/sriov_numvfs
+2022-02-22 10:42:50 - sshInstance.py - [line:50] - root - INFO - 
+2022-02-22 10:42:58 - sshInstance.py - [line:46] - root - INFO - ifconfig ens2f0 0
+2022-02-22 10:42:58 - sshInstance.py - [line:50] - root - INFO - 
+2022-02-22 10:43:03 - test_nics.py - [line:60] - root - INFO - this is Test_Nics teardown
+2022-02-22 10:43:03 - NicTestFixture.py - [line:32] - root - INFO - ============================ end of run test_silver_Networking_ConnectivityEnableDisable case ============================
+2022-02-22 10:43:03 - NicTestFixture.py - [line:28] - root - INFO - ============================ Starting to run test_silver_ConnectivityReboot case ============================
+2022-02-22 10:43:03 - test_nics.py - [line:18] - root - INFO - this is Test_Nics setup.
+2022-02-22 10:43:03 - transport.py - [line:1819] - paramiko.transport - INFO - Connected (version 2.0, client OpenSSH_8.0)
+2022-02-22 10:43:03 - transport.py - [line:1819] - paramiko.transport - INFO - Authentication (password) successful!
+2022-02-22 10:43:03 - sshInstance.py - [line:28] - root - INFO - SSH on SUT: 10.112.97.62
+2022-02-22 10:43:03 - transport.py - [line:1819] - paramiko.transport - INFO - Connected (version 2.0, client OpenSSH_8.0)
+2022-02-22 10:43:03 - transport.py - [line:1819] - paramiko.transport - INFO - Authentication (password) successful!
+2022-02-22 10:43:03 - sshInstance.py - [line:28] - root - INFO - SSH on SUT: 10.112.97.60
+2022-02-22 10:43:06 - sshInstance.py - [line:46] - root - INFO - rmmod ice
+2022-02-22 10:43:14 - sshInstance.py - [line:50] - root - INFO - 
+2022-02-22 10:43:22 - sshInstance.py - [line:46] - root - INFO - modprobe ice
+2022-02-22 10:43:27 - sshInstance.py - [line:50] - root - INFO - 
+2022-02-22 10:43:35 - sshInstance.py - [line:46] - root - INFO - modinfo ice
+2022-02-22 10:43:35 - sshInstance.py - [line:50] - root - INFO - filename:       /lib/modules/4.18.0-305.el8.x86_64/updates/drivers/net/ethernet/intel/ice/ice.ko
+firmware:       intel/ice/ddp/ice.pkg
+version:        1.6.4
+license:        GPL v2
+description:    Intel(R) Ethernet Connection E800 Series Linux Driver
+author:         Intel Corporation, <linux.nics@intel.com>
+rhelversion:    8.4
+srcversion:     C8EA21B2A34EA565E9AC844
+alias:          pci:v00008086d0000151Dsv*sd*bc*sc*i*
+alias:          pci:v00008086d0000124Fsv*sd*bc*sc*i*
+alias:          pci:v00008086d0000124Esv*sd*bc*sc*i*
+alias:          pci:v00008086d0000124Dsv*sd*bc*sc*i*
+alias:          pci:v00008086d0000124Csv*sd*bc*sc*i*
+alias:          pci:v00008086d0000189Asv*sd*bc*sc*i*
+alias:          pci:v00008086d00001899sv*sd*bc*sc*i*
+alias:          pci:v00008086d00001898sv*sd*bc*sc*i*
+alias:          pci:v00008086d00001897sv*sd*bc*sc*i*
+alias:          pci:v00008086d00001894sv*sd*bc*sc*i*
+alias:          pci:v00008086d00001893sv*sd*bc*sc*i*
+alias:          pci:v00008086d00001892sv*sd*bc*sc*i*
+alias:          pci:v00008086d00001891sv*sd*bc*sc*i*
+alias:          pci:v00008086d00001890sv*sd*bc*sc*i*
+alias:          pci:v00008086d0000188Esv*sd*bc*sc*i*
+alias:          pci:v00008086d0000188Dsv*sd*bc*sc*i*
+alias:          pci:v00008086d0000188Csv*sd*bc*sc*i*
+alias:          pci:v00008086d0000188Bsv*sd*bc*sc*i*
+alias:          pci:v00008086d0000188Asv*sd*bc*sc*i*
+alias:          pci:v00008086d0000159Bsv*sd*bc*sc*i*
+alias:          pci:v00008086d0000159Asv*sd*bc*sc*i*
+alias:          pci:v00008086d00001599sv*sd*bc*sc*i*
+alias:          pci:v00008086d00001593sv*sd*bc*sc*i*
+alias:          pci:v00008086d00001592sv*sd*bc*sc*i*
+alias:          pci:v00008086d00001591sv*sd*bc*sc*i*
+depends:        
+name:           ice
+vermagic:       4.18.0-305.el8.x86_64 SMP mod_unload modversions 
+parm:           debug:netif level (0=none,...,16=all) (int)
+parm:           fwlog_level:FW event level to log. All levels <= to the specified value are enabled. Values: 0=none, 1=error, 2=warning, 3=normal, 4=verbose. Invalid values: >=5
+ (ushort)
+parm:           fwlog_events:FW events to log (32-bit mask)
+ (ulong)
+
+2022-02-22 10:43:40 - transport.py - [line:1819] - paramiko.transport - INFO - Connected (version 2.0, client OpenSSH_8.0)
+2022-02-22 10:43:41 - transport.py - [line:1819] - paramiko.transport - INFO - Authentication (password) successful!
+2022-02-22 10:43:41 - sshInstance.py - [line:28] - root - INFO - SSH on SUT: 10.112.97.62
+2022-02-22 10:43:47 - sshInstance.py - [line:94] - root - INFO - Activate the web console with: systemctl enable --now cockpit.socket
+This system is not registered to Red Hat Insights. See https://cloud.redhat.com/
+To register this system, run: insights-client --register
+Last login: Tue Feb 22 10:51:18 2022 from 10.112.97.60
+[root@WW25ICX2 ~]# ifconfig ens2f0 192.168.10.12
+[root@WW25ICX2 ~]# 
+2022-02-22 10:43:54 - sshInstance.py - [line:71] - root - INFO - ping -c 5 192.168.10.11
+PING 192.168.10.11 (192.168.10.11) 56(84) bytes of data.
+2022-02-22 10:43:57 - sshInstance.py - [line:71] - root - INFO - From 192.168.10.12 icmp_seq=1 Destination Host Unreachable
+From 192.168.10.12 icmp_seq=2 Destination Host Unreachable
+From 192.168.10.12 icmp_seq=3 Destination Host Unreachable
+2022-02-22 10:44:00 - sshInstance.py - [line:71] - root - INFO - From 192.168.10.12 icmp_seq=4 Destination Host Unreachable
+From 192.168.10.12 icmp_seq=5 Destination Host Unreachable
+
+--- 192.168.10.11 ping statistics ---
+5 packets transmitted, 0 received, +5 errors, 100% packet loss, time 4086ms
+pipe 4
+[root@WW25ICX2 ~]# 
+F2022-02-22 10:44:06 - sshInstance.py - [line:46] - root - INFO - echo 0 > /sys/class/net/ens2f0/device/sriov_numvfs
+2022-02-22 10:44:06 - sshInstance.py - [line:50] - root - INFO - 
+2022-02-22 10:44:14 - sshInstance.py - [line:46] - root - INFO - ifconfig ens2f0 0
+2022-02-22 10:44:14 - sshInstance.py - [line:50] - root - INFO - 
+2022-02-22 10:44:19 - test_nics.py - [line:60] - root - INFO - this is Test_Nics teardown
+2022-02-22 10:44:19 - NicTestFixture.py - [line:32] - root - INFO - ============================ end of run test_silver_ConnectivityReboot case ============================
+2022-02-22 10:44:19 - NicTestFixture.py - [line:28] - root - INFO - ============================ Starting to run test_gold_PI_Networking_SRIOV_CheckDevice case ============================
+2022-02-22 10:44:19 - test_nics.py - [line:18] - root - INFO - this is Test_Nics setup.
+2022-02-22 10:44:19 - transport.py - [line:1819] - paramiko.transport - INFO - Connected (version 2.0, client OpenSSH_8.0)
+2022-02-22 10:44:19 - transport.py - [line:1819] - paramiko.transport - INFO - Authentication (password) successful!
+2022-02-22 10:44:19 - sshInstance.py - [line:28] - root - INFO - SSH on SUT: 10.112.97.62
+2022-02-22 10:44:19 - transport.py - [line:1819] - paramiko.transport - INFO - Connected (version 2.0, client OpenSSH_8.0)
+2022-02-22 10:44:19 - transport.py - [line:1819] - paramiko.transport - INFO - Authentication (password) successful!
+2022-02-22 10:44:19 - sshInstance.py - [line:28] - root - INFO - SSH on SUT: 10.112.97.60
+2022-02-22 10:44:22 - sshInstance.py - [line:46] - root - INFO - rmmod ice
+2022-02-22 10:44:30 - sshInstance.py - [line:50] - root - INFO - 
+2022-02-22 10:44:38 - sshInstance.py - [line:46] - root - INFO - modprobe ice
+2022-02-22 10:44:43 - sshInstance.py - [line:50] - root - INFO - 
+2022-02-22 10:44:51 - sshInstance.py - [line:46] - root - INFO - modinfo ice
+2022-02-22 10:44:51 - sshInstance.py - [line:50] - root - INFO - filename:       /lib/modules/4.18.0-305.el8.x86_64/updates/drivers/net/ethernet/intel/ice/ice.ko
+firmware:       intel/ice/ddp/ice.pkg
+version:        1.6.4
+license:        GPL v2
+description:    Intel(R) Ethernet Connection E800 Series Linux Driver
+author:         Intel Corporation, <linux.nics@intel.com>
+rhelversion:    8.4
+srcversion:     C8EA21B2A34EA565E9AC844
+alias:          pci:v00008086d0000151Dsv*sd*bc*sc*i*
+alias:          pci:v00008086d0000124Fsv*sd*bc*sc*i*
+alias:          pci:v00008086d0000124Esv*sd*bc*sc*i*
+alias:          pci:v00008086d0000124Dsv*sd*bc*sc*i*
+alias:          pci:v00008086d0000124Csv*sd*bc*sc*i*
+alias:          pci:v00008086d0000189Asv*sd*bc*sc*i*
+alias:          pci:v00008086d00001899sv*sd*bc*sc*i*
+alias:          pci:v00008086d00001898sv*sd*bc*sc*i*
+alias:          pci:v00008086d00001897sv*sd*bc*sc*i*
+alias:          pci:v00008086d00001894sv*sd*bc*sc*i*
+alias:          pci:v00008086d00001893sv*sd*bc*sc*i*
+alias:          pci:v00008086d00001892sv*sd*bc*sc*i*
+alias:          pci:v00008086d00001891sv*sd*bc*sc*i*
+alias:          pci:v00008086d00001890sv*sd*bc*sc*i*
+alias:          pci:v00008086d0000188Esv*sd*bc*sc*i*
+alias:          pci:v00008086d0000188Dsv*sd*bc*sc*i*
+alias:          pci:v00008086d0000188Csv*sd*bc*sc*i*
+alias:          pci:v00008086d0000188Bsv*sd*bc*sc*i*
+alias:          pci:v00008086d0000188Asv*sd*bc*sc*i*
+alias:          pci:v00008086d0000159Bsv*sd*bc*sc*i*
+alias:          pci:v00008086d0000159Asv*sd*bc*sc*i*
+alias:          pci:v00008086d00001599sv*sd*bc*sc*i*
+alias:          pci:v00008086d00001593sv*sd*bc*sc*i*
+alias:          pci:v00008086d00001592sv*sd*bc*sc*i*
+alias:          pci:v00008086d00001591sv*sd*bc*sc*i*
+depends:        
+name:           ice
+vermagic:       4.18.0-305.el8.x86_64 SMP mod_unload modversions 
+parm:           debug:netif level (0=none,...,16=all) (int)
+parm:           fwlog_level:FW event level to log. All levels <= to the specified value are enabled. Values: 0=none, 1=error, 2=warning, 3=normal, 4=verbose. Invalid values: >=5
+ (ushort)
+parm:           fwlog_events:FW events to log (32-bit mask)
+ (ulong)
+
+2022-02-22 10:44:59 - sshInstance.py - [line:46] - root - INFO - echo 4 > /sys/class/net/ens2f0/device/sriov_numvfs
+2022-02-22 10:44:59 - sshInstance.py - [line:50] - root - INFO - 
+2022-02-22 10:45:07 - sshInstance.py - [line:46] - root - INFO - ifconfig ens2f0v0 192.168.10.11
+2022-02-22 10:45:07 - sshInstance.py - [line:50] - root - INFO - 
+2022-02-22 10:45:15 - sshInstance.py - [line:46] - root - INFO - ifconfig ens2f0v1 192.168.10.12
+2022-02-22 10:45:15 - sshInstance.py - [line:50] - root - INFO - 
+2022-02-22 10:45:23 - sshInstance.py - [line:46] - root - INFO - ifconfig ens2f0v2 192.168.10.13
+2022-02-22 10:45:23 - sshInstance.py - [line:50] - root - INFO - 
+2022-02-22 10:45:31 - sshInstance.py - [line:46] - root - INFO - ifconfig ens2f0v3 192.168.10.14
+2022-02-22 10:45:31 - sshInstance.py - [line:50] - root - INFO - 
+2022-02-22 10:45:40 - sshInstance.py - [line:46] - root - INFO - ping -c 5 192.168.10.11
+2022-02-22 10:45:44 - sshInstance.py - [line:50] - root - INFO - PING 192.168.10.11 (192.168.10.11) 56(84) bytes of data.
+64 bytes from 192.168.10.11: icmp_seq=1 ttl=64 time=0.023 ms
+64 bytes from 192.168.10.11: icmp_seq=2 ttl=64 time=0.043 ms
+64 bytes from 192.168.10.11: icmp_seq=3 ttl=64 time=0.042 ms
+64 bytes from 192.168.10.11: icmp_seq=4 ttl=64 time=0.013 ms
+64 bytes from 192.168.10.11: icmp_seq=5 ttl=64 time=0.042 ms
+
+--- 192.168.10.11 ping statistics ---
+5 packets transmitted, 5 received, 0% packet loss, time 4112ms
+rtt min/avg/max/mdev = 0.013/0.032/0.043/0.013 ms
+
+2022-02-22 10:45:52 - sshInstance.py - [line:46] - root - INFO - ifconfig ens2f0v0 up
+2022-02-22 10:45:52 - sshInstance.py - [line:50] - root - INFO - 
+2022-02-22 10:46:00 - sshInstance.py - [line:46] - root - INFO - ping6 -c 5 -I ens2f0v0 fe80::b696:91ff:fea5:9b45
+2022-02-22 10:46:04 - sshInstance.py - [line:50] - root - INFO - ping6: Warning: source address might be selected on device other than ens2f0v0.
+PING fe80::b696:91ff:fea5:9b45(fe80::b696:91ff:fea5:9b45) from :: ens2f0v0: 56 data bytes
+64 bytes from fe80::b696:91ff:fea5:9b45%ens2f0v0: icmp_seq=1 ttl=64 time=0.511 ms
+64 bytes from fe80::b696:91ff:fea5:9b45%ens2f0v0: icmp_seq=2 ttl=64 time=0.186 ms
+64 bytes from fe80::b696:91ff:fea5:9b45%ens2f0v0: icmp_seq=3 ttl=64 time=0.167 ms
+64 bytes from fe80::b696:91ff:fea5:9b45%ens2f0v0: icmp_seq=4 ttl=64 time=0.146 ms
+64 bytes from fe80::b696:91ff:fea5:9b45%ens2f0v0: icmp_seq=5 ttl=64 time=0.075 ms
+
+--- fe80::b696:91ff:fea5:9b45 ping statistics ---
+5 packets transmitted, 5 received, 0% packet loss, time 4079ms
+rtt min/avg/max/mdev = 0.075/0.217/0.511/0.151 ms
+
+2022-02-22 10:46:12 - sshInstance.py - [line:46] - root - INFO - ping -c 5 192.168.10.11
+2022-02-22 10:46:16 - sshInstance.py - [line:50] - root - INFO - PING 192.168.10.11 (192.168.10.11) 56(84) bytes of data.
+64 bytes from 192.168.10.11: icmp_seq=1 ttl=64 time=0.021 ms
+64 bytes from 192.168.10.11: icmp_seq=2 ttl=64 time=0.042 ms
+64 bytes from 192.168.10.11: icmp_seq=3 ttl=64 time=0.013 ms
+64 bytes from 192.168.10.11: icmp_seq=4 ttl=64 time=0.042 ms
+64 bytes from 192.168.10.11: icmp_seq=5 ttl=64 time=0.043 ms
+
+--- 192.168.10.11 ping statistics ---
+5 packets transmitted, 5 received, 0% packet loss, time 4118ms
+rtt min/avg/max/mdev = 0.013/0.032/0.043/0.013 ms
+
+2022-02-22 10:46:24 - sshInstance.py - [line:46] - root - INFO - ifconfig ens2f0v1 up
+2022-02-22 10:46:24 - sshInstance.py - [line:50] - root - INFO - 
+2022-02-22 10:46:32 - sshInstance.py - [line:46] - root - INFO - ping6 -c 5 -I ens2f0v1 fe80::b696:91ff:fea5:9b45
+2022-02-22 10:46:36 - sshInstance.py - [line:50] - root - INFO - ping6: Warning: source address might be selected on device other than ens2f0v1.
+PING fe80::b696:91ff:fea5:9b45(fe80::b696:91ff:fea5:9b45) from :: ens2f0v1: 56 data bytes
+64 bytes from fe80::b696:91ff:fea5:9b45%ens2f0v1: icmp_seq=1 ttl=64 time=0.547 ms
+64 bytes from fe80::b696:91ff:fea5:9b45%ens2f0v1: icmp_seq=2 ttl=64 time=0.273 ms
+64 bytes from fe80::b696:91ff:fea5:9b45%ens2f0v1: icmp_seq=3 ttl=64 time=0.281 ms
+64 bytes from fe80::b696:91ff:fea5:9b45%ens2f0v1: icmp_seq=4 ttl=64 time=0.269 ms
+64 bytes from fe80::b696:91ff:fea5:9b45%ens2f0v1: icmp_seq=5 ttl=64 time=0.224 ms
+
+--- fe80::b696:91ff:fea5:9b45 ping statistics ---
+5 packets transmitted, 5 received, 0% packet loss, time 4080ms
+rtt min/avg/max/mdev = 0.224/0.318/0.547/0.118 ms
+
+2022-02-22 10:46:44 - sshInstance.py - [line:46] - root - INFO - ping -c 5 192.168.10.11
+2022-02-22 10:46:48 - sshInstance.py - [line:50] - root - INFO - PING 192.168.10.11 (192.168.10.11) 56(84) bytes of data.
+64 bytes from 192.168.10.11: icmp_seq=1 ttl=64 time=0.022 ms
+64 bytes from 192.168.10.11: icmp_seq=2 ttl=64 time=0.015 ms
+64 bytes from 192.168.10.11: icmp_seq=3 ttl=64 time=0.044 ms
+64 bytes from 192.168.10.11: icmp_seq=4 ttl=64 time=0.043 ms
+64 bytes from 192.168.10.11: icmp_seq=5 ttl=64 time=0.044 ms
+
+--- 192.168.10.11 ping statistics ---
+5 packets transmitted, 5 received, 0% packet loss, time 4119ms
+rtt min/avg/max/mdev = 0.015/0.033/0.044/0.014 ms
+
+2022-02-22 10:46:56 - sshInstance.py - [line:46] - root - INFO - ifconfig ens2f0v2 up
+2022-02-22 10:46:56 - sshInstance.py - [line:50] - root - INFO - 
+2022-02-22 10:47:04 - sshInstance.py - [line:46] - root - INFO - ping6 -c 5 -I ens2f0v2 fe80::b696:91ff:fea5:9b45
+2022-02-22 10:47:08 - sshInstance.py - [line:50] - root - INFO - ping6: Warning: source address might be selected on device other than ens2f0v2.
+PING fe80::b696:91ff:fea5:9b45(fe80::b696:91ff:fea5:9b45) from :: ens2f0v2: 56 data bytes
+64 bytes from fe80::b696:91ff:fea5:9b45%ens2f0v2: icmp_seq=1 ttl=64 time=0.489 ms
+64 bytes from fe80::b696:91ff:fea5:9b45%ens2f0v2: icmp_seq=2 ttl=64 time=0.166 ms
+64 bytes from fe80::b696:91ff:fea5:9b45%ens2f0v2: icmp_seq=3 ttl=64 time=0.113 ms
+64 bytes from fe80::b696:91ff:fea5:9b45%ens2f0v2: icmp_seq=4 ttl=64 time=0.198 ms
+64 bytes from fe80::b696:91ff:fea5:9b45%ens2f0v2: icmp_seq=5 ttl=64 time=0.203 ms
+
+--- fe80::b696:91ff:fea5:9b45 ping statistics ---
+5 packets transmitted, 5 received, 0% packet loss, time 4080ms
+rtt min/avg/max/mdev = 0.113/0.233/0.489/0.132 ms
+
+2022-02-22 10:47:16 - sshInstance.py - [line:46] - root - INFO - ping -c 5 192.168.10.11
+2022-02-22 10:47:21 - sshInstance.py - [line:50] - root - INFO - PING 192.168.10.11 (192.168.10.11) 56(84) bytes of data.
+64 bytes from 192.168.10.11: icmp_seq=1 ttl=64 time=0.025 ms
+64 bytes from 192.168.10.11: icmp_seq=2 ttl=64 time=0.044 ms
+64 bytes from 192.168.10.11: icmp_seq=3 ttl=64 time=0.015 ms
+64 bytes from 192.168.10.11: icmp_seq=4 ttl=64 time=0.043 ms
+64 bytes from 192.168.10.11: icmp_seq=5 ttl=64 time=0.048 ms
+
+--- 192.168.10.11 ping statistics ---
+5 packets transmitted, 5 received, 0% packet loss, time 4118ms
+rtt min/avg/max/mdev = 0.015/0.035/0.048/0.012 ms
+
+2022-02-22 10:47:29 - sshInstance.py - [line:46] - root - INFO - ifconfig ens2f0v3 up
+2022-02-22 10:47:29 - sshInstance.py - [line:50] - root - INFO - 
+2022-02-22 10:47:37 - sshInstance.py - [line:46] - root - INFO - ping6 -c 5 -I ens2f0v3 fe80::b696:91ff:fea5:9b45
+2022-02-22 10:47:41 - sshInstance.py - [line:50] - root - INFO - ping6: Warning: source address might be selected on device other than ens2f0v3.
+PING fe80::b696:91ff:fea5:9b45(fe80::b696:91ff:fea5:9b45) from :: ens2f0v3: 56 data bytes
+64 bytes from fe80::b696:91ff:fea5:9b45%ens2f0v3: icmp_seq=1 ttl=64 time=0.570 ms
+64 bytes from fe80::b696:91ff:fea5:9b45%ens2f0v3: icmp_seq=2 ttl=64 time=0.239 ms
+64 bytes from fe80::b696:91ff:fea5:9b45%ens2f0v3: icmp_seq=3 ttl=64 time=0.237 ms
+64 bytes from fe80::b696:91ff:fea5:9b45%ens2f0v3: icmp_seq=4 ttl=64 time=0.240 ms
+64 bytes from fe80::b696:91ff:fea5:9b45%ens2f0v3: icmp_seq=5 ttl=64 time=0.224 ms
+
+--- fe80::b696:91ff:fea5:9b45 ping statistics ---
+5 packets transmitted, 5 received, 0% packet loss, time 4078ms
+rtt min/avg/max/mdev = 0.224/0.302/0.570/0.134 ms
+
+.2022-02-22 10:47:49 - sshInstance.py - [line:46] - root - INFO - echo 0 > /sys/class/net/ens2f0/device/sriov_numvfs
+2022-02-22 10:47:51 - sshInstance.py - [line:50] - root - INFO - 
+2022-02-22 10:47:59 - sshInstance.py - [line:46] - root - INFO - ifconfig ens2f0 0
+2022-02-22 10:47:59 - sshInstance.py - [line:50] - root - INFO - 
+2022-02-22 10:48:04 - test_nics.py - [line:60] - root - INFO - this is Test_Nics teardown
+2022-02-22 10:48:04 - NicTestFixture.py - [line:32] - root - INFO - ============================ end of run test_gold_PI_Networking_SRIOV_CheckDevice case ============================
+2022-02-22 10:48:04 - NicTestFixture.py - [line:28] - root - INFO - ============================ Starting to run test_PI_Networking_DriverInstallationUninstall case ============================
+2022-02-22 10:48:04 - test_nics.py - [line:18] - root - INFO - this is Test_Nics setup.
+2022-02-22 10:48:04 - transport.py - [line:1819] - paramiko.transport - INFO - Connected (version 2.0, client OpenSSH_8.0)
+2022-02-22 10:48:04 - transport.py - [line:1819] - paramiko.transport - INFO - Authentication (password) successful!
+2022-02-22 10:48:04 - sshInstance.py - [line:28] - root - INFO - SSH on SUT: 10.112.97.62
+2022-02-22 10:48:04 - transport.py - [line:1819] - paramiko.transport - INFO - Connected (version 2.0, client OpenSSH_8.0)
+2022-02-22 10:48:04 - transport.py - [line:1819] - paramiko.transport - INFO - Authentication (password) successful!
+2022-02-22 10:48:04 - sshInstance.py - [line:28] - root - INFO - SSH on SUT: 10.112.97.60
+2022-02-22 10:48:07 - sshInstance.py - [line:46] - root - INFO - rmmod ice
+2022-02-22 10:48:15 - sshInstance.py - [line:50] - root - INFO - 
+2022-02-22 10:48:23 - sshInstance.py - [line:46] - root - INFO - modprobe ice
+2022-02-22 10:48:28 - sshInstance.py - [line:50] - root - INFO - 
+2022-02-22 10:48:36 - sshInstance.py - [line:46] - root - INFO - modinfo ice
+2022-02-22 10:48:36 - sshInstance.py - [line:50] - root - INFO - filename:       /lib/modules/4.18.0-305.el8.x86_64/updates/drivers/net/ethernet/intel/ice/ice.ko
+firmware:       intel/ice/ddp/ice.pkg
+version:        1.6.4
+license:        GPL v2
+description:    Intel(R) Ethernet Connection E800 Series Linux Driver
+author:         Intel Corporation, <linux.nics@intel.com>
+rhelversion:    8.4
+srcversion:     C8EA21B2A34EA565E9AC844
+alias:          pci:v00008086d0000151Dsv*sd*bc*sc*i*
+alias:          pci:v00008086d0000124Fsv*sd*bc*sc*i*
+alias:          pci:v00008086d0000124Esv*sd*bc*sc*i*
+alias:          pci:v00008086d0000124Dsv*sd*bc*sc*i*
+alias:          pci:v00008086d0000124Csv*sd*bc*sc*i*
+alias:          pci:v00008086d0000189Asv*sd*bc*sc*i*
+alias:          pci:v00008086d00001899sv*sd*bc*sc*i*
+alias:          pci:v00008086d00001898sv*sd*bc*sc*i*
+alias:          pci:v00008086d00001897sv*sd*bc*sc*i*
+alias:          pci:v00008086d00001894sv*sd*bc*sc*i*
+alias:          pci:v00008086d00001893sv*sd*bc*sc*i*
+alias:          pci:v00008086d00001892sv*sd*bc*sc*i*
+alias:          pci:v00008086d00001891sv*sd*bc*sc*i*
+alias:          pci:v00008086d00001890sv*sd*bc*sc*i*
+alias:          pci:v00008086d0000188Esv*sd*bc*sc*i*
+alias:          pci:v00008086d0000188Dsv*sd*bc*sc*i*
+alias:          pci:v00008086d0000188Csv*sd*bc*sc*i*
+alias:          pci:v00008086d0000188Bsv*sd*bc*sc*i*
+alias:          pci:v00008086d0000188Asv*sd*bc*sc*i*
+alias:          pci:v00008086d0000159Bsv*sd*bc*sc*i*
+alias:          pci:v00008086d0000159Asv*sd*bc*sc*i*
+alias:          pci:v00008086d00001599sv*sd*bc*sc*i*
+alias:          pci:v00008086d00001593sv*sd*bc*sc*i*
+alias:          pci:v00008086d00001592sv*sd*bc*sc*i*
+alias:          pci:v00008086d00001591sv*sd*bc*sc*i*
+depends:        
+name:           ice
+vermagic:       4.18.0-305.el8.x86_64 SMP mod_unload modversions 
+parm:           debug:netif level (0=none,...,16=all) (int)
+parm:           fwlog_level:FW event level to log. All levels <= to the specified value are enabled. Values: 0=none, 1=error, 2=warning, 3=normal, 4=verbose. Invalid values: >=5
+ (ushort)
+parm:           fwlog_events:FW events to log (32-bit mask)
+ (ulong)
+
+2022-02-22 10:48:44 - sshInstance.py - [line:46] - root - INFO - tar -zxvf /opt/APP/driver/tmp/ice-1.6.4.tar.gz -C /opt/APP/driver/tmp
+2022-02-22 10:48:45 - sshInstance.py - [line:50] - root - INFO - ice-1.6.4/
+ice-1.6.4/SUMS
+ice-1.6.4/ddp/
+ice-1.6.4/ddp/README
+ice-1.6.4/ddp/LICENSE
+ice-1.6.4/ddp/ice-1.3.26.0.pkg
+ice-1.6.4/README
+ice-1.6.4/pci.updates
+ice-1.6.4/src/
+ice-1.6.4/src/ice_fwlog.c
+ice-1.6.4/src/ice_cgu_regs.h
+ice-1.6.4/src/kcompat_dim.c
+ice-1.6.4/src/ice_ptp.h
+ice-1.6.4/src/ice_hw_autogen.h
+ice-1.6.4/src/ice_debugfs.c
+ice-1.6.4/src/ice_nvm.c
+ice-1.6.4/src/ice_devlink.h
+ice-1.6.4/src/Makefile
+ice-1.6.4/src/ice_repr.c
+ice-1.6.4/src/ice_fdir.h
+ice-1.6.4/src/ice_xsk.c
+ice-1.6.4/src/ice_dcb.h
+ice-1.6.4/src/ice_txrx.h
+ice-1.6.4/src/ice_lib.h
+ice-1.6.4/src/ice_dcf.h
+ice-1.6.4/src/ice_ptp_consts.h
+ice-1.6.4/src/ice_fw_update.h
+ice-1.6.4/src/kcompat_net_dim.c
+ice-1.6.4/src/ice_xsk.h
+ice-1.6.4/src/ice_virtchnl_allowlist.c
+ice-1.6.4/src/ice_fltr.c
+ice-1.6.4/src/ice_eswitch.h
+ice-1.6.4/src/ice_virtchnl_pf.h
+ice-1.6.4/src/kcompat_ubuntu_defs.h
+ice-1.6.4/src/ice_fwlog.h
+ice-1.6.4/src/kcompat_dim.h
+ice-1.6.4/src/ice_ptp.c
+ice-1.6.4/src/ice_dcb_lib.c
+ice-1.6.4/src/ice_ptp_hw.c
+ice-1.6.4/src/Module.supported
+ice-1.6.4/src/ice_txrx_lib.c
+ice-1.6.4/src/ice_idc.h
+ice-1.6.4/src/ice_ethtool.h
+ice-1.6.4/src/kcompat_std_defs.h
+ice-1.6.4/src/ice_lan_tx_rx.h
+ice-1.6.4/src/ice_status.h
+ice-1.6.4/src/ice_trace.h
+ice-1.6.4/src/ice_cgu_ops.c
+ice-1.6.4/src/ice_sched.c
+ice-1.6.4/src/ice_flow.h
+ice-1.6.4/src/ice_idc_int.h
+ice-1.6.4/src/ice_vf_vsi_vlan_ops.c
+ice-1.6.4/src/ice.h
+ice-1.6.4/src/ice_adminq_cmd.h
+ice-1.6.4/src/virtchnl_inline_ipsec.h
+ice-1.6.4/src/ice_sriov.c
+ice-1.6.4/src/ice_switch.h
+ice-1.6.4/src/ice_common.c
+ice-1.6.4/src/ice_vsi_vlan_lib.h
+ice-1.6.4/src/ice_switch.c
+ice-1.6.4/src/ice_sriov.h
+ice-1.6.4/src/ice_main.c
+ice-1.6.4/src/ice_txrx.c
+ice-1.6.4/src/ice_tc_lib.c
+ice-1.6.4/src/ice_flex_pipe.c
+ice-1.6.4/src/ice_acl_main.c
+ice-1.6.4/src/ice_dcf.c
+ice-1.6.4/src/ice_sbq_cmd.h
+ice-1.6.4/src/ice_pf_vsi_vlan_ops.c
+ice-1.6.4/src/kcompat_pldmfw.c
+ice-1.6.4/src/ice_cgu.h
+ice-1.6.4/src/ice_flow.c
+ice-1.6.4/src/ice_vsi_vlan_ops.c
+ice-1.6.4/src/ice_virtchnl_pf.c
+ice-1.6.4/src/ice_controlq.h
+ice-1.6.4/src/ice_ethtool_fdir.c
+ice-1.6.4/src/ice_dcb_nl.c
+ice-1.6.4/src/kcompat.h
+ice-1.6.4/src/ice_txrx_lib.h
+ice-1.6.4/src/ice_lib.c
+ice-1.6.4/src/ice_arfs.h
+ice-1.6.4/src/ice_ethtool.c
+ice-1.6.4/src/ice_osdep.h
+ice-1.6.4/src/ice_cgu_util.c
+ice-1.6.4/src/ice_base.c
+ice-1.6.4/src/ice_nvm.h
+ice-1.6.4/src/ice_acl.c
+ice-1.6.4/src/ice_vlan.h
+ice-1.6.4/src/ice_devids.h
+ice-1.6.4/src/ice_controlq.c
+ice-1.6.4/src/ice_cgu_ops.h
+ice-1.6.4/src/ice_tc_lib.h
+ice-1.6.4/src/ice_virtchnl_allowlist.h
+ice-1.6.4/src/ice_protocol_type.h
+ice-1.6.4/src/ice_vsi_vlan_lib.c
+ice-1.6.4/src/ice_base.h
+ice-1.6.4/src/ice_dcb.c
+ice-1.6.4/src/ice_idc.c
+ice-1.6.4/src/ice_flex_pipe.h
+ice-1.6.4/src/ice_vlan_mode.h
+ice-1.6.4/src/ice_type.h
+ice-1.6.4/src/ice_arfs.c
+ice-1.6.4/src/ice_dcb_lib.h
+ice-1.6.4/src/ice_virtchnl_fdir.c
+ice-1.6.4/src/ice_ptp_hw.h
+ice-1.6.4/src/ice_sched.h
+ice-1.6.4/src/ice_fw_update.c
+ice-1.6.4/src/virtchnl.h
+ice-1.6.4/src/ice_common.h
+ice-1.6.4/src/ice_lag.h
+ice-1.6.4/src/ice_dcb_nl.h
+ice-1.6.4/src/kcompat_rhel_defs.h
+ice-1.6.4/src/kcompat_pldmfw.h
+ice-1.6.4/src/ice_acl.h
+ice-1.6.4/src/ice_lag.c
+ice-1.6.4/src/ice_repr.h
+ice-1.6.4/src/ice_eswitch.c
+ice-1.6.4/src/kcompat.c
+ice-1.6.4/src/ice_devlink.c
+ice-1.6.4/src/kcompat_impl.h
+ice-1.6.4/src/ice_fdir.c
+ice-1.6.4/src/ice_fltr.h
+ice-1.6.4/src/kcompat_sles_defs.h
+ice-1.6.4/src/ice_pf_vsi_vlan_ops.h
+ice-1.6.4/src/ice_cgu_util.h
+ice-1.6.4/src/kcompat_overflow.h
+ice-1.6.4/src/ice_virtchnl_fdir.h
+ice-1.6.4/src/ice_vf_vsi_vlan_ops.h
+ice-1.6.4/src/common.mk
+ice-1.6.4/src/ice_flex_type.h
+ice-1.6.4/src/ice_vsi_vlan_ops.h
+ice-1.6.4/src/ice_vlan_mode.c
+ice-1.6.4/src/ice_acl_ctrl.c
+ice-1.6.4/src/virtchnl_lan_desc.h
+ice-1.6.4/scripts/
+ice-1.6.4/scripts/set_irq_affinity
+ice-1.6.4/scripts/set_arfs
+ice-1.6.4/scripts/set_xps_rxqs
+ice-1.6.4/ice.7
+ice-1.6.4/ice.spec
+ice-1.6.4/COPYING
+
+2022-02-22 10:51:00 - sshInstance.py - [line:94] - root - INFO - Activate the web console with: systemctl enable --now cockpit.socket
+This system is not registered to Red Hat Insights. See https://cloud.redhat.com/
+To register this system, run: insights-client --register
+Last login: Tue Feb 22 10:55:41 2022 from 10.112.97.60
+[root@WW25ICX2 ~]# cd /opt/APP/driver/tmp/ice-1.6.4/src && make && make install
+echo "*** The target kernel has CONFIG_MODULE_SIG_ALL enabled, but" ; echo "*** the signing key cannot be found. Module signing has been" ; echo "*** disabled for this build." ; make  ccflags-y="" -C "/lib/modules/4.18.0-305.el8.x86_64/source" CONFIG_ICE=m CONFIG_MODULE_SIG=n CONFIG_MODULE_SIG_ALL= M="/opt/APP/driver/tmp/ice-1.6.4/src"    modules
+*** The target kernel has CONFIG_MODULE_SIG_ALL enabled, but
+*** the signing key cannot be found. Module signing has been
+*** disabled for this build.
+make[1]: Entering directory '/usr/src/kernels/4.18.0-305.el8.x86_64'
+  Building modules, stage 2.
+  MODPOST 1 modules
+make[1]: Leaving directory '/usr/src/kernels/4.18.0-305.el8.x86_64'
+echo "*** The target kernel has CONFIG_MODULE_SIG_ALL enabled, but" ; echo "*** the signing key cannot be found. Module signing has been" ; echo "*** disabled for this build." ; make  ccflags-y="" -C "/lib/modules/4.18.0-305.el8.x86_64/source" CONFIG_ICE=m CONFIG_MODULE_SIG=n CONFIG_MODULE_SIG_ALL= M="/opt/APP/driver/tmp/ice-1.6.4/src"    modules
+*** The target kernel has CONFIG_MODULE_SIG_ALL enabled, but
+*** the signing key cannot be found. Module signing has been
+*** disabled for this build.
+make[1]: Entering directory '/usr/src/kernels/4.18.0-305.el8.x86_64'
+  Building modules, stage 2.
+  MODPOST 1 modules
+make[1]: Leaving directory '/usr/src/kernels/4.18.0-305.el8.x86_64'
+echo "*** The target kernel has CONFIG_MODULE_SIG_ALL enabled, but" ; echo "*** the signing key cannot be found. Module signing has been" ; echo "*** disabled for this build." ; make  ccflags-y="" -C "/lib/modules/4.18.0-305.el8.x86_64/source" CONFIG_ICE=m CONFIG_MODULE_SIG=n CONFIG_MODULE_SIG_ALL= M="/opt/APP/driver/tmp/ice-1.6.4/src"    modules_install
+*** The target kernel has CONFIG_MODULE_SIG_ALL enabled, but
+*** the signing key cannot be found. Module signing has been
+*** disabled for this build.
+make[1]: Entering directory '/usr/src/kernels/4.18.0-305.el8.x86_64'
+  INSTALL /opt/APP/driver/tmp/ice-1.6.4/src/ice.ko
+  DEPMOD  4.18.0-305.el8.x86_64
+depmod: WARNING: /lib/modules/4.18.0-305.el8.x86_64/kernel/drivers/crypto/qat/qat_4xxx/qat_4xxx.ko.xz needs unknown symbol adf_gen4_init_hw_csr_ops
+make[1]: Leaving directory '/usr/src/kernels/4.18.0-305.el8.x86_64'
+install -D -m 644 ../ddp/ice-1.3.26.0.pkg /lib/firmware/updates/intel/ice/ddp/ice-1.3.26.0.pkg
+(cd /lib/firmware/updates/intel/ice/ddp && ln -sf ice-1.3.26.0.pkg ice.pkg)
+install -D -m 644 ../ddp/LICENSE /lib/firmware/updates/intel/ice/ddp/LICENSE \
+	2>/dev/null || true
+install -D -m 644 ice.7.gz /usr/share/man/man7/ice.7.gz
+/sbin/depmod -e -F /lib/modules/4.18.0-305.el8.x86_64/source/System.map  -a 4.18.0-305.el8.x86_64
+depmod: WARNING: /lib/modules/4.18.0-305.el8.x86_64/kernel/drivers/crypto/qat/qat_4xxx/qat_4xxx.ko.xz needs unknown symbol adf_gen4_init_hw_csr_ops
+Updating initramfs...
+dracut --force
+[root@WW25ICX2 src]# 
+2022-02-22 10:51:06 - sshInstance.py - [line:46] - root - INFO - lsmod |grep ice
+2022-02-22 10:51:06 - sshInstance.py - [line:50] - root - INFO - ice                  1019904  0
+
+2022-02-22 10:51:14 - sshInstance.py - [line:46] - root - INFO - rmmod ice
+2022-02-22 10:51:22 - sshInstance.py - [line:50] - root - INFO - 
+2022-02-22 10:51:30 - sshInstance.py - [line:46] - root - INFO - modprobe ice
+2022-02-22 10:51:35 - sshInstance.py - [line:50] - root - INFO - 
+2022-02-22 10:51:43 - sshInstance.py - [line:46] - root - INFO - modinfo ice
+2022-02-22 10:51:43 - sshInstance.py - [line:50] - root - INFO - filename:       /lib/modules/4.18.0-305.el8.x86_64/updates/drivers/net/ethernet/intel/ice/ice.ko
+firmware:       intel/ice/ddp/ice.pkg
+version:        1.6.4
+license:        GPL v2
+description:    Intel(R) Ethernet Connection E800 Series Linux Driver
+author:         Intel Corporation, <linux.nics@intel.com>
+rhelversion:    8.4
+srcversion:     C8EA21B2A34EA565E9AC844
+alias:          pci:v00008086d0000151Dsv*sd*bc*sc*i*
+alias:          pci:v00008086d0000124Fsv*sd*bc*sc*i*
+alias:          pci:v00008086d0000124Esv*sd*bc*sc*i*
+alias:          pci:v00008086d0000124Dsv*sd*bc*sc*i*
+alias:          pci:v00008086d0000124Csv*sd*bc*sc*i*
+alias:          pci:v00008086d0000189Asv*sd*bc*sc*i*
+alias:          pci:v00008086d00001899sv*sd*bc*sc*i*
+alias:          pci:v00008086d00001898sv*sd*bc*sc*i*
+alias:          pci:v00008086d00001897sv*sd*bc*sc*i*
+alias:          pci:v00008086d00001894sv*sd*bc*sc*i*
+alias:          pci:v00008086d00001893sv*sd*bc*sc*i*
+alias:          pci:v00008086d00001892sv*sd*bc*sc*i*
+alias:          pci:v00008086d00001891sv*sd*bc*sc*i*
+alias:          pci:v00008086d00001890sv*sd*bc*sc*i*
+alias:          pci:v00008086d0000188Esv*sd*bc*sc*i*
+alias:          pci:v00008086d0000188Dsv*sd*bc*sc*i*
+alias:          pci:v00008086d0000188Csv*sd*bc*sc*i*
+alias:          pci:v00008086d0000188Bsv*sd*bc*sc*i*
+alias:          pci:v00008086d0000188Asv*sd*bc*sc*i*
+alias:          pci:v00008086d0000159Bsv*sd*bc*sc*i*
+alias:          pci:v00008086d0000159Asv*sd*bc*sc*i*
+alias:          pci:v00008086d00001599sv*sd*bc*sc*i*
+alias:          pci:v00008086d00001593sv*sd*bc*sc*i*
+alias:          pci:v00008086d00001592sv*sd*bc*sc*i*
+alias:          pci:v00008086d00001591sv*sd*bc*sc*i*
+depends:        
+name:           ice
+vermagic:       4.18.0-305.el8.x86_64 SMP mod_unload modversions 
+parm:           debug:netif level (0=none,...,16=all) (int)
+parm:           fwlog_level:FW event level to log. All levels <= to the specified value are enabled. Values: 0=none, 1=error, 2=warning, 3=normal, 4=verbose. Invalid values: >=5
+ (ushort)
+parm:           fwlog_events:FW events to log (32-bit mask)
+ (ulong)
+
+.2022-02-22 10:51:51 - sshInstance.py - [line:46] - root - INFO - echo 0 > /sys/class/net/ens2f0/device/sriov_numvfs
+2022-02-22 10:51:51 - sshInstance.py - [line:50] - root - INFO - 
+2022-02-22 10:51:59 - sshInstance.py - [line:46] - root - INFO - ifconfig ens2f0 0
+2022-02-22 10:51:59 - sshInstance.py - [line:50] - root - INFO - 
+2022-02-22 10:52:04 - test_nics.py - [line:60] - root - INFO - this is Test_Nics teardown
+2022-02-22 10:52:04 - NicTestFixture.py - [line:32] - root - INFO - ============================ end of run test_PI_Networking_DriverInstallationUninstall case ============================
+2022-02-22 10:52:04 - NicTestFixture.py - [line:28] - root - INFO - ============================ Starting to run test_PI_Networking_InternetProtocolv4v6_CVL case ============================
+2022-02-22 10:52:04 - test_nics.py - [line:18] - root - INFO - this is Test_Nics setup.
+2022-02-22 10:52:04 - transport.py - [line:1819] - paramiko.transport - INFO - Connected (version 2.0, client OpenSSH_8.0)
+2022-02-22 10:52:04 - transport.py - [line:1819] - paramiko.transport - INFO - Authentication (password) successful!
+2022-02-22 10:52:04 - sshInstance.py - [line:28] - root - INFO - SSH on SUT: 10.112.97.62
+2022-02-22 10:52:04 - transport.py - [line:1819] - paramiko.transport - INFO - Connected (version 2.0, client OpenSSH_8.0)
+2022-02-22 10:52:04 - transport.py - [line:1819] - paramiko.transport - INFO - Authentication (password) successful!
+2022-02-22 10:52:04 - sshInstance.py - [line:28] - root - INFO - SSH on SUT: 10.112.97.60
+2022-02-22 10:52:07 - sshInstance.py - [line:46] - root - INFO - rmmod ice
+2022-02-22 10:52:15 - sshInstance.py - [line:50] - root - INFO - 
+2022-02-22 10:52:23 - sshInstance.py - [line:46] - root - INFO - modprobe ice
+2022-02-22 10:52:28 - sshInstance.py - [line:50] - root - INFO - 
+2022-02-22 10:52:36 - sshInstance.py - [line:46] - root - INFO - modinfo ice
+2022-02-22 10:52:36 - sshInstance.py - [line:50] - root - INFO - filename:       /lib/modules/4.18.0-305.el8.x86_64/updates/drivers/net/ethernet/intel/ice/ice.ko
+firmware:       intel/ice/ddp/ice.pkg
+version:        1.6.4
+license:        GPL v2
+description:    Intel(R) Ethernet Connection E800 Series Linux Driver
+author:         Intel Corporation, <linux.nics@intel.com>
+rhelversion:    8.4
+srcversion:     C8EA21B2A34EA565E9AC844
+alias:          pci:v00008086d0000151Dsv*sd*bc*sc*i*
+alias:          pci:v00008086d0000124Fsv*sd*bc*sc*i*
+alias:          pci:v00008086d0000124Esv*sd*bc*sc*i*
+alias:          pci:v00008086d0000124Dsv*sd*bc*sc*i*
+alias:          pci:v00008086d0000124Csv*sd*bc*sc*i*
+alias:          pci:v00008086d0000189Asv*sd*bc*sc*i*
+alias:          pci:v00008086d00001899sv*sd*bc*sc*i*
+alias:          pci:v00008086d00001898sv*sd*bc*sc*i*
+alias:          pci:v00008086d00001897sv*sd*bc*sc*i*
+alias:          pci:v00008086d00001894sv*sd*bc*sc*i*
+alias:          pci:v00008086d00001893sv*sd*bc*sc*i*
+alias:          pci:v00008086d00001892sv*sd*bc*sc*i*
+alias:          pci:v00008086d00001891sv*sd*bc*sc*i*
+alias:          pci:v00008086d00001890sv*sd*bc*sc*i*
+alias:          pci:v00008086d0000188Esv*sd*bc*sc*i*
+alias:          pci:v00008086d0000188Dsv*sd*bc*sc*i*
+alias:          pci:v00008086d0000188Csv*sd*bc*sc*i*
+alias:          pci:v00008086d0000188Bsv*sd*bc*sc*i*
+alias:          pci:v00008086d0000188Asv*sd*bc*sc*i*
+alias:          pci:v00008086d0000159Bsv*sd*bc*sc*i*
+alias:          pci:v00008086d0000159Asv*sd*bc*sc*i*
+alias:          pci:v00008086d00001599sv*sd*bc*sc*i*
+alias:          pci:v00008086d00001593sv*sd*bc*sc*i*
+alias:          pci:v00008086d00001592sv*sd*bc*sc*i*
+alias:          pci:v00008086d00001591sv*sd*bc*sc*i*
+depends:        
+name:           ice
+vermagic:       4.18.0-305.el8.x86_64 SMP mod_unload modversions 
+parm:           debug:netif level (0=none,...,16=all) (int)
+parm:           fwlog_level:FW event level to log. All levels <= to the specified value are enabled. Values: 0=none, 1=error, 2=warning, 3=normal, 4=verbose. Invalid values: >=5
+ (ushort)
+parm:           fwlog_events:FW events to log (32-bit mask)
+ (ulong)
+
+2022-02-22 10:52:44 - sshInstance.py - [line:46] - root - INFO - ifconfig ens2f0 192.168.10.10
+2022-02-22 10:52:45 - sshInstance.py - [line:50] - root - INFO - 
+2022-02-22 10:52:53 - sshInstance.py - [line:46] - root - INFO - ifconfig ens2f1 192.168.10.11
+2022-02-22 10:52:53 - sshInstance.py - [line:50] - root - INFO - 
+2022-02-22 10:53:01 - sshInstance.py - [line:46] - root - INFO - ping -w 5 192.168.10.11
+2022-02-22 10:53:06 - sshInstance.py - [line:50] - root - INFO - PING 192.168.10.11 (192.168.10.11) 56(84) bytes of data.
+64 bytes from 192.168.10.11: icmp_seq=1 ttl=64 time=0.644 ms
+64 bytes from 192.168.10.11: icmp_seq=2 ttl=64 time=0.262 ms
+64 bytes from 192.168.10.11: icmp_seq=3 ttl=64 time=0.153 ms
+64 bytes from 192.168.10.11: icmp_seq=4 ttl=64 time=0.165 ms
+64 bytes from 192.168.10.11: icmp_seq=5 ttl=64 time=0.145 ms
+
+--- 192.168.10.11 ping statistics ---
+5 packets transmitted, 5 received, 0% packet loss, time 4081ms
+rtt min/avg/max/mdev = 0.145/0.273/0.644/0.190 ms
+
+2022-02-22 10:53:14 - sshInstance.py - [line:46] - root - INFO - ping6 -c 5 -I ens2f0 fe80::b696:91ff:fea5:9b45
+2022-02-22 10:53:18 - sshInstance.py - [line:50] - root - INFO - ping6: Warning: source address might be selected on device other than ens2f0.
+PING fe80::b696:91ff:fea5:9b45(fe80::b696:91ff:fea5:9b45) from :: ens2f0: 56 data bytes
+64 bytes from fe80::b696:91ff:fea5:9b45%ens2f0: icmp_seq=1 ttl=64 time=0.367 ms
+64 bytes from fe80::b696:91ff:fea5:9b45%ens2f0: icmp_seq=2 ttl=64 time=0.228 ms
+64 bytes from fe80::b696:91ff:fea5:9b45%ens2f0: icmp_seq=3 ttl=64 time=0.161 ms
+64 bytes from fe80::b696:91ff:fea5:9b45%ens2f0: icmp_seq=4 ttl=64 time=0.128 ms
+64 bytes from fe80::b696:91ff:fea5:9b45%ens2f0: icmp_seq=5 ttl=64 time=0.185 ms
+
+--- fe80::b696:91ff:fea5:9b45 ping statistics ---
+5 packets transmitted, 5 received, 0% packet loss, time 4095ms
+rtt min/avg/max/mdev = 0.128/0.213/0.367/0.085 ms
+
+.2022-02-22 10:53:26 - sshInstance.py - [line:46] - root - INFO - echo 0 > /sys/class/net/ens2f0/device/sriov_numvfs
+2022-02-22 10:53:26 - sshInstance.py - [line:50] - root - INFO - 
+2022-02-22 10:53:34 - sshInstance.py - [line:46] - root - INFO - ifconfig ens2f0 0
+2022-02-22 10:53:34 - sshInstance.py - [line:50] - root - INFO - 
+2022-02-22 10:53:39 - test_nics.py - [line:60] - root - INFO - this is Test_Nics teardown
+2022-02-22 10:53:39 - NicTestFixture.py - [line:32] - root - INFO - ============================ end of run test_PI_Networking_InternetProtocolv4v6_CVL case ============================
+2022-02-22 10:53:39 - NicTestFixture.py - [line:28] - root - INFO - ============================ Starting to run test_PI_Networking_Link_State_Check_CVL case ============================
+2022-02-22 10:53:39 - test_nics.py - [line:18] - root - INFO - this is Test_Nics setup.
+2022-02-22 10:53:39 - transport.py - [line:1819] - paramiko.transport - INFO - Connected (version 2.0, client OpenSSH_8.0)
+2022-02-22 10:53:39 - transport.py - [line:1819] - paramiko.transport - INFO - Authentication (password) successful!
+2022-02-22 10:53:39 - sshInstance.py - [line:28] - root - INFO - SSH on SUT: 10.112.97.62
+2022-02-22 10:53:39 - transport.py - [line:1819] - paramiko.transport - INFO - Connected (version 2.0, client OpenSSH_8.0)
+2022-02-22 10:53:39 - transport.py - [line:1819] - paramiko.transport - INFO - Authentication (password) successful!
+2022-02-22 10:53:39 - sshInstance.py - [line:28] - root - INFO - SSH on SUT: 10.112.97.60
+2022-02-22 10:53:42 - sshInstance.py - [line:46] - root - INFO - rmmod ice
+2022-02-22 10:53:50 - sshInstance.py - [line:50] - root - INFO - 
+2022-02-22 10:53:58 - sshInstance.py - [line:46] - root - INFO - modprobe ice
+2022-02-22 10:54:03 - sshInstance.py - [line:50] - root - INFO - 
+2022-02-22 10:54:11 - sshInstance.py - [line:46] - root - INFO - modinfo ice
+2022-02-22 10:54:11 - sshInstance.py - [line:50] - root - INFO - filename:       /lib/modules/4.18.0-305.el8.x86_64/updates/drivers/net/ethernet/intel/ice/ice.ko
+firmware:       intel/ice/ddp/ice.pkg
+version:        1.6.4
+license:        GPL v2
+description:    Intel(R) Ethernet Connection E800 Series Linux Driver
+author:         Intel Corporation, <linux.nics@intel.com>
+rhelversion:    8.4
+srcversion:     C8EA21B2A34EA565E9AC844
+alias:          pci:v00008086d0000151Dsv*sd*bc*sc*i*
+alias:          pci:v00008086d0000124Fsv*sd*bc*sc*i*
+alias:          pci:v00008086d0000124Esv*sd*bc*sc*i*
+alias:          pci:v00008086d0000124Dsv*sd*bc*sc*i*
+alias:          pci:v00008086d0000124Csv*sd*bc*sc*i*
+alias:          pci:v00008086d0000189Asv*sd*bc*sc*i*
+alias:          pci:v00008086d00001899sv*sd*bc*sc*i*
+alias:          pci:v00008086d00001898sv*sd*bc*sc*i*
+alias:          pci:v00008086d00001897sv*sd*bc*sc*i*
+alias:          pci:v00008086d00001894sv*sd*bc*sc*i*
+alias:          pci:v00008086d00001893sv*sd*bc*sc*i*
+alias:          pci:v00008086d00001892sv*sd*bc*sc*i*
+alias:          pci:v00008086d00001891sv*sd*bc*sc*i*
+alias:          pci:v00008086d00001890sv*sd*bc*sc*i*
+alias:          pci:v00008086d0000188Esv*sd*bc*sc*i*
+alias:          pci:v00008086d0000188Dsv*sd*bc*sc*i*
+alias:          pci:v00008086d0000188Csv*sd*bc*sc*i*
+alias:          pci:v00008086d0000188Bsv*sd*bc*sc*i*
+alias:          pci:v00008086d0000188Asv*sd*bc*sc*i*
+alias:          pci:v00008086d0000159Bsv*sd*bc*sc*i*
+alias:          pci:v00008086d0000159Asv*sd*bc*sc*i*
+alias:          pci:v00008086d00001599sv*sd*bc*sc*i*
+alias:          pci:v00008086d00001593sv*sd*bc*sc*i*
+alias:          pci:v00008086d00001592sv*sd*bc*sc*i*
+alias:          pci:v00008086d00001591sv*sd*bc*sc*i*
+depends:        
+name:           ice
+vermagic:       4.18.0-305.el8.x86_64 SMP mod_unload modversions 
+parm:           debug:netif level (0=none,...,16=all) (int)
+parm:           fwlog_level:FW event level to log. All levels <= to the specified value are enabled. Values: 0=none, 1=error, 2=warning, 3=normal, 4=verbose. Invalid values: >=5
+ (ushort)
+parm:           fwlog_events:FW events to log (32-bit mask)
+ (ulong)
+
+2022-02-22 10:54:19 - sshInstance.py - [line:46] - root - INFO - /opt/APP/utility/DPDK_install/dpdk-stable-20.11.1/usertools/dpdk-devbind.py -s | grep ens2f0 | awk '{print $1;}'
+2022-02-22 10:54:20 - sshInstance.py - [line:50] - root - INFO - 0000:4b:00.0
+
+2022-02-22 10:54:28 - sshInstance.py - [line:46] - root - INFO - lspci -vvs 00:4b:00.0 | grep LnkCap:
+2022-02-22 10:54:28 - sshInstance.py - [line:50] - root - INFO - 		LnkCap:	Port #0, Speed 16GT/s, Width x16, ASPM not supported
+
+2022-02-22 10:54:36 - sshInstance.py - [line:46] - root - INFO - lspci -vvs 00:4b:00.0 | grep LnkSta:
+2022-02-22 10:54:36 - sshInstance.py - [line:50] - root - INFO - 		LnkSta:	Speed 16GT/s (ok), Width x16 (ok)
+
+2022-02-22 10:54:41 - test_nics.py - [line:216] - root - INFO - speed and width value is current
+.2022-02-22 10:54:44 - sshInstance.py - [line:46] - root - INFO - echo 0 > /sys/class/net/ens2f0/device/sriov_numvfs
+2022-02-22 10:54:44 - sshInstance.py - [line:50] - root - INFO - 
+2022-02-22 10:54:52 - sshInstance.py - [line:46] - root - INFO - ifconfig ens2f0 0
+2022-02-22 10:54:52 - sshInstance.py - [line:50] - root - INFO - 
+2022-02-22 10:54:57 - test_nics.py - [line:60] - root - INFO - this is Test_Nics teardown
+2022-02-22 10:54:57 - NicTestFixture.py - [line:32] - root - INFO - ============================ end of run test_PI_Networking_Link_State_Check_CVL case ============================
+                             [100%]
+
+==================================== ERRORS ====================================
+________ ERROR at setup of Test_mtu.test_PI_Networking_Jumbo_Packet_CVL ________
+
+self = <Tests.testNics.test_mtu.Test_mtu object at 0x7faf9b153588>
+
+    def setup(self):
+        logging.info("this is Test_mtu setup.")
+        self.sut_conf = settings.__getattribute__("sut_conf")
+        self.sut2_conf = settings.__getattribute__("sut2_conf")
+        self.check_str = settings.__getattribute__("check_str")
+        self.drive_info = settings.__getattribute__("drive_info")
+        self.cn_test_sut = sshInstance()
+        self.sut1_cli, self.sut1_session = self.cn_test_sut.get_ssh_instance(self.sut_conf["host"], self.sut_conf["user"],
+                                                       self.sut_conf["password"], self.sut_conf["port"])
+        self.sut2_cli, self.sut2_session = self.cn_test_sut.get_ssh_instance(self.sut2_conf["host"], self.sut2_conf["user"],
+                                                       self.sut2_conf["password"], self.sut2_conf["port"])
+        cmd2 = "rmmod ice"
+        self.cn_test_sut.ssh_exec_cmd(self.sut1_cli, cmd2)
+        cmd3 = "modprobe ice"
+        self.cn_test_sut.ssh_exec_cmd(self.sut1_cli, cmd3)
+>       stdout, stderr = self.cn_test_sut.ssh_exec_cmd(self.client, "modinfo {}".format(self.drive_info["drive_name"]))
+E       AttributeError: 'Test_mtu' object has no attribute 'client'
+
+npxtester/Tests/testNics/test_mtu.py:32: AttributeError
+---------------------------- Captured stdout setup -----------------------------
+2022-02-22 10:40:49 - NicTestFixture.py - [line:28] - root - INFO - ============================ Starting to run test_PI_Networking_Jumbo_Packet_CVL case ============================
+2022-02-22 10:40:49 - test_mtu.py - [line:18] - root - INFO - this is Test_mtu setup.
+2022-02-22 10:40:49 - transport.py - [line:1819] - paramiko.transport - INFO - Connected (version 2.0, client OpenSSH_8.0)
+2022-02-22 10:40:49 - transport.py - [line:1819] - paramiko.transport - INFO - Authentication (password) successful!
+2022-02-22 10:40:49 - sshInstance.py - [line:28] - root - INFO - SSH on SUT: 10.112.97.62
+2022-02-22 10:40:49 - transport.py - [line:1819] - paramiko.transport - INFO - Connected (version 2.0, client OpenSSH_8.0)
+2022-02-22 10:40:49 - transport.py - [line:1819] - paramiko.transport - INFO - Authentication (password) successful!
+2022-02-22 10:40:49 - sshInstance.py - [line:28] - root - INFO - SSH on SUT: 10.112.97.60
+2022-02-22 10:40:52 - sshInstance.py - [line:46] - root - INFO - rmmod ice
+2022-02-22 10:41:00 - sshInstance.py - [line:50] - root - INFO - 
+2022-02-22 10:41:08 - sshInstance.py - [line:46] - root - INFO - modprobe ice
+2022-02-22 10:41:13 - sshInstance.py - [line:50] - root - INFO - 
+__________ ERROR at setup of Test_mtu.test_PI_Networking_MTU_set_CVL ___________
+
+self = <Tests.testNics.test_mtu.Test_mtu object at 0x7faf9b1606a0>
+
+    def setup(self):
+        logging.info("this is Test_mtu setup.")
+        self.sut_conf = settings.__getattribute__("sut_conf")
+        self.sut2_conf = settings.__getattribute__("sut2_conf")
+        self.check_str = settings.__getattribute__("check_str")
+        self.drive_info = settings.__getattribute__("drive_info")
+        self.cn_test_sut = sshInstance()
+        self.sut1_cli, self.sut1_session = self.cn_test_sut.get_ssh_instance(self.sut_conf["host"], self.sut_conf["user"],
+                                                       self.sut_conf["password"], self.sut_conf["port"])
+        self.sut2_cli, self.sut2_session = self.cn_test_sut.get_ssh_instance(self.sut2_conf["host"], self.sut2_conf["user"],
+                                                       self.sut2_conf["password"], self.sut2_conf["port"])
+        cmd2 = "rmmod ice"
+        self.cn_test_sut.ssh_exec_cmd(self.sut1_cli, cmd2)
+        cmd3 = "modprobe ice"
+        self.cn_test_sut.ssh_exec_cmd(self.sut1_cli, cmd3)
+>       stdout, stderr = self.cn_test_sut.ssh_exec_cmd(self.client, "modinfo {}".format(self.drive_info["drive_name"]))
+E       AttributeError: 'Test_mtu' object has no attribute 'client'
+
+npxtester/Tests/testNics/test_mtu.py:32: AttributeError
+---------------------------- Captured stdout setup -----------------------------
+2022-02-22 10:41:18 - NicTestFixture.py - [line:28] - root - INFO - ============================ Starting to run test_PI_Networking_MTU_set_CVL case ============================
+2022-02-22 10:41:18 - test_mtu.py - [line:18] - root - INFO - this is Test_mtu setup.
+2022-02-22 10:41:18 - transport.py - [line:1819] - paramiko.transport - INFO - Connected (version 2.0, client OpenSSH_8.0)
+2022-02-22 10:41:18 - transport.py - [line:1819] - paramiko.transport - INFO - Authentication (password) successful!
+2022-02-22 10:41:18 - sshInstance.py - [line:28] - root - INFO - SSH on SUT: 10.112.97.62
+2022-02-22 10:41:18 - transport.py - [line:1819] - paramiko.transport - INFO - Connected (version 2.0, client OpenSSH_8.0)
+2022-02-22 10:41:19 - transport.py - [line:1819] - paramiko.transport - INFO - Authentication (password) successful!
+2022-02-22 10:41:19 - sshInstance.py - [line:28] - root - INFO - SSH on SUT: 10.112.97.60
+2022-02-22 10:41:22 - sshInstance.py - [line:46] - root - INFO - rmmod ice
+2022-02-22 10:41:29 - sshInstance.py - [line:50] - root - INFO - 
+2022-02-22 10:41:37 - sshInstance.py - [line:46] - root - INFO - modprobe ice
+2022-02-22 10:41:43 - sshInstance.py - [line:50] - root - INFO - 
+=================================== FAILURES ===================================
+__________ Test_Nics.test_silver_Networking_ConnectivityEnableDisable __________
+
+self = <Tests.testNics.test_nics.Test_Nics object at 0x7faf9b35b3c8>
+
+    @pytest.mark.usefixtures("fbefore")
+    @pytest.mark.nicSimple
+    def test_silver_Networking_ConnectivityEnableDisable(self):
+        cmd_list = [
+            "ping -c 5 {}\n".format(self.dhcp["ipv4"]),
+            "ifconfig {} down\n".format(self.sut_conf["connect_switch_sut_pf"]),
+            "ifconfig {} up\n".format(self.sut_conf["connect_switch_sut_pf"]),
+        ]
+    
+        pf_ip = "192.168.{}.{}".format(self.dhcp["ipv4"].split(".")[2],
+                                               str(int(self.dhcp["ipv4"].split(".")[3]) + 1))
+        cmd = "ifconfig {} {}\n".format(self.sut_conf["pf1"], pf_ip)
+        self.cn_test_sut.run_ssh_cmd(self.session, cmd)
+        output, stderr = self.cn_test_sut.run_ssh_cmd(self.session, cmd_list[0], self.check_str)
+>       assert 200 == self.cn_test_sut.commond_rs_check(output, "received, 0% packet loss", True)
+E       AssertionError: assert 200 == 400
+E        +  where 400 = <bound method sshInstance.commond_rs_check of <libs.commons.sshInstance.sshInstance object at 0x7faf9b35b4e0>>('ping -c 5 192.168.10.11\r\nPING 192.168.10.11 (192.168.10.11) 56(84) bytes of data.\r\nFrom 192.168.10.12 icmp_seq=1 ...cs ---\r\n5 packets transmitted, 0 received, +5 errors, 100% packet loss, time 4106ms\r\npipe 4\r\n[root@WW25ICX2 ~]# ', 'received, 0% packet loss', True)
+E        +    where <bound method sshInstance.commond_rs_check of <libs.commons.sshInstance.sshInstance object at 0x7faf9b35b4e0>> = <libs.commons.sshInstance.sshInstance object at 0x7faf9b35b4e0>.commond_rs_check
+E        +      where <libs.commons.sshInstance.sshInstance object at 0x7faf9b35b4e0> = <Tests.testNics.test_nics.Test_Nics object at 0x7faf9b35b3c8>.cn_test_sut
+
+npxtester/Tests/testNics/test_nics.py:77: AssertionError
+---------------------------- Captured stdout setup -----------------------------
+2022-02-22 10:41:48 - NicTestFixture.py - [line:28] - root - INFO - ============================ Starting to run test_silver_Networking_ConnectivityEnableDisable case ============================
+2022-02-22 10:41:48 - test_nics.py - [line:18] - root - INFO - this is Test_Nics setup.
+2022-02-22 10:41:48 - transport.py - [line:1819] - paramiko.transport - INFO - Connected (version 2.0, client OpenSSH_8.0)
+2022-02-22 10:41:48 - transport.py - [line:1819] - paramiko.transport - INFO - Authentication (password) successful!
+2022-02-22 10:41:48 - sshInstance.py - [line:28] - root - INFO - SSH on SUT: 10.112.97.62
+2022-02-22 10:41:48 - transport.py - [line:1819] - paramiko.transport - INFO - Connected (version 2.0, client OpenSSH_8.0)
+2022-02-22 10:41:48 - transport.py - [line:1819] - paramiko.transport - INFO - Authentication (password) successful!
+2022-02-22 10:41:48 - sshInstance.py - [line:28] - root - INFO - SSH on SUT: 10.112.97.60
+2022-02-22 10:41:51 - sshInstance.py - [line:46] - root - INFO - rmmod ice
+2022-02-22 10:41:59 - sshInstance.py - [line:50] - root - INFO - 
+2022-02-22 10:42:07 - sshInstance.py - [line:46] - root - INFO - modprobe ice
+2022-02-22 10:42:12 - sshInstance.py - [line:50] - root - INFO - 
+2022-02-22 10:42:20 - sshInstance.py - [line:46] - root - INFO - modinfo ice
+2022-02-22 10:42:20 - sshInstance.py - [line:50] - root - INFO - filename:       /lib/modules/4.18.0-305.el8.x86_64/updates/drivers/net/ethernet/intel/ice/ice.ko
+firmware:       intel/ice/ddp/ice.pkg
+version:        1.6.4
+license:        GPL v2
+description:    Intel(R) Ethernet Connection E800 Series Linux Driver
+author:         Intel Corporation, <linux.nics@intel.com>
+rhelversion:    8.4
+srcversion:     C8EA21B2A34EA565E9AC844
+alias:          pci:v00008086d0000151Dsv*sd*bc*sc*i*
+alias:          pci:v00008086d0000124Fsv*sd*bc*sc*i*
+alias:          pci:v00008086d0000124Esv*sd*bc*sc*i*
+alias:          pci:v00008086d0000124Dsv*sd*bc*sc*i*
+alias:          pci:v00008086d0000124Csv*sd*bc*sc*i*
+alias:          pci:v00008086d0000189Asv*sd*bc*sc*i*
+alias:          pci:v00008086d00001899sv*sd*bc*sc*i*
+alias:          pci:v00008086d00001898sv*sd*bc*sc*i*
+alias:          pci:v00008086d00001897sv*sd*bc*sc*i*
+alias:          pci:v00008086d00001894sv*sd*bc*sc*i*
+alias:          pci:v00008086d00001893sv*sd*bc*sc*i*
+alias:          pci:v00008086d00001892sv*sd*bc*sc*i*
+alias:          pci:v00008086d00001891sv*sd*bc*sc*i*
+alias:          pci:v00008086d00001890sv*sd*bc*sc*i*
+alias:          pci:v00008086d0000188Esv*sd*bc*sc*i*
+alias:          pci:v00008086d0000188Dsv*sd*bc*sc*i*
+alias:          pci:v00008086d0000188Csv*sd*bc*sc*i*
+alias:          pci:v00008086d0000188Bsv*sd*bc*sc*i*
+alias:          pci:v00008086d0000188Asv*sd*bc*sc*i*
+alias:          pci:v00008086d0000159Bsv*sd*bc*sc*i*
+alias:          pci:v00008086d0000159Asv*sd*bc*sc*i*
+alias:          pci:v00008086d00001599sv*sd*bc*sc*i*
+alias:          pci:v00008086d00001593sv*sd*bc*sc*i*
+alias:          pci:v00008086d00001592sv*sd*bc*sc*i*
+alias:          pci:v00008086d00001591sv*sd*bc*sc*i*
+depends:        
+name:           ice
+vermagic:       4.18.0-305.el8.x86_64 SMP mod_unload modversions 
+parm:           debug:netif level (0=none,...,16=all) (int)
+parm:           fwlog_level:FW event level to log. All levels <= to the specified value are enabled. Values: 0=none, 1=error, 2=warning, 3=normal, 4=verbose. Invalid values: >=5
+ (ushort)
+parm:           fwlog_events:FW events to log (32-bit mask)
+ (ulong)
+
+----------------------------- Captured stdout call -----------------------------
+2022-02-22 10:42:31 - sshInstance.py - [line:94] - root - INFO - Activate the web console with: systemctl enable --now cockpit.socket
+This system is not registered to Red Hat Insights. See https://cloud.redhat.com/
+To register this system, run: insights-client --register
+Last login: Tue Feb 22 10:49:20 2022 from 10.112.97.60
+[root@WW25ICX2 ~]# ifconfig ens2f0 192.168.10.12
+[root@WW25ICX2 ~]# 
+2022-02-22 10:42:38 - sshInstance.py - [line:71] - root - INFO - ping -c 5 192.168.10.11
+PING 192.168.10.11 (192.168.10.11) 56(84) bytes of data.
+2022-02-22 10:42:41 - sshInstance.py - [line:71] - root - INFO - From 192.168.10.12 icmp_seq=1 Destination Host Unreachable
+From 192.168.10.12 icmp_seq=2 Destination Host Unreachable
+From 192.168.10.12 icmp_seq=3 Destination Host Unreachable
+2022-02-22 10:42:44 - sshInstance.py - [line:71] - root - INFO - From 192.168.10.12 icmp_seq=4 Destination Host Unreachable
+From 192.168.10.12 icmp_seq=5 Destination Host Unreachable
+
+--- 192.168.10.11 ping statistics ---
+5 packets transmitted, 0 received, +5 errors, 100% packet loss, time 4106ms
+pipe 4
+[root@WW25ICX2 ~]# 
+------------------------------ Captured log call -------------------------------
+INFO     root:sshInstance.py:94 Activate the web console with: systemctl enable --now cockpit.socket
+This system is not registered to Red Hat Insights. See https://cloud.redhat.com/
+To register this system, run: insights-client --register
+Last login: Tue Feb 22 10:49:20 2022 from 10.112.97.60
+[root@WW25ICX2 ~]# ifconfig ens2f0 192.168.10.12
+[root@WW25ICX2 ~]# 
+INFO     root:sshInstance.py:71 ping -c 5 192.168.10.11
+PING 192.168.10.11 (192.168.10.11) 56(84) bytes of data.
+INFO     root:sshInstance.py:71 From 192.168.10.12 icmp_seq=1 Destination Host Unreachable
+From 192.168.10.12 icmp_seq=2 Destination Host Unreachable
+From 192.168.10.12 icmp_seq=3 Destination Host Unreachable
+INFO     root:sshInstance.py:71 From 192.168.10.12 icmp_seq=4 Destination Host Unreachable
+From 192.168.10.12 icmp_seq=5 Destination Host Unreachable
+
+--- 192.168.10.11 ping statistics ---
+5 packets transmitted, 0 received, +5 errors, 100% packet loss, time 4106ms
+pipe 4
+[root@WW25ICX2 ~]#
+___________________ Test_Nics.test_silver_ConnectivityReboot ___________________
+
+self = <Tests.testNics.test_nics.Test_Nics object at 0x7faf9eeaca58>
+
+    @pytest.mark.usefixtures("fbefore")
+    @pytest.mark.nicSimple
+    def test_silver_ConnectivityReboot(self):
+        logs = Logger()
+        rs = 0
+        cmdip = "ping -c 5 {}\n".format(self.dhcp["ipv4"])
+        cmdipv6 = "ping6 -c 5 -I {} {}\n".format(self.sut_conf["connect_switch_sut_pf"],self.dhcp["ipv6"])
+        for num in range(5):
+            cn_test_sut = sshInstance()
+            client, session = cn_test_sut.get_ssh_instance(self.sut_conf["host"], self.sut_conf["user"],
+                                                           self.sut_conf["password"], self.sut_conf["port"])
+            pf_ip = "192.168.{}.{}".format(self.dhcp["ipv4"].split(".")[2],
+                                               str(int(self.dhcp["ipv4"].split(".")[3]) + 1))
+            cmd = "ifconfig {} {}\n".format(self.sut_conf["pf1"], pf_ip)
+            self.cn_test_sut.run_ssh_cmd(session, cmd)
+            output, stderr = cn_test_sut.run_ssh_cmd(session, cmdip, self.check_str)
+>           assert 200 == cn_test_sut.commond_rs_check(output, "received, 0% packet loss", True)
+E           AssertionError: assert 200 == 400
+E            +  where 400 = <bound method sshInstance.commond_rs_check of <libs.commons.sshInstance.sshInstance object at 0x7faf9b37f9e8>>('ping -c 5 192.168.10.11\r\nPING 192.168.10.11 (192.168.10.11) 56(84) bytes of data.\r\nFrom 192.168.10.12 icmp_seq=1 ...cs ---\r\n5 packets transmitted, 0 received, +5 errors, 100% packet loss, time 4086ms\r\npipe 4\r\n[root@WW25ICX2 ~]# ', 'received, 0% packet loss', True)
+E            +    where <bound method sshInstance.commond_rs_check of <libs.commons.sshInstance.sshInstance object at 0x7faf9b37f9e8>> = <libs.commons.sshInstance.sshInstance object at 0x7faf9b37f9e8>.commond_rs_check
+
+npxtester/Tests/testNics/test_nics.py:103: AssertionError
+---------------------------- Captured stdout setup -----------------------------
+2022-02-22 10:43:03 - NicTestFixture.py - [line:28] - root - INFO - ============================ Starting to run test_silver_ConnectivityReboot case ============================
+2022-02-22 10:43:03 - test_nics.py - [line:18] - root - INFO - this is Test_Nics setup.
+2022-02-22 10:43:03 - transport.py - [line:1819] - paramiko.transport - INFO - Connected (version 2.0, client OpenSSH_8.0)
+2022-02-22 10:43:03 - transport.py - [line:1819] - paramiko.transport - INFO - Authentication (password) successful!
+2022-02-22 10:43:03 - sshInstance.py - [line:28] - root - INFO - SSH on SUT: 10.112.97.62
+2022-02-22 10:43:03 - transport.py - [line:1819] - paramiko.transport - INFO - Connected (version 2.0, client OpenSSH_8.0)
+2022-02-22 10:43:03 - transport.py - [line:1819] - paramiko.transport - INFO - Authentication (password) successful!
+2022-02-22 10:43:03 - sshInstance.py - [line:28] - root - INFO - SSH on SUT: 10.112.97.60
+2022-02-22 10:43:06 - sshInstance.py - [line:46] - root - INFO - rmmod ice
+2022-02-22 10:43:14 - sshInstance.py - [line:50] - root - INFO - 
+2022-02-22 10:43:22 - sshInstance.py - [line:46] - root - INFO - modprobe ice
+2022-02-22 10:43:27 - sshInstance.py - [line:50] - root - INFO - 
+2022-02-22 10:43:35 - sshInstance.py - [line:46] - root - INFO - modinfo ice
+2022-02-22 10:43:35 - sshInstance.py - [line:50] - root - INFO - filename:       /lib/modules/4.18.0-305.el8.x86_64/updates/drivers/net/ethernet/intel/ice/ice.ko
+firmware:       intel/ice/ddp/ice.pkg
+version:        1.6.4
+license:        GPL v2
+description:    Intel(R) Ethernet Connection E800 Series Linux Driver
+author:         Intel Corporation, <linux.nics@intel.com>
+rhelversion:    8.4
+srcversion:     C8EA21B2A34EA565E9AC844
+alias:          pci:v00008086d0000151Dsv*sd*bc*sc*i*
+alias:          pci:v00008086d0000124Fsv*sd*bc*sc*i*
+alias:          pci:v00008086d0000124Esv*sd*bc*sc*i*
+alias:          pci:v00008086d0000124Dsv*sd*bc*sc*i*
+alias:          pci:v00008086d0000124Csv*sd*bc*sc*i*
+alias:          pci:v00008086d0000189Asv*sd*bc*sc*i*
+alias:          pci:v00008086d00001899sv*sd*bc*sc*i*
+alias:          pci:v00008086d00001898sv*sd*bc*sc*i*
+alias:          pci:v00008086d00001897sv*sd*bc*sc*i*
+alias:          pci:v00008086d00001894sv*sd*bc*sc*i*
+alias:          pci:v00008086d00001893sv*sd*bc*sc*i*
+alias:          pci:v00008086d00001892sv*sd*bc*sc*i*
+alias:          pci:v00008086d00001891sv*sd*bc*sc*i*
+alias:          pci:v00008086d00001890sv*sd*bc*sc*i*
+alias:          pci:v00008086d0000188Esv*sd*bc*sc*i*
+alias:          pci:v00008086d0000188Dsv*sd*bc*sc*i*
+alias:          pci:v00008086d0000188Csv*sd*bc*sc*i*
+alias:          pci:v00008086d0000188Bsv*sd*bc*sc*i*
+alias:          pci:v00008086d0000188Asv*sd*bc*sc*i*
+alias:          pci:v00008086d0000159Bsv*sd*bc*sc*i*
+alias:          pci:v00008086d0000159Asv*sd*bc*sc*i*
+alias:          pci:v00008086d00001599sv*sd*bc*sc*i*
+alias:          pci:v00008086d00001593sv*sd*bc*sc*i*
+alias:          pci:v00008086d00001592sv*sd*bc*sc*i*
+alias:          pci:v00008086d00001591sv*sd*bc*sc*i*
+depends:        
+name:           ice
+vermagic:       4.18.0-305.el8.x86_64 SMP mod_unload modversions 
+parm:           debug:netif level (0=none,...,16=all) (int)
+parm:           fwlog_level:FW event level to log. All levels <= to the specified value are enabled. Values: 0=none, 1=error, 2=warning, 3=normal, 4=verbose. Invalid values: >=5
+ (ushort)
+parm:           fwlog_events:FW events to log (32-bit mask)
+ (ulong)
+
+----------------------------- Captured stdout call -----------------------------
+2022-02-22 10:43:40 - transport.py - [line:1819] - paramiko.transport - INFO - Connected (version 2.0, client OpenSSH_8.0)
+2022-02-22 10:43:41 - transport.py - [line:1819] - paramiko.transport - INFO - Authentication (password) successful!
+2022-02-22 10:43:41 - sshInstance.py - [line:28] - root - INFO - SSH on SUT: 10.112.97.62
+2022-02-22 10:43:47 - sshInstance.py - [line:94] - root - INFO - Activate the web console with: systemctl enable --now cockpit.socket
+This system is not registered to Red Hat Insights. See https://cloud.redhat.com/
+To register this system, run: insights-client --register
+Last login: Tue Feb 22 10:51:18 2022 from 10.112.97.60
+[root@WW25ICX2 ~]# ifconfig ens2f0 192.168.10.12
+[root@WW25ICX2 ~]# 
+2022-02-22 10:43:54 - sshInstance.py - [line:71] - root - INFO - ping -c 5 192.168.10.11
+PING 192.168.10.11 (192.168.10.11) 56(84) bytes of data.
+2022-02-22 10:43:57 - sshInstance.py - [line:71] - root - INFO - From 192.168.10.12 icmp_seq=1 Destination Host Unreachable
+From 192.168.10.12 icmp_seq=2 Destination Host Unreachable
+From 192.168.10.12 icmp_seq=3 Destination Host Unreachable
+2022-02-22 10:44:00 - sshInstance.py - [line:71] - root - INFO - From 192.168.10.12 icmp_seq=4 Destination Host Unreachable
+From 192.168.10.12 icmp_seq=5 Destination Host Unreachable
+
+--- 192.168.10.11 ping statistics ---
+5 packets transmitted, 0 received, +5 errors, 100% packet loss, time 4086ms
+pipe 4
+[root@WW25ICX2 ~]# 
+------------------------------ Captured log call -------------------------------
+INFO     paramiko.transport:transport.py:1819 Connected (version 2.0, client OpenSSH_8.0)
+INFO     paramiko.transport:transport.py:1819 Authentication (password) successful!
+INFO     root:sshInstance.py:28 SSH on SUT: 10.112.97.62
+INFO     root:sshInstance.py:94 Activate the web console with: systemctl enable --now cockpit.socket
+This system is not registered to Red Hat Insights. See https://cloud.redhat.com/
+To register this system, run: insights-client --register
+Last login: Tue Feb 22 10:51:18 2022 from 10.112.97.60
+[root@WW25ICX2 ~]# ifconfig ens2f0 192.168.10.12
+[root@WW25ICX2 ~]# 
+INFO     root:sshInstance.py:71 ping -c 5 192.168.10.11
+PING 192.168.10.11 (192.168.10.11) 56(84) bytes of data.
+INFO     root:sshInstance.py:71 From 192.168.10.12 icmp_seq=1 Destination Host Unreachable
+From 192.168.10.12 icmp_seq=2 Destination Host Unreachable
+From 192.168.10.12 icmp_seq=3 Destination Host Unreachable
+INFO     root:sshInstance.py:71 From 192.168.10.12 icmp_seq=4 Destination Host Unreachable
+From 192.168.10.12 icmp_seq=5 Destination Host Unreachable
+
+--- 192.168.10.11 ping statistics ---
+5 packets transmitted, 0 received, +5 errors, 100% packet loss, time 4086ms
+pipe 4
+[root@WW25ICX2 ~]#
+=============================== warnings summary ===============================
+npxtester/Tests/testNics/test_iperf_client_4hour.py:52
+  /root/.jenkins/workspace/test-test-nic-simple/npxtester/Tests/testNics/test_iperf_client_4hour.py:52: PytestUnknownMarkWarning: Unknown pytest.mark.iperf_tcp - is this a typo?  You can register custom marks to avoid this warning - for details, see https://docs.pytest.org/en/stable/mark.html
+    @pytest.mark.iperf_tcp
+
+npxtester/Tests/testNics/test_iperf_client_4hour.py:85
+  /root/.jenkins/workspace/test-test-nic-simple/npxtester/Tests/testNics/test_iperf_client_4hour.py:85: PytestUnknownMarkWarning: Unknown pytest.mark.iperf_udp - is this a typo?  You can register custom marks to avoid this warning - for details, see https://docs.pytest.org/en/stable/mark.html
+    @pytest.mark.iperf_udp
+
+npxtester/Tests/testNics/test_mtu.py:60
+  /root/.jenkins/workspace/test-test-nic-simple/npxtester/Tests/testNics/test_mtu.py:60: PytestUnknownMarkWarning: Unknown pytest.mark.nicSimple - is this a typo?  You can register custom marks to avoid this warning - for details, see https://docs.pytest.org/en/stable/mark.html
+    @pytest.mark.nicSimple
+
+npxtester/Tests/testNics/test_mtu.py:99
+  /root/.jenkins/workspace/test-test-nic-simple/npxtester/Tests/testNics/test_mtu.py:99: PytestUnknownMarkWarning: Unknown pytest.mark.nicSimple - is this a typo?  You can register custom marks to avoid this warning - for details, see https://docs.pytest.org/en/stable/mark.html
+    @pytest.mark.nicSimple
+
+npxtester/Tests/testNics/test_network_sriov_stress.py:374
+  /root/.jenkins/workspace/test-test-nic-simple/npxtester/Tests/testNics/test_network_sriov_stress.py:374: PytestUnknownMarkWarning: Unknown pytest.mark.nicSriov5times - is this a typo?  You can register custom marks to avoid this warning - for details, see https://docs.pytest.org/en/stable/mark.html
+    @pytest.mark.nicSriov5times
+
+npxtester/Tests/testNics/test_network_sriov_stress.py:490
+  /root/.jenkins/workspace/test-test-nic-simple/npxtester/Tests/testNics/test_network_sriov_stress.py:490: PytestUnknownMarkWarning: Unknown pytest.mark.nicSriov2hours - is this a typo?  You can register custom marks to avoid this warning - for details, see https://docs.pytest.org/en/stable/mark.html
+    @pytest.mark.nicSriov2hours
+
+npxtester/Tests/testNics/test_network_sriov_stress.py:788
+  /root/.jenkins/workspace/test-test-nic-simple/npxtester/Tests/testNics/test_network_sriov_stress.py:788: PytestUnknownMarkWarning: Unknown pytest.mark.SriovVfIperf - is this a typo?  You can register custom marks to avoid this warning - for details, see https://docs.pytest.org/en/stable/mark.html
+    @pytest.mark.SriovVfIperf
+
+npxtester/Tests/testNics/test_nics.py:64
+  /root/.jenkins/workspace/test-test-nic-simple/npxtester/Tests/testNics/test_nics.py:64: PytestUnknownMarkWarning: Unknown pytest.mark.nicSimple - is this a typo?  You can register custom marks to avoid this warning - for details, see https://docs.pytest.org/en/stable/mark.html
+    @pytest.mark.nicSimple
+
+npxtester/Tests/testNics/test_nics.py:88
+  /root/.jenkins/workspace/test-test-nic-simple/npxtester/Tests/testNics/test_nics.py:88: PytestUnknownMarkWarning: Unknown pytest.mark.nicSimple - is this a typo?  You can register custom marks to avoid this warning - for details, see https://docs.pytest.org/en/stable/mark.html
+    @pytest.mark.nicSimple
+
+npxtester/Tests/testNics/test_nics.py:110
+  /root/.jenkins/workspace/test-test-nic-simple/npxtester/Tests/testNics/test_nics.py:110: PytestUnknownMarkWarning: Unknown pytest.mark.nicSimple - is this a typo?  You can register custom marks to avoid this warning - for details, see https://docs.pytest.org/en/stable/mark.html
+    @pytest.mark.nicSimple
+
+npxtester/Tests/testNics/test_nics.py:136
+  /root/.jenkins/workspace/test-test-nic-simple/npxtester/Tests/testNics/test_nics.py:136: PytestUnknownMarkWarning: Unknown pytest.mark.nicSimple - is this a typo?  You can register custom marks to avoid this warning - for details, see https://docs.pytest.org/en/stable/mark.html
+    @pytest.mark.nicSimple
+
+npxtester/Tests/testNics/test_nics.py:174
+  /root/.jenkins/workspace/test-test-nic-simple/npxtester/Tests/testNics/test_nics.py:174: PytestUnknownMarkWarning: Unknown pytest.mark.nicSimple - is this a typo?  You can register custom marks to avoid this warning - for details, see https://docs.pytest.org/en/stable/mark.html
+    @pytest.mark.nicSimple
+
+npxtester/Tests/testNics/test_nics.py:198
+  /root/.jenkins/workspace/test-test-nic-simple/npxtester/Tests/testNics/test_nics.py:198: PytestUnknownMarkWarning: Unknown pytest.mark.nicSimple - is this a typo?  You can register custom marks to avoid this warning - for details, see https://docs.pytest.org/en/stable/mark.html
+    @pytest.mark.nicSimple
+
+-- Docs: https://docs.pytest.org/en/stable/warnings.html
+- generated html file: file:///root/testconfig/testlogs/HtmlReport/nic_simple_report.html -
+=========================== short test summary info ============================
+FAILED npxtester/Tests/testNics/test_nics.py::Test_Nics::test_silver_Networking_ConnectivityEnableDisable
+FAILED npxtester/Tests/testNics/test_nics.py::Test_Nics::test_silver_ConnectivityReboot
+ERROR npxtester/Tests/testNics/test_mtu.py::Test_mtu::test_PI_Networking_Jumbo_Packet_CVL
+ERROR npxtester/Tests/testNics/test_mtu.py::Test_mtu::test_PI_Networking_MTU_set_CVL
+= 2 failed, 4 passed, 8 deselected, 13 warnings, 2 errors in 847.94s (0:14:07) =
+[8mha:////4LeiMYyvaTAszhIQ10pdIeDepJ20hGjpoNTSDQ54vTlOAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIi0SCEqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDyFBu95/avQGMKkS1vgAAAA==[0m[Pipeline] }
+[8mha:////4I/tRoD/KV6lJ76TTEJ8vusLD5mbZiDJ1z7tZBIwhHThAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKCQKJBqWgtN7zAJMY4se6C7eBUvIiv8QcsIlGxxWpnm3m9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKZhiFDut7l2hw9mQDtDvgAAAA==[0m[Pipeline] // stage
+[8mha:////4CAP7WQdC2FMpNczqgZSKdPjM+Zu6Lz59I8VEE3/AlUOAAAAph+LCAAAAAAAAP9tjTEOwjAQBM9BKWgpeYQjBB2iorXc8AITG+PEugv2haTiRXyNPxCIRMVWOyut5vmCMic4UPKycdgGzHWQXez91ORAqb1EGmRDZ1kTZopOajdosu44oyZ2MEcUsFCwdFhHygE9w0o15m6qaNBXJ07TtldQBHuDBwg1mdkk/sKYYH3tbSb8ef4KYOwYxI6h2G4+x/INOibpDcEAAAA=[0m[Pipeline] stage
+[8mha:////4Db8sOlSRxZnVxb7xJBDSAteoF0PgC9lkQldzKIJFwYiAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUwIiYukZZOEFoQkgb/V9+UtqJE3E17kBLJSY8WLYl673eUESGE7ETjcXWY6y96ELvpiQG4vYaaBANXURNGClYoeygyNhqqYqShUVZDisJa4t1oOjRJdjIRj90GTS68px42o4Scm/u8IRMTuSkOX3LyLC99SYS/jh/ATB2CfLDbrb9/Cw+2YMO4MIAAAA=[0m[Pipeline] { (collect logs)
+Stage "collect logs" skipped due to earlier failure(s)
+[8mha:////4AfI3SthhIf/wHKBxkZZVuznCBOLGICd+mTaK5J1XhvpAAAAox+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIikRJR0VppeIFJjLFj3Tm2g1PxIr7GHwhEomKL1c4283zBOgY4ctBoFfWGYmvQu1HPCzOH/uo4o+ULtkyRncJG5YY7dVqw4aRgSVHCSsBGUes4GtIJtsLKu6ycJF2dU5i/g4DSdAM8oBCzOcmQvjAF2N3GLjL9PH8FMHmfoKzrT+3fkMfZ274AAAA=[0m[Pipeline] }
+[8mha:////4O1G14z5oV6C9jl1Q5yIn+pZFQRmsElhyj6JiXyHA8ixAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiBB2iSmu54QUmNsaJdWdsh6TiRXyNPxCIRMUWq51t5vmCZYpw5GixNdQ5So3D4Hs7LRw4dhfPA7Z8xoYpsTcozSBZm3pGydnAnKKEhYCVocZzcmQzrEWr7qryimx1ynH6DgJKp2/wgEJM5qxi/sIYYXPtdWL6ef4KYAwhQ7nbf2r7BpKm1V++AAAA[0m[Pipeline] // stage
+[8mha:////4KtBCOpIKS64HlRGbxVDHBnhT4546C6ceKSEgLxKWO63AAAAox+LCAAAAAAAAP9tjTESgjAQRT84FraWHiIUauVY2WZoPEGEGAOZXUwWofJEXs07yMiMlb/67zXv9cYyRRw5OtVYaj2lyqsu9G56auDYXgMPquGLqpgSB6tKO5Rc29OMJYvFvCzHQmNlqQqcPDnBWjfmYYpgyBVniZM7aOS+vuOJTE9lMVG+MEZsbn2dmH6dvwGMXSfIt3tBtvsA/gVtV70AAAA=[0m[Pipeline] }
+[8mha:////4PVa+eOfGCB5ryE2GyokIfyPZOVvh3emQVgJTOuHuCGAAAAAox+LCAAAAAAAAP9tjbEOgjAURS8YB1dHP6IMJC7GybVh8Qsq1Fpo3sP2IUx+kb/mP0gkcfJO95zlvN5Yp4gjR6daS52nVHvVh8HNT40cu2vgUbV8UTVT4mBVZceKG3tasGKxWJblWGlsLNWBkycn2OrWPEwRDLniLHF2B43cN3c8kem5LCbKF6aI3W1oEtOv8zeAqe8FebkXZOUHjeqpjr0AAAA=[0m[Pipeline] // node
+[8mha:////4OyM7hMK6utvbTfbnNkjhtaoCHWCq3+ZbQ+BNe9AvJHZAAAApB+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMKRoKBAVLRWGl5gEmOcWHfBvpBUvIiv8QciIlGx1c4083pjmSKOHJ1qLLWeUuVVF3o3PTVwbK+BB9XwRVVMiYNVpR1Kru1pxpLFYl6WY6GxslQFTp6cYK0b8zBFMOSKs8TJHTRyX9/xRKanspgoXxgjNre+Tky/zt8Axq4T5Lu9INt+AKvzzsS9AAAA[0m[Pipeline] End of Pipeline
+ERROR: script returned exit code 1
+Finished: FAILURE

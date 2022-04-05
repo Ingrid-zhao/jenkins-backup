@@ -1,2 +1,2 @@
 # jenkins-backup
-npx jenkins build backup
+npx jenkins backup

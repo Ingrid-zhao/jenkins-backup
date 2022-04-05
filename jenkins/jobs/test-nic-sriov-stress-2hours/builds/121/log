@@ -1,0 +1,2782 @@
+Started by user [8mha:////4C8zTO/v0UlG+vQ5Fjm5jTf9kR93yL5yxTMP2X04T9v8AAAAlh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyWEgYu/dLi1CL9ovz8EgDKVWzSvwAAAA==[0mroot
+Running in Durability level: MAX_SURVIVABILITY
+[8mha:////4DOlrZhma2TKYqx8mtRBwGXVE8Xt4z3OJyo/zi+ICDdzAAAAoh+LCAAAAAAAAP9tjTEOwjAQBM8BClpKHuFItIiK1krDC0x8GCfWnbEdkooX8TX+gCESFVvtrLSa5wtWKcKBo5UdUu8otU4GP9jS5Mixv3geZcdn2TIl9igbHBs2eJyx4YwwR1SwULBGaj0nRzbDRnX6rmuvydanHMu2V1A5c4MHCFXMWcf8hSnC9jqYxPTz/BXAFEIGsfuclm8zQVqFvQAAAA==[0m[Pipeline] Start of Pipeline
+[8mha:////4B4K7nOhvaaLmbeE3w0NEhE1GAALwLDjakw9plXgkY6XAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycohUghExsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jduZBmjwAAAAA==[0m[Pipeline] node
+Running on [8mha:////4GiJsi7Mya/6bg7lYfwMQTzNVpzT54TxwGFsrEp/EcRtAAAAoh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyeEgZx/eT83ILSktQi/eTKAkMD3aLUXKBKfQCdwg2/zAAAAA==[0mcyp10-remote in /root/.jenkins/workspace/test-nic@2
+[8mha:////4NUxBMzN6CtFAbQ4pdo7pH8ZuwVHigLf0SdP3FcjQTwyAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gA0xsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jfoP95RwAAAAA==[0m[Pipeline] {
+[8mha:////4OCB1+Up79PmV3LnMeomKr9r+JFCKkFjAfTpr2UorbLOAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gQkxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jc09154wAAAAA==[0m[Pipeline] stage
+[8mha:////4N6KQN35K8CT/Pcr9a+R4oOEu4uEh3phvpB1t67zd2hmAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0ggUxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jek7ggRwAAAAA==[0m[Pipeline] { (set args)
+[8mha:////4KpTcsSlLG7yEvo1vGv2QG1z86HMYkLASFXVuKwhd7SZAAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQTbaWGsbAmNJ0AWEZb8zwLrbuWJvJp3kLiJlZNMMm+a93rDOic4UbLcG+wdZu14DKOti0+U+lugiXu6ck2YKRguzSSpM+cFJRUDS1gDKwEbgzpQdmgLbIVXD9UGhba9lFS/o4DGdQM8gYlqLiqVL8wJdvexy4Q/z18BzLEA29ce4gfg7KmOvAAAAA==[0m[Pipeline] sh
++ python /root/.jenkins/workspace/test-nic/npxtester/conf/change_args.py '{"dpdk_dir":"/opt/APP/utility/DPDK_install/dpdk-stable-20.11.1/","vm_image_conf":{"image1":"ubuntu20.04.img","image2":"ubuntu20.04_2.img","image3":"rhel84rt.img","image4":"rhel84rt2.img","image_dir":"/home/image"},"sut_conf":{"host":"10.112.97.157","connect_switch_sut_pf":"ens787f0","pf1":"ens787f0","pf1_ipv6":"fe80::b696:91ff:fe9c:f760","os":"rehat"},"dhcp":{"ipv4":"192.168.10.10","ipv6":"fe80::b696:91ff:fe9c:f762"}}'
+[8mha:////4ChDQWb8Lvr0RoXQ1L8EY4p37+Po0Q8Mb8bchs8JeqDJAAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQTbGRNjZUtoPAGyiLDkfxZYdytP5NW8g8RNrJxkknnTvNcb1jnBiZLl3mDvMGvHYxhtXXyi1N8CTdzTlWvCTMFwaSZJnTkvKKkYWMIaWAnYGNSBskNbYCu8eqg2KLTtpaT6HQU0rhvgCUxUc1GpfGFOsLuPXSb8ef4KYI6xADvU7j9Dg2gqvAAAAA==[0m[Pipeline] }
+[8mha:////4J0p4zt/+On27QitkvU5TFB8M2wwWYWaAHIuYiUer4fkAAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQRbWRhjZUtoPAGyiLDkfxZYdytP5NW8g8RNrJxkknnTvNcb1jnBiZLl3mDvMGvHYxhtXXyi1N8CTdzTlWvCTMFwaSZJnTkvKKkYWMIaWAnYGNSBskNbYCu8eqg2KLTtpaT6HQU0rhvgCUxUc1GpfGFOsLuPXSb8ef4KYI6xADvU7j9J+wGOvAAAAA==[0m[Pipeline] // stage
+[8mha:////4Ea3/4ZYuTM98yMZ9UntzMXOyQ2ItSOm6XAUUO4QqkITAAAAph+LCAAAAAAAAP9tjTEOwjAQBM9BKWgpeYQDEh2iorXc8AITG+PEugv2haTiRXyNPxCIRMVWOyut5vmCMic4UPKycdgGzHWQXez91ORAqb1EGmRDZ1kTZopOajdosu44oyZ2MEcUsFCwdFhHygE9w0o15m6qaNBXJ07TtldQBHuDBwg1mdkk/sKYYH3tbSb8ef4KYOwYxI6h2G4+x/INtuQqUcEAAAA=[0m[Pipeline] stage
+[8mha:////4IJd0qxfNFkcgwUT9OFke9rxaJjwCH2G9mHJ+5FMmbLfAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+DOrAycoiUzoiJNerCCUITQtLo/zZJSSdOxNW4Ay2VmPBg2Zas93pDGQOcKBjuNHYWY2t570czJ54pdDdPmTu68pYwkte80bkhpc9rbShpWFUw2AjYamw9RYsmwU44+ZCVl2iqSwrzdhTArBrgCYWYyUmG9C1TgP19VJHwx/kLgKlPwOrDYvXyLD8BobDcwgAAAA==[0m[Pipeline] { (run silver nic case)
+[8mha:////4KACpsxoNqug+yeGIE2K55MD+IyPDLfbYOrean7h1Zl/AAAAox+LCAAAAAAAAP9tjTESwiAURH/iWNhaeggysXWsbBkaT4AJIoT5nwCRVJ7Iq3kH0cxYucXOvm3e8wXrGOBIQTOrcDAYO8O8m3RZLFMYro4ys3RhHWEkp5hQWVCvTgsKSgqWVDWsOGwUdo6iQZ1gy628y8ZJ1M05hfIdONSmH+EBFS/mJEP6whxgd5v6SPjz/BXA7BPUbfupvX8DpQJrNb4AAAA=[0m[Pipeline] sh
++ pytest /root/.jenkins/workspace/test-nic/npxtester/Tests/testNics/test_nics.py -m nicall -s
+============================= test session starts ==============================
+platform linux -- Python 3.6.8, pytest-6.2.4, py-1.11.0, pluggy-0.13.1
+rootdir: /root/.jenkins/workspace/test-nic/npxtester/Tests/testNics, configfile: pytest.ini
+plugins: metadata-1.11.0, html-3.1.1
+collected 3 items
+
+../test-nic/npxtester/Tests/testNics/test_nics.py 2021-11-25 14:26:29 - NicTestFixture.py - [line:28] - root - INFO - Starting to run test_silver_Networking_ConnectivityEnableDisable
+2021-11-25 14:26:29 - NicTestFixture.py - [line:29] - root - INFO - setup log for testing in the fixture class fbefore
+2021-11-25 14:26:29 - test_nics.py - [line:18] - root - INFO - this is Test_Nics setup.
+2021-11-25 14:26:29 - transport.py - [line:1819] - paramiko.transport - INFO - Connected (version 2.0, client OpenSSH_8.0)
+2021-11-25 14:26:29 - transport.py - [line:1819] - paramiko.transport - INFO - Authentication (publickey) failed.
+2021-11-25 14:26:29 - transport.py - [line:1819] - paramiko.transport - INFO - Authentication (password) successful!
+2021-11-25 14:26:29 - sshInstance.py - [line:28] - root - INFO - SSH on SUT: 10.112.97.157
+2021-11-25 14:26:29 - test_nics.py - [line:34] - root - INFO - run silver_Networking_ConnectivityEnableDisable
+2021-11-25 14:26:33 - sshInstance.py - [line:69] - root - INFO - Activate the web console with: systemctl enable --now cockpit.socket
+
+This system is not registered to Red Hat Insights. See https://cloud.redhat.com/
+To register this system, run: insights-client --register
+
+Last login: Thu Nov 25 14:12:10 2021 from 10.239.129.147
+[root@WW30CYP10 ~]# ping -c 5 192.168.10.10
+PING 192.168.10.10 (192.168.10.10) 56(84) bytes of data.
+64 bytes from 192.168.10.10: icmp_seq=1 ttl=64 time=0.034 ms
+2021-11-25 14:26:34 - sshInstance.py - [line:69] - root - INFO - 64 bytes from 192.168.10.10: icmp_seq=2 ttl=64 time=0.011 ms
+2021-11-25 14:26:35 - sshInstance.py - [line:69] - root - INFO - 64 bytes from 192.168.10.10: icmp_seq=3 ttl=64 time=0.008 ms
+2021-11-25 14:26:36 - sshInstance.py - [line:69] - root - INFO - 64 bytes from 192.168.10.10: icmp_seq=4 ttl=64 time=0.009 ms
+2021-11-25 14:26:37 - sshInstance.py - [line:69] - root - INFO - 64 bytes from 192.168.10.10: icmp_seq=5 ttl=64 time=0.008 ms
+
+--- 192.168.10.10 ping statistics ---
+5 packets transmitted, 5 received, 0% packet loss, time 4098ms
+rtt min/avg/max/mdev = 0.008/0.014/0.034/0.010 ms
+[root@WW30CYP10 ~]# 
+2021-11-25 14:26:45 - sshInstance.py - [line:89] - root - INFO - ifconfig ens787f0 down
+[root@WW30CYP10 ~]# 
+2021-11-25 14:26:53 - sshInstance.py - [line:89] - root - INFO - ifconfig ens787f0 up
+[root@WW30CYP10 ~]# 
+2021-11-25 14:27:00 - sshInstance.py - [line:69] - root - INFO - ping -c 5 192.168.10.10
+PING 192.168.10.10 (192.168.10.10) 56(84) bytes of data.
+64 bytes from 192.168.10.10: icmp_seq=1 ttl=64 time=0.030 ms
+2021-11-25 14:27:01 - sshInstance.py - [line:69] - root - INFO - 64 bytes from 192.168.10.10: icmp_seq=2 ttl=64 time=0.009 ms
+2021-11-25 14:27:02 - sshInstance.py - [line:69] - root - INFO - 64 bytes from 192.168.10.10: icmp_seq=3 ttl=64 time=0.008 ms
+2021-11-25 14:27:03 - sshInstance.py - [line:69] - root - INFO - 64 bytes from 192.168.10.10: icmp_seq=4 ttl=64 time=0.014 ms
+2021-11-25 14:27:04 - sshInstance.py - [line:69] - root - INFO - 64 bytes from 192.168.10.10: icmp_seq=5 ttl=64 time=0.008 ms
+
+--- 192.168.10.10 ping statistics ---
+5 packets transmitted, 5 received, 0% packet loss, time 4074ms
+rtt min/avg/max/mdev = 0.008/0.013/0.030/0.009 ms
+[root@WW30CYP10 ~]# 
+2021-11-25 14:27:12 - sshInstance.py - [line:89] - root - INFO - ifconfig ens787f0 down
+[root@WW30CYP10 ~]# 
+2021-11-25 14:27:20 - sshInstance.py - [line:89] - root - INFO - ifconfig ens787f0 up
+[root@WW30CYP10 ~]# 
+2021-11-25 14:27:27 - sshInstance.py - [line:69] - root - INFO - ping -c 5 192.168.10.10
+PING 192.168.10.10 (192.168.10.10) 56(84) bytes of data.
+64 bytes from 192.168.10.10: icmp_seq=1 ttl=64 time=0.037 ms
+2021-11-25 14:27:28 - sshInstance.py - [line:69] - root - INFO - 64 bytes from 192.168.10.10: icmp_seq=2 ttl=64 time=0.013 ms
+2021-11-25 14:27:29 - sshInstance.py - [line:69] - root - INFO - 64 bytes from 192.168.10.10: icmp_seq=3 ttl=64 time=0.008 ms
+2021-11-25 14:27:30 - sshInstance.py - [line:69] - root - INFO - 64 bytes from 192.168.10.10: icmp_seq=4 ttl=64 time=0.009 ms
+2021-11-25 14:27:31 - sshInstance.py - [line:69] - root - INFO - 64 bytes from 192.168.10.10: icmp_seq=5 ttl=64 time=0.007 ms
+
+--- 192.168.10.10 ping statistics ---
+5 packets transmitted, 5 received, 0% packet loss, time 4116ms
+rtt min/avg/max/mdev = 0.007/0.014/0.037/0.012 ms
+[root@WW30CYP10 ~]# 
+2021-11-25 14:27:39 - sshInstance.py - [line:89] - root - INFO - ifconfig ens787f0 down
+[root@WW30CYP10 ~]# 
+2021-11-25 14:27:47 - sshInstance.py - [line:89] - root - INFO - ifconfig ens787f0 up
+[root@WW30CYP10 ~]# 
+2021-11-25 14:27:54 - sshInstance.py - [line:69] - root - INFO - ping -c 5 192.168.10.10
+PING 192.168.10.10 (192.168.10.10) 56(84) bytes of data.
+64 bytes from 192.168.10.10: icmp_seq=1 ttl=64 time=0.041 ms
+2021-11-25 14:27:55 - sshInstance.py - [line:69] - root - INFO - 64 bytes from 192.168.10.10: icmp_seq=2 ttl=64 time=0.011 ms
+2021-11-25 14:27:56 - sshInstance.py - [line:69] - root - INFO - 64 bytes from 192.168.10.10: icmp_seq=3 ttl=64 time=0.008 ms
+2021-11-25 14:27:57 - sshInstance.py - [line:69] - root - INFO - 64 bytes from 192.168.10.10: icmp_seq=4 ttl=64 time=0.008 ms
+2021-11-25 14:27:58 - sshInstance.py - [line:69] - root - INFO - 64 bytes from 192.168.10.10: icmp_seq=5 ttl=64 time=0.007 ms
+
+--- 192.168.10.10 ping statistics ---
+5 packets transmitted, 5 received, 0% packet loss, time 4094ms
+rtt min/avg/max/mdev = 0.007/0.015/0.041/0.013 ms
+[root@WW30CYP10 ~]# 
+2021-11-25 14:28:06 - sshInstance.py - [line:89] - root - INFO - ifconfig ens787f0 down
+[root@WW30CYP10 ~]# 
+2021-11-25 14:28:14 - sshInstance.py - [line:89] - root - INFO - ifconfig ens787f0 up
+[root@WW30CYP10 ~]# 
+2021-11-25 14:28:21 - sshInstance.py - [line:69] - root - INFO - ping -c 5 192.168.10.10
+PING 192.168.10.10 (192.168.10.10) 56(84) bytes of data.
+64 bytes from 192.168.10.10: icmp_seq=1 ttl=64 time=0.033 ms
+2021-11-25 14:28:22 - sshInstance.py - [line:69] - root - INFO - 64 bytes from 192.168.10.10: icmp_seq=2 ttl=64 time=0.010 ms
+2021-11-25 14:28:23 - sshInstance.py - [line:69] - root - INFO - 64 bytes from 192.168.10.10: icmp_seq=3 ttl=64 time=0.010 ms
+2021-11-25 14:28:24 - sshInstance.py - [line:69] - root - INFO - 64 bytes from 192.168.10.10: icmp_seq=4 ttl=64 time=0.008 ms
+2021-11-25 14:28:25 - sshInstance.py - [line:69] - root - INFO - 64 bytes from 192.168.10.10: icmp_seq=5 ttl=64 time=0.015 ms
+
+--- 192.168.10.10 ping statistics ---
+5 packets transmitted, 5 received, 0% packet loss, time 4134ms
+rtt min/avg/max/mdev = 0.008/0.015/0.033/0.009 ms
+[root@WW30CYP10 ~]# 
+2021-11-25 14:28:33 - sshInstance.py - [line:89] - root - INFO - ifconfig ens787f0 down
+[root@WW30CYP10 ~]# 
+2021-11-25 14:28:41 - sshInstance.py - [line:89] - root - INFO - ifconfig ens787f0 up
+[root@WW30CYP10 ~]# 
+2021-11-25 14:28:48 - sshInstance.py - [line:69] - root - INFO - ping -c 5 192.168.10.10
+PING 192.168.10.10 (192.168.10.10) 56(84) bytes of data.
+64 bytes from 192.168.10.10: icmp_seq=1 ttl=64 time=0.031 ms
+2021-11-25 14:28:49 - sshInstance.py - [line:69] - root - INFO - 64 bytes from 192.168.10.10: icmp_seq=2 ttl=64 time=0.010 ms
+2021-11-25 14:28:50 - sshInstance.py - [line:69] - root - INFO - 64 bytes from 192.168.10.10: icmp_seq=3 ttl=64 time=0.007 ms
+2021-11-25 14:28:51 - sshInstance.py - [line:69] - root - INFO - 64 bytes from 192.168.10.10: icmp_seq=4 ttl=64 time=0.009 ms
+2021-11-25 14:28:52 - sshInstance.py - [line:69] - root - INFO - 64 bytes from 192.168.10.10: icmp_seq=5 ttl=64 time=0.008 ms
+
+--- 192.168.10.10 ping statistics ---
+5 packets transmitted, 5 received, 0% packet loss, time 4112ms
+rtt min/avg/max/mdev = 0.007/0.013/0.031/0.009 ms
+[root@WW30CYP10 ~]# 
+.2021-11-25 14:28:55 - sshInstance.py - [line:39] - root - INFO - closing ssh client on SUT
+2021-11-25 14:28:55 - test_nics.py - [line:28] - root - INFO - this is Test_Nics teardown
+2021-11-25 14:28:55 - NicTestFixture.py - [line:28] - root - INFO - Starting to run test_silver_ConnectivityReboot
+2021-11-25 14:28:55 - NicTestFixture.py - [line:29] - root - INFO - setup log for testing in the fixture class fbefore
+2021-11-25 14:28:55 - test_nics.py - [line:18] - root - INFO - this is Test_Nics setup.
+2021-11-25 14:28:55 - transport.py - [line:1819] - paramiko.transport - INFO - Connected (version 2.0, client OpenSSH_8.0)
+2021-11-25 14:28:56 - transport.py - [line:1819] - paramiko.transport - INFO - Authentication (publickey) failed.
+2021-11-25 14:28:56 - transport.py - [line:1819] - paramiko.transport - INFO - Authentication (password) successful!
+2021-11-25 14:28:56 - sshInstance.py - [line:28] - root - INFO - SSH on SUT: 10.112.97.157
+2021-11-25 14:28:56 - test_nics.py - [line:56] - root - INFO - run silver_ConnectivityReboot
+2021-11-25 14:28:56 - transport.py - [line:1819] - paramiko.transport - INFO - Connected (version 2.0, client OpenSSH_8.0)
+2021-11-25 14:28:56 - transport.py - [line:1819] - paramiko.transport - INFO - Authentication (publickey) failed.
+2021-11-25 14:28:56 - transport.py - [line:1819] - paramiko.transport - INFO - Authentication (password) successful!
+2021-11-25 14:28:56 - sshInstance.py - [line:28] - root - INFO - SSH on SUT: 10.112.97.157
+2021-11-25 14:29:00 - sshInstance.py - [line:69] - root - INFO - Activate the web console with: systemctl enable --now cockpit.socket
+
+This system is not registered to Red Hat Insights. See https://cloud.redhat.com/
+To register this system, run: insights-client --register
+
+Last login: Thu Nov 25 14:29:07 2021 from 10.239.129.147
+[root@WW30CYP10 ~]# ping -c 5 192.168.10.10
+PING 192.168.10.10 (192.168.10.10) 56(84) bytes of data.
+64 bytes from 192.168.10.10: icmp_seq=1 ttl=64 time=0.045 ms
+2021-11-25 14:29:01 - sshInstance.py - [line:69] - root - INFO - 64 bytes from 192.168.10.10: icmp_seq=2 ttl=64 time=0.011 ms
+2021-11-25 14:29:02 - sshInstance.py - [line:69] - root - INFO - 64 bytes from 192.168.10.10: icmp_seq=3 ttl=64 time=0.009 ms
+2021-11-25 14:29:03 - sshInstance.py - [line:69] - root - INFO - 64 bytes from 192.168.10.10: icmp_seq=4 ttl=64 time=0.017 ms
+2021-11-25 14:29:04 - sshInstance.py - [line:69] - root - INFO - 64 bytes from 192.168.10.10: icmp_seq=5 ttl=64 time=0.007 ms
+
+--- 192.168.10.10 ping statistics ---
+5 packets transmitted, 5 received, 0% packet loss, time 4083ms
+rtt min/avg/max/mdev = 0.007/0.017/0.045/0.015 ms
+[root@WW30CYP10 ~]# 
+2021-11-25 14:29:11 - sshInstance.py - [line:69] - root - INFO - ping6 -c 5 -I ens787f0 fe80::b696:91ff:fe9c:f762
+ping6: Warning: source address might be selected on device other than ens787f0.
+PING fe80::b696:91ff:fe9c:f762(fe80::b696:91ff:fe9c:f762) from :: ens787f0: 56 data bytes
+64 bytes from fe80::b696:91ff:fe9c:f762%ens787f0: icmp_seq=1 ttl=64 time=0.137 ms
+2021-11-25 14:29:12 - sshInstance.py - [line:69] - root - INFO - 64 bytes from fe80::b696:91ff:fe9c:f762%ens787f0: icmp_seq=2 ttl=64 time=0.064 ms
+2021-11-25 14:29:13 - sshInstance.py - [line:69] - root - INFO - 64 bytes from fe80::b696:91ff:fe9c:f762%ens787f0: icmp_seq=3 ttl=64 time=0.032 ms
+2021-11-25 14:29:14 - sshInstance.py - [line:69] - root - INFO - 64 bytes from fe80::b696:91ff:fe9c:f762%ens787f0: icmp_seq=4 ttl=64 time=0.061 ms
+2021-11-25 14:29:15 - sshInstance.py - [line:69] - root - INFO - 64 bytes from fe80::b696:91ff:fe9c:f762%ens787f0: icmp_seq=5 ttl=64 time=0.062 ms
+
+--- fe80::b696:91ff:fe9c:f762 ping statistics ---
+5 packets transmitted, 5 received, 0% packet loss, time 4077ms
+rtt min/avg/max/mdev = 0.032/0.071/0.137/0.035 ms
+[root@WW30CYP10 ~]# 
+2021-11-25 14:29:18 - transport.py - [line:1819] - paramiko.transport - INFO - Connected (version 2.0, client OpenSSH_8.0)
+2021-11-25 14:29:18 - transport.py - [line:1819] - paramiko.transport - INFO - Authentication (publickey) failed.
+2021-11-25 14:29:18 - transport.py - [line:1819] - paramiko.transport - INFO - Authentication (password) successful!
+2021-11-25 14:29:18 - sshInstance.py - [line:28] - root - INFO - SSH on SUT: 10.112.97.157
+2021-11-25 14:29:22 - sshInstance.py - [line:69] - root - INFO - Activate the web console with: systemctl enable --now cockpit.socket
+
+This system is not registered to Red Hat Insights. See https://cloud.redhat.com/
+To register this system, run: insights-client --register
+
+Last login: Thu Nov 25 14:29:07 2021 from 10.239.129.147
+[root@WW30CYP10 ~]# ping -c 5 192.168.10.10
+PING 192.168.10.10 (192.168.10.10) 56(84) bytes of data.
+64 bytes from 192.168.10.10: icmp_seq=1 ttl=64 time=0.035 ms
+2021-11-25 14:29:23 - sshInstance.py - [line:69] - root - INFO - 64 bytes from 192.168.10.10: icmp_seq=2 ttl=64 time=0.014 ms
+2021-11-25 14:29:24 - sshInstance.py - [line:69] - root - INFO - 64 bytes from 192.168.10.10: icmp_seq=3 ttl=64 time=0.010 ms
+2021-11-25 14:29:25 - sshInstance.py - [line:69] - root - INFO - 64 bytes from 192.168.10.10: icmp_seq=4 ttl=64 time=0.008 ms
+2021-11-25 14:29:26 - sshInstance.py - [line:69] - root - INFO - 64 bytes from 192.168.10.10: icmp_seq=5 ttl=64 time=0.009 ms
+
+--- 192.168.10.10 ping statistics ---
+5 packets transmitted, 5 received, 0% packet loss, time 4094ms
+rtt min/avg/max/mdev = 0.008/0.015/0.035/0.010 ms
+[root@WW30CYP10 ~]# 
+2021-11-25 14:29:33 - sshInstance.py - [line:69] - root - INFO - ping6 -c 5 -I ens787f0 fe80::b696:91ff:fe9c:f762
+ping6: Warning: source address might be selected on device other than ens787f0.
+PING fe80::b696:91ff:fe9c:f762(fe80::b696:91ff:fe9c:f762) from :: ens787f0: 56 data bytes
+64 bytes from fe80::b696:91ff:fe9c:f762%ens787f0: icmp_seq=1 ttl=64 time=0.061 ms
+2021-11-25 14:29:34 - sshInstance.py - [line:69] - root - INFO - 64 bytes from fe80::b696:91ff:fe9c:f762%ens787f0: icmp_seq=2 ttl=64 time=0.030 ms
+2021-11-25 14:29:35 - sshInstance.py - [line:69] - root - INFO - 64 bytes from fe80::b696:91ff:fe9c:f762%ens787f0: icmp_seq=3 ttl=64 time=0.032 ms
+2021-11-25 14:29:36 - sshInstance.py - [line:69] - root - INFO - 64 bytes from fe80::b696:91ff:fe9c:f762%ens787f0: icmp_seq=4 ttl=64 time=0.025 ms
+2021-11-25 14:29:37 - sshInstance.py - [line:69] - root - INFO - 64 bytes from fe80::b696:91ff:fe9c:f762%ens787f0: icmp_seq=5 ttl=64 time=0.029 ms
+
+--- fe80::b696:91ff:fe9c:f762 ping statistics ---
+5 packets transmitted, 5 received, 0% packet loss, time 4088ms
+rtt min/avg/max/mdev = 0.025/0.035/0.061/0.014 ms
+[root@WW30CYP10 ~]# 
+2021-11-25 14:29:40 - transport.py - [line:1819] - paramiko.transport - INFO - Connected (version 2.0, client OpenSSH_8.0)
+2021-11-25 14:29:40 - transport.py - [line:1819] - paramiko.transport - INFO - Authentication (publickey) failed.
+2021-11-25 14:29:40 - transport.py - [line:1819] - paramiko.transport - INFO - Authentication (password) successful!
+2021-11-25 14:29:40 - sshInstance.py - [line:28] - root - INFO - SSH on SUT: 10.112.97.157
+2021-11-25 14:29:44 - sshInstance.py - [line:69] - root - INFO - Activate the web console with: systemctl enable --now cockpit.socket
+
+This system is not registered to Red Hat Insights. See https://cloud.redhat.com/
+To register this system, run: insights-client --register
+
+Last login: Thu Nov 25 14:29:29 2021 from 10.239.129.147
+[root@WW30CYP10 ~]# ping -c 5 192.168.10.10
+PING 192.168.10.10 (192.168.10.10) 56(84) bytes of data.
+64 bytes from 192.168.10.10: icmp_seq=1 ttl=64 time=0.040 ms
+2021-11-25 14:29:45 - sshInstance.py - [line:69] - root - INFO - 64 bytes from 192.168.10.10: icmp_seq=2 ttl=64 time=0.017 ms
+2021-11-25 14:29:46 - sshInstance.py - [line:69] - root - INFO - 64 bytes from 192.168.10.10: icmp_seq=3 ttl=64 time=0.019 ms
+2021-11-25 14:29:47 - sshInstance.py - [line:69] - root - INFO - 64 bytes from 192.168.10.10: icmp_seq=4 ttl=64 time=0.009 ms
+2021-11-25 14:29:48 - sshInstance.py - [line:69] - root - INFO - 64 bytes from 192.168.10.10: icmp_seq=5 ttl=64 time=0.008 ms
+
+--- 192.168.10.10 ping statistics ---
+5 packets transmitted, 5 received, 0% packet loss, time 4106ms
+rtt min/avg/max/mdev = 0.008/0.018/0.040/0.012 ms
+[root@WW30CYP10 ~]# 
+2021-11-25 14:29:55 - sshInstance.py - [line:69] - root - INFO - ping6 -c 5 -I ens787f0 fe80::b696:91ff:fe9c:f762
+ping6: Warning: source address might be selected on device other than ens787f0.
+PING fe80::b696:91ff:fe9c:f762(fe80::b696:91ff:fe9c:f762) from :: ens787f0: 56 data bytes
+64 bytes from fe80::b696:91ff:fe9c:f762%ens787f0: icmp_seq=1 ttl=64 time=0.074 ms
+2021-11-25 14:29:56 - sshInstance.py - [line:69] - root - INFO - 64 bytes from fe80::b696:91ff:fe9c:f762%ens787f0: icmp_seq=2 ttl=64 time=0.045 ms
+2021-11-25 14:29:57 - sshInstance.py - [line:69] - root - INFO - 64 bytes from fe80::b696:91ff:fe9c:f762%ens787f0: icmp_seq=3 ttl=64 time=0.027 ms
+2021-11-25 14:29:58 - sshInstance.py - [line:69] - root - INFO - 64 bytes from fe80::b696:91ff:fe9c:f762%ens787f0: icmp_seq=4 ttl=64 time=0.039 ms
+2021-11-25 14:29:59 - sshInstance.py - [line:69] - root - INFO - 64 bytes from fe80::b696:91ff:fe9c:f762%ens787f0: icmp_seq=5 ttl=64 time=0.026 ms
+
+--- fe80::b696:91ff:fe9c:f762 ping statistics ---
+5 packets transmitted, 5 received, 0% packet loss, time 4100ms
+rtt min/avg/max/mdev = 0.026/0.042/0.074/0.017 ms
+[root@WW30CYP10 ~]# 
+2021-11-25 14:30:02 - transport.py - [line:1819] - paramiko.transport - INFO - Connected (version 2.0, client OpenSSH_8.0)
+2021-11-25 14:30:02 - transport.py - [line:1819] - paramiko.transport - INFO - Authentication (publickey) failed.
+2021-11-25 14:30:02 - transport.py - [line:1819] - paramiko.transport - INFO - Authentication (password) successful!
+2021-11-25 14:30:02 - sshInstance.py - [line:28] - root - INFO - SSH on SUT: 10.112.97.157
+2021-11-25 14:30:06 - sshInstance.py - [line:69] - root - INFO - Activate the web console with: systemctl enable --now cockpit.socket
+
+This system is not registered to Red Hat Insights. See https://cloud.redhat.com/
+To register this system, run: insights-client --register
+
+Last login: Thu Nov 25 14:29:51 2021 from 10.239.129.147
+[root@WW30CYP10 ~]# ping -c 5 192.168.10.10
+PING 192.168.10.10 (192.168.10.10) 56(84) bytes of data.
+64 bytes from 192.168.10.10: icmp_seq=1 ttl=64 time=0.041 ms
+2021-11-25 14:30:07 - sshInstance.py - [line:69] - root - INFO - 64 bytes from 192.168.10.10: icmp_seq=2 ttl=64 time=0.011 ms
+2021-11-25 14:30:08 - sshInstance.py - [line:69] - root - INFO - 64 bytes from 192.168.10.10: icmp_seq=3 ttl=64 time=0.009 ms
+2021-11-25 14:30:09 - sshInstance.py - [line:69] - root - INFO - 64 bytes from 192.168.10.10: icmp_seq=4 ttl=64 time=0.010 ms
+2021-11-25 14:30:10 - sshInstance.py - [line:69] - root - INFO - 64 bytes from 192.168.10.10: icmp_seq=5 ttl=64 time=0.008 ms
+
+--- 192.168.10.10 ping statistics ---
+5 packets transmitted, 5 received, 0% packet loss, time 4118ms
+rtt min/avg/max/mdev = 0.008/0.015/0.041/0.013 ms
+[root@WW30CYP10 ~]# 
+2021-11-25 14:30:17 - sshInstance.py - [line:69] - root - INFO - ping6 -c 5 -I ens787f0 fe80::b696:91ff:fe9c:f762
+ping6: Warning: source address might be selected on device other than ens787f0.
+PING fe80::b696:91ff:fe9c:f762(fe80::b696:91ff:fe9c:f762) from :: ens787f0: 56 data bytes
+64 bytes from fe80::b696:91ff:fe9c:f762%ens787f0: icmp_seq=1 ttl=64 time=0.064 ms
+2021-11-25 14:30:18 - sshInstance.py - [line:69] - root - INFO - 64 bytes from fe80::b696:91ff:fe9c:f762%ens787f0: icmp_seq=2 ttl=64 time=0.029 ms
+2021-11-25 14:30:19 - sshInstance.py - [line:69] - root - INFO - 64 bytes from fe80::b696:91ff:fe9c:f762%ens787f0: icmp_seq=3 ttl=64 time=0.026 ms
+2021-11-25 14:30:20 - sshInstance.py - [line:69] - root - INFO - 64 bytes from fe80::b696:91ff:fe9c:f762%ens787f0: icmp_seq=4 ttl=64 time=0.034 ms
+2021-11-25 14:30:21 - sshInstance.py - [line:69] - root - INFO - 64 bytes from fe80::b696:91ff:fe9c:f762%ens787f0: icmp_seq=5 ttl=64 time=0.029 ms
+
+--- fe80::b696:91ff:fe9c:f762 ping statistics ---
+5 packets transmitted, 5 received, 0% packet loss, time 4111ms
+rtt min/avg/max/mdev = 0.026/0.036/0.064/0.015 ms
+[root@WW30CYP10 ~]# 
+2021-11-25 14:30:24 - transport.py - [line:1819] - paramiko.transport - INFO - Connected (version 2.0, client OpenSSH_8.0)
+2021-11-25 14:30:25 - transport.py - [line:1819] - paramiko.transport - INFO - Authentication (publickey) failed.
+2021-11-25 14:30:25 - transport.py - [line:1819] - paramiko.transport - INFO - Authentication (password) successful!
+2021-11-25 14:30:25 - sshInstance.py - [line:28] - root - INFO - SSH on SUT: 10.112.97.157
+2021-11-25 14:30:29 - sshInstance.py - [line:69] - root - INFO - Activate the web console with: systemctl enable --now cockpit.socket
+
+This system is not registered to Red Hat Insights. See https://cloud.redhat.com/
+To register this system, run: insights-client --register
+
+Last login: Thu Nov 25 14:30:13 2021 from 10.239.129.147
+[root@WW30CYP10 ~]# ping -c 5 192.168.10.10
+PING 192.168.10.10 (192.168.10.10) 56(84) bytes of data.
+64 bytes from 192.168.10.10: icmp_seq=1 ttl=64 time=0.036 ms
+2021-11-25 14:30:30 - sshInstance.py - [line:69] - root - INFO - 64 bytes from 192.168.10.10: icmp_seq=2 ttl=64 time=0.016 ms
+2021-11-25 14:30:31 - sshInstance.py - [line:69] - root - INFO - 64 bytes from 192.168.10.10: icmp_seq=3 ttl=64 time=0.008 ms
+2021-11-25 14:30:32 - sshInstance.py - [line:69] - root - INFO - 64 bytes from 192.168.10.10: icmp_seq=4 ttl=64 time=0.008 ms
+2021-11-25 14:30:33 - sshInstance.py - [line:69] - root - INFO - 64 bytes from 192.168.10.10: icmp_seq=5 ttl=64 time=0.011 ms
+
+--- 192.168.10.10 ping statistics ---
+5 packets transmitted, 5 received, 0% packet loss, time 4129ms
+rtt min/avg/max/mdev = 0.008/0.015/0.036/0.011 ms
+[root@WW30CYP10 ~]# 
+2021-11-25 14:30:40 - sshInstance.py - [line:69] - root - INFO - ping6 -c 5 -I ens787f0 fe80::b696:91ff:fe9c:f762
+ping6: Warning: source address might be selected on device other than ens787f0.
+PING fe80::b696:91ff:fe9c:f762(fe80::b696:91ff:fe9c:f762) from :: ens787f0: 56 data bytes
+64 bytes from fe80::b696:91ff:fe9c:f762%ens787f0: icmp_seq=1 ttl=64 time=0.068 ms
+2021-11-25 14:30:41 - sshInstance.py - [line:69] - root - INFO - 64 bytes from fe80::b696:91ff:fe9c:f762%ens787f0: icmp_seq=2 ttl=64 time=0.033 ms
+2021-11-25 14:30:42 - sshInstance.py - [line:69] - root - INFO - 64 bytes from fe80::b696:91ff:fe9c:f762%ens787f0: icmp_seq=3 ttl=64 time=0.033 ms
+2021-11-25 14:30:43 - sshInstance.py - [line:69] - root - INFO - 64 bytes from fe80::b696:91ff:fe9c:f762%ens787f0: icmp_seq=4 ttl=64 time=0.033 ms
+2021-11-25 14:30:44 - sshInstance.py - [line:69] - root - INFO - 64 bytes from fe80::b696:91ff:fe9c:f762%ens787f0: icmp_seq=5 ttl=64 time=0.030 ms
+
+--- fe80::b696:91ff:fe9c:f762 ping statistics ---
+5 packets transmitted, 5 received, 0% packet loss, time 4124ms
+rtt min/avg/max/mdev = 0.030/0.039/0.068/0.015 ms
+[root@WW30CYP10 ~]# 
+.2021-11-25 14:30:47 - sshInstance.py - [line:39] - root - INFO - closing ssh client on SUT
+2021-11-25 14:30:47 - test_nics.py - [line:28] - root - INFO - this is Test_Nics teardown
+2021-11-25 14:30:47 - NicTestFixture.py - [line:28] - root - INFO - Starting to run test_gold_PI_Networking_SRIOV_CheckDevice
+2021-11-25 14:30:47 - NicTestFixture.py - [line:29] - root - INFO - setup log for testing in the fixture class fbefore
+2021-11-25 14:30:47 - test_nics.py - [line:18] - root - INFO - this is Test_Nics setup.
+2021-11-25 14:30:47 - transport.py - [line:1819] - paramiko.transport - INFO - Connected (version 2.0, client OpenSSH_8.0)
+2021-11-25 14:30:47 - transport.py - [line:1819] - paramiko.transport - INFO - Authentication (publickey) failed.
+2021-11-25 14:30:47 - transport.py - [line:1819] - paramiko.transport - INFO - Authentication (password) successful!
+2021-11-25 14:30:47 - sshInstance.py - [line:28] - root - INFO - SSH on SUT: 10.112.97.157
+2021-11-25 14:30:47 - test_nics.py - [line:74] - root - INFO - run gold_PI_Networking_SRIOV_CheckDevice
+2021-11-25 14:30:50 - sshInstance.py - [line:44] - root - INFO - echo 0 > /sys/class/net/ens787f0/device/sriov_numvfs
+2021-11-25 14:30:52 - sshInstance.py - [line:48] - root - INFO - 
+2021-11-25 14:31:00 - sshInstance.py - [line:44] - root - INFO - echo 4 > /sys/class/net/ens787f0/device/sriov_numvfs
+2021-11-25 14:31:00 - sshInstance.py - [line:48] - root - INFO - 
+2021-11-25 14:31:08 - sshInstance.py - [line:44] - root - INFO - ifconfig ens787f0v0 192.168.10.11
+2021-11-25 14:31:08 - sshInstance.py - [line:48] - root - INFO - 
+2021-11-25 14:31:16 - sshInstance.py - [line:44] - root - INFO - ifconfig ens787f0v1 192.168.10.12
+2021-11-25 14:31:16 - sshInstance.py - [line:48] - root - INFO - 
+2021-11-25 14:31:24 - sshInstance.py - [line:44] - root - INFO - ifconfig ens787f0v2 192.168.10.13
+2021-11-25 14:31:24 - sshInstance.py - [line:48] - root - INFO - 
+2021-11-25 14:31:32 - sshInstance.py - [line:44] - root - INFO - ifconfig ens787f0v3 192.168.10.14
+2021-11-25 14:31:32 - sshInstance.py - [line:48] - root - INFO - 
+2021-11-25 14:31:40 - sshInstance.py - [line:44] - root - INFO - ping -c 5 192.168.10.10
+2021-11-25 14:31:44 - sshInstance.py - [line:48] - root - INFO - PING 192.168.10.10 (192.168.10.10) 56(84) bytes of data.
+64 bytes from 192.168.10.10: icmp_seq=1 ttl=64 time=0.047 ms
+64 bytes from 192.168.10.10: icmp_seq=2 ttl=64 time=0.014 ms
+64 bytes from 192.168.10.10: icmp_seq=3 ttl=64 time=0.012 ms
+64 bytes from 192.168.10.10: icmp_seq=4 ttl=64 time=0.021 ms
+64 bytes from 192.168.10.10: icmp_seq=5 ttl=64 time=0.008 ms
+
+--- 192.168.10.10 ping statistics ---
+5 packets transmitted, 5 received, 0% packet loss, time 4105ms
+rtt min/avg/max/mdev = 0.008/0.020/0.047/0.014 ms
+
+2021-11-25 14:31:52 - sshInstance.py - [line:44] - root - INFO - ping6 -c 5 -I ens787f0v0 fe80::b696:91ff:fe9c:f762
+2021-11-25 14:32:06 - sshInstance.py - [line:48] - root - INFO - PING fe80::b696:91ff:fe9c:f762(fe80::b696:91ff:fe9c:f762) from :: ens787f0v0: 56 data bytes
+
+--- fe80::b696:91ff:fe9c:f762 ping statistics ---
+5 packets transmitted, 0 received, 100% packet loss, time 4109ms
+
+
+2021-11-25 14:32:14 - sshInstance.py - [line:44] - root - INFO - ping -c 5 192.168.10.10
+2021-11-25 14:32:19 - sshInstance.py - [line:48] - root - INFO - PING 192.168.10.10 (192.168.10.10) 56(84) bytes of data.
+64 bytes from 192.168.10.10: icmp_seq=1 ttl=64 time=0.038 ms
+64 bytes from 192.168.10.10: icmp_seq=2 ttl=64 time=0.012 ms
+64 bytes from 192.168.10.10: icmp_seq=3 ttl=64 time=0.008 ms
+64 bytes from 192.168.10.10: icmp_seq=4 ttl=64 time=0.021 ms
+64 bytes from 192.168.10.10: icmp_seq=5 ttl=64 time=0.010 ms
+
+--- 192.168.10.10 ping statistics ---
+5 packets transmitted, 5 received, 0% packet loss, time 4092ms
+rtt min/avg/max/mdev = 0.008/0.017/0.038/0.012 ms
+
+2021-11-25 14:32:27 - sshInstance.py - [line:44] - root - INFO - ping6 -c 5 -I ens787f0v1 fe80::b696:91ff:fe9c:f762
+2021-11-25 14:32:41 - sshInstance.py - [line:48] - root - INFO - PING fe80::b696:91ff:fe9c:f762(fe80::b696:91ff:fe9c:f762) from :: ens787f0v1: 56 data bytes
+
+--- fe80::b696:91ff:fe9c:f762 ping statistics ---
+5 packets transmitted, 0 received, 100% packet loss, time 4107ms
+
+
+2021-11-25 14:32:49 - sshInstance.py - [line:44] - root - INFO - ping -c 5 192.168.10.10
+2021-11-25 14:32:53 - sshInstance.py - [line:48] - root - INFO - PING 192.168.10.10 (192.168.10.10) 56(84) bytes of data.
+64 bytes from 192.168.10.10: icmp_seq=1 ttl=64 time=0.037 ms
+64 bytes from 192.168.10.10: icmp_seq=2 ttl=64 time=0.011 ms
+64 bytes from 192.168.10.10: icmp_seq=3 ttl=64 time=0.008 ms
+64 bytes from 192.168.10.10: icmp_seq=4 ttl=64 time=0.010 ms
+64 bytes from 192.168.10.10: icmp_seq=5 ttl=64 time=0.009 ms
+
+--- 192.168.10.10 ping statistics ---
+5 packets transmitted, 5 received, 0% packet loss, time 4092ms
+rtt min/avg/max/mdev = 0.008/0.015/0.037/0.011 ms
+
+2021-11-25 14:33:01 - sshInstance.py - [line:44] - root - INFO - ping6 -c 5 -I ens787f0v2 fe80::b696:91ff:fe9c:f762
+2021-11-25 14:33:15 - sshInstance.py - [line:48] - root - INFO - PING fe80::b696:91ff:fe9c:f762(fe80::b696:91ff:fe9c:f762) from :: ens787f0v2: 56 data bytes
+
+--- fe80::b696:91ff:fe9c:f762 ping statistics ---
+5 packets transmitted, 0 received, 100% packet loss, time 4108ms
+
+
+2021-11-25 14:33:23 - sshInstance.py - [line:44] - root - INFO - ping -c 5 192.168.10.10
+2021-11-25 14:33:27 - sshInstance.py - [line:48] - root - INFO - PING 192.168.10.10 (192.168.10.10) 56(84) bytes of data.
+64 bytes from 192.168.10.10: icmp_seq=1 ttl=64 time=0.042 ms
+64 bytes from 192.168.10.10: icmp_seq=2 ttl=64 time=0.010 ms
+64 bytes from 192.168.10.10: icmp_seq=3 ttl=64 time=0.008 ms
+64 bytes from 192.168.10.10: icmp_seq=4 ttl=64 time=0.007 ms
+64 bytes from 192.168.10.10: icmp_seq=5 ttl=64 time=0.016 ms
+
+--- 192.168.10.10 ping statistics ---
+5 packets transmitted, 5 received, 0% packet loss, time 4093ms
+rtt min/avg/max/mdev = 0.007/0.016/0.042/0.013 ms
+
+2021-11-25 14:33:35 - sshInstance.py - [line:44] - root - INFO - ping6 -c 5 -I ens787f0v3 fe80::b696:91ff:fe9c:f762
+2021-11-25 14:33:49 - sshInstance.py - [line:48] - root - INFO - PING fe80::b696:91ff:fe9c:f762(fe80::b696:91ff:fe9c:f762) from :: ens787f0v3: 56 data bytes
+
+--- fe80::b696:91ff:fe9c:f762 ping statistics ---
+5 packets transmitted, 0 received, 100% packet loss, time 4110ms
+
+
+.2021-11-25 14:33:54 - sshInstance.py - [line:39] - root - INFO - closing ssh client on SUT
+2021-11-25 14:33:54 - test_nics.py - [line:28] - root - INFO - this is Test_Nics teardown
+
+
+======================== 3 passed in 445.27s (0:07:25) =========================
+[8mha:////4KMKnj+jwomtBZRlOM1zDNsT7NVP2UylJUBAmwQdpqOFAAAAox+LCAAAAAAAAP9tjTESwiAURH/iWNhaeggyGUvHypah8QSYIEKY/wkQSeWJvJp3EM2MlVvs7NvmPV+wjgGOFDSzCgeDsTPMu0mXxTKF4eooM0sX1hFGcooJlQX16rSgoKRgSVXDisNGYecoGtQJttzKu2ycRN2cUyjfgUNt+hEeUPFiTjKkL8wBdrepj4Q/z18BzN4nqNv9p9o3geV5574AAAA=[0m[Pipeline] }
+[8mha:////4PHbOgS4fTQzlO31aLQygq6Gmyy7LbpReNAbbgHuNOsPAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOICEh2iSmu54QUmNsaJdWdsh6TiRXyNPxCIRMUWq51t5vmCZYpw5GixNdQ5So3D4Hs7LRw4dhfPA7Z8xoYpsTcozSBZm3pGydnAnKKEhYCVocZzcmQzrEWr7qryimx1ynH6DgJKp2/wgEJM5qxi/sIYYXPtdWL6ef4KYAwhQ7nbf2r7Bq/le42+AAAA[0m[Pipeline] // stage
+[8mha:////4MZyk33+V/AiT4fn8n6G3pw2AKptiha+GL2FVGy8vSODAAAAph+LCAAAAAAAAP9tjTEOwjAQBM9BKWgpeYQjJKgQFa3lhheY2Bgn1l2wLyQVL+Jr/IFAJCq22llpNc8XlDnBgZKXjcM2YK6D7GLvpyYHSu0l0iAbOsuaMFN0UrtBk3XHGTWxgzmigIWCpcM6Ug7oGVaqMXdTRYO+OnGatr2CItgbPECoycwm8RfGBOtrbzPhz/NXAGPHILYMxWb3OZZvBXXnAcEAAAA=[0m[Pipeline] stage
+[8mha:////4IbAYeEfzIYrbjXur3hhLHFS6T3zmMsYQQAYadAUrpZ/AAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUDLAgpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD/s94rDCAAAA[0m[Pipeline] { (run gold nic sriov stress vm)
+[8mha:////4FPk2mTBzwof/oyzK3/Y2W4GOSwpNdCdlxh/EpNq5ACcAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiGigQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGPIUG53n9qHN27Iu42+AAAA[0m[Pipeline] sh
++ pytest /root/.jenkins/workspace/test-nic/npxtester/Tests/testNics/test_network_sriov_stress.py -m nicall -s
+============================= test session starts ==============================
+platform linux -- Python 3.6.8, pytest-6.2.4, py-1.11.0, pluggy-0.13.1
+rootdir: /root/.jenkins/workspace/test-nic/npxtester/Tests/testNics, configfile: pytest.ini
+plugins: metadata-1.11.0, html-3.1.1
+collected 3 items / 1 deselected / 2 selected
+
+../test-nic/npxtester/Tests/testNics/test_network_sriov_stress.py 2021-11-25 14:33:55 - NicTestFixture.py - [line:28] - root - INFO - Starting to run test_PI_Networking_SRIOV_StressDisableEnableFor5TimesWhenVFIsAssigned_VM_Guest[ubuntu20.04_2.img-ubuntu20.04.img]
+2021-11-25 14:33:55 - NicTestFixture.py - [line:29] - root - INFO - setup log for testing in the fixture class fbefore
+2021-11-25 14:33:55 - test_network_sriov_stress.py - [line:30] - root - INFO - SSH SUT and setup configurations in the setup function.
+2021-11-25 14:33:55 - transport.py - [line:1819] - paramiko.transport - INFO - Connected (version 2.0, client OpenSSH_8.0)
+2021-11-25 14:33:55 - transport.py - [line:1819] - paramiko.transport - INFO - Authentication (publickey) failed.
+2021-11-25 14:33:55 - transport.py - [line:1819] - paramiko.transport - INFO - Authentication (password) successful!
+2021-11-25 14:33:55 - sshInstance.py - [line:28] - root - INFO - SSH on SUT: 10.112.97.157
+2021-11-25 14:33:55 - test_network_sriov_stress.py - [line:349] - root - INFO - 
+
+********************************************************Stress Disable and Enable for 1 time when VF is Assigned VM guest.*************************************************************
+
+
+2021-11-25 14:33:58 - sshInstance.py - [line:44] - root - INFO - /opt/APP/utility/DPDK_install/dpdk-stable-20.11.1/usertools/dpdk-devbind.py -s | grep ens787f0 | awk '{print $1;}'
+2021-11-25 14:33:59 - sshInstance.py - [line:48] - root - INFO - 0000:31:00.0
+0000:31:01.0
+0000:31:01.1
+0000:31:01.2
+0000:31:01.3
+
+2021-11-25 14:34:04 - test_network_sriov_stress.py - [line:80] - root - INFO - pf_id was found: 0000:31:00.0
+0000:31:01.0
+0000:31:01.1
+0000:31:01.2
+0000:31:01.3
+
+2021-11-25 14:34:04 - test_network_sriov_stress.py - [line:357] - root - INFO - format_pf_id is 0000\:31\:00.0
+0000:31:01.0
+0000:31:01.1
+0000:31:01.2
+0000:31:01.3
+
+2021-11-25 14:34:04 - test_network_sriov_stress.py - [line:360] - root - INFO - pf_id_key: 31
+2021-11-25 14:34:09 - sshInstance.py - [line:89] - root - INFO - Activate the web console with: systemctl enable --now cockpit.socket
+This system is not registered to Red Hat Insights. See https://cloud.redhat.com/
+To register this system, run: insights-client --register
+Last login: Thu Nov 25 14:30:58 2021 from 10.239.129.147
+[root@WW30CYP10 ~]# ifconfig ens787f0 192.168.10.11
+[root@WW30CYP10 ~]# 
+2021-11-25 14:34:12 - test_network_sriov_stress.py - [line:268] - root - INFO - Successfully assigned ip to ethernet: ens787f0
+2021-11-25 14:34:15 - sshInstance.py - [line:44] - root - INFO - echo 4 > /sys/class/net/ens787f0/device/sriov_numvfs
+2021-11-25 14:34:15 - sshInstance.py - [line:48] - root - INFO - 
+2021-11-25 14:34:20 - test_network_sriov_stress.py - [line:95] - root - INFO - Successfully Virtualized PF to VFs.
+2021-11-25 14:34:23 - sshInstance.py - [line:44] - root - INFO -  lspci | grep "Virtual" | awk '{print $1;}'list
+2021-11-25 14:34:23 - sshInstance.py - [line:48] - root - INFO - 31:01.0
+31:01.1
+31:01.2
+31:01.3
+
+2021-11-25 14:34:28 - test_network_sriov_stress.py - [line:109] - root - INFO - Succssfully Gotten vf_id list:
+
+2021-11-25 14:34:31 - sshInstance.py - [line:44] - root - INFO -  modinfo vfio-pci | grep "vfio_pci" | awk '{ print $2;}'
+2021-11-25 14:34:31 - sshInstance.py - [line:48] - root - INFO - vfio_pci
+
+2021-11-25 14:34:36 - test_network_sriov_stress.py - [line:162] - root - INFO - Successfuly modeprobe vfio-pci
+2021-11-25 14:34:39 - sshInstance.py - [line:44] - root - INFO - /opt/APP/utility/DPDK_install/dpdk-stable-20.11.1/usertools/dpdk-devbind.py -b vfio-pci 31:01.0
+2021-11-25 14:34:39 - sshInstance.py - [line:48] - root - INFO - 
+2021-11-25 14:34:44 - test_network_sriov_stress.py - [line:141] - root - INFO - Successfuly bound VF to vfio-pci
+2021-11-25 14:34:47 - sshInstance.py - [line:44] - root - INFO - /opt/APP/utility/DPDK_install/dpdk-stable-20.11.1/usertools/dpdk-devbind.py -b vfio-pci 31:01.1
+2021-11-25 14:34:48 - sshInstance.py - [line:48] - root - INFO - 
+2021-11-25 14:34:53 - test_network_sriov_stress.py - [line:141] - root - INFO - Successfuly bound VF to vfio-pci
+2021-11-25 14:34:53 - test_network_sriov_stress.py - [line:381] - root - INFO - lspci -Dnn | grep 31:01.1
+2021-11-25 14:34:56 - sshInstance.py - [line:44] - root - INFO - lspci -Dnn | grep 31:01.1
+2021-11-25 14:34:56 - sshInstance.py - [line:48] - root - INFO - 0000:31:01.1 Ethernet controller [0200]: Intel Corporation Ethernet Adaptive Virtual Function [8086:1889] (rev 02)
+
+2021-11-25 14:35:01 - test_network_sriov_stress.py - [line:392] - root - INFO - Successfully get vf device id: 8086:1889
+2021-11-25 14:35:04 - sshInstance.py - [line:44] - root - INFO - virsh net-info default | grep "Active" | awk '{print $2;}'
+2021-11-25 14:35:04 - sshInstance.py - [line:48] - root - INFO - yes
+
+2021-11-25 14:35:09 - test_network_sriov_stress.py - [line:170] - root - INFO - Default network is active? yes
+
+2021-11-25 14:35:13 - sshInstance.py - [line:69] - root - INFO - virt-install --name VMtest1 --ram 4096 --cpu host --vcpus=5 ---network network=default --hostdev pci_0000_31_01_0 --boot hd --disk path=/home//image/ubuntu20.04_2.img,size=50,format=qcow2 --graphics vnc,listen=0.0.0.0,port==5900 --noautoconsole
+
+** (process:129911): [1;33mWARNING[0m **: [34m14:35:24.941[0m: Entity http://pcisig.com/pci/1B36/0100 referenced but not defined
+WARNING  No operating system detected, VM performance may suffer. Specify an OS with --os-variant for optimal results.
+
+Starting install...
+2021-11-25 14:35:16 - sshInstance.py - [line:69] - root - INFO - Domain creation completed.
+[root@WW30CYP10 ~]# 
+2021-11-25 14:35:19 - test_network_sriov_stress.py - [line:205] - root - INFO - Successfully created a VM: VMtest1
+2021-11-25 14:35:23 - sshInstance.py - [line:69] - root - INFO - virt-install --name VMtest2 --ram 4096 --cpu host --vcpus=5 ---network network=default --hostdev pci_0000_31_01_1 --boot hd --disk path=/home//image/ubuntu20.04.img,size=50,format=qcow2 --graphics vnc,listen=0.0.0.0,port=59901 --noautoconsole
+
+** (process:129989): [1;33mWARNING[0m **: [34m14:35:34.869[0m: Entity http://pcisig.com/pci/1B36/0100 referenced but not defined
+WARNING  No operating system detected, VM performance may suffer. Specify an OS with --os-variant for optimal results.
+
+Starting install...
+2021-11-25 14:35:26 - sshInstance.py - [line:69] - root - INFO - Domain creation completed.
+[root@WW30CYP10 ~]# 
+2021-11-25 14:35:29 - test_network_sriov_stress.py - [line:205] - root - INFO - Successfully created a VM: VMtest2
+2021-11-25 14:35:32 - sshInstance.py - [line:44] - root - INFO - virsh domifaddr VMtest1 | grep '192.168' | awk '{print $4;}'
+2021-11-25 14:35:33 - sshInstance.py - [line:48] - root - INFO - 
+2021-11-25 14:35:38 - test_network_sriov_stress.py - [line:221] - root - ERROR - not found IP of VMtest1
+2021-11-25 14:36:41 - sshInstance.py - [line:44] - root - INFO - virsh domifaddr VMtest1 | grep '192.168' | awk '{print $4;}'
+2021-11-25 14:36:41 - sshInstance.py - [line:48] - root - INFO - 192.168.122.145/24
+
+2021-11-25 14:36:46 - test_network_sriov_stress.py - [line:216] - root - INFO - Successfully got VMtest1 IP: 192.168.122.145/24
+
+2021-11-25 14:36:49 - sshInstance.py - [line:44] - root - INFO - virsh domifaddr VMtest2 | grep '192.168' | awk '{print $4;}'
+2021-11-25 14:36:49 - sshInstance.py - [line:48] - root - INFO - 192.168.122.122/24
+
+2021-11-25 14:36:54 - test_network_sriov_stress.py - [line:216] - root - INFO - Successfully got VMtest2 IP: 192.168.122.122/24
+
+2021-11-25 14:36:54 - test_network_sriov_stress.py - [line:409] - root - INFO - ip of VM1: 192.168.122.145
+2021-11-25 14:36:54 - test_network_sriov_stress.py - [line:410] - root - INFO - ip of VM1: 192.168.122.122
+2021-11-25 14:36:58 - sshInstance.py - [line:69] - root - INFO - ping -c 5 192.168.122.145
+PING 192.168.122.145 (192.168.122.145) 56(84) bytes of data.
+64 bytes from 192.168.122.145: icmp_seq=1 ttl=64 time=0.102 ms
+2021-11-25 14:36:59 - sshInstance.py - [line:69] - root - INFO - 64 bytes from 192.168.122.145: icmp_seq=2 ttl=64 time=0.090 ms
+2021-11-25 14:37:00 - sshInstance.py - [line:69] - root - INFO - 64 bytes from 192.168.122.145: icmp_seq=3 ttl=64 time=0.106 ms
+2021-11-25 14:37:01 - sshInstance.py - [line:69] - root - INFO - 64 bytes from 192.168.122.145: icmp_seq=4 ttl=64 time=0.100 ms
+2021-11-25 14:37:02 - sshInstance.py - [line:69] - root - INFO - 64 bytes from 192.168.122.145: icmp_seq=5 ttl=64 time=0.086 ms
+
+--- 192.168.122.145 ping statistics ---
+5 packets transmitted, 5 received, 0% packet loss, time 4090ms
+rtt min/avg/max/mdev = 0.086/0.096/0.106/0.014 ms
+[root@WW30CYP10 ~]# 
+2021-11-25 14:37:10 - sshInstance.py - [line:89] - root - INFO - ssh root@192.168.122.145
+root@192.168.122.145's password: 
+2021-11-25 14:37:18 - sshInstance.py - [line:89] - root - INFO - 
+Welcome to Ubuntu 20.04 LTS (GNU/Linux 5.4.0-26-generic x86_64)
+ * Documentation:  https://help.ubuntu.com
+ * Management:     https://landscape.canonical.com
+ * Support:        https://ubuntu.com/advantage
+  System information as of Thu 25 Nov 2021 01:37:27 AM EST
+  System load:  0.1                Processes:             142
+  Usage of /:   46.8% of 19.07GB   Users logged in:       0
+  Memory usage: 30%                IPv4 address for ens3: 192.168.122.145
+  Swap usage:   0%
+
+366 updates can be installed immediately.
+222 of these updates are security updates.
+To see these additional updates run: apt list --upgradable
+
+Last login: Thu Nov 25 01:17:30 2021 from 192.168.122.1
+root@localhost:~# 
+2021-11-25 14:37:26 - sshInstance.py - [line:89] - root - INFO - lspci -Dnn | grep "8086:1889" | awk '{print $1;}'
+0000:00:05.0
+root@localhost:~# 
+2021-11-25 14:37:32 - test_network_sriov_stress.py - [line:306] - root - INFO - successfully got vf pci id of vm1: 0000:00:05.0
+2021-11-25 14:37:37 - sshInstance.py - [line:89] - root - INFO - ls /sys/bus/pci/devices/0000\:00\:05.0/net/ --color=never
+ens5
+root@localhost:~# 
+2021-11-25 14:37:42 - test_network_sriov_stress.py - [line:317] - root - INFO - Successfully got vf device name of vm1: ens5
+2021-11-25 14:37:47 - sshInstance.py - [line:89] - root - INFO - ifconfig ens5 192.168.10.12
+root@localhost:~# 
+2021-11-25 14:37:50 - test_network_sriov_stress.py - [line:268] - root - INFO - Successfully assigned ip to ethernet: ens5
+2021-11-25 14:37:55 - sshInstance.py - [line:89] - root - INFO - ifconfig ens5 down
+root@localhost:~# 
+2021-11-25 14:38:03 - sshInstance.py - [line:89] - root - INFO - ifconfig ens5 hw ether 1234567890ac
+root@localhost:~# 
+2021-11-25 14:38:11 - sshInstance.py - [line:89] - root - INFO - ifconfig ens5 up
+root@localhost:~# 
+2021-11-25 14:38:19 - sshInstance.py - [line:89] - root - INFO - nmcli device connect ens5
+Command 'nmcli' not found, but can be installed with:
+apt install network-manager
+root@localhost:~# 
+2021-11-25 14:38:27 - sshInstance.py - [line:89] - root - INFO - ifconfig ens5
+ens5: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        inet 192.168.10.12  netmask 255.255.255.0  broadcast 192.168.10.255
+        inet6 fe80::1034:56ff:fe78:90ac  prefixlen 64  scopeid 0x20<link>
+        ether 12:34:56:78:90:ac  txqueuelen 1000  (Ethernet)
+        RX packets 4  bytes 1384 (1.3 KB)
+        RX errors 0  dropped 3  overruns 0  frame 0
+        TX packets 8  bytes 696 (696.0 B)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+root@localhost:~# 
+2021-11-25 14:38:35 - sshInstance.py - [line:89] - root - INFO - exit
+logout
+Connection to 192.168.122.145 closed.
+[root@WW30CYP10 ~]# 
+2021-11-25 14:38:42 - sshInstance.py - [line:69] - root - INFO - ping -c 5 192.168.122.122
+PING 192.168.122.122 (192.168.122.122) 56(84) bytes of data.
+64 bytes from 192.168.122.122: icmp_seq=1 ttl=64 time=0.129 ms
+2021-11-25 14:38:43 - sshInstance.py - [line:69] - root - INFO - 64 bytes from 192.168.122.122: icmp_seq=2 ttl=64 time=0.100 ms
+2021-11-25 14:38:44 - sshInstance.py - [line:69] - root - INFO - 64 bytes from 192.168.122.122: icmp_seq=3 ttl=64 time=0.092 ms
+2021-11-25 14:38:45 - sshInstance.py - [line:69] - root - INFO - 64 bytes from 192.168.122.122: icmp_seq=4 ttl=64 time=0.100 ms
+2021-11-25 14:38:46 - sshInstance.py - [line:69] - root - INFO - 64 bytes from 192.168.122.122: icmp_seq=5 ttl=64 time=0.108 ms
+
+--- 192.168.122.122 ping statistics ---
+5 packets transmitted, 5 received, 0% packet loss, time 4105ms
+rtt min/avg/max/mdev = 0.092/0.105/0.129/0.018 ms
+[root@WW30CYP10 ~]# 
+2021-11-25 14:38:54 - sshInstance.py - [line:89] - root - INFO - ssh root@192.168.122.122
+root@192.168.122.122's password: 
+2021-11-25 14:39:02 - sshInstance.py - [line:89] - root - INFO - 
+Welcome to Ubuntu 20.04 LTS (GNU/Linux 5.4.0-26-generic x86_64)
+ * Documentation:  https://help.ubuntu.com
+ * Management:     https://landscape.canonical.com
+ * Support:        https://ubuntu.com/advantage
+  System information as of Thu 25 Nov 2021 01:39:10 AM EST
+  System load:  0.02               Processes:             136
+  Usage of /:   47.2% of 19.07GB   Users logged in:       0
+  Memory usage: 30%                IPv4 address for ens3: 192.168.122.122
+  Swap usage:   0%
+
+366 updates can be installed immediately.
+222 of these updates are security updates.
+To see these additional updates run: apt list --upgradable
+
+Last login: Thu Nov 25 01:19:14 2021 from 192.168.122.1
+root@localhost:~# 
+2021-11-25 14:39:10 - sshInstance.py - [line:89] - root - INFO - lspci -Dnn | grep "8086:1889" | awk '{print $1;}'
+0000:00:05.0
+root@localhost:~# 
+2021-11-25 14:39:16 - test_network_sriov_stress.py - [line:306] - root - INFO - successfully got vf pci id of vm1: 0000:00:05.0
+2021-11-25 14:39:21 - sshInstance.py - [line:89] - root - INFO - ls /sys/bus/pci/devices/0000\:00\:05.0/net/ --color=never
+ens5
+root@localhost:~# 
+2021-11-25 14:39:26 - test_network_sriov_stress.py - [line:317] - root - INFO - Successfully got vf device name of vm1: ens5
+2021-11-25 14:39:31 - sshInstance.py - [line:89] - root - INFO - ifconfig ens5 192.168.10.13
+root@localhost:~# 
+2021-11-25 14:39:34 - test_network_sriov_stress.py - [line:268] - root - INFO - Successfully assigned ip to ethernet: ens5
+2021-11-25 14:39:39 - sshInstance.py - [line:89] - root - INFO - ifconfig ens5 down
+root@localhost:~# 
+2021-11-25 14:39:47 - sshInstance.py - [line:89] - root - INFO - ifconfig ens5 hw ether 1234567890ab
+root@localhost:~# 
+2021-11-25 14:39:55 - sshInstance.py - [line:89] - root - INFO - ifconfig ens5 up
+root@localhost:~# 
+2021-11-25 14:40:03 - sshInstance.py - [line:89] - root - INFO - nmcli device connect ens5
+Command 'nmcli' not found, but can be installed with:
+apt install network-manager
+root@localhost:~# 
+2021-11-25 14:40:11 - sshInstance.py - [line:89] - root - INFO - ifconfig ens5
+ens5: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        inet 192.168.10.13  netmask 255.255.255.0  broadcast 192.168.10.255
+        inet6 fe80::1034:56ff:fe78:90ab  prefixlen 64  scopeid 0x20<link>
+        ether 12:34:56:78:90:ab  txqueuelen 1000  (Ethernet)
+        RX packets 1  bytes 342 (342.0 B)
+        RX errors 0  dropped 1  overruns 0  frame 0
+        TX packets 8  bytes 696 (696.0 B)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+root@localhost:~# 
+2021-11-25 14:40:19 - sshInstance.py - [line:89] - root - INFO - exit
+logout
+Connection to 192.168.122.122 closed.
+[root@WW30CYP10 ~]# 
+2021-11-25 14:40:22 - test_network_sriov_stress.py - [line:428] - root - INFO - Ping two vms IP from SUT:
+2021-11-25 14:40:26 - sshInstance.py - [line:69] - root - INFO - ping -c 5 192.168.10.12
+PING 192.168.10.12 (192.168.10.12) 56(84) bytes of data.
+64 bytes from 192.168.10.12: icmp_seq=1 ttl=64 time=9.23 ms
+2021-11-25 14:40:27 - sshInstance.py - [line:69] - root - INFO - 64 bytes from 192.168.10.12: icmp_seq=2 ttl=64 time=0.061 ms
+2021-11-25 14:40:28 - sshInstance.py - [line:69] - root - INFO - 64 bytes from 192.168.10.12: icmp_seq=3 ttl=64 time=0.038 ms
+2021-11-25 14:40:29 - sshInstance.py - [line:69] - root - INFO - 64 bytes from 192.168.10.12: icmp_seq=4 ttl=64 time=0.054 ms
+2021-11-25 14:40:30 - sshInstance.py - [line:69] - root - INFO - 64 bytes from 192.168.10.12: icmp_seq=5 ttl=64 time=0.039 ms
+
+--- 192.168.10.12 ping statistics ---
+5 packets transmitted, 5 received, 0% packet loss, time 4052ms
+rtt min/avg/max/mdev = 0.038/1.884/9.231/3.673 ms
+[root@WW30CYP10 ~]# 
+2021-11-25 14:40:37 - sshInstance.py - [line:69] - root - INFO - ping -c 5 192.168.10.13
+PING 192.168.10.13 (192.168.10.13) 56(84) bytes of data.
+64 bytes from 192.168.10.13: icmp_seq=1 ttl=64 time=0.032 ms
+2021-11-25 14:40:38 - sshInstance.py - [line:69] - root - INFO - 64 bytes from 192.168.10.13: icmp_seq=2 ttl=64 time=0.012 ms
+2021-11-25 14:40:39 - sshInstance.py - [line:69] - root - INFO - 64 bytes from 192.168.10.13: icmp_seq=3 ttl=64 time=0.009 ms
+2021-11-25 14:40:40 - sshInstance.py - [line:69] - root - INFO - 64 bytes from 192.168.10.13: icmp_seq=4 ttl=64 time=0.010 ms
+2021-11-25 14:40:41 - sshInstance.py - [line:69] - root - INFO - 64 bytes from 192.168.10.13: icmp_seq=5 ttl=64 time=0.008 ms
+
+--- 192.168.10.13 ping statistics ---
+5 packets transmitted, 5 received, 0% packet loss, time 4111ms
+rtt min/avg/max/mdev = 0.008/0.014/0.032/0.009 ms
+[root@WW30CYP10 ~]# 
+2021-11-25 14:40:44 - test_network_sriov_stress.py - [line:436] - root - INFO - ping VMtest2 IP from VMtest1
+2021-11-25 14:40:48 - sshInstance.py - [line:69] - root - INFO - ping -c 5 192.168.122.145
+PING 192.168.122.145 (192.168.122.145) 56(84) bytes of data.
+64 bytes from 192.168.122.145: icmp_seq=1 ttl=64 time=0.166 ms
+2021-11-25 14:40:49 - sshInstance.py - [line:69] - root - INFO - 64 bytes from 192.168.122.145: icmp_seq=2 ttl=64 time=0.078 ms
+2021-11-25 14:40:50 - sshInstance.py - [line:69] - root - INFO - 64 bytes from 192.168.122.145: icmp_seq=3 ttl=64 time=0.074 ms
+2021-11-25 14:40:51 - sshInstance.py - [line:69] - root - INFO - 64 bytes from 192.168.122.145: icmp_seq=4 ttl=64 time=0.096 ms
+2021-11-25 14:40:52 - sshInstance.py - [line:69] - root - INFO - 64 bytes from 192.168.122.145: icmp_seq=5 ttl=64 time=0.074 ms
+
+--- 192.168.122.145 ping statistics ---
+5 packets transmitted, 5 received, 0% packet loss, time 4107ms
+rtt min/avg/max/mdev = 0.074/0.097/0.166/0.036 ms
+[root@WW30CYP10 ~]# 
+2021-11-25 14:41:00 - sshInstance.py - [line:89] - root - INFO - ssh root@192.168.122.145
+root@192.168.122.145's password: 
+2021-11-25 14:41:08 - sshInstance.py - [line:89] - root - INFO - 
+Welcome to Ubuntu 20.04 LTS (GNU/Linux 5.4.0-26-generic x86_64)
+ * Documentation:  https://help.ubuntu.com
+ * Management:     https://landscape.canonical.com
+ * Support:        https://ubuntu.com/advantage
+  System information as of Thu 25 Nov 2021 01:41:17 AM EST
+  System load:  0.0                Processes:             129
+  Usage of /:   46.8% of 19.07GB   Users logged in:       0
+  Memory usage: 30%                IPv4 address for ens3: 192.168.122.145
+  Swap usage:   0%                 IPv4 address for ens5: 192.168.10.12
+
+366 updates can be installed immediately.
+222 of these updates are security updates.
+To see these additional updates run: apt list --upgradable
+
+Last login: Thu Nov 25 01:37:27 2021 from 192.168.122.1
+root@localhost:~# 
+2021-11-25 14:41:15 - sshInstance.py - [line:69] - root - INFO - ping -c 5 192.168.10.13
+PING 192.168.10.13 (192.168.10.13) 56(84) bytes of data.
+64 bytes from 192.168.10.13: icmp_seq=1 ttl=64 time=0.190 ms
+2021-11-25 14:41:16 - sshInstance.py - [line:69] - root - INFO - 64 bytes from 192.168.10.13: icmp_seq=2 ttl=64 time=0.039 ms
+2021-11-25 14:41:17 - sshInstance.py - [line:69] - root - INFO - 64 bytes from 192.168.10.13: icmp_seq=3 ttl=64 time=0.035 ms
+2021-11-25 14:41:18 - sshInstance.py - [line:69] - root - INFO - 64 bytes from 192.168.10.13: icmp_seq=4 ttl=64 time=0.032 ms
+2021-11-25 14:41:19 - sshInstance.py - [line:69] - root - INFO - 64 bytes from 192.168.10.13: icmp_seq=5 ttl=64 time=0.032 ms
+
+--- 192.168.10.13 ping statistics ---
+5 packets transmitted, 5 received, 0% packet loss, time 4104ms
+rtt min/avg/max/mdev = 0.032/0.065/0.190/0.062 ms
+root@localhost:~# 
+2021-11-25 14:41:58 - sshInstance.py - [line:89] - root - INFO - exit
+logout
+Connection to 192.168.122.145 closed.
+[root@WW30CYP10 ~]# 
+2021-11-25 14:42:01 - test_network_sriov_stress.py - [line:444] - root - INFO - ping VMtest2 IP from VMtest1
+2021-11-25 14:42:05 - sshInstance.py - [line:69] - root - INFO - ping -c 5 -I 192.168.10.11 192.168.10.10
+PING 192.168.10.10 (192.168.10.10) from 192.168.10.11 : 56(84) bytes of data.
+64 bytes from 192.168.10.10: icmp_seq=1 ttl=64 time=0.039 ms
+2021-11-25 14:42:06 - sshInstance.py - [line:69] - root - INFO - 64 bytes from 192.168.10.10: icmp_seq=2 ttl=64 time=0.011 ms
+2021-11-25 14:42:07 - sshInstance.py - [line:69] - root - INFO - 64 bytes from 192.168.10.10: icmp_seq=3 ttl=64 time=0.017 ms
+2021-11-25 14:42:08 - sshInstance.py - [line:69] - root - INFO - 64 bytes from 192.168.10.10: icmp_seq=4 ttl=64 time=0.010 ms
+2021-11-25 14:42:09 - sshInstance.py - [line:69] - root - INFO - 64 bytes from 192.168.10.10: icmp_seq=5 ttl=64 time=0.008 ms
+
+--- 192.168.10.10 ping statistics ---
+5 packets transmitted, 5 received, 0% packet loss, time 4081ms
+rtt min/avg/max/mdev = 0.008/0.017/0.039/0.011 ms
+[root@WW30CYP10 ~]# 
+2021-11-25 14:42:15 - sshInstance.py - [line:44] - root - INFO - echo 0 > /sys/class/net/ens787f0/device/sriov_numvfs
+2021-11-25 14:42:17 - sshInstance.py - [line:48] - root - INFO - 
+2021-11-25 14:42:22 - test_network_sriov_stress.py - [line:237] - root - INFO - Successfully removed VFs from PF.
+2021-11-25 14:42:25 - sshInstance.py - [line:44] - root - INFO - virsh destroy VMtest1
+2021-11-25 14:42:26 - sshInstance.py - [line:48] - root - INFO - Domain VMtest1 destroyed
+
+
+2021-11-25 14:42:31 - test_network_sriov_stress.py - [line:247] - root - INFO - Successfully shut down the VM: VMtest1
+2021-11-25 14:42:34 - sshInstance.py - [line:44] - root - INFO - virsh undefine VMtest1
+2021-11-25 14:42:34 - sshInstance.py - [line:48] - root - INFO - Domain VMtest1 has been undefined
+
+
+2021-11-25 14:42:39 - test_network_sriov_stress.py - [line:254] - root - INFO - Successfully removed the VM: VMtest1
+2021-11-25 14:42:42 - sshInstance.py - [line:44] - root - INFO - virsh destroy VMtest2
+2021-11-25 14:42:43 - sshInstance.py - [line:48] - root - INFO - Domain VMtest2 destroyed
+
+
+2021-11-25 14:42:48 - test_network_sriov_stress.py - [line:247] - root - INFO - Successfully shut down the VM: VMtest2
+2021-11-25 14:42:51 - sshInstance.py - [line:44] - root - INFO - virsh undefine VMtest2
+2021-11-25 14:42:51 - sshInstance.py - [line:48] - root - INFO - Domain VMtest2 has been undefined
+
+
+2021-11-25 14:42:56 - test_network_sriov_stress.py - [line:254] - root - INFO - Successfully removed the VM: VMtest2
+2021-11-25 14:42:56 - test_network_sriov_stress.py - [line:349] - root - INFO - 
+
+********************************************************Stress Disable and Enable for 2 time when VF is Assigned VM guest.*************************************************************
+
+
+2021-11-25 14:42:59 - sshInstance.py - [line:44] - root - INFO - /opt/APP/utility/DPDK_install/dpdk-stable-20.11.1/usertools/dpdk-devbind.py -s | grep ens787f0 | awk '{print $1;}'
+2021-11-25 14:42:59 - sshInstance.py - [line:48] - root - INFO - 0000:31:00.0
+
+2021-11-25 14:43:04 - test_network_sriov_stress.py - [line:80] - root - INFO - pf_id was found: 0000:31:00.0
+
+2021-11-25 14:43:04 - test_network_sriov_stress.py - [line:357] - root - INFO - format_pf_id is 0000\:31\:00.0
+
+2021-11-25 14:43:04 - test_network_sriov_stress.py - [line:360] - root - INFO - pf_id_key: 31
+2021-11-25 14:43:09 - sshInstance.py - [line:89] - root - INFO - ifconfig ens787f0 192.168.10.11
+[root@WW30CYP10 ~]# 
+2021-11-25 14:43:12 - test_network_sriov_stress.py - [line:268] - root - INFO - Successfully assigned ip to ethernet: ens787f0
+2021-11-25 14:43:15 - sshInstance.py - [line:44] - root - INFO - echo 4 > /sys/class/net/ens787f0/device/sriov_numvfs
+2021-11-25 14:43:16 - sshInstance.py - [line:48] - root - INFO - 
+2021-11-25 14:43:21 - test_network_sriov_stress.py - [line:95] - root - INFO - Successfully Virtualized PF to VFs.
+2021-11-25 14:43:24 - sshInstance.py - [line:44] - root - INFO -  lspci | grep "Virtual" | awk '{print $1;}'list
+2021-11-25 14:43:24 - sshInstance.py - [line:48] - root - INFO - 31:01.0
+31:01.1
+31:01.2
+31:01.3
+
+2021-11-25 14:43:29 - test_network_sriov_stress.py - [line:109] - root - INFO - Succssfully Gotten vf_id list:
+
+2021-11-25 14:43:32 - sshInstance.py - [line:44] - root - INFO -  modinfo vfio-pci | grep "vfio_pci" | awk '{ print $2;}'
+2021-11-25 14:43:32 - sshInstance.py - [line:48] - root - INFO - vfio_pci
+
+2021-11-25 14:43:37 - test_network_sriov_stress.py - [line:162] - root - INFO - Successfuly modeprobe vfio-pci
+2021-11-25 14:43:40 - sshInstance.py - [line:44] - root - INFO - /opt/APP/utility/DPDK_install/dpdk-stable-20.11.1/usertools/dpdk-devbind.py -b vfio-pci 31:01.0
+2021-11-25 14:43:40 - sshInstance.py - [line:48] - root - INFO - 
+2021-11-25 14:43:46 - test_network_sriov_stress.py - [line:141] - root - INFO - Successfuly bound VF to vfio-pci
+2021-11-25 14:43:49 - sshInstance.py - [line:44] - root - INFO - /opt/APP/utility/DPDK_install/dpdk-stable-20.11.1/usertools/dpdk-devbind.py -b vfio-pci 31:01.1
+2021-11-25 14:43:49 - sshInstance.py - [line:48] - root - INFO - 
+2021-11-25 14:43:54 - test_network_sriov_stress.py - [line:141] - root - INFO - Successfuly bound VF to vfio-pci
+2021-11-25 14:43:54 - test_network_sriov_stress.py - [line:381] - root - INFO - lspci -Dnn | grep 31:01.1
+2021-11-25 14:43:57 - sshInstance.py - [line:44] - root - INFO - lspci -Dnn | grep 31:01.1
+2021-11-25 14:43:57 - sshInstance.py - [line:48] - root - INFO - 0000:31:01.1 Ethernet controller [0200]: Intel Corporation Ethernet Adaptive Virtual Function [8086:1889] (rev 02)
+
+2021-11-25 14:44:02 - test_network_sriov_stress.py - [line:392] - root - INFO - Successfully get vf device id: 8086:1889
+2021-11-25 14:44:05 - sshInstance.py - [line:44] - root - INFO - virsh net-info default | grep "Active" | awk '{print $2;}'
+2021-11-25 14:44:05 - sshInstance.py - [line:48] - root - INFO - yes
+
+2021-11-25 14:44:10 - test_network_sriov_stress.py - [line:170] - root - INFO - Default network is active? yes
+
+2021-11-25 14:44:14 - sshInstance.py - [line:69] - root - INFO - virt-install --name VMtest1 --ram 4096 --cpu host --vcpus=5 ---network network=default --hostdev pci_0000_31_01_0 --boot hd --disk path=/home//image/ubuntu20.04_2.img,size=50,format=qcow2 --graphics vnc,listen=0.0.0.0,port==5900 --noautoconsole
+
+** (process:131207): [1;33mWARNING[0m **: [34m14:44:25.789[0m: Entity http://pcisig.com/pci/1B36/0100 referenced but not defined
+WARNING  No operating system detected, VM performance may suffer. Specify an OS with --os-variant for optimal results.
+
+Starting install...
+ERROR    Requested operation is not valid: PCI device 0000:31:01.0 is in use by driver QEMU, domain VMtest1
+Domain installation does not appear to have been successful.
+If it was, you can restart your domain by running:
+  virsh --connect qemu:///system start VMtest1
+otherwise, please restart your installation.
+[root@WW30CYP10 ~]# 
+2021-11-25 14:44:17 - test_network_sriov_stress.py - [line:202] - root - ERROR - Failed to create a VM: virt-install --name VMtest1 --ram 4096 --cpu host --vcpus=5 ---network network=default --hostdev pci_0000_31_01_0 --boot hd --disk path=/home//image/ubuntu20.04_2.img,size=50,format=qcow2 --graphics vnc,listen=0.0.0.0,port==5900 --noautoconsole
+
+** (process:131207): [1;33mWARNING[0m **: [34m14:44:25.789[0m: Entity http://pcisig.com/pci/1B36/0100 referenced but not defined
+WARNING  No operating system detected, VM performance may suffer. Specify an OS with --os-variant for optimal results.
+
+Starting install...
+ERROR    Requested operation is not valid: PCI device 0000:31:01.0 is in use by driver QEMU, domain VMtest1
+Domain installation does not appear to have been successful.
+If it was, you can restart your domain by running:
+  virsh --connect qemu:///system start VMtest1
+otherwise, please restart your installation.
+[root@WW30CYP10 ~]# 
+2021-11-25 14:44:17 - test_network_sriov_stress.py - [line:203] - root - ERROR - Failed to create a VM: 
+2021-11-25 14:44:21 - sshInstance.py - [line:69] - root - INFO - virt-install --name VMtest1 --ram 4096 --cpu host --vcpus=5 ---network network=default --hostdev pci_0000_31_01_0 --boot hd --disk path=/home//image/ubuntu20.04_2.img,size=50,format=qcow2 --graphics vnc,listen=0.0.0.0,port==5900 --noautoconsole
+
+** (process:131265): [1;33mWARNING[0m **: [34m14:44:32.793[0m: Entity http://pcisig.com/pci/1B36/0100 referenced but not defined
+WARNING  No operating system detected, VM performance may suffer. Specify an OS with --os-variant for optimal results.
+
+Starting install...
+2021-11-25 14:44:24 - sshInstance.py - [line:69] - root - INFO - Domain creation completed.
+[root@WW30CYP10 ~]# 
+2021-11-25 14:44:27 - test_network_sriov_stress.py - [line:205] - root - INFO - Successfully created a VM: VMtest1
+2021-11-25 14:44:31 - sshInstance.py - [line:69] - root - INFO - virt-install --name VMtest2 --ram 4096 --cpu host --vcpus=5 ---network network=default --hostdev pci_0000_31_01_1 --boot hd --disk path=/home//image/ubuntu20.04.img,size=50,format=qcow2 --graphics vnc,listen=0.0.0.0,port=59901 --noautoconsole
+
+** (process:131330): [1;33mWARNING[0m **: [34m14:44:42.800[0m: Entity http://pcisig.com/pci/1B36/0100 referenced but not defined
+WARNING  No operating system detected, VM performance may suffer. Specify an OS with --os-variant for optimal results.
+
+Starting install...
+ERROR    Requested operation is not valid: PCI device 0000:31:01.1 is in use by driver QEMU, domain VMtest2
+Domain installation does not appear to have been successful.
+If it was, you can restart your domain by running:
+  virsh --connect qemu:///system start VMtest2
+otherwise, please restart your installation.
+[root@WW30CYP10 ~]# 
+2021-11-25 14:44:34 - test_network_sriov_stress.py - [line:202] - root - ERROR - Failed to create a VM: virt-install --name VMtest2 --ram 4096 --cpu host --vcpus=5 ---network network=default --hostdev pci_0000_31_01_1 --boot hd --disk path=/home//image/ubuntu20.04.img,size=50,format=qcow2 --graphics vnc,listen=0.0.0.0,port=59901 --noautoconsole
+
+** (process:131330): [1;33mWARNING[0m **: [34m14:44:42.800[0m: Entity http://pcisig.com/pci/1B36/0100 referenced but not defined
+WARNING  No operating system detected, VM performance may suffer. Specify an OS with --os-variant for optimal results.
+
+Starting install...
+ERROR    Requested operation is not valid: PCI device 0000:31:01.1 is in use by driver QEMU, domain VMtest2
+Domain installation does not appear to have been successful.
+If it was, you can restart your domain by running:
+  virsh --connect qemu:///system start VMtest2
+otherwise, please restart your installation.
+[root@WW30CYP10 ~]# 
+2021-11-25 14:44:34 - test_network_sriov_stress.py - [line:203] - root - ERROR - Failed to create a VM: 
+2021-11-25 14:44:38 - sshInstance.py - [line:69] - root - INFO - virt-install --name VMtest2 --ram 4096 --cpu host --vcpus=5 ---network network=default --hostdev pci_0000_31_01_1 --boot hd --disk path=/home//image/ubuntu20.04.img,size=50,format=qcow2 --graphics vnc,listen=0.0.0.0,port=59901 --noautoconsole
+
+** (process:131392): [1;33mWARNING[0m **: [34m14:44:49.799[0m: Entity http://pcisig.com/pci/1B36/0100 referenced but not defined
+WARNING  No operating system detected, VM performance may suffer. Specify an OS with --os-variant for optimal results.
+
+Starting install...
+2021-11-25 14:44:41 - sshInstance.py - [line:69] - root - INFO - Domain creation completed.
+[root@WW30CYP10 ~]# 
+2021-11-25 14:44:44 - test_network_sriov_stress.py - [line:205] - root - INFO - Successfully created a VM: VMtest2
+2021-11-25 14:44:47 - sshInstance.py - [line:44] - root - INFO - virsh domifaddr VMtest1 | grep '192.168' | awk '{print $4;}'
+2021-11-25 14:44:48 - sshInstance.py - [line:48] - root - INFO - 
+2021-11-25 14:44:53 - test_network_sriov_stress.py - [line:221] - root - ERROR - not found IP of VMtest1
+2021-11-25 14:45:56 - sshInstance.py - [line:44] - root - INFO - virsh domifaddr VMtest1 | grep '192.168' | awk '{print $4;}'
+2021-11-25 14:45:56 - sshInstance.py - [line:48] - root - INFO - 192.168.122.145/24
+
+2021-11-25 14:46:01 - test_network_sriov_stress.py - [line:216] - root - INFO - Successfully got VMtest1 IP: 192.168.122.145/24
+
+2021-11-25 14:46:04 - sshInstance.py - [line:44] - root - INFO - virsh domifaddr VMtest2 | grep '192.168' | awk '{print $4;}'
+2021-11-25 14:46:04 - sshInstance.py - [line:48] - root - INFO - 192.168.122.122/24
+
+2021-11-25 14:46:09 - test_network_sriov_stress.py - [line:216] - root - INFO - Successfully got VMtest2 IP: 192.168.122.122/24
+
+2021-11-25 14:46:09 - test_network_sriov_stress.py - [line:409] - root - INFO - ip of VM1: 192.168.122.145
+2021-11-25 14:46:09 - test_network_sriov_stress.py - [line:410] - root - INFO - ip of VM1: 192.168.122.122
+2021-11-25 14:46:13 - sshInstance.py - [line:69] - root - INFO - ping -c 5 192.168.122.145
+PING 192.168.122.145 (192.168.122.145) 56(84) bytes of data.
+64 bytes from 192.168.122.145: icmp_seq=1 ttl=64 time=0.121 ms
+2021-11-25 14:46:14 - sshInstance.py - [line:69] - root - INFO - 64 bytes from 192.168.122.145: icmp_seq=2 ttl=64 time=0.120 ms
+2021-11-25 14:46:15 - sshInstance.py - [line:69] - root - INFO - 64 bytes from 192.168.122.145: icmp_seq=3 ttl=64 time=0.075 ms
+2021-11-25 14:46:16 - sshInstance.py - [line:69] - root - INFO - 64 bytes from 192.168.122.145: icmp_seq=4 ttl=64 time=0.099 ms
+2021-11-25 14:46:17 - sshInstance.py - [line:69] - root - INFO - 64 bytes from 192.168.122.145: icmp_seq=5 ttl=64 time=0.075 ms
+
+--- 192.168.122.145 ping statistics ---
+5 packets transmitted, 5 received, 0% packet loss, time 4089ms
+rtt min/avg/max/mdev = 0.075/0.098/0.121/0.020 ms
+[root@WW30CYP10 ~]# 
+2021-11-25 14:46:25 - sshInstance.py - [line:89] - root - INFO - ssh root@192.168.122.145
+root@192.168.122.145's password: 
+2021-11-25 14:46:33 - sshInstance.py - [line:89] - root - INFO - 
+Welcome to Ubuntu 20.04 LTS (GNU/Linux 5.4.0-26-generic x86_64)
+ * Documentation:  https://help.ubuntu.com
+ * Management:     https://landscape.canonical.com
+ * Support:        https://ubuntu.com/advantage
+  System information as of Thu 25 Nov 2021 01:46:42 AM EST
+  System load:  0.03               Processes:             134
+  Usage of /:   46.9% of 19.07GB   Users logged in:       0
+  Memory usage: 30%                IPv4 address for ens3: 192.168.122.145
+  Swap usage:   0%
+
+366 updates can be installed immediately.
+222 of these updates are security updates.
+To see these additional updates run: apt list --upgradable
+
+Last login: Thu Nov 25 01:41:17 2021 from 192.168.122.1
+root@localhost:~# 
+2021-11-25 14:46:41 - sshInstance.py - [line:89] - root - INFO - lspci -Dnn | grep "8086:1889" | awk '{print $1;}'
+0000:00:05.0
+root@localhost:~# 
+2021-11-25 14:46:47 - test_network_sriov_stress.py - [line:306] - root - INFO - successfully got vf pci id of vm1: 0000:00:05.0
+2021-11-25 14:46:52 - sshInstance.py - [line:89] - root - INFO - ls /sys/bus/pci/devices/0000\:00\:05.0/net/ --color=never
+ens5
+root@localhost:~# 
+2021-11-25 14:46:57 - test_network_sriov_stress.py - [line:317] - root - INFO - Successfully got vf device name of vm1: ens5
+2021-11-25 14:47:02 - sshInstance.py - [line:89] - root - INFO - ifconfig ens5 192.168.10.12
+root@localhost:~# 
+2021-11-25 14:47:05 - test_network_sriov_stress.py - [line:268] - root - INFO - Successfully assigned ip to ethernet: ens5
+2021-11-25 14:47:10 - sshInstance.py - [line:89] - root - INFO - ifconfig ens5 down
+root@localhost:~# 
+2021-11-25 14:47:18 - sshInstance.py - [line:89] - root - INFO - ifconfig ens5 hw ether 1234567890ac
+root@localhost:~# 
+2021-11-25 14:47:26 - sshInstance.py - [line:89] - root - INFO - ifconfig ens5 up
+root@localhost:~# 
+2021-11-25 14:47:34 - sshInstance.py - [line:89] - root - INFO - nmcli device connect ens5
+Command 'nmcli' not found, but can be installed with:
+apt install network-manager
+root@localhost:~# 
+2021-11-25 14:47:42 - sshInstance.py - [line:89] - root - INFO - ifconfig ens5
+ens5: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        inet 192.168.10.12  netmask 255.255.255.0  broadcast 192.168.10.255
+        inet6 fe80::1034:56ff:fe78:90ac  prefixlen 64  scopeid 0x20<link>
+        ether 12:34:56:78:90:ac  txqueuelen 1000  (Ethernet)
+        RX packets 0  bytes 0 (0.0 B)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 9  bytes 766 (766.0 B)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+root@localhost:~# 
+2021-11-25 14:47:50 - sshInstance.py - [line:89] - root - INFO - exit
+logout
+Connection to 192.168.122.145 closed.
+[root@WW30CYP10 ~]# 
+2021-11-25 14:47:57 - sshInstance.py - [line:69] - root - INFO - ping -c 5 192.168.122.122
+PING 192.168.122.122 (192.168.122.122) 56(84) bytes of data.
+64 bytes from 192.168.122.122: icmp_seq=1 ttl=64 time=0.188 ms
+2021-11-25 14:47:58 - sshInstance.py - [line:69] - root - INFO - 64 bytes from 192.168.122.122: icmp_seq=2 ttl=64 time=0.110 ms
+2021-11-25 14:47:59 - sshInstance.py - [line:69] - root - INFO - 64 bytes from 192.168.122.122: icmp_seq=3 ttl=64 time=0.097 ms
+2021-11-25 14:48:00 - sshInstance.py - [line:69] - root - INFO - 64 bytes from 192.168.122.122: icmp_seq=4 ttl=64 time=0.138 ms
+2021-11-25 14:48:01 - sshInstance.py - [line:69] - root - INFO - 64 bytes from 192.168.122.122: icmp_seq=5 ttl=64 time=0.115 ms
+
+--- 192.168.122.122 ping statistics ---
+5 packets transmitted, 5 received, 0% packet loss, time 4101ms
+rtt min/avg/max/mdev = 0.097/0.129/0.188/0.034 ms
+[root@WW30CYP10 ~]# 
+2021-11-25 14:48:09 - sshInstance.py - [line:89] - root - INFO - ssh root@192.168.122.122
+root@192.168.122.122's password: 
+2021-11-25 14:48:17 - sshInstance.py - [line:89] - root - INFO - 
+Welcome to Ubuntu 20.04 LTS (GNU/Linux 5.4.0-26-generic x86_64)
+ * Documentation:  https://help.ubuntu.com
+ * Management:     https://landscape.canonical.com
+ * Support:        https://ubuntu.com/advantage
+  System information as of Thu 25 Nov 2021 01:48:25 AM EST
+  System load:  0.04               Processes:             137
+  Usage of /:   47.2% of 19.07GB   Users logged in:       0
+  Memory usage: 30%                IPv4 address for ens3: 192.168.122.122
+  Swap usage:   0%
+
+366 updates can be installed immediately.
+222 of these updates are security updates.
+To see these additional updates run: apt list --upgradable
+
+Last login: Thu Nov 25 01:39:11 2021 from 192.168.122.1
+root@localhost:~# 
+2021-11-25 14:48:25 - sshInstance.py - [line:89] - root - INFO - lspci -Dnn | grep "8086:1889" | awk '{print $1;}'
+0000:00:05.0
+root@localhost:~# 
+2021-11-25 14:48:31 - test_network_sriov_stress.py - [line:306] - root - INFO - successfully got vf pci id of vm1: 0000:00:05.0
+2021-11-25 14:48:36 - sshInstance.py - [line:89] - root - INFO - ls /sys/bus/pci/devices/0000\:00\:05.0/net/ --color=never
+ens5
+root@localhost:~# 
+2021-11-25 14:48:41 - test_network_sriov_stress.py - [line:317] - root - INFO - Successfully got vf device name of vm1: ens5
+2021-11-25 14:48:46 - sshInstance.py - [line:89] - root - INFO - ifconfig ens5 192.168.10.13
+root@localhost:~# 
+2021-11-25 14:48:49 - test_network_sriov_stress.py - [line:268] - root - INFO - Successfully assigned ip to ethernet: ens5
+2021-11-25 14:48:54 - sshInstance.py - [line:89] - root - INFO - ifconfig ens5 down
+root@localhost:~# 
+2021-11-25 14:49:02 - sshInstance.py - [line:89] - root - INFO - ifconfig ens5 hw ether 1234567890ab
+root@localhost:~# 
+2021-11-25 14:49:10 - sshInstance.py - [line:89] - root - INFO - ifconfig ens5 up
+root@localhost:~# 
+2021-11-25 14:49:18 - sshInstance.py - [line:89] - root - INFO - nmcli device connect ens5
+Command 'nmcli' not found, but can be installed with:
+apt install network-manager
+root@localhost:~# 
+2021-11-25 14:49:26 - sshInstance.py - [line:89] - root - INFO - ifconfig ens5
+ens5: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        inet 192.168.10.13  netmask 255.255.255.0  broadcast 192.168.10.255
+        inet6 fe80::1034:56ff:fe78:90ab  prefixlen 64  scopeid 0x20<link>
+        ether 12:34:56:78:90:ab  txqueuelen 1000  (Ethernet)
+        RX packets 0  bytes 0 (0.0 B)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 9  bytes 766 (766.0 B)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+root@localhost:~# 
+2021-11-25 14:49:34 - sshInstance.py - [line:89] - root - INFO - exit
+logout
+Connection to 192.168.122.122 closed.
+[root@WW30CYP10 ~]# 
+2021-11-25 14:49:37 - test_network_sriov_stress.py - [line:428] - root - INFO - Ping two vms IP from SUT:
+2021-11-25 14:49:41 - sshInstance.py - [line:69] - root - INFO - ping -c 5 192.168.10.12
+PING 192.168.10.12 (192.168.10.12) 56(84) bytes of data.
+64 bytes from 192.168.10.12: icmp_seq=1 ttl=64 time=0.171 ms
+2021-11-25 14:49:42 - sshInstance.py - [line:69] - root - INFO - 64 bytes from 192.168.10.12: icmp_seq=2 ttl=64 time=0.049 ms
+2021-11-25 14:49:43 - sshInstance.py - [line:69] - root - INFO - 64 bytes from 192.168.10.12: icmp_seq=3 ttl=64 time=0.053 ms
+2021-11-25 14:49:44 - sshInstance.py - [line:69] - root - INFO - 64 bytes from 192.168.10.12: icmp_seq=4 ttl=64 time=0.037 ms
+2021-11-25 14:49:45 - sshInstance.py - [line:69] - root - INFO - 64 bytes from 192.168.10.12: icmp_seq=5 ttl=64 time=0.039 ms
+
+--- 192.168.10.12 ping statistics ---
+5 packets transmitted, 5 received, 0% packet loss, time 4115ms
+rtt min/avg/max/mdev = 0.037/0.069/0.171/0.052 ms
+[root@WW30CYP10 ~]# 
+2021-11-25 14:49:52 - sshInstance.py - [line:69] - root - INFO - ping -c 5 192.168.10.13
+PING 192.168.10.13 (192.168.10.13) 56(84) bytes of data.
+64 bytes from 192.168.10.13: icmp_seq=1 ttl=64 time=0.146 ms
+2021-11-25 14:49:53 - sshInstance.py - [line:69] - root - INFO - 64 bytes from 192.168.10.13: icmp_seq=2 ttl=64 time=0.070 ms
+2021-11-25 14:49:54 - sshInstance.py - [line:69] - root - INFO - 64 bytes from 192.168.10.13: icmp_seq=3 ttl=64 time=0.060 ms
+2021-11-25 14:49:55 - sshInstance.py - [line:69] - root - INFO - 64 bytes from 192.168.10.13: icmp_seq=4 ttl=64 time=0.035 ms
+2021-11-25 14:49:56 - sshInstance.py - [line:69] - root - INFO - 64 bytes from 192.168.10.13: icmp_seq=5 ttl=64 time=0.033 ms
+
+--- 192.168.10.13 ping statistics ---
+5 packets transmitted, 5 received, 0% packet loss, time 4110ms
+rtt min/avg/max/mdev = 0.033/0.068/0.146/0.042 ms
+[root@WW30CYP10 ~]# 
+2021-11-25 14:49:59 - test_network_sriov_stress.py - [line:436] - root - INFO - ping VMtest2 IP from VMtest1
+2021-11-25 14:50:03 - sshInstance.py - [line:69] - root - INFO - ping -c 5 192.168.122.145
+PING 192.168.122.145 (192.168.122.145) 56(84) bytes of data.
+64 bytes from 192.168.122.145: icmp_seq=1 ttl=64 time=0.143 ms
+2021-11-25 14:50:04 - sshInstance.py - [line:69] - root - INFO - 64 bytes from 192.168.122.145: icmp_seq=2 ttl=64 time=0.075 ms
+2021-11-25 14:50:05 - sshInstance.py - [line:69] - root - INFO - 64 bytes from 192.168.122.145: icmp_seq=3 ttl=64 time=0.102 ms
+2021-11-25 14:50:06 - sshInstance.py - [line:69] - root - INFO - 64 bytes from 192.168.122.145: icmp_seq=4 ttl=64 time=0.066 ms
+2021-11-25 14:50:07 - sshInstance.py - [line:69] - root - INFO - 64 bytes from 192.168.122.145: icmp_seq=5 ttl=64 time=0.095 ms
+
+--- 192.168.122.145 ping statistics ---
+5 packets transmitted, 5 received, 0% packet loss, time 4103ms
+rtt min/avg/max/mdev = 0.066/0.096/0.143/0.027 ms
+[root@WW30CYP10 ~]# 
+2021-11-25 14:50:15 - sshInstance.py - [line:89] - root - INFO - ssh root@192.168.122.145
+root@192.168.122.145's password: 
+2021-11-25 14:50:23 - sshInstance.py - [line:89] - root - INFO - 
+Welcome to Ubuntu 20.04 LTS (GNU/Linux 5.4.0-26-generic x86_64)
+ * Documentation:  https://help.ubuntu.com
+ * Management:     https://landscape.canonical.com
+ * Support:        https://ubuntu.com/advantage
+  System information as of Thu 25 Nov 2021 01:50:32 AM EST
+  System load:  0.0                Processes:             129
+  Usage of /:   46.9% of 19.07GB   Users logged in:       0
+  Memory usage: 30%                IPv4 address for ens3: 192.168.122.145
+  Swap usage:   0%                 IPv4 address for ens5: 192.168.10.12
+
+366 updates can be installed immediately.
+222 of these updates are security updates.
+To see these additional updates run: apt list --upgradable
+
+Last login: Thu Nov 25 01:46:42 2021 from 192.168.122.1
+root@localhost:~# 
+2021-11-25 14:50:30 - sshInstance.py - [line:69] - root - INFO - ping -c 5 192.168.10.13
+PING 192.168.10.13 (192.168.10.13) 56(84) bytes of data.
+64 bytes from 192.168.10.13: icmp_seq=1 ttl=64 time=0.151 ms
+2021-11-25 14:50:31 - sshInstance.py - [line:69] - root - INFO - 64 bytes from 192.168.10.13: icmp_seq=2 ttl=64 time=0.040 ms
+2021-11-25 14:50:32 - sshInstance.py - [line:69] - root - INFO - 64 bytes from 192.168.10.13: icmp_seq=3 ttl=64 time=0.034 ms
+2021-11-25 14:50:33 - sshInstance.py - [line:69] - root - INFO - 64 bytes from 192.168.10.13: icmp_seq=4 ttl=64 time=0.055 ms
+2021-11-25 14:50:34 - sshInstance.py - [line:69] - root - INFO - 64 bytes from 192.168.10.13: icmp_seq=5 ttl=64 time=0.031 ms
+
+--- 192.168.10.13 ping statistics ---
+5 packets transmitted, 5 received, 0% packet loss, time 4103ms
+rtt min/avg/max/mdev = 0.031/0.062/0.151/0.045 ms
+root@localhost:~# 
+2021-11-25 14:51:13 - sshInstance.py - [line:89] - root - INFO - exit
+logout
+Connection to 192.168.122.145 closed.
+[root@WW30CYP10 ~]# 
+2021-11-25 14:51:16 - test_network_sriov_stress.py - [line:444] - root - INFO - ping VMtest2 IP from VMtest1
+2021-11-25 14:51:20 - sshInstance.py - [line:69] - root - INFO - ping -c 5 -I 192.168.10.11 192.168.10.10
+PING 192.168.10.10 (192.168.10.10) from 192.168.10.11 : 56(84) bytes of data.
+64 bytes from 192.168.10.10: icmp_seq=1 ttl=64 time=0.035 ms
+2021-11-25 14:51:21 - sshInstance.py - [line:69] - root - INFO - 64 bytes from 192.168.10.10: icmp_seq=2 ttl=64 time=0.013 ms
+2021-11-25 14:51:22 - sshInstance.py - [line:69] - root - INFO - 64 bytes from 192.168.10.10: icmp_seq=3 ttl=64 time=0.013 ms
+2021-11-25 14:51:23 - sshInstance.py - [line:69] - root - INFO - 64 bytes from 192.168.10.10: icmp_seq=4 ttl=64 time=0.026 ms
+2021-11-25 14:51:24 - sshInstance.py - [line:69] - root - INFO - 64 bytes from 192.168.10.10: icmp_seq=5 ttl=64 time=0.015 ms
+
+--- 192.168.10.10 ping statistics ---
+5 packets transmitted, 5 received, 0% packet loss, time 4074ms
+rtt min/avg/max/mdev = 0.013/0.020/0.035/0.009 ms
+[root@WW30CYP10 ~]# 
+2021-11-25 14:51:30 - sshInstance.py - [line:44] - root - INFO - echo 0 > /sys/class/net/ens787f0/device/sriov_numvfs
+2021-11-25 14:51:32 - sshInstance.py - [line:48] - root - INFO - 
+2021-11-25 14:51:37 - test_network_sriov_stress.py - [line:237] - root - INFO - Successfully removed VFs from PF.
+2021-11-25 14:51:40 - sshInstance.py - [line:44] - root - INFO - virsh destroy VMtest1
+2021-11-25 14:51:41 - sshInstance.py - [line:48] - root - INFO - Domain VMtest1 destroyed
+
+
+2021-11-25 14:51:46 - test_network_sriov_stress.py - [line:247] - root - INFO - Successfully shut down the VM: VMtest1
+2021-11-25 14:51:49 - sshInstance.py - [line:44] - root - INFO - virsh undefine VMtest1
+2021-11-25 14:51:49 - sshInstance.py - [line:48] - root - INFO - Domain VMtest1 has been undefined
+
+
+2021-11-25 14:51:54 - test_network_sriov_stress.py - [line:254] - root - INFO - Successfully removed the VM: VMtest1
+2021-11-25 14:51:57 - sshInstance.py - [line:44] - root - INFO - virsh destroy VMtest2
+2021-11-25 14:51:58 - sshInstance.py - [line:48] - root - INFO - Domain VMtest2 destroyed
+
+
+2021-11-25 14:52:03 - test_network_sriov_stress.py - [line:247] - root - INFO - Successfully shut down the VM: VMtest2
+2021-11-25 14:52:06 - sshInstance.py - [line:44] - root - INFO - virsh undefine VMtest2
+2021-11-25 14:52:06 - sshInstance.py - [line:48] - root - INFO - Domain VMtest2 has been undefined
+
+
+2021-11-25 14:52:11 - test_network_sriov_stress.py - [line:254] - root - INFO - Successfully removed the VM: VMtest2
+2021-11-25 14:52:11 - test_network_sriov_stress.py - [line:349] - root - INFO - 
+
+********************************************************Stress Disable and Enable for 3 time when VF is Assigned VM guest.*************************************************************
+
+
+2021-11-25 14:52:14 - sshInstance.py - [line:44] - root - INFO - /opt/APP/utility/DPDK_install/dpdk-stable-20.11.1/usertools/dpdk-devbind.py -s | grep ens787f0 | awk '{print $1;}'
+2021-11-25 14:52:14 - sshInstance.py - [line:48] - root - INFO - 0000:31:00.0
+
+2021-11-25 14:52:19 - test_network_sriov_stress.py - [line:80] - root - INFO - pf_id was found: 0000:31:00.0
+
+2021-11-25 14:52:19 - test_network_sriov_stress.py - [line:357] - root - INFO - format_pf_id is 0000\:31\:00.0
+
+2021-11-25 14:52:19 - test_network_sriov_stress.py - [line:360] - root - INFO - pf_id_key: 31
+2021-11-25 14:52:24 - sshInstance.py - [line:89] - root - INFO - ifconfig ens787f0 192.168.10.11
+[root@WW30CYP10 ~]# 
+2021-11-25 14:52:27 - test_network_sriov_stress.py - [line:268] - root - INFO - Successfully assigned ip to ethernet: ens787f0
+2021-11-25 14:52:30 - sshInstance.py - [line:44] - root - INFO - echo 4 > /sys/class/net/ens787f0/device/sriov_numvfs
+2021-11-25 14:52:31 - sshInstance.py - [line:48] - root - INFO - 
+2021-11-25 14:52:36 - test_network_sriov_stress.py - [line:95] - root - INFO - Successfully Virtualized PF to VFs.
+2021-11-25 14:52:39 - sshInstance.py - [line:44] - root - INFO -  lspci | grep "Virtual" | awk '{print $1;}'list
+2021-11-25 14:52:39 - sshInstance.py - [line:48] - root - INFO - 31:01.0
+31:01.1
+31:01.2
+31:01.3
+
+2021-11-25 14:52:44 - test_network_sriov_stress.py - [line:109] - root - INFO - Succssfully Gotten vf_id list:
+
+2021-11-25 14:52:47 - sshInstance.py - [line:44] - root - INFO -  modinfo vfio-pci | grep "vfio_pci" | awk '{ print $2;}'
+2021-11-25 14:52:47 - sshInstance.py - [line:48] - root - INFO - vfio_pci
+
+2021-11-25 14:52:52 - test_network_sriov_stress.py - [line:162] - root - INFO - Successfuly modeprobe vfio-pci
+2021-11-25 14:52:55 - sshInstance.py - [line:44] - root - INFO - /opt/APP/utility/DPDK_install/dpdk-stable-20.11.1/usertools/dpdk-devbind.py -b vfio-pci 31:01.0
+2021-11-25 14:52:55 - sshInstance.py - [line:48] - root - INFO - 
+2021-11-25 14:53:00 - test_network_sriov_stress.py - [line:141] - root - INFO - Successfuly bound VF to vfio-pci
+2021-11-25 14:53:03 - sshInstance.py - [line:44] - root - INFO - /opt/APP/utility/DPDK_install/dpdk-stable-20.11.1/usertools/dpdk-devbind.py -b vfio-pci 31:01.1
+2021-11-25 14:53:04 - sshInstance.py - [line:48] - root - INFO - 
+2021-11-25 14:53:09 - test_network_sriov_stress.py - [line:141] - root - INFO - Successfuly bound VF to vfio-pci
+2021-11-25 14:53:09 - test_network_sriov_stress.py - [line:381] - root - INFO - lspci -Dnn | grep 31:01.1
+2021-11-25 14:53:12 - sshInstance.py - [line:44] - root - INFO - lspci -Dnn | grep 31:01.1
+2021-11-25 14:53:12 - sshInstance.py - [line:48] - root - INFO - 0000:31:01.1 Ethernet controller [0200]: Intel Corporation Ethernet Adaptive Virtual Function [8086:1889] (rev 02)
+
+2021-11-25 14:53:17 - test_network_sriov_stress.py - [line:392] - root - INFO - Successfully get vf device id: 8086:1889
+2021-11-25 14:53:20 - sshInstance.py - [line:44] - root - INFO - virsh net-info default | grep "Active" | awk '{print $2;}'
+2021-11-25 14:53:20 - sshInstance.py - [line:48] - root - INFO - yes
+
+2021-11-25 14:53:25 - test_network_sriov_stress.py - [line:170] - root - INFO - Default network is active? yes
+
+2021-11-25 14:53:29 - sshInstance.py - [line:69] - root - INFO - virt-install --name VMtest1 --ram 4096 --cpu host --vcpus=5 ---network network=default --hostdev pci_0000_31_01_0 --boot hd --disk path=/home//image/ubuntu20.04_2.img,size=50,format=qcow2 --graphics vnc,listen=0.0.0.0,port==5900 --noautoconsole
+
+** (process:132646): [1;33mWARNING[0m **: [34m14:53:40.700[0m: Entity http://pcisig.com/pci/1B36/0100 referenced but not defined
+WARNING  No operating system detected, VM performance may suffer. Specify an OS with --os-variant for optimal results.
+
+Starting install...
+ERROR    Requested operation is not valid: PCI device 0000:31:01.0 is in use by driver QEMU, domain VMtest1
+Domain installation does not appear to have been successful.
+If it was, you can restart your domain by running:
+  virsh --connect qemu:///system start VMtest1
+otherwise, please restart your installation.
+[root@WW30CYP10 ~]# 
+2021-11-25 14:53:32 - test_network_sriov_stress.py - [line:202] - root - ERROR - Failed to create a VM: virt-install --name VMtest1 --ram 4096 --cpu host --vcpus=5 ---network network=default --hostdev pci_0000_31_01_0 --boot hd --disk path=/home//image/ubuntu20.04_2.img,size=50,format=qcow2 --graphics vnc,listen=0.0.0.0,port==5900 --noautoconsole
+
+** (process:132646): [1;33mWARNING[0m **: [34m14:53:40.700[0m: Entity http://pcisig.com/pci/1B36/0100 referenced but not defined
+WARNING  No operating system detected, VM performance may suffer. Specify an OS with --os-variant for optimal results.
+
+Starting install...
+ERROR    Requested operation is not valid: PCI device 0000:31:01.0 is in use by driver QEMU, domain VMtest1
+Domain installation does not appear to have been successful.
+If it was, you can restart your domain by running:
+  virsh --connect qemu:///system start VMtest1
+otherwise, please restart your installation.
+[root@WW30CYP10 ~]# 
+2021-11-25 14:53:32 - test_network_sriov_stress.py - [line:203] - root - ERROR - Failed to create a VM: 
+2021-11-25 14:53:36 - sshInstance.py - [line:69] - root - INFO - virt-install --name VMtest1 --ram 4096 --cpu host --vcpus=5 ---network network=default --hostdev pci_0000_31_01_0 --boot hd --disk path=/home//image/ubuntu20.04_2.img,size=50,format=qcow2 --graphics vnc,listen=0.0.0.0,port==5900 --noautoconsole
+
+** (process:132706): [1;33mWARNING[0m **: [34m14:53:47.729[0m: Entity http://pcisig.com/pci/1B36/0100 referenced but not defined
+WARNING  No operating system detected, VM performance may suffer. Specify an OS with --os-variant for optimal results.
+
+Starting install...
+2021-11-25 14:53:39 - sshInstance.py - [line:69] - root - INFO - Domain creation completed.
+[root@WW30CYP10 ~]# 
+2021-11-25 14:53:42 - test_network_sriov_stress.py - [line:205] - root - INFO - Successfully created a VM: VMtest1
+2021-11-25 14:53:46 - sshInstance.py - [line:69] - root - INFO - virt-install --name VMtest2 --ram 4096 --cpu host --vcpus=5 ---network network=default --hostdev pci_0000_31_01_1 --boot hd --disk path=/home//image/ubuntu20.04.img,size=50,format=qcow2 --graphics vnc,listen=0.0.0.0,port=59901 --noautoconsole
+
+** (process:132770): [1;33mWARNING[0m **: [34m14:53:57.737[0m: Entity http://pcisig.com/pci/1B36/0100 referenced but not defined
+WARNING  No operating system detected, VM performance may suffer. Specify an OS with --os-variant for optimal results.
+
+Starting install...
+ERROR    Requested operation is not valid: PCI device 0000:31:01.1 is in use by driver QEMU, domain VMtest2
+Domain installation does not appear to have been successful.
+If it was, you can restart your domain by running:
+  virsh --connect qemu:///system start VMtest2
+otherwise, please restart your installation.
+[root@WW30CYP10 ~]# 
+2021-11-25 14:53:49 - test_network_sriov_stress.py - [line:202] - root - ERROR - Failed to create a VM: virt-install --name VMtest2 --ram 4096 --cpu host --vcpus=5 ---network network=default --hostdev pci_0000_31_01_1 --boot hd --disk path=/home//image/ubuntu20.04.img,size=50,format=qcow2 --graphics vnc,listen=0.0.0.0,port=59901 --noautoconsole
+
+** (process:132770): [1;33mWARNING[0m **: [34m14:53:57.737[0m: Entity http://pcisig.com/pci/1B36/0100 referenced but not defined
+WARNING  No operating system detected, VM performance may suffer. Specify an OS with --os-variant for optimal results.
+
+Starting install...
+ERROR    Requested operation is not valid: PCI device 0000:31:01.1 is in use by driver QEMU, domain VMtest2
+Domain installation does not appear to have been successful.
+If it was, you can restart your domain by running:
+  virsh --connect qemu:///system start VMtest2
+otherwise, please restart your installation.
+[root@WW30CYP10 ~]# 
+2021-11-25 14:53:49 - test_network_sriov_stress.py - [line:203] - root - ERROR - Failed to create a VM: 
+2021-11-25 14:53:53 - sshInstance.py - [line:69] - root - INFO - virt-install --name VMtest2 --ram 4096 --cpu host --vcpus=5 ---network network=default --hostdev pci_0000_31_01_1 --boot hd --disk path=/home//image/ubuntu20.04.img,size=50,format=qcow2 --graphics vnc,listen=0.0.0.0,port=59901 --noautoconsole
+
+** (process:132831): [1;33mWARNING[0m **: [34m14:54:04.738[0m: Entity http://pcisig.com/pci/1B36/0100 referenced but not defined
+WARNING  No operating system detected, VM performance may suffer. Specify an OS with --os-variant for optimal results.
+
+Starting install...
+2021-11-25 14:53:56 - sshInstance.py - [line:69] - root - INFO - Domain creation completed.
+[root@WW30CYP10 ~]# 
+2021-11-25 14:53:59 - test_network_sriov_stress.py - [line:205] - root - INFO - Successfully created a VM: VMtest2
+2021-11-25 14:54:02 - sshInstance.py - [line:44] - root - INFO - virsh domifaddr VMtest1 | grep '192.168' | awk '{print $4;}'
+2021-11-25 14:54:02 - sshInstance.py - [line:48] - root - INFO - 
+2021-11-25 14:54:07 - test_network_sriov_stress.py - [line:221] - root - ERROR - not found IP of VMtest1
+2021-11-25 14:55:11 - sshInstance.py - [line:44] - root - INFO - virsh domifaddr VMtest1 | grep '192.168' | awk '{print $4;}'
+2021-11-25 14:55:11 - sshInstance.py - [line:48] - root - INFO - 192.168.122.145/24
+
+2021-11-25 14:55:16 - test_network_sriov_stress.py - [line:216] - root - INFO - Successfully got VMtest1 IP: 192.168.122.145/24
+
+2021-11-25 14:55:19 - sshInstance.py - [line:44] - root - INFO - virsh domifaddr VMtest2 | grep '192.168' | awk '{print $4;}'
+2021-11-25 14:55:19 - sshInstance.py - [line:48] - root - INFO - 192.168.122.122/24
+
+2021-11-25 14:55:24 - test_network_sriov_stress.py - [line:216] - root - INFO - Successfully got VMtest2 IP: 192.168.122.122/24
+
+2021-11-25 14:55:24 - test_network_sriov_stress.py - [line:409] - root - INFO - ip of VM1: 192.168.122.145
+2021-11-25 14:55:24 - test_network_sriov_stress.py - [line:410] - root - INFO - ip of VM1: 192.168.122.122
+2021-11-25 14:55:28 - sshInstance.py - [line:69] - root - INFO - ping -c 5 192.168.122.145
+PING 192.168.122.145 (192.168.122.145) 56(84) bytes of data.
+64 bytes from 192.168.122.145: icmp_seq=1 ttl=64 time=0.123 ms
+2021-11-25 14:55:29 - sshInstance.py - [line:69] - root - INFO - 64 bytes from 192.168.122.145: icmp_seq=2 ttl=64 time=0.085 ms
+2021-11-25 14:55:30 - sshInstance.py - [line:69] - root - INFO - 64 bytes from 192.168.122.145: icmp_seq=3 ttl=64 time=0.075 ms
+2021-11-25 14:55:31 - sshInstance.py - [line:69] - root - INFO - 64 bytes from 192.168.122.145: icmp_seq=4 ttl=64 time=0.082 ms
+2021-11-25 14:55:32 - sshInstance.py - [line:69] - root - INFO - 64 bytes from 192.168.122.145: icmp_seq=5 ttl=64 time=0.101 ms
+
+--- 192.168.122.145 ping statistics ---
+5 packets transmitted, 5 received, 0% packet loss, time 4103ms
+rtt min/avg/max/mdev = 0.075/0.093/0.123/0.018 ms
+[root@WW30CYP10 ~]# 
+2021-11-25 14:55:40 - sshInstance.py - [line:89] - root - INFO - ssh root@192.168.122.145
+root@192.168.122.145's password: 
+2021-11-25 14:55:48 - sshInstance.py - [line:89] - root - INFO - 
+Welcome to Ubuntu 20.04 LTS (GNU/Linux 5.4.0-26-generic x86_64)
+ * Documentation:  https://help.ubuntu.com
+ * Management:     https://landscape.canonical.com
+ * Support:        https://ubuntu.com/advantage
+  System information as of Thu 25 Nov 2021 01:55:57 AM EST
+  System load:  0.13               Processes:             146
+  Usage of /:   46.9% of 19.07GB   Users logged in:       0
+  Memory usage: 30%                IPv4 address for ens3: 192.168.122.145
+  Swap usage:   0%
+
+366 updates can be installed immediately.
+222 of these updates are security updates.
+To see these additional updates run: apt list --upgradable
+
+Last login: Thu Nov 25 01:50:32 2021 from 192.168.122.1
+root@localhost:~# 
+2021-11-25 14:55:56 - sshInstance.py - [line:89] - root - INFO - lspci -Dnn | grep "8086:1889" | awk '{print $1;}'
+0000:00:05.0
+root@localhost:~# 
+2021-11-25 14:56:02 - test_network_sriov_stress.py - [line:306] - root - INFO - successfully got vf pci id of vm1: 0000:00:05.0
+2021-11-25 14:56:07 - sshInstance.py - [line:89] - root - INFO - ls /sys/bus/pci/devices/0000\:00\:05.0/net/ --color=never
+ens5
+root@localhost:~# 
+2021-11-25 14:56:12 - test_network_sriov_stress.py - [line:317] - root - INFO - Successfully got vf device name of vm1: ens5
+2021-11-25 14:56:17 - sshInstance.py - [line:89] - root - INFO - ifconfig ens5 192.168.10.12
+root@localhost:~# 
+2021-11-25 14:56:20 - test_network_sriov_stress.py - [line:268] - root - INFO - Successfully assigned ip to ethernet: ens5
+2021-11-25 14:56:25 - sshInstance.py - [line:89] - root - INFO - ifconfig ens5 down
+root@localhost:~# 
+2021-11-25 14:56:33 - sshInstance.py - [line:89] - root - INFO - ifconfig ens5 hw ether 1234567890ac
+root@localhost:~# 
+2021-11-25 14:56:41 - sshInstance.py - [line:89] - root - INFO - ifconfig ens5 up
+root@localhost:~# 
+2021-11-25 14:56:49 - sshInstance.py - [line:89] - root - INFO - nmcli device connect ens5
+Command 'nmcli' not found, but can be installed with:
+apt install network-manager
+root@localhost:~# 
+2021-11-25 14:56:57 - sshInstance.py - [line:89] - root - INFO - ifconfig ens5
+ens5: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        inet 192.168.10.12  netmask 255.255.255.0  broadcast 192.168.10.255
+        inet6 fe80::1034:56ff:fe78:90ac  prefixlen 64  scopeid 0x20<link>
+        ether 12:34:56:78:90:ac  txqueuelen 1000  (Ethernet)
+        RX packets 0  bytes 0 (0.0 B)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 8  bytes 696 (696.0 B)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+root@localhost:~# 
+2021-11-25 14:57:05 - sshInstance.py - [line:89] - root - INFO - exit
+logout
+Connection to 192.168.122.145 closed.
+[root@WW30CYP10 ~]# 
+2021-11-25 14:57:12 - sshInstance.py - [line:69] - root - INFO - ping -c 5 192.168.122.122
+PING 192.168.122.122 (192.168.122.122) 56(84) bytes of data.
+64 bytes from 192.168.122.122: icmp_seq=1 ttl=64 time=0.136 ms
+2021-11-25 14:57:13 - sshInstance.py - [line:69] - root - INFO - 64 bytes from 192.168.122.122: icmp_seq=2 ttl=64 time=0.107 ms
+2021-11-25 14:57:14 - sshInstance.py - [line:69] - root - INFO - 64 bytes from 192.168.122.122: icmp_seq=3 ttl=64 time=0.111 ms
+2021-11-25 14:57:15 - sshInstance.py - [line:69] - root - INFO - 64 bytes from 192.168.122.122: icmp_seq=4 ttl=64 time=0.125 ms
+2021-11-25 14:57:16 - sshInstance.py - [line:69] - root - INFO - 64 bytes from 192.168.122.122: icmp_seq=5 ttl=64 time=0.067 ms
+
+--- 192.168.122.122 ping statistics ---
+5 packets transmitted, 5 received, 0% packet loss, time 4117ms
+rtt min/avg/max/mdev = 0.067/0.109/0.136/0.024 ms
+[root@WW30CYP10 ~]# 
+2021-11-25 14:57:24 - sshInstance.py - [line:89] - root - INFO - ssh root@192.168.122.122
+root@192.168.122.122's password: 
+2021-11-25 14:57:32 - sshInstance.py - [line:89] - root - INFO - 
+Welcome to Ubuntu 20.04 LTS (GNU/Linux 5.4.0-26-generic x86_64)
+ * Documentation:  https://help.ubuntu.com
+ * Management:     https://landscape.canonical.com
+ * Support:        https://ubuntu.com/advantage
+  System information as of Thu 25 Nov 2021 01:57:41 AM EST
+  System load:  0.02               Processes:             137
+  Usage of /:   47.2% of 19.07GB   Users logged in:       0
+  Memory usage: 30%                IPv4 address for ens3: 192.168.122.122
+  Swap usage:   0%
+
+366 updates can be installed immediately.
+222 of these updates are security updates.
+To see these additional updates run: apt list --upgradable
+
+Last login: Thu Nov 25 01:48:26 2021 from 192.168.122.1
+root@localhost:~# 
+2021-11-25 14:57:40 - sshInstance.py - [line:89] - root - INFO - lspci -Dnn | grep "8086:1889" | awk '{print $1;}'
+0000:00:05.0
+root@localhost:~# 
+2021-11-25 14:57:46 - test_network_sriov_stress.py - [line:306] - root - INFO - successfully got vf pci id of vm1: 0000:00:05.0
+2021-11-25 14:57:51 - sshInstance.py - [line:89] - root - INFO - ls /sys/bus/pci/devices/0000\:00\:05.0/net/ --color=never
+ens5
+root@localhost:~# 
+2021-11-25 14:57:56 - test_network_sriov_stress.py - [line:317] - root - INFO - Successfully got vf device name of vm1: ens5
+2021-11-25 14:58:01 - sshInstance.py - [line:89] - root - INFO - ifconfig ens5 192.168.10.13
+root@localhost:~# 
+2021-11-25 14:58:04 - test_network_sriov_stress.py - [line:268] - root - INFO - Successfully assigned ip to ethernet: ens5
+2021-11-25 14:58:09 - sshInstance.py - [line:89] - root - INFO - ifconfig ens5 down
+root@localhost:~# 
+2021-11-25 14:58:17 - sshInstance.py - [line:89] - root - INFO - ifconfig ens5 hw ether 1234567890ab
+root@localhost:~# 
+2021-11-25 14:58:25 - sshInstance.py - [line:89] - root - INFO - ifconfig ens5 up
+root@localhost:~# 
+2021-11-25 14:58:33 - sshInstance.py - [line:89] - root - INFO - nmcli device connect ens5
+Command 'nmcli' not found, but can be installed with:
+apt install network-manager
+root@localhost:~# 
+2021-11-25 14:58:41 - sshInstance.py - [line:89] - root - INFO - ifconfig ens5
+ens5: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        inet 192.168.10.13  netmask 255.255.255.0  broadcast 192.168.10.255
+        inet6 fe80::1034:56ff:fe78:90ab  prefixlen 64  scopeid 0x20<link>
+        ether 12:34:56:78:90:ab  txqueuelen 1000  (Ethernet)
+        RX packets 3  bytes 1026 (1.0 KB)
+        RX errors 0  dropped 2  overruns 0  frame 0
+        TX packets 9  bytes 766 (766.0 B)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+root@localhost:~# 
+2021-11-25 14:58:49 - sshInstance.py - [line:89] - root - INFO - exit
+logout
+Connection to 192.168.122.122 closed.
+[root@WW30CYP10 ~]# 
+2021-11-25 14:58:52 - test_network_sriov_stress.py - [line:428] - root - INFO - Ping two vms IP from SUT:
+2021-11-25 14:58:56 - sshInstance.py - [line:69] - root - INFO - ping -c 5 192.168.10.12
+PING 192.168.10.12 (192.168.10.12) 56(84) bytes of data.
+64 bytes from 192.168.10.12: icmp_seq=1 ttl=64 time=6.39 ms
+2021-11-25 14:58:57 - sshInstance.py - [line:69] - root - INFO - 64 bytes from 192.168.10.12: icmp_seq=2 ttl=64 time=0.052 ms
+2021-11-25 14:58:58 - sshInstance.py - [line:69] - root - INFO - 64 bytes from 192.168.10.12: icmp_seq=3 ttl=64 time=0.040 ms
+2021-11-25 14:58:59 - sshInstance.py - [line:69] - root - INFO - 64 bytes from 192.168.10.12: icmp_seq=4 ttl=64 time=0.046 ms
+2021-11-25 14:59:00 - sshInstance.py - [line:69] - root - INFO - 64 bytes from 192.168.10.12: icmp_seq=5 ttl=64 time=0.034 ms
+
+--- 192.168.10.12 ping statistics ---
+5 packets transmitted, 5 received, 0% packet loss, time 4065ms
+rtt min/avg/max/mdev = 0.034/1.312/6.391/2.539 ms
+[root@WW30CYP10 ~]# 
+2021-11-25 14:59:07 - sshInstance.py - [line:69] - root - INFO - ping -c 5 192.168.10.13
+PING 192.168.10.13 (192.168.10.13) 56(84) bytes of data.
+64 bytes from 192.168.10.13: icmp_seq=1 ttl=64 time=0.128 ms
+2021-11-25 14:59:08 - sshInstance.py - [line:69] - root - INFO - 64 bytes from 192.168.10.13: icmp_seq=2 ttl=64 time=0.042 ms
+2021-11-25 14:59:09 - sshInstance.py - [line:69] - root - INFO - 64 bytes from 192.168.10.13: icmp_seq=3 ttl=64 time=0.037 ms
+2021-11-25 14:59:10 - sshInstance.py - [line:69] - root - INFO - 64 bytes from 192.168.10.13: icmp_seq=4 ttl=64 time=0.037 ms
+2021-11-25 14:59:11 - sshInstance.py - [line:69] - root - INFO - 64 bytes from 192.168.10.13: icmp_seq=5 ttl=64 time=0.035 ms
+
+--- 192.168.10.13 ping statistics ---
+5 packets transmitted, 5 received, 0% packet loss, time 4124ms
+rtt min/avg/max/mdev = 0.035/0.055/0.128/0.037 ms
+[root@WW30CYP10 ~]# 
+2021-11-25 14:59:14 - test_network_sriov_stress.py - [line:436] - root - INFO - ping VMtest2 IP from VMtest1
+2021-11-25 14:59:18 - sshInstance.py - [line:69] - root - INFO - ping -c 5 192.168.122.145
+PING 192.168.122.145 (192.168.122.145) 56(84) bytes of data.
+64 bytes from 192.168.122.145: icmp_seq=1 ttl=64 time=0.155 ms
+2021-11-25 14:59:19 - sshInstance.py - [line:69] - root - INFO - 64 bytes from 192.168.122.145: icmp_seq=2 ttl=64 time=0.097 ms
+2021-11-25 14:59:20 - sshInstance.py - [line:69] - root - INFO - 64 bytes from 192.168.122.145: icmp_seq=3 ttl=64 time=0.075 ms
+2021-11-25 14:59:21 - sshInstance.py - [line:69] - root - INFO - 64 bytes from 192.168.122.145: icmp_seq=4 ttl=64 time=0.086 ms
+2021-11-25 14:59:22 - sshInstance.py - [line:69] - root - INFO - 64 bytes from 192.168.122.145: icmp_seq=5 ttl=64 time=0.118 ms
+
+--- 192.168.122.145 ping statistics ---
+5 packets transmitted, 5 received, 0% packet loss, time 4118ms
+rtt min/avg/max/mdev = 0.075/0.106/0.155/0.028 ms
+[root@WW30CYP10 ~]# 
+2021-11-25 14:59:30 - sshInstance.py - [line:89] - root - INFO - ssh root@192.168.122.145
+root@192.168.122.145's password: 
+2021-11-25 14:59:38 - sshInstance.py - [line:89] - root - INFO - 
+Welcome to Ubuntu 20.04 LTS (GNU/Linux 5.4.0-26-generic x86_64)
+ * Documentation:  https://help.ubuntu.com
+ * Management:     https://landscape.canonical.com
+ * Support:        https://ubuntu.com/advantage
+  System information as of Thu 25 Nov 2021 01:59:47 AM EST
+  System load:  0.0                Processes:             131
+  Usage of /:   46.9% of 19.07GB   Users logged in:       0
+  Memory usage: 30%                IPv4 address for ens3: 192.168.122.145
+  Swap usage:   0%                 IPv4 address for ens5: 192.168.10.12
+
+366 updates can be installed immediately.
+222 of these updates are security updates.
+To see these additional updates run: apt list --upgradable
+
+Last login: Thu Nov 25 01:55:57 2021 from 192.168.122.1
+root@localhost:~# 
+2021-11-25 14:59:45 - sshInstance.py - [line:69] - root - INFO - ping -c 5 192.168.10.13
+PING 192.168.10.13 (192.168.10.13) 56(84) bytes of data.
+64 bytes from 192.168.10.13: icmp_seq=1 ttl=64 time=4.98 ms
+2021-11-25 14:59:46 - sshInstance.py - [line:69] - root - INFO - 64 bytes from 192.168.10.13: icmp_seq=2 ttl=64 time=0.051 ms
+2021-11-25 14:59:47 - sshInstance.py - [line:69] - root - INFO - 64 bytes from 192.168.10.13: icmp_seq=3 ttl=64 time=0.044 ms
+2021-11-25 14:59:48 - sshInstance.py - [line:69] - root - INFO - 64 bytes from 192.168.10.13: icmp_seq=4 ttl=64 time=0.036 ms
+2021-11-25 14:59:49 - sshInstance.py - [line:69] - root - INFO - 64 bytes from 192.168.10.13: icmp_seq=5 ttl=64 time=3.32 ms
+
+--- 192.168.10.13 ping statistics ---
+5 packets transmitted, 5 received, 0% packet loss, time 4063ms
+rtt min/avg/max/mdev = 0.036/1.686/4.984/2.080 ms
+root@localhost:~# 
+2021-11-25 15:00:28 - sshInstance.py - [line:89] - root - INFO - exit
+logout
+Connection to 192.168.122.145 closed.
+[root@WW30CYP10 ~]# 
+2021-11-25 15:00:31 - test_network_sriov_stress.py - [line:444] - root - INFO - ping VMtest2 IP from VMtest1
+2021-11-25 15:00:35 - sshInstance.py - [line:69] - root - INFO - ping -c 5 -I 192.168.10.11 192.168.10.10
+PING 192.168.10.10 (192.168.10.10) from 192.168.10.11 : 56(84) bytes of data.
+64 bytes from 192.168.10.10: icmp_seq=1 ttl=64 time=0.044 ms
+2021-11-25 15:00:36 - sshInstance.py - [line:69] - root - INFO - 64 bytes from 192.168.10.10: icmp_seq=2 ttl=64 time=0.010 ms
+2021-11-25 15:00:37 - sshInstance.py - [line:69] - root - INFO - 64 bytes from 192.168.10.10: icmp_seq=3 ttl=64 time=0.024 ms
+2021-11-25 15:00:38 - sshInstance.py - [line:69] - root - INFO - 64 bytes from 192.168.10.10: icmp_seq=4 ttl=64 time=0.021 ms
+2021-11-25 15:00:39 - sshInstance.py - [line:69] - root - INFO - 64 bytes from 192.168.10.10: icmp_seq=5 ttl=64 time=0.013 ms
+
+--- 192.168.10.10 ping statistics ---
+5 packets transmitted, 5 received, 0% packet loss, time 4089ms
+rtt min/avg/max/mdev = 0.010/0.022/0.044/0.012 ms
+[root@WW30CYP10 ~]# 
+2021-11-25 15:00:45 - sshInstance.py - [line:44] - root - INFO - echo 0 > /sys/class/net/ens787f0/device/sriov_numvfs
+2021-11-25 15:00:47 - sshInstance.py - [line:48] - root - INFO - 
+2021-11-25 15:00:52 - test_network_sriov_stress.py - [line:237] - root - INFO - Successfully removed VFs from PF.
+2021-11-25 15:00:55 - sshInstance.py - [line:44] - root - INFO - virsh destroy VMtest1
+2021-11-25 15:00:56 - sshInstance.py - [line:48] - root - INFO - Domain VMtest1 destroyed
+
+
+2021-11-25 15:01:01 - test_network_sriov_stress.py - [line:247] - root - INFO - Successfully shut down the VM: VMtest1
+2021-11-25 15:01:04 - sshInstance.py - [line:44] - root - INFO - virsh undefine VMtest1
+2021-11-25 15:01:04 - sshInstance.py - [line:48] - root - INFO - Domain VMtest1 has been undefined
+
+
+2021-11-25 15:01:09 - test_network_sriov_stress.py - [line:254] - root - INFO - Successfully removed the VM: VMtest1
+2021-11-25 15:01:12 - sshInstance.py - [line:44] - root - INFO - virsh destroy VMtest2
+2021-11-25 15:01:13 - sshInstance.py - [line:48] - root - INFO - Domain VMtest2 destroyed
+
+
+2021-11-25 15:01:18 - test_network_sriov_stress.py - [line:247] - root - INFO - Successfully shut down the VM: VMtest2
+2021-11-25 15:01:21 - sshInstance.py - [line:44] - root - INFO - virsh undefine VMtest2
+2021-11-25 15:01:21 - sshInstance.py - [line:48] - root - INFO - Domain VMtest2 has been undefined
+
+
+2021-11-25 15:01:26 - test_network_sriov_stress.py - [line:254] - root - INFO - Successfully removed the VM: VMtest2
+2021-11-25 15:01:26 - test_network_sriov_stress.py - [line:349] - root - INFO - 
+
+********************************************************Stress Disable and Enable for 4 time when VF is Assigned VM guest.*************************************************************
+
+
+2021-11-25 15:01:29 - sshInstance.py - [line:44] - root - INFO - /opt/APP/utility/DPDK_install/dpdk-stable-20.11.1/usertools/dpdk-devbind.py -s | grep ens787f0 | awk '{print $1;}'
+2021-11-25 15:01:29 - sshInstance.py - [line:48] - root - INFO - 0000:31:00.0
+
+2021-11-25 15:01:34 - test_network_sriov_stress.py - [line:80] - root - INFO - pf_id was found: 0000:31:00.0
+
+2021-11-25 15:01:34 - test_network_sriov_stress.py - [line:357] - root - INFO - format_pf_id is 0000\:31\:00.0
+
+2021-11-25 15:01:34 - test_network_sriov_stress.py - [line:360] - root - INFO - pf_id_key: 31
+2021-11-25 15:01:39 - sshInstance.py - [line:89] - root - INFO - ifconfig ens787f0 192.168.10.11
+[root@WW30CYP10 ~]# 
+2021-11-25 15:01:42 - test_network_sriov_stress.py - [line:268] - root - INFO - Successfully assigned ip to ethernet: ens787f0
+2021-11-25 15:01:45 - sshInstance.py - [line:44] - root - INFO - echo 4 > /sys/class/net/ens787f0/device/sriov_numvfs
+2021-11-25 15:01:45 - sshInstance.py - [line:48] - root - INFO - 
+2021-11-25 15:01:51 - test_network_sriov_stress.py - [line:95] - root - INFO - Successfully Virtualized PF to VFs.
+2021-11-25 15:01:54 - sshInstance.py - [line:44] - root - INFO -  lspci | grep "Virtual" | awk '{print $1;}'list
+2021-11-25 15:01:54 - sshInstance.py - [line:48] - root - INFO - 31:01.0
+31:01.1
+31:01.2
+31:01.3
+
+2021-11-25 15:01:59 - test_network_sriov_stress.py - [line:109] - root - INFO - Succssfully Gotten vf_id list:
+
+2021-11-25 15:02:02 - sshInstance.py - [line:44] - root - INFO -  modinfo vfio-pci | grep "vfio_pci" | awk '{ print $2;}'
+2021-11-25 15:02:02 - sshInstance.py - [line:48] - root - INFO - vfio_pci
+
+2021-11-25 15:02:07 - test_network_sriov_stress.py - [line:162] - root - INFO - Successfuly modeprobe vfio-pci
+2021-11-25 15:02:10 - sshInstance.py - [line:44] - root - INFO - /opt/APP/utility/DPDK_install/dpdk-stable-20.11.1/usertools/dpdk-devbind.py -b vfio-pci 31:01.0
+2021-11-25 15:02:10 - sshInstance.py - [line:48] - root - INFO - 
+2021-11-25 15:02:15 - test_network_sriov_stress.py - [line:141] - root - INFO - Successfuly bound VF to vfio-pci
+2021-11-25 15:02:18 - sshInstance.py - [line:44] - root - INFO - /opt/APP/utility/DPDK_install/dpdk-stable-20.11.1/usertools/dpdk-devbind.py -b vfio-pci 31:01.1
+2021-11-25 15:02:19 - sshInstance.py - [line:48] - root - INFO - 
+2021-11-25 15:02:24 - test_network_sriov_stress.py - [line:141] - root - INFO - Successfuly bound VF to vfio-pci
+2021-11-25 15:02:24 - test_network_sriov_stress.py - [line:381] - root - INFO - lspci -Dnn | grep 31:01.1
+2021-11-25 15:02:27 - sshInstance.py - [line:44] - root - INFO - lspci -Dnn | grep 31:01.1
+2021-11-25 15:02:27 - sshInstance.py - [line:48] - root - INFO - 0000:31:01.1 Ethernet controller [0200]: Intel Corporation Ethernet Adaptive Virtual Function [8086:1889] (rev 02)
+
+2021-11-25 15:02:32 - test_network_sriov_stress.py - [line:392] - root - INFO - Successfully get vf device id: 8086:1889
+2021-11-25 15:02:35 - sshInstance.py - [line:44] - root - INFO - virsh net-info default | grep "Active" | awk '{print $2;}'
+2021-11-25 15:02:35 - sshInstance.py - [line:48] - root - INFO - yes
+
+2021-11-25 15:02:40 - test_network_sriov_stress.py - [line:170] - root - INFO - Default network is active? yes
+
+2021-11-25 15:02:44 - sshInstance.py - [line:69] - root - INFO - virt-install --name VMtest1 --ram 4096 --cpu host --vcpus=5 ---network network=default --hostdev pci_0000_31_01_0 --boot hd --disk path=/home//image/ubuntu20.04_2.img,size=50,format=qcow2 --graphics vnc,listen=0.0.0.0,port==5900 --noautoconsole
+
+** (process:134642): [1;33mWARNING[0m **: [34m15:02:55.633[0m: Entity http://pcisig.com/pci/1B36/0100 referenced but not defined
+WARNING  No operating system detected, VM performance may suffer. Specify an OS with --os-variant for optimal results.
+
+Starting install...
+ERROR    Requested operation is not valid: PCI device 0000:31:01.0 is in use by driver QEMU, domain VMtest1
+Domain installation does not appear to have been successful.
+If it was, you can restart your domain by running:
+  virsh --connect qemu:///system start VMtest1
+otherwise, please restart your installation.
+[root@WW30CYP10 ~]# 
+2021-11-25 15:02:47 - test_network_sriov_stress.py - [line:202] - root - ERROR - Failed to create a VM: virt-install --name VMtest1 --ram 4096 --cpu host --vcpus=5 ---network network=default --hostdev pci_0000_31_01_0 --boot hd --disk path=/home//image/ubuntu20.04_2.img,size=50,format=qcow2 --graphics vnc,listen=0.0.0.0,port==5900 --noautoconsole
+
+** (process:134642): [1;33mWARNING[0m **: [34m15:02:55.633[0m: Entity http://pcisig.com/pci/1B36/0100 referenced but not defined
+WARNING  No operating system detected, VM performance may suffer. Specify an OS with --os-variant for optimal results.
+
+Starting install...
+ERROR    Requested operation is not valid: PCI device 0000:31:01.0 is in use by driver QEMU, domain VMtest1
+Domain installation does not appear to have been successful.
+If it was, you can restart your domain by running:
+  virsh --connect qemu:///system start VMtest1
+otherwise, please restart your installation.
+[root@WW30CYP10 ~]# 
+2021-11-25 15:02:47 - test_network_sriov_stress.py - [line:203] - root - ERROR - Failed to create a VM: 
+2021-11-25 15:02:51 - sshInstance.py - [line:69] - root - INFO - virt-install --name VMtest1 --ram 4096 --cpu host --vcpus=5 ---network network=default --hostdev pci_0000_31_01_0 --boot hd --disk path=/home//image/ubuntu20.04_2.img,size=50,format=qcow2 --graphics vnc,listen=0.0.0.0,port==5900 --noautoconsole
+
+** (process:134700): [1;33mWARNING[0m **: [34m15:03:02.665[0m: Entity http://pcisig.com/pci/1B36/0100 referenced but not defined
+WARNING  No operating system detected, VM performance may suffer. Specify an OS with --os-variant for optimal results.
+
+Starting install...
+2021-11-25 15:02:54 - sshInstance.py - [line:69] - root - INFO - Domain creation completed.
+[root@WW30CYP10 ~]# 
+2021-11-25 15:02:57 - test_network_sriov_stress.py - [line:205] - root - INFO - Successfully created a VM: VMtest1
+2021-11-25 15:03:01 - sshInstance.py - [line:69] - root - INFO - virt-install --name VMtest2 --ram 4096 --cpu host --vcpus=5 ---network network=default --hostdev pci_0000_31_01_1 --boot hd --disk path=/home//image/ubuntu20.04.img,size=50,format=qcow2 --graphics vnc,listen=0.0.0.0,port=59901 --noautoconsole
+
+** (process:134773): [1;33mWARNING[0m **: [34m15:03:12.669[0m: Entity http://pcisig.com/pci/1B36/0100 referenced but not defined
+WARNING  No operating system detected, VM performance may suffer. Specify an OS with --os-variant for optimal results.
+
+Starting install...
+ERROR    Requested operation is not valid: PCI device 0000:31:01.1 is in use by driver QEMU, domain VMtest2
+Domain installation does not appear to have been successful.
+If it was, you can restart your domain by running:
+  virsh --connect qemu:///system start VMtest2
+otherwise, please restart your installation.
+[root@WW30CYP10 ~]# 
+2021-11-25 15:03:04 - test_network_sriov_stress.py - [line:202] - root - ERROR - Failed to create a VM: virt-install --name VMtest2 --ram 4096 --cpu host --vcpus=5 ---network network=default --hostdev pci_0000_31_01_1 --boot hd --disk path=/home//image/ubuntu20.04.img,size=50,format=qcow2 --graphics vnc,listen=0.0.0.0,port=59901 --noautoconsole
+
+** (process:134773): [1;33mWARNING[0m **: [34m15:03:12.669[0m: Entity http://pcisig.com/pci/1B36/0100 referenced but not defined
+WARNING  No operating system detected, VM performance may suffer. Specify an OS with --os-variant for optimal results.
+
+Starting install...
+ERROR    Requested operation is not valid: PCI device 0000:31:01.1 is in use by driver QEMU, domain VMtest2
+Domain installation does not appear to have been successful.
+If it was, you can restart your domain by running:
+  virsh --connect qemu:///system start VMtest2
+otherwise, please restart your installation.
+[root@WW30CYP10 ~]# 
+2021-11-25 15:03:04 - test_network_sriov_stress.py - [line:203] - root - ERROR - Failed to create a VM: 
+2021-11-25 15:03:08 - sshInstance.py - [line:69] - root - INFO - virt-install --name VMtest2 --ram 4096 --cpu host --vcpus=5 ---network network=default --hostdev pci_0000_31_01_1 --boot hd --disk path=/home//image/ubuntu20.04.img,size=50,format=qcow2 --graphics vnc,listen=0.0.0.0,port=59901 --noautoconsole
+
+** (process:134835): [1;33mWARNING[0m **: [34m15:03:19.675[0m: Entity http://pcisig.com/pci/1B36/0100 referenced but not defined
+WARNING  No operating system detected, VM performance may suffer. Specify an OS with --os-variant for optimal results.
+
+Starting install...
+2021-11-25 15:03:11 - sshInstance.py - [line:69] - root - INFO - Domain creation completed.
+[root@WW30CYP10 ~]# 
+2021-11-25 15:03:14 - test_network_sriov_stress.py - [line:205] - root - INFO - Successfully created a VM: VMtest2
+2021-11-25 15:03:17 - sshInstance.py - [line:44] - root - INFO - virsh domifaddr VMtest1 | grep '192.168' | awk '{print $4;}'
+2021-11-25 15:03:17 - sshInstance.py - [line:48] - root - INFO - 
+2021-11-25 15:03:22 - test_network_sriov_stress.py - [line:221] - root - ERROR - not found IP of VMtest1
+2021-11-25 15:04:25 - sshInstance.py - [line:44] - root - INFO - virsh domifaddr VMtest1 | grep '192.168' | awk '{print $4;}'
+2021-11-25 15:04:26 - sshInstance.py - [line:48] - root - INFO - 192.168.122.145/24
+
+2021-11-25 15:04:31 - test_network_sriov_stress.py - [line:216] - root - INFO - Successfully got VMtest1 IP: 192.168.122.145/24
+
+2021-11-25 15:04:34 - sshInstance.py - [line:44] - root - INFO - virsh domifaddr VMtest2 | grep '192.168' | awk '{print $4;}'
+2021-11-25 15:04:34 - sshInstance.py - [line:48] - root - INFO - 192.168.122.122/24
+
+2021-11-25 15:04:39 - test_network_sriov_stress.py - [line:216] - root - INFO - Successfully got VMtest2 IP: 192.168.122.122/24
+
+2021-11-25 15:04:39 - test_network_sriov_stress.py - [line:409] - root - INFO - ip of VM1: 192.168.122.145
+2021-11-25 15:04:39 - test_network_sriov_stress.py - [line:410] - root - INFO - ip of VM1: 192.168.122.122
+2021-11-25 15:04:43 - sshInstance.py - [line:69] - root - INFO - ping -c 5 192.168.122.145
+PING 192.168.122.145 (192.168.122.145) 56(84) bytes of data.
+64 bytes from 192.168.122.145: icmp_seq=1 ttl=64 time=0.229 ms
+2021-11-25 15:04:44 - sshInstance.py - [line:69] - root - INFO - 64 bytes from 192.168.122.145: icmp_seq=2 ttl=64 time=0.106 ms
+2021-11-25 15:04:45 - sshInstance.py - [line:69] - root - INFO - 64 bytes from 192.168.122.145: icmp_seq=3 ttl=64 time=0.118 ms
+2021-11-25 15:04:46 - sshInstance.py - [line:69] - root - INFO - 64 bytes from 192.168.122.145: icmp_seq=4 ttl=64 time=0.088 ms
+2021-11-25 15:04:47 - sshInstance.py - [line:69] - root - INFO - 64 bytes from 192.168.122.145: icmp_seq=5 ttl=64 time=0.090 ms
+
+--- 192.168.122.145 ping statistics ---
+5 packets transmitted, 5 received, 0% packet loss, time 4107ms
+rtt min/avg/max/mdev = 0.088/0.126/0.229/0.053 ms
+[root@WW30CYP10 ~]# 
+2021-11-25 15:04:55 - sshInstance.py - [line:89] - root - INFO - ssh root@192.168.122.145
+root@192.168.122.145's password: 
+2021-11-25 15:05:03 - sshInstance.py - [line:89] - root - INFO - 
+Welcome to Ubuntu 20.04 LTS (GNU/Linux 5.4.0-26-generic x86_64)
+ * Documentation:  https://help.ubuntu.com
+ * Management:     https://landscape.canonical.com
+ * Support:        https://ubuntu.com/advantage
+  System information as of Thu 25 Nov 2021 02:05:11 AM EST
+  System load:  0.06               Processes:             139
+  Usage of /:   46.9% of 19.07GB   Users logged in:       0
+  Memory usage: 30%                IPv4 address for ens3: 192.168.122.145
+  Swap usage:   0%
+
+366 updates can be installed immediately.
+222 of these updates are security updates.
+To see these additional updates run: apt list --upgradable
+
+Last login: Thu Nov 25 01:59:48 2021 from 192.168.122.1
+root@localhost:~# 
+2021-11-25 15:05:11 - sshInstance.py - [line:89] - root - INFO - lspci -Dnn | grep "8086:1889" | awk '{print $1;}'
+0000:00:05.0
+root@localhost:~# 
+2021-11-25 15:05:17 - test_network_sriov_stress.py - [line:306] - root - INFO - successfully got vf pci id of vm1: 0000:00:05.0
+2021-11-25 15:05:22 - sshInstance.py - [line:89] - root - INFO - ls /sys/bus/pci/devices/0000\:00\:05.0/net/ --color=never
+ens5
+root@localhost:~# 
+2021-11-25 15:05:27 - test_network_sriov_stress.py - [line:317] - root - INFO - Successfully got vf device name of vm1: ens5
+2021-11-25 15:05:32 - sshInstance.py - [line:89] - root - INFO - ifconfig ens5 192.168.10.12
+root@localhost:~# 
+2021-11-25 15:05:35 - test_network_sriov_stress.py - [line:268] - root - INFO - Successfully assigned ip to ethernet: ens5
+2021-11-25 15:05:40 - sshInstance.py - [line:89] - root - INFO - ifconfig ens5 down
+root@localhost:~# 
+2021-11-25 15:05:48 - sshInstance.py - [line:89] - root - INFO - ifconfig ens5 hw ether 1234567890ac
+root@localhost:~# 
+2021-11-25 15:05:56 - sshInstance.py - [line:89] - root - INFO - ifconfig ens5 up
+root@localhost:~# 
+2021-11-25 15:06:04 - sshInstance.py - [line:89] - root - INFO - nmcli device connect ens5
+Command 'nmcli' not found, but can be installed with:
+apt install network-manager
+root@localhost:~# 
+2021-11-25 15:06:12 - sshInstance.py - [line:89] - root - INFO - ifconfig ens5
+ens5: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        inet 192.168.10.12  netmask 255.255.255.0  broadcast 192.168.10.255
+        inet6 fe80::1034:56ff:fe78:90ac  prefixlen 64  scopeid 0x20<link>
+        ether 12:34:56:78:90:ac  txqueuelen 1000  (Ethernet)
+        RX packets 0  bytes 0 (0.0 B)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 8  bytes 696 (696.0 B)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+root@localhost:~# 
+2021-11-25 15:06:20 - sshInstance.py - [line:89] - root - INFO - exit
+logout
+Connection to 192.168.122.145 closed.
+[root@WW30CYP10 ~]# 
+2021-11-25 15:06:27 - sshInstance.py - [line:69] - root - INFO - ping -c 5 192.168.122.122
+PING 192.168.122.122 (192.168.122.122) 56(84) bytes of data.
+64 bytes from 192.168.122.122: icmp_seq=1 ttl=64 time=0.119 ms
+2021-11-25 15:06:28 - sshInstance.py - [line:69] - root - INFO - 64 bytes from 192.168.122.122: icmp_seq=2 ttl=64 time=0.103 ms
+2021-11-25 15:06:29 - sshInstance.py - [line:69] - root - INFO - 64 bytes from 192.168.122.122: icmp_seq=3 ttl=64 time=0.085 ms
+2021-11-25 15:06:30 - sshInstance.py - [line:69] - root - INFO - 64 bytes from 192.168.122.122: icmp_seq=4 ttl=64 time=0.103 ms
+2021-11-25 15:06:31 - sshInstance.py - [line:69] - root - INFO - 64 bytes from 192.168.122.122: icmp_seq=5 ttl=64 time=0.124 ms
+
+--- 192.168.122.122 ping statistics ---
+5 packets transmitted, 5 received, 0% packet loss, time 4119ms
+rtt min/avg/max/mdev = 0.085/0.106/0.124/0.019 ms
+[root@WW30CYP10 ~]# 
+2021-11-25 15:06:39 - sshInstance.py - [line:89] - root - INFO - ssh root@192.168.122.122
+root@192.168.122.122's password: 
+2021-11-25 15:06:47 - sshInstance.py - [line:89] - root - INFO - 
+Welcome to Ubuntu 20.04 LTS (GNU/Linux 5.4.0-26-generic x86_64)
+ * Documentation:  https://help.ubuntu.com
+ * Management:     https://landscape.canonical.com
+ * Support:        https://ubuntu.com/advantage
+  System information as of Thu 25 Nov 2021 02:06:56 AM EST
+  System load:  0.01               Processes:             137
+  Usage of /:   47.3% of 19.07GB   Users logged in:       0
+  Memory usage: 30%                IPv4 address for ens3: 192.168.122.122
+  Swap usage:   0%
+
+366 updates can be installed immediately.
+222 of these updates are security updates.
+To see these additional updates run: apt list --upgradable
+
+Last login: Thu Nov 25 01:57:41 2021 from 192.168.122.1
+root@localhost:~# 
+2021-11-25 15:06:55 - sshInstance.py - [line:89] - root - INFO - lspci -Dnn | grep "8086:1889" | awk '{print $1;}'
+0000:00:05.0
+root@localhost:~# 
+2021-11-25 15:07:01 - test_network_sriov_stress.py - [line:306] - root - INFO - successfully got vf pci id of vm1: 0000:00:05.0
+2021-11-25 15:07:06 - sshInstance.py - [line:89] - root - INFO - ls /sys/bus/pci/devices/0000\:00\:05.0/net/ --color=never
+ens5
+root@localhost:~# 
+2021-11-25 15:07:11 - test_network_sriov_stress.py - [line:317] - root - INFO - Successfully got vf device name of vm1: ens5
+2021-11-25 15:07:16 - sshInstance.py - [line:89] - root - INFO - ifconfig ens5 192.168.10.13
+root@localhost:~# 
+2021-11-25 15:07:19 - test_network_sriov_stress.py - [line:268] - root - INFO - Successfully assigned ip to ethernet: ens5
+2021-11-25 15:07:24 - sshInstance.py - [line:89] - root - INFO - ifconfig ens5 down
+root@localhost:~# 
+2021-11-25 15:07:32 - sshInstance.py - [line:89] - root - INFO - ifconfig ens5 hw ether 1234567890ab
+root@localhost:~# 
+2021-11-25 15:07:40 - sshInstance.py - [line:89] - root - INFO - ifconfig ens5 up
+root@localhost:~# 
+2021-11-25 15:07:48 - sshInstance.py - [line:89] - root - INFO - nmcli device connect ens5
+Command 'nmcli' not found, but can be installed with:
+apt install network-manager
+root@localhost:~# 
+2021-11-25 15:07:56 - sshInstance.py - [line:89] - root - INFO - ifconfig ens5
+ens5: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        inet 192.168.10.13  netmask 255.255.255.0  broadcast 192.168.10.255
+        inet6 fe80::1034:56ff:fe78:90ab  prefixlen 64  scopeid 0x20<link>
+        ether 12:34:56:78:90:ab  txqueuelen 1000  (Ethernet)
+        RX packets 4  bytes 1384 (1.3 KB)
+        RX errors 0  dropped 1  overruns 0  frame 0
+        TX packets 9  bytes 766 (766.0 B)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+root@localhost:~# 
+2021-11-25 15:08:04 - sshInstance.py - [line:89] - root - INFO - exit
+logout
+Connection to 192.168.122.122 closed.
+[root@WW30CYP10 ~]# 
+2021-11-25 15:08:07 - test_network_sriov_stress.py - [line:428] - root - INFO - Ping two vms IP from SUT:
+2021-11-25 15:08:11 - sshInstance.py - [line:69] - root - INFO - ping -c 5 192.168.10.12
+PING 192.168.10.12 (192.168.10.12) 56(84) bytes of data.
+64 bytes from 192.168.10.12: icmp_seq=1 ttl=64 time=5.21 ms
+2021-11-25 15:08:12 - sshInstance.py - [line:69] - root - INFO - 64 bytes from 192.168.10.12: icmp_seq=2 ttl=64 time=0.063 ms
+2021-11-25 15:08:13 - sshInstance.py - [line:69] - root - INFO - 64 bytes from 192.168.10.12: icmp_seq=3 ttl=64 time=0.050 ms
+2021-11-25 15:08:14 - sshInstance.py - [line:69] - root - INFO - 64 bytes from 192.168.10.12: icmp_seq=4 ttl=64 time=0.061 ms
+2021-11-25 15:08:15 - sshInstance.py - [line:69] - root - INFO - 64 bytes from 192.168.10.12: icmp_seq=5 ttl=64 time=0.046 ms
+
+--- 192.168.10.12 ping statistics ---
+5 packets transmitted, 5 received, 0% packet loss, time 4069ms
+rtt min/avg/max/mdev = 0.046/1.086/5.212/2.063 ms
+[root@WW30CYP10 ~]# 
+2021-11-25 15:08:22 - sshInstance.py - [line:69] - root - INFO - ping -c 5 192.168.10.13
+PING 192.168.10.13 (192.168.10.13) 56(84) bytes of data.
+64 bytes from 192.168.10.13: icmp_seq=1 ttl=64 time=0.126 ms
+2021-11-25 15:08:23 - sshInstance.py - [line:69] - root - INFO - 64 bytes from 192.168.10.13: icmp_seq=2 ttl=64 time=0.096 ms
+2021-11-25 15:08:24 - sshInstance.py - [line:69] - root - INFO - 64 bytes from 192.168.10.13: icmp_seq=3 ttl=64 time=0.049 ms
+2021-11-25 15:08:25 - sshInstance.py - [line:69] - root - INFO - 64 bytes from 192.168.10.13: icmp_seq=4 ttl=64 time=0.034 ms
+2021-11-25 15:08:26 - sshInstance.py - [line:69] - root - INFO - 64 bytes from 192.168.10.13: icmp_seq=5 ttl=64 time=0.035 ms
+
+--- 192.168.10.13 ping statistics ---
+5 packets transmitted, 5 received, 0% packet loss, time 4128ms
+rtt min/avg/max/mdev = 0.034/0.068/0.126/0.036 ms
+[root@WW30CYP10 ~]# 
+2021-11-25 15:08:29 - test_network_sriov_stress.py - [line:436] - root - INFO - ping VMtest2 IP from VMtest1
+2021-11-25 15:08:33 - sshInstance.py - [line:69] - root - INFO - ping -c 5 192.168.122.145
+PING 192.168.122.145 (192.168.122.145) 56(84) bytes of data.
+64 bytes from 192.168.122.145: icmp_seq=1 ttl=64 time=0.135 ms
+2021-11-25 15:08:34 - sshInstance.py - [line:69] - root - INFO - 64 bytes from 192.168.122.145: icmp_seq=2 ttl=64 time=0.078 ms
+2021-11-25 15:08:35 - sshInstance.py - [line:69] - root - INFO - 64 bytes from 192.168.122.145: icmp_seq=3 ttl=64 time=0.111 ms
+2021-11-25 15:08:36 - sshInstance.py - [line:69] - root - INFO - 64 bytes from 192.168.122.145: icmp_seq=4 ttl=64 time=0.111 ms
+2021-11-25 15:08:37 - sshInstance.py - [line:69] - root - INFO - 64 bytes from 192.168.122.145: icmp_seq=5 ttl=64 time=0.077 ms
+
+--- 192.168.122.145 ping statistics ---
+5 packets transmitted, 5 received, 0% packet loss, time 4122ms
+rtt min/avg/max/mdev = 0.077/0.102/0.135/0.023 ms
+[root@WW30CYP10 ~]# 
+2021-11-25 15:08:45 - sshInstance.py - [line:89] - root - INFO - ssh root@192.168.122.145
+root@192.168.122.145's password: 
+2021-11-25 15:08:53 - sshInstance.py - [line:89] - root - INFO - 
+Welcome to Ubuntu 20.04 LTS (GNU/Linux 5.4.0-26-generic x86_64)
+ * Documentation:  https://help.ubuntu.com
+ * Management:     https://landscape.canonical.com
+ * Support:        https://ubuntu.com/advantage
+  System information as of Thu 25 Nov 2021 02:09:02 AM EST
+  System load:  0.0                Processes:             128
+  Usage of /:   46.9% of 19.07GB   Users logged in:       0
+  Memory usage: 30%                IPv4 address for ens3: 192.168.122.145
+  Swap usage:   0%                 IPv4 address for ens5: 192.168.10.12
+
+366 updates can be installed immediately.
+222 of these updates are security updates.
+To see these additional updates run: apt list --upgradable
+
+Last login: Thu Nov 25 02:05:12 2021 from 192.168.122.1
+root@localhost:~# 
+2021-11-25 15:09:00 - sshInstance.py - [line:69] - root - INFO - ping -c 5 192.168.10.13
+PING 192.168.10.13 (192.168.10.13) 56(84) bytes of data.
+64 bytes from 192.168.10.13: icmp_seq=1 ttl=64 time=5.50 ms
+2021-11-25 15:09:01 - sshInstance.py - [line:69] - root - INFO - 64 bytes from 192.168.10.13: icmp_seq=2 ttl=64 time=0.059 ms
+2021-11-25 15:09:02 - sshInstance.py - [line:69] - root - INFO - 64 bytes from 192.168.10.13: icmp_seq=3 ttl=64 time=0.029 ms
+2021-11-25 15:09:03 - sshInstance.py - [line:69] - root - INFO - 64 bytes from 192.168.10.13: icmp_seq=4 ttl=64 time=0.057 ms
+2021-11-25 15:09:04 - sshInstance.py - [line:69] - root - INFO - 64 bytes from 192.168.10.13: icmp_seq=5 ttl=64 time=0.032 ms
+
+--- 192.168.10.13 ping statistics ---
+5 packets transmitted, 5 received, 0% packet loss, time 4053ms
+rtt min/avg/max/mdev = 0.029/1.135/5.498/2.181 ms
+root@localhost:~# 
+2021-11-25 15:09:43 - sshInstance.py - [line:89] - root - INFO - exit
+logout
+Connection to 192.168.122.145 closed.
+[root@WW30CYP10 ~]# 
+2021-11-25 15:09:46 - test_network_sriov_stress.py - [line:444] - root - INFO - ping VMtest2 IP from VMtest1
+2021-11-25 15:09:50 - sshInstance.py - [line:69] - root - INFO - ping -c 5 -I 192.168.10.11 192.168.10.10
+PING 192.168.10.10 (192.168.10.10) from 192.168.10.11 : 56(84) bytes of data.
+64 bytes from 192.168.10.10: icmp_seq=1 ttl=64 time=0.054 ms
+2021-11-25 15:09:51 - sshInstance.py - [line:69] - root - INFO - 64 bytes from 192.168.10.10: icmp_seq=2 ttl=64 time=0.010 ms
+2021-11-25 15:09:52 - sshInstance.py - [line:69] - root - INFO - 64 bytes from 192.168.10.10: icmp_seq=3 ttl=64 time=0.014 ms
+2021-11-25 15:09:53 - sshInstance.py - [line:69] - root - INFO - 64 bytes from 192.168.10.10: icmp_seq=4 ttl=64 time=0.014 ms
+2021-11-25 15:09:54 - sshInstance.py - [line:69] - root - INFO - 64 bytes from 192.168.10.10: icmp_seq=5 ttl=64 time=0.008 ms
+
+--- 192.168.10.10 ping statistics ---
+5 packets transmitted, 5 received, 0% packet loss, time 4092ms
+rtt min/avg/max/mdev = 0.008/0.020/0.054/0.017 ms
+[root@WW30CYP10 ~]# 
+2021-11-25 15:10:00 - sshInstance.py - [line:44] - root - INFO - echo 0 > /sys/class/net/ens787f0/device/sriov_numvfs
+2021-11-25 15:10:02 - sshInstance.py - [line:48] - root - INFO - 
+2021-11-25 15:10:07 - test_network_sriov_stress.py - [line:237] - root - INFO - Successfully removed VFs from PF.
+2021-11-25 15:10:10 - sshInstance.py - [line:44] - root - INFO - virsh destroy VMtest1
+2021-11-25 15:10:11 - sshInstance.py - [line:48] - root - INFO - Domain VMtest1 destroyed
+
+
+2021-11-25 15:10:16 - test_network_sriov_stress.py - [line:247] - root - INFO - Successfully shut down the VM: VMtest1
+2021-11-25 15:10:19 - sshInstance.py - [line:44] - root - INFO - virsh undefine VMtest1
+2021-11-25 15:10:19 - sshInstance.py - [line:48] - root - INFO - Domain VMtest1 has been undefined
+
+
+2021-11-25 15:10:24 - test_network_sriov_stress.py - [line:254] - root - INFO - Successfully removed the VM: VMtest1
+2021-11-25 15:10:27 - sshInstance.py - [line:44] - root - INFO - virsh destroy VMtest2
+2021-11-25 15:10:28 - sshInstance.py - [line:48] - root - INFO - Domain VMtest2 destroyed
+
+
+2021-11-25 15:10:33 - test_network_sriov_stress.py - [line:247] - root - INFO - Successfully shut down the VM: VMtest2
+2021-11-25 15:10:36 - sshInstance.py - [line:44] - root - INFO - virsh undefine VMtest2
+2021-11-25 15:10:36 - sshInstance.py - [line:48] - root - INFO - Domain VMtest2 has been undefined
+
+
+2021-11-25 15:10:41 - test_network_sriov_stress.py - [line:254] - root - INFO - Successfully removed the VM: VMtest2
+2021-11-25 15:10:41 - test_network_sriov_stress.py - [line:349] - root - INFO - 
+
+********************************************************Stress Disable and Enable for 5 time when VF is Assigned VM guest.*************************************************************
+
+
+2021-11-25 15:10:44 - sshInstance.py - [line:44] - root - INFO - /opt/APP/utility/DPDK_install/dpdk-stable-20.11.1/usertools/dpdk-devbind.py -s | grep ens787f0 | awk '{print $1;}'
+2021-11-25 15:10:44 - sshInstance.py - [line:48] - root - INFO - 0000:31:00.0
+
+2021-11-25 15:10:49 - test_network_sriov_stress.py - [line:80] - root - INFO - pf_id was found: 0000:31:00.0
+
+2021-11-25 15:10:49 - test_network_sriov_stress.py - [line:357] - root - INFO - format_pf_id is 0000\:31\:00.0
+
+2021-11-25 15:10:49 - test_network_sriov_stress.py - [line:360] - root - INFO - pf_id_key: 31
+2021-11-25 15:10:54 - sshInstance.py - [line:89] - root - INFO - ifconfig ens787f0 192.168.10.11
+[root@WW30CYP10 ~]# 
+2021-11-25 15:10:57 - test_network_sriov_stress.py - [line:268] - root - INFO - Successfully assigned ip to ethernet: ens787f0
+2021-11-25 15:11:01 - sshInstance.py - [line:44] - root - INFO - echo 4 > /sys/class/net/ens787f0/device/sriov_numvfs
+2021-11-25 15:11:01 - sshInstance.py - [line:48] - root - INFO - 
+2021-11-25 15:11:06 - test_network_sriov_stress.py - [line:95] - root - INFO - Successfully Virtualized PF to VFs.
+2021-11-25 15:11:09 - sshInstance.py - [line:44] - root - INFO -  lspci | grep "Virtual" | awk '{print $1;}'list
+2021-11-25 15:11:09 - sshInstance.py - [line:48] - root - INFO - 31:01.0
+31:01.1
+31:01.2
+31:01.3
+
+2021-11-25 15:11:14 - test_network_sriov_stress.py - [line:109] - root - INFO - Succssfully Gotten vf_id list:
+
+2021-11-25 15:11:17 - sshInstance.py - [line:44] - root - INFO -  modinfo vfio-pci | grep "vfio_pci" | awk '{ print $2;}'
+2021-11-25 15:11:17 - sshInstance.py - [line:48] - root - INFO - vfio_pci
+
+2021-11-25 15:11:22 - test_network_sriov_stress.py - [line:162] - root - INFO - Successfuly modeprobe vfio-pci
+2021-11-25 15:11:25 - sshInstance.py - [line:44] - root - INFO - /opt/APP/utility/DPDK_install/dpdk-stable-20.11.1/usertools/dpdk-devbind.py -b vfio-pci 31:01.0
+2021-11-25 15:11:26 - sshInstance.py - [line:48] - root - INFO - 
+2021-11-25 15:11:31 - test_network_sriov_stress.py - [line:141] - root - INFO - Successfuly bound VF to vfio-pci
+2021-11-25 15:11:34 - sshInstance.py - [line:44] - root - INFO - /opt/APP/utility/DPDK_install/dpdk-stable-20.11.1/usertools/dpdk-devbind.py -b vfio-pci 31:01.1
+2021-11-25 15:11:34 - sshInstance.py - [line:48] - root - INFO - 
+2021-11-25 15:11:39 - test_network_sriov_stress.py - [line:141] - root - INFO - Successfuly bound VF to vfio-pci
+2021-11-25 15:11:39 - test_network_sriov_stress.py - [line:381] - root - INFO - lspci -Dnn | grep 31:01.1
+2021-11-25 15:11:42 - sshInstance.py - [line:44] - root - INFO - lspci -Dnn | grep 31:01.1
+2021-11-25 15:11:42 - sshInstance.py - [line:48] - root - INFO - 0000:31:01.1 Ethernet controller [0200]: Intel Corporation Ethernet Adaptive Virtual Function [8086:1889] (rev 02)
+
+2021-11-25 15:11:47 - test_network_sriov_stress.py - [line:392] - root - INFO - Successfully get vf device id: 8086:1889
+2021-11-25 15:11:50 - sshInstance.py - [line:44] - root - INFO - virsh net-info default | grep "Active" | awk '{print $2;}'
+2021-11-25 15:11:51 - sshInstance.py - [line:48] - root - INFO - yes
+
+2021-11-25 15:11:56 - test_network_sriov_stress.py - [line:170] - root - INFO - Default network is active? yes
+
+2021-11-25 15:12:00 - sshInstance.py - [line:69] - root - INFO - virt-install --name VMtest1 --ram 4096 --cpu host --vcpus=5 ---network network=default --hostdev pci_0000_31_01_0 --boot hd --disk path=/home//image/ubuntu20.04_2.img,size=50,format=qcow2 --graphics vnc,listen=0.0.0.0,port==5900 --noautoconsole
+
+** (process:136149): [1;33mWARNING[0m **: [34m15:12:10.880[0m: Entity http://pcisig.com/pci/1B36/0100 referenced but not defined
+WARNING  No operating system detected, VM performance may suffer. Specify an OS with --os-variant for optimal results.
+
+Starting install...
+ERROR    Requested operation is not valid: PCI device 0000:31:01.0 is in use by driver QEMU, domain VMtest1
+Domain installation does not appear to have been successful.
+If it was, you can restart your domain by running:
+  virsh --connect qemu:///system start VMtest1
+otherwise, please restart your installation.
+[root@WW30CYP10 ~]# 
+2021-11-25 15:12:03 - test_network_sriov_stress.py - [line:202] - root - ERROR - Failed to create a VM: virt-install --name VMtest1 --ram 4096 --cpu host --vcpus=5 ---network network=default --hostdev pci_0000_31_01_0 --boot hd --disk path=/home//image/ubuntu20.04_2.img,size=50,format=qcow2 --graphics vnc,listen=0.0.0.0,port==5900 --noautoconsole
+
+** (process:136149): [1;33mWARNING[0m **: [34m15:12:10.880[0m: Entity http://pcisig.com/pci/1B36/0100 referenced but not defined
+WARNING  No operating system detected, VM performance may suffer. Specify an OS with --os-variant for optimal results.
+
+Starting install...
+ERROR    Requested operation is not valid: PCI device 0000:31:01.0 is in use by driver QEMU, domain VMtest1
+Domain installation does not appear to have been successful.
+If it was, you can restart your domain by running:
+  virsh --connect qemu:///system start VMtest1
+otherwise, please restart your installation.
+[root@WW30CYP10 ~]# 
+2021-11-25 15:12:03 - test_network_sriov_stress.py - [line:203] - root - ERROR - Failed to create a VM: 
+2021-11-25 15:12:07 - sshInstance.py - [line:69] - root - INFO - virt-install --name VMtest1 --ram 4096 --cpu host --vcpus=5 ---network network=default --hostdev pci_0000_31_01_0 --boot hd --disk path=/home//image/ubuntu20.04_2.img,size=50,format=qcow2 --graphics vnc,listen=0.0.0.0,port==5900 --noautoconsole
+
+** (process:136209): [1;33mWARNING[0m **: [34m15:12:17.870[0m: Entity http://pcisig.com/pci/1B36/0100 referenced but not defined
+WARNING  No operating system detected, VM performance may suffer. Specify an OS with --os-variant for optimal results.
+
+Starting install...
+2021-11-25 15:12:10 - sshInstance.py - [line:69] - root - INFO - Domain creation completed.
+[root@WW30CYP10 ~]# 
+2021-11-25 15:12:13 - test_network_sriov_stress.py - [line:205] - root - INFO - Successfully created a VM: VMtest1
+2021-11-25 15:12:17 - sshInstance.py - [line:69] - root - INFO - virt-install --name VMtest2 --ram 4096 --cpu host --vcpus=5 ---network network=default --hostdev pci_0000_31_01_1 --boot hd --disk path=/home//image/ubuntu20.04.img,size=50,format=qcow2 --graphics vnc,listen=0.0.0.0,port=59901 --noautoconsole
+
+** (process:136276): [1;33mWARNING[0m **: [34m15:12:27.882[0m: Entity http://pcisig.com/pci/1B36/0100 referenced but not defined
+WARNING  No operating system detected, VM performance may suffer. Specify an OS with --os-variant for optimal results.
+
+Starting install...
+ERROR    Requested operation is not valid: PCI device 0000:31:01.1 is in use by driver QEMU, domain VMtest2
+Domain installation does not appear to have been successful.
+If it was, you can restart your domain by running:
+  virsh --connect qemu:///system start VMtest2
+otherwise, please restart your installation.
+[root@WW30CYP10 ~]# 
+2021-11-25 15:12:20 - test_network_sriov_stress.py - [line:202] - root - ERROR - Failed to create a VM: virt-install --name VMtest2 --ram 4096 --cpu host --vcpus=5 ---network network=default --hostdev pci_0000_31_01_1 --boot hd --disk path=/home//image/ubuntu20.04.img,size=50,format=qcow2 --graphics vnc,listen=0.0.0.0,port=59901 --noautoconsole
+
+** (process:136276): [1;33mWARNING[0m **: [34m15:12:27.882[0m: Entity http://pcisig.com/pci/1B36/0100 referenced but not defined
+WARNING  No operating system detected, VM performance may suffer. Specify an OS with --os-variant for optimal results.
+
+Starting install...
+ERROR    Requested operation is not valid: PCI device 0000:31:01.1 is in use by driver QEMU, domain VMtest2
+Domain installation does not appear to have been successful.
+If it was, you can restart your domain by running:
+  virsh --connect qemu:///system start VMtest2
+otherwise, please restart your installation.
+[root@WW30CYP10 ~]# 
+2021-11-25 15:12:20 - test_network_sriov_stress.py - [line:203] - root - ERROR - Failed to create a VM: 
+2021-11-25 15:12:24 - sshInstance.py - [line:69] - root - INFO - virt-install --name VMtest2 --ram 4096 --cpu host --vcpus=5 ---network network=default --hostdev pci_0000_31_01_1 --boot hd --disk path=/home//image/ubuntu20.04.img,size=50,format=qcow2 --graphics vnc,listen=0.0.0.0,port=59901 --noautoconsole
+
+** (process:136338): [1;33mWARNING[0m **: [34m15:12:34.888[0m: Entity http://pcisig.com/pci/1B36/0100 referenced but not defined
+WARNING  No operating system detected, VM performance may suffer. Specify an OS with --os-variant for optimal results.
+
+Starting install...
+2021-11-25 15:12:27 - sshInstance.py - [line:69] - root - INFO - Domain creation completed.
+[root@WW30CYP10 ~]# 
+2021-11-25 15:12:30 - test_network_sriov_stress.py - [line:205] - root - INFO - Successfully created a VM: VMtest2
+2021-11-25 15:12:33 - sshInstance.py - [line:44] - root - INFO - virsh domifaddr VMtest1 | grep '192.168' | awk '{print $4;}'
+2021-11-25 15:12:33 - sshInstance.py - [line:48] - root - INFO - 
+2021-11-25 15:12:38 - test_network_sriov_stress.py - [line:221] - root - ERROR - not found IP of VMtest1
+2021-11-25 15:13:41 - sshInstance.py - [line:44] - root - INFO - virsh domifaddr VMtest1 | grep '192.168' | awk '{print $4;}'
+2021-11-25 15:13:41 - sshInstance.py - [line:48] - root - INFO - 192.168.122.145/24
+
+2021-11-25 15:13:46 - test_network_sriov_stress.py - [line:216] - root - INFO - Successfully got VMtest1 IP: 192.168.122.145/24
+
+2021-11-25 15:13:49 - sshInstance.py - [line:44] - root - INFO - virsh domifaddr VMtest2 | grep '192.168' | awk '{print $4;}'
+2021-11-25 15:13:49 - sshInstance.py - [line:48] - root - INFO - 192.168.122.122/24
+
+2021-11-25 15:13:54 - test_network_sriov_stress.py - [line:216] - root - INFO - Successfully got VMtest2 IP: 192.168.122.122/24
+
+2021-11-25 15:13:54 - test_network_sriov_stress.py - [line:409] - root - INFO - ip of VM1: 192.168.122.145
+2021-11-25 15:13:54 - test_network_sriov_stress.py - [line:410] - root - INFO - ip of VM1: 192.168.122.122
+2021-11-25 15:13:58 - sshInstance.py - [line:69] - root - INFO - ping -c 5 192.168.122.145
+PING 192.168.122.145 (192.168.122.145) 56(84) bytes of data.
+64 bytes from 192.168.122.145: icmp_seq=1 ttl=64 time=0.131 ms
+2021-11-25 15:13:59 - sshInstance.py - [line:69] - root - INFO - 64 bytes from 192.168.122.145: icmp_seq=2 ttl=64 time=0.092 ms
+2021-11-25 15:14:00 - sshInstance.py - [line:69] - root - INFO - 64 bytes from 192.168.122.145: icmp_seq=3 ttl=64 time=0.101 ms
+2021-11-25 15:14:01 - sshInstance.py - [line:69] - root - INFO - 64 bytes from 192.168.122.145: icmp_seq=4 ttl=64 time=0.102 ms
+2021-11-25 15:14:02 - sshInstance.py - [line:69] - root - INFO - 64 bytes from 192.168.122.145: icmp_seq=5 ttl=64 time=0.081 ms
+
+--- 192.168.122.145 ping statistics ---
+5 packets transmitted, 5 received, 0% packet loss, time 4089ms
+rtt min/avg/max/mdev = 0.081/0.101/0.131/0.018 ms
+[root@WW30CYP10 ~]# 
+2021-11-25 15:14:10 - sshInstance.py - [line:89] - root - INFO - ssh root@192.168.122.145
+root@192.168.122.145's password: 
+2021-11-25 15:14:18 - sshInstance.py - [line:89] - root - INFO - 
+Welcome to Ubuntu 20.04 LTS (GNU/Linux 5.4.0-26-generic x86_64)
+ * Documentation:  https://help.ubuntu.com
+ * Management:     https://landscape.canonical.com
+ * Support:        https://ubuntu.com/advantage
+  System information as of Thu 25 Nov 2021 02:14:27 AM EST
+  System load:  0.2                Processes:             138
+  Usage of /:   47.0% of 19.07GB   Users logged in:       0
+  Memory usage: 30%                IPv4 address for ens3: 192.168.122.145
+  Swap usage:   0%
+
+366 updates can be installed immediately.
+222 of these updates are security updates.
+To see these additional updates run: apt list --upgradable
+
+Last login: Thu Nov 25 02:09:02 2021 from 192.168.122.1
+root@localhost:~# 
+2021-11-25 15:14:26 - sshInstance.py - [line:89] - root - INFO - lspci -Dnn | grep "8086:1889" | awk '{print $1;}'
+0000:00:05.0
+root@localhost:~# 
+2021-11-25 15:14:32 - test_network_sriov_stress.py - [line:306] - root - INFO - successfully got vf pci id of vm1: 0000:00:05.0
+2021-11-25 15:14:37 - sshInstance.py - [line:89] - root - INFO - ls /sys/bus/pci/devices/0000\:00\:05.0/net/ --color=never
+ens5
+root@localhost:~# 
+2021-11-25 15:14:42 - test_network_sriov_stress.py - [line:317] - root - INFO - Successfully got vf device name of vm1: ens5
+2021-11-25 15:14:47 - sshInstance.py - [line:89] - root - INFO - ifconfig ens5 192.168.10.12
+root@localhost:~# 
+2021-11-25 15:14:50 - test_network_sriov_stress.py - [line:268] - root - INFO - Successfully assigned ip to ethernet: ens5
+2021-11-25 15:14:55 - sshInstance.py - [line:89] - root - INFO - ifconfig ens5 down
+root@localhost:~# 
+2021-11-25 15:15:03 - sshInstance.py - [line:89] - root - INFO - ifconfig ens5 hw ether 1234567890ac
+root@localhost:~# 
+2021-11-25 15:15:11 - sshInstance.py - [line:89] - root - INFO - ifconfig ens5 up
+root@localhost:~# 
+2021-11-25 15:15:19 - sshInstance.py - [line:89] - root - INFO - nmcli device connect ens5
+Command 'nmcli' not found, but can be installed with:
+apt install network-manager
+root@localhost:~# 
+2021-11-25 15:15:27 - sshInstance.py - [line:89] - root - INFO - ifconfig ens5
+ens5: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        inet 192.168.10.12  netmask 255.255.255.0  broadcast 192.168.10.255
+        inet6 fe80::1034:56ff:fe78:90ac  prefixlen 64  scopeid 0x20<link>
+        ether 12:34:56:78:90:ac  txqueuelen 1000  (Ethernet)
+        RX packets 0  bytes 0 (0.0 B)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 8  bytes 696 (696.0 B)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+root@localhost:~# 
+2021-11-25 15:15:35 - sshInstance.py - [line:89] - root - INFO - exit
+logout
+Connection to 192.168.122.145 closed.
+[root@WW30CYP10 ~]# 
+2021-11-25 15:15:42 - sshInstance.py - [line:69] - root - INFO - ping -c 5 192.168.122.122
+PING 192.168.122.122 (192.168.122.122) 56(84) bytes of data.
+64 bytes from 192.168.122.122: icmp_seq=1 ttl=64 time=0.119 ms
+2021-11-25 15:15:43 - sshInstance.py - [line:69] - root - INFO - 64 bytes from 192.168.122.122: icmp_seq=2 ttl=64 time=0.103 ms
+2021-11-25 15:15:44 - sshInstance.py - [line:69] - root - INFO - 64 bytes from 192.168.122.122: icmp_seq=3 ttl=64 time=0.068 ms
+2021-11-25 15:15:45 - sshInstance.py - [line:69] - root - INFO - 64 bytes from 192.168.122.122: icmp_seq=4 ttl=64 time=0.065 ms
+2021-11-25 15:15:46 - sshInstance.py - [line:69] - root - INFO - 64 bytes from 192.168.122.122: icmp_seq=5 ttl=64 time=0.064 ms
+
+--- 192.168.122.122 ping statistics ---
+5 packets transmitted, 5 received, 0% packet loss, time 4104ms
+rtt min/avg/max/mdev = 0.064/0.083/0.119/0.025 ms
+[root@WW30CYP10 ~]# 
+2021-11-25 15:15:54 - sshInstance.py - [line:89] - root - INFO - ssh root@192.168.122.122
+root@192.168.122.122's password: 
+2021-11-25 15:16:02 - sshInstance.py - [line:89] - root - INFO - 
+Welcome to Ubuntu 20.04 LTS (GNU/Linux 5.4.0-26-generic x86_64)
+ * Documentation:  https://help.ubuntu.com
+ * Management:     https://landscape.canonical.com
+ * Support:        https://ubuntu.com/advantage
+  System information as of Thu 25 Nov 2021 02:16:11 AM EST
+  System load:  0.01               Processes:             139
+  Usage of /:   47.3% of 19.07GB   Users logged in:       0
+  Memory usage: 30%                IPv4 address for ens3: 192.168.122.122
+  Swap usage:   0%
+
+366 updates can be installed immediately.
+222 of these updates are security updates.
+To see these additional updates run: apt list --upgradable
+
+Last login: Thu Nov 25 02:06:57 2021 from 192.168.122.1
+root@localhost:~# 
+2021-11-25 15:16:10 - sshInstance.py - [line:89] - root - INFO - lspci -Dnn | grep "8086:1889" | awk '{print $1;}'
+0000:00:05.0
+root@localhost:~# 
+2021-11-25 15:16:16 - test_network_sriov_stress.py - [line:306] - root - INFO - successfully got vf pci id of vm1: 0000:00:05.0
+2021-11-25 15:16:21 - sshInstance.py - [line:89] - root - INFO - ls /sys/bus/pci/devices/0000\:00\:05.0/net/ --color=never
+ens5
+root@localhost:~# 
+2021-11-25 15:16:26 - test_network_sriov_stress.py - [line:317] - root - INFO - Successfully got vf device name of vm1: ens5
+2021-11-25 15:16:31 - sshInstance.py - [line:89] - root - INFO - ifconfig ens5 192.168.10.13
+root@localhost:~# 
+2021-11-25 15:16:34 - test_network_sriov_stress.py - [line:268] - root - INFO - Successfully assigned ip to ethernet: ens5
+2021-11-25 15:16:39 - sshInstance.py - [line:89] - root - INFO - ifconfig ens5 down
+root@localhost:~# 
+2021-11-25 15:16:47 - sshInstance.py - [line:89] - root - INFO - ifconfig ens5 hw ether 1234567890ab
+root@localhost:~# 
+2021-11-25 15:16:55 - sshInstance.py - [line:89] - root - INFO - ifconfig ens5 up
+root@localhost:~# 
+2021-11-25 15:17:03 - sshInstance.py - [line:89] - root - INFO - nmcli device connect ens5
+Command 'nmcli' not found, but can be installed with:
+apt install network-manager
+root@localhost:~# 
+2021-11-25 15:17:11 - sshInstance.py - [line:89] - root - INFO - ifconfig ens5
+ens5: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        inet 192.168.10.13  netmask 255.255.255.0  broadcast 192.168.10.255
+        inet6 fe80::1034:56ff:fe78:90ab  prefixlen 64  scopeid 0x20<link>
+        ether 12:34:56:78:90:ab  txqueuelen 1000  (Ethernet)
+        RX packets 0  bytes 0 (0.0 B)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 8  bytes 696 (696.0 B)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+root@localhost:~# 
+2021-11-25 15:17:19 - sshInstance.py - [line:89] - root - INFO - exit
+logout
+Connection to 192.168.122.122 closed.
+[root@WW30CYP10 ~]# 
+2021-11-25 15:17:22 - test_network_sriov_stress.py - [line:428] - root - INFO - Ping two vms IP from SUT:
+2021-11-25 15:17:26 - sshInstance.py - [line:69] - root - INFO - ping -c 5 192.168.10.12
+PING 192.168.10.12 (192.168.10.12) 56(84) bytes of data.
+64 bytes from 192.168.10.12: icmp_seq=1 ttl=64 time=0.188 ms
+2021-11-25 15:17:27 - sshInstance.py - [line:69] - root - INFO - 64 bytes from 192.168.10.12: icmp_seq=2 ttl=64 time=0.048 ms
+2021-11-25 15:17:28 - sshInstance.py - [line:69] - root - INFO - 64 bytes from 192.168.10.12: icmp_seq=3 ttl=64 time=0.057 ms
+2021-11-25 15:17:29 - sshInstance.py - [line:69] - root - INFO - 64 bytes from 192.168.10.12: icmp_seq=4 ttl=64 time=0.044 ms
+2021-11-25 15:17:30 - sshInstance.py - [line:69] - root - INFO - 64 bytes from 192.168.10.12: icmp_seq=5 ttl=64 time=0.052 ms
+
+--- 192.168.10.12 ping statistics ---
+5 packets transmitted, 5 received, 0% packet loss, time 4117ms
+rtt min/avg/max/mdev = 0.044/0.077/0.188/0.056 ms
+[root@WW30CYP10 ~]# 
+2021-11-25 15:17:37 - sshInstance.py - [line:69] - root - INFO - ping -c 5 192.168.10.13
+PING 192.168.10.13 (192.168.10.13) 56(84) bytes of data.
+64 bytes from 192.168.10.13: icmp_seq=1 ttl=64 time=0.220 ms
+2021-11-25 15:17:38 - sshInstance.py - [line:69] - root - INFO - 64 bytes from 192.168.10.13: icmp_seq=2 ttl=64 time=0.080 ms
+2021-11-25 15:17:39 - sshInstance.py - [line:69] - root - INFO - 64 bytes from 192.168.10.13: icmp_seq=3 ttl=64 time=0.090 ms
+2021-11-25 15:17:40 - sshInstance.py - [line:69] - root - INFO - 64 bytes from 192.168.10.13: icmp_seq=4 ttl=64 time=0.031 ms
+2021-11-25 15:17:41 - sshInstance.py - [line:69] - root - INFO - 64 bytes from 192.168.10.13: icmp_seq=5 ttl=64 time=0.043 ms
+
+--- 192.168.10.13 ping statistics ---
+5 packets transmitted, 5 received, 0% packet loss, time 4112ms
+rtt min/avg/max/mdev = 0.031/0.092/0.220/0.068 ms
+[root@WW30CYP10 ~]# 
+2021-11-25 15:17:44 - test_network_sriov_stress.py - [line:436] - root - INFO - ping VMtest2 IP from VMtest1
+2021-11-25 15:17:48 - sshInstance.py - [line:69] - root - INFO - ping -c 5 192.168.122.145
+PING 192.168.122.145 (192.168.122.145) 56(84) bytes of data.
+64 bytes from 192.168.122.145: icmp_seq=1 ttl=64 time=0.136 ms
+2021-11-25 15:17:49 - sshInstance.py - [line:69] - root - INFO - 64 bytes from 192.168.122.145: icmp_seq=2 ttl=64 time=0.110 ms
+2021-11-25 15:17:50 - sshInstance.py - [line:69] - root - INFO - 64 bytes from 192.168.122.145: icmp_seq=3 ttl=64 time=0.088 ms
+2021-11-25 15:17:51 - sshInstance.py - [line:69] - root - INFO - 64 bytes from 192.168.122.145: icmp_seq=4 ttl=64 time=0.093 ms
+2021-11-25 15:17:52 - sshInstance.py - [line:69] - root - INFO - 64 bytes from 192.168.122.145: icmp_seq=5 ttl=64 time=0.076 ms
+
+--- 192.168.122.145 ping statistics ---
+5 packets transmitted, 5 received, 0% packet loss, time 4106ms
+rtt min/avg/max/mdev = 0.076/0.100/0.136/0.023 ms
+[root@WW30CYP10 ~]# 
+2021-11-25 15:18:00 - sshInstance.py - [line:89] - root - INFO - ssh root@192.168.122.145
+root@192.168.122.145's password: 
+2021-11-25 15:18:08 - sshInstance.py - [line:89] - root - INFO - 
+Welcome to Ubuntu 20.04 LTS (GNU/Linux 5.4.0-26-generic x86_64)
+ * Documentation:  https://help.ubuntu.com
+ * Management:     https://landscape.canonical.com
+ * Support:        https://ubuntu.com/advantage
+  System information as of Thu 25 Nov 2021 02:18:17 AM EST
+  System load:  0.16               Processes:             131
+  Usage of /:   47.0% of 19.07GB   Users logged in:       0
+  Memory usage: 30%                IPv4 address for ens3: 192.168.122.145
+  Swap usage:   0%                 IPv4 address for ens5: 192.168.10.12
+
+366 updates can be installed immediately.
+222 of these updates are security updates.
+To see these additional updates run: apt list --upgradable
+
+Last login: Thu Nov 25 02:14:27 2021 from 192.168.122.1
+root@localhost:~# 
+2021-11-25 15:18:15 - sshInstance.py - [line:69] - root - INFO - ping -c 5 192.168.10.13
+PING 192.168.10.13 (192.168.10.13) 56(84) bytes of data.
+64 bytes from 192.168.10.13: icmp_seq=1 ttl=64 time=0.153 ms
+2021-11-25 15:18:16 - sshInstance.py - [line:69] - root - INFO - 64 bytes from 192.168.10.13: icmp_seq=2 ttl=64 time=0.063 ms
+2021-11-25 15:18:17 - sshInstance.py - [line:69] - root - INFO - 64 bytes from 192.168.10.13: icmp_seq=3 ttl=64 time=0.039 ms
+2021-11-25 15:18:18 - sshInstance.py - [line:69] - root - INFO - 64 bytes from 192.168.10.13: icmp_seq=4 ttl=64 time=0.053 ms
+2021-11-25 15:18:19 - sshInstance.py - [line:69] - root - INFO - 64 bytes from 192.168.10.13: icmp_seq=5 ttl=64 time=0.049 ms
+
+--- 192.168.10.13 ping statistics ---
+5 packets transmitted, 5 received, 0% packet loss, time 4081ms
+rtt min/avg/max/mdev = 0.039/0.071/0.153/0.041 ms
+root@localhost:~# 
+2021-11-25 15:18:58 - sshInstance.py - [line:89] - root - INFO - exit
+logout
+Connection to 192.168.122.145 closed.
+[root@WW30CYP10 ~]# 
+2021-11-25 15:19:01 - test_network_sriov_stress.py - [line:444] - root - INFO - ping VMtest2 IP from VMtest1
+2021-11-25 15:19:05 - sshInstance.py - [line:69] - root - INFO - ping -c 5 -I 192.168.10.11 192.168.10.10
+PING 192.168.10.10 (192.168.10.10) from 192.168.10.11 : 56(84) bytes of data.
+64 bytes from 192.168.10.10: icmp_seq=1 ttl=64 time=0.046 ms
+2021-11-25 15:19:06 - sshInstance.py - [line:69] - root - INFO - 64 bytes from 192.168.10.10: icmp_seq=2 ttl=64 time=0.012 ms
+2021-11-25 15:19:07 - sshInstance.py - [line:69] - root - INFO - 64 bytes from 192.168.10.10: icmp_seq=3 ttl=64 time=0.010 ms
+2021-11-25 15:19:08 - sshInstance.py - [line:69] - root - INFO - 64 bytes from 192.168.10.10: icmp_seq=4 ttl=64 time=0.028 ms
+2021-11-25 15:19:09 - sshInstance.py - [line:69] - root - INFO - 64 bytes from 192.168.10.10: icmp_seq=5 ttl=64 time=0.011 ms
+
+--- 192.168.10.10 ping statistics ---
+5 packets transmitted, 5 received, 0% packet loss, time 4076ms
+rtt min/avg/max/mdev = 0.010/0.021/0.046/0.014 ms
+[root@WW30CYP10 ~]# 
+2021-11-25 15:19:15 - sshInstance.py - [line:44] - root - INFO - echo 0 > /sys/class/net/ens787f0/device/sriov_numvfs
+2021-11-25 15:19:18 - sshInstance.py - [line:48] - root - INFO - 
+2021-11-25 15:19:23 - test_network_sriov_stress.py - [line:237] - root - INFO - Successfully removed VFs from PF.
+2021-11-25 15:19:26 - sshInstance.py - [line:44] - root - INFO - virsh destroy VMtest1
+2021-11-25 15:19:26 - sshInstance.py - [line:48] - root - INFO - Domain VMtest1 destroyed
+
+
+2021-11-25 15:19:31 - test_network_sriov_stress.py - [line:247] - root - INFO - Successfully shut down the VM: VMtest1
+2021-11-25 15:19:34 - sshInstance.py - [line:44] - root - INFO - virsh undefine VMtest1
+2021-11-25 15:19:34 - sshInstance.py - [line:48] - root - INFO - Domain VMtest1 has been undefined
+
+
+2021-11-25 15:19:39 - test_network_sriov_stress.py - [line:254] - root - INFO - Successfully removed the VM: VMtest1
+2021-11-25 15:19:42 - sshInstance.py - [line:44] - root - INFO - virsh destroy VMtest2
+2021-11-25 15:19:43 - sshInstance.py - [line:48] - root - INFO - Domain VMtest2 destroyed
+
+
+2021-11-25 15:19:48 - test_network_sriov_stress.py - [line:247] - root - INFO - Successfully shut down the VM: VMtest2
+2021-11-25 15:19:51 - sshInstance.py - [line:44] - root - INFO - virsh undefine VMtest2
+2021-11-25 15:19:51 - sshInstance.py - [line:48] - root - INFO - Domain VMtest2 has been undefined
+
+
+2021-11-25 15:19:56 - test_network_sriov_stress.py - [line:254] - root - INFO - Successfully removed the VM: VMtest2
+.2021-11-25 15:19:56 - test_network_sriov_stress.py - [line:52] - root - INFO - this is the teardown of Test_Network_SRIOV_Stress.
+2021-11-25 15:19:59 - sshInstance.py - [line:44] - root - INFO - virsh destroy VMtest2
+2021-11-25 15:19:59 - sshInstance.py - [line:48] - root - INFO - 
+
+2021-11-25 15:20:04 - test_network_sriov_stress.py - [line:249] - root - ERROR - Failed to shut down the VM VMtest2
+2021-11-25 15:20:07 - sshInstance.py - [line:44] - root - INFO - virsh destroy VMtest1
+2021-11-25 15:20:07 - sshInstance.py - [line:48] - root - INFO - 
+
+2021-11-25 15:20:12 - test_network_sriov_stress.py - [line:249] - root - ERROR - Failed to shut down the VM VMtest1
+2021-11-25 15:20:12 - sshInstance.py - [line:39] - root - INFO - closing ssh client on SUT
+2021-11-25 15:20:12 - test_network_sriov_stress.py - [line:57] - root - INFO - =============================================Finished run the test case===============================================
+2021-11-25 15:20:12 - NicTestFixture.py - [line:28] - root - INFO - Starting to run test_PI_Networking_SRIOV_StressTrafficBetweenPFVFAndTestClientFor2Hours_VM_Guest[ubuntu20.04_2.img-ubuntu20.04.img]
+2021-11-25 15:20:12 - NicTestFixture.py - [line:29] - root - INFO - setup log for testing in the fixture class fbefore
+2021-11-25 15:20:12 - test_network_sriov_stress.py - [line:30] - root - INFO - SSH SUT and setup configurations in the setup function.
+2021-11-25 15:20:12 - transport.py - [line:1819] - paramiko.transport - INFO - Connected (version 2.0, client OpenSSH_8.0)
+2021-11-25 15:20:12 - transport.py - [line:1819] - paramiko.transport - INFO - Authentication (publickey) failed.
+2021-11-25 15:20:12 - transport.py - [line:1819] - paramiko.transport - INFO - Authentication (password) successful!
+2021-11-25 15:20:12 - sshInstance.py - [line:28] - root - INFO - SSH on SUT: 10.112.97.157
+2021-11-25 15:20:15 - sshInstance.py - [line:44] - root - INFO - /opt/APP/utility/DPDK_install/dpdk-stable-20.11.1/usertools/dpdk-devbind.py -s | grep ens787f0 | awk '{print $1;}'
+2021-11-25 15:20:16 - sshInstance.py - [line:48] - root - INFO - 0000:31:00.0
+
+2021-11-25 15:20:21 - test_network_sriov_stress.py - [line:80] - root - INFO - pf_id was found: 0000:31:00.0
+
+2021-11-25 15:20:21 - test_network_sriov_stress.py - [line:467] - root - INFO - format_pf_id is 0000\:31\:00.0
+
+2021-11-25 15:20:21 - test_network_sriov_stress.py - [line:470] - root - INFO - pf_id_key: 31
+2021-11-25 15:20:26 - sshInstance.py - [line:89] - root - INFO - Activate the web console with: systemctl enable --now cockpit.socket
+This system is not registered to Red Hat Insights. See https://cloud.redhat.com/
+To register this system, run: insights-client --register
+Last login: Thu Nov 25 14:34:06 2021 from 10.239.129.147
+[root@WW30CYP10 ~]# ifconfig ens787f0 192.168.10.11
+[root@WW30CYP10 ~]# 
+2021-11-25 15:20:29 - test_network_sriov_stress.py - [line:268] - root - INFO - Successfully assigned ip to ethernet: ens787f0
+2021-11-25 15:20:32 - sshInstance.py - [line:44] - root - INFO - echo 4 > /sys/class/net/ens787f0/device/sriov_numvfs
+2021-11-25 15:20:32 - sshInstance.py - [line:48] - root - INFO - 
+2021-11-25 15:20:37 - test_network_sriov_stress.py - [line:95] - root - INFO - Successfully Virtualized PF to VFs.
+2021-11-25 15:20:40 - sshInstance.py - [line:44] - root - INFO -  lspci | grep "Virtual" | awk '{print $1;}'list
+2021-11-25 15:20:40 - sshInstance.py - [line:48] - root - INFO - 31:01.0
+31:01.1
+31:01.2
+31:01.3
+
+2021-11-25 15:20:45 - test_network_sriov_stress.py - [line:109] - root - INFO - Succssfully Gotten vf_id list:
+
+2021-11-25 15:20:48 - sshInstance.py - [line:44] - root - INFO -  modinfo vfio-pci | grep "vfio_pci" | awk '{ print $2;}'
+2021-11-25 15:20:48 - sshInstance.py - [line:48] - root - INFO - vfio_pci
+
+2021-11-25 15:20:53 - test_network_sriov_stress.py - [line:162] - root - INFO - Successfuly modeprobe vfio-pci
+2021-11-25 15:20:56 - sshInstance.py - [line:44] - root - INFO - /opt/APP/utility/DPDK_install/dpdk-stable-20.11.1/usertools/dpdk-devbind.py -b vfio-pci 31:01.0
+2021-11-25 15:20:57 - sshInstance.py - [line:48] - root - INFO - 
+2021-11-25 15:21:02 - test_network_sriov_stress.py - [line:141] - root - INFO - Successfuly bound VF to vfio-pci
+2021-11-25 15:21:05 - sshInstance.py - [line:44] - root - INFO - /opt/APP/utility/DPDK_install/dpdk-stable-20.11.1/usertools/dpdk-devbind.py -b vfio-pci 31:01.1
+2021-11-25 15:21:06 - sshInstance.py - [line:48] - root - INFO - 
+2021-11-25 15:21:11 - test_network_sriov_stress.py - [line:141] - root - INFO - Successfuly bound VF to vfio-pci
+2021-11-25 15:21:11 - test_network_sriov_stress.py - [line:493] - root - INFO - lspci -Dnn | grep 31:01.1
+2021-11-25 15:21:14 - sshInstance.py - [line:44] - root - INFO - lspci -Dnn | grep 31:01.1
+2021-11-25 15:21:14 - sshInstance.py - [line:48] - root - INFO - 0000:31:01.1 Ethernet controller [0200]: Intel Corporation Ethernet Adaptive Virtual Function [8086:1889] (rev 02)
+
+2021-11-25 15:21:19 - test_network_sriov_stress.py - [line:504] - root - INFO - Successfully get vf device id: 8086:1889
+2021-11-25 15:21:22 - sshInstance.py - [line:44] - root - INFO - virsh net-info default | grep "Active" | awk '{print $2;}'
+2021-11-25 15:21:22 - sshInstance.py - [line:48] - root - INFO - yes
+
+2021-11-25 15:21:27 - test_network_sriov_stress.py - [line:170] - root - INFO - Default network is active? yes
+
+2021-11-25 15:21:31 - sshInstance.py - [line:69] - root - INFO - virt-install --name VMtest1 --ram 4096 --cpu host --vcpus=5 ---network network=default --hostdev pci_0000_31_01_0 --boot hd --disk path=/home//image/ubuntu20.04_2.img,size=50,format=qcow2 --graphics vnc,listen=0.0.0.0,port==5900 --noautoconsole
+
+** (process:137749): [1;33mWARNING[0m **: [34m15:21:42.398[0m: Entity http://pcisig.com/pci/1B36/0100 referenced but not defined
+WARNING  No operating system detected, VM performance may suffer. Specify an OS with --os-variant for optimal results.
+
+Starting install...
+ERROR    Requested operation is not valid: PCI device 0000:31:01.0 is in use by driver QEMU, domain VMtest1
+Domain installation does not appear to have been successful.
+If it was, you can restart your domain by running:
+  virsh --connect qemu:///system start VMtest1
+otherwise, please restart your installation.
+[root@WW30CYP10 ~]# 
+2021-11-25 15:21:34 - test_network_sriov_stress.py - [line:202] - root - ERROR - Failed to create a VM: virt-install --name VMtest1 --ram 4096 --cpu host --vcpus=5 ---network network=default --hostdev pci_0000_31_01_0 --boot hd --disk path=/home//image/ubuntu20.04_2.img,size=50,format=qcow2 --graphics vnc,listen=0.0.0.0,port==5900 --noautoconsole
+
+** (process:137749): [1;33mWARNING[0m **: [34m15:21:42.398[0m: Entity http://pcisig.com/pci/1B36/0100 referenced but not defined
+WARNING  No operating system detected, VM performance may suffer. Specify an OS with --os-variant for optimal results.
+
+Starting install...
+ERROR    Requested operation is not valid: PCI device 0000:31:01.0 is in use by driver QEMU, domain VMtest1
+Domain installation does not appear to have been successful.
+If it was, you can restart your domain by running:
+  virsh --connect qemu:///system start VMtest1
+otherwise, please restart your installation.
+[root@WW30CYP10 ~]# 
+2021-11-25 15:21:34 - test_network_sriov_stress.py - [line:203] - root - ERROR - Failed to create a VM: 
+2021-11-25 15:21:38 - sshInstance.py - [line:69] - root - INFO - virt-install --name VMtest1 --ram 4096 --cpu host --vcpus=5 ---network network=default --hostdev pci_0000_31_01_0 --boot hd --disk path=/home//image/ubuntu20.04_2.img,size=50,format=qcow2 --graphics vnc,listen=0.0.0.0,port==5900 --noautoconsole
+
+** (process:137810): [1;33mWARNING[0m **: [34m15:21:49.378[0m: Entity http://pcisig.com/pci/1B36/0100 referenced but not defined
+WARNING  No operating system detected, VM performance may suffer. Specify an OS with --os-variant for optimal results.
+
+Starting install...
+2021-11-25 15:21:41 - sshInstance.py - [line:69] - root - INFO - Domain creation completed.
+[root@WW30CYP10 ~]# 
+2021-11-25 15:21:44 - test_network_sriov_stress.py - [line:205] - root - INFO - Successfully created a VM: VMtest1
+2021-11-25 15:21:48 - sshInstance.py - [line:69] - root - INFO - virt-install --name VMtest2 --ram 4096 --cpu host --vcpus=5 ---network network=default --hostdev pci_0000_31_01_1 --boot hd --disk path=/home//image/ubuntu20.04.img,size=50,format=qcow2 --graphics vnc,listen=0.0.0.0,port=59901 --noautoconsole
+
+** (process:137877): [1;33mWARNING[0m **: [34m15:21:59.398[0m: Entity http://pcisig.com/pci/1B36/0100 referenced but not defined
+WARNING  No operating system detected, VM performance may suffer. Specify an OS with --os-variant for optimal results.
+
+Starting install...
+ERROR    Requested operation is not valid: PCI device 0000:31:01.1 is in use by driver QEMU, domain VMtest2
+Domain installation does not appear to have been successful.
+If it was, you can restart your domain by running:
+  virsh --connect qemu:///system start VMtest2
+otherwise, please restart your installation.
+[root@WW30CYP10 ~]# 
+2021-11-25 15:21:51 - test_network_sriov_stress.py - [line:202] - root - ERROR - Failed to create a VM: virt-install --name VMtest2 --ram 4096 --cpu host --vcpus=5 ---network network=default --hostdev pci_0000_31_01_1 --boot hd --disk path=/home//image/ubuntu20.04.img,size=50,format=qcow2 --graphics vnc,listen=0.0.0.0,port=59901 --noautoconsole
+
+** (process:137877): [1;33mWARNING[0m **: [34m15:21:59.398[0m: Entity http://pcisig.com/pci/1B36/0100 referenced but not defined
+WARNING  No operating system detected, VM performance may suffer. Specify an OS with --os-variant for optimal results.
+
+Starting install...
+ERROR    Requested operation is not valid: PCI device 0000:31:01.1 is in use by driver QEMU, domain VMtest2
+Domain installation does not appear to have been successful.
+If it was, you can restart your domain by running:
+  virsh --connect qemu:///system start VMtest2
+otherwise, please restart your installation.
+[root@WW30CYP10 ~]# 
+2021-11-25 15:21:51 - test_network_sriov_stress.py - [line:203] - root - ERROR - Failed to create a VM: 
+2021-11-25 15:21:55 - sshInstance.py - [line:69] - root - INFO - virt-install --name VMtest2 --ram 4096 --cpu host --vcpus=5 ---network network=default --hostdev pci_0000_31_01_1 --boot hd --disk path=/home//image/ubuntu20.04.img,size=50,format=qcow2 --graphics vnc,listen=0.0.0.0,port=59901 --noautoconsole
+
+** (process:137939): [1;33mWARNING[0m **: [34m15:22:06.410[0m: Entity http://pcisig.com/pci/1B36/0100 referenced but not defined
+WARNING  No operating system detected, VM performance may suffer. Specify an OS with --os-variant for optimal results.
+
+Starting install...
+2021-11-25 15:21:58 - sshInstance.py - [line:69] - root - INFO - Domain creation completed.
+[root@WW30CYP10 ~]# 
+2021-11-25 15:22:01 - test_network_sriov_stress.py - [line:205] - root - INFO - Successfully created a VM: VMtest2
+2021-11-25 15:22:04 - sshInstance.py - [line:44] - root - INFO - virsh domifaddr VMtest1 | grep '192.168' | awk '{print $4;}'
+2021-11-25 15:22:04 - sshInstance.py - [line:48] - root - INFO - 
+2021-11-25 15:22:09 - test_network_sriov_stress.py - [line:221] - root - ERROR - not found IP of VMtest1
+2021-11-25 15:23:12 - sshInstance.py - [line:44] - root - INFO - virsh domifaddr VMtest1 | grep '192.168' | awk '{print $4;}'
+2021-11-25 15:23:12 - sshInstance.py - [line:48] - root - INFO - 192.168.122.145/24
+
+2021-11-25 15:23:17 - test_network_sriov_stress.py - [line:216] - root - INFO - Successfully got VMtest1 IP: 192.168.122.145/24
+
+2021-11-25 15:23:20 - sshInstance.py - [line:44] - root - INFO - virsh domifaddr VMtest2 | grep '192.168' | awk '{print $4;}'
+2021-11-25 15:23:20 - sshInstance.py - [line:48] - root - INFO - 192.168.122.122/24
+
+2021-11-25 15:23:25 - test_network_sriov_stress.py - [line:216] - root - INFO - Successfully got VMtest2 IP: 192.168.122.122/24
+
+2021-11-25 15:23:29 - sshInstance.py - [line:69] - root - INFO - ping -c 5 192.168.122.145
+PING 192.168.122.145 (192.168.122.145) 56(84) bytes of data.
+64 bytes from 192.168.122.145: icmp_seq=1 ttl=64 time=0.182 ms
+2021-11-25 15:23:30 - sshInstance.py - [line:69] - root - INFO - 64 bytes from 192.168.122.145: icmp_seq=2 ttl=64 time=0.105 ms
+2021-11-25 15:23:31 - sshInstance.py - [line:69] - root - INFO - 64 bytes from 192.168.122.145: icmp_seq=3 ttl=64 time=0.072 ms
+2021-11-25 15:23:32 - sshInstance.py - [line:69] - root - INFO - 64 bytes from 192.168.122.145: icmp_seq=4 ttl=64 time=0.104 ms
+2021-11-25 15:23:33 - sshInstance.py - [line:69] - root - INFO - 64 bytes from 192.168.122.145: icmp_seq=5 ttl=64 time=0.091 ms
+
+--- 192.168.122.145 ping statistics ---
+5 packets transmitted, 5 received, 0% packet loss, time 4104ms
+rtt min/avg/max/mdev = 0.072/0.110/0.182/0.039 ms
+[root@WW30CYP10 ~]# 
+2021-11-25 15:23:41 - sshInstance.py - [line:89] - root - INFO - ssh root@192.168.122.145
+root@192.168.122.145's password: 
+2021-11-25 15:23:49 - sshInstance.py - [line:89] - root - INFO - 
+Welcome to Ubuntu 20.04 LTS (GNU/Linux 5.4.0-26-generic x86_64)
+ * Documentation:  https://help.ubuntu.com
+ * Management:     https://landscape.canonical.com
+ * Support:        https://ubuntu.com/advantage
+  System information as of Thu 25 Nov 2021 02:23:57 AM EST
+  System load:  0.01               Processes:             136
+  Usage of /:   47.0% of 19.07GB   Users logged in:       0
+  Memory usage: 30%                IPv4 address for ens3: 192.168.122.145
+  Swap usage:   0%
+
+366 updates can be installed immediately.
+222 of these updates are security updates.
+To see these additional updates run: apt list --upgradable
+
+Last login: Thu Nov 25 02:18:17 2021 from 192.168.122.1
+root@localhost:~# 
+2021-11-25 15:23:57 - sshInstance.py - [line:89] - root - INFO - lspci -Dnn | grep "8086:1889" | awk '{print $1;}'
+0000:00:05.0
+root@localhost:~# 
+2021-11-25 15:24:03 - test_network_sriov_stress.py - [line:306] - root - INFO - successfully got vf pci id of vm1: 0000:00:05.0
+2021-11-25 15:24:08 - sshInstance.py - [line:89] - root - INFO - ls /sys/bus/pci/devices/0000\:00\:05.0/net/ --color=never
+ens5
+root@localhost:~# 
+2021-11-25 15:24:13 - test_network_sriov_stress.py - [line:317] - root - INFO - Successfully got vf device name of vm1: ens5
+2021-11-25 15:24:18 - sshInstance.py - [line:89] - root - INFO - ifconfig ens5 192.168.10.12
+root@localhost:~# 
+2021-11-25 15:24:21 - test_network_sriov_stress.py - [line:268] - root - INFO - Successfully assigned ip to ethernet: ens5
+2021-11-25 15:24:26 - sshInstance.py - [line:89] - root - INFO - ifconfig ens5 down
+root@localhost:~# 
+2021-11-25 15:24:34 - sshInstance.py - [line:89] - root - INFO - ifconfig ens5 hw ether 1234567890ac
+root@localhost:~# 
+2021-11-25 15:24:42 - sshInstance.py - [line:89] - root - INFO - ifconfig ens5 up
+root@localhost:~# 
+2021-11-25 15:24:50 - sshInstance.py - [line:89] - root - INFO - nmcli device connect ens5
+Command 'nmcli' not found, but can be installed with:
+apt install network-manager
+root@localhost:~# 
+2021-11-25 15:24:58 - sshInstance.py - [line:89] - root - INFO - ifconfig ens5
+ens5: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        inet 192.168.10.12  netmask 255.255.255.0  broadcast 192.168.10.255
+        inet6 fe80::1034:56ff:fe78:90ac  prefixlen 64  scopeid 0x20<link>
+        ether 12:34:56:78:90:ac  txqueuelen 1000  (Ethernet)
+        RX packets 2  bytes 684 (684.0 B)
+        RX errors 0  dropped 2  overruns 0  frame 0
+        TX packets 8  bytes 696 (696.0 B)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+root@localhost:~# 
+2021-11-25 15:25:06 - sshInstance.py - [line:89] - root - INFO - exit
+logout
+Connection to 192.168.122.145 closed.
+[root@WW30CYP10 ~]# 
+2021-11-25 15:25:13 - sshInstance.py - [line:69] - root - INFO - ping -c 5 192.168.122.122
+PING 192.168.122.122 (192.168.122.122) 56(84) bytes of data.
+64 bytes from 192.168.122.122: icmp_seq=1 ttl=64 time=0.162 ms
+2021-11-25 15:25:14 - sshInstance.py - [line:69] - root - INFO - 64 bytes from 192.168.122.122: icmp_seq=2 ttl=64 time=0.098 ms
+2021-11-25 15:25:15 - sshInstance.py - [line:69] - root - INFO - 64 bytes from 192.168.122.122: icmp_seq=3 ttl=64 time=0.192 ms
+2021-11-25 15:25:16 - sshInstance.py - [line:69] - root - INFO - 64 bytes from 192.168.122.122: icmp_seq=4 ttl=64 time=0.220 ms
+2021-11-25 15:25:17 - sshInstance.py - [line:69] - root - INFO - 64 bytes from 192.168.122.122: icmp_seq=5 ttl=64 time=0.126 ms
+
+--- 192.168.122.122 ping statistics ---
+5 packets transmitted, 5 received, 0% packet loss, time 4116ms
+rtt min/avg/max/mdev = 0.098/0.159/0.220/0.046 ms
+[root@WW30CYP10 ~]# 
+2021-11-25 15:25:26 - sshInstance.py - [line:89] - root - INFO - ssh root@192.168.122.122
+root@192.168.122.122's password: 
+2021-11-25 15:25:34 - sshInstance.py - [line:89] - root - INFO - 
+Welcome to Ubuntu 20.04 LTS (GNU/Linux 5.4.0-26-generic x86_64)
+ * Documentation:  https://help.ubuntu.com
+ * Management:     https://landscape.canonical.com
+ * Support:        https://ubuntu.com/advantage
+  System information as of Thu 25 Nov 2021 02:25:42 AM EST
+  System load:  0.08               Processes:             136
+  Usage of /:   47.4% of 19.07GB   Users logged in:       0
+  Memory usage: 30%                IPv4 address for ens3: 192.168.122.122
+  Swap usage:   0%
+
+366 updates can be installed immediately.
+222 of these updates are security updates.
+To see these additional updates run: apt list --upgradable
+
+Last login: Thu Nov 25 02:16:11 2021 from 192.168.122.1
+root@localhost:~# 
+2021-11-25 15:25:42 - sshInstance.py - [line:89] - root - INFO - lspci -Dnn | grep "8086:1889" | awk '{print $1;}'
+0000:00:05.0
+root@localhost:~# 
+2021-11-25 15:25:48 - test_network_sriov_stress.py - [line:306] - root - INFO - successfully got vf pci id of vm1: 0000:00:05.0
+2021-11-25 15:25:53 - sshInstance.py - [line:89] - root - INFO - ls /sys/bus/pci/devices/0000\:00\:05.0/net/ --color=never
+ens5
+root@localhost:~# 
+2021-11-25 15:25:58 - test_network_sriov_stress.py - [line:317] - root - INFO - Successfully got vf device name of vm1: ens5
+2021-11-25 15:26:03 - sshInstance.py - [line:89] - root - INFO - ifconfig ens5 192.168.10.13
+root@localhost:~# 
+2021-11-25 15:26:06 - test_network_sriov_stress.py - [line:268] - root - INFO - Successfully assigned ip to ethernet: ens5
+2021-11-25 15:26:11 - sshInstance.py - [line:89] - root - INFO - ifconfig ens5 down
+root@localhost:~# 
+2021-11-25 15:26:19 - sshInstance.py - [line:89] - root - INFO - ifconfig ens5 hw ether 1234567890ab
+root@localhost:~# 
+2021-11-25 15:26:27 - sshInstance.py - [line:89] - root - INFO - ifconfig ens5 up
+root@localhost:~# 
+2021-11-25 15:26:35 - sshInstance.py - [line:89] - root - INFO - nmcli device connect ens5
+Command 'nmcli' not found, but can be installed with:
+apt install network-manager
+root@localhost:~# 
+2021-11-25 15:26:43 - sshInstance.py - [line:89] - root - INFO - ifconfig ens5
+ens5: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        inet 192.168.10.13  netmask 255.255.255.0  broadcast 192.168.10.255
+        inet6 fe80::1034:56ff:fe78:90ab  prefixlen 64  scopeid 0x20<link>
+        ether 12:34:56:78:90:ab  txqueuelen 1000  (Ethernet)
+        RX packets 0  bytes 0 (0.0 B)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 9  bytes 766 (766.0 B)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+root@localhost:~# 
+2021-11-25 15:26:51 - sshInstance.py - [line:89] - root - INFO - exit
+logout
+Connection to 192.168.122.122 closed.
+[root@WW30CYP10 ~]# 
+2021-11-25 15:26:58 - sshInstance.py - [line:69] - root - INFO - ping -c 5 192.168.122.145
+PING 192.168.122.145 (192.168.122.145) 56(84) bytes of data.
+64 bytes from 192.168.122.145: icmp_seq=1 ttl=64 time=0.142 ms
+2021-11-25 15:26:59 - sshInstance.py - [line:69] - root - INFO - 64 bytes from 192.168.122.145: icmp_seq=2 ttl=64 time=0.087 ms
+2021-11-25 15:27:00 - sshInstance.py - [line:69] - root - INFO - 64 bytes from 192.168.122.145: icmp_seq=3 ttl=64 time=0.085 ms
+2021-11-25 15:27:01 - sshInstance.py - [line:69] - root - INFO - 64 bytes from 192.168.122.145: icmp_seq=4 ttl=64 time=0.109 ms
+2021-11-25 15:27:02 - sshInstance.py - [line:69] - root - INFO - 64 bytes from 192.168.122.145: icmp_seq=5 ttl=64 time=0.108 ms
+
+--- 192.168.122.145 ping statistics ---
+5 packets transmitted, 5 received, 0% packet loss, time 4132ms
+rtt min/avg/max/mdev = 0.085/0.106/0.142/0.021 ms
+[root@WW30CYP10 ~]# 
+2021-11-25 15:27:10 - sshInstance.py - [line:89] - root - INFO - ssh root@192.168.122.145
+root@192.168.122.145's password: 
+2021-11-25 15:27:18 - sshInstance.py - [line:89] - root - INFO - 
+Welcome to Ubuntu 20.04 LTS (GNU/Linux 5.4.0-26-generic x86_64)
+ * Documentation:  https://help.ubuntu.com
+ * Management:     https://landscape.canonical.com
+ * Support:        https://ubuntu.com/advantage
+  System information as of Thu 25 Nov 2021 02:27:25 AM EST
+  System load:  0.0                Processes:             139
+  Usage of /:   47.0% of 19.07GB   Users logged in:       0
+  Memory usage: 30%                IPv4 address for ens3: 192.168.122.145
+  Swap usage:   0%                 IPv4 address for ens5: 192.168.10.12
+
+366 updates can be installed immediately.
+222 of these updates are security updates.
+To see these additional updates run: apt list --upgradable
+
+Last login: Thu Nov 25 02:23:58 2021 from 192.168.122.1
+root@localhost:~# 
+2021-11-25 15:27:26 - sshInstance.py - [line:89] - root - INFO - nohup ping -w 60 192.168.10.11 > ping_sut1.txt &
+[1] 1064
+root@localhost:~# 
+root@localhost:~# nohup: ignoring input and redirecting stderr to stdout
+
+2021-11-25 15:27:34 - sshInstance.py - [line:89] - root - INFO - nohup ping6 -I ens5 -w 60 fe80::b696:91ff:fe9c:f760 >ping6_sut1.txt &
+[2] 1067
+root@localhost:~# 
+root@localhost:~# nohup: ignoring input and redirecting stderr to stdout
+
+2021-11-25 15:27:42 - sshInstance.py - [line:89] - root - INFO - nohup ping -w 60 192.168.10.13 > ping_vm2.txt &
+[3] 1069
+root@localhost:~# 
+root@localhost:~# nohup: ignoring input and redirecting stderr to stdout
+
+2021-11-25 15:27:50 - sshInstance.py - [line:89] - root - INFO - nohup ping6 -I ens5 -w 60 fe80::1034:56ff:fe78:90ab >ping6_vm2.txt &
+[4] 1070
+root@localhost:~# 
+root@localhost:~# nohup: ignoring input and redirecting stderr to stdout
+
+2021-11-25 15:27:58 - sshInstance.py - [line:89] - root - INFO - nohup ping -w 60 192.168.10.10 > ping_sut2.txt &
+[5] 1071
+root@localhost:~# 
+root@localhost:~# nohup: ignoring input and redirecting stderr to stdout
+
+2021-11-25 15:28:06 - sshInstance.py - [line:89] - root - INFO - nohup ping6 -I ens5 -w 60 fe80::b696:91ff:fe9c:f762 >ping6_sut2.txt &
+[6] 1072
+root@localhost:~# 
+root@localhost:~# nohup: ignoring input and redirecting stderr to stdout
+
+2021-11-25 15:28:09 - test_network_sriov_stress.py - [line:567] - root - INFO - ---ping end -----
+2021-11-25 15:28:14 - sshInstance.py - [line:89] - root - INFO - tail -n 10 /root/ping_sut1.txt
+64 bytes from 192.168.10.11: icmp_seq=38 ttl=64 time=0.041 ms
+64 bytes from 192.168.10.11: icmp_seq=39 ttl=64 time=0.033 ms
+64 bytes from 192.168.10.11: icmp_seq=40 ttl=64 time=0.034 ms
+64 bytes from 192.168.10.11: icmp_seq=41 ttl=64 time=0.033 ms
+64 bytes from 192.168.10.11: icmp_seq=42 ttl=64 time=0.030 ms
+64 bytes from 192.168.10.11: icmp_seq=43 ttl=64 time=0.045 ms
+64 bytes from 192.168.10.11: icmp_seq=44 ttl=64 time=0.036 ms
+64 bytes from 192.168.10.11: icmp_seq=45 ttl=64 time=0.055 ms
+64 bytes from 192.168.10.11: icmp_seq=46 ttl=64 time=0.039 ms
+64 bytes from 192.168.10.11: icmp_seq=47 ttl=64 time=0.033 ms
+root@localhost:~# 
+2021-11-25 15:28:22 - sshInstance.py - [line:89] - root - INFO - tail -n 10 /root/ping6_sut1.txt
+64 bytes from fe80::b696:91ff:fe9c:f760%ens5: icmp_seq=38 ttl=64 time=0.044 ms
+64 bytes from fe80::b696:91ff:fe9c:f760%ens5: icmp_seq=39 ttl=64 time=0.033 ms
+64 bytes from fe80::b696:91ff:fe9c:f760%ens5: icmp_seq=40 ttl=64 time=0.037 ms
+64 bytes from fe80::b696:91ff:fe9c:f760%ens5: icmp_seq=41 ttl=64 time=0.038 ms
+64 bytes from fe80::b696:91ff:fe9c:f760%ens5: icmp_seq=42 ttl=64 time=0.043 ms
+64 bytes from fe80::b696:91ff:fe9c:f760%ens5: icmp_seq=43 ttl=64 time=0.046 ms
+64 bytes from fe80::b696:91ff:fe9c:f760%ens5: icmp_seq=44 ttl=64 time=0.031 ms
+64 bytes from fe80::b696:91ff:fe9c:f760%ens5: icmp_seq=45 ttl=64 time=0.032 ms
+64 bytes from fe80::b696:91ff:fe9c:f760%ens5: icmp_seq=46 ttl=64 time=0.029 ms
+64 bytes from fe80::b696:91ff:fe9c:f760%ens5: icmp_seq=47 ttl=64 time=0.028 ms
+root@localhost:~# 
+2021-11-25 15:28:30 - sshInstance.py - [line:89] - root - INFO - tail -n 10 /root/ping_vm2.txt
+64 bytes from 192.168.10.13: icmp_seq=38 ttl=64 time=0.036 ms
+64 bytes from 192.168.10.13: icmp_seq=39 ttl=64 time=0.034 ms
+64 bytes from 192.168.10.13: icmp_seq=40 ttl=64 time=0.035 ms
+64 bytes from 192.168.10.13: icmp_seq=41 ttl=64 time=0.037 ms
+64 bytes from 192.168.10.13: icmp_seq=42 ttl=64 time=0.038 ms
+64 bytes from 192.168.10.13: icmp_seq=43 ttl=64 time=0.038 ms
+64 bytes from 192.168.10.13: icmp_seq=44 ttl=64 time=0.038 ms
+64 bytes from 192.168.10.13: icmp_seq=45 ttl=64 time=0.033 ms
+64 bytes from 192.168.10.13: icmp_seq=46 ttl=64 time=0.035 ms
+64 bytes from 192.168.10.13: icmp_seq=47 ttl=64 time=0.043 ms
+[1]   Done                    nohup ping -w 60 192.168.10.11 > ping_sut1.txt
+root@localhost:~# 
+2021-11-25 15:28:38 - sshInstance.py - [line:89] - root - INFO - tail -n 10 /root/ping6_vm2.txt
+64 bytes from fe80::1034:56ff:fe78:90ab%ens5: icmp_seq=38 ttl=64 time=0.037 ms
+64 bytes from fe80::1034:56ff:fe78:90ab%ens5: icmp_seq=39 ttl=64 time=0.039 ms
+64 bytes from fe80::1034:56ff:fe78:90ab%ens5: icmp_seq=40 ttl=64 time=0.049 ms
+64 bytes from fe80::1034:56ff:fe78:90ab%ens5: icmp_seq=41 ttl=64 time=0.041 ms
+64 bytes from fe80::1034:56ff:fe78:90ab%ens5: icmp_seq=42 ttl=64 time=0.032 ms
+64 bytes from fe80::1034:56ff:fe78:90ab%ens5: icmp_seq=43 ttl=64 time=0.055 ms
+64 bytes from fe80::1034:56ff:fe78:90ab%ens5: icmp_seq=44 ttl=64 time=0.046 ms
+64 bytes from fe80::1034:56ff:fe78:90ab%ens5: icmp_seq=45 ttl=64 time=0.047 ms
+64 bytes from fe80::1034:56ff:fe78:90ab%ens5: icmp_seq=46 ttl=64 time=0.039 ms
+64 bytes from fe80::1034:56ff:fe78:90ab%ens5: icmp_seq=47 ttl=64 time=0.048 ms
+[2]   Done                    nohup ping6 -I ens5 -w 60 fe80::b696:91ff:fe9c:f760 > ping6_sut1.txt
+root@localhost:~# 
+2021-11-25 15:28:46 - sshInstance.py - [line:89] - root - INFO - tail -n 10 /root/ping_sut2.txt
+64 bytes from 192.168.10.10: icmp_seq=38 ttl=64 time=0.047 ms
+64 bytes from 192.168.10.10: icmp_seq=39 ttl=64 time=0.048 ms
+64 bytes from 192.168.10.10: icmp_seq=40 ttl=64 time=0.052 ms
+64 bytes from 192.168.10.10: icmp_seq=41 ttl=64 time=0.033 ms
+64 bytes from 192.168.10.10: icmp_seq=42 ttl=64 time=0.030 ms
+64 bytes from 192.168.10.10: icmp_seq=43 ttl=64 time=0.028 ms
+64 bytes from 192.168.10.10: icmp_seq=44 ttl=64 time=0.033 ms
+64 bytes from 192.168.10.10: icmp_seq=45 ttl=64 time=0.031 ms
+64 bytes from 192.168.10.10: icmp_seq=46 ttl=64 time=0.028 ms
+64 bytes from 192.168.10.10: icmp_seq=47 ttl=64 time=0.033 ms
+[3]   Done                    nohup ping -w 60 192.168.10.13 > ping_vm2.txt
+root@localhost:~# 
+2021-11-25 15:28:54 - sshInstance.py - [line:89] - root - INFO - tail -n 10 /root/ping6_sut2.txt
+64 bytes from fe80::b696:91ff:fe9c:f762%ens5: icmp_seq=38 ttl=64 time=0.029 ms
+64 bytes from fe80::b696:91ff:fe9c:f762%ens5: icmp_seq=39 ttl=64 time=0.038 ms
+64 bytes from fe80::b696:91ff:fe9c:f762%ens5: icmp_seq=40 ttl=64 time=0.030 ms
+64 bytes from fe80::b696:91ff:fe9c:f762%ens5: icmp_seq=41 ttl=64 time=0.034 ms
+64 bytes from fe80::b696:91ff:fe9c:f762%ens5: icmp_seq=42 ttl=64 time=0.032 ms
+64 bytes from fe80::b696:91ff:fe9c:f762%ens5: icmp_seq=43 ttl=64 time=0.042 ms
+64 bytes from fe80::b696:91ff:fe9c:f762%ens5: icmp_seq=44 ttl=64 time=0.032 ms
+64 bytes from fe80::b696:91ff:fe9c:f762%ens5: icmp_seq=45 ttl=64 time=0.029 ms
+64 bytes from fe80::b696:91ff:fe9c:f762%ens5: icmp_seq=46 ttl=64 time=0.034 ms
+64 bytes from fe80::b696:91ff:fe9c:f762%ens5: icmp_seq=47 ttl=64 time=0.046 ms
+[4]   Done                    nohup ping6 -I ens5 -w 60 fe80::1034:56ff:fe78:90ab > ping6_vm2.txt
+root@localhost:~# 
+2021-11-25 15:29:12 - sshInstance.py - [line:89] - root - INFO - tail -n 10 /root/ping_sut1.txt
+64 bytes from 192.168.10.11: icmp_seq=54 ttl=64 time=0.031 ms
+64 bytes from 192.168.10.11: icmp_seq=55 ttl=64 time=0.035 ms
+64 bytes from 192.168.10.11: icmp_seq=56 ttl=64 time=0.036 ms
+64 bytes from 192.168.10.11: icmp_seq=57 ttl=64 time=0.033 ms
+64 bytes from 192.168.10.11: icmp_seq=58 ttl=64 time=0.036 ms
+64 bytes from 192.168.10.11: icmp_seq=59 ttl=64 time=0.029 ms
+--- 192.168.10.11 ping statistics ---
+59 packets transmitted, 59 received, 0% packet loss, time 59343ms
+rtt min/avg/max/mdev = 0.029/0.243/6.351/1.086 ms
+[5]-  Done                    nohup ping -w 60 192.168.10.10 > ping_sut2.txt
+[6]+  Done                    nohup ping6 -I ens5 -w 60 fe80::b696:91ff:fe9c:f762 > ping6_sut2.txt
+root@localhost:~# 
+2021-11-25 15:29:20 - sshInstance.py - [line:89] - root - INFO - tail -n 10 /root/ping6_sut1.txt
+64 bytes from fe80::b696:91ff:fe9c:f760%ens5: icmp_seq=54 ttl=64 time=0.045 ms
+64 bytes from fe80::b696:91ff:fe9c:f760%ens5: icmp_seq=55 ttl=64 time=0.060 ms
+64 bytes from fe80::b696:91ff:fe9c:f760%ens5: icmp_seq=56 ttl=64 time=0.047 ms
+64 bytes from fe80::b696:91ff:fe9c:f760%ens5: icmp_seq=57 ttl=64 time=0.030 ms
+64 bytes from fe80::b696:91ff:fe9c:f760%ens5: icmp_seq=58 ttl=64 time=0.029 ms
+64 bytes from fe80::b696:91ff:fe9c:f760%ens5: icmp_seq=59 ttl=64 time=0.035 ms
+--- fe80::b696:91ff:fe9c:f760 ping statistics ---
+59 packets transmitted, 59 received, 0% packet loss, time 59368ms
+rtt min/avg/max/mdev = 0.028/0.041/0.176/0.020 ms
+root@localhost:~# 
+2021-11-25 15:29:28 - sshInstance.py - [line:89] - root - INFO - tail -n 10 /root/ping_vm2.txt
+64 bytes from 192.168.10.13: icmp_seq=54 ttl=64 time=0.034 ms
+64 bytes from 192.168.10.13: icmp_seq=55 ttl=64 time=0.036 ms
+64 bytes from 192.168.10.13: icmp_seq=56 ttl=64 time=0.040 ms
+64 bytes from 192.168.10.13: icmp_seq=57 ttl=64 time=0.035 ms
+64 bytes from 192.168.10.13: icmp_seq=58 ttl=64 time=0.033 ms
+64 bytes from 192.168.10.13: icmp_seq=59 ttl=64 time=0.032 ms
+--- 192.168.10.13 ping statistics ---
+59 packets transmitted, 59 received, 0% packet loss, time 59392ms
+rtt min/avg/max/mdev = 0.032/0.044/0.163/0.018 ms
+root@localhost:~# 
+2021-11-25 15:29:36 - sshInstance.py - [line:89] - root - INFO - tail -n 10 /root/ping6_vm2.txt
+64 bytes from fe80::1034:56ff:fe78:90ab%ens5: icmp_seq=54 ttl=64 time=0.035 ms
+64 bytes from fe80::1034:56ff:fe78:90ab%ens5: icmp_seq=55 ttl=64 time=0.033 ms
+64 bytes from fe80::1034:56ff:fe78:90ab%ens5: icmp_seq=56 ttl=64 time=0.038 ms
+64 bytes from fe80::1034:56ff:fe78:90ab%ens5: icmp_seq=57 ttl=64 time=0.037 ms
+64 bytes from fe80::1034:56ff:fe78:90ab%ens5: icmp_seq=58 ttl=64 time=0.036 ms
+64 bytes from fe80::1034:56ff:fe78:90ab%ens5: icmp_seq=59 ttl=64 time=0.038 ms
+--- fe80::1034:56ff:fe78:90ab ping statistics ---
+59 packets transmitted, 59 received, 0% packet loss, time 59383ms
+rtt min/avg/max/mdev = 0.032/0.046/0.155/0.018 ms
+root@localhost:~# 
+2021-11-25 15:29:44 - sshInstance.py - [line:89] - root - INFO - tail -n 10 /root/ping_sut2.txt
+64 bytes from 192.168.10.10: icmp_seq=54 ttl=64 time=0.031 ms
+64 bytes from 192.168.10.10: icmp_seq=55 ttl=64 time=0.034 ms
+64 bytes from 192.168.10.10: icmp_seq=56 ttl=64 time=0.044 ms
+64 bytes from 192.168.10.10: icmp_seq=57 ttl=64 time=0.031 ms
+64 bytes from 192.168.10.10: icmp_seq=58 ttl=64 time=0.030 ms
+64 bytes from 192.168.10.10: icmp_seq=59 ttl=64 time=0.029 ms
+--- 192.168.10.10 ping statistics ---
+59 packets transmitted, 59 received, 0% packet loss, time 59375ms
+rtt min/avg/max/mdev = 0.028/0.048/0.441/0.052 ms
+root@localhost:~# 
+2021-11-25 15:29:52 - sshInstance.py - [line:89] - root - INFO - tail -n 10 /root/ping6_sut2.txt
+64 bytes from fe80::b696:91ff:fe9c:f762%ens5: icmp_seq=54 ttl=64 time=0.031 ms
+64 bytes from fe80::b696:91ff:fe9c:f762%ens5: icmp_seq=55 ttl=64 time=0.047 ms
+64 bytes from fe80::b696:91ff:fe9c:f762%ens5: icmp_seq=56 ttl=64 time=0.066 ms
+64 bytes from fe80::b696:91ff:fe9c:f762%ens5: icmp_seq=57 ttl=64 time=0.062 ms
+64 bytes from fe80::b696:91ff:fe9c:f762%ens5: icmp_seq=58 ttl=64 time=0.041 ms
+64 bytes from fe80::b696:91ff:fe9c:f762%ens5: icmp_seq=59 ttl=64 time=0.036 ms
+--- fe80::b696:91ff:fe9c:f762 ping statistics ---
+59 packets transmitted, 59 received, 0% packet loss, time 59398ms
+rtt min/avg/max/mdev = 0.028/0.039/0.142/0.015 ms
+root@localhost:~# 
+2021-11-25 15:29:55 - test_network_sriov_stress.py - [line:614] - root - INFO - Successfully ping sut1
+2021-11-25 15:29:55 - test_network_sriov_stress.py - [line:614] - root - INFO - Successfully ping6 sut1
+2021-11-25 15:29:55 - test_network_sriov_stress.py - [line:614] - root - INFO - Successfully ping vm2
+2021-11-25 15:29:55 - test_network_sriov_stress.py - [line:614] - root - INFO - Successfully ping6 vm2
+2021-11-25 15:29:55 - test_network_sriov_stress.py - [line:614] - root - INFO - Successfully ping sut2
+2021-11-25 15:29:55 - test_network_sriov_stress.py - [line:614] - root - INFO - Successfully ping6 sut2
+2021-11-25 15:29:55 - test_network_sriov_stress.py - [line:615] - root - INFO - check ---end---
+2021-11-25 15:30:00 - sshInstance.py - [line:89] - root - INFO - exit
+logout
+Connection to 192.168.122.145 closed.
+[root@WW30CYP10 ~]# 
+.2021-11-25 15:30:03 - test_network_sriov_stress.py - [line:52] - root - INFO - this is the teardown of Test_Network_SRIOV_Stress.
+2021-11-25 15:30:06 - sshInstance.py - [line:44] - root - INFO - virsh destroy VMtest2
+2021-11-25 15:30:07 - sshInstance.py - [line:48] - root - INFO - Domain VMtest2 destroyed
+
+
+2021-11-25 15:30:12 - test_network_sriov_stress.py - [line:247] - root - INFO - Successfully shut down the VM: VMtest2
+2021-11-25 15:30:15 - sshInstance.py - [line:44] - root - INFO - virsh undefine VMtest2
+2021-11-25 15:30:15 - sshInstance.py - [line:48] - root - INFO - Domain VMtest2 has been undefined
+
+
+2021-11-25 15:30:20 - test_network_sriov_stress.py - [line:254] - root - INFO - Successfully removed the VM: VMtest2
+2021-11-25 15:30:23 - sshInstance.py - [line:44] - root - INFO - virsh destroy VMtest1
+2021-11-25 15:30:24 - sshInstance.py - [line:48] - root - INFO - Domain VMtest1 destroyed
+
+
+2021-11-25 15:30:29 - test_network_sriov_stress.py - [line:247] - root - INFO - Successfully shut down the VM: VMtest1
+2021-11-25 15:30:32 - sshInstance.py - [line:44] - root - INFO - virsh undefine VMtest1
+2021-11-25 15:30:32 - sshInstance.py - [line:48] - root - INFO - Domain VMtest1 has been undefined
+
+
+2021-11-25 15:30:37 - test_network_sriov_stress.py - [line:254] - root - INFO - Successfully removed the VM: VMtest1
+2021-11-25 15:30:37 - sshInstance.py - [line:39] - root - INFO - closing ssh client on SUT
+2021-11-25 15:30:37 - test_network_sriov_stress.py - [line:57] - root - INFO - =============================================Finished run the test case===============================================
+
+
+================= 2 passed, 1 deselected in 3402.32s (0:56:42) =================
+[8mha:////4LYnTL2kHEK3xk4r0Ko1+Seo0jzleqkNHqW+48vbd8D5AAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiGoSEqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDyFBu95/avQHhgNoTvgAAAA==[0m[Pipeline] }
+[8mha:////4NMYSizRLQ1dZuwWSEHzgQ6w9lPsBbHRCtMg5H1rEwslAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiCgqEqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDyFBu95/avQH+Ao9BvgAAAA==[0m[Pipeline] // stage
+[8mha:////4DKXsabp5/afXFSsWLUBDHMQEXD3jgAzV8WEfOF26pEaAAAAox+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMJBiA5R0VppeIFJjHFi3QX7QlLxIr7GH4iIRMVWO9PM641lijhydKqx1HpKlVdd6N301MCxvQYeVMMXVTElDlaVdii5tqcZSxaLeVmOhcbKUhU4eXKCtW7MwxTBkCvOEid30Mh9fccTmZ7KYqJ8YYzY3Po6Mf06fwMYu06Q77aCbP8BK1nRVL0AAAA=[0m[Pipeline] }
+[8mha:////4HmorPDDfMRqsF6zz9/2vCOvXnWMSW4cx9qE6GTxL9MFAAAAoh+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIRUCIqWisNLzCJMU6su2BfSCpexNf4AxGRqNhqZ5p5vbFMEUeOTjWWWk+p8qoLvZueGji218CDaviiKqbEwarSDiXX9jRjyWIxL8ux0FhZqgInT06w1o15mCIYcsVZ4uQOGrmv73gi01NZTJQvjBGbW18npl/nbwBj1wny3VaQ7T845dX3vQAAAA==[0m[Pipeline] // node
+[8mha:////4BE+fprF9eommgtvg+AAT8POwnI+05QgEWtQ8SEssetUAAAAoh+LCAAAAAAAAP9tjbEOgjAURS8YB1dHP6IkrMbJtWHxCyrUWmjeg/YhTH6Rv+Y/SCRx8k73nOW83timiBNHp1pLnadUe9WH0S1PTRy7W+BJtXxVNVPiYFVlp4obe16xYrFYl+XYaOws1YGTJyfY69Y8TBEMueIicXFHjdw3A57I9FIWE+ULc8ThPjaJ6df5G8Dc94K8LAVZ+QF+r3LHvQAAAA==[0m[Pipeline] End of Pipeline
+Finished: SUCCESS

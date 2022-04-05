@@ -1,0 +1,75 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<Tag plugin="workflow-support@3.8">
+  <node class="org.jenkinsci.plugins.workflow.graph.FlowEndNode" plugin="workflow-api@2.46">
+    <parentIds>
+      <string>2</string>
+    </parentIds>
+    <id>3</id>
+    <startId>2</startId>
+    <result>
+      <name>FAILURE</name>
+      <ordinal>2</ordinal>
+      <color>RED</color>
+      <completeBuild>true</completeBuild>
+    </result>
+  </node>
+  <actions>
+    <wf.a.ErrorAction plugin="workflow-api@2.46">
+      <error class="java.io.IOException">
+        <detailMessage>Failed to load build state</detailMessage>
+        <cause class="java.io.FileNotFoundException">
+          <detailMessage>/var/jenkins_home/jobs/test-test-iperf-SRIOV-ipv6-stress-2hours/builds/31/program.dat (No such file or directory)</detailMessage>
+          <stackTrace>
+            <trace>java.base/java.io.FileInputStream.open0(Native Method)</trace>
+            <trace>java.base/java.io.FileInputStream.open(FileInputStream.java:219)</trace>
+            <trace>java.base/java.io.FileInputStream.&lt;init&gt;(FileInputStream.java:157)</trace>
+            <trace>org.jenkinsci.plugins.workflow.support.pickles.serialization.RiverReader.openStreamAt(RiverReader.java:188)</trace>
+            <trace>org.jenkinsci.plugins.workflow.support.pickles.serialization.RiverReader.restorePickles(RiverReader.java:136)</trace>
+            <trace>org.jenkinsci.plugins.workflow.cps.CpsFlowExecution.loadProgramAsync(CpsFlowExecution.java:784)</trace>
+            <trace>org.jenkinsci.plugins.workflow.cps.CpsFlowExecution.onLoad(CpsFlowExecution.java:750)</trace>
+            <trace>org.jenkinsci.plugins.workflow.job.WorkflowRun.getExecution(WorkflowRun.java:691)</trace>
+            <trace>org.jenkinsci.plugins.workflow.job.WorkflowRun.onLoad(WorkflowRun.java:550)</trace>
+            <trace>hudson.model.RunMap.retrieve(RunMap.java:231)</trace>
+            <trace>hudson.model.RunMap.retrieve(RunMap.java:58)</trace>
+            <trace>jenkins.model.lazy.AbstractLazyLoadRunMap.load(AbstractLazyLoadRunMap.java:507)</trace>
+            <trace>jenkins.model.lazy.AbstractLazyLoadRunMap.load(AbstractLazyLoadRunMap.java:489)</trace>
+            <trace>jenkins.model.lazy.AbstractLazyLoadRunMap.getByNumber(AbstractLazyLoadRunMap.java:387)</trace>
+            <trace>hudson.model.RunMap.getById(RunMap.java:211)</trace>
+            <trace>org.jenkinsci.plugins.workflow.job.WorkflowRun$Owner.run(WorkflowRun.java:940)</trace>
+            <trace>org.jenkinsci.plugins.workflow.job.WorkflowRun$Owner.get(WorkflowRun.java:951)</trace>
+            <trace>org.jenkinsci.plugins.workflow.flow.FlowExecutionList$1.computeNext(FlowExecutionList.java:65)</trace>
+            <trace>org.jenkinsci.plugins.workflow.flow.FlowExecutionList$1.computeNext(FlowExecutionList.java:57)</trace>
+            <trace>com.google.common.collect.AbstractIterator.tryToComputeNext(AbstractIterator.java:143)</trace>
+            <trace>com.google.common.collect.AbstractIterator.hasNext(AbstractIterator.java:138)</trace>
+            <trace>org.jenkinsci.plugins.workflow.flow.FlowExecutionList$ItemListenerImpl.onLoaded(FlowExecutionList.java:178)</trace>
+            <trace>jenkins.model.Jenkins.&lt;init&gt;(Jenkins.java:1044)</trace>
+            <trace>hudson.model.Hudson.&lt;init&gt;(Hudson.java:86)</trace>
+            <trace>hudson.model.Hudson.&lt;init&gt;(Hudson.java:82)</trace>
+            <trace>hudson.WebAppMain$3.run(WebAppMain.java:298)</trace>
+          </stackTrace>
+          <suppressedExceptions class="empty-list"/>
+        </cause>
+        <stackTrace>
+          <trace>org.jenkinsci.plugins.workflow.cps.CpsFlowExecution$3.onSuccess(CpsFlowExecution.java:865)</trace>
+          <trace>org.jenkinsci.plugins.workflow.cps.CpsFlowExecution$3.onSuccess(CpsFlowExecution.java:863)</trace>
+          <trace>org.jenkinsci.plugins.workflow.cps.CpsFlowExecution$4$1.run(CpsFlowExecution.java:917)</trace>
+          <trace>org.jenkinsci.plugins.workflow.cps.CpsVmExecutorService$1.run(CpsVmExecutorService.java:38)</trace>
+          <trace>java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)</trace>
+          <trace>java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)</trace>
+          <trace>hudson.remoting.SingleLaneExecutorService$1.run(SingleLaneExecutorService.java:139)</trace>
+          <trace>jenkins.util.ContextResettingExecutorService$1.run(ContextResettingExecutorService.java:28)</trace>
+          <trace>jenkins.security.ImpersonatingExecutorService$1.run(ImpersonatingExecutorService.java:68)</trace>
+          <trace>java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)</trace>
+          <trace>java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)</trace>
+          <trace>java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)</trace>
+          <trace>java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)</trace>
+          <trace>java.base/java.lang.Thread.run(Thread.java:829)</trace>
+        </stackTrace>
+        <suppressedExceptions class="empty-list"/>
+      </error>
+    </wf.a.ErrorAction>
+    <wf.a.TimingAction plugin="workflow-api@2.46">
+      <startTime>1646259467121</startTime>
+    </wf.a.TimingAction>
+  </actions>
+</Tag>

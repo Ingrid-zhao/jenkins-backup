@@ -1,0 +1,164 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<flow-build plugin="workflow-job@2.41">
+  <actions>
+    <hudson.model.CauseAction>
+      <causeBag class="linked-hash-map">
+        <entry>
+          <hudson.model.Cause_-UserIdCause>
+            <userId>root</userId>
+          </hudson.model.Cause_-UserIdCause>
+          <int>1</int>
+        </entry>
+      </causeBag>
+    </hudson.model.CauseAction>
+    <jenkins.metrics.impl.TimeInQueueAction plugin="metrics@4.0.2.8">
+      <queuingDurationMillis>2</queuingDurationMillis>
+      <blockedDurationMillis>0</blockedDurationMillis>
+      <buildableDurationMillis>0</buildableDurationMillis>
+      <waitingDurationMillis>0</waitingDurationMillis>
+    </jenkins.metrics.impl.TimeInQueueAction>
+    <org.jenkinsci.plugins.workflow.libs.LibrariesAction plugin="workflow-cps-global-lib@2.21">
+      <libraries/>
+    </org.jenkinsci.plugins.workflow.libs.LibrariesAction>
+    <hudson.plugins.git.util.BuildData plugin="git@4.8.2">
+      <buildsByBranchName>
+        <entry>
+          <string>refs/remotes/origin/master</string>
+          <hudson.plugins.git.util.Build>
+            <marked plugin="git-client@3.9.0">
+              <sha1>87f88557bbfb38704081726eca4171cb598839e0</sha1>
+              <branches class="list">
+                <hudson.plugins.git.Branch>
+                  <sha1 reference="../../../sha1"/>
+                  <name>refs/remotes/origin/master</name>
+                </hudson.plugins.git.Branch>
+              </branches>
+            </marked>
+            <revision reference="../marked"/>
+            <hudsonBuildNumber>21</hudsonBuildNumber>
+          </hudson.plugins.git.util.Build>
+        </entry>
+      </buildsByBranchName>
+      <lastBuild reference="../buildsByBranchName/entry/hudson.plugins.git.util.Build"/>
+      <remoteUrls>
+        <string>https://gitlab.devtools.intel.com/yzhao18/npxautomation.git</string>
+      </remoteUrls>
+    </hudson.plugins.git.util.BuildData>
+    <org.jenkinsci.plugins.workflow.steps.scm.MultiSCMRevisionState plugin="workflow-scm-step@2.13">
+      <revisionStates>
+        <entry>
+          <string>git https://gitlab.devtools.intel.com/yzhao18/npxautomation.git</string>
+          <hudson.scm.SCMRevisionState_-None/>
+        </entry>
+      </revisionStates>
+    </org.jenkinsci.plugins.workflow.steps.scm.MultiSCMRevisionState>
+    <jenkins.model.InterruptedBuildAction>
+      <causes class="java.util.Collections$UnmodifiableRandomAccessList" resolves-to="java.util.Collections$UnmodifiableList">
+        <c class="list">
+          <jenkins.model.CauseOfInterruption_-UserInterruption>
+            <user>root</user>
+          </jenkins.model.CauseOfInterruption_-UserInterruption>
+        </c>
+        <list reference="../c"/>
+      </causes>
+    </jenkins.model.InterruptedBuildAction>
+    <jenkins.metrics.impl.SubTaskTimeInQueueAction plugin="metrics@4.0.2.8">
+      <queuingDurationMillis>13185</queuingDurationMillis>
+      <blockedDurationMillis>0</blockedDurationMillis>
+      <buildableDurationMillis>13183</buildableDurationMillis>
+      <waitingDurationMillis>0</waitingDurationMillis>
+      <executingDurationMillis>321232</executingDurationMillis>
+      <workUnitCount>1</workUnitCount>
+    </jenkins.metrics.impl.SubTaskTimeInQueueAction>
+  </actions>
+  <queueId>3</queueId>
+  <timestamp>1634202627229</timestamp>
+  <startTime>1634202627230</startTime>
+  <result>ABORTED</result>
+  <duration>336649</duration>
+  <charset>UTF-8</charset>
+  <keepLog>false</keepLog>
+  <execution class="org.jenkinsci.plugins.workflow.cps.CpsFlowExecution">
+    <result>ABORTED</result>
+    <script>node(&apos;jenkins-slave&apos;) {
+    stage(&apos;git_clone_yaml&apos;) {
+        echo &quot;1 git clone yaml stage&quot;
+            git branch: &apos;master&apos;, credentialsId: &apos;36085ac2-183b-47be-9097-7a8bf4d7c6da&apos;, url: &quot;https://gitlab.devtools.intel.com/yzhao18/npxautomation.git&quot;
+        }
+    stage(&apos;Deploy&apos;) {
+        sh &quot;kubectl apply -f k8s_yamls/sriov/k8s_testconfig_testpmd.yaml&quot;
+        sh &quot;sleep 30&quot;
+        }
+    stage(&apos;Deploy&apos;) {
+        sh &quot;kubectl delete job jenkins-testpmd-testconfig -n kube-app&quot;
+	    sh &quot;kubectl apply -f k8s_yamls/sriov/k8s_test_testpmd.yaml&quot;
+	    sh &quot;kubectl apply -f k8s_yamls/sriov/k8s_test_pktgen.yaml&quot;
+	    sh &quot;sleep 480&quot;
+	    }
+    stage(&apos;Clean&apos;) {
+        sh &quot;kubectl delete job jenkins-testpmd -n kube-app&quot;
+	    sh &quot;kubectl delete job jenkins-testpktgen -n kube-app&quot;
+    }
+}
+</script>
+    <loadedScripts class="map"/>
+    <durabilityHint>MAX_SURVIVABILITY</durabilityHint>
+    <timings class="map">
+      <entry>
+        <string>flowNode</string>
+        <long>86675135</long>
+      </entry>
+      <entry>
+        <string>classLoad</string>
+        <long>56763641</long>
+      </entry>
+      <entry>
+        <string>run</string>
+        <long>403958355</long>
+      </entry>
+      <entry>
+        <string>parse</string>
+        <long>89649699</long>
+      </entry>
+      <entry>
+        <string>saveProgram</string>
+        <long>29084351</long>
+      </entry>
+    </timings>
+    <sandbox>true</sandbox>
+    <iota>27</iota>
+    <head>1:27</head>
+    <done>true</done>
+    <resumeBlocked>false</resumeBlocked>
+  </execution>
+  <completed>true</completed>
+  <checkouts class="hudson.util.PersistedList">
+    <org.jenkinsci.plugins.workflow.job.WorkflowRun_-SCMCheckout>
+      <scm class="hudson.plugins.git.GitSCM" plugin="git@4.8.2">
+        <configVersion>2</configVersion>
+        <userRemoteConfigs>
+          <hudson.plugins.git.UserRemoteConfig>
+            <url>https://gitlab.devtools.intel.com/yzhao18/npxautomation.git</url>
+            <credentialsId>36085ac2-183b-47be-9097-7a8bf4d7c6da</credentialsId>
+          </hudson.plugins.git.UserRemoteConfig>
+        </userRemoteConfigs>
+        <branches class="singleton-list">
+          <hudson.plugins.git.BranchSpec>
+            <name>*/master</name>
+          </hudson.plugins.git.BranchSpec>
+        </branches>
+        <doGenerateSubmoduleConfigurations>false</doGenerateSubmoduleConfigurations>
+        <submoduleCfg class="empty-list"/>
+        <extensions>
+          <hudson.plugins.git.extensions.impl.LocalBranch>
+            <localBranch>master</localBranch>
+          </hudson.plugins.git.extensions.impl.LocalBranch>
+        </extensions>
+      </scm>
+      <node>jnlp-19bcp</node>
+      <workspace>/home/jenkins/agent/workspace/pktgen-testpmd</workspace>
+      <changelogFile>/var/jenkins_home/jobs/pktgen-testpmd/builds/21/changelog18241029730936268197.xml</changelogFile>
+      <pollingBaseline class="hudson.scm.SCMRevisionState$None" reference="../../../actions/org.jenkinsci.plugins.workflow.steps.scm.MultiSCMRevisionState/revisionStates/entry/hudson.scm.SCMRevisionState_-None"/>
+    </org.jenkinsci.plugins.workflow.job.WorkflowRun_-SCMCheckout>
+  </checkouts>
+</flow-build>

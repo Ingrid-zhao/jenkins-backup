@@ -1,0 +1,527 @@
+Started by timer
+Running as SYSTEM
+Building remotely on [8mha:////4LafVuX3eTQLm8yF81fMq4k6u04xgOhoE2RdYhqdKBmyAAAApB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAy+EgYJ/eT83ILSktQi/azUvOzMvOL4pMTk7NICAAghILnNAAAA[0mjenkins_backup in workspace /root/.jenkins/workspace/jenkins-backup
+[jenkins-backup] $ /bin/bash /tmp/jenkins4664245329009087394.sh
++ '[' -e /var/lib/jenkins/index.lock ']'
++ cd /home/jenkins_home
++ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	deleted:    jenkins/fingerprints/0c/81/7f39df6213cc7ae8a43759750301.xml
+	deleted:    jenkins/fingerprints/3f/f4/edc55e56af3f9904ae2c94ac7f26.xml
+	modified:   jenkins/fingerprints/fc/7b/c9872f4f5327e1eea7e83ff746c1.xml
+	modified:   jenkins/jobs/jenkins-backup/builds/76/log
+	modified:   jenkins/jobs/jenkins-backup/builds/permalinks
+	modified:   jenkins/jobs/jenkins-backup/nextBuildNumber
+	modified:   jenkins/jobs/test-nic-regression/builds/permalinks
+	modified:   jenkins/jobs/test-nic-regression/config.xml
+	modified:   jenkins/jobs/test-nic-regression/nextBuildNumber
+	modified:   jenkins/logs/health-checker.log
+	modified:   jenkins/logs/slaves/ipu-iauto_test/slave.log
+	modified:   jenkins/logs/slaves/ipu-iauto_test/slave.log.1
+	modified:   jenkins/logs/slaves/ipu-iauto_test/slave.log.10
+	modified:   jenkins/logs/slaves/ipu-iauto_test/slave.log.2
+	modified:   jenkins/logs/slaves/ipu-iauto_test/slave.log.3
+	modified:   jenkins/logs/slaves/ipu-iauto_test/slave.log.4
+	modified:   jenkins/logs/slaves/ipu-iauto_test/slave.log.5
+	modified:   jenkins/logs/slaves/ipu-iauto_test/slave.log.6
+	modified:   jenkins/logs/slaves/ipu-iauto_test/slave.log.7
+	modified:   jenkins/logs/slaves/ipu-iauto_test/slave.log.8
+	modified:   jenkins/logs/slaves/ipu-iauto_test/slave.log.9
+	modified:   jenkins/logs/tasks/Download metadata.log
+	modified:   jenkins/logs/tasks/Fingerprint cleanup.log
+	modified:   jenkins/logs/tasks/Fingerprint cleanup.log.1
+	modified:   jenkins/logs/tasks/Fingerprint cleanup.log.2
+	modified:   jenkins/logs/tasks/Fingerprint cleanup.log.3
+	modified:   jenkins/logs/tasks/Fingerprint cleanup.log.4
+	modified:   jenkins/logs/tasks/Fingerprint cleanup.log.5
+	modified:   jenkins/logs/tasks/Periodic background build discarder.log
+	modified:   jenkins/logs/tasks/Periodic background build discarder.log.1
+	modified:   jenkins/logs/tasks/Periodic background build discarder.log.2
+	modified:   jenkins/logs/tasks/Periodic background build discarder.log.3
+	modified:   jenkins/logs/tasks/Periodic background build discarder.log.4
+	modified:   jenkins/logs/tasks/Periodic background build discarder.log.5
+	modified:   jenkins/logs/tasks/Workspace clean-up.log
+	modified:   jenkins/logs/tasks/Workspace clean-up.log.1
+	modified:   jenkins/logs/tasks/Workspace clean-up.log.2
+	modified:   jenkins/logs/tasks/Workspace clean-up.log.3
+	modified:   jenkins/logs/tasks/Workspace clean-up.log.4
+	modified:   jenkins/logs/tasks/Workspace clean-up.log.5
+	modified:   jenkins/logs/tasks/telemetry collection.log
+	modified:   jenkins/logs/tasks/telemetry collection.log.1
+	modified:   jenkins/logs/tasks/telemetry collection.log.2
+	modified:   jenkins/logs/tasks/telemetry collection.log.3
+	modified:   jenkins/logs/tasks/telemetry collection.log.4
+	modified:   jenkins/logs/tasks/telemetry collection.log.5
+	modified:   jenkins/queue.xml
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	jenkins/jobs/iperf-vf-2hours-ipv4/
+	jenkins/jobs/iperf-vf-2hours-ipv6/
+	jenkins/jobs/jenkins-backup/builds/76/build.xml
+	jenkins/jobs/jenkins-backup/builds/77/
+	jenkins/jobs/nic_mtu/
+	jenkins/jobs/test-nic-regression/builds/4/
+	jenkins/jobs/test-nic-regression/builds/5/
+	jenkins/jobs/test-nic-regression/builds/6/
+	jenkins/jobs/test-nic-regression/builds/7/
+	jenkins/jobs/test-nic-regression/builds/8/
+
+no changes added to commit (use "git add" and/or "git commit -a")
++ git add -A
+++ date
++ git commit -s -m 'Jenkins backup at Wed Jan 19 03:06:00 CST 2022'
+[master 58f8a9c] Jenkins backup at Wed Jan 19 03:06:00 CST 2022
+ 483 files changed, 36459 insertions(+), 690 deletions(-)
+ delete mode 100644 jenkins/fingerprints/0c/81/7f39df6213cc7ae8a43759750301.xml
+ delete mode 100644 jenkins/fingerprints/3f/f4/edc55e56af3f9904ae2c94ac7f26.xml
+ create mode 100644 jenkins/jobs/iperf-vf-2hours-ipv4/builds/1/build.xml
+ create mode 100644 jenkins/jobs/iperf-vf-2hours-ipv4/builds/1/log
+ create mode 100644 jenkins/jobs/iperf-vf-2hours-ipv4/builds/1/log-index
+ create mode 100644 jenkins/jobs/iperf-vf-2hours-ipv4/builds/10/build.xml
+ create mode 100644 jenkins/jobs/iperf-vf-2hours-ipv4/builds/10/log
+ create mode 100644 jenkins/jobs/iperf-vf-2hours-ipv4/builds/10/log-index
+ create mode 100644 jenkins/jobs/iperf-vf-2hours-ipv4/builds/10/workflow/10.xml
+ create mode 100644 jenkins/jobs/iperf-vf-2hours-ipv4/builds/10/workflow/11.xml
+ create mode 100644 jenkins/jobs/iperf-vf-2hours-ipv4/builds/10/workflow/12.xml
+ create mode 100644 jenkins/jobs/iperf-vf-2hours-ipv4/builds/10/workflow/13.xml
+ create mode 100644 jenkins/jobs/iperf-vf-2hours-ipv4/builds/10/workflow/14.xml
+ create mode 100644 jenkins/jobs/iperf-vf-2hours-ipv4/builds/10/workflow/15.xml
+ create mode 100644 jenkins/jobs/iperf-vf-2hours-ipv4/builds/10/workflow/16.xml
+ create mode 100644 jenkins/jobs/iperf-vf-2hours-ipv4/builds/10/workflow/17.xml
+ create mode 100644 jenkins/jobs/iperf-vf-2hours-ipv4/builds/10/workflow/18.xml
+ create mode 100644 jenkins/jobs/iperf-vf-2hours-ipv4/builds/10/workflow/19.xml
+ create mode 100644 jenkins/jobs/iperf-vf-2hours-ipv4/builds/10/workflow/2.xml
+ create mode 100644 jenkins/jobs/iperf-vf-2hours-ipv4/builds/10/workflow/20.xml
+ create mode 100644 jenkins/jobs/iperf-vf-2hours-ipv4/builds/10/workflow/21.xml
+ create mode 100644 jenkins/jobs/iperf-vf-2hours-ipv4/builds/10/workflow/22.xml
+ create mode 100644 jenkins/jobs/iperf-vf-2hours-ipv4/builds/10/workflow/3.xml
+ create mode 100644 jenkins/jobs/iperf-vf-2hours-ipv4/builds/10/workflow/4.xml
+ create mode 100644 jenkins/jobs/iperf-vf-2hours-ipv4/builds/10/workflow/5.xml
+ create mode 100644 jenkins/jobs/iperf-vf-2hours-ipv4/builds/10/workflow/6.xml
+ create mode 100644 jenkins/jobs/iperf-vf-2hours-ipv4/builds/10/workflow/7.xml
+ create mode 100644 jenkins/jobs/iperf-vf-2hours-ipv4/builds/10/workflow/8.xml
+ create mode 100644 jenkins/jobs/iperf-vf-2hours-ipv4/builds/10/workflow/9.xml
+ create mode 100644 jenkins/jobs/iperf-vf-2hours-ipv4/builds/11/build.xml
+ create mode 100644 jenkins/jobs/iperf-vf-2hours-ipv4/builds/11/log
+ create mode 100644 jenkins/jobs/iperf-vf-2hours-ipv4/builds/11/log-index
+ create mode 100644 jenkins/jobs/iperf-vf-2hours-ipv4/builds/11/workflow/10.xml
+ create mode 100644 jenkins/jobs/iperf-vf-2hours-ipv4/builds/11/workflow/11.xml
+ create mode 100644 jenkins/jobs/iperf-vf-2hours-ipv4/builds/11/workflow/12.xml
+ create mode 100644 jenkins/jobs/iperf-vf-2hours-ipv4/builds/11/workflow/13.xml
+ create mode 100644 jenkins/jobs/iperf-vf-2hours-ipv4/builds/11/workflow/14.xml
+ create mode 100644 jenkins/jobs/iperf-vf-2hours-ipv4/builds/11/workflow/15.xml
+ create mode 100644 jenkins/jobs/iperf-vf-2hours-ipv4/builds/11/workflow/16.xml
+ create mode 100644 jenkins/jobs/iperf-vf-2hours-ipv4/builds/11/workflow/17.xml
+ create mode 100644 jenkins/jobs/iperf-vf-2hours-ipv4/builds/11/workflow/18.xml
+ create mode 100644 jenkins/jobs/iperf-vf-2hours-ipv4/builds/11/workflow/19.xml
+ create mode 100644 jenkins/jobs/iperf-vf-2hours-ipv4/builds/11/workflow/2.xml
+ create mode 100644 jenkins/jobs/iperf-vf-2hours-ipv4/builds/11/workflow/20.xml
+ create mode 100644 jenkins/jobs/iperf-vf-2hours-ipv4/builds/11/workflow/21.xml
+ create mode 100644 jenkins/jobs/iperf-vf-2hours-ipv4/builds/11/workflow/22.xml
+ create mode 100644 jenkins/jobs/iperf-vf-2hours-ipv4/builds/11/workflow/3.xml
+ create mode 100644 jenkins/jobs/iperf-vf-2hours-ipv4/builds/11/workflow/4.xml
+ create mode 100644 jenkins/jobs/iperf-vf-2hours-ipv4/builds/11/workflow/5.xml
+ create mode 100644 jenkins/jobs/iperf-vf-2hours-ipv4/builds/11/workflow/6.xml
+ create mode 100644 jenkins/jobs/iperf-vf-2hours-ipv4/builds/11/workflow/7.xml
+ create mode 100644 jenkins/jobs/iperf-vf-2hours-ipv4/builds/11/workflow/8.xml
+ create mode 100644 jenkins/jobs/iperf-vf-2hours-ipv4/builds/11/workflow/9.xml
+ create mode 100644 jenkins/jobs/iperf-vf-2hours-ipv4/builds/2/build.xml
+ create mode 100644 jenkins/jobs/iperf-vf-2hours-ipv4/builds/2/log
+ create mode 100644 jenkins/jobs/iperf-vf-2hours-ipv4/builds/2/log-index
+ create mode 100644 jenkins/jobs/iperf-vf-2hours-ipv4/builds/2/workflow/10.xml
+ create mode 100644 jenkins/jobs/iperf-vf-2hours-ipv4/builds/2/workflow/11.xml
+ create mode 100644 jenkins/jobs/iperf-vf-2hours-ipv4/builds/2/workflow/12.xml
+ create mode 100644 jenkins/jobs/iperf-vf-2hours-ipv4/builds/2/workflow/13.xml
+ create mode 100644 jenkins/jobs/iperf-vf-2hours-ipv4/builds/2/workflow/14.xml
+ create mode 100644 jenkins/jobs/iperf-vf-2hours-ipv4/builds/2/workflow/15.xml
+ create mode 100644 jenkins/jobs/iperf-vf-2hours-ipv4/builds/2/workflow/16.xml
+ create mode 100644 jenkins/jobs/iperf-vf-2hours-ipv4/builds/2/workflow/17.xml
+ create mode 100644 jenkins/jobs/iperf-vf-2hours-ipv4/builds/2/workflow/18.xml
+ create mode 100644 jenkins/jobs/iperf-vf-2hours-ipv4/builds/2/workflow/19.xml
+ create mode 100644 jenkins/jobs/iperf-vf-2hours-ipv4/builds/2/workflow/2.xml
+ create mode 100644 jenkins/jobs/iperf-vf-2hours-ipv4/builds/2/workflow/3.xml
+ create mode 100644 jenkins/jobs/iperf-vf-2hours-ipv4/builds/2/workflow/4.xml
+ create mode 100644 jenkins/jobs/iperf-vf-2hours-ipv4/builds/2/workflow/5.xml
+ create mode 100644 jenkins/jobs/iperf-vf-2hours-ipv4/builds/2/workflow/6.xml
+ create mode 100644 jenkins/jobs/iperf-vf-2hours-ipv4/builds/2/workflow/7.xml
+ create mode 100644 jenkins/jobs/iperf-vf-2hours-ipv4/builds/2/workflow/8.xml
+ create mode 100644 jenkins/jobs/iperf-vf-2hours-ipv4/builds/2/workflow/9.xml
+ create mode 100644 jenkins/jobs/iperf-vf-2hours-ipv4/builds/3/build.xml
+ create mode 100644 jenkins/jobs/iperf-vf-2hours-ipv4/builds/3/log
+ create mode 100644 jenkins/jobs/iperf-vf-2hours-ipv4/builds/3/log-index
+ create mode 100644 jenkins/jobs/iperf-vf-2hours-ipv4/builds/3/workflow/10.xml
+ create mode 100644 jenkins/jobs/iperf-vf-2hours-ipv4/builds/3/workflow/11.xml
+ create mode 100644 jenkins/jobs/iperf-vf-2hours-ipv4/builds/3/workflow/12.xml
+ create mode 100644 jenkins/jobs/iperf-vf-2hours-ipv4/builds/3/workflow/13.xml
+ create mode 100644 jenkins/jobs/iperf-vf-2hours-ipv4/builds/3/workflow/14.xml
+ create mode 100644 jenkins/jobs/iperf-vf-2hours-ipv4/builds/3/workflow/15.xml
+ create mode 100644 jenkins/jobs/iperf-vf-2hours-ipv4/builds/3/workflow/16.xml
+ create mode 100644 jenkins/jobs/iperf-vf-2hours-ipv4/builds/3/workflow/17.xml
+ create mode 100644 jenkins/jobs/iperf-vf-2hours-ipv4/builds/3/workflow/18.xml
+ create mode 100644 jenkins/jobs/iperf-vf-2hours-ipv4/builds/3/workflow/19.xml
+ create mode 100644 jenkins/jobs/iperf-vf-2hours-ipv4/builds/3/workflow/2.xml
+ create mode 100644 jenkins/jobs/iperf-vf-2hours-ipv4/builds/3/workflow/20.xml
+ create mode 100644 jenkins/jobs/iperf-vf-2hours-ipv4/builds/3/workflow/3.xml
+ create mode 100644 jenkins/jobs/iperf-vf-2hours-ipv4/builds/3/workflow/4.xml
+ create mode 100644 jenkins/jobs/iperf-vf-2hours-ipv4/builds/3/workflow/5.xml
+ create mode 100644 jenkins/jobs/iperf-vf-2hours-ipv4/builds/3/workflow/6.xml
+ create mode 100644 jenkins/jobs/iperf-vf-2hours-ipv4/builds/3/workflow/7.xml
+ create mode 100644 jenkins/jobs/iperf-vf-2hours-ipv4/builds/3/workflow/8.xml
+ create mode 100644 jenkins/jobs/iperf-vf-2hours-ipv4/builds/3/workflow/9.xml
+ create mode 100644 jenkins/jobs/iperf-vf-2hours-ipv4/builds/4/build.xml
+ create mode 100644 jenkins/jobs/iperf-vf-2hours-ipv4/builds/4/log
+ create mode 100644 jenkins/jobs/iperf-vf-2hours-ipv4/builds/4/log-index
+ create mode 100644 jenkins/jobs/iperf-vf-2hours-ipv4/builds/4/workflow/10.xml
+ create mode 100644 jenkins/jobs/iperf-vf-2hours-ipv4/builds/4/workflow/11.xml
+ create mode 100644 jenkins/jobs/iperf-vf-2hours-ipv4/builds/4/workflow/12.xml
+ create mode 100644 jenkins/jobs/iperf-vf-2hours-ipv4/builds/4/workflow/13.xml
+ create mode 100644 jenkins/jobs/iperf-vf-2hours-ipv4/builds/4/workflow/14.xml
+ create mode 100644 jenkins/jobs/iperf-vf-2hours-ipv4/builds/4/workflow/15.xml
+ create mode 100644 jenkins/jobs/iperf-vf-2hours-ipv4/builds/4/workflow/16.xml
+ create mode 100644 jenkins/jobs/iperf-vf-2hours-ipv4/builds/4/workflow/2.xml
+ create mode 100644 jenkins/jobs/iperf-vf-2hours-ipv4/builds/4/workflow/3.xml
+ create mode 100644 jenkins/jobs/iperf-vf-2hours-ipv4/builds/4/workflow/4.xml
+ create mode 100644 jenkins/jobs/iperf-vf-2hours-ipv4/builds/4/workflow/5.xml
+ create mode 100644 jenkins/jobs/iperf-vf-2hours-ipv4/builds/4/workflow/6.xml
+ create mode 100644 jenkins/jobs/iperf-vf-2hours-ipv4/builds/4/workflow/7.xml
+ create mode 100644 jenkins/jobs/iperf-vf-2hours-ipv4/builds/4/workflow/8.xml
+ create mode 100644 jenkins/jobs/iperf-vf-2hours-ipv4/builds/4/workflow/9.xml
+ create mode 100644 jenkins/jobs/iperf-vf-2hours-ipv4/builds/5/build.xml
+ create mode 100644 jenkins/jobs/iperf-vf-2hours-ipv4/builds/5/log
+ create mode 100644 jenkins/jobs/iperf-vf-2hours-ipv4/builds/5/log-index
+ create mode 100644 jenkins/jobs/iperf-vf-2hours-ipv4/builds/5/workflow/10.xml
+ create mode 100644 jenkins/jobs/iperf-vf-2hours-ipv4/builds/5/workflow/11.xml
+ create mode 100644 jenkins/jobs/iperf-vf-2hours-ipv4/builds/5/workflow/12.xml
+ create mode 100644 jenkins/jobs/iperf-vf-2hours-ipv4/builds/5/workflow/13.xml
+ create mode 100644 jenkins/jobs/iperf-vf-2hours-ipv4/builds/5/workflow/14.xml
+ create mode 100644 jenkins/jobs/iperf-vf-2hours-ipv4/builds/5/workflow/15.xml
+ create mode 100644 jenkins/jobs/iperf-vf-2hours-ipv4/builds/5/workflow/16.xml
+ create mode 100644 jenkins/jobs/iperf-vf-2hours-ipv4/builds/5/workflow/2.xml
+ create mode 100644 jenkins/jobs/iperf-vf-2hours-ipv4/builds/5/workflow/3.xml
+ create mode 100644 jenkins/jobs/iperf-vf-2hours-ipv4/builds/5/workflow/4.xml
+ create mode 100644 jenkins/jobs/iperf-vf-2hours-ipv4/builds/5/workflow/5.xml
+ create mode 100644 jenkins/jobs/iperf-vf-2hours-ipv4/builds/5/workflow/6.xml
+ create mode 100644 jenkins/jobs/iperf-vf-2hours-ipv4/builds/5/workflow/7.xml
+ create mode 100644 jenkins/jobs/iperf-vf-2hours-ipv4/builds/5/workflow/8.xml
+ create mode 100644 jenkins/jobs/iperf-vf-2hours-ipv4/builds/5/workflow/9.xml
+ create mode 100644 jenkins/jobs/iperf-vf-2hours-ipv4/builds/6/build.xml
+ create mode 100644 jenkins/jobs/iperf-vf-2hours-ipv4/builds/6/log
+ create mode 100644 jenkins/jobs/iperf-vf-2hours-ipv4/builds/6/log-index
+ create mode 100644 jenkins/jobs/iperf-vf-2hours-ipv4/builds/6/workflow/10.xml
+ create mode 100644 jenkins/jobs/iperf-vf-2hours-ipv4/builds/6/workflow/11.xml
+ create mode 100644 jenkins/jobs/iperf-vf-2hours-ipv4/builds/6/workflow/12.xml
+ create mode 100644 jenkins/jobs/iperf-vf-2hours-ipv4/builds/6/workflow/13.xml
+ create mode 100644 jenkins/jobs/iperf-vf-2hours-ipv4/builds/6/workflow/14.xml
+ create mode 100644 jenkins/jobs/iperf-vf-2hours-ipv4/builds/6/workflow/15.xml
+ create mode 100644 jenkins/jobs/iperf-vf-2hours-ipv4/builds/6/workflow/16.xml
+ create mode 100644 jenkins/jobs/iperf-vf-2hours-ipv4/builds/6/workflow/17.xml
+ create mode 100644 jenkins/jobs/iperf-vf-2hours-ipv4/builds/6/workflow/18.xml
+ create mode 100644 jenkins/jobs/iperf-vf-2hours-ipv4/builds/6/workflow/19.xml
+ create mode 100644 jenkins/jobs/iperf-vf-2hours-ipv4/builds/6/workflow/2.xml
+ create mode 100644 jenkins/jobs/iperf-vf-2hours-ipv4/builds/6/workflow/3.xml
+ create mode 100644 jenkins/jobs/iperf-vf-2hours-ipv4/builds/6/workflow/4.xml
+ create mode 100644 jenkins/jobs/iperf-vf-2hours-ipv4/builds/6/workflow/5.xml
+ create mode 100644 jenkins/jobs/iperf-vf-2hours-ipv4/builds/6/workflow/6.xml
+ create mode 100644 jenkins/jobs/iperf-vf-2hours-ipv4/builds/6/workflow/7.xml
+ create mode 100644 jenkins/jobs/iperf-vf-2hours-ipv4/builds/6/workflow/8.xml
+ create mode 100644 jenkins/jobs/iperf-vf-2hours-ipv4/builds/6/workflow/9.xml
+ create mode 100644 jenkins/jobs/iperf-vf-2hours-ipv4/builds/7/build.xml
+ create mode 100644 jenkins/jobs/iperf-vf-2hours-ipv4/builds/7/log
+ create mode 100644 jenkins/jobs/iperf-vf-2hours-ipv4/builds/7/log-index
+ create mode 100644 jenkins/jobs/iperf-vf-2hours-ipv4/builds/7/workflow/10.xml
+ create mode 100644 jenkins/jobs/iperf-vf-2hours-ipv4/builds/7/workflow/11.xml
+ create mode 100644 jenkins/jobs/iperf-vf-2hours-ipv4/builds/7/workflow/12.xml
+ create mode 100644 jenkins/jobs/iperf-vf-2hours-ipv4/builds/7/workflow/13.xml
+ create mode 100644 jenkins/jobs/iperf-vf-2hours-ipv4/builds/7/workflow/14.xml
+ create mode 100644 jenkins/jobs/iperf-vf-2hours-ipv4/builds/7/workflow/15.xml
+ create mode 100644 jenkins/jobs/iperf-vf-2hours-ipv4/builds/7/workflow/16.xml
+ create mode 100644 jenkins/jobs/iperf-vf-2hours-ipv4/builds/7/workflow/17.xml
+ create mode 100644 jenkins/jobs/iperf-vf-2hours-ipv4/builds/7/workflow/18.xml
+ create mode 100644 jenkins/jobs/iperf-vf-2hours-ipv4/builds/7/workflow/19.xml
+ create mode 100644 jenkins/jobs/iperf-vf-2hours-ipv4/builds/7/workflow/2.xml
+ create mode 100644 jenkins/jobs/iperf-vf-2hours-ipv4/builds/7/workflow/20.xml
+ create mode 100644 jenkins/jobs/iperf-vf-2hours-ipv4/builds/7/workflow/21.xml
+ create mode 100644 jenkins/jobs/iperf-vf-2hours-ipv4/builds/7/workflow/22.xml
+ create mode 100644 jenkins/jobs/iperf-vf-2hours-ipv4/builds/7/workflow/3.xml
+ create mode 100644 jenkins/jobs/iperf-vf-2hours-ipv4/builds/7/workflow/4.xml
+ create mode 100644 jenkins/jobs/iperf-vf-2hours-ipv4/builds/7/workflow/5.xml
+ create mode 100644 jenkins/jobs/iperf-vf-2hours-ipv4/builds/7/workflow/6.xml
+ create mode 100644 jenkins/jobs/iperf-vf-2hours-ipv4/builds/7/workflow/7.xml
+ create mode 100644 jenkins/jobs/iperf-vf-2hours-ipv4/builds/7/workflow/8.xml
+ create mode 100644 jenkins/jobs/iperf-vf-2hours-ipv4/builds/7/workflow/9.xml
+ create mode 100644 jenkins/jobs/iperf-vf-2hours-ipv4/builds/8/build.xml
+ create mode 100644 jenkins/jobs/iperf-vf-2hours-ipv4/builds/8/log
+ create mode 100644 jenkins/jobs/iperf-vf-2hours-ipv4/builds/8/log-index
+ create mode 100644 jenkins/jobs/iperf-vf-2hours-ipv4/builds/8/workflow/10.xml
+ create mode 100644 jenkins/jobs/iperf-vf-2hours-ipv4/builds/8/workflow/11.xml
+ create mode 100644 jenkins/jobs/iperf-vf-2hours-ipv4/builds/8/workflow/12.xml
+ create mode 100644 jenkins/jobs/iperf-vf-2hours-ipv4/builds/8/workflow/13.xml
+ create mode 100644 jenkins/jobs/iperf-vf-2hours-ipv4/builds/8/workflow/14.xml
+ create mode 100644 jenkins/jobs/iperf-vf-2hours-ipv4/builds/8/workflow/15.xml
+ create mode 100644 jenkins/jobs/iperf-vf-2hours-ipv4/builds/8/workflow/16.xml
+ create mode 100644 jenkins/jobs/iperf-vf-2hours-ipv4/builds/8/workflow/17.xml
+ create mode 100644 jenkins/jobs/iperf-vf-2hours-ipv4/builds/8/workflow/18.xml
+ create mode 100644 jenkins/jobs/iperf-vf-2hours-ipv4/builds/8/workflow/19.xml
+ create mode 100644 jenkins/jobs/iperf-vf-2hours-ipv4/builds/8/workflow/2.xml
+ create mode 100644 jenkins/jobs/iperf-vf-2hours-ipv4/builds/8/workflow/20.xml
+ create mode 100644 jenkins/jobs/iperf-vf-2hours-ipv4/builds/8/workflow/21.xml
+ create mode 100644 jenkins/jobs/iperf-vf-2hours-ipv4/builds/8/workflow/22.xml
+ create mode 100644 jenkins/jobs/iperf-vf-2hours-ipv4/builds/8/workflow/3.xml
+ create mode 100644 jenkins/jobs/iperf-vf-2hours-ipv4/builds/8/workflow/4.xml
+ create mode 100644 jenkins/jobs/iperf-vf-2hours-ipv4/builds/8/workflow/5.xml
+ create mode 100644 jenkins/jobs/iperf-vf-2hours-ipv4/builds/8/workflow/6.xml
+ create mode 100644 jenkins/jobs/iperf-vf-2hours-ipv4/builds/8/workflow/7.xml
+ create mode 100644 jenkins/jobs/iperf-vf-2hours-ipv4/builds/8/workflow/8.xml
+ create mode 100644 jenkins/jobs/iperf-vf-2hours-ipv4/builds/8/workflow/9.xml
+ create mode 100644 jenkins/jobs/iperf-vf-2hours-ipv4/builds/9/build.xml
+ create mode 100644 jenkins/jobs/iperf-vf-2hours-ipv4/builds/9/log
+ create mode 100644 jenkins/jobs/iperf-vf-2hours-ipv4/builds/9/log-index
+ create mode 100644 jenkins/jobs/iperf-vf-2hours-ipv4/builds/9/workflow/10.xml
+ create mode 100644 jenkins/jobs/iperf-vf-2hours-ipv4/builds/9/workflow/11.xml
+ create mode 100644 jenkins/jobs/iperf-vf-2hours-ipv4/builds/9/workflow/12.xml
+ create mode 100644 jenkins/jobs/iperf-vf-2hours-ipv4/builds/9/workflow/13.xml
+ create mode 100644 jenkins/jobs/iperf-vf-2hours-ipv4/builds/9/workflow/14.xml
+ create mode 100644 jenkins/jobs/iperf-vf-2hours-ipv4/builds/9/workflow/15.xml
+ create mode 100644 jenkins/jobs/iperf-vf-2hours-ipv4/builds/9/workflow/16.xml
+ create mode 100644 jenkins/jobs/iperf-vf-2hours-ipv4/builds/9/workflow/17.xml
+ create mode 100644 jenkins/jobs/iperf-vf-2hours-ipv4/builds/9/workflow/18.xml
+ create mode 100644 jenkins/jobs/iperf-vf-2hours-ipv4/builds/9/workflow/19.xml
+ create mode 100644 jenkins/jobs/iperf-vf-2hours-ipv4/builds/9/workflow/2.xml
+ create mode 100644 jenkins/jobs/iperf-vf-2hours-ipv4/builds/9/workflow/20.xml
+ create mode 100644 jenkins/jobs/iperf-vf-2hours-ipv4/builds/9/workflow/3.xml
+ create mode 100644 jenkins/jobs/iperf-vf-2hours-ipv4/builds/9/workflow/4.xml
+ create mode 100644 jenkins/jobs/iperf-vf-2hours-ipv4/builds/9/workflow/5.xml
+ create mode 100644 jenkins/jobs/iperf-vf-2hours-ipv4/builds/9/workflow/6.xml
+ create mode 100644 jenkins/jobs/iperf-vf-2hours-ipv4/builds/9/workflow/7.xml
+ create mode 100644 jenkins/jobs/iperf-vf-2hours-ipv4/builds/9/workflow/8.xml
+ create mode 100644 jenkins/jobs/iperf-vf-2hours-ipv4/builds/9/workflow/9.xml
+ create mode 100644 jenkins/jobs/iperf-vf-2hours-ipv4/builds/legacyIds
+ create mode 100644 jenkins/jobs/iperf-vf-2hours-ipv4/builds/permalinks
+ create mode 100644 jenkins/jobs/iperf-vf-2hours-ipv4/config.xml
+ create mode 100644 jenkins/jobs/iperf-vf-2hours-ipv4/nextBuildNumber
+ create mode 100644 jenkins/jobs/iperf-vf-2hours-ipv6/builds/1/build.xml
+ create mode 100644 jenkins/jobs/iperf-vf-2hours-ipv6/builds/1/log
+ create mode 100644 jenkins/jobs/iperf-vf-2hours-ipv6/builds/1/log-index
+ create mode 100644 jenkins/jobs/iperf-vf-2hours-ipv6/builds/1/workflow/10.xml
+ create mode 100644 jenkins/jobs/iperf-vf-2hours-ipv6/builds/1/workflow/11.xml
+ create mode 100644 jenkins/jobs/iperf-vf-2hours-ipv6/builds/1/workflow/12.xml
+ create mode 100644 jenkins/jobs/iperf-vf-2hours-ipv6/builds/1/workflow/13.xml
+ create mode 100644 jenkins/jobs/iperf-vf-2hours-ipv6/builds/1/workflow/14.xml
+ create mode 100644 jenkins/jobs/iperf-vf-2hours-ipv6/builds/1/workflow/15.xml
+ create mode 100644 jenkins/jobs/iperf-vf-2hours-ipv6/builds/1/workflow/16.xml
+ create mode 100644 jenkins/jobs/iperf-vf-2hours-ipv6/builds/1/workflow/17.xml
+ create mode 100644 jenkins/jobs/iperf-vf-2hours-ipv6/builds/1/workflow/18.xml
+ create mode 100644 jenkins/jobs/iperf-vf-2hours-ipv6/builds/1/workflow/19.xml
+ create mode 100644 jenkins/jobs/iperf-vf-2hours-ipv6/builds/1/workflow/2.xml
+ create mode 100644 jenkins/jobs/iperf-vf-2hours-ipv6/builds/1/workflow/20.xml
+ create mode 100644 jenkins/jobs/iperf-vf-2hours-ipv6/builds/1/workflow/3.xml
+ create mode 100644 jenkins/jobs/iperf-vf-2hours-ipv6/builds/1/workflow/4.xml
+ create mode 100644 jenkins/jobs/iperf-vf-2hours-ipv6/builds/1/workflow/5.xml
+ create mode 100644 jenkins/jobs/iperf-vf-2hours-ipv6/builds/1/workflow/6.xml
+ create mode 100644 jenkins/jobs/iperf-vf-2hours-ipv6/builds/1/workflow/7.xml
+ create mode 100644 jenkins/jobs/iperf-vf-2hours-ipv6/builds/1/workflow/8.xml
+ create mode 100644 jenkins/jobs/iperf-vf-2hours-ipv6/builds/1/workflow/9.xml
+ create mode 100644 jenkins/jobs/iperf-vf-2hours-ipv6/builds/2/build.xml
+ create mode 100644 jenkins/jobs/iperf-vf-2hours-ipv6/builds/2/log
+ create mode 100644 jenkins/jobs/iperf-vf-2hours-ipv6/builds/2/log-index
+ create mode 100644 jenkins/jobs/iperf-vf-2hours-ipv6/builds/2/workflow/10.xml
+ create mode 100644 jenkins/jobs/iperf-vf-2hours-ipv6/builds/2/workflow/11.xml
+ create mode 100644 jenkins/jobs/iperf-vf-2hours-ipv6/builds/2/workflow/12.xml
+ create mode 100644 jenkins/jobs/iperf-vf-2hours-ipv6/builds/2/workflow/13.xml
+ create mode 100644 jenkins/jobs/iperf-vf-2hours-ipv6/builds/2/workflow/14.xml
+ create mode 100644 jenkins/jobs/iperf-vf-2hours-ipv6/builds/2/workflow/15.xml
+ create mode 100644 jenkins/jobs/iperf-vf-2hours-ipv6/builds/2/workflow/16.xml
+ create mode 100644 jenkins/jobs/iperf-vf-2hours-ipv6/builds/2/workflow/17.xml
+ create mode 100644 jenkins/jobs/iperf-vf-2hours-ipv6/builds/2/workflow/18.xml
+ create mode 100644 jenkins/jobs/iperf-vf-2hours-ipv6/builds/2/workflow/19.xml
+ create mode 100644 jenkins/jobs/iperf-vf-2hours-ipv6/builds/2/workflow/2.xml
+ create mode 100644 jenkins/jobs/iperf-vf-2hours-ipv6/builds/2/workflow/20.xml
+ create mode 100644 jenkins/jobs/iperf-vf-2hours-ipv6/builds/2/workflow/21.xml
+ create mode 100644 jenkins/jobs/iperf-vf-2hours-ipv6/builds/2/workflow/22.xml
+ create mode 100644 jenkins/jobs/iperf-vf-2hours-ipv6/builds/2/workflow/3.xml
+ create mode 100644 jenkins/jobs/iperf-vf-2hours-ipv6/builds/2/workflow/4.xml
+ create mode 100644 jenkins/jobs/iperf-vf-2hours-ipv6/builds/2/workflow/5.xml
+ create mode 100644 jenkins/jobs/iperf-vf-2hours-ipv6/builds/2/workflow/6.xml
+ create mode 100644 jenkins/jobs/iperf-vf-2hours-ipv6/builds/2/workflow/7.xml
+ create mode 100644 jenkins/jobs/iperf-vf-2hours-ipv6/builds/2/workflow/8.xml
+ create mode 100644 jenkins/jobs/iperf-vf-2hours-ipv6/builds/2/workflow/9.xml
+ create mode 100644 jenkins/jobs/iperf-vf-2hours-ipv6/builds/3/build.xml
+ create mode 100644 jenkins/jobs/iperf-vf-2hours-ipv6/builds/3/log
+ create mode 100644 jenkins/jobs/iperf-vf-2hours-ipv6/builds/3/log-index
+ create mode 100644 jenkins/jobs/iperf-vf-2hours-ipv6/builds/3/workflow/10.xml
+ create mode 100644 jenkins/jobs/iperf-vf-2hours-ipv6/builds/3/workflow/11.xml
+ create mode 100644 jenkins/jobs/iperf-vf-2hours-ipv6/builds/3/workflow/12.xml
+ create mode 100644 jenkins/jobs/iperf-vf-2hours-ipv6/builds/3/workflow/13.xml
+ create mode 100644 jenkins/jobs/iperf-vf-2hours-ipv6/builds/3/workflow/14.xml
+ create mode 100644 jenkins/jobs/iperf-vf-2hours-ipv6/builds/3/workflow/15.xml
+ create mode 100644 jenkins/jobs/iperf-vf-2hours-ipv6/builds/3/workflow/16.xml
+ create mode 100644 jenkins/jobs/iperf-vf-2hours-ipv6/builds/3/workflow/17.xml
+ create mode 100644 jenkins/jobs/iperf-vf-2hours-ipv6/builds/3/workflow/18.xml
+ create mode 100644 jenkins/jobs/iperf-vf-2hours-ipv6/builds/3/workflow/19.xml
+ create mode 100644 jenkins/jobs/iperf-vf-2hours-ipv6/builds/3/workflow/2.xml
+ create mode 100644 jenkins/jobs/iperf-vf-2hours-ipv6/builds/3/workflow/20.xml
+ create mode 100644 jenkins/jobs/iperf-vf-2hours-ipv6/builds/3/workflow/21.xml
+ create mode 100644 jenkins/jobs/iperf-vf-2hours-ipv6/builds/3/workflow/22.xml
+ create mode 100644 jenkins/jobs/iperf-vf-2hours-ipv6/builds/3/workflow/3.xml
+ create mode 100644 jenkins/jobs/iperf-vf-2hours-ipv6/builds/3/workflow/4.xml
+ create mode 100644 jenkins/jobs/iperf-vf-2hours-ipv6/builds/3/workflow/5.xml
+ create mode 100644 jenkins/jobs/iperf-vf-2hours-ipv6/builds/3/workflow/6.xml
+ create mode 100644 jenkins/jobs/iperf-vf-2hours-ipv6/builds/3/workflow/7.xml
+ create mode 100644 jenkins/jobs/iperf-vf-2hours-ipv6/builds/3/workflow/8.xml
+ create mode 100644 jenkins/jobs/iperf-vf-2hours-ipv6/builds/3/workflow/9.xml
+ create mode 100644 jenkins/jobs/iperf-vf-2hours-ipv6/builds/legacyIds
+ create mode 100644 jenkins/jobs/iperf-vf-2hours-ipv6/builds/permalinks
+ create mode 100644 jenkins/jobs/iperf-vf-2hours-ipv6/config.xml
+ create mode 100644 jenkins/jobs/iperf-vf-2hours-ipv6/nextBuildNumber
+ create mode 100644 jenkins/jobs/jenkins-backup/builds/76/build.xml
+ create mode 100644 jenkins/jobs/jenkins-backup/builds/77/changelog.xml
+ create mode 100644 jenkins/jobs/jenkins-backup/builds/77/log
+ create mode 100644 jenkins/jobs/nic_mtu/builds/1/build.xml
+ create mode 100644 jenkins/jobs/nic_mtu/builds/1/log
+ create mode 100644 jenkins/jobs/nic_mtu/builds/1/log-index
+ create mode 100644 jenkins/jobs/nic_mtu/builds/1/workflow/10.xml
+ create mode 100644 jenkins/jobs/nic_mtu/builds/1/workflow/11.xml
+ create mode 100644 jenkins/jobs/nic_mtu/builds/1/workflow/12.xml
+ create mode 100644 jenkins/jobs/nic_mtu/builds/1/workflow/13.xml
+ create mode 100644 jenkins/jobs/nic_mtu/builds/1/workflow/14.xml
+ create mode 100644 jenkins/jobs/nic_mtu/builds/1/workflow/15.xml
+ create mode 100644 jenkins/jobs/nic_mtu/builds/1/workflow/16.xml
+ create mode 100644 jenkins/jobs/nic_mtu/builds/1/workflow/17.xml
+ create mode 100644 jenkins/jobs/nic_mtu/builds/1/workflow/18.xml
+ create mode 100644 jenkins/jobs/nic_mtu/builds/1/workflow/19.xml
+ create mode 100644 jenkins/jobs/nic_mtu/builds/1/workflow/2.xml
+ create mode 100644 jenkins/jobs/nic_mtu/builds/1/workflow/3.xml
+ create mode 100644 jenkins/jobs/nic_mtu/builds/1/workflow/4.xml
+ create mode 100644 jenkins/jobs/nic_mtu/builds/1/workflow/5.xml
+ create mode 100644 jenkins/jobs/nic_mtu/builds/1/workflow/6.xml
+ create mode 100644 jenkins/jobs/nic_mtu/builds/1/workflow/7.xml
+ create mode 100644 jenkins/jobs/nic_mtu/builds/1/workflow/8.xml
+ create mode 100644 jenkins/jobs/nic_mtu/builds/1/workflow/9.xml
+ create mode 100644 jenkins/jobs/nic_mtu/builds/2/build.xml
+ create mode 100644 jenkins/jobs/nic_mtu/builds/2/log
+ create mode 100644 jenkins/jobs/nic_mtu/builds/2/log-index
+ create mode 100644 jenkins/jobs/nic_mtu/builds/2/workflow/10.xml
+ create mode 100644 jenkins/jobs/nic_mtu/builds/2/workflow/11.xml
+ create mode 100644 jenkins/jobs/nic_mtu/builds/2/workflow/12.xml
+ create mode 100644 jenkins/jobs/nic_mtu/builds/2/workflow/13.xml
+ create mode 100644 jenkins/jobs/nic_mtu/builds/2/workflow/14.xml
+ create mode 100644 jenkins/jobs/nic_mtu/builds/2/workflow/15.xml
+ create mode 100644 jenkins/jobs/nic_mtu/builds/2/workflow/16.xml
+ create mode 100644 jenkins/jobs/nic_mtu/builds/2/workflow/17.xml
+ create mode 100644 jenkins/jobs/nic_mtu/builds/2/workflow/18.xml
+ create mode 100644 jenkins/jobs/nic_mtu/builds/2/workflow/19.xml
+ create mode 100644 jenkins/jobs/nic_mtu/builds/2/workflow/2.xml
+ create mode 100644 jenkins/jobs/nic_mtu/builds/2/workflow/20.xml
+ create mode 100644 jenkins/jobs/nic_mtu/builds/2/workflow/21.xml
+ create mode 100644 jenkins/jobs/nic_mtu/builds/2/workflow/22.xml
+ create mode 100644 jenkins/jobs/nic_mtu/builds/2/workflow/3.xml
+ create mode 100644 jenkins/jobs/nic_mtu/builds/2/workflow/4.xml
+ create mode 100644 jenkins/jobs/nic_mtu/builds/2/workflow/5.xml
+ create mode 100644 jenkins/jobs/nic_mtu/builds/2/workflow/6.xml
+ create mode 100644 jenkins/jobs/nic_mtu/builds/2/workflow/7.xml
+ create mode 100644 jenkins/jobs/nic_mtu/builds/2/workflow/8.xml
+ create mode 100644 jenkins/jobs/nic_mtu/builds/2/workflow/9.xml
+ create mode 100644 jenkins/jobs/nic_mtu/builds/legacyIds
+ create mode 100644 jenkins/jobs/nic_mtu/builds/permalinks
+ create mode 100644 jenkins/jobs/nic_mtu/config.xml
+ create mode 100644 jenkins/jobs/nic_mtu/nextBuildNumber
+ create mode 100644 jenkins/jobs/test-nic-regression/builds/4/build.xml
+ create mode 100644 jenkins/jobs/test-nic-regression/builds/4/log
+ create mode 100644 jenkins/jobs/test-nic-regression/builds/4/log-index
+ create mode 100644 jenkins/jobs/test-nic-regression/builds/4/workflow/2.xml
+ create mode 100644 jenkins/jobs/test-nic-regression/builds/4/workflow/3.xml
+ create mode 100644 jenkins/jobs/test-nic-regression/builds/4/workflow/4.xml
+ create mode 100644 jenkins/jobs/test-nic-regression/builds/4/workflow/5.xml
+ create mode 100644 jenkins/jobs/test-nic-regression/builds/5/build.xml
+ create mode 100644 jenkins/jobs/test-nic-regression/builds/5/log
+ create mode 100644 jenkins/jobs/test-nic-regression/builds/5/log-index
+ create mode 100644 jenkins/jobs/test-nic-regression/builds/5/workflow/2.xml
+ create mode 100644 jenkins/jobs/test-nic-regression/builds/5/workflow/3.xml
+ create mode 100644 jenkins/jobs/test-nic-regression/builds/5/workflow/4.xml
+ create mode 100644 jenkins/jobs/test-nic-regression/builds/5/workflow/5.xml
+ create mode 100644 jenkins/jobs/test-nic-regression/builds/6/build.xml
+ create mode 100644 jenkins/jobs/test-nic-regression/builds/6/log
+ create mode 100644 jenkins/jobs/test-nic-regression/builds/6/log-index
+ create mode 100644 jenkins/jobs/test-nic-regression/builds/6/workflow/10.xml
+ create mode 100644 jenkins/jobs/test-nic-regression/builds/6/workflow/11.xml
+ create mode 100644 jenkins/jobs/test-nic-regression/builds/6/workflow/12.xml
+ create mode 100644 jenkins/jobs/test-nic-regression/builds/6/workflow/13.xml
+ create mode 100644 jenkins/jobs/test-nic-regression/builds/6/workflow/14.xml
+ create mode 100644 jenkins/jobs/test-nic-regression/builds/6/workflow/15.xml
+ create mode 100644 jenkins/jobs/test-nic-regression/builds/6/workflow/16.xml
+ create mode 100644 jenkins/jobs/test-nic-regression/builds/6/workflow/17.xml
+ create mode 100644 jenkins/jobs/test-nic-regression/builds/6/workflow/18.xml
+ create mode 100644 jenkins/jobs/test-nic-regression/builds/6/workflow/19.xml
+ create mode 100644 jenkins/jobs/test-nic-regression/builds/6/workflow/2.xml
+ create mode 100644 jenkins/jobs/test-nic-regression/builds/6/workflow/20.xml
+ create mode 100644 jenkins/jobs/test-nic-regression/builds/6/workflow/21.xml
+ create mode 100644 jenkins/jobs/test-nic-regression/builds/6/workflow/3.xml
+ create mode 100644 jenkins/jobs/test-nic-regression/builds/6/workflow/4.xml
+ create mode 100644 jenkins/jobs/test-nic-regression/builds/6/workflow/5.xml
+ create mode 100644 jenkins/jobs/test-nic-regression/builds/6/workflow/6.xml
+ create mode 100644 jenkins/jobs/test-nic-regression/builds/6/workflow/7.xml
+ create mode 100644 jenkins/jobs/test-nic-regression/builds/6/workflow/8.xml
+ create mode 100644 jenkins/jobs/test-nic-regression/builds/6/workflow/9.xml
+ create mode 100644 jenkins/jobs/test-nic-regression/builds/7/build.xml
+ create mode 100644 jenkins/jobs/test-nic-regression/builds/7/log
+ create mode 100644 jenkins/jobs/test-nic-regression/builds/7/log-index
+ create mode 100644 jenkins/jobs/test-nic-regression/builds/7/workflow/10.xml
+ create mode 100644 jenkins/jobs/test-nic-regression/builds/7/workflow/11.xml
+ create mode 100644 jenkins/jobs/test-nic-regression/builds/7/workflow/12.xml
+ create mode 100644 jenkins/jobs/test-nic-regression/builds/7/workflow/13.xml
+ create mode 100644 jenkins/jobs/test-nic-regression/builds/7/workflow/14.xml
+ create mode 100644 jenkins/jobs/test-nic-regression/builds/7/workflow/15.xml
+ create mode 100644 jenkins/jobs/test-nic-regression/builds/7/workflow/16.xml
+ create mode 100644 jenkins/jobs/test-nic-regression/builds/7/workflow/17.xml
+ create mode 100644 jenkins/jobs/test-nic-regression/builds/7/workflow/18.xml
+ create mode 100644 jenkins/jobs/test-nic-regression/builds/7/workflow/19.xml
+ create mode 100644 jenkins/jobs/test-nic-regression/builds/7/workflow/2.xml
+ create mode 100644 jenkins/jobs/test-nic-regression/builds/7/workflow/20.xml
+ create mode 100644 jenkins/jobs/test-nic-regression/builds/7/workflow/21.xml
+ create mode 100644 jenkins/jobs/test-nic-regression/builds/7/workflow/22.xml
+ create mode 100644 jenkins/jobs/test-nic-regression/builds/7/workflow/3.xml
+ create mode 100644 jenkins/jobs/test-nic-regression/builds/7/workflow/4.xml
+ create mode 100644 jenkins/jobs/test-nic-regression/builds/7/workflow/5.xml
+ create mode 100644 jenkins/jobs/test-nic-regression/builds/7/workflow/6.xml
+ create mode 100644 jenkins/jobs/test-nic-regression/builds/7/workflow/7.xml
+ create mode 100644 jenkins/jobs/test-nic-regression/builds/7/workflow/8.xml
+ create mode 100644 jenkins/jobs/test-nic-regression/builds/7/workflow/9.xml
+ create mode 100644 jenkins/jobs/test-nic-regression/builds/8/build.xml
+ create mode 100644 jenkins/jobs/test-nic-regression/builds/8/log
+ create mode 100644 jenkins/jobs/test-nic-regression/builds/8/log-index
+ create mode 100644 jenkins/jobs/test-nic-regression/builds/8/workflow/10.xml
+ create mode 100644 jenkins/jobs/test-nic-regression/builds/8/workflow/11.xml
+ create mode 100644 jenkins/jobs/test-nic-regression/builds/8/workflow/12.xml
+ create mode 100644 jenkins/jobs/test-nic-regression/builds/8/workflow/13.xml
+ create mode 100644 jenkins/jobs/test-nic-regression/builds/8/workflow/14.xml
+ create mode 100644 jenkins/jobs/test-nic-regression/builds/8/workflow/15.xml
+ create mode 100644 jenkins/jobs/test-nic-regression/builds/8/workflow/16.xml
+ create mode 100644 jenkins/jobs/test-nic-regression/builds/8/workflow/17.xml
+ create mode 100644 jenkins/jobs/test-nic-regression/builds/8/workflow/18.xml
+ create mode 100644 jenkins/jobs/test-nic-regression/builds/8/workflow/19.xml
+ create mode 100644 jenkins/jobs/test-nic-regression/builds/8/workflow/2.xml
+ create mode 100644 jenkins/jobs/test-nic-regression/builds/8/workflow/20.xml
+ create mode 100644 jenkins/jobs/test-nic-regression/builds/8/workflow/21.xml
+ create mode 100644 jenkins/jobs/test-nic-regression/builds/8/workflow/22.xml
+ create mode 100644 jenkins/jobs/test-nic-regression/builds/8/workflow/3.xml
+ create mode 100644 jenkins/jobs/test-nic-regression/builds/8/workflow/4.xml
+ create mode 100644 jenkins/jobs/test-nic-regression/builds/8/workflow/5.xml
+ create mode 100644 jenkins/jobs/test-nic-regression/builds/8/workflow/6.xml
+ create mode 100644 jenkins/jobs/test-nic-regression/builds/8/workflow/7.xml
+ create mode 100644 jenkins/jobs/test-nic-regression/builds/8/workflow/8.xml
+ create mode 100644 jenkins/jobs/test-nic-regression/builds/8/workflow/9.xml
+ rewrite jenkins/logs/tasks/Fingerprint cleanup.log.2 (65%)
+ copy jenkins/logs/tasks/{Fingerprint cleanup.log.2 => Fingerprint cleanup.log.3} (100%)
+ rewrite jenkins/logs/tasks/Workspace clean-up.log.1 (62%)
++ git push origin master
+To github.intel.com:yzhao18/jenkins-backup.git
+   ffd9855..58f8a9c  master -> master
+Finished: SUCCESS
