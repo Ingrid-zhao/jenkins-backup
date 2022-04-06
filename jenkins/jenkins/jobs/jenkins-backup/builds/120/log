@@ -1,0 +1,1023 @@
+Started by timer
+Running as SYSTEM
+Building remotely on [8mha:////4LafVuX3eTQLm8yF81fMq4k6u04xgOhoE2RdYhqdKBmyAAAApB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAy+EgYJ/eT83ILSktQi/azUvOzMvOL4pMTk7NICAAghILnNAAAA[0mjenkins_backup in workspace /root/.jenkins/workspace/jenkins-backup
+[jenkins-backup] $ /bin/bash /tmp/jenkins859310602079287213.sh
++ '[' -e /var/lib/jenkins/index.lock ']'
++ cd /home/jenkins_home
++ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   jenkins/.owner
+	modified:   jenkins/config.xml
+	modified:   jenkins/fingerprints/d5/f9/27d48c0c81e26332ed852a4f250d.xml
+	modified:   jenkins/jobs/exec-job1/builds/10/build.xml
+	modified:   jenkins/jobs/exec-job1/builds/10/log
+	modified:   jenkins/jobs/exec-job1/builds/10/log-index
+	modified:   jenkins/jobs/exec-job1/builds/5/build.xml
+	modified:   jenkins/jobs/exec-job1/builds/5/log
+	modified:   jenkins/jobs/exec-job1/builds/5/program.dat
+	modified:   jenkins/jobs/exec-job1/builds/6/build.xml
+	modified:   jenkins/jobs/exec-job1/builds/6/log
+	modified:   jenkins/jobs/exec-job1/builds/6/program.dat
+	modified:   jenkins/jobs/exec-job1/builds/7/build.xml
+	modified:   jenkins/jobs/exec-job1/builds/7/log
+	modified:   jenkins/jobs/exec-job1/builds/7/program.dat
+	modified:   jenkins/jobs/exec-job1/builds/8/build.xml
+	modified:   jenkins/jobs/exec-job1/builds/8/log
+	modified:   jenkins/jobs/exec-job1/builds/8/program.dat
+	modified:   jenkins/jobs/exec-job1/builds/9/build.xml
+	modified:   jenkins/jobs/exec-job1/builds/9/log
+	modified:   jenkins/jobs/exec-job1/builds/9/log-index
+	modified:   jenkins/jobs/exec-job1/nextBuildNumber
+	modified:   jenkins/jobs/exec-nic-simple-case/builds/10/build.xml
+	modified:   jenkins/jobs/exec-nic-simple-case/builds/10/log
+	modified:   jenkins/jobs/exec-nic-simple-case/builds/10/program.dat
+	modified:   jenkins/jobs/exec-nic-simple-case/builds/11/build.xml
+	modified:   jenkins/jobs/exec-nic-simple-case/builds/11/log
+	modified:   jenkins/jobs/exec-nic-simple-case/builds/11/program.dat
+	modified:   jenkins/jobs/exec-nic-simple-case/builds/12/build.xml
+	modified:   jenkins/jobs/exec-nic-simple-case/builds/12/log
+	modified:   jenkins/jobs/exec-nic-simple-case/builds/12/log-index
+	modified:   jenkins/jobs/exec-nic-simple-case/builds/13/build.xml
+	modified:   jenkins/jobs/exec-nic-simple-case/builds/13/log
+	modified:   jenkins/jobs/exec-nic-simple-case/builds/13/log-index
+	modified:   jenkins/jobs/exec-nic-simple-case/builds/8/build.xml
+	modified:   jenkins/jobs/exec-nic-simple-case/builds/8/log
+	modified:   jenkins/jobs/exec-nic-simple-case/builds/8/program.dat
+	modified:   jenkins/jobs/exec-nic-simple-case/builds/9/build.xml
+	modified:   jenkins/jobs/exec-nic-simple-case/builds/9/log
+	modified:   jenkins/jobs/exec-nic-simple-case/builds/9/program.dat
+	modified:   jenkins/jobs/exec-nic-simple-case/nextBuildNumber
+	modified:   jenkins/jobs/exec-test-iperf-4hours-tcp/builds/17/build.xml
+	modified:   jenkins/jobs/exec-test-iperf-4hours-tcp/builds/17/log
+	modified:   jenkins/jobs/exec-test-iperf-4hours-tcp/builds/17/program.dat
+	modified:   jenkins/jobs/exec-test-iperf-4hours-tcp/builds/18/build.xml
+	modified:   jenkins/jobs/exec-test-iperf-4hours-tcp/builds/18/log
+	modified:   jenkins/jobs/exec-test-iperf-4hours-tcp/builds/18/program.dat
+	modified:   jenkins/jobs/exec-test-iperf-4hours-tcp/builds/19/build.xml
+	modified:   jenkins/jobs/exec-test-iperf-4hours-tcp/builds/19/log
+	modified:   jenkins/jobs/exec-test-iperf-4hours-tcp/builds/19/program.dat
+	modified:   jenkins/jobs/exec-test-iperf-4hours-tcp/builds/20/build.xml
+	modified:   jenkins/jobs/exec-test-iperf-4hours-tcp/builds/20/log
+	modified:   jenkins/jobs/exec-test-iperf-4hours-tcp/builds/20/program.dat
+	modified:   jenkins/jobs/exec-test-iperf-4hours-tcp/builds/21/build.xml
+	modified:   jenkins/jobs/exec-test-iperf-4hours-tcp/builds/21/log
+	modified:   jenkins/jobs/exec-test-iperf-4hours-tcp/builds/21/program.dat
+	modified:   jenkins/jobs/exec-test-iperf-4hours-tcp/builds/22/build.xml
+	modified:   jenkins/jobs/exec-test-iperf-4hours-tcp/builds/22/log
+	modified:   jenkins/jobs/exec-test-iperf-4hours-tcp/builds/22/log-index
+	modified:   jenkins/jobs/exec-test-iperf-4hours-tcp/nextBuildNumber
+	modified:   jenkins/jobs/exec-test-iperf-4hours-udp/builds/10/build.xml
+	modified:   jenkins/jobs/exec-test-iperf-4hours-udp/builds/10/log
+	modified:   jenkins/jobs/exec-test-iperf-4hours-udp/builds/10/program.dat
+	modified:   jenkins/jobs/exec-test-iperf-4hours-udp/builds/12/build.xml
+	modified:   jenkins/jobs/exec-test-iperf-4hours-udp/builds/12/log
+	modified:   jenkins/jobs/exec-test-iperf-4hours-udp/builds/12/log-index
+	modified:   jenkins/jobs/exec-test-iperf-4hours-udp/builds/8/build.xml
+	modified:   jenkins/jobs/exec-test-iperf-4hours-udp/builds/8/log
+	modified:   jenkins/jobs/exec-test-iperf-4hours-udp/builds/8/program.dat
+	modified:   jenkins/jobs/exec-test-iperf-4hours-udp/builds/9/build.xml
+	modified:   jenkins/jobs/exec-test-iperf-4hours-udp/builds/9/log
+	modified:   jenkins/jobs/exec-test-iperf-4hours-udp/builds/9/program.dat
+	modified:   jenkins/jobs/exec-test-iperf-4hours-udp/builds/permalinks
+	modified:   jenkins/jobs/exec-test-iperf-4hours-udp/nextBuildNumber
+	modified:   jenkins/jobs/exec-test-nic-sriov-5times/builds/10/build.xml
+	modified:   jenkins/jobs/exec-test-nic-sriov-5times/builds/10/log
+	modified:   jenkins/jobs/exec-test-nic-sriov-5times/builds/10/program.dat
+	modified:   jenkins/jobs/exec-test-nic-sriov-5times/builds/11/build.xml
+	modified:   jenkins/jobs/exec-test-nic-sriov-5times/builds/11/log
+	modified:   jenkins/jobs/exec-test-nic-sriov-5times/builds/11/program.dat
+	modified:   jenkins/jobs/exec-test-nic-sriov-5times/builds/12/build.xml
+	modified:   jenkins/jobs/exec-test-nic-sriov-5times/builds/12/log
+	modified:   jenkins/jobs/exec-test-nic-sriov-5times/builds/12/log-index
+	modified:   jenkins/jobs/exec-test-nic-sriov-5times/builds/13/build.xml
+	modified:   jenkins/jobs/exec-test-nic-sriov-5times/builds/13/log
+	modified:   jenkins/jobs/exec-test-nic-sriov-5times/builds/13/log-index
+	modified:   jenkins/jobs/exec-test-nic-sriov-5times/builds/8/build.xml
+	modified:   jenkins/jobs/exec-test-nic-sriov-5times/builds/8/log
+	modified:   jenkins/jobs/exec-test-nic-sriov-5times/builds/8/program.dat
+	modified:   jenkins/jobs/exec-test-nic-sriov-5times/builds/9/build.xml
+	modified:   jenkins/jobs/exec-test-nic-sriov-5times/builds/9/log
+	modified:   jenkins/jobs/exec-test-nic-sriov-5times/builds/9/program.dat
+	modified:   jenkins/jobs/exec-test-nic-sriov-5times/nextBuildNumber
+	modified:   jenkins/jobs/jenkins-backup/builds/119/log
+	modified:   jenkins/jobs/jenkins-backup/builds/permalinks
+	modified:   jenkins/jobs/jenkins-backup/nextBuildNumber
+	modified:   jenkins/jobs/test-test-iperf-4hours-tcp/builds/permalinks
+	modified:   jenkins/jobs/test-test-iperf-4hours-tcp/nextBuildNumber
+	modified:   jenkins/jobs/test-test-iperf-4hours-udp/builds/permalinks
+	modified:   jenkins/jobs/test-test-iperf-4hours-udp/nextBuildNumber
+	modified:   jenkins/jobs/test-test-iperf-SRIOV-ipv4-stress-2hours/builds/permalinks
+	modified:   jenkins/jobs/test-test-iperf-SRIOV-ipv4-stress-2hours/nextBuildNumber
+	modified:   jenkins/jobs/test-test-iperf-SRIOV-ipv6-stress-2hours/builds/permalinks
+	modified:   jenkins/jobs/test-test-iperf-SRIOV-ipv6-stress-2hours/nextBuildNumber
+	modified:   jenkins/jobs/test-test-nic-simple/builds/permalinks
+	modified:   jenkins/jobs/test-test-nic-simple/config.xml
+	modified:   jenkins/jobs/test-test-nic-simple/nextBuildNumber
+	modified:   jenkins/jobs/test-test-nic-sriov-5times/builds/41/build.xml
+	modified:   jenkins/jobs/test-test-nic-sriov-5times/builds/41/log
+	modified:   jenkins/jobs/test-test-nic-sriov-5times/builds/41/log-index
+	deleted:    jenkins/jobs/test-test-nic-sriov-5times/builds/41/program.dat
+	modified:   jenkins/jobs/test-test-nic-sriov-5times/builds/permalinks
+	modified:   jenkins/jobs/test-test-nic-sriov-5times/nextBuildNumber
+	modified:   jenkins/jobs/test-test-nic-sriov-stress-2hours/builds/permalinks
+	modified:   jenkins/jobs/test-test-nic-sriov-stress-2hours/config.xml
+	modified:   jenkins/jobs/test-test-nic-sriov-stress-2hours/nextBuildNumber
+	modified:   jenkins/logs/health-checker.log
+	modified:   jenkins/logs/slaves/container-controller/slave.log
+	modified:   jenkins/logs/slaves/container-controller/slave.log.1
+	modified:   jenkins/logs/slaves/container-controller/slave.log.10
+	modified:   jenkins/logs/slaves/container-controller/slave.log.2
+	modified:   jenkins/logs/slaves/container-controller/slave.log.3
+	modified:   jenkins/logs/slaves/container-controller/slave.log.4
+	modified:   jenkins/logs/slaves/container-controller/slave.log.5
+	modified:   jenkins/logs/slaves/container-controller/slave.log.6
+	modified:   jenkins/logs/slaves/container-controller/slave.log.7
+	modified:   jenkins/logs/slaves/container-controller/slave.log.8
+	modified:   jenkins/logs/slaves/container-controller/slave.log.9
+	modified:   jenkins/logs/slaves/controller-j/slave.log
+	deleted:    jenkins/logs/slaves/controller-j/slave.log.1
+	deleted:    jenkins/logs/slaves/controller-j/slave.log.2
+	modified:   jenkins/logs/slaves/dongdong-test/slave.log
+	modified:   jenkins/logs/slaves/jenkins_backup/slave.log
+	modified:   jenkins/logs/slaves/sp-controller/slave.log
+	modified:   jenkins/logs/slaves/sp-controller/slave.log.1
+	modified:   jenkins/logs/slaves/sp-controller/slave.log.10
+	modified:   jenkins/logs/slaves/sp-controller/slave.log.2
+	modified:   jenkins/logs/slaves/sp-controller/slave.log.3
+	modified:   jenkins/logs/slaves/sp-controller/slave.log.4
+	modified:   jenkins/logs/slaves/sp-controller/slave.log.5
+	modified:   jenkins/logs/slaves/sp-controller/slave.log.6
+	modified:   jenkins/logs/slaves/sp-controller/slave.log.7
+	modified:   jenkins/logs/slaves/sp-controller/slave.log.8
+	modified:   jenkins/logs/slaves/sp-controller/slave.log.9
+	modified:   jenkins/logs/tasks/Download metadata.log
+	modified:   jenkins/logs/tasks/Download metadata.log.1
+	modified:   jenkins/logs/tasks/Download metadata.log.2
+	modified:   jenkins/logs/tasks/Download metadata.log.3
+	modified:   jenkins/logs/tasks/Download metadata.log.4
+	modified:   jenkins/logs/tasks/Download metadata.log.5
+	modified:   jenkins/logs/tasks/Periodic background build discarder.log
+	modified:   jenkins/logs/tasks/Periodic background build discarder.log.1
+	modified:   jenkins/logs/tasks/Periodic background build discarder.log.2
+	modified:   jenkins/logs/tasks/Periodic background build discarder.log.3
+	modified:   jenkins/logs/tasks/Periodic background build discarder.log.4
+	modified:   jenkins/logs/tasks/Periodic background build discarder.log.5
+	modified:   jenkins/logs/tasks/telemetry collection.log
+	modified:   jenkins/logs/tasks/telemetry collection.log.1
+	modified:   jenkins/logs/tasks/telemetry collection.log.2
+	modified:   jenkins/logs/tasks/telemetry collection.log.3
+	modified:   jenkins/logs/tasks/telemetry collection.log.4
+	modified:   jenkins/logs/tasks/telemetry collection.log.5
+	modified:   jenkins/nodes/container-controller/config.xml
+	modified:   jenkins/org.jenkinsci.plugins.workflow.flow.FlowExecutionList.xml
+	modified:   jenkins/proxy.xml
+	modified:   jenkins/queue.xml
+	modified:   jenkins/queue.xml.bak
+	modified:   jenkins/scriptApproval.xml
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	jenkins/fingerprints/0c/
+	jenkins/fingerprints/3f/
+	jenkins/jobs/exec-job1/builds/11/
+	jenkins/jobs/exec-nic-simple-case/builds/14/
+	jenkins/jobs/exec-test-iperf-4hours-tcp/builds/23/
+	jenkins/jobs/exec-test-iperf-4hours-udp/builds/13/
+	jenkins/jobs/exec-test-nic-sriov-5times/builds/14/
+	jenkins/jobs/jenkins-backup/builds/119/build.xml
+	jenkins/jobs/jenkins-backup/builds/120/
+	jenkins/jobs/test-test-iperf-4hours-tcp/builds/45/
+	jenkins/jobs/test-test-iperf-4hours-udp/builds/33/
+	jenkins/jobs/test-test-iperf-SRIOV-ipv4-stress-2hours/builds/39/
+	jenkins/jobs/test-test-iperf-SRIOV-ipv6-stress-2hours/builds/30/
+	jenkins/jobs/test-test-nic-driveinstalluninstall/
+	jenkins/jobs/test-test-nic-simple/builds/83/
+	jenkins/jobs/test-test-nic-simple/builds/84/
+	jenkins/jobs/test-test-nic-simple/builds/85/
+	jenkins/jobs/test-test-nic-simple/builds/86/
+	jenkins/jobs/test-test-nic-sriov-5times/builds/41/workflow/29.xml
+	jenkins/jobs/test-test-nic-sriov-5times/builds/41/workflow/30.xml
+	jenkins/jobs/test-test-nic-sriov-5times/builds/41/workflow/31.xml
+	jenkins/jobs/test-test-nic-sriov-5times/builds/41/workflow/32.xml
+	jenkins/jobs/test-test-nic-sriov-5times/builds/41/workflow/33.xml
+	jenkins/jobs/test-test-nic-sriov-5times/builds/41/workflow/34.xml
+	jenkins/jobs/test-test-nic-sriov-5times/builds/41/workflow/35.xml
+	jenkins/jobs/test-test-nic-sriov-5times/builds/41/workflow/36.xml
+	jenkins/jobs/test-test-nic-sriov-5times/builds/41/workflow/37.xml
+	jenkins/jobs/test-test-nic-sriov-5times/builds/41/workflow/38.xml
+	jenkins/jobs/test-test-nic-sriov-5times/builds/41/workflow/39.xml
+	jenkins/jobs/test-test-nic-sriov-5times/builds/41/workflow/40.xml
+	jenkins/jobs/test-test-nic-sriov-5times/builds/42/
+	jenkins/jobs/test-test-nic-sriov-stress-2hours/builds/25/
+
+no changes added to commit (use "git add" and/or "git commit -a")
++ git add -A
+++ date
++ git commit -s -m 'Jenkins backup at Thu Mar  3 03:06:00 CST 2022'
+Auto packing the repository in background for optimum performance.
+See "git help gc" for manual housekeeping.
+[master 6fec8e8] Jenkins backup at Thu Mar  3 03:06:00 CST 2022
+ 924 files changed, 66776 insertions(+), 3092 deletions(-)
+ create mode 100644 jenkins/fingerprints/0c/81/7f39df6213cc7ae8a43759750301.xml
+ create mode 100644 jenkins/fingerprints/3f/f4/edc55e56af3f9904ae2c94ac7f26.xml
+ create mode 100644 jenkins/jobs/exec-job1/builds/11/build.xml
+ create mode 100644 jenkins/jobs/exec-job1/builds/11/log
+ create mode 100644 jenkins/jobs/exec-job1/builds/11/log-index
+ copy jenkins/jobs/exec-job1/builds/{5 => 11}/program.dat (99%)
+ create mode 100644 jenkins/jobs/exec-job1/builds/11/workflow/2.xml
+ create mode 100644 jenkins/jobs/exec-job1/builds/11/workflow/3.xml
+ rewrite jenkins/jobs/exec-job1/builds/5/program.dat (78%)
+ rewrite jenkins/jobs/exec-job1/builds/6/program.dat (78%)
+ rewrite jenkins/jobs/exec-job1/builds/7/program.dat (78%)
+ rewrite jenkins/jobs/exec-job1/builds/8/program.dat (78%)
+ rewrite jenkins/jobs/exec-nic-simple-case/builds/10/program.dat (78%)
+ rewrite jenkins/jobs/exec-nic-simple-case/builds/11/program.dat (78%)
+ create mode 100644 jenkins/jobs/exec-nic-simple-case/builds/14/build.xml
+ create mode 100644 jenkins/jobs/exec-nic-simple-case/builds/14/log
+ create mode 100644 jenkins/jobs/exec-nic-simple-case/builds/14/log-index
+ copy jenkins/jobs/{exec-job1/builds/6 => exec-nic-simple-case/builds/14}/program.dat (99%)
+ create mode 100644 jenkins/jobs/exec-nic-simple-case/builds/14/workflow/2.xml
+ create mode 100644 jenkins/jobs/exec-nic-simple-case/builds/14/workflow/3.xml
+ rewrite jenkins/jobs/exec-nic-simple-case/builds/8/program.dat (78%)
+ rewrite jenkins/jobs/exec-nic-simple-case/builds/9/program.dat (78%)
+ rewrite jenkins/jobs/exec-test-iperf-4hours-tcp/builds/17/program.dat (82%)
+ rewrite jenkins/jobs/exec-test-iperf-4hours-tcp/builds/18/program.dat (77%)
+ rewrite jenkins/jobs/exec-test-iperf-4hours-tcp/builds/19/program.dat (77%)
+ rewrite jenkins/jobs/exec-test-iperf-4hours-tcp/builds/20/program.dat (77%)
+ rewrite jenkins/jobs/exec-test-iperf-4hours-tcp/builds/21/program.dat (77%)
+ create mode 100644 jenkins/jobs/exec-test-iperf-4hours-tcp/builds/23/build.xml
+ create mode 100644 jenkins/jobs/exec-test-iperf-4hours-tcp/builds/23/log
+ create mode 100644 jenkins/jobs/exec-test-iperf-4hours-tcp/builds/23/log-index
+ copy jenkins/jobs/exec-test-iperf-4hours-tcp/builds/{18 => 23}/program.dat (99%)
+ create mode 100644 jenkins/jobs/exec-test-iperf-4hours-tcp/builds/23/workflow/2.xml
+ create mode 100644 jenkins/jobs/exec-test-iperf-4hours-tcp/builds/23/workflow/3.xml
+ rewrite jenkins/jobs/exec-test-iperf-4hours-udp/builds/10/program.dat (78%)
+ create mode 100644 jenkins/jobs/exec-test-iperf-4hours-udp/builds/13/build.xml
+ create mode 100644 jenkins/jobs/exec-test-iperf-4hours-udp/builds/13/log
+ create mode 100644 jenkins/jobs/exec-test-iperf-4hours-udp/builds/13/log-index
+ create mode 100644 jenkins/jobs/exec-test-iperf-4hours-udp/builds/13/workflow/10.xml
+ create mode 100644 jenkins/jobs/exec-test-iperf-4hours-udp/builds/13/workflow/11.xml
+ create mode 100644 jenkins/jobs/exec-test-iperf-4hours-udp/builds/13/workflow/12.xml
+ create mode 100644 jenkins/jobs/exec-test-iperf-4hours-udp/builds/13/workflow/13.xml
+ create mode 100644 jenkins/jobs/exec-test-iperf-4hours-udp/builds/13/workflow/14.xml
+ create mode 100644 jenkins/jobs/exec-test-iperf-4hours-udp/builds/13/workflow/15.xml
+ create mode 100644 jenkins/jobs/exec-test-iperf-4hours-udp/builds/13/workflow/16.xml
+ create mode 100644 jenkins/jobs/exec-test-iperf-4hours-udp/builds/13/workflow/17.xml
+ create mode 100644 jenkins/jobs/exec-test-iperf-4hours-udp/builds/13/workflow/18.xml
+ create mode 100644 jenkins/jobs/exec-test-iperf-4hours-udp/builds/13/workflow/19.xml
+ create mode 100644 jenkins/jobs/exec-test-iperf-4hours-udp/builds/13/workflow/2.xml
+ create mode 100644 jenkins/jobs/exec-test-iperf-4hours-udp/builds/13/workflow/20.xml
+ create mode 100644 jenkins/jobs/exec-test-iperf-4hours-udp/builds/13/workflow/21.xml
+ create mode 100644 jenkins/jobs/exec-test-iperf-4hours-udp/builds/13/workflow/22.xml
+ create mode 100644 jenkins/jobs/exec-test-iperf-4hours-udp/builds/13/workflow/23.xml
+ create mode 100644 jenkins/jobs/exec-test-iperf-4hours-udp/builds/13/workflow/24.xml
+ create mode 100644 jenkins/jobs/exec-test-iperf-4hours-udp/builds/13/workflow/25.xml
+ create mode 100644 jenkins/jobs/exec-test-iperf-4hours-udp/builds/13/workflow/26.xml
+ create mode 100644 jenkins/jobs/exec-test-iperf-4hours-udp/builds/13/workflow/27.xml
+ create mode 100644 jenkins/jobs/exec-test-iperf-4hours-udp/builds/13/workflow/28.xml
+ create mode 100644 jenkins/jobs/exec-test-iperf-4hours-udp/builds/13/workflow/29.xml
+ create mode 100644 jenkins/jobs/exec-test-iperf-4hours-udp/builds/13/workflow/3.xml
+ create mode 100644 jenkins/jobs/exec-test-iperf-4hours-udp/builds/13/workflow/30.xml
+ create mode 100644 jenkins/jobs/exec-test-iperf-4hours-udp/builds/13/workflow/31.xml
+ create mode 100644 jenkins/jobs/exec-test-iperf-4hours-udp/builds/13/workflow/32.xml
+ create mode 100644 jenkins/jobs/exec-test-iperf-4hours-udp/builds/13/workflow/33.xml
+ create mode 100644 jenkins/jobs/exec-test-iperf-4hours-udp/builds/13/workflow/34.xml
+ create mode 100644 jenkins/jobs/exec-test-iperf-4hours-udp/builds/13/workflow/35.xml
+ create mode 100644 jenkins/jobs/exec-test-iperf-4hours-udp/builds/13/workflow/36.xml
+ create mode 100644 jenkins/jobs/exec-test-iperf-4hours-udp/builds/13/workflow/37.xml
+ create mode 100644 jenkins/jobs/exec-test-iperf-4hours-udp/builds/13/workflow/38.xml
+ create mode 100644 jenkins/jobs/exec-test-iperf-4hours-udp/builds/13/workflow/39.xml
+ create mode 100644 jenkins/jobs/exec-test-iperf-4hours-udp/builds/13/workflow/4.xml
+ create mode 100644 jenkins/jobs/exec-test-iperf-4hours-udp/builds/13/workflow/40.xml
+ create mode 100644 jenkins/jobs/exec-test-iperf-4hours-udp/builds/13/workflow/5.xml
+ create mode 100644 jenkins/jobs/exec-test-iperf-4hours-udp/builds/13/workflow/6.xml
+ create mode 100644 jenkins/jobs/exec-test-iperf-4hours-udp/builds/13/workflow/7.xml
+ create mode 100644 jenkins/jobs/exec-test-iperf-4hours-udp/builds/13/workflow/8.xml
+ create mode 100644 jenkins/jobs/exec-test-iperf-4hours-udp/builds/13/workflow/9.xml
+ rewrite jenkins/jobs/exec-test-iperf-4hours-udp/builds/8/program.dat (78%)
+ rewrite jenkins/jobs/exec-test-iperf-4hours-udp/builds/9/program.dat (78%)
+ rewrite jenkins/jobs/exec-test-nic-sriov-5times/builds/10/program.dat (79%)
+ rewrite jenkins/jobs/exec-test-nic-sriov-5times/builds/11/program.dat (79%)
+ create mode 100644 jenkins/jobs/exec-test-nic-sriov-5times/builds/14/build.xml
+ create mode 100644 jenkins/jobs/exec-test-nic-sriov-5times/builds/14/log
+ create mode 100644 jenkins/jobs/exec-test-nic-sriov-5times/builds/14/log-index
+ copy jenkins/jobs/exec-test-nic-sriov-5times/builds/{10 => 14}/program.dat (99%)
+ create mode 100644 jenkins/jobs/exec-test-nic-sriov-5times/builds/14/workflow/2.xml
+ create mode 100644 jenkins/jobs/exec-test-nic-sriov-5times/builds/14/workflow/3.xml
+ rewrite jenkins/jobs/exec-test-nic-sriov-5times/builds/8/program.dat (79%)
+ rewrite jenkins/jobs/exec-test-nic-sriov-5times/builds/9/program.dat (79%)
+ create mode 100644 jenkins/jobs/jenkins-backup/builds/119/build.xml
+ create mode 100644 jenkins/jobs/jenkins-backup/builds/120/changelog.xml
+ create mode 100644 jenkins/jobs/jenkins-backup/builds/120/log
+ create mode 100644 jenkins/jobs/test-test-iperf-4hours-tcp/builds/45/build.xml
+ create mode 100644 jenkins/jobs/test-test-iperf-4hours-tcp/builds/45/log
+ create mode 100644 jenkins/jobs/test-test-iperf-4hours-tcp/builds/45/log-index
+ create mode 100644 jenkins/jobs/test-test-iperf-4hours-tcp/builds/45/workflow/10.xml
+ create mode 100644 jenkins/jobs/test-test-iperf-4hours-tcp/builds/45/workflow/11.xml
+ create mode 100644 jenkins/jobs/test-test-iperf-4hours-tcp/builds/45/workflow/12.xml
+ create mode 100644 jenkins/jobs/test-test-iperf-4hours-tcp/builds/45/workflow/13.xml
+ create mode 100644 jenkins/jobs/test-test-iperf-4hours-tcp/builds/45/workflow/14.xml
+ create mode 100644 jenkins/jobs/test-test-iperf-4hours-tcp/builds/45/workflow/15.xml
+ create mode 100644 jenkins/jobs/test-test-iperf-4hours-tcp/builds/45/workflow/16.xml
+ create mode 100644 jenkins/jobs/test-test-iperf-4hours-tcp/builds/45/workflow/17.xml
+ create mode 100644 jenkins/jobs/test-test-iperf-4hours-tcp/builds/45/workflow/18.xml
+ create mode 100644 jenkins/jobs/test-test-iperf-4hours-tcp/builds/45/workflow/19.xml
+ create mode 100644 jenkins/jobs/test-test-iperf-4hours-tcp/builds/45/workflow/2.xml
+ create mode 100644 jenkins/jobs/test-test-iperf-4hours-tcp/builds/45/workflow/20.xml
+ create mode 100644 jenkins/jobs/test-test-iperf-4hours-tcp/builds/45/workflow/21.xml
+ create mode 100644 jenkins/jobs/test-test-iperf-4hours-tcp/builds/45/workflow/22.xml
+ create mode 100644 jenkins/jobs/test-test-iperf-4hours-tcp/builds/45/workflow/23.xml
+ create mode 100644 jenkins/jobs/test-test-iperf-4hours-tcp/builds/45/workflow/24.xml
+ create mode 100644 jenkins/jobs/test-test-iperf-4hours-tcp/builds/45/workflow/25.xml
+ create mode 100644 jenkins/jobs/test-test-iperf-4hours-tcp/builds/45/workflow/26.xml
+ create mode 100644 jenkins/jobs/test-test-iperf-4hours-tcp/builds/45/workflow/27.xml
+ create mode 100644 jenkins/jobs/test-test-iperf-4hours-tcp/builds/45/workflow/28.xml
+ create mode 100644 jenkins/jobs/test-test-iperf-4hours-tcp/builds/45/workflow/29.xml
+ create mode 100644 jenkins/jobs/test-test-iperf-4hours-tcp/builds/45/workflow/3.xml
+ create mode 100644 jenkins/jobs/test-test-iperf-4hours-tcp/builds/45/workflow/30.xml
+ create mode 100644 jenkins/jobs/test-test-iperf-4hours-tcp/builds/45/workflow/31.xml
+ create mode 100644 jenkins/jobs/test-test-iperf-4hours-tcp/builds/45/workflow/32.xml
+ create mode 100644 jenkins/jobs/test-test-iperf-4hours-tcp/builds/45/workflow/33.xml
+ create mode 100644 jenkins/jobs/test-test-iperf-4hours-tcp/builds/45/workflow/34.xml
+ create mode 100644 jenkins/jobs/test-test-iperf-4hours-tcp/builds/45/workflow/35.xml
+ create mode 100644 jenkins/jobs/test-test-iperf-4hours-tcp/builds/45/workflow/36.xml
+ create mode 100644 jenkins/jobs/test-test-iperf-4hours-tcp/builds/45/workflow/37.xml
+ create mode 100644 jenkins/jobs/test-test-iperf-4hours-tcp/builds/45/workflow/4.xml
+ create mode 100644 jenkins/jobs/test-test-iperf-4hours-tcp/builds/45/workflow/5.xml
+ create mode 100644 jenkins/jobs/test-test-iperf-4hours-tcp/builds/45/workflow/6.xml
+ create mode 100644 jenkins/jobs/test-test-iperf-4hours-tcp/builds/45/workflow/7.xml
+ create mode 100644 jenkins/jobs/test-test-iperf-4hours-tcp/builds/45/workflow/8.xml
+ create mode 100644 jenkins/jobs/test-test-iperf-4hours-tcp/builds/45/workflow/9.xml
+ create mode 100644 jenkins/jobs/test-test-iperf-4hours-udp/builds/33/build.xml
+ create mode 100644 jenkins/jobs/test-test-iperf-4hours-udp/builds/33/log
+ create mode 100644 jenkins/jobs/test-test-iperf-4hours-udp/builds/33/log-index
+ create mode 100644 jenkins/jobs/test-test-iperf-4hours-udp/builds/33/workflow/10.xml
+ create mode 100644 jenkins/jobs/test-test-iperf-4hours-udp/builds/33/workflow/11.xml
+ create mode 100644 jenkins/jobs/test-test-iperf-4hours-udp/builds/33/workflow/12.xml
+ create mode 100644 jenkins/jobs/test-test-iperf-4hours-udp/builds/33/workflow/13.xml
+ create mode 100644 jenkins/jobs/test-test-iperf-4hours-udp/builds/33/workflow/14.xml
+ create mode 100644 jenkins/jobs/test-test-iperf-4hours-udp/builds/33/workflow/15.xml
+ create mode 100644 jenkins/jobs/test-test-iperf-4hours-udp/builds/33/workflow/16.xml
+ create mode 100644 jenkins/jobs/test-test-iperf-4hours-udp/builds/33/workflow/17.xml
+ create mode 100644 jenkins/jobs/test-test-iperf-4hours-udp/builds/33/workflow/18.xml
+ create mode 100644 jenkins/jobs/test-test-iperf-4hours-udp/builds/33/workflow/19.xml
+ create mode 100644 jenkins/jobs/test-test-iperf-4hours-udp/builds/33/workflow/2.xml
+ create mode 100644 jenkins/jobs/test-test-iperf-4hours-udp/builds/33/workflow/20.xml
+ create mode 100644 jenkins/jobs/test-test-iperf-4hours-udp/builds/33/workflow/21.xml
+ create mode 100644 jenkins/jobs/test-test-iperf-4hours-udp/builds/33/workflow/22.xml
+ create mode 100644 jenkins/jobs/test-test-iperf-4hours-udp/builds/33/workflow/23.xml
+ create mode 100644 jenkins/jobs/test-test-iperf-4hours-udp/builds/33/workflow/24.xml
+ create mode 100644 jenkins/jobs/test-test-iperf-4hours-udp/builds/33/workflow/25.xml
+ create mode 100644 jenkins/jobs/test-test-iperf-4hours-udp/builds/33/workflow/26.xml
+ create mode 100644 jenkins/jobs/test-test-iperf-4hours-udp/builds/33/workflow/27.xml
+ create mode 100644 jenkins/jobs/test-test-iperf-4hours-udp/builds/33/workflow/28.xml
+ create mode 100644 jenkins/jobs/test-test-iperf-4hours-udp/builds/33/workflow/29.xml
+ create mode 100644 jenkins/jobs/test-test-iperf-4hours-udp/builds/33/workflow/3.xml
+ create mode 100644 jenkins/jobs/test-test-iperf-4hours-udp/builds/33/workflow/30.xml
+ create mode 100644 jenkins/jobs/test-test-iperf-4hours-udp/builds/33/workflow/31.xml
+ create mode 100644 jenkins/jobs/test-test-iperf-4hours-udp/builds/33/workflow/32.xml
+ create mode 100644 jenkins/jobs/test-test-iperf-4hours-udp/builds/33/workflow/33.xml
+ create mode 100644 jenkins/jobs/test-test-iperf-4hours-udp/builds/33/workflow/34.xml
+ create mode 100644 jenkins/jobs/test-test-iperf-4hours-udp/builds/33/workflow/35.xml
+ create mode 100644 jenkins/jobs/test-test-iperf-4hours-udp/builds/33/workflow/36.xml
+ create mode 100644 jenkins/jobs/test-test-iperf-4hours-udp/builds/33/workflow/37.xml
+ create mode 100644 jenkins/jobs/test-test-iperf-4hours-udp/builds/33/workflow/38.xml
+ create mode 100644 jenkins/jobs/test-test-iperf-4hours-udp/builds/33/workflow/39.xml
+ create mode 100644 jenkins/jobs/test-test-iperf-4hours-udp/builds/33/workflow/4.xml
+ create mode 100644 jenkins/jobs/test-test-iperf-4hours-udp/builds/33/workflow/40.xml
+ create mode 100644 jenkins/jobs/test-test-iperf-4hours-udp/builds/33/workflow/5.xml
+ create mode 100644 jenkins/jobs/test-test-iperf-4hours-udp/builds/33/workflow/6.xml
+ create mode 100644 jenkins/jobs/test-test-iperf-4hours-udp/builds/33/workflow/7.xml
+ create mode 100644 jenkins/jobs/test-test-iperf-4hours-udp/builds/33/workflow/8.xml
+ create mode 100644 jenkins/jobs/test-test-iperf-4hours-udp/builds/33/workflow/9.xml
+ create mode 100644 jenkins/jobs/test-test-iperf-SRIOV-ipv4-stress-2hours/builds/39/build.xml
+ create mode 100644 jenkins/jobs/test-test-iperf-SRIOV-ipv4-stress-2hours/builds/39/log
+ create mode 100644 jenkins/jobs/test-test-iperf-SRIOV-ipv4-stress-2hours/builds/39/log-index
+ create mode 100644 jenkins/jobs/test-test-iperf-SRIOV-ipv4-stress-2hours/builds/39/workflow/10.xml
+ create mode 100644 jenkins/jobs/test-test-iperf-SRIOV-ipv4-stress-2hours/builds/39/workflow/11.xml
+ create mode 100644 jenkins/jobs/test-test-iperf-SRIOV-ipv4-stress-2hours/builds/39/workflow/12.xml
+ create mode 100644 jenkins/jobs/test-test-iperf-SRIOV-ipv4-stress-2hours/builds/39/workflow/13.xml
+ create mode 100644 jenkins/jobs/test-test-iperf-SRIOV-ipv4-stress-2hours/builds/39/workflow/14.xml
+ create mode 100644 jenkins/jobs/test-test-iperf-SRIOV-ipv4-stress-2hours/builds/39/workflow/15.xml
+ create mode 100644 jenkins/jobs/test-test-iperf-SRIOV-ipv4-stress-2hours/builds/39/workflow/16.xml
+ create mode 100644 jenkins/jobs/test-test-iperf-SRIOV-ipv4-stress-2hours/builds/39/workflow/17.xml
+ create mode 100644 jenkins/jobs/test-test-iperf-SRIOV-ipv4-stress-2hours/builds/39/workflow/18.xml
+ create mode 100644 jenkins/jobs/test-test-iperf-SRIOV-ipv4-stress-2hours/builds/39/workflow/19.xml
+ create mode 100644 jenkins/jobs/test-test-iperf-SRIOV-ipv4-stress-2hours/builds/39/workflow/2.xml
+ create mode 100644 jenkins/jobs/test-test-iperf-SRIOV-ipv4-stress-2hours/builds/39/workflow/20.xml
+ create mode 100644 jenkins/jobs/test-test-iperf-SRIOV-ipv4-stress-2hours/builds/39/workflow/21.xml
+ create mode 100644 jenkins/jobs/test-test-iperf-SRIOV-ipv4-stress-2hours/builds/39/workflow/22.xml
+ create mode 100644 jenkins/jobs/test-test-iperf-SRIOV-ipv4-stress-2hours/builds/39/workflow/23.xml
+ create mode 100644 jenkins/jobs/test-test-iperf-SRIOV-ipv4-stress-2hours/builds/39/workflow/24.xml
+ create mode 100644 jenkins/jobs/test-test-iperf-SRIOV-ipv4-stress-2hours/builds/39/workflow/25.xml
+ create mode 100644 jenkins/jobs/test-test-iperf-SRIOV-ipv4-stress-2hours/builds/39/workflow/26.xml
+ create mode 100644 jenkins/jobs/test-test-iperf-SRIOV-ipv4-stress-2hours/builds/39/workflow/27.xml
+ create mode 100644 jenkins/jobs/test-test-iperf-SRIOV-ipv4-stress-2hours/builds/39/workflow/28.xml
+ create mode 100644 jenkins/jobs/test-test-iperf-SRIOV-ipv4-stress-2hours/builds/39/workflow/29.xml
+ create mode 100644 jenkins/jobs/test-test-iperf-SRIOV-ipv4-stress-2hours/builds/39/workflow/3.xml
+ create mode 100644 jenkins/jobs/test-test-iperf-SRIOV-ipv4-stress-2hours/builds/39/workflow/30.xml
+ create mode 100644 jenkins/jobs/test-test-iperf-SRIOV-ipv4-stress-2hours/builds/39/workflow/31.xml
+ create mode 100644 jenkins/jobs/test-test-iperf-SRIOV-ipv4-stress-2hours/builds/39/workflow/32.xml
+ create mode 100644 jenkins/jobs/test-test-iperf-SRIOV-ipv4-stress-2hours/builds/39/workflow/33.xml
+ create mode 100644 jenkins/jobs/test-test-iperf-SRIOV-ipv4-stress-2hours/builds/39/workflow/34.xml
+ create mode 100644 jenkins/jobs/test-test-iperf-SRIOV-ipv4-stress-2hours/builds/39/workflow/35.xml
+ create mode 100644 jenkins/jobs/test-test-iperf-SRIOV-ipv4-stress-2hours/builds/39/workflow/36.xml
+ create mode 100644 jenkins/jobs/test-test-iperf-SRIOV-ipv4-stress-2hours/builds/39/workflow/37.xml
+ create mode 100644 jenkins/jobs/test-test-iperf-SRIOV-ipv4-stress-2hours/builds/39/workflow/38.xml
+ create mode 100644 jenkins/jobs/test-test-iperf-SRIOV-ipv4-stress-2hours/builds/39/workflow/39.xml
+ create mode 100644 jenkins/jobs/test-test-iperf-SRIOV-ipv4-stress-2hours/builds/39/workflow/4.xml
+ create mode 100644 jenkins/jobs/test-test-iperf-SRIOV-ipv4-stress-2hours/builds/39/workflow/40.xml
+ create mode 100644 jenkins/jobs/test-test-iperf-SRIOV-ipv4-stress-2hours/builds/39/workflow/5.xml
+ create mode 100644 jenkins/jobs/test-test-iperf-SRIOV-ipv4-stress-2hours/builds/39/workflow/6.xml
+ create mode 100644 jenkins/jobs/test-test-iperf-SRIOV-ipv4-stress-2hours/builds/39/workflow/7.xml
+ create mode 100644 jenkins/jobs/test-test-iperf-SRIOV-ipv4-stress-2hours/builds/39/workflow/8.xml
+ create mode 100644 jenkins/jobs/test-test-iperf-SRIOV-ipv4-stress-2hours/builds/39/workflow/9.xml
+ create mode 100644 jenkins/jobs/test-test-iperf-SRIOV-ipv6-stress-2hours/builds/30/build.xml
+ create mode 100644 jenkins/jobs/test-test-iperf-SRIOV-ipv6-stress-2hours/builds/30/log
+ create mode 100644 jenkins/jobs/test-test-iperf-SRIOV-ipv6-stress-2hours/builds/30/log-index
+ create mode 100644 jenkins/jobs/test-test-iperf-SRIOV-ipv6-stress-2hours/builds/30/workflow/10.xml
+ create mode 100644 jenkins/jobs/test-test-iperf-SRIOV-ipv6-stress-2hours/builds/30/workflow/11.xml
+ create mode 100644 jenkins/jobs/test-test-iperf-SRIOV-ipv6-stress-2hours/builds/30/workflow/12.xml
+ create mode 100644 jenkins/jobs/test-test-iperf-SRIOV-ipv6-stress-2hours/builds/30/workflow/13.xml
+ create mode 100644 jenkins/jobs/test-test-iperf-SRIOV-ipv6-stress-2hours/builds/30/workflow/14.xml
+ create mode 100644 jenkins/jobs/test-test-iperf-SRIOV-ipv6-stress-2hours/builds/30/workflow/15.xml
+ create mode 100644 jenkins/jobs/test-test-iperf-SRIOV-ipv6-stress-2hours/builds/30/workflow/16.xml
+ create mode 100644 jenkins/jobs/test-test-iperf-SRIOV-ipv6-stress-2hours/builds/30/workflow/17.xml
+ create mode 100644 jenkins/jobs/test-test-iperf-SRIOV-ipv6-stress-2hours/builds/30/workflow/18.xml
+ create mode 100644 jenkins/jobs/test-test-iperf-SRIOV-ipv6-stress-2hours/builds/30/workflow/19.xml
+ create mode 100644 jenkins/jobs/test-test-iperf-SRIOV-ipv6-stress-2hours/builds/30/workflow/2.xml
+ create mode 100644 jenkins/jobs/test-test-iperf-SRIOV-ipv6-stress-2hours/builds/30/workflow/20.xml
+ create mode 100644 jenkins/jobs/test-test-iperf-SRIOV-ipv6-stress-2hours/builds/30/workflow/21.xml
+ create mode 100644 jenkins/jobs/test-test-iperf-SRIOV-ipv6-stress-2hours/builds/30/workflow/22.xml
+ create mode 100644 jenkins/jobs/test-test-iperf-SRIOV-ipv6-stress-2hours/builds/30/workflow/23.xml
+ create mode 100644 jenkins/jobs/test-test-iperf-SRIOV-ipv6-stress-2hours/builds/30/workflow/24.xml
+ create mode 100644 jenkins/jobs/test-test-iperf-SRIOV-ipv6-stress-2hours/builds/30/workflow/25.xml
+ create mode 100644 jenkins/jobs/test-test-iperf-SRIOV-ipv6-stress-2hours/builds/30/workflow/26.xml
+ create mode 100644 jenkins/jobs/test-test-iperf-SRIOV-ipv6-stress-2hours/builds/30/workflow/27.xml
+ create mode 100644 jenkins/jobs/test-test-iperf-SRIOV-ipv6-stress-2hours/builds/30/workflow/28.xml
+ create mode 100644 jenkins/jobs/test-test-iperf-SRIOV-ipv6-stress-2hours/builds/30/workflow/29.xml
+ create mode 100644 jenkins/jobs/test-test-iperf-SRIOV-ipv6-stress-2hours/builds/30/workflow/3.xml
+ create mode 100644 jenkins/jobs/test-test-iperf-SRIOV-ipv6-stress-2hours/builds/30/workflow/30.xml
+ create mode 100644 jenkins/jobs/test-test-iperf-SRIOV-ipv6-stress-2hours/builds/30/workflow/31.xml
+ create mode 100644 jenkins/jobs/test-test-iperf-SRIOV-ipv6-stress-2hours/builds/30/workflow/32.xml
+ create mode 100644 jenkins/jobs/test-test-iperf-SRIOV-ipv6-stress-2hours/builds/30/workflow/33.xml
+ create mode 100644 jenkins/jobs/test-test-iperf-SRIOV-ipv6-stress-2hours/builds/30/workflow/34.xml
+ create mode 100644 jenkins/jobs/test-test-iperf-SRIOV-ipv6-stress-2hours/builds/30/workflow/35.xml
+ create mode 100644 jenkins/jobs/test-test-iperf-SRIOV-ipv6-stress-2hours/builds/30/workflow/36.xml
+ create mode 100644 jenkins/jobs/test-test-iperf-SRIOV-ipv6-stress-2hours/builds/30/workflow/37.xml
+ create mode 100644 jenkins/jobs/test-test-iperf-SRIOV-ipv6-stress-2hours/builds/30/workflow/38.xml
+ create mode 100644 jenkins/jobs/test-test-iperf-SRIOV-ipv6-stress-2hours/builds/30/workflow/39.xml
+ create mode 100644 jenkins/jobs/test-test-iperf-SRIOV-ipv6-stress-2hours/builds/30/workflow/4.xml
+ create mode 100644 jenkins/jobs/test-test-iperf-SRIOV-ipv6-stress-2hours/builds/30/workflow/40.xml
+ create mode 100644 jenkins/jobs/test-test-iperf-SRIOV-ipv6-stress-2hours/builds/30/workflow/5.xml
+ create mode 100644 jenkins/jobs/test-test-iperf-SRIOV-ipv6-stress-2hours/builds/30/workflow/6.xml
+ create mode 100644 jenkins/jobs/test-test-iperf-SRIOV-ipv6-stress-2hours/builds/30/workflow/7.xml
+ create mode 100644 jenkins/jobs/test-test-iperf-SRIOV-ipv6-stress-2hours/builds/30/workflow/8.xml
+ create mode 100644 jenkins/jobs/test-test-iperf-SRIOV-ipv6-stress-2hours/builds/30/workflow/9.xml
+ create mode 100644 jenkins/jobs/test-test-nic-driveinstalluninstall/builds/1/build.xml
+ create mode 100644 jenkins/jobs/test-test-nic-driveinstalluninstall/builds/1/log
+ create mode 100644 jenkins/jobs/test-test-nic-driveinstalluninstall/builds/1/log-index
+ create mode 100644 jenkins/jobs/test-test-nic-driveinstalluninstall/builds/1/workflow/10.xml
+ create mode 100644 jenkins/jobs/test-test-nic-driveinstalluninstall/builds/1/workflow/11.xml
+ create mode 100644 jenkins/jobs/test-test-nic-driveinstalluninstall/builds/1/workflow/12.xml
+ create mode 100644 jenkins/jobs/test-test-nic-driveinstalluninstall/builds/1/workflow/13.xml
+ create mode 100644 jenkins/jobs/test-test-nic-driveinstalluninstall/builds/1/workflow/14.xml
+ create mode 100644 jenkins/jobs/test-test-nic-driveinstalluninstall/builds/1/workflow/15.xml
+ create mode 100644 jenkins/jobs/test-test-nic-driveinstalluninstall/builds/1/workflow/16.xml
+ create mode 100644 jenkins/jobs/test-test-nic-driveinstalluninstall/builds/1/workflow/17.xml
+ create mode 100644 jenkins/jobs/test-test-nic-driveinstalluninstall/builds/1/workflow/18.xml
+ create mode 100644 jenkins/jobs/test-test-nic-driveinstalluninstall/builds/1/workflow/19.xml
+ create mode 100644 jenkins/jobs/test-test-nic-driveinstalluninstall/builds/1/workflow/2.xml
+ create mode 100644 jenkins/jobs/test-test-nic-driveinstalluninstall/builds/1/workflow/20.xml
+ create mode 100644 jenkins/jobs/test-test-nic-driveinstalluninstall/builds/1/workflow/21.xml
+ create mode 100644 jenkins/jobs/test-test-nic-driveinstalluninstall/builds/1/workflow/22.xml
+ create mode 100644 jenkins/jobs/test-test-nic-driveinstalluninstall/builds/1/workflow/23.xml
+ create mode 100644 jenkins/jobs/test-test-nic-driveinstalluninstall/builds/1/workflow/24.xml
+ create mode 100644 jenkins/jobs/test-test-nic-driveinstalluninstall/builds/1/workflow/25.xml
+ create mode 100644 jenkins/jobs/test-test-nic-driveinstalluninstall/builds/1/workflow/26.xml
+ create mode 100644 jenkins/jobs/test-test-nic-driveinstalluninstall/builds/1/workflow/27.xml
+ create mode 100644 jenkins/jobs/test-test-nic-driveinstalluninstall/builds/1/workflow/28.xml
+ create mode 100644 jenkins/jobs/test-test-nic-driveinstalluninstall/builds/1/workflow/29.xml
+ create mode 100644 jenkins/jobs/test-test-nic-driveinstalluninstall/builds/1/workflow/3.xml
+ create mode 100644 jenkins/jobs/test-test-nic-driveinstalluninstall/builds/1/workflow/30.xml
+ create mode 100644 jenkins/jobs/test-test-nic-driveinstalluninstall/builds/1/workflow/31.xml
+ create mode 100644 jenkins/jobs/test-test-nic-driveinstalluninstall/builds/1/workflow/32.xml
+ create mode 100644 jenkins/jobs/test-test-nic-driveinstalluninstall/builds/1/workflow/33.xml
+ create mode 100644 jenkins/jobs/test-test-nic-driveinstalluninstall/builds/1/workflow/4.xml
+ create mode 100644 jenkins/jobs/test-test-nic-driveinstalluninstall/builds/1/workflow/5.xml
+ create mode 100644 jenkins/jobs/test-test-nic-driveinstalluninstall/builds/1/workflow/6.xml
+ create mode 100644 jenkins/jobs/test-test-nic-driveinstalluninstall/builds/1/workflow/7.xml
+ create mode 100644 jenkins/jobs/test-test-nic-driveinstalluninstall/builds/1/workflow/8.xml
+ create mode 100644 jenkins/jobs/test-test-nic-driveinstalluninstall/builds/1/workflow/9.xml
+ create mode 100644 jenkins/jobs/test-test-nic-driveinstalluninstall/builds/2/build.xml
+ create mode 100644 jenkins/jobs/test-test-nic-driveinstalluninstall/builds/2/log
+ create mode 100644 jenkins/jobs/test-test-nic-driveinstalluninstall/builds/2/log-index
+ create mode 100644 jenkins/jobs/test-test-nic-driveinstalluninstall/builds/2/workflow/10.xml
+ create mode 100644 jenkins/jobs/test-test-nic-driveinstalluninstall/builds/2/workflow/11.xml
+ create mode 100644 jenkins/jobs/test-test-nic-driveinstalluninstall/builds/2/workflow/12.xml
+ create mode 100644 jenkins/jobs/test-test-nic-driveinstalluninstall/builds/2/workflow/13.xml
+ create mode 100644 jenkins/jobs/test-test-nic-driveinstalluninstall/builds/2/workflow/14.xml
+ create mode 100644 jenkins/jobs/test-test-nic-driveinstalluninstall/builds/2/workflow/15.xml
+ create mode 100644 jenkins/jobs/test-test-nic-driveinstalluninstall/builds/2/workflow/16.xml
+ create mode 100644 jenkins/jobs/test-test-nic-driveinstalluninstall/builds/2/workflow/17.xml
+ create mode 100644 jenkins/jobs/test-test-nic-driveinstalluninstall/builds/2/workflow/18.xml
+ create mode 100644 jenkins/jobs/test-test-nic-driveinstalluninstall/builds/2/workflow/19.xml
+ create mode 100644 jenkins/jobs/test-test-nic-driveinstalluninstall/builds/2/workflow/2.xml
+ create mode 100644 jenkins/jobs/test-test-nic-driveinstalluninstall/builds/2/workflow/20.xml
+ create mode 100644 jenkins/jobs/test-test-nic-driveinstalluninstall/builds/2/workflow/21.xml
+ create mode 100644 jenkins/jobs/test-test-nic-driveinstalluninstall/builds/2/workflow/22.xml
+ create mode 100644 jenkins/jobs/test-test-nic-driveinstalluninstall/builds/2/workflow/23.xml
+ create mode 100644 jenkins/jobs/test-test-nic-driveinstalluninstall/builds/2/workflow/24.xml
+ create mode 100644 jenkins/jobs/test-test-nic-driveinstalluninstall/builds/2/workflow/25.xml
+ create mode 100644 jenkins/jobs/test-test-nic-driveinstalluninstall/builds/2/workflow/26.xml
+ create mode 100644 jenkins/jobs/test-test-nic-driveinstalluninstall/builds/2/workflow/27.xml
+ create mode 100644 jenkins/jobs/test-test-nic-driveinstalluninstall/builds/2/workflow/28.xml
+ create mode 100644 jenkins/jobs/test-test-nic-driveinstalluninstall/builds/2/workflow/29.xml
+ create mode 100644 jenkins/jobs/test-test-nic-driveinstalluninstall/builds/2/workflow/3.xml
+ create mode 100644 jenkins/jobs/test-test-nic-driveinstalluninstall/builds/2/workflow/30.xml
+ create mode 100644 jenkins/jobs/test-test-nic-driveinstalluninstall/builds/2/workflow/31.xml
+ create mode 100644 jenkins/jobs/test-test-nic-driveinstalluninstall/builds/2/workflow/32.xml
+ create mode 100644 jenkins/jobs/test-test-nic-driveinstalluninstall/builds/2/workflow/33.xml
+ create mode 100644 jenkins/jobs/test-test-nic-driveinstalluninstall/builds/2/workflow/34.xml
+ create mode 100644 jenkins/jobs/test-test-nic-driveinstalluninstall/builds/2/workflow/35.xml
+ create mode 100644 jenkins/jobs/test-test-nic-driveinstalluninstall/builds/2/workflow/4.xml
+ create mode 100644 jenkins/jobs/test-test-nic-driveinstalluninstall/builds/2/workflow/5.xml
+ create mode 100644 jenkins/jobs/test-test-nic-driveinstalluninstall/builds/2/workflow/6.xml
+ create mode 100644 jenkins/jobs/test-test-nic-driveinstalluninstall/builds/2/workflow/7.xml
+ create mode 100644 jenkins/jobs/test-test-nic-driveinstalluninstall/builds/2/workflow/8.xml
+ create mode 100644 jenkins/jobs/test-test-nic-driveinstalluninstall/builds/2/workflow/9.xml
+ create mode 100644 jenkins/jobs/test-test-nic-driveinstalluninstall/builds/3/build.xml
+ create mode 100644 jenkins/jobs/test-test-nic-driveinstalluninstall/builds/3/log
+ create mode 100644 jenkins/jobs/test-test-nic-driveinstalluninstall/builds/3/log-index
+ create mode 100644 jenkins/jobs/test-test-nic-driveinstalluninstall/builds/3/workflow/10.xml
+ create mode 100644 jenkins/jobs/test-test-nic-driveinstalluninstall/builds/3/workflow/11.xml
+ create mode 100644 jenkins/jobs/test-test-nic-driveinstalluninstall/builds/3/workflow/12.xml
+ create mode 100644 jenkins/jobs/test-test-nic-driveinstalluninstall/builds/3/workflow/13.xml
+ create mode 100644 jenkins/jobs/test-test-nic-driveinstalluninstall/builds/3/workflow/14.xml
+ create mode 100644 jenkins/jobs/test-test-nic-driveinstalluninstall/builds/3/workflow/15.xml
+ create mode 100644 jenkins/jobs/test-test-nic-driveinstalluninstall/builds/3/workflow/16.xml
+ create mode 100644 jenkins/jobs/test-test-nic-driveinstalluninstall/builds/3/workflow/17.xml
+ create mode 100644 jenkins/jobs/test-test-nic-driveinstalluninstall/builds/3/workflow/18.xml
+ create mode 100644 jenkins/jobs/test-test-nic-driveinstalluninstall/builds/3/workflow/19.xml
+ create mode 100644 jenkins/jobs/test-test-nic-driveinstalluninstall/builds/3/workflow/2.xml
+ create mode 100644 jenkins/jobs/test-test-nic-driveinstalluninstall/builds/3/workflow/20.xml
+ create mode 100644 jenkins/jobs/test-test-nic-driveinstalluninstall/builds/3/workflow/21.xml
+ create mode 100644 jenkins/jobs/test-test-nic-driveinstalluninstall/builds/3/workflow/22.xml
+ create mode 100644 jenkins/jobs/test-test-nic-driveinstalluninstall/builds/3/workflow/23.xml
+ create mode 100644 jenkins/jobs/test-test-nic-driveinstalluninstall/builds/3/workflow/24.xml
+ create mode 100644 jenkins/jobs/test-test-nic-driveinstalluninstall/builds/3/workflow/25.xml
+ create mode 100644 jenkins/jobs/test-test-nic-driveinstalluninstall/builds/3/workflow/26.xml
+ create mode 100644 jenkins/jobs/test-test-nic-driveinstalluninstall/builds/3/workflow/27.xml
+ create mode 100644 jenkins/jobs/test-test-nic-driveinstalluninstall/builds/3/workflow/28.xml
+ create mode 100644 jenkins/jobs/test-test-nic-driveinstalluninstall/builds/3/workflow/29.xml
+ create mode 100644 jenkins/jobs/test-test-nic-driveinstalluninstall/builds/3/workflow/3.xml
+ create mode 100644 jenkins/jobs/test-test-nic-driveinstalluninstall/builds/3/workflow/30.xml
+ create mode 100644 jenkins/jobs/test-test-nic-driveinstalluninstall/builds/3/workflow/31.xml
+ create mode 100644 jenkins/jobs/test-test-nic-driveinstalluninstall/builds/3/workflow/32.xml
+ create mode 100644 jenkins/jobs/test-test-nic-driveinstalluninstall/builds/3/workflow/33.xml
+ create mode 100644 jenkins/jobs/test-test-nic-driveinstalluninstall/builds/3/workflow/34.xml
+ create mode 100644 jenkins/jobs/test-test-nic-driveinstalluninstall/builds/3/workflow/35.xml
+ create mode 100644 jenkins/jobs/test-test-nic-driveinstalluninstall/builds/3/workflow/36.xml
+ create mode 100644 jenkins/jobs/test-test-nic-driveinstalluninstall/builds/3/workflow/37.xml
+ create mode 100644 jenkins/jobs/test-test-nic-driveinstalluninstall/builds/3/workflow/4.xml
+ create mode 100644 jenkins/jobs/test-test-nic-driveinstalluninstall/builds/3/workflow/5.xml
+ create mode 100644 jenkins/jobs/test-test-nic-driveinstalluninstall/builds/3/workflow/6.xml
+ create mode 100644 jenkins/jobs/test-test-nic-driveinstalluninstall/builds/3/workflow/7.xml
+ create mode 100644 jenkins/jobs/test-test-nic-driveinstalluninstall/builds/3/workflow/8.xml
+ create mode 100644 jenkins/jobs/test-test-nic-driveinstalluninstall/builds/3/workflow/9.xml
+ create mode 100644 jenkins/jobs/test-test-nic-driveinstalluninstall/builds/4/build.xml
+ create mode 100644 jenkins/jobs/test-test-nic-driveinstalluninstall/builds/4/log
+ create mode 100644 jenkins/jobs/test-test-nic-driveinstalluninstall/builds/4/log-index
+ create mode 100644 jenkins/jobs/test-test-nic-driveinstalluninstall/builds/4/workflow/10.xml
+ create mode 100644 jenkins/jobs/test-test-nic-driveinstalluninstall/builds/4/workflow/11.xml
+ create mode 100644 jenkins/jobs/test-test-nic-driveinstalluninstall/builds/4/workflow/12.xml
+ create mode 100644 jenkins/jobs/test-test-nic-driveinstalluninstall/builds/4/workflow/13.xml
+ create mode 100644 jenkins/jobs/test-test-nic-driveinstalluninstall/builds/4/workflow/14.xml
+ create mode 100644 jenkins/jobs/test-test-nic-driveinstalluninstall/builds/4/workflow/15.xml
+ create mode 100644 jenkins/jobs/test-test-nic-driveinstalluninstall/builds/4/workflow/16.xml
+ create mode 100644 jenkins/jobs/test-test-nic-driveinstalluninstall/builds/4/workflow/17.xml
+ create mode 100644 jenkins/jobs/test-test-nic-driveinstalluninstall/builds/4/workflow/18.xml
+ create mode 100644 jenkins/jobs/test-test-nic-driveinstalluninstall/builds/4/workflow/19.xml
+ create mode 100644 jenkins/jobs/test-test-nic-driveinstalluninstall/builds/4/workflow/2.xml
+ create mode 100644 jenkins/jobs/test-test-nic-driveinstalluninstall/builds/4/workflow/20.xml
+ create mode 100644 jenkins/jobs/test-test-nic-driveinstalluninstall/builds/4/workflow/21.xml
+ create mode 100644 jenkins/jobs/test-test-nic-driveinstalluninstall/builds/4/workflow/22.xml
+ create mode 100644 jenkins/jobs/test-test-nic-driveinstalluninstall/builds/4/workflow/23.xml
+ create mode 100644 jenkins/jobs/test-test-nic-driveinstalluninstall/builds/4/workflow/24.xml
+ create mode 100644 jenkins/jobs/test-test-nic-driveinstalluninstall/builds/4/workflow/25.xml
+ create mode 100644 jenkins/jobs/test-test-nic-driveinstalluninstall/builds/4/workflow/26.xml
+ create mode 100644 jenkins/jobs/test-test-nic-driveinstalluninstall/builds/4/workflow/27.xml
+ create mode 100644 jenkins/jobs/test-test-nic-driveinstalluninstall/builds/4/workflow/28.xml
+ create mode 100644 jenkins/jobs/test-test-nic-driveinstalluninstall/builds/4/workflow/29.xml
+ create mode 100644 jenkins/jobs/test-test-nic-driveinstalluninstall/builds/4/workflow/3.xml
+ create mode 100644 jenkins/jobs/test-test-nic-driveinstalluninstall/builds/4/workflow/30.xml
+ create mode 100644 jenkins/jobs/test-test-nic-driveinstalluninstall/builds/4/workflow/31.xml
+ create mode 100644 jenkins/jobs/test-test-nic-driveinstalluninstall/builds/4/workflow/32.xml
+ create mode 100644 jenkins/jobs/test-test-nic-driveinstalluninstall/builds/4/workflow/33.xml
+ create mode 100644 jenkins/jobs/test-test-nic-driveinstalluninstall/builds/4/workflow/34.xml
+ create mode 100644 jenkins/jobs/test-test-nic-driveinstalluninstall/builds/4/workflow/35.xml
+ create mode 100644 jenkins/jobs/test-test-nic-driveinstalluninstall/builds/4/workflow/4.xml
+ create mode 100644 jenkins/jobs/test-test-nic-driveinstalluninstall/builds/4/workflow/5.xml
+ create mode 100644 jenkins/jobs/test-test-nic-driveinstalluninstall/builds/4/workflow/6.xml
+ create mode 100644 jenkins/jobs/test-test-nic-driveinstalluninstall/builds/4/workflow/7.xml
+ create mode 100644 jenkins/jobs/test-test-nic-driveinstalluninstall/builds/4/workflow/8.xml
+ create mode 100644 jenkins/jobs/test-test-nic-driveinstalluninstall/builds/4/workflow/9.xml
+ create mode 100644 jenkins/jobs/test-test-nic-driveinstalluninstall/builds/5/build.xml
+ create mode 100644 jenkins/jobs/test-test-nic-driveinstalluninstall/builds/5/log
+ create mode 100644 jenkins/jobs/test-test-nic-driveinstalluninstall/builds/5/log-index
+ create mode 100644 jenkins/jobs/test-test-nic-driveinstalluninstall/builds/5/workflow/10.xml
+ create mode 100644 jenkins/jobs/test-test-nic-driveinstalluninstall/builds/5/workflow/11.xml
+ create mode 100644 jenkins/jobs/test-test-nic-driveinstalluninstall/builds/5/workflow/12.xml
+ create mode 100644 jenkins/jobs/test-test-nic-driveinstalluninstall/builds/5/workflow/13.xml
+ create mode 100644 jenkins/jobs/test-test-nic-driveinstalluninstall/builds/5/workflow/14.xml
+ create mode 100644 jenkins/jobs/test-test-nic-driveinstalluninstall/builds/5/workflow/15.xml
+ create mode 100644 jenkins/jobs/test-test-nic-driveinstalluninstall/builds/5/workflow/16.xml
+ create mode 100644 jenkins/jobs/test-test-nic-driveinstalluninstall/builds/5/workflow/17.xml
+ create mode 100644 jenkins/jobs/test-test-nic-driveinstalluninstall/builds/5/workflow/18.xml
+ create mode 100644 jenkins/jobs/test-test-nic-driveinstalluninstall/builds/5/workflow/19.xml
+ create mode 100644 jenkins/jobs/test-test-nic-driveinstalluninstall/builds/5/workflow/2.xml
+ create mode 100644 jenkins/jobs/test-test-nic-driveinstalluninstall/builds/5/workflow/20.xml
+ create mode 100644 jenkins/jobs/test-test-nic-driveinstalluninstall/builds/5/workflow/21.xml
+ create mode 100644 jenkins/jobs/test-test-nic-driveinstalluninstall/builds/5/workflow/22.xml
+ create mode 100644 jenkins/jobs/test-test-nic-driveinstalluninstall/builds/5/workflow/23.xml
+ create mode 100644 jenkins/jobs/test-test-nic-driveinstalluninstall/builds/5/workflow/24.xml
+ create mode 100644 jenkins/jobs/test-test-nic-driveinstalluninstall/builds/5/workflow/25.xml
+ create mode 100644 jenkins/jobs/test-test-nic-driveinstalluninstall/builds/5/workflow/26.xml
+ create mode 100644 jenkins/jobs/test-test-nic-driveinstalluninstall/builds/5/workflow/27.xml
+ create mode 100644 jenkins/jobs/test-test-nic-driveinstalluninstall/builds/5/workflow/28.xml
+ create mode 100644 jenkins/jobs/test-test-nic-driveinstalluninstall/builds/5/workflow/29.xml
+ create mode 100644 jenkins/jobs/test-test-nic-driveinstalluninstall/builds/5/workflow/3.xml
+ create mode 100644 jenkins/jobs/test-test-nic-driveinstalluninstall/builds/5/workflow/30.xml
+ create mode 100644 jenkins/jobs/test-test-nic-driveinstalluninstall/builds/5/workflow/31.xml
+ create mode 100644 jenkins/jobs/test-test-nic-driveinstalluninstall/builds/5/workflow/32.xml
+ create mode 100644 jenkins/jobs/test-test-nic-driveinstalluninstall/builds/5/workflow/33.xml
+ create mode 100644 jenkins/jobs/test-test-nic-driveinstalluninstall/builds/5/workflow/4.xml
+ create mode 100644 jenkins/jobs/test-test-nic-driveinstalluninstall/builds/5/workflow/5.xml
+ create mode 100644 jenkins/jobs/test-test-nic-driveinstalluninstall/builds/5/workflow/6.xml
+ create mode 100644 jenkins/jobs/test-test-nic-driveinstalluninstall/builds/5/workflow/7.xml
+ create mode 100644 jenkins/jobs/test-test-nic-driveinstalluninstall/builds/5/workflow/8.xml
+ create mode 100644 jenkins/jobs/test-test-nic-driveinstalluninstall/builds/5/workflow/9.xml
+ create mode 100644 jenkins/jobs/test-test-nic-driveinstalluninstall/builds/6/build.xml
+ create mode 100644 jenkins/jobs/test-test-nic-driveinstalluninstall/builds/6/log
+ create mode 100644 jenkins/jobs/test-test-nic-driveinstalluninstall/builds/6/log-index
+ create mode 100644 jenkins/jobs/test-test-nic-driveinstalluninstall/builds/6/workflow/10.xml
+ create mode 100644 jenkins/jobs/test-test-nic-driveinstalluninstall/builds/6/workflow/11.xml
+ create mode 100644 jenkins/jobs/test-test-nic-driveinstalluninstall/builds/6/workflow/12.xml
+ create mode 100644 jenkins/jobs/test-test-nic-driveinstalluninstall/builds/6/workflow/13.xml
+ create mode 100644 jenkins/jobs/test-test-nic-driveinstalluninstall/builds/6/workflow/14.xml
+ create mode 100644 jenkins/jobs/test-test-nic-driveinstalluninstall/builds/6/workflow/15.xml
+ create mode 100644 jenkins/jobs/test-test-nic-driveinstalluninstall/builds/6/workflow/16.xml
+ create mode 100644 jenkins/jobs/test-test-nic-driveinstalluninstall/builds/6/workflow/17.xml
+ create mode 100644 jenkins/jobs/test-test-nic-driveinstalluninstall/builds/6/workflow/18.xml
+ create mode 100644 jenkins/jobs/test-test-nic-driveinstalluninstall/builds/6/workflow/19.xml
+ create mode 100644 jenkins/jobs/test-test-nic-driveinstalluninstall/builds/6/workflow/2.xml
+ create mode 100644 jenkins/jobs/test-test-nic-driveinstalluninstall/builds/6/workflow/20.xml
+ create mode 100644 jenkins/jobs/test-test-nic-driveinstalluninstall/builds/6/workflow/21.xml
+ create mode 100644 jenkins/jobs/test-test-nic-driveinstalluninstall/builds/6/workflow/22.xml
+ create mode 100644 jenkins/jobs/test-test-nic-driveinstalluninstall/builds/6/workflow/23.xml
+ create mode 100644 jenkins/jobs/test-test-nic-driveinstalluninstall/builds/6/workflow/24.xml
+ create mode 100644 jenkins/jobs/test-test-nic-driveinstalluninstall/builds/6/workflow/25.xml
+ create mode 100644 jenkins/jobs/test-test-nic-driveinstalluninstall/builds/6/workflow/26.xml
+ create mode 100644 jenkins/jobs/test-test-nic-driveinstalluninstall/builds/6/workflow/27.xml
+ create mode 100644 jenkins/jobs/test-test-nic-driveinstalluninstall/builds/6/workflow/28.xml
+ create mode 100644 jenkins/jobs/test-test-nic-driveinstalluninstall/builds/6/workflow/29.xml
+ create mode 100644 jenkins/jobs/test-test-nic-driveinstalluninstall/builds/6/workflow/3.xml
+ create mode 100644 jenkins/jobs/test-test-nic-driveinstalluninstall/builds/6/workflow/30.xml
+ create mode 100644 jenkins/jobs/test-test-nic-driveinstalluninstall/builds/6/workflow/31.xml
+ create mode 100644 jenkins/jobs/test-test-nic-driveinstalluninstall/builds/6/workflow/32.xml
+ create mode 100644 jenkins/jobs/test-test-nic-driveinstalluninstall/builds/6/workflow/33.xml
+ create mode 100644 jenkins/jobs/test-test-nic-driveinstalluninstall/builds/6/workflow/34.xml
+ create mode 100644 jenkins/jobs/test-test-nic-driveinstalluninstall/builds/6/workflow/35.xml
+ create mode 100644 jenkins/jobs/test-test-nic-driveinstalluninstall/builds/6/workflow/36.xml
+ create mode 100644 jenkins/jobs/test-test-nic-driveinstalluninstall/builds/6/workflow/37.xml
+ create mode 100644 jenkins/jobs/test-test-nic-driveinstalluninstall/builds/6/workflow/38.xml
+ create mode 100644 jenkins/jobs/test-test-nic-driveinstalluninstall/builds/6/workflow/4.xml
+ create mode 100644 jenkins/jobs/test-test-nic-driveinstalluninstall/builds/6/workflow/5.xml
+ create mode 100644 jenkins/jobs/test-test-nic-driveinstalluninstall/builds/6/workflow/6.xml
+ create mode 100644 jenkins/jobs/test-test-nic-driveinstalluninstall/builds/6/workflow/7.xml
+ create mode 100644 jenkins/jobs/test-test-nic-driveinstalluninstall/builds/6/workflow/8.xml
+ create mode 100644 jenkins/jobs/test-test-nic-driveinstalluninstall/builds/6/workflow/9.xml
+ create mode 100644 jenkins/jobs/test-test-nic-driveinstalluninstall/builds/7/build.xml
+ create mode 100644 jenkins/jobs/test-test-nic-driveinstalluninstall/builds/7/log
+ create mode 100644 jenkins/jobs/test-test-nic-driveinstalluninstall/builds/7/log-index
+ create mode 100644 jenkins/jobs/test-test-nic-driveinstalluninstall/builds/7/workflow/10.xml
+ create mode 100644 jenkins/jobs/test-test-nic-driveinstalluninstall/builds/7/workflow/11.xml
+ create mode 100644 jenkins/jobs/test-test-nic-driveinstalluninstall/builds/7/workflow/12.xml
+ create mode 100644 jenkins/jobs/test-test-nic-driveinstalluninstall/builds/7/workflow/13.xml
+ create mode 100644 jenkins/jobs/test-test-nic-driveinstalluninstall/builds/7/workflow/14.xml
+ create mode 100644 jenkins/jobs/test-test-nic-driveinstalluninstall/builds/7/workflow/15.xml
+ create mode 100644 jenkins/jobs/test-test-nic-driveinstalluninstall/builds/7/workflow/16.xml
+ create mode 100644 jenkins/jobs/test-test-nic-driveinstalluninstall/builds/7/workflow/17.xml
+ create mode 100644 jenkins/jobs/test-test-nic-driveinstalluninstall/builds/7/workflow/18.xml
+ create mode 100644 jenkins/jobs/test-test-nic-driveinstalluninstall/builds/7/workflow/19.xml
+ create mode 100644 jenkins/jobs/test-test-nic-driveinstalluninstall/builds/7/workflow/2.xml
+ create mode 100644 jenkins/jobs/test-test-nic-driveinstalluninstall/builds/7/workflow/20.xml
+ create mode 100644 jenkins/jobs/test-test-nic-driveinstalluninstall/builds/7/workflow/21.xml
+ create mode 100644 jenkins/jobs/test-test-nic-driveinstalluninstall/builds/7/workflow/22.xml
+ create mode 100644 jenkins/jobs/test-test-nic-driveinstalluninstall/builds/7/workflow/23.xml
+ create mode 100644 jenkins/jobs/test-test-nic-driveinstalluninstall/builds/7/workflow/24.xml
+ create mode 100644 jenkins/jobs/test-test-nic-driveinstalluninstall/builds/7/workflow/25.xml
+ create mode 100644 jenkins/jobs/test-test-nic-driveinstalluninstall/builds/7/workflow/26.xml
+ create mode 100644 jenkins/jobs/test-test-nic-driveinstalluninstall/builds/7/workflow/27.xml
+ create mode 100644 jenkins/jobs/test-test-nic-driveinstalluninstall/builds/7/workflow/28.xml
+ create mode 100644 jenkins/jobs/test-test-nic-driveinstalluninstall/builds/7/workflow/29.xml
+ create mode 100644 jenkins/jobs/test-test-nic-driveinstalluninstall/builds/7/workflow/3.xml
+ create mode 100644 jenkins/jobs/test-test-nic-driveinstalluninstall/builds/7/workflow/30.xml
+ create mode 100644 jenkins/jobs/test-test-nic-driveinstalluninstall/builds/7/workflow/31.xml
+ create mode 100644 jenkins/jobs/test-test-nic-driveinstalluninstall/builds/7/workflow/32.xml
+ create mode 100644 jenkins/jobs/test-test-nic-driveinstalluninstall/builds/7/workflow/33.xml
+ create mode 100644 jenkins/jobs/test-test-nic-driveinstalluninstall/builds/7/workflow/34.xml
+ create mode 100644 jenkins/jobs/test-test-nic-driveinstalluninstall/builds/7/workflow/35.xml
+ create mode 100644 jenkins/jobs/test-test-nic-driveinstalluninstall/builds/7/workflow/36.xml
+ create mode 100644 jenkins/jobs/test-test-nic-driveinstalluninstall/builds/7/workflow/37.xml
+ create mode 100644 jenkins/jobs/test-test-nic-driveinstalluninstall/builds/7/workflow/4.xml
+ create mode 100644 jenkins/jobs/test-test-nic-driveinstalluninstall/builds/7/workflow/5.xml
+ create mode 100644 jenkins/jobs/test-test-nic-driveinstalluninstall/builds/7/workflow/6.xml
+ create mode 100644 jenkins/jobs/test-test-nic-driveinstalluninstall/builds/7/workflow/7.xml
+ create mode 100644 jenkins/jobs/test-test-nic-driveinstalluninstall/builds/7/workflow/8.xml
+ create mode 100644 jenkins/jobs/test-test-nic-driveinstalluninstall/builds/7/workflow/9.xml
+ create mode 100644 jenkins/jobs/test-test-nic-driveinstalluninstall/builds/legacyIds
+ create mode 100644 jenkins/jobs/test-test-nic-driveinstalluninstall/builds/permalinks
+ create mode 100644 jenkins/jobs/test-test-nic-driveinstalluninstall/config.xml
+ create mode 100644 jenkins/jobs/test-test-nic-driveinstalluninstall/nextBuildNumber
+ create mode 100644 jenkins/jobs/test-test-nic-simple/builds/83/build.xml
+ create mode 100644 jenkins/jobs/test-test-nic-simple/builds/83/log
+ create mode 100644 jenkins/jobs/test-test-nic-simple/builds/83/log-index
+ create mode 100644 jenkins/jobs/test-test-nic-simple/builds/83/workflow/10.xml
+ create mode 100644 jenkins/jobs/test-test-nic-simple/builds/83/workflow/11.xml
+ create mode 100644 jenkins/jobs/test-test-nic-simple/builds/83/workflow/12.xml
+ create mode 100644 jenkins/jobs/test-test-nic-simple/builds/83/workflow/13.xml
+ create mode 100644 jenkins/jobs/test-test-nic-simple/builds/83/workflow/14.xml
+ create mode 100644 jenkins/jobs/test-test-nic-simple/builds/83/workflow/15.xml
+ create mode 100644 jenkins/jobs/test-test-nic-simple/builds/83/workflow/16.xml
+ create mode 100644 jenkins/jobs/test-test-nic-simple/builds/83/workflow/17.xml
+ create mode 100644 jenkins/jobs/test-test-nic-simple/builds/83/workflow/18.xml
+ create mode 100644 jenkins/jobs/test-test-nic-simple/builds/83/workflow/19.xml
+ create mode 100644 jenkins/jobs/test-test-nic-simple/builds/83/workflow/2.xml
+ create mode 100644 jenkins/jobs/test-test-nic-simple/builds/83/workflow/20.xml
+ create mode 100644 jenkins/jobs/test-test-nic-simple/builds/83/workflow/21.xml
+ create mode 100644 jenkins/jobs/test-test-nic-simple/builds/83/workflow/22.xml
+ create mode 100644 jenkins/jobs/test-test-nic-simple/builds/83/workflow/23.xml
+ create mode 100644 jenkins/jobs/test-test-nic-simple/builds/83/workflow/24.xml
+ create mode 100644 jenkins/jobs/test-test-nic-simple/builds/83/workflow/25.xml
+ create mode 100644 jenkins/jobs/test-test-nic-simple/builds/83/workflow/26.xml
+ create mode 100644 jenkins/jobs/test-test-nic-simple/builds/83/workflow/27.xml
+ create mode 100644 jenkins/jobs/test-test-nic-simple/builds/83/workflow/28.xml
+ create mode 100644 jenkins/jobs/test-test-nic-simple/builds/83/workflow/29.xml
+ create mode 100644 jenkins/jobs/test-test-nic-simple/builds/83/workflow/3.xml
+ create mode 100644 jenkins/jobs/test-test-nic-simple/builds/83/workflow/30.xml
+ create mode 100644 jenkins/jobs/test-test-nic-simple/builds/83/workflow/31.xml
+ create mode 100644 jenkins/jobs/test-test-nic-simple/builds/83/workflow/32.xml
+ create mode 100644 jenkins/jobs/test-test-nic-simple/builds/83/workflow/33.xml
+ create mode 100644 jenkins/jobs/test-test-nic-simple/builds/83/workflow/34.xml
+ create mode 100644 jenkins/jobs/test-test-nic-simple/builds/83/workflow/35.xml
+ create mode 100644 jenkins/jobs/test-test-nic-simple/builds/83/workflow/36.xml
+ create mode 100644 jenkins/jobs/test-test-nic-simple/builds/83/workflow/37.xml
+ create mode 100644 jenkins/jobs/test-test-nic-simple/builds/83/workflow/4.xml
+ create mode 100644 jenkins/jobs/test-test-nic-simple/builds/83/workflow/5.xml
+ create mode 100644 jenkins/jobs/test-test-nic-simple/builds/83/workflow/6.xml
+ create mode 100644 jenkins/jobs/test-test-nic-simple/builds/83/workflow/7.xml
+ create mode 100644 jenkins/jobs/test-test-nic-simple/builds/83/workflow/8.xml
+ create mode 100644 jenkins/jobs/test-test-nic-simple/builds/83/workflow/9.xml
+ create mode 100644 jenkins/jobs/test-test-nic-simple/builds/84/build.xml
+ create mode 100644 jenkins/jobs/test-test-nic-simple/builds/84/log
+ create mode 100644 jenkins/jobs/test-test-nic-simple/builds/84/log-index
+ create mode 100644 jenkins/jobs/test-test-nic-simple/builds/84/workflow/10.xml
+ create mode 100644 jenkins/jobs/test-test-nic-simple/builds/84/workflow/11.xml
+ create mode 100644 jenkins/jobs/test-test-nic-simple/builds/84/workflow/12.xml
+ create mode 100644 jenkins/jobs/test-test-nic-simple/builds/84/workflow/13.xml
+ create mode 100644 jenkins/jobs/test-test-nic-simple/builds/84/workflow/14.xml
+ create mode 100644 jenkins/jobs/test-test-nic-simple/builds/84/workflow/15.xml
+ create mode 100644 jenkins/jobs/test-test-nic-simple/builds/84/workflow/16.xml
+ create mode 100644 jenkins/jobs/test-test-nic-simple/builds/84/workflow/17.xml
+ create mode 100644 jenkins/jobs/test-test-nic-simple/builds/84/workflow/18.xml
+ create mode 100644 jenkins/jobs/test-test-nic-simple/builds/84/workflow/19.xml
+ create mode 100644 jenkins/jobs/test-test-nic-simple/builds/84/workflow/2.xml
+ create mode 100644 jenkins/jobs/test-test-nic-simple/builds/84/workflow/20.xml
+ create mode 100644 jenkins/jobs/test-test-nic-simple/builds/84/workflow/21.xml
+ create mode 100644 jenkins/jobs/test-test-nic-simple/builds/84/workflow/22.xml
+ create mode 100644 jenkins/jobs/test-test-nic-simple/builds/84/workflow/23.xml
+ create mode 100644 jenkins/jobs/test-test-nic-simple/builds/84/workflow/24.xml
+ create mode 100644 jenkins/jobs/test-test-nic-simple/builds/84/workflow/25.xml
+ create mode 100644 jenkins/jobs/test-test-nic-simple/builds/84/workflow/26.xml
+ create mode 100644 jenkins/jobs/test-test-nic-simple/builds/84/workflow/27.xml
+ create mode 100644 jenkins/jobs/test-test-nic-simple/builds/84/workflow/28.xml
+ create mode 100644 jenkins/jobs/test-test-nic-simple/builds/84/workflow/29.xml
+ create mode 100644 jenkins/jobs/test-test-nic-simple/builds/84/workflow/3.xml
+ create mode 100644 jenkins/jobs/test-test-nic-simple/builds/84/workflow/30.xml
+ create mode 100644 jenkins/jobs/test-test-nic-simple/builds/84/workflow/31.xml
+ create mode 100644 jenkins/jobs/test-test-nic-simple/builds/84/workflow/32.xml
+ create mode 100644 jenkins/jobs/test-test-nic-simple/builds/84/workflow/33.xml
+ create mode 100644 jenkins/jobs/test-test-nic-simple/builds/84/workflow/34.xml
+ create mode 100644 jenkins/jobs/test-test-nic-simple/builds/84/workflow/35.xml
+ create mode 100644 jenkins/jobs/test-test-nic-simple/builds/84/workflow/36.xml
+ create mode 100644 jenkins/jobs/test-test-nic-simple/builds/84/workflow/37.xml
+ create mode 100644 jenkins/jobs/test-test-nic-simple/builds/84/workflow/38.xml
+ create mode 100644 jenkins/jobs/test-test-nic-simple/builds/84/workflow/39.xml
+ create mode 100644 jenkins/jobs/test-test-nic-simple/builds/84/workflow/4.xml
+ create mode 100644 jenkins/jobs/test-test-nic-simple/builds/84/workflow/5.xml
+ create mode 100644 jenkins/jobs/test-test-nic-simple/builds/84/workflow/6.xml
+ create mode 100644 jenkins/jobs/test-test-nic-simple/builds/84/workflow/7.xml
+ create mode 100644 jenkins/jobs/test-test-nic-simple/builds/84/workflow/8.xml
+ create mode 100644 jenkins/jobs/test-test-nic-simple/builds/84/workflow/9.xml
+ create mode 100644 jenkins/jobs/test-test-nic-simple/builds/85/build.xml
+ create mode 100644 jenkins/jobs/test-test-nic-simple/builds/85/log
+ create mode 100644 jenkins/jobs/test-test-nic-simple/builds/85/log-index
+ create mode 100644 jenkins/jobs/test-test-nic-simple/builds/85/workflow/10.xml
+ create mode 100644 jenkins/jobs/test-test-nic-simple/builds/85/workflow/11.xml
+ create mode 100644 jenkins/jobs/test-test-nic-simple/builds/85/workflow/12.xml
+ create mode 100644 jenkins/jobs/test-test-nic-simple/builds/85/workflow/13.xml
+ create mode 100644 jenkins/jobs/test-test-nic-simple/builds/85/workflow/14.xml
+ create mode 100644 jenkins/jobs/test-test-nic-simple/builds/85/workflow/15.xml
+ create mode 100644 jenkins/jobs/test-test-nic-simple/builds/85/workflow/16.xml
+ create mode 100644 jenkins/jobs/test-test-nic-simple/builds/85/workflow/17.xml
+ create mode 100644 jenkins/jobs/test-test-nic-simple/builds/85/workflow/18.xml
+ create mode 100644 jenkins/jobs/test-test-nic-simple/builds/85/workflow/19.xml
+ create mode 100644 jenkins/jobs/test-test-nic-simple/builds/85/workflow/2.xml
+ create mode 100644 jenkins/jobs/test-test-nic-simple/builds/85/workflow/20.xml
+ create mode 100644 jenkins/jobs/test-test-nic-simple/builds/85/workflow/21.xml
+ create mode 100644 jenkins/jobs/test-test-nic-simple/builds/85/workflow/22.xml
+ create mode 100644 jenkins/jobs/test-test-nic-simple/builds/85/workflow/23.xml
+ create mode 100644 jenkins/jobs/test-test-nic-simple/builds/85/workflow/24.xml
+ create mode 100644 jenkins/jobs/test-test-nic-simple/builds/85/workflow/25.xml
+ create mode 100644 jenkins/jobs/test-test-nic-simple/builds/85/workflow/26.xml
+ create mode 100644 jenkins/jobs/test-test-nic-simple/builds/85/workflow/27.xml
+ create mode 100644 jenkins/jobs/test-test-nic-simple/builds/85/workflow/28.xml
+ create mode 100644 jenkins/jobs/test-test-nic-simple/builds/85/workflow/29.xml
+ create mode 100644 jenkins/jobs/test-test-nic-simple/builds/85/workflow/3.xml
+ create mode 100644 jenkins/jobs/test-test-nic-simple/builds/85/workflow/30.xml
+ create mode 100644 jenkins/jobs/test-test-nic-simple/builds/85/workflow/31.xml
+ create mode 100644 jenkins/jobs/test-test-nic-simple/builds/85/workflow/32.xml
+ create mode 100644 jenkins/jobs/test-test-nic-simple/builds/85/workflow/33.xml
+ create mode 100644 jenkins/jobs/test-test-nic-simple/builds/85/workflow/34.xml
+ create mode 100644 jenkins/jobs/test-test-nic-simple/builds/85/workflow/35.xml
+ create mode 100644 jenkins/jobs/test-test-nic-simple/builds/85/workflow/36.xml
+ create mode 100644 jenkins/jobs/test-test-nic-simple/builds/85/workflow/37.xml
+ create mode 100644 jenkins/jobs/test-test-nic-simple/builds/85/workflow/38.xml
+ create mode 100644 jenkins/jobs/test-test-nic-simple/builds/85/workflow/39.xml
+ create mode 100644 jenkins/jobs/test-test-nic-simple/builds/85/workflow/4.xml
+ create mode 100644 jenkins/jobs/test-test-nic-simple/builds/85/workflow/40.xml
+ create mode 100644 jenkins/jobs/test-test-nic-simple/builds/85/workflow/41.xml
+ create mode 100644 jenkins/jobs/test-test-nic-simple/builds/85/workflow/42.xml
+ create mode 100644 jenkins/jobs/test-test-nic-simple/builds/85/workflow/43.xml
+ create mode 100644 jenkins/jobs/test-test-nic-simple/builds/85/workflow/44.xml
+ create mode 100644 jenkins/jobs/test-test-nic-simple/builds/85/workflow/45.xml
+ create mode 100644 jenkins/jobs/test-test-nic-simple/builds/85/workflow/5.xml
+ create mode 100644 jenkins/jobs/test-test-nic-simple/builds/85/workflow/6.xml
+ create mode 100644 jenkins/jobs/test-test-nic-simple/builds/85/workflow/7.xml
+ create mode 100644 jenkins/jobs/test-test-nic-simple/builds/85/workflow/8.xml
+ create mode 100644 jenkins/jobs/test-test-nic-simple/builds/85/workflow/9.xml
+ create mode 100644 jenkins/jobs/test-test-nic-simple/builds/86/build.xml
+ create mode 100644 jenkins/jobs/test-test-nic-simple/builds/86/log
+ create mode 100644 jenkins/jobs/test-test-nic-simple/builds/86/log-index
+ create mode 100644 jenkins/jobs/test-test-nic-simple/builds/86/workflow/10.xml
+ create mode 100644 jenkins/jobs/test-test-nic-simple/builds/86/workflow/11.xml
+ create mode 100644 jenkins/jobs/test-test-nic-simple/builds/86/workflow/12.xml
+ create mode 100644 jenkins/jobs/test-test-nic-simple/builds/86/workflow/13.xml
+ create mode 100644 jenkins/jobs/test-test-nic-simple/builds/86/workflow/14.xml
+ create mode 100644 jenkins/jobs/test-test-nic-simple/builds/86/workflow/15.xml
+ create mode 100644 jenkins/jobs/test-test-nic-simple/builds/86/workflow/16.xml
+ create mode 100644 jenkins/jobs/test-test-nic-simple/builds/86/workflow/17.xml
+ create mode 100644 jenkins/jobs/test-test-nic-simple/builds/86/workflow/18.xml
+ create mode 100644 jenkins/jobs/test-test-nic-simple/builds/86/workflow/19.xml
+ create mode 100644 jenkins/jobs/test-test-nic-simple/builds/86/workflow/2.xml
+ create mode 100644 jenkins/jobs/test-test-nic-simple/builds/86/workflow/20.xml
+ create mode 100644 jenkins/jobs/test-test-nic-simple/builds/86/workflow/21.xml
+ create mode 100644 jenkins/jobs/test-test-nic-simple/builds/86/workflow/22.xml
+ create mode 100644 jenkins/jobs/test-test-nic-simple/builds/86/workflow/23.xml
+ create mode 100644 jenkins/jobs/test-test-nic-simple/builds/86/workflow/24.xml
+ create mode 100644 jenkins/jobs/test-test-nic-simple/builds/86/workflow/25.xml
+ create mode 100644 jenkins/jobs/test-test-nic-simple/builds/86/workflow/26.xml
+ create mode 100644 jenkins/jobs/test-test-nic-simple/builds/86/workflow/27.xml
+ create mode 100644 jenkins/jobs/test-test-nic-simple/builds/86/workflow/28.xml
+ create mode 100644 jenkins/jobs/test-test-nic-simple/builds/86/workflow/29.xml
+ create mode 100644 jenkins/jobs/test-test-nic-simple/builds/86/workflow/3.xml
+ create mode 100644 jenkins/jobs/test-test-nic-simple/builds/86/workflow/30.xml
+ create mode 100644 jenkins/jobs/test-test-nic-simple/builds/86/workflow/31.xml
+ create mode 100644 jenkins/jobs/test-test-nic-simple/builds/86/workflow/32.xml
+ create mode 100644 jenkins/jobs/test-test-nic-simple/builds/86/workflow/33.xml
+ create mode 100644 jenkins/jobs/test-test-nic-simple/builds/86/workflow/34.xml
+ create mode 100644 jenkins/jobs/test-test-nic-simple/builds/86/workflow/35.xml
+ create mode 100644 jenkins/jobs/test-test-nic-simple/builds/86/workflow/36.xml
+ create mode 100644 jenkins/jobs/test-test-nic-simple/builds/86/workflow/37.xml
+ create mode 100644 jenkins/jobs/test-test-nic-simple/builds/86/workflow/38.xml
+ create mode 100644 jenkins/jobs/test-test-nic-simple/builds/86/workflow/39.xml
+ create mode 100644 jenkins/jobs/test-test-nic-simple/builds/86/workflow/4.xml
+ create mode 100644 jenkins/jobs/test-test-nic-simple/builds/86/workflow/40.xml
+ create mode 100644 jenkins/jobs/test-test-nic-simple/builds/86/workflow/41.xml
+ create mode 100644 jenkins/jobs/test-test-nic-simple/builds/86/workflow/5.xml
+ create mode 100644 jenkins/jobs/test-test-nic-simple/builds/86/workflow/6.xml
+ create mode 100644 jenkins/jobs/test-test-nic-simple/builds/86/workflow/7.xml
+ create mode 100644 jenkins/jobs/test-test-nic-simple/builds/86/workflow/8.xml
+ create mode 100644 jenkins/jobs/test-test-nic-simple/builds/86/workflow/9.xml
+ create mode 100644 jenkins/jobs/test-test-nic-sriov-5times/builds/41/workflow/29.xml
+ create mode 100644 jenkins/jobs/test-test-nic-sriov-5times/builds/41/workflow/30.xml
+ create mode 100644 jenkins/jobs/test-test-nic-sriov-5times/builds/41/workflow/31.xml
+ create mode 100644 jenkins/jobs/test-test-nic-sriov-5times/builds/41/workflow/32.xml
+ create mode 100644 jenkins/jobs/test-test-nic-sriov-5times/builds/41/workflow/33.xml
+ create mode 100644 jenkins/jobs/test-test-nic-sriov-5times/builds/41/workflow/34.xml
+ create mode 100644 jenkins/jobs/test-test-nic-sriov-5times/builds/41/workflow/35.xml
+ create mode 100644 jenkins/jobs/test-test-nic-sriov-5times/builds/41/workflow/36.xml
+ create mode 100644 jenkins/jobs/test-test-nic-sriov-5times/builds/41/workflow/37.xml
+ create mode 100644 jenkins/jobs/test-test-nic-sriov-5times/builds/41/workflow/38.xml
+ create mode 100644 jenkins/jobs/test-test-nic-sriov-5times/builds/41/workflow/39.xml
+ create mode 100644 jenkins/jobs/test-test-nic-sriov-5times/builds/41/workflow/40.xml
+ create mode 100644 jenkins/jobs/test-test-nic-sriov-5times/builds/42/build.xml
+ create mode 100644 jenkins/jobs/test-test-nic-sriov-5times/builds/42/log
+ create mode 100644 jenkins/jobs/test-test-nic-sriov-5times/builds/42/log-index
+ rename jenkins/jobs/test-test-nic-sriov-5times/builds/{41 => 42}/program.dat (89%)
+ create mode 100644 jenkins/jobs/test-test-nic-sriov-5times/builds/42/workflow/10.xml
+ create mode 100644 jenkins/jobs/test-test-nic-sriov-5times/builds/42/workflow/11.xml
+ create mode 100644 jenkins/jobs/test-test-nic-sriov-5times/builds/42/workflow/12.xml
+ create mode 100644 jenkins/jobs/test-test-nic-sriov-5times/builds/42/workflow/13.xml
+ create mode 100644 jenkins/jobs/test-test-nic-sriov-5times/builds/42/workflow/14.xml
+ create mode 100644 jenkins/jobs/test-test-nic-sriov-5times/builds/42/workflow/15.xml
+ create mode 100644 jenkins/jobs/test-test-nic-sriov-5times/builds/42/workflow/16.xml
+ create mode 100644 jenkins/jobs/test-test-nic-sriov-5times/builds/42/workflow/17.xml
+ create mode 100644 jenkins/jobs/test-test-nic-sriov-5times/builds/42/workflow/18.xml
+ create mode 100644 jenkins/jobs/test-test-nic-sriov-5times/builds/42/workflow/19.xml
+ create mode 100644 jenkins/jobs/test-test-nic-sriov-5times/builds/42/workflow/2.xml
+ create mode 100644 jenkins/jobs/test-test-nic-sriov-5times/builds/42/workflow/20.xml
+ create mode 100644 jenkins/jobs/test-test-nic-sriov-5times/builds/42/workflow/21.xml
+ create mode 100644 jenkins/jobs/test-test-nic-sriov-5times/builds/42/workflow/22.xml
+ create mode 100644 jenkins/jobs/test-test-nic-sriov-5times/builds/42/workflow/23.xml
+ create mode 100644 jenkins/jobs/test-test-nic-sriov-5times/builds/42/workflow/24.xml
+ create mode 100644 jenkins/jobs/test-test-nic-sriov-5times/builds/42/workflow/25.xml
+ create mode 100644 jenkins/jobs/test-test-nic-sriov-5times/builds/42/workflow/26.xml
+ create mode 100644 jenkins/jobs/test-test-nic-sriov-5times/builds/42/workflow/27.xml
+ create mode 100644 jenkins/jobs/test-test-nic-sriov-5times/builds/42/workflow/28.xml
+ create mode 100644 jenkins/jobs/test-test-nic-sriov-5times/builds/42/workflow/3.xml
+ create mode 100644 jenkins/jobs/test-test-nic-sriov-5times/builds/42/workflow/4.xml
+ create mode 100644 jenkins/jobs/test-test-nic-sriov-5times/builds/42/workflow/5.xml
+ create mode 100644 jenkins/jobs/test-test-nic-sriov-5times/builds/42/workflow/6.xml
+ create mode 100644 jenkins/jobs/test-test-nic-sriov-5times/builds/42/workflow/7.xml
+ create mode 100644 jenkins/jobs/test-test-nic-sriov-5times/builds/42/workflow/8.xml
+ create mode 100644 jenkins/jobs/test-test-nic-sriov-5times/builds/42/workflow/9.xml
+ create mode 100644 jenkins/jobs/test-test-nic-sriov-stress-2hours/builds/25/build.xml
+ create mode 100644 jenkins/jobs/test-test-nic-sriov-stress-2hours/builds/25/log
+ create mode 100644 jenkins/jobs/test-test-nic-sriov-stress-2hours/builds/25/log-index
+ create mode 100644 jenkins/jobs/test-test-nic-sriov-stress-2hours/builds/25/workflow/10.xml
+ create mode 100644 jenkins/jobs/test-test-nic-sriov-stress-2hours/builds/25/workflow/11.xml
+ create mode 100644 jenkins/jobs/test-test-nic-sriov-stress-2hours/builds/25/workflow/12.xml
+ create mode 100644 jenkins/jobs/test-test-nic-sriov-stress-2hours/builds/25/workflow/13.xml
+ create mode 100644 jenkins/jobs/test-test-nic-sriov-stress-2hours/builds/25/workflow/14.xml
+ create mode 100644 jenkins/jobs/test-test-nic-sriov-stress-2hours/builds/25/workflow/15.xml
+ create mode 100644 jenkins/jobs/test-test-nic-sriov-stress-2hours/builds/25/workflow/16.xml
+ create mode 100644 jenkins/jobs/test-test-nic-sriov-stress-2hours/builds/25/workflow/17.xml
+ create mode 100644 jenkins/jobs/test-test-nic-sriov-stress-2hours/builds/25/workflow/18.xml
+ create mode 100644 jenkins/jobs/test-test-nic-sriov-stress-2hours/builds/25/workflow/19.xml
+ create mode 100644 jenkins/jobs/test-test-nic-sriov-stress-2hours/builds/25/workflow/2.xml
+ create mode 100644 jenkins/jobs/test-test-nic-sriov-stress-2hours/builds/25/workflow/20.xml
+ create mode 100644 jenkins/jobs/test-test-nic-sriov-stress-2hours/builds/25/workflow/21.xml
+ create mode 100644 jenkins/jobs/test-test-nic-sriov-stress-2hours/builds/25/workflow/22.xml
+ create mode 100644 jenkins/jobs/test-test-nic-sriov-stress-2hours/builds/25/workflow/23.xml
+ create mode 100644 jenkins/jobs/test-test-nic-sriov-stress-2hours/builds/25/workflow/24.xml
+ create mode 100644 jenkins/jobs/test-test-nic-sriov-stress-2hours/builds/25/workflow/25.xml
+ create mode 100644 jenkins/jobs/test-test-nic-sriov-stress-2hours/builds/25/workflow/26.xml
+ create mode 100644 jenkins/jobs/test-test-nic-sriov-stress-2hours/builds/25/workflow/27.xml
+ create mode 100644 jenkins/jobs/test-test-nic-sriov-stress-2hours/builds/25/workflow/28.xml
+ create mode 100644 jenkins/jobs/test-test-nic-sriov-stress-2hours/builds/25/workflow/29.xml
+ create mode 100644 jenkins/jobs/test-test-nic-sriov-stress-2hours/builds/25/workflow/3.xml
+ create mode 100644 jenkins/jobs/test-test-nic-sriov-stress-2hours/builds/25/workflow/30.xml
+ create mode 100644 jenkins/jobs/test-test-nic-sriov-stress-2hours/builds/25/workflow/31.xml
+ create mode 100644 jenkins/jobs/test-test-nic-sriov-stress-2hours/builds/25/workflow/32.xml
+ create mode 100644 jenkins/jobs/test-test-nic-sriov-stress-2hours/builds/25/workflow/33.xml
+ create mode 100644 jenkins/jobs/test-test-nic-sriov-stress-2hours/builds/25/workflow/34.xml
+ create mode 100644 jenkins/jobs/test-test-nic-sriov-stress-2hours/builds/25/workflow/35.xml
+ create mode 100644 jenkins/jobs/test-test-nic-sriov-stress-2hours/builds/25/workflow/36.xml
+ create mode 100644 jenkins/jobs/test-test-nic-sriov-stress-2hours/builds/25/workflow/37.xml
+ create mode 100644 jenkins/jobs/test-test-nic-sriov-stress-2hours/builds/25/workflow/38.xml
+ create mode 100644 jenkins/jobs/test-test-nic-sriov-stress-2hours/builds/25/workflow/39.xml
+ create mode 100644 jenkins/jobs/test-test-nic-sriov-stress-2hours/builds/25/workflow/4.xml
+ create mode 100644 jenkins/jobs/test-test-nic-sriov-stress-2hours/builds/25/workflow/40.xml
+ create mode 100644 jenkins/jobs/test-test-nic-sriov-stress-2hours/builds/25/workflow/5.xml
+ create mode 100644 jenkins/jobs/test-test-nic-sriov-stress-2hours/builds/25/workflow/6.xml
+ create mode 100644 jenkins/jobs/test-test-nic-sriov-stress-2hours/builds/25/workflow/7.xml
+ create mode 100644 jenkins/jobs/test-test-nic-sriov-stress-2hours/builds/25/workflow/8.xml
+ create mode 100644 jenkins/jobs/test-test-nic-sriov-stress-2hours/builds/25/workflow/9.xml
+ rewrite jenkins/logs/slaves/container-controller/slave.log (73%)
+ rewrite jenkins/logs/slaves/container-controller/slave.log.1 (73%)
+ rewrite jenkins/logs/slaves/container-controller/slave.log.10 (73%)
+ rewrite jenkins/logs/slaves/container-controller/slave.log.2 (73%)
+ rewrite jenkins/logs/slaves/container-controller/slave.log.3 (73%)
+ rewrite jenkins/logs/slaves/container-controller/slave.log.4 (73%)
+ rewrite jenkins/logs/slaves/container-controller/slave.log.5 (73%)
+ rewrite jenkins/logs/slaves/container-controller/slave.log.6 (73%)
+ rewrite jenkins/logs/slaves/container-controller/slave.log.7 (73%)
+ rewrite jenkins/logs/slaves/container-controller/slave.log.8 (73%)
+ rewrite jenkins/logs/slaves/container-controller/slave.log.9 (73%)
+ delete mode 100644 jenkins/logs/slaves/controller-j/slave.log.1
+ delete mode 100644 jenkins/logs/slaves/controller-j/slave.log.2
+ copy jenkins/logs/tasks/{Periodic background build discarder.log.3 => Periodic background build discarder.log.2} (96%)
+ rewrite jenkins/logs/tasks/Periodic background build discarder.log.3 (92%)
++ git push origin master
+To github.intel.com:yzhao18/jenkins-backup.git
+   68921a5b..6fec8e86  master -> master
+Finished: SUCCESS

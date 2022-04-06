@@ -1,0 +1,439 @@
+Started by timer
+Running as SYSTEM
+Building remotely on [8mha:////4LafVuX3eTQLm8yF81fMq4k6u04xgOhoE2RdYhqdKBmyAAAApB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAy+EgYJ/eT83ILSktQi/azUvOzMvOL4pMTk7NICAAghILnNAAAA[0mjenkins_backup in workspace /root/.jenkins/workspace/jenkins-backup
+[jenkins-backup] $ /bin/bash /tmp/jenkins1122672867914174318.sh
++ '[' -e /var/lib/jenkins/index.lock ']'
++ cd /home/jenkins_home
++ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   jenkins/fingerprints/d5/f9/27d48c0c81e26332ed852a4f250d.xml
+	modified:   jenkins/jobs/exec-job1/nextBuildNumber
+	modified:   jenkins/jobs/exec-nic-simple-case/nextBuildNumber
+	modified:   jenkins/jobs/exec-test-iperf-4hours-tcp/nextBuildNumber
+	modified:   jenkins/jobs/exec-test-iperf-4hours-udp/nextBuildNumber
+	modified:   jenkins/jobs/exec-test-nic-sriov-5times/nextBuildNumber
+	modified:   jenkins/jobs/jenkins-backup/builds/116/log
+	modified:   jenkins/jobs/jenkins-backup/builds/permalinks
+	modified:   jenkins/jobs/jenkins-backup/nextBuildNumber
+	modified:   jenkins/jobs/test-test-iperf-4hours-tcp/builds/permalinks
+	modified:   jenkins/jobs/test-test-iperf-4hours-tcp/nextBuildNumber
+	modified:   jenkins/jobs/test-test-iperf-4hours-udp/builds/permalinks
+	modified:   jenkins/jobs/test-test-iperf-4hours-udp/nextBuildNumber
+	modified:   jenkins/jobs/test-test-iperf-SRIOV-ipv4-stress-2hours/builds/permalinks
+	modified:   jenkins/jobs/test-test-iperf-SRIOV-ipv4-stress-2hours/nextBuildNumber
+	modified:   jenkins/jobs/test-test-iperf-SRIOV-ipv6-stress-2hours/builds/permalinks
+	modified:   jenkins/jobs/test-test-iperf-SRIOV-ipv6-stress-2hours/nextBuildNumber
+	modified:   jenkins/jobs/test-test-nic-simple/builds/permalinks
+	modified:   jenkins/jobs/test-test-nic-simple/nextBuildNumber
+	modified:   jenkins/jobs/test-test-nic-sriov-5times/builds/34/build.xml
+	modified:   jenkins/jobs/test-test-nic-sriov-5times/builds/34/log
+	modified:   jenkins/jobs/test-test-nic-sriov-5times/builds/34/log-index
+	deleted:    jenkins/jobs/test-test-nic-sriov-5times/builds/34/program.dat
+	modified:   jenkins/jobs/test-test-nic-sriov-5times/builds/permalinks
+	modified:   jenkins/jobs/test-test-nic-sriov-5times/nextBuildNumber
+	modified:   jenkins/jobs/test-test-nic-sriov-stress-2hours/builds/permalinks
+	modified:   jenkins/jobs/test-test-nic-sriov-stress-2hours/nextBuildNumber
+	modified:   jenkins/logs/health-checker.log
+	modified:   jenkins/logs/slaves/sp-controller/slave.log
+	modified:   jenkins/logs/slaves/sp-controller/slave.log.1
+	modified:   jenkins/logs/slaves/sp-controller/slave.log.10
+	modified:   jenkins/logs/slaves/sp-controller/slave.log.2
+	modified:   jenkins/logs/slaves/sp-controller/slave.log.3
+	modified:   jenkins/logs/slaves/sp-controller/slave.log.4
+	modified:   jenkins/logs/slaves/sp-controller/slave.log.5
+	modified:   jenkins/logs/slaves/sp-controller/slave.log.6
+	modified:   jenkins/logs/slaves/sp-controller/slave.log.7
+	modified:   jenkins/logs/slaves/sp-controller/slave.log.8
+	modified:   jenkins/logs/slaves/sp-controller/slave.log.9
+	modified:   jenkins/logs/tasks/Download metadata.log
+	modified:   jenkins/logs/tasks/Fingerprint cleanup.log
+	modified:   jenkins/logs/tasks/Fingerprint cleanup.log.1
+	modified:   jenkins/logs/tasks/Fingerprint cleanup.log.2
+	modified:   jenkins/logs/tasks/Fingerprint cleanup.log.3
+	modified:   jenkins/logs/tasks/Fingerprint cleanup.log.4
+	modified:   jenkins/logs/tasks/Fingerprint cleanup.log.5
+	modified:   jenkins/logs/tasks/Periodic background build discarder.log
+	modified:   jenkins/logs/tasks/Periodic background build discarder.log.1
+	modified:   jenkins/logs/tasks/Periodic background build discarder.log.2
+	modified:   jenkins/logs/tasks/Periodic background build discarder.log.3
+	modified:   jenkins/logs/tasks/Periodic background build discarder.log.4
+	modified:   jenkins/logs/tasks/Periodic background build discarder.log.5
+	modified:   jenkins/logs/tasks/Workspace clean-up.log
+	modified:   jenkins/logs/tasks/telemetry collection.log
+	modified:   jenkins/logs/tasks/telemetry collection.log.1
+	modified:   jenkins/logs/tasks/telemetry collection.log.2
+	modified:   jenkins/logs/tasks/telemetry collection.log.3
+	modified:   jenkins/logs/tasks/telemetry collection.log.4
+	modified:   jenkins/logs/tasks/telemetry collection.log.5
+	modified:   jenkins/org.jenkinsci.plugins.workflow.flow.FlowExecutionList.xml
+	modified:   jenkins/queue.xml
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	jenkins/jobs/exec-job1/builds/8/
+	jenkins/jobs/exec-nic-simple-case/builds/11/
+	jenkins/jobs/exec-test-iperf-4hours-tcp/builds/20/
+	jenkins/jobs/exec-test-iperf-4hours-udp/builds/10/
+	jenkins/jobs/exec-test-nic-sriov-5times/builds/11/
+	jenkins/jobs/jenkins-backup/builds/116/build.xml
+	jenkins/jobs/jenkins-backup/builds/117/
+	jenkins/jobs/test-test-iperf-4hours-tcp/builds/29/
+	jenkins/jobs/test-test-iperf-4hours-udp/builds/29/
+	jenkins/jobs/test-test-iperf-SRIOV-ipv4-stress-2hours/builds/30/
+	jenkins/jobs/test-test-iperf-SRIOV-ipv6-stress-2hours/builds/25/
+	jenkins/jobs/test-test-nic-simple/builds/78/
+	jenkins/jobs/test-test-nic-sriov-5times/builds/34/workflow/29.xml
+	jenkins/jobs/test-test-nic-sriov-5times/builds/34/workflow/30.xml
+	jenkins/jobs/test-test-nic-sriov-5times/builds/34/workflow/31.xml
+	jenkins/jobs/test-test-nic-sriov-5times/builds/34/workflow/32.xml
+	jenkins/jobs/test-test-nic-sriov-5times/builds/34/workflow/33.xml
+	jenkins/jobs/test-test-nic-sriov-5times/builds/34/workflow/34.xml
+	jenkins/jobs/test-test-nic-sriov-5times/builds/34/workflow/35.xml
+	jenkins/jobs/test-test-nic-sriov-5times/builds/34/workflow/36.xml
+	jenkins/jobs/test-test-nic-sriov-5times/builds/34/workflow/37.xml
+	jenkins/jobs/test-test-nic-sriov-5times/builds/34/workflow/38.xml
+	jenkins/jobs/test-test-nic-sriov-5times/builds/34/workflow/39.xml
+	jenkins/jobs/test-test-nic-sriov-5times/builds/34/workflow/40.xml
+	jenkins/jobs/test-test-nic-sriov-5times/builds/35/
+	jenkins/jobs/test-test-nic-sriov-stress-2hours/builds/20/
+
+no changes added to commit (use "git add" and/or "git commit -a")
++ git add -A
+++ date
++ git commit -s -m 'Jenkins backup at Mon Feb 28 03:06:00 CST 2022'
+[master b224445] Jenkins backup at Mon Feb 28 03:06:00 CST 2022
+ 383 files changed, 25106 insertions(+), 805 deletions(-)
+ create mode 100644 jenkins/jobs/exec-job1/builds/8/build.xml
+ create mode 100644 jenkins/jobs/exec-job1/builds/8/log
+ create mode 100644 jenkins/jobs/exec-job1/builds/8/log-index
+ create mode 100644 jenkins/jobs/exec-job1/builds/8/program.dat
+ create mode 100644 jenkins/jobs/exec-job1/builds/8/workflow/2.xml
+ create mode 100644 jenkins/jobs/exec-job1/builds/8/workflow/3.xml
+ create mode 100644 jenkins/jobs/exec-nic-simple-case/builds/11/build.xml
+ create mode 100644 jenkins/jobs/exec-nic-simple-case/builds/11/log
+ create mode 100644 jenkins/jobs/exec-nic-simple-case/builds/11/log-index
+ create mode 100644 jenkins/jobs/exec-nic-simple-case/builds/11/program.dat
+ create mode 100644 jenkins/jobs/exec-nic-simple-case/builds/11/workflow/2.xml
+ create mode 100644 jenkins/jobs/exec-nic-simple-case/builds/11/workflow/3.xml
+ create mode 100644 jenkins/jobs/exec-test-iperf-4hours-tcp/builds/20/build.xml
+ create mode 100644 jenkins/jobs/exec-test-iperf-4hours-tcp/builds/20/log
+ create mode 100644 jenkins/jobs/exec-test-iperf-4hours-tcp/builds/20/log-index
+ create mode 100644 jenkins/jobs/exec-test-iperf-4hours-tcp/builds/20/program.dat
+ create mode 100644 jenkins/jobs/exec-test-iperf-4hours-tcp/builds/20/workflow/2.xml
+ create mode 100644 jenkins/jobs/exec-test-iperf-4hours-tcp/builds/20/workflow/3.xml
+ create mode 100644 jenkins/jobs/exec-test-iperf-4hours-udp/builds/10/build.xml
+ create mode 100644 jenkins/jobs/exec-test-iperf-4hours-udp/builds/10/log
+ create mode 100644 jenkins/jobs/exec-test-iperf-4hours-udp/builds/10/log-index
+ create mode 100644 jenkins/jobs/exec-test-iperf-4hours-udp/builds/10/program.dat
+ create mode 100644 jenkins/jobs/exec-test-iperf-4hours-udp/builds/10/workflow/2.xml
+ create mode 100644 jenkins/jobs/exec-test-iperf-4hours-udp/builds/10/workflow/3.xml
+ create mode 100644 jenkins/jobs/exec-test-nic-sriov-5times/builds/11/build.xml
+ create mode 100644 jenkins/jobs/exec-test-nic-sriov-5times/builds/11/log
+ create mode 100644 jenkins/jobs/exec-test-nic-sriov-5times/builds/11/log-index
+ create mode 100644 jenkins/jobs/exec-test-nic-sriov-5times/builds/11/program.dat
+ create mode 100644 jenkins/jobs/exec-test-nic-sriov-5times/builds/11/workflow/2.xml
+ create mode 100644 jenkins/jobs/exec-test-nic-sriov-5times/builds/11/workflow/3.xml
+ create mode 100644 jenkins/jobs/jenkins-backup/builds/116/build.xml
+ create mode 100644 jenkins/jobs/jenkins-backup/builds/117/changelog.xml
+ create mode 100644 jenkins/jobs/jenkins-backup/builds/117/log
+ create mode 100644 jenkins/jobs/test-test-iperf-4hours-tcp/builds/29/build.xml
+ create mode 100644 jenkins/jobs/test-test-iperf-4hours-tcp/builds/29/log
+ create mode 100644 jenkins/jobs/test-test-iperf-4hours-tcp/builds/29/log-index
+ create mode 100644 jenkins/jobs/test-test-iperf-4hours-tcp/builds/29/workflow/10.xml
+ create mode 100644 jenkins/jobs/test-test-iperf-4hours-tcp/builds/29/workflow/11.xml
+ create mode 100644 jenkins/jobs/test-test-iperf-4hours-tcp/builds/29/workflow/12.xml
+ create mode 100644 jenkins/jobs/test-test-iperf-4hours-tcp/builds/29/workflow/13.xml
+ create mode 100644 jenkins/jobs/test-test-iperf-4hours-tcp/builds/29/workflow/14.xml
+ create mode 100644 jenkins/jobs/test-test-iperf-4hours-tcp/builds/29/workflow/15.xml
+ create mode 100644 jenkins/jobs/test-test-iperf-4hours-tcp/builds/29/workflow/16.xml
+ create mode 100644 jenkins/jobs/test-test-iperf-4hours-tcp/builds/29/workflow/17.xml
+ create mode 100644 jenkins/jobs/test-test-iperf-4hours-tcp/builds/29/workflow/18.xml
+ create mode 100644 jenkins/jobs/test-test-iperf-4hours-tcp/builds/29/workflow/19.xml
+ create mode 100644 jenkins/jobs/test-test-iperf-4hours-tcp/builds/29/workflow/2.xml
+ create mode 100644 jenkins/jobs/test-test-iperf-4hours-tcp/builds/29/workflow/20.xml
+ create mode 100644 jenkins/jobs/test-test-iperf-4hours-tcp/builds/29/workflow/21.xml
+ create mode 100644 jenkins/jobs/test-test-iperf-4hours-tcp/builds/29/workflow/22.xml
+ create mode 100644 jenkins/jobs/test-test-iperf-4hours-tcp/builds/29/workflow/23.xml
+ create mode 100644 jenkins/jobs/test-test-iperf-4hours-tcp/builds/29/workflow/24.xml
+ create mode 100644 jenkins/jobs/test-test-iperf-4hours-tcp/builds/29/workflow/25.xml
+ create mode 100644 jenkins/jobs/test-test-iperf-4hours-tcp/builds/29/workflow/26.xml
+ create mode 100644 jenkins/jobs/test-test-iperf-4hours-tcp/builds/29/workflow/27.xml
+ create mode 100644 jenkins/jobs/test-test-iperf-4hours-tcp/builds/29/workflow/28.xml
+ create mode 100644 jenkins/jobs/test-test-iperf-4hours-tcp/builds/29/workflow/29.xml
+ create mode 100644 jenkins/jobs/test-test-iperf-4hours-tcp/builds/29/workflow/3.xml
+ create mode 100644 jenkins/jobs/test-test-iperf-4hours-tcp/builds/29/workflow/30.xml
+ create mode 100644 jenkins/jobs/test-test-iperf-4hours-tcp/builds/29/workflow/31.xml
+ create mode 100644 jenkins/jobs/test-test-iperf-4hours-tcp/builds/29/workflow/32.xml
+ create mode 100644 jenkins/jobs/test-test-iperf-4hours-tcp/builds/29/workflow/33.xml
+ create mode 100644 jenkins/jobs/test-test-iperf-4hours-tcp/builds/29/workflow/34.xml
+ create mode 100644 jenkins/jobs/test-test-iperf-4hours-tcp/builds/29/workflow/35.xml
+ create mode 100644 jenkins/jobs/test-test-iperf-4hours-tcp/builds/29/workflow/36.xml
+ create mode 100644 jenkins/jobs/test-test-iperf-4hours-tcp/builds/29/workflow/37.xml
+ create mode 100644 jenkins/jobs/test-test-iperf-4hours-tcp/builds/29/workflow/4.xml
+ create mode 100644 jenkins/jobs/test-test-iperf-4hours-tcp/builds/29/workflow/5.xml
+ create mode 100644 jenkins/jobs/test-test-iperf-4hours-tcp/builds/29/workflow/6.xml
+ create mode 100644 jenkins/jobs/test-test-iperf-4hours-tcp/builds/29/workflow/7.xml
+ create mode 100644 jenkins/jobs/test-test-iperf-4hours-tcp/builds/29/workflow/8.xml
+ create mode 100644 jenkins/jobs/test-test-iperf-4hours-tcp/builds/29/workflow/9.xml
+ create mode 100644 jenkins/jobs/test-test-iperf-4hours-udp/builds/29/build.xml
+ create mode 100644 jenkins/jobs/test-test-iperf-4hours-udp/builds/29/log
+ create mode 100644 jenkins/jobs/test-test-iperf-4hours-udp/builds/29/log-index
+ create mode 100644 jenkins/jobs/test-test-iperf-4hours-udp/builds/29/workflow/10.xml
+ create mode 100644 jenkins/jobs/test-test-iperf-4hours-udp/builds/29/workflow/11.xml
+ create mode 100644 jenkins/jobs/test-test-iperf-4hours-udp/builds/29/workflow/12.xml
+ create mode 100644 jenkins/jobs/test-test-iperf-4hours-udp/builds/29/workflow/13.xml
+ create mode 100644 jenkins/jobs/test-test-iperf-4hours-udp/builds/29/workflow/14.xml
+ create mode 100644 jenkins/jobs/test-test-iperf-4hours-udp/builds/29/workflow/15.xml
+ create mode 100644 jenkins/jobs/test-test-iperf-4hours-udp/builds/29/workflow/16.xml
+ create mode 100644 jenkins/jobs/test-test-iperf-4hours-udp/builds/29/workflow/17.xml
+ create mode 100644 jenkins/jobs/test-test-iperf-4hours-udp/builds/29/workflow/18.xml
+ create mode 100644 jenkins/jobs/test-test-iperf-4hours-udp/builds/29/workflow/19.xml
+ create mode 100644 jenkins/jobs/test-test-iperf-4hours-udp/builds/29/workflow/2.xml
+ create mode 100644 jenkins/jobs/test-test-iperf-4hours-udp/builds/29/workflow/20.xml
+ create mode 100644 jenkins/jobs/test-test-iperf-4hours-udp/builds/29/workflow/21.xml
+ create mode 100644 jenkins/jobs/test-test-iperf-4hours-udp/builds/29/workflow/22.xml
+ create mode 100644 jenkins/jobs/test-test-iperf-4hours-udp/builds/29/workflow/23.xml
+ create mode 100644 jenkins/jobs/test-test-iperf-4hours-udp/builds/29/workflow/24.xml
+ create mode 100644 jenkins/jobs/test-test-iperf-4hours-udp/builds/29/workflow/25.xml
+ create mode 100644 jenkins/jobs/test-test-iperf-4hours-udp/builds/29/workflow/26.xml
+ create mode 100644 jenkins/jobs/test-test-iperf-4hours-udp/builds/29/workflow/27.xml
+ create mode 100644 jenkins/jobs/test-test-iperf-4hours-udp/builds/29/workflow/28.xml
+ create mode 100644 jenkins/jobs/test-test-iperf-4hours-udp/builds/29/workflow/29.xml
+ create mode 100644 jenkins/jobs/test-test-iperf-4hours-udp/builds/29/workflow/3.xml
+ create mode 100644 jenkins/jobs/test-test-iperf-4hours-udp/builds/29/workflow/30.xml
+ create mode 100644 jenkins/jobs/test-test-iperf-4hours-udp/builds/29/workflow/31.xml
+ create mode 100644 jenkins/jobs/test-test-iperf-4hours-udp/builds/29/workflow/32.xml
+ create mode 100644 jenkins/jobs/test-test-iperf-4hours-udp/builds/29/workflow/33.xml
+ create mode 100644 jenkins/jobs/test-test-iperf-4hours-udp/builds/29/workflow/34.xml
+ create mode 100644 jenkins/jobs/test-test-iperf-4hours-udp/builds/29/workflow/35.xml
+ create mode 100644 jenkins/jobs/test-test-iperf-4hours-udp/builds/29/workflow/36.xml
+ create mode 100644 jenkins/jobs/test-test-iperf-4hours-udp/builds/29/workflow/37.xml
+ create mode 100644 jenkins/jobs/test-test-iperf-4hours-udp/builds/29/workflow/4.xml
+ create mode 100644 jenkins/jobs/test-test-iperf-4hours-udp/builds/29/workflow/5.xml
+ create mode 100644 jenkins/jobs/test-test-iperf-4hours-udp/builds/29/workflow/6.xml
+ create mode 100644 jenkins/jobs/test-test-iperf-4hours-udp/builds/29/workflow/7.xml
+ create mode 100644 jenkins/jobs/test-test-iperf-4hours-udp/builds/29/workflow/8.xml
+ create mode 100644 jenkins/jobs/test-test-iperf-4hours-udp/builds/29/workflow/9.xml
+ create mode 100644 jenkins/jobs/test-test-iperf-SRIOV-ipv4-stress-2hours/builds/30/build.xml
+ create mode 100644 jenkins/jobs/test-test-iperf-SRIOV-ipv4-stress-2hours/builds/30/log
+ create mode 100644 jenkins/jobs/test-test-iperf-SRIOV-ipv4-stress-2hours/builds/30/log-index
+ create mode 100644 jenkins/jobs/test-test-iperf-SRIOV-ipv4-stress-2hours/builds/30/workflow/10.xml
+ create mode 100644 jenkins/jobs/test-test-iperf-SRIOV-ipv4-stress-2hours/builds/30/workflow/11.xml
+ create mode 100644 jenkins/jobs/test-test-iperf-SRIOV-ipv4-stress-2hours/builds/30/workflow/12.xml
+ create mode 100644 jenkins/jobs/test-test-iperf-SRIOV-ipv4-stress-2hours/builds/30/workflow/13.xml
+ create mode 100644 jenkins/jobs/test-test-iperf-SRIOV-ipv4-stress-2hours/builds/30/workflow/14.xml
+ create mode 100644 jenkins/jobs/test-test-iperf-SRIOV-ipv4-stress-2hours/builds/30/workflow/15.xml
+ create mode 100644 jenkins/jobs/test-test-iperf-SRIOV-ipv4-stress-2hours/builds/30/workflow/16.xml
+ create mode 100644 jenkins/jobs/test-test-iperf-SRIOV-ipv4-stress-2hours/builds/30/workflow/17.xml
+ create mode 100644 jenkins/jobs/test-test-iperf-SRIOV-ipv4-stress-2hours/builds/30/workflow/18.xml
+ create mode 100644 jenkins/jobs/test-test-iperf-SRIOV-ipv4-stress-2hours/builds/30/workflow/19.xml
+ create mode 100644 jenkins/jobs/test-test-iperf-SRIOV-ipv4-stress-2hours/builds/30/workflow/2.xml
+ create mode 100644 jenkins/jobs/test-test-iperf-SRIOV-ipv4-stress-2hours/builds/30/workflow/20.xml
+ create mode 100644 jenkins/jobs/test-test-iperf-SRIOV-ipv4-stress-2hours/builds/30/workflow/21.xml
+ create mode 100644 jenkins/jobs/test-test-iperf-SRIOV-ipv4-stress-2hours/builds/30/workflow/22.xml
+ create mode 100644 jenkins/jobs/test-test-iperf-SRIOV-ipv4-stress-2hours/builds/30/workflow/23.xml
+ create mode 100644 jenkins/jobs/test-test-iperf-SRIOV-ipv4-stress-2hours/builds/30/workflow/24.xml
+ create mode 100644 jenkins/jobs/test-test-iperf-SRIOV-ipv4-stress-2hours/builds/30/workflow/25.xml
+ create mode 100644 jenkins/jobs/test-test-iperf-SRIOV-ipv4-stress-2hours/builds/30/workflow/26.xml
+ create mode 100644 jenkins/jobs/test-test-iperf-SRIOV-ipv4-stress-2hours/builds/30/workflow/27.xml
+ create mode 100644 jenkins/jobs/test-test-iperf-SRIOV-ipv4-stress-2hours/builds/30/workflow/28.xml
+ create mode 100644 jenkins/jobs/test-test-iperf-SRIOV-ipv4-stress-2hours/builds/30/workflow/29.xml
+ create mode 100644 jenkins/jobs/test-test-iperf-SRIOV-ipv4-stress-2hours/builds/30/workflow/3.xml
+ create mode 100644 jenkins/jobs/test-test-iperf-SRIOV-ipv4-stress-2hours/builds/30/workflow/30.xml
+ create mode 100644 jenkins/jobs/test-test-iperf-SRIOV-ipv4-stress-2hours/builds/30/workflow/31.xml
+ create mode 100644 jenkins/jobs/test-test-iperf-SRIOV-ipv4-stress-2hours/builds/30/workflow/32.xml
+ create mode 100644 jenkins/jobs/test-test-iperf-SRIOV-ipv4-stress-2hours/builds/30/workflow/33.xml
+ create mode 100644 jenkins/jobs/test-test-iperf-SRIOV-ipv4-stress-2hours/builds/30/workflow/34.xml
+ create mode 100644 jenkins/jobs/test-test-iperf-SRIOV-ipv4-stress-2hours/builds/30/workflow/35.xml
+ create mode 100644 jenkins/jobs/test-test-iperf-SRIOV-ipv4-stress-2hours/builds/30/workflow/36.xml
+ create mode 100644 jenkins/jobs/test-test-iperf-SRIOV-ipv4-stress-2hours/builds/30/workflow/37.xml
+ create mode 100644 jenkins/jobs/test-test-iperf-SRIOV-ipv4-stress-2hours/builds/30/workflow/38.xml
+ create mode 100644 jenkins/jobs/test-test-iperf-SRIOV-ipv4-stress-2hours/builds/30/workflow/39.xml
+ create mode 100644 jenkins/jobs/test-test-iperf-SRIOV-ipv4-stress-2hours/builds/30/workflow/4.xml
+ create mode 100644 jenkins/jobs/test-test-iperf-SRIOV-ipv4-stress-2hours/builds/30/workflow/40.xml
+ create mode 100644 jenkins/jobs/test-test-iperf-SRIOV-ipv4-stress-2hours/builds/30/workflow/5.xml
+ create mode 100644 jenkins/jobs/test-test-iperf-SRIOV-ipv4-stress-2hours/builds/30/workflow/6.xml
+ create mode 100644 jenkins/jobs/test-test-iperf-SRIOV-ipv4-stress-2hours/builds/30/workflow/7.xml
+ create mode 100644 jenkins/jobs/test-test-iperf-SRIOV-ipv4-stress-2hours/builds/30/workflow/8.xml
+ create mode 100644 jenkins/jobs/test-test-iperf-SRIOV-ipv4-stress-2hours/builds/30/workflow/9.xml
+ create mode 100644 jenkins/jobs/test-test-iperf-SRIOV-ipv6-stress-2hours/builds/25/build.xml
+ create mode 100644 jenkins/jobs/test-test-iperf-SRIOV-ipv6-stress-2hours/builds/25/log
+ create mode 100644 jenkins/jobs/test-test-iperf-SRIOV-ipv6-stress-2hours/builds/25/log-index
+ create mode 100644 jenkins/jobs/test-test-iperf-SRIOV-ipv6-stress-2hours/builds/25/workflow/10.xml
+ create mode 100644 jenkins/jobs/test-test-iperf-SRIOV-ipv6-stress-2hours/builds/25/workflow/11.xml
+ create mode 100644 jenkins/jobs/test-test-iperf-SRIOV-ipv6-stress-2hours/builds/25/workflow/12.xml
+ create mode 100644 jenkins/jobs/test-test-iperf-SRIOV-ipv6-stress-2hours/builds/25/workflow/13.xml
+ create mode 100644 jenkins/jobs/test-test-iperf-SRIOV-ipv6-stress-2hours/builds/25/workflow/14.xml
+ create mode 100644 jenkins/jobs/test-test-iperf-SRIOV-ipv6-stress-2hours/builds/25/workflow/15.xml
+ create mode 100644 jenkins/jobs/test-test-iperf-SRIOV-ipv6-stress-2hours/builds/25/workflow/16.xml
+ create mode 100644 jenkins/jobs/test-test-iperf-SRIOV-ipv6-stress-2hours/builds/25/workflow/17.xml
+ create mode 100644 jenkins/jobs/test-test-iperf-SRIOV-ipv6-stress-2hours/builds/25/workflow/18.xml
+ create mode 100644 jenkins/jobs/test-test-iperf-SRIOV-ipv6-stress-2hours/builds/25/workflow/19.xml
+ create mode 100644 jenkins/jobs/test-test-iperf-SRIOV-ipv6-stress-2hours/builds/25/workflow/2.xml
+ create mode 100644 jenkins/jobs/test-test-iperf-SRIOV-ipv6-stress-2hours/builds/25/workflow/20.xml
+ create mode 100644 jenkins/jobs/test-test-iperf-SRIOV-ipv6-stress-2hours/builds/25/workflow/21.xml
+ create mode 100644 jenkins/jobs/test-test-iperf-SRIOV-ipv6-stress-2hours/builds/25/workflow/22.xml
+ create mode 100644 jenkins/jobs/test-test-iperf-SRIOV-ipv6-stress-2hours/builds/25/workflow/23.xml
+ create mode 100644 jenkins/jobs/test-test-iperf-SRIOV-ipv6-stress-2hours/builds/25/workflow/24.xml
+ create mode 100644 jenkins/jobs/test-test-iperf-SRIOV-ipv6-stress-2hours/builds/25/workflow/25.xml
+ create mode 100644 jenkins/jobs/test-test-iperf-SRIOV-ipv6-stress-2hours/builds/25/workflow/26.xml
+ create mode 100644 jenkins/jobs/test-test-iperf-SRIOV-ipv6-stress-2hours/builds/25/workflow/27.xml
+ create mode 100644 jenkins/jobs/test-test-iperf-SRIOV-ipv6-stress-2hours/builds/25/workflow/28.xml
+ create mode 100644 jenkins/jobs/test-test-iperf-SRIOV-ipv6-stress-2hours/builds/25/workflow/29.xml
+ create mode 100644 jenkins/jobs/test-test-iperf-SRIOV-ipv6-stress-2hours/builds/25/workflow/3.xml
+ create mode 100644 jenkins/jobs/test-test-iperf-SRIOV-ipv6-stress-2hours/builds/25/workflow/30.xml
+ create mode 100644 jenkins/jobs/test-test-iperf-SRIOV-ipv6-stress-2hours/builds/25/workflow/31.xml
+ create mode 100644 jenkins/jobs/test-test-iperf-SRIOV-ipv6-stress-2hours/builds/25/workflow/32.xml
+ create mode 100644 jenkins/jobs/test-test-iperf-SRIOV-ipv6-stress-2hours/builds/25/workflow/33.xml
+ create mode 100644 jenkins/jobs/test-test-iperf-SRIOV-ipv6-stress-2hours/builds/25/workflow/34.xml
+ create mode 100644 jenkins/jobs/test-test-iperf-SRIOV-ipv6-stress-2hours/builds/25/workflow/35.xml
+ create mode 100644 jenkins/jobs/test-test-iperf-SRIOV-ipv6-stress-2hours/builds/25/workflow/36.xml
+ create mode 100644 jenkins/jobs/test-test-iperf-SRIOV-ipv6-stress-2hours/builds/25/workflow/37.xml
+ create mode 100644 jenkins/jobs/test-test-iperf-SRIOV-ipv6-stress-2hours/builds/25/workflow/38.xml
+ create mode 100644 jenkins/jobs/test-test-iperf-SRIOV-ipv6-stress-2hours/builds/25/workflow/39.xml
+ create mode 100644 jenkins/jobs/test-test-iperf-SRIOV-ipv6-stress-2hours/builds/25/workflow/4.xml
+ create mode 100644 jenkins/jobs/test-test-iperf-SRIOV-ipv6-stress-2hours/builds/25/workflow/40.xml
+ create mode 100644 jenkins/jobs/test-test-iperf-SRIOV-ipv6-stress-2hours/builds/25/workflow/5.xml
+ create mode 100644 jenkins/jobs/test-test-iperf-SRIOV-ipv6-stress-2hours/builds/25/workflow/6.xml
+ create mode 100644 jenkins/jobs/test-test-iperf-SRIOV-ipv6-stress-2hours/builds/25/workflow/7.xml
+ create mode 100644 jenkins/jobs/test-test-iperf-SRIOV-ipv6-stress-2hours/builds/25/workflow/8.xml
+ create mode 100644 jenkins/jobs/test-test-iperf-SRIOV-ipv6-stress-2hours/builds/25/workflow/9.xml
+ create mode 100644 jenkins/jobs/test-test-nic-simple/builds/78/build.xml
+ create mode 100644 jenkins/jobs/test-test-nic-simple/builds/78/log
+ create mode 100644 jenkins/jobs/test-test-nic-simple/builds/78/log-index
+ create mode 100644 jenkins/jobs/test-test-nic-simple/builds/78/workflow/10.xml
+ create mode 100644 jenkins/jobs/test-test-nic-simple/builds/78/workflow/11.xml
+ create mode 100644 jenkins/jobs/test-test-nic-simple/builds/78/workflow/12.xml
+ create mode 100644 jenkins/jobs/test-test-nic-simple/builds/78/workflow/13.xml
+ create mode 100644 jenkins/jobs/test-test-nic-simple/builds/78/workflow/14.xml
+ create mode 100644 jenkins/jobs/test-test-nic-simple/builds/78/workflow/15.xml
+ create mode 100644 jenkins/jobs/test-test-nic-simple/builds/78/workflow/16.xml
+ create mode 100644 jenkins/jobs/test-test-nic-simple/builds/78/workflow/17.xml
+ create mode 100644 jenkins/jobs/test-test-nic-simple/builds/78/workflow/18.xml
+ create mode 100644 jenkins/jobs/test-test-nic-simple/builds/78/workflow/19.xml
+ create mode 100644 jenkins/jobs/test-test-nic-simple/builds/78/workflow/2.xml
+ create mode 100644 jenkins/jobs/test-test-nic-simple/builds/78/workflow/20.xml
+ create mode 100644 jenkins/jobs/test-test-nic-simple/builds/78/workflow/21.xml
+ create mode 100644 jenkins/jobs/test-test-nic-simple/builds/78/workflow/22.xml
+ create mode 100644 jenkins/jobs/test-test-nic-simple/builds/78/workflow/23.xml
+ create mode 100644 jenkins/jobs/test-test-nic-simple/builds/78/workflow/24.xml
+ create mode 100644 jenkins/jobs/test-test-nic-simple/builds/78/workflow/25.xml
+ create mode 100644 jenkins/jobs/test-test-nic-simple/builds/78/workflow/26.xml
+ create mode 100644 jenkins/jobs/test-test-nic-simple/builds/78/workflow/27.xml
+ create mode 100644 jenkins/jobs/test-test-nic-simple/builds/78/workflow/28.xml
+ create mode 100644 jenkins/jobs/test-test-nic-simple/builds/78/workflow/29.xml
+ create mode 100644 jenkins/jobs/test-test-nic-simple/builds/78/workflow/3.xml
+ create mode 100644 jenkins/jobs/test-test-nic-simple/builds/78/workflow/30.xml
+ create mode 100644 jenkins/jobs/test-test-nic-simple/builds/78/workflow/31.xml
+ create mode 100644 jenkins/jobs/test-test-nic-simple/builds/78/workflow/32.xml
+ create mode 100644 jenkins/jobs/test-test-nic-simple/builds/78/workflow/33.xml
+ create mode 100644 jenkins/jobs/test-test-nic-simple/builds/78/workflow/34.xml
+ create mode 100644 jenkins/jobs/test-test-nic-simple/builds/78/workflow/35.xml
+ create mode 100644 jenkins/jobs/test-test-nic-simple/builds/78/workflow/36.xml
+ create mode 100644 jenkins/jobs/test-test-nic-simple/builds/78/workflow/37.xml
+ create mode 100644 jenkins/jobs/test-test-nic-simple/builds/78/workflow/38.xml
+ create mode 100644 jenkins/jobs/test-test-nic-simple/builds/78/workflow/39.xml
+ create mode 100644 jenkins/jobs/test-test-nic-simple/builds/78/workflow/4.xml
+ create mode 100644 jenkins/jobs/test-test-nic-simple/builds/78/workflow/40.xml
+ create mode 100644 jenkins/jobs/test-test-nic-simple/builds/78/workflow/41.xml
+ create mode 100644 jenkins/jobs/test-test-nic-simple/builds/78/workflow/5.xml
+ create mode 100644 jenkins/jobs/test-test-nic-simple/builds/78/workflow/6.xml
+ create mode 100644 jenkins/jobs/test-test-nic-simple/builds/78/workflow/7.xml
+ create mode 100644 jenkins/jobs/test-test-nic-simple/builds/78/workflow/8.xml
+ create mode 100644 jenkins/jobs/test-test-nic-simple/builds/78/workflow/9.xml
+ create mode 100644 jenkins/jobs/test-test-nic-sriov-5times/builds/34/workflow/29.xml
+ create mode 100644 jenkins/jobs/test-test-nic-sriov-5times/builds/34/workflow/30.xml
+ create mode 100644 jenkins/jobs/test-test-nic-sriov-5times/builds/34/workflow/31.xml
+ create mode 100644 jenkins/jobs/test-test-nic-sriov-5times/builds/34/workflow/32.xml
+ create mode 100644 jenkins/jobs/test-test-nic-sriov-5times/builds/34/workflow/33.xml
+ create mode 100644 jenkins/jobs/test-test-nic-sriov-5times/builds/34/workflow/34.xml
+ create mode 100644 jenkins/jobs/test-test-nic-sriov-5times/builds/34/workflow/35.xml
+ create mode 100644 jenkins/jobs/test-test-nic-sriov-5times/builds/34/workflow/36.xml
+ create mode 100644 jenkins/jobs/test-test-nic-sriov-5times/builds/34/workflow/37.xml
+ create mode 100644 jenkins/jobs/test-test-nic-sriov-5times/builds/34/workflow/38.xml
+ create mode 100644 jenkins/jobs/test-test-nic-sriov-5times/builds/34/workflow/39.xml
+ create mode 100644 jenkins/jobs/test-test-nic-sriov-5times/builds/34/workflow/40.xml
+ create mode 100644 jenkins/jobs/test-test-nic-sriov-5times/builds/35/build.xml
+ create mode 100644 jenkins/jobs/test-test-nic-sriov-5times/builds/35/log
+ create mode 100644 jenkins/jobs/test-test-nic-sriov-5times/builds/35/log-index
+ rename jenkins/jobs/test-test-nic-sriov-5times/builds/{34 => 35}/program.dat (98%)
+ create mode 100644 jenkins/jobs/test-test-nic-sriov-5times/builds/35/workflow/10.xml
+ create mode 100644 jenkins/jobs/test-test-nic-sriov-5times/builds/35/workflow/11.xml
+ create mode 100644 jenkins/jobs/test-test-nic-sriov-5times/builds/35/workflow/12.xml
+ create mode 100644 jenkins/jobs/test-test-nic-sriov-5times/builds/35/workflow/13.xml
+ create mode 100644 jenkins/jobs/test-test-nic-sriov-5times/builds/35/workflow/14.xml
+ create mode 100644 jenkins/jobs/test-test-nic-sriov-5times/builds/35/workflow/15.xml
+ create mode 100644 jenkins/jobs/test-test-nic-sriov-5times/builds/35/workflow/16.xml
+ create mode 100644 jenkins/jobs/test-test-nic-sriov-5times/builds/35/workflow/17.xml
+ create mode 100644 jenkins/jobs/test-test-nic-sriov-5times/builds/35/workflow/18.xml
+ create mode 100644 jenkins/jobs/test-test-nic-sriov-5times/builds/35/workflow/19.xml
+ create mode 100644 jenkins/jobs/test-test-nic-sriov-5times/builds/35/workflow/2.xml
+ create mode 100644 jenkins/jobs/test-test-nic-sriov-5times/builds/35/workflow/20.xml
+ create mode 100644 jenkins/jobs/test-test-nic-sriov-5times/builds/35/workflow/21.xml
+ create mode 100644 jenkins/jobs/test-test-nic-sriov-5times/builds/35/workflow/22.xml
+ create mode 100644 jenkins/jobs/test-test-nic-sriov-5times/builds/35/workflow/23.xml
+ create mode 100644 jenkins/jobs/test-test-nic-sriov-5times/builds/35/workflow/24.xml
+ create mode 100644 jenkins/jobs/test-test-nic-sriov-5times/builds/35/workflow/25.xml
+ create mode 100644 jenkins/jobs/test-test-nic-sriov-5times/builds/35/workflow/26.xml
+ create mode 100644 jenkins/jobs/test-test-nic-sriov-5times/builds/35/workflow/27.xml
+ create mode 100644 jenkins/jobs/test-test-nic-sriov-5times/builds/35/workflow/28.xml
+ create mode 100644 jenkins/jobs/test-test-nic-sriov-5times/builds/35/workflow/3.xml
+ create mode 100644 jenkins/jobs/test-test-nic-sriov-5times/builds/35/workflow/4.xml
+ create mode 100644 jenkins/jobs/test-test-nic-sriov-5times/builds/35/workflow/5.xml
+ create mode 100644 jenkins/jobs/test-test-nic-sriov-5times/builds/35/workflow/6.xml
+ create mode 100644 jenkins/jobs/test-test-nic-sriov-5times/builds/35/workflow/7.xml
+ create mode 100644 jenkins/jobs/test-test-nic-sriov-5times/builds/35/workflow/8.xml
+ create mode 100644 jenkins/jobs/test-test-nic-sriov-5times/builds/35/workflow/9.xml
+ create mode 100644 jenkins/jobs/test-test-nic-sriov-stress-2hours/builds/20/build.xml
+ create mode 100644 jenkins/jobs/test-test-nic-sriov-stress-2hours/builds/20/log
+ create mode 100644 jenkins/jobs/test-test-nic-sriov-stress-2hours/builds/20/log-index
+ create mode 100644 jenkins/jobs/test-test-nic-sriov-stress-2hours/builds/20/workflow/10.xml
+ create mode 100644 jenkins/jobs/test-test-nic-sriov-stress-2hours/builds/20/workflow/11.xml
+ create mode 100644 jenkins/jobs/test-test-nic-sriov-stress-2hours/builds/20/workflow/12.xml
+ create mode 100644 jenkins/jobs/test-test-nic-sriov-stress-2hours/builds/20/workflow/13.xml
+ create mode 100644 jenkins/jobs/test-test-nic-sriov-stress-2hours/builds/20/workflow/14.xml
+ create mode 100644 jenkins/jobs/test-test-nic-sriov-stress-2hours/builds/20/workflow/15.xml
+ create mode 100644 jenkins/jobs/test-test-nic-sriov-stress-2hours/builds/20/workflow/16.xml
+ create mode 100644 jenkins/jobs/test-test-nic-sriov-stress-2hours/builds/20/workflow/17.xml
+ create mode 100644 jenkins/jobs/test-test-nic-sriov-stress-2hours/builds/20/workflow/18.xml
+ create mode 100644 jenkins/jobs/test-test-nic-sriov-stress-2hours/builds/20/workflow/19.xml
+ create mode 100644 jenkins/jobs/test-test-nic-sriov-stress-2hours/builds/20/workflow/2.xml
+ create mode 100644 jenkins/jobs/test-test-nic-sriov-stress-2hours/builds/20/workflow/20.xml
+ create mode 100644 jenkins/jobs/test-test-nic-sriov-stress-2hours/builds/20/workflow/21.xml
+ create mode 100644 jenkins/jobs/test-test-nic-sriov-stress-2hours/builds/20/workflow/22.xml
+ create mode 100644 jenkins/jobs/test-test-nic-sriov-stress-2hours/builds/20/workflow/23.xml
+ create mode 100644 jenkins/jobs/test-test-nic-sriov-stress-2hours/builds/20/workflow/24.xml
+ create mode 100644 jenkins/jobs/test-test-nic-sriov-stress-2hours/builds/20/workflow/25.xml
+ create mode 100644 jenkins/jobs/test-test-nic-sriov-stress-2hours/builds/20/workflow/26.xml
+ create mode 100644 jenkins/jobs/test-test-nic-sriov-stress-2hours/builds/20/workflow/27.xml
+ create mode 100644 jenkins/jobs/test-test-nic-sriov-stress-2hours/builds/20/workflow/28.xml
+ create mode 100644 jenkins/jobs/test-test-nic-sriov-stress-2hours/builds/20/workflow/29.xml
+ create mode 100644 jenkins/jobs/test-test-nic-sriov-stress-2hours/builds/20/workflow/3.xml
+ create mode 100644 jenkins/jobs/test-test-nic-sriov-stress-2hours/builds/20/workflow/30.xml
+ create mode 100644 jenkins/jobs/test-test-nic-sriov-stress-2hours/builds/20/workflow/31.xml
+ create mode 100644 jenkins/jobs/test-test-nic-sriov-stress-2hours/builds/20/workflow/32.xml
+ create mode 100644 jenkins/jobs/test-test-nic-sriov-stress-2hours/builds/20/workflow/33.xml
+ create mode 100644 jenkins/jobs/test-test-nic-sriov-stress-2hours/builds/20/workflow/34.xml
+ create mode 100644 jenkins/jobs/test-test-nic-sriov-stress-2hours/builds/20/workflow/35.xml
+ create mode 100644 jenkins/jobs/test-test-nic-sriov-stress-2hours/builds/20/workflow/36.xml
+ create mode 100644 jenkins/jobs/test-test-nic-sriov-stress-2hours/builds/20/workflow/37.xml
+ create mode 100644 jenkins/jobs/test-test-nic-sriov-stress-2hours/builds/20/workflow/38.xml
+ create mode 100644 jenkins/jobs/test-test-nic-sriov-stress-2hours/builds/20/workflow/39.xml
+ create mode 100644 jenkins/jobs/test-test-nic-sriov-stress-2hours/builds/20/workflow/4.xml
+ create mode 100644 jenkins/jobs/test-test-nic-sriov-stress-2hours/builds/20/workflow/40.xml
+ create mode 100644 jenkins/jobs/test-test-nic-sriov-stress-2hours/builds/20/workflow/5.xml
+ create mode 100644 jenkins/jobs/test-test-nic-sriov-stress-2hours/builds/20/workflow/6.xml
+ create mode 100644 jenkins/jobs/test-test-nic-sriov-stress-2hours/builds/20/workflow/7.xml
+ create mode 100644 jenkins/jobs/test-test-nic-sriov-stress-2hours/builds/20/workflow/8.xml
+ create mode 100644 jenkins/jobs/test-test-nic-sriov-stress-2hours/builds/20/workflow/9.xml
++ git push origin master
+To github.intel.com:yzhao18/jenkins-backup.git
+   7b360e3..b224445  master -> master
+Finished: SUCCESS

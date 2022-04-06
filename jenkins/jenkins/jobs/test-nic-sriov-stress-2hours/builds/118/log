@@ -1,0 +1,2519 @@
+Started by user [8mha:////4C8zTO/v0UlG+vQ5Fjm5jTf9kR93yL5yxTMP2X04T9v8AAAAlh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyWEgYu/dLi1CL9ovz8EgDKVWzSvwAAAA==[0mroot
+Running in Durability level: MAX_SURVIVABILITY
+[8mha:////4DOlrZhma2TKYqx8mtRBwGXVE8Xt4z3OJyo/zi+ICDdzAAAAoh+LCAAAAAAAAP9tjTEOwjAQBM8BClpKHuFItIiK1krDC0x8GCfWnbEdkooX8TX+gCESFVvtrLSa5wtWKcKBo5UdUu8otU4GP9jS5Mixv3geZcdn2TIl9igbHBs2eJyx4YwwR1SwULBGaj0nRzbDRnX6rmuvydanHMu2V1A5c4MHCFXMWcf8hSnC9jqYxPTz/BXAFEIGsfuclm8zQVqFvQAAAA==[0m[Pipeline] Start of Pipeline
+[8mha:////4B4K7nOhvaaLmbeE3w0NEhE1GAALwLDjakw9plXgkY6XAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycohUghExsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jduZBmjwAAAAA==[0m[Pipeline] node
+Running on [8mha:////4GiJsi7Mya/6bg7lYfwMQTzNVpzT54TxwGFsrEp/EcRtAAAAoh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyeEgZx/eT83ILSktQi/eTKAkMD3aLUXKBKfQCdwg2/zAAAAA==[0mcyp10-remote in /root/.jenkins/workspace/test-nic@2
+[8mha:////4NUxBMzN6CtFAbQ4pdo7pH8ZuwVHigLf0SdP3FcjQTwyAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gA0xsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jfoP95RwAAAAA==[0m[Pipeline] {
+[8mha:////4OCB1+Up79PmV3LnMeomKr9r+JFCKkFjAfTpr2UorbLOAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gQkxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jc09154wAAAAA==[0m[Pipeline] stage
+[8mha:////4N6KQN35K8CT/Pcr9a+R4oOEu4uEh3phvpB1t67zd2hmAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0ggUxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jek7ggRwAAAAA==[0m[Pipeline] { (set args)
+[8mha:////4KpTcsSlLG7yEvo1vGv2QG1z86HMYkLASFXVuKwhd7SZAAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQTbaWGsbAmNJ0AWEZb8zwLrbuWJvJp3kLiJlZNMMm+a93rDOic4UbLcG+wdZu14DKOti0+U+lugiXu6ck2YKRguzSSpM+cFJRUDS1gDKwEbgzpQdmgLbIVXD9UGhba9lFS/o4DGdQM8gYlqLiqVL8wJdvexy4Q/z18BzLEA29ce4gfg7KmOvAAAAA==[0m[Pipeline] sh
++ python /root/.jenkins/workspace/test-nic/npxtester/conf/change_args.py '{"dpdk_dir":"/opt/APP/utility/DPDK_install/dpdk-stable-20.11.1/","vm_image_conf":{"image1":"ubuntu20.04.img","image2":"ubuntu20.04_2.img","image3":"rhel84rt.img","image4":"rhel84rt2.img","image_dir":"/home/image"},"sut_conf":{"host":"10.112.97.157","connect_switch_sut_pf":"ens787f0","pf1":"ens787f0","pf1_ipv6":"fe80::b696:91ff:fe9c:f760","os":"rehat"},"dhcp":{"ipv4":"192.168.10.10","ipv6":"fe80::b696:91ff:fe9c:f762"}}'
+[8mha:////4ChDQWb8Lvr0RoXQ1L8EY4p37+Po0Q8Mb8bchs8JeqDJAAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQTbGRNjZUtoPAGyiLDkfxZYdytP5NW8g8RNrJxkknnTvNcb1jnBiZLl3mDvMGvHYxhtXXyi1N8CTdzTlWvCTMFwaSZJnTkvKKkYWMIaWAnYGNSBskNbYCu8eqg2KLTtpaT6HQU0rhvgCUxUc1GpfGFOsLuPXSb8ef4KYI6xADvU7j9Dg2gqvAAAAA==[0m[Pipeline] }
+[8mha:////4J0p4zt/+On27QitkvU5TFB8M2wwWYWaAHIuYiUer4fkAAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQRbWRhjZUtoPAGyiLDkfxZYdytP5NW8g8RNrJxkknnTvNcb1jnBiZLl3mDvMGvHYxhtXXyi1N8CTdzTlWvCTMFwaSZJnTkvKKkYWMIaWAnYGNSBskNbYCu8eqg2KLTtpaT6HQU0rhvgCUxUc1GpfGFOsLuPXSb8ef4KYI6xADvU7j9J+wGOvAAAAA==[0m[Pipeline] // stage
+[8mha:////4Ea3/4ZYuTM98yMZ9UntzMXOyQ2ItSOm6XAUUO4QqkITAAAAph+LCAAAAAAAAP9tjTEOwjAQBM9BKWgpeYQDEh2iorXc8AITG+PEugv2haTiRXyNPxCIRMVWOyut5vmCMic4UPKycdgGzHWQXez91ORAqb1EGmRDZ1kTZopOajdosu44oyZ2MEcUsFCwdFhHygE9w0o15m6qaNBXJ07TtldQBHuDBwg1mdkk/sKYYH3tbSb8ef4KYOwYxI6h2G4+x/INtuQqUcEAAAA=[0m[Pipeline] stage
+[8mha:////4IJd0qxfNFkcgwUT9OFke9rxaJjwCH2G9mHJ+5FMmbLfAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+DOrAycoiUzoiJNerCCUITQtLo/zZJSSdOxNW4Ay2VmPBg2Zas93pDGQOcKBjuNHYWY2t570czJ54pdDdPmTu68pYwkte80bkhpc9rbShpWFUw2AjYamw9RYsmwU44+ZCVl2iqSwrzdhTArBrgCYWYyUmG9C1TgP19VJHwx/kLgKlPwOrDYvXyLD8BobDcwgAAAA==[0m[Pipeline] { (run silver nic case)
+[8mha:////4KACpsxoNqug+yeGIE2K55MD+IyPDLfbYOrean7h1Zl/AAAAox+LCAAAAAAAAP9tjTESwiAURH/iWNhaeggysXWsbBkaT4AJIoT5nwCRVJ7Iq3kH0cxYucXOvm3e8wXrGOBIQTOrcDAYO8O8m3RZLFMYro4ys3RhHWEkp5hQWVCvTgsKSgqWVDWsOGwUdo6iQZ1gy628y8ZJ1M05hfIdONSmH+EBFS/mJEP6whxgd5v6SPjz/BXA7BPUbfupvX8DpQJrNb4AAAA=[0m[Pipeline] sh
++ pytest /root/.jenkins/workspace/test-nic/npxtester/Tests/testNics/test_nics.py -m nicall -s
+============================= test session starts ==============================
+platform linux -- Python 3.6.8, pytest-6.2.4, py-1.11.0, pluggy-0.13.1
+rootdir: /root/.jenkins/workspace/test-nic/npxtester/Tests/testNics, configfile: pytest.ini
+plugins: metadata-1.11.0, html-3.1.1
+collected 3 items
+
+../test-nic/npxtester/Tests/testNics/test_nics.py 2021-11-25 09:55:26 - NicTestFixture.py - [line:28] - root - INFO - Starting to run test_silver_Networking_ConnectivityEnableDisable
+2021-11-25 09:55:26 - NicTestFixture.py - [line:29] - root - INFO - setup log for testing in the fixture class fbefore
+2021-11-25 09:55:26 - test_nics.py - [line:18] - root - INFO - this is Test_Nics setup.
+2021-11-25 09:55:26 - transport.py - [line:1819] - paramiko.transport - INFO - Connected (version 2.0, client OpenSSH_8.0)
+2021-11-25 09:55:26 - transport.py - [line:1819] - paramiko.transport - INFO - Authentication (publickey) failed.
+2021-11-25 09:55:26 - transport.py - [line:1819] - paramiko.transport - INFO - Authentication (password) successful!
+2021-11-25 09:55:26 - sshInstance.py - [line:28] - root - INFO - SSH on SUT: 10.112.97.157
+2021-11-25 09:55:26 - test_nics.py - [line:34] - root - INFO - run silver_Networking_ConnectivityEnableDisable
+2021-11-25 09:55:30 - sshInstance.py - [line:69] - root - INFO - Activate the web console with: systemctl enable --now cockpit.socket
+
+This system is not registered to Red Hat Insights. See https://cloud.redhat.com/
+To register this system, run: insights-client --register
+
+Last login: Thu Nov 25 09:54:21 2021 from 10.239.129.147
+[root@WW30CYP10 ~]# ping -c 5 192.168.10.10
+PING 192.168.10.10 (192.168.10.10) 56(84) bytes of data.
+64 bytes from 192.168.10.10: icmp_seq=1 ttl=64 time=0.034 ms
+2021-11-25 09:55:31 - sshInstance.py - [line:69] - root - INFO - 64 bytes from 192.168.10.10: icmp_seq=2 ttl=64 time=0.013 ms
+2021-11-25 09:55:32 - sshInstance.py - [line:69] - root - INFO - 64 bytes from 192.168.10.10: icmp_seq=3 ttl=64 time=0.010 ms
+2021-11-25 09:55:33 - sshInstance.py - [line:69] - root - INFO - 64 bytes from 192.168.10.10: icmp_seq=4 ttl=64 time=0.012 ms
+2021-11-25 09:55:34 - sshInstance.py - [line:69] - root - INFO - 64 bytes from 192.168.10.10: icmp_seq=5 ttl=64 time=0.008 ms
+
+--- 192.168.10.10 ping statistics ---
+5 packets transmitted, 5 received, 0% packet loss, time 4118ms
+rtt min/avg/max/mdev = 0.008/0.015/0.034/0.010 ms
+[root@WW30CYP10 ~]# 
+2021-11-25 09:55:42 - sshInstance.py - [line:89] - root - INFO - ifconfig ens787f0 down
+[root@WW30CYP10 ~]# 
+2021-11-25 09:55:50 - sshInstance.py - [line:89] - root - INFO - ifconfig ens787f0 up
+[root@WW30CYP10 ~]# 
+2021-11-25 09:55:57 - sshInstance.py - [line:69] - root - INFO - ping -c 5 192.168.10.10
+PING 192.168.10.10 (192.168.10.10) 56(84) bytes of data.
+64 bytes from 192.168.10.10: icmp_seq=1 ttl=64 time=0.033 ms
+2021-11-25 09:55:58 - sshInstance.py - [line:69] - root - INFO - 64 bytes from 192.168.10.10: icmp_seq=2 ttl=64 time=0.011 ms
+2021-11-25 09:55:59 - sshInstance.py - [line:69] - root - INFO - 64 bytes from 192.168.10.10: icmp_seq=3 ttl=64 time=0.009 ms
+2021-11-25 09:56:00 - sshInstance.py - [line:69] - root - INFO - 64 bytes from 192.168.10.10: icmp_seq=4 ttl=64 time=0.010 ms
+2021-11-25 09:56:01 - sshInstance.py - [line:69] - root - INFO - 64 bytes from 192.168.10.10: icmp_seq=5 ttl=64 time=0.007 ms
+
+--- 192.168.10.10 ping statistics ---
+5 packets transmitted, 5 received, 0% packet loss, time 4095ms
+rtt min/avg/max/mdev = 0.007/0.014/0.033/0.009 ms
+[root@WW30CYP10 ~]# 
+2021-11-25 09:56:09 - sshInstance.py - [line:89] - root - INFO - ifconfig ens787f0 down
+[root@WW30CYP10 ~]# 
+2021-11-25 09:56:17 - sshInstance.py - [line:89] - root - INFO - ifconfig ens787f0 up
+[root@WW30CYP10 ~]# 
+2021-11-25 09:56:24 - sshInstance.py - [line:69] - root - INFO - ping -c 5 192.168.10.10
+PING 192.168.10.10 (192.168.10.10) 56(84) bytes of data.
+64 bytes from 192.168.10.10: icmp_seq=1 ttl=64 time=0.026 ms
+2021-11-25 09:56:25 - sshInstance.py - [line:69] - root - INFO - 64 bytes from 192.168.10.10: icmp_seq=2 ttl=64 time=0.012 ms
+2021-11-25 09:56:26 - sshInstance.py - [line:69] - root - INFO - 64 bytes from 192.168.10.10: icmp_seq=3 ttl=64 time=0.008 ms
+2021-11-25 09:56:27 - sshInstance.py - [line:69] - root - INFO - 64 bytes from 192.168.10.10: icmp_seq=4 ttl=64 time=0.016 ms
+2021-11-25 09:56:28 - sshInstance.py - [line:69] - root - INFO - 64 bytes from 192.168.10.10: icmp_seq=5 ttl=64 time=0.008 ms
+
+--- 192.168.10.10 ping statistics ---
+5 packets transmitted, 5 received, 0% packet loss, time 4072ms
+rtt min/avg/max/mdev = 0.008/0.014/0.026/0.006 ms
+[root@WW30CYP10 ~]# 
+2021-11-25 09:56:36 - sshInstance.py - [line:89] - root - INFO - ifconfig ens787f0 down
+[root@WW30CYP10 ~]# 
+2021-11-25 09:56:44 - sshInstance.py - [line:89] - root - INFO - ifconfig ens787f0 up
+[root@WW30CYP10 ~]# 
+2021-11-25 09:56:51 - sshInstance.py - [line:69] - root - INFO - ping -c 5 192.168.10.10
+PING 192.168.10.10 (192.168.10.10) 56(84) bytes of data.
+64 bytes from 192.168.10.10: icmp_seq=1 ttl=64 time=0.028 ms
+2021-11-25 09:56:52 - sshInstance.py - [line:69] - root - INFO - 64 bytes from 192.168.10.10: icmp_seq=2 ttl=64 time=0.010 ms
+2021-11-25 09:56:53 - sshInstance.py - [line:69] - root - INFO - 64 bytes from 192.168.10.10: icmp_seq=3 ttl=64 time=0.011 ms
+2021-11-25 09:56:54 - sshInstance.py - [line:69] - root - INFO - 64 bytes from 192.168.10.10: icmp_seq=4 ttl=64 time=0.009 ms
+2021-11-25 09:56:55 - sshInstance.py - [line:69] - root - INFO - 64 bytes from 192.168.10.10: icmp_seq=5 ttl=64 time=0.009 ms
+
+--- 192.168.10.10 ping statistics ---
+5 packets transmitted, 5 received, 0% packet loss, time 4114ms
+rtt min/avg/max/mdev = 0.009/0.013/0.028/0.008 ms
+[root@WW30CYP10 ~]# 
+2021-11-25 09:57:03 - sshInstance.py - [line:89] - root - INFO - ifconfig ens787f0 down
+[root@WW30CYP10 ~]# 
+2021-11-25 09:57:11 - sshInstance.py - [line:89] - root - INFO - ifconfig ens787f0 up
+[root@WW30CYP10 ~]# 
+2021-11-25 09:57:18 - sshInstance.py - [line:69] - root - INFO - ping -c 5 192.168.10.10
+PING 192.168.10.10 (192.168.10.10) 56(84) bytes of data.
+64 bytes from 192.168.10.10: icmp_seq=1 ttl=64 time=0.028 ms
+2021-11-25 09:57:19 - sshInstance.py - [line:69] - root - INFO - 64 bytes from 192.168.10.10: icmp_seq=2 ttl=64 time=0.010 ms
+2021-11-25 09:57:20 - sshInstance.py - [line:69] - root - INFO - 64 bytes from 192.168.10.10: icmp_seq=3 ttl=64 time=0.008 ms
+2021-11-25 09:57:21 - sshInstance.py - [line:69] - root - INFO - 64 bytes from 192.168.10.10: icmp_seq=4 ttl=64 time=0.008 ms
+2021-11-25 09:57:22 - sshInstance.py - [line:69] - root - INFO - 64 bytes from 192.168.10.10: icmp_seq=5 ttl=64 time=0.008 ms
+
+--- 192.168.10.10 ping statistics ---
+5 packets transmitted, 5 received, 0% packet loss, time 4093ms
+rtt min/avg/max/mdev = 0.008/0.012/0.028/0.008 ms
+[root@WW30CYP10 ~]# 
+2021-11-25 09:57:30 - sshInstance.py - [line:89] - root - INFO - ifconfig ens787f0 down
+[root@WW30CYP10 ~]# 
+2021-11-25 09:57:38 - sshInstance.py - [line:89] - root - INFO - ifconfig ens787f0 up
+[root@WW30CYP10 ~]# 
+2021-11-25 09:57:45 - sshInstance.py - [line:69] - root - INFO - ping -c 5 192.168.10.10
+PING 192.168.10.10 (192.168.10.10) 56(84) bytes of data.
+64 bytes from 192.168.10.10: icmp_seq=1 ttl=64 time=0.035 ms
+2021-11-25 09:57:46 - sshInstance.py - [line:69] - root - INFO - 64 bytes from 192.168.10.10: icmp_seq=2 ttl=64 time=0.010 ms
+2021-11-25 09:57:47 - sshInstance.py - [line:69] - root - INFO - 64 bytes from 192.168.10.10: icmp_seq=3 ttl=64 time=0.008 ms
+2021-11-25 09:57:48 - sshInstance.py - [line:69] - root - INFO - 64 bytes from 192.168.10.10: icmp_seq=4 ttl=64 time=0.017 ms
+2021-11-25 09:57:49 - sshInstance.py - [line:69] - root - INFO - 64 bytes from 192.168.10.10: icmp_seq=5 ttl=64 time=0.008 ms
+
+--- 192.168.10.10 ping statistics ---
+5 packets transmitted, 5 received, 0% packet loss, time 4133ms
+rtt min/avg/max/mdev = 0.008/0.015/0.035/0.011 ms
+[root@WW30CYP10 ~]# 
+.2021-11-25 09:57:52 - sshInstance.py - [line:39] - root - INFO - closing ssh client on SUT
+2021-11-25 09:57:52 - test_nics.py - [line:28] - root - INFO - this is Test_Nics teardown
+2021-11-25 09:57:52 - NicTestFixture.py - [line:28] - root - INFO - Starting to run test_silver_ConnectivityReboot
+2021-11-25 09:57:52 - NicTestFixture.py - [line:29] - root - INFO - setup log for testing in the fixture class fbefore
+2021-11-25 09:57:52 - test_nics.py - [line:18] - root - INFO - this is Test_Nics setup.
+2021-11-25 09:57:52 - transport.py - [line:1819] - paramiko.transport - INFO - Connected (version 2.0, client OpenSSH_8.0)
+2021-11-25 09:57:52 - transport.py - [line:1819] - paramiko.transport - INFO - Authentication (publickey) failed.
+2021-11-25 09:57:52 - transport.py - [line:1819] - paramiko.transport - INFO - Authentication (password) successful!
+2021-11-25 09:57:52 - sshInstance.py - [line:28] - root - INFO - SSH on SUT: 10.112.97.157
+2021-11-25 09:57:52 - test_nics.py - [line:56] - root - INFO - run silver_ConnectivityReboot
+2021-11-25 09:57:52 - transport.py - [line:1819] - paramiko.transport - INFO - Connected (version 2.0, client OpenSSH_8.0)
+2021-11-25 09:57:52 - transport.py - [line:1819] - paramiko.transport - INFO - Authentication (publickey) failed.
+2021-11-25 09:57:52 - transport.py - [line:1819] - paramiko.transport - INFO - Authentication (password) successful!
+2021-11-25 09:57:52 - sshInstance.py - [line:28] - root - INFO - SSH on SUT: 10.112.97.157
+2021-11-25 09:57:56 - sshInstance.py - [line:69] - root - INFO - Activate the web console with: systemctl enable --now cockpit.socket
+
+This system is not registered to Red Hat Insights. See https://cloud.redhat.com/
+To register this system, run: insights-client --register
+
+Last login: Thu Nov 25 09:58:04 2021 from 10.239.129.147
+[root@WW30CYP10 ~]# ping -c 5 192.168.10.10
+PING 192.168.10.10 (192.168.10.10) 56(84) bytes of data.
+64 bytes from 192.168.10.10: icmp_seq=1 ttl=64 time=0.039 ms
+2021-11-25 09:57:57 - sshInstance.py - [line:69] - root - INFO - 64 bytes from 192.168.10.10: icmp_seq=2 ttl=64 time=0.010 ms
+2021-11-25 09:57:58 - sshInstance.py - [line:69] - root - INFO - 64 bytes from 192.168.10.10: icmp_seq=3 ttl=64 time=0.007 ms
+2021-11-25 09:57:59 - sshInstance.py - [line:69] - root - INFO - 64 bytes from 192.168.10.10: icmp_seq=4 ttl=64 time=0.007 ms
+2021-11-25 09:58:00 - sshInstance.py - [line:69] - root - INFO - 64 bytes from 192.168.10.10: icmp_seq=5 ttl=64 time=0.007 ms
+
+--- 192.168.10.10 ping statistics ---
+5 packets transmitted, 5 received, 0% packet loss, time 4103ms
+rtt min/avg/max/mdev = 0.007/0.014/0.039/0.012 ms
+[root@WW30CYP10 ~]# 
+2021-11-25 09:58:07 - sshInstance.py - [line:69] - root - INFO - ping6 -c 5 -I ens787f0 fe80::b696:91ff:fe9c:f762
+ping6: Warning: source address might be selected on device other than ens787f0.
+PING fe80::b696:91ff:fe9c:f762(fe80::b696:91ff:fe9c:f762) from :: ens787f0: 56 data bytes
+64 bytes from fe80::b696:91ff:fe9c:f762%ens787f0: icmp_seq=1 ttl=64 time=0.193 ms
+2021-11-25 09:58:08 - sshInstance.py - [line:69] - root - INFO - 64 bytes from fe80::b696:91ff:fe9c:f762%ens787f0: icmp_seq=2 ttl=64 time=0.033 ms
+2021-11-25 09:58:09 - sshInstance.py - [line:69] - root - INFO - 64 bytes from fe80::b696:91ff:fe9c:f762%ens787f0: icmp_seq=3 ttl=64 time=0.033 ms
+2021-11-25 09:58:10 - sshInstance.py - [line:69] - root - INFO - 64 bytes from fe80::b696:91ff:fe9c:f762%ens787f0: icmp_seq=4 ttl=64 time=0.031 ms
+2021-11-25 09:58:11 - sshInstance.py - [line:69] - root - INFO - 64 bytes from fe80::b696:91ff:fe9c:f762%ens787f0: icmp_seq=5 ttl=64 time=0.028 ms
+
+--- fe80::b696:91ff:fe9c:f762 ping statistics ---
+5 packets transmitted, 5 received, 0% packet loss, time 4098ms
+rtt min/avg/max/mdev = 0.028/0.063/0.193/0.065 ms
+[root@WW30CYP10 ~]# 
+2021-11-25 09:58:14 - transport.py - [line:1819] - paramiko.transport - INFO - Connected (version 2.0, client OpenSSH_8.0)
+2021-11-25 09:58:15 - transport.py - [line:1819] - paramiko.transport - INFO - Authentication (publickey) failed.
+2021-11-25 09:58:15 - transport.py - [line:1819] - paramiko.transport - INFO - Authentication (password) successful!
+2021-11-25 09:58:15 - sshInstance.py - [line:28] - root - INFO - SSH on SUT: 10.112.97.157
+2021-11-25 09:58:19 - sshInstance.py - [line:69] - root - INFO - Activate the web console with: systemctl enable --now cockpit.socket
+
+This system is not registered to Red Hat Insights. See https://cloud.redhat.com/
+To register this system, run: insights-client --register
+
+Last login: Thu Nov 25 09:58:04 2021 from 10.239.129.147
+[root@WW30CYP10 ~]# ping -c 5 192.168.10.10
+PING 192.168.10.10 (192.168.10.10) 56(84) bytes of data.
+64 bytes from 192.168.10.10: icmp_seq=1 ttl=64 time=0.042 ms
+2021-11-25 09:58:20 - sshInstance.py - [line:69] - root - INFO - 64 bytes from 192.168.10.10: icmp_seq=2 ttl=64 time=0.010 ms
+2021-11-25 09:58:21 - sshInstance.py - [line:69] - root - INFO - 64 bytes from 192.168.10.10: icmp_seq=3 ttl=64 time=0.009 ms
+2021-11-25 09:58:22 - sshInstance.py - [line:69] - root - INFO - 64 bytes from 192.168.10.10: icmp_seq=4 ttl=64 time=0.008 ms
+2021-11-25 09:58:23 - sshInstance.py - [line:69] - root - INFO - 64 bytes from 192.168.10.10: icmp_seq=5 ttl=64 time=0.012 ms
+
+--- 192.168.10.10 ping statistics ---
+5 packets transmitted, 5 received, 0% packet loss, time 4114ms
+rtt min/avg/max/mdev = 0.008/0.016/0.042/0.013 ms
+[root@WW30CYP10 ~]# 
+2021-11-25 09:58:30 - sshInstance.py - [line:69] - root - INFO - ping6 -c 5 -I ens787f0 fe80::b696:91ff:fe9c:f762
+ping6: Warning: source address might be selected on device other than ens787f0.
+PING fe80::b696:91ff:fe9c:f762(fe80::b696:91ff:fe9c:f762) from :: ens787f0: 56 data bytes
+64 bytes from fe80::b696:91ff:fe9c:f762%ens787f0: icmp_seq=1 ttl=64 time=0.093 ms
+2021-11-25 09:58:31 - sshInstance.py - [line:69] - root - INFO - 64 bytes from fe80::b696:91ff:fe9c:f762%ens787f0: icmp_seq=2 ttl=64 time=0.044 ms
+2021-11-25 09:58:32 - sshInstance.py - [line:69] - root - INFO - 64 bytes from fe80::b696:91ff:fe9c:f762%ens787f0: icmp_seq=3 ttl=64 time=0.040 ms
+2021-11-25 09:58:33 - sshInstance.py - [line:69] - root - INFO - 64 bytes from fe80::b696:91ff:fe9c:f762%ens787f0: icmp_seq=4 ttl=64 time=0.048 ms
+2021-11-25 09:58:34 - sshInstance.py - [line:69] - root - INFO - 64 bytes from fe80::b696:91ff:fe9c:f762%ens787f0: icmp_seq=5 ttl=64 time=0.030 ms
+
+--- fe80::b696:91ff:fe9c:f762 ping statistics ---
+5 packets transmitted, 5 received, 0% packet loss, time 4107ms
+rtt min/avg/max/mdev = 0.030/0.051/0.093/0.021 ms
+[root@WW30CYP10 ~]# 
+2021-11-25 09:58:37 - transport.py - [line:1819] - paramiko.transport - INFO - Connected (version 2.0, client OpenSSH_8.0)
+2021-11-25 09:58:37 - transport.py - [line:1819] - paramiko.transport - INFO - Authentication (publickey) failed.
+2021-11-25 09:58:37 - transport.py - [line:1819] - paramiko.transport - INFO - Authentication (password) successful!
+2021-11-25 09:58:37 - sshInstance.py - [line:28] - root - INFO - SSH on SUT: 10.112.97.157
+2021-11-25 09:58:41 - sshInstance.py - [line:69] - root - INFO - Activate the web console with: systemctl enable --now cockpit.socket
+
+This system is not registered to Red Hat Insights. See https://cloud.redhat.com/
+To register this system, run: insights-client --register
+
+Last login: Thu Nov 25 09:58:26 2021 from 10.239.129.147
+[root@WW30CYP10 ~]# ping -c 5 192.168.10.10
+PING 192.168.10.10 (192.168.10.10) 56(84) bytes of data.
+64 bytes from 192.168.10.10: icmp_seq=1 ttl=64 time=0.040 ms
+2021-11-25 09:58:42 - sshInstance.py - [line:69] - root - INFO - 64 bytes from 192.168.10.10: icmp_seq=2 ttl=64 time=0.012 ms
+2021-11-25 09:58:43 - sshInstance.py - [line:69] - root - INFO - 64 bytes from 192.168.10.10: icmp_seq=3 ttl=64 time=0.011 ms
+2021-11-25 09:58:44 - sshInstance.py - [line:69] - root - INFO - 64 bytes from 192.168.10.10: icmp_seq=4 ttl=64 time=0.008 ms
+2021-11-25 09:58:45 - sshInstance.py - [line:69] - root - INFO - 64 bytes from 192.168.10.10: icmp_seq=5 ttl=64 time=0.007 ms
+
+--- 192.168.10.10 ping statistics ---
+5 packets transmitted, 5 received, 0% packet loss, time 4129ms
+rtt min/avg/max/mdev = 0.007/0.015/0.040/0.013 ms
+[root@WW30CYP10 ~]# 
+2021-11-25 09:58:52 - sshInstance.py - [line:69] - root - INFO - ping6 -c 5 -I ens787f0 fe80::b696:91ff:fe9c:f762
+ping6: Warning: source address might be selected on device other than ens787f0.
+PING fe80::b696:91ff:fe9c:f762(fe80::b696:91ff:fe9c:f762) from :: ens787f0: 56 data bytes
+64 bytes from fe80::b696:91ff:fe9c:f762%ens787f0: icmp_seq=1 ttl=64 time=0.074 ms
+2021-11-25 09:58:53 - sshInstance.py - [line:69] - root - INFO - 64 bytes from fe80::b696:91ff:fe9c:f762%ens787f0: icmp_seq=2 ttl=64 time=0.073 ms
+2021-11-25 09:58:54 - sshInstance.py - [line:69] - root - INFO - 64 bytes from fe80::b696:91ff:fe9c:f762%ens787f0: icmp_seq=3 ttl=64 time=0.034 ms
+2021-11-25 09:58:55 - sshInstance.py - [line:69] - root - INFO - 64 bytes from fe80::b696:91ff:fe9c:f762%ens787f0: icmp_seq=4 ttl=64 time=0.026 ms
+2021-11-25 09:58:56 - sshInstance.py - [line:69] - root - INFO - 64 bytes from fe80::b696:91ff:fe9c:f762%ens787f0: icmp_seq=5 ttl=64 time=0.030 ms
+
+--- fe80::b696:91ff:fe9c:f762 ping statistics ---
+5 packets transmitted, 5 received, 0% packet loss, time 4123ms
+rtt min/avg/max/mdev = 0.026/0.047/0.074/0.022 ms
+[root@WW30CYP10 ~]# 
+2021-11-25 09:58:59 - transport.py - [line:1819] - paramiko.transport - INFO - Connected (version 2.0, client OpenSSH_8.0)
+2021-11-25 09:58:59 - transport.py - [line:1819] - paramiko.transport - INFO - Authentication (publickey) failed.
+2021-11-25 09:58:59 - transport.py - [line:1819] - paramiko.transport - INFO - Authentication (password) successful!
+2021-11-25 09:58:59 - sshInstance.py - [line:28] - root - INFO - SSH on SUT: 10.112.97.157
+2021-11-25 09:59:03 - sshInstance.py - [line:69] - root - INFO - Activate the web console with: systemctl enable --now cockpit.socket
+
+This system is not registered to Red Hat Insights. See https://cloud.redhat.com/
+To register this system, run: insights-client --register
+
+Last login: Thu Nov 25 09:58:48 2021 from 10.239.129.147
+[root@WW30CYP10 ~]# ping -c 5 192.168.10.10
+PING 192.168.10.10 (192.168.10.10) 56(84) bytes of data.
+64 bytes from 192.168.10.10: icmp_seq=1 ttl=64 time=0.039 ms
+2021-11-25 09:59:04 - sshInstance.py - [line:69] - root - INFO - 64 bytes from 192.168.10.10: icmp_seq=2 ttl=64 time=0.017 ms
+2021-11-25 09:59:05 - sshInstance.py - [line:69] - root - INFO - 64 bytes from 192.168.10.10: icmp_seq=3 ttl=64 time=0.008 ms
+2021-11-25 09:59:06 - sshInstance.py - [line:69] - root - INFO - 64 bytes from 192.168.10.10: icmp_seq=4 ttl=64 time=0.008 ms
+2021-11-25 09:59:07 - sshInstance.py - [line:69] - root - INFO - 64 bytes from 192.168.10.10: icmp_seq=5 ttl=64 time=0.010 ms
+
+--- 192.168.10.10 ping statistics ---
+5 packets transmitted, 5 received, 0% packet loss, time 4074ms
+rtt min/avg/max/mdev = 0.008/0.016/0.039/0.012 ms
+[root@WW30CYP10 ~]# 
+2021-11-25 09:59:14 - sshInstance.py - [line:69] - root - INFO - ping6 -c 5 -I ens787f0 fe80::b696:91ff:fe9c:f762
+ping6: Warning: source address might be selected on device other than ens787f0.
+PING fe80::b696:91ff:fe9c:f762(fe80::b696:91ff:fe9c:f762) from :: ens787f0: 56 data bytes
+64 bytes from fe80::b696:91ff:fe9c:f762%ens787f0: icmp_seq=1 ttl=64 time=0.083 ms
+2021-11-25 09:59:15 - sshInstance.py - [line:69] - root - INFO - 64 bytes from fe80::b696:91ff:fe9c:f762%ens787f0: icmp_seq=2 ttl=64 time=0.045 ms
+2021-11-25 09:59:16 - sshInstance.py - [line:69] - root - INFO - 64 bytes from fe80::b696:91ff:fe9c:f762%ens787f0: icmp_seq=3 ttl=64 time=0.028 ms
+2021-11-25 09:59:17 - sshInstance.py - [line:69] - root - INFO - 64 bytes from fe80::b696:91ff:fe9c:f762%ens787f0: icmp_seq=4 ttl=64 time=0.028 ms
+2021-11-25 09:59:18 - sshInstance.py - [line:69] - root - INFO - 64 bytes from fe80::b696:91ff:fe9c:f762%ens787f0: icmp_seq=5 ttl=64 time=0.028 ms
+
+--- fe80::b696:91ff:fe9c:f762 ping statistics ---
+5 packets transmitted, 5 received, 0% packet loss, time 4133ms
+rtt min/avg/max/mdev = 0.028/0.042/0.083/0.022 ms
+[root@WW30CYP10 ~]# 
+2021-11-25 09:59:21 - transport.py - [line:1819] - paramiko.transport - INFO - Connected (version 2.0, client OpenSSH_8.0)
+2021-11-25 09:59:21 - transport.py - [line:1819] - paramiko.transport - INFO - Authentication (publickey) failed.
+2021-11-25 09:59:21 - transport.py - [line:1819] - paramiko.transport - INFO - Authentication (password) successful!
+2021-11-25 09:59:21 - sshInstance.py - [line:28] - root - INFO - SSH on SUT: 10.112.97.157
+2021-11-25 09:59:25 - sshInstance.py - [line:69] - root - INFO - Activate the web console with: systemctl enable --now cockpit.socket
+
+This system is not registered to Red Hat Insights. See https://cloud.redhat.com/
+To register this system, run: insights-client --register
+
+Last login: Thu Nov 25 09:59:10 2021 from 10.239.129.147
+[root@WW30CYP10 ~]# ping -c 5 192.168.10.10
+PING 192.168.10.10 (192.168.10.10) 56(84) bytes of data.
+64 bytes from 192.168.10.10: icmp_seq=1 ttl=64 time=0.045 ms
+2021-11-25 09:59:26 - sshInstance.py - [line:69] - root - INFO - 64 bytes from 192.168.10.10: icmp_seq=2 ttl=64 time=0.011 ms
+2021-11-25 09:59:27 - sshInstance.py - [line:69] - root - INFO - 64 bytes from 192.168.10.10: icmp_seq=3 ttl=64 time=0.013 ms
+2021-11-25 09:59:28 - sshInstance.py - [line:69] - root - INFO - 64 bytes from 192.168.10.10: icmp_seq=4 ttl=64 time=0.009 ms
+2021-11-25 09:59:29 - sshInstance.py - [line:69] - root - INFO - 64 bytes from 192.168.10.10: icmp_seq=5 ttl=64 time=0.007 ms
+
+--- 192.168.10.10 ping statistics ---
+5 packets transmitted, 5 received, 0% packet loss, time 4086ms
+rtt min/avg/max/mdev = 0.007/0.017/0.045/0.014 ms
+[root@WW30CYP10 ~]# 
+2021-11-25 09:59:36 - sshInstance.py - [line:69] - root - INFO - ping6 -c 5 -I ens787f0 fe80::b696:91ff:fe9c:f762
+ping6: Warning: source address might be selected on device other than ens787f0.
+PING fe80::b696:91ff:fe9c:f762(fe80::b696:91ff:fe9c:f762) from :: ens787f0: 56 data bytes
+64 bytes from fe80::b696:91ff:fe9c:f762%ens787f0: icmp_seq=1 ttl=64 time=0.080 ms
+2021-11-25 09:59:37 - sshInstance.py - [line:69] - root - INFO - 64 bytes from fe80::b696:91ff:fe9c:f762%ens787f0: icmp_seq=2 ttl=64 time=0.037 ms
+2021-11-25 09:59:38 - sshInstance.py - [line:69] - root - INFO - 64 bytes from fe80::b696:91ff:fe9c:f762%ens787f0: icmp_seq=3 ttl=64 time=0.027 ms
+2021-11-25 09:59:39 - sshInstance.py - [line:69] - root - INFO - 64 bytes from fe80::b696:91ff:fe9c:f762%ens787f0: icmp_seq=4 ttl=64 time=0.026 ms
+2021-11-25 09:59:40 - sshInstance.py - [line:69] - root - INFO - 64 bytes from fe80::b696:91ff:fe9c:f762%ens787f0: icmp_seq=5 ttl=64 time=0.027 ms
+
+--- fe80::b696:91ff:fe9c:f762 ping statistics ---
+5 packets transmitted, 5 received, 0% packet loss, time 4080ms
+rtt min/avg/max/mdev = 0.026/0.039/0.080/0.021 ms
+[root@WW30CYP10 ~]# 
+.2021-11-25 09:59:43 - sshInstance.py - [line:39] - root - INFO - closing ssh client on SUT
+2021-11-25 09:59:43 - test_nics.py - [line:28] - root - INFO - this is Test_Nics teardown
+2021-11-25 09:59:43 - NicTestFixture.py - [line:28] - root - INFO - Starting to run test_gold_PI_Networking_SRIOV_CheckDevice
+2021-11-25 09:59:43 - NicTestFixture.py - [line:29] - root - INFO - setup log for testing in the fixture class fbefore
+2021-11-25 09:59:43 - test_nics.py - [line:18] - root - INFO - this is Test_Nics setup.
+2021-11-25 09:59:43 - transport.py - [line:1819] - paramiko.transport - INFO - Connected (version 2.0, client OpenSSH_8.0)
+2021-11-25 09:59:43 - transport.py - [line:1819] - paramiko.transport - INFO - Authentication (publickey) failed.
+2021-11-25 09:59:43 - transport.py - [line:1819] - paramiko.transport - INFO - Authentication (password) successful!
+2021-11-25 09:59:43 - sshInstance.py - [line:28] - root - INFO - SSH on SUT: 10.112.97.157
+2021-11-25 09:59:43 - test_nics.py - [line:74] - root - INFO - run gold_PI_Networking_SRIOV_CheckDevice
+2021-11-25 09:59:46 - sshInstance.py - [line:44] - root - INFO - echo 0 > /sys/class/net/ens787f0/device/sriov_numvfs
+2021-11-25 09:59:48 - sshInstance.py - [line:48] - root - INFO - 
+2021-11-25 09:59:56 - sshInstance.py - [line:44] - root - INFO - echo 4 > /sys/class/net/ens787f0/device/sriov_numvfs
+2021-11-25 09:59:57 - sshInstance.py - [line:48] - root - INFO - 
+2021-11-25 10:00:05 - sshInstance.py - [line:44] - root - INFO - ifconfig ens787f0v0 192.168.10.11
+2021-11-25 10:00:05 - sshInstance.py - [line:48] - root - INFO - 
+2021-11-25 10:00:13 - sshInstance.py - [line:44] - root - INFO - ifconfig ens787f0v1 192.168.10.12
+2021-11-25 10:00:13 - sshInstance.py - [line:48] - root - INFO - 
+2021-11-25 10:00:21 - sshInstance.py - [line:44] - root - INFO - ifconfig ens787f0v2 192.168.10.13
+2021-11-25 10:00:21 - sshInstance.py - [line:48] - root - INFO - 
+2021-11-25 10:00:29 - sshInstance.py - [line:44] - root - INFO - ifconfig ens787f0v3 192.168.10.14
+2021-11-25 10:00:29 - sshInstance.py - [line:48] - root - INFO - 
+2021-11-25 10:00:37 - sshInstance.py - [line:44] - root - INFO - ping -c 5 192.168.10.10
+2021-11-25 10:00:41 - sshInstance.py - [line:48] - root - INFO - PING 192.168.10.10 (192.168.10.10) 56(84) bytes of data.
+64 bytes from 192.168.10.10: icmp_seq=1 ttl=64 time=0.040 ms
+64 bytes from 192.168.10.10: icmp_seq=2 ttl=64 time=0.011 ms
+64 bytes from 192.168.10.10: icmp_seq=3 ttl=64 time=0.010 ms
+64 bytes from 192.168.10.10: icmp_seq=4 ttl=64 time=0.012 ms
+64 bytes from 192.168.10.10: icmp_seq=5 ttl=64 time=0.019 ms
+
+--- 192.168.10.10 ping statistics ---
+5 packets transmitted, 5 received, 0% packet loss, time 4105ms
+rtt min/avg/max/mdev = 0.010/0.018/0.040/0.011 ms
+
+2021-11-25 10:00:49 - sshInstance.py - [line:44] - root - INFO - ping6 -c 5 -I ens787f0v0 fe80::b696:91ff:fe9c:f762
+2021-11-25 10:01:03 - sshInstance.py - [line:48] - root - INFO - PING fe80::b696:91ff:fe9c:f762(fe80::b696:91ff:fe9c:f762) from :: ens787f0v0: 56 data bytes
+
+--- fe80::b696:91ff:fe9c:f762 ping statistics ---
+5 packets transmitted, 0 received, 100% packet loss, time 4110ms
+
+
+2021-11-25 10:01:11 - sshInstance.py - [line:44] - root - INFO - ping -c 5 192.168.10.10
+2021-11-25 10:01:15 - sshInstance.py - [line:48] - root - INFO - PING 192.168.10.10 (192.168.10.10) 56(84) bytes of data.
+64 bytes from 192.168.10.10: icmp_seq=1 ttl=64 time=0.041 ms
+64 bytes from 192.168.10.10: icmp_seq=2 ttl=64 time=0.017 ms
+64 bytes from 192.168.10.10: icmp_seq=3 ttl=64 time=0.008 ms
+64 bytes from 192.168.10.10: icmp_seq=4 ttl=64 time=0.008 ms
+64 bytes from 192.168.10.10: icmp_seq=5 ttl=64 time=0.014 ms
+
+--- 192.168.10.10 ping statistics ---
+5 packets transmitted, 5 received, 0% packet loss, time 4091ms
+rtt min/avg/max/mdev = 0.008/0.017/0.041/0.013 ms
+
+2021-11-25 10:01:23 - sshInstance.py - [line:44] - root - INFO - ping6 -c 5 -I ens787f0v1 fe80::b696:91ff:fe9c:f762
+2021-11-25 10:01:37 - sshInstance.py - [line:48] - root - INFO - PING fe80::b696:91ff:fe9c:f762(fe80::b696:91ff:fe9c:f762) from :: ens787f0v1: 56 data bytes
+
+--- fe80::b696:91ff:fe9c:f762 ping statistics ---
+5 packets transmitted, 0 received, 100% packet loss, time 4107ms
+
+
+2021-11-25 10:01:45 - sshInstance.py - [line:44] - root - INFO - ping -c 5 192.168.10.10
+2021-11-25 10:01:49 - sshInstance.py - [line:48] - root - INFO - PING 192.168.10.10 (192.168.10.10) 56(84) bytes of data.
+64 bytes from 192.168.10.10: icmp_seq=1 ttl=64 time=0.044 ms
+64 bytes from 192.168.10.10: icmp_seq=2 ttl=64 time=0.011 ms
+64 bytes from 192.168.10.10: icmp_seq=3 ttl=64 time=0.008 ms
+64 bytes from 192.168.10.10: icmp_seq=4 ttl=64 time=0.007 ms
+64 bytes from 192.168.10.10: icmp_seq=5 ttl=64 time=0.008 ms
+
+--- 192.168.10.10 ping statistics ---
+5 packets transmitted, 5 received, 0% packet loss, time 4093ms
+rtt min/avg/max/mdev = 0.007/0.015/0.044/0.014 ms
+
+2021-11-25 10:01:57 - sshInstance.py - [line:44] - root - INFO - ping6 -c 5 -I ens787f0v2 fe80::b696:91ff:fe9c:f762
+2021-11-25 10:02:12 - sshInstance.py - [line:48] - root - INFO - PING fe80::b696:91ff:fe9c:f762(fe80::b696:91ff:fe9c:f762) from :: ens787f0v2: 56 data bytes
+
+--- fe80::b696:91ff:fe9c:f762 ping statistics ---
+5 packets transmitted, 0 received, 100% packet loss, time 4108ms
+
+
+2021-11-25 10:02:20 - sshInstance.py - [line:44] - root - INFO - ping -c 5 192.168.10.10
+2021-11-25 10:02:24 - sshInstance.py - [line:48] - root - INFO - PING 192.168.10.10 (192.168.10.10) 56(84) bytes of data.
+64 bytes from 192.168.10.10: icmp_seq=1 ttl=64 time=0.041 ms
+64 bytes from 192.168.10.10: icmp_seq=2 ttl=64 time=0.017 ms
+64 bytes from 192.168.10.10: icmp_seq=3 ttl=64 time=0.026 ms
+64 bytes from 192.168.10.10: icmp_seq=4 ttl=64 time=0.011 ms
+64 bytes from 192.168.10.10: icmp_seq=5 ttl=64 time=0.008 ms
+
+--- 192.168.10.10 ping statistics ---
+5 packets transmitted, 5 received, 0% packet loss, time 4093ms
+rtt min/avg/max/mdev = 0.008/0.020/0.041/0.012 ms
+
+2021-11-25 10:02:32 - sshInstance.py - [line:44] - root - INFO - ping6 -c 5 -I ens787f0v3 fe80::b696:91ff:fe9c:f762
+2021-11-25 10:02:46 - sshInstance.py - [line:48] - root - INFO - PING fe80::b696:91ff:fe9c:f762(fe80::b696:91ff:fe9c:f762) from :: ens787f0v3: 56 data bytes
+
+--- fe80::b696:91ff:fe9c:f762 ping statistics ---
+5 packets transmitted, 0 received, 100% packet loss, time 4106ms
+
+
+.2021-11-25 10:02:51 - sshInstance.py - [line:39] - root - INFO - closing ssh client on SUT
+2021-11-25 10:02:51 - test_nics.py - [line:28] - root - INFO - this is Test_Nics teardown
+
+
+======================== 3 passed in 445.29s (0:07:25) =========================
+[8mha:////4KMKnj+jwomtBZRlOM1zDNsT7NVP2UylJUBAmwQdpqOFAAAAox+LCAAAAAAAAP9tjTESwiAURH/iWNhaeggyGUvHypah8QSYIEKY/wkQSeWJvJp3EM2MlVvs7NvmPV+wjgGOFDSzCgeDsTPMu0mXxTKF4eooM0sX1hFGcooJlQX16rSgoKRgSVXDisNGYecoGtQJttzKu2ycRN2cUyjfgUNt+hEeUPFiTjKkL8wBdrepj4Q/z18BzN4nqNv9p9o3geV5574AAAA=[0m[Pipeline] }
+[8mha:////4PHbOgS4fTQzlO31aLQygq6Gmyy7LbpReNAbbgHuNOsPAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOICEh2iSmu54QUmNsaJdWdsh6TiRXyNPxCIRMUWq51t5vmCZYpw5GixNdQ5So3D4Hs7LRw4dhfPA7Z8xoYpsTcozSBZm3pGydnAnKKEhYCVocZzcmQzrEWr7qryimx1ynH6DgJKp2/wgEJM5qxi/sIYYXPtdWL6ef4KYAwhQ7nbf2r7Bq/le42+AAAA[0m[Pipeline] // stage
+[8mha:////4MZyk33+V/AiT4fn8n6G3pw2AKptiha+GL2FVGy8vSODAAAAph+LCAAAAAAAAP9tjTEOwjAQBM9BKWgpeYQjJKgQFa3lhheY2Bgn1l2wLyQVL+Jr/IFAJCq22llpNc8XlDnBgZKXjcM2YK6D7GLvpyYHSu0l0iAbOsuaMFN0UrtBk3XHGTWxgzmigIWCpcM6Ug7oGVaqMXdTRYO+OnGatr2CItgbPECoycwm8RfGBOtrbzPhz/NXAGPHILYMxWb3OZZvBXXnAcEAAAA=[0m[Pipeline] stage
+[8mha:////4IbAYeEfzIYrbjXur3hhLHFS6T3zmMsYQQAYadAUrpZ/AAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUDLAgpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD/s94rDCAAAA[0m[Pipeline] { (run gold nic sriov stress vm)
+[8mha:////4FPk2mTBzwof/oyzK3/Y2W4GOSwpNdCdlxh/EpNq5ACcAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiGigQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGPIUG53n9qHN27Iu42+AAAA[0m[Pipeline] sh
++ pytest /root/.jenkins/workspace/test-nic/npxtester/Tests/testNics/test_network_sriov_stress.py -m nicall -s
+============================= test session starts ==============================
+platform linux -- Python 3.6.8, pytest-6.2.4, py-1.11.0, pluggy-0.13.1
+rootdir: /root/.jenkins/workspace/test-nic/npxtester/Tests/testNics, configfile: pytest.ini
+plugins: metadata-1.11.0, html-3.1.1
+collected 7 items / 1 deselected / 6 selected
+
+../test-nic/npxtester/Tests/testNics/test_network_sriov_stress.py 2021-11-25 10:02:52 - NicTestFixture.py - [line:28] - root - INFO - Starting to run test_PI_Networking_SRIOV_StressDisableEnableFor5TimesWhenVFIsAssigned_VM_Guest[ubuntu20.04_2.img-ubuntu20.04.img]
+2021-11-25 10:02:52 - NicTestFixture.py - [line:29] - root - INFO - setup log for testing in the fixture class fbefore
+2021-11-25 10:02:52 - test_network_sriov_stress.py - [line:30] - root - INFO - SSH SUT and setup configurations in the setup function.
+2021-11-25 10:02:52 - transport.py - [line:1819] - paramiko.transport - INFO - Connected (version 2.0, client OpenSSH_8.0)
+2021-11-25 10:02:52 - transport.py - [line:1819] - paramiko.transport - INFO - Authentication (publickey) failed.
+2021-11-25 10:02:52 - transport.py - [line:1819] - paramiko.transport - INFO - Authentication (password) successful!
+2021-11-25 10:02:52 - sshInstance.py - [line:28] - root - INFO - SSH on SUT: 10.112.97.157
+2021-11-25 10:02:52 - test_network_sriov_stress.py - [line:349] - root - INFO - 
+
+********************************************************Stress Disable and Enable for 1 time when VF is Assigned VM guest.*************************************************************
+
+
+2021-11-25 10:02:55 - sshInstance.py - [line:44] - root - INFO - /opt/APP/utility/DPDK_install/dpdk-stable-20.11.1/usertools/dpdk-devbind.py -s | grep ens787f0 | awk '{print $1;}'
+2021-11-25 10:02:56 - sshInstance.py - [line:48] - root - INFO - 0000:31:00.0
+0000:31:01.0
+0000:31:01.1
+0000:31:01.2
+0000:31:01.3
+
+2021-11-25 10:03:01 - test_network_sriov_stress.py - [line:80] - root - INFO - pf_id was found: 0000:31:00.0
+0000:31:01.0
+0000:31:01.1
+0000:31:01.2
+0000:31:01.3
+
+2021-11-25 10:03:01 - test_network_sriov_stress.py - [line:357] - root - INFO - format_pf_id is 0000\:31\:00.0
+0000:31:01.0
+0000:31:01.1
+0000:31:01.2
+0000:31:01.3
+
+2021-11-25 10:03:01 - test_network_sriov_stress.py - [line:360] - root - INFO - pf_id_key: 31
+2021-11-25 10:03:06 - sshInstance.py - [line:89] - root - INFO - Activate the web console with: systemctl enable --now cockpit.socket
+This system is not registered to Red Hat Insights. See https://cloud.redhat.com/
+To register this system, run: insights-client --register
+Last login: Thu Nov 25 09:59:55 2021 from 10.239.129.147
+[root@WW30CYP10 ~]# ifconfig ens787f0 192.168.10.11
+[root@WW30CYP10 ~]# 
+2021-11-25 10:03:09 - test_network_sriov_stress.py - [line:268] - root - INFO - Successfully assigned ip to ethernet: ens787f0
+2021-11-25 10:03:12 - sshInstance.py - [line:44] - root - INFO - echo 4 > /sys/class/net/ens787f0/device/sriov_numvfs
+2021-11-25 10:03:12 - sshInstance.py - [line:48] - root - INFO - 
+2021-11-25 10:03:17 - test_network_sriov_stress.py - [line:95] - root - INFO - Successfully Virtualized PF to VFs.
+2021-11-25 10:03:20 - sshInstance.py - [line:44] - root - INFO -  lspci | grep "Virtual" | awk '{print $1;}'list
+2021-11-25 10:03:20 - sshInstance.py - [line:48] - root - INFO - 31:01.0
+31:01.1
+31:01.2
+31:01.3
+
+2021-11-25 10:03:25 - test_network_sriov_stress.py - [line:109] - root - INFO - Succssfully Gotten vf_id list:
+
+2021-11-25 10:03:28 - sshInstance.py - [line:44] - root - INFO -  modinfo vfio-pci | grep "vfio_pci" | awk '{ print $2;}'
+2021-11-25 10:03:28 - sshInstance.py - [line:48] - root - INFO - vfio_pci
+
+2021-11-25 10:03:33 - test_network_sriov_stress.py - [line:162] - root - INFO - Successfuly modeprobe vfio-pci
+2021-11-25 10:03:36 - sshInstance.py - [line:44] - root - INFO - /opt/APP/utility/DPDK_install/dpdk-stable-20.11.1/usertools/dpdk-devbind.py -b vfio-pci 31:01.0
+2021-11-25 10:03:36 - sshInstance.py - [line:48] - root - INFO - 
+2021-11-25 10:03:41 - test_network_sriov_stress.py - [line:141] - root - INFO - Successfuly bound VF to vfio-pci
+2021-11-25 10:03:44 - sshInstance.py - [line:44] - root - INFO - /opt/APP/utility/DPDK_install/dpdk-stable-20.11.1/usertools/dpdk-devbind.py -b vfio-pci 31:01.1
+2021-11-25 10:03:45 - sshInstance.py - [line:48] - root - INFO - 
+2021-11-25 10:03:50 - test_network_sriov_stress.py - [line:141] - root - INFO - Successfuly bound VF to vfio-pci
+2021-11-25 10:03:50 - test_network_sriov_stress.py - [line:381] - root - INFO - lspci -Dnn | grep 31:01.1
+2021-11-25 10:03:53 - sshInstance.py - [line:44] - root - INFO - lspci -Dnn | grep 31:01.1
+2021-11-25 10:03:53 - sshInstance.py - [line:48] - root - INFO - 0000:31:01.1 Ethernet controller [0200]: Intel Corporation Ethernet Adaptive Virtual Function [8086:1889] (rev 02)
+
+2021-11-25 10:03:58 - test_network_sriov_stress.py - [line:392] - root - INFO - Successfully get vf device id: 8086:1889
+2021-11-25 10:04:01 - sshInstance.py - [line:44] - root - INFO - virsh net-info default | grep "Active" | awk '{print $2;}'
+2021-11-25 10:04:02 - sshInstance.py - [line:48] - root - INFO - yes
+
+2021-11-25 10:04:07 - test_network_sriov_stress.py - [line:170] - root - INFO - Default network is active? yes
+
+2021-11-25 10:04:11 - sshInstance.py - [line:69] - root - INFO - virt-install --name VMtest1 --ram 4096 --cpu host --vcpus=5 ---network network=default --hostdev pci_0000_31_01_0 --boot hd --disk path=/home//image/ubuntu20.04_2.img,size=50,format=qcow2 --graphics vnc,listen=0.0.0.0,port==5900 --noautoconsole
+
+** (process:92128): [1;33mWARNING[0m **: [34m10:04:22.425[0m: Entity http://pcisig.com/pci/1B36/0100 referenced but not defined
+ERROR    Disk /home/image/ubuntu20.04_2.img is already in use by other guests ['VMtest2']. (Use --check path_in_use=off or --check all=off to override)
+[root@WW30CYP10 ~]# 
+2021-11-25 10:04:14 - test_network_sriov_stress.py - [line:202] - root - ERROR - Failed to create a VM: virt-install --name VMtest1 --ram 4096 --cpu host --vcpus=5 ---network network=default --hostdev pci_0000_31_01_0 --boot hd --disk path=/home//image/ubuntu20.04_2.img,size=50,format=qcow2 --graphics vnc,listen=0.0.0.0,port==5900 --noautoconsole
+
+** (process:92128): [1;33mWARNING[0m **: [34m10:04:22.425[0m: Entity http://pcisig.com/pci/1B36/0100 referenced but not defined
+ERROR    Disk /home/image/ubuntu20.04_2.img is already in use by other guests ['VMtest2']. (Use --check path_in_use=off or --check all=off to override)
+[root@WW30CYP10 ~]# 
+2021-11-25 10:04:14 - test_network_sriov_stress.py - [line:203] - root - ERROR - Failed to create a VM: 
+2021-11-25 10:04:18 - sshInstance.py - [line:69] - root - INFO - virt-install --name VMtest1 --ram 4096 --cpu host --vcpus=5 ---network network=default --hostdev pci_0000_31_01_0 --boot hd --disk path=/home//image/ubuntu20.04_2.img,size=50,format=qcow2 --graphics vnc,listen=0.0.0.0,port==5900 --noautoconsole
+
+** (process:92137): [1;33mWARNING[0m **: [34m10:04:29.398[0m: Entity http://pcisig.com/pci/1B36/0100 referenced but not defined
+ERROR    Disk /home/image/ubuntu20.04_2.img is already in use by other guests ['VMtest2']. (Use --check path_in_use=off or --check all=off to override)
+[root@WW30CYP10 ~]# 
+2021-11-25 10:04:21 - test_network_sriov_stress.py - [line:202] - root - ERROR - Failed to create a VM: virt-install --name VMtest1 --ram 4096 --cpu host --vcpus=5 ---network network=default --hostdev pci_0000_31_01_0 --boot hd --disk path=/home//image/ubuntu20.04_2.img,size=50,format=qcow2 --graphics vnc,listen=0.0.0.0,port==5900 --noautoconsole
+
+** (process:92137): [1;33mWARNING[0m **: [34m10:04:29.398[0m: Entity http://pcisig.com/pci/1B36/0100 referenced but not defined
+ERROR    Disk /home/image/ubuntu20.04_2.img is already in use by other guests ['VMtest2']. (Use --check path_in_use=off or --check all=off to override)
+[root@WW30CYP10 ~]# 
+2021-11-25 10:04:21 - test_network_sriov_stress.py - [line:203] - root - ERROR - Failed to create a VM: 
+2021-11-25 10:04:25 - sshInstance.py - [line:69] - root - INFO - virt-install --name VMtest1 --ram 4096 --cpu host --vcpus=5 ---network network=default --hostdev pci_0000_31_01_0 --boot hd --disk path=/home//image/ubuntu20.04_2.img,size=50,format=qcow2 --graphics vnc,listen=0.0.0.0,port==5900 --noautoconsole
+
+** (process:92143): [1;33mWARNING[0m **: [34m10:04:36.408[0m: Entity http://pcisig.com/pci/1B36/0100 referenced but not defined
+ERROR    Disk /home/image/ubuntu20.04_2.img is already in use by other guests ['VMtest2']. (Use --check path_in_use=off or --check all=off to override)
+[root@WW30CYP10 ~]# 
+2021-11-25 10:04:28 - test_network_sriov_stress.py - [line:202] - root - ERROR - Failed to create a VM: virt-install --name VMtest1 --ram 4096 --cpu host --vcpus=5 ---network network=default --hostdev pci_0000_31_01_0 --boot hd --disk path=/home//image/ubuntu20.04_2.img,size=50,format=qcow2 --graphics vnc,listen=0.0.0.0,port==5900 --noautoconsole
+
+** (process:92143): [1;33mWARNING[0m **: [34m10:04:36.408[0m: Entity http://pcisig.com/pci/1B36/0100 referenced but not defined
+ERROR    Disk /home/image/ubuntu20.04_2.img is already in use by other guests ['VMtest2']. (Use --check path_in_use=off or --check all=off to override)
+[root@WW30CYP10 ~]# 
+2021-11-25 10:04:28 - test_network_sriov_stress.py - [line:203] - root - ERROR - Failed to create a VM: 
+F2021-11-25 10:04:28 - test_network_sriov_stress.py - [line:52] - root - INFO - this is the teardown of Test_Network_SRIOV_Stress.
+2021-11-25 10:04:31 - sshInstance.py - [line:44] - root - INFO - virsh destroy VMtest2
+2021-11-25 10:04:31 - sshInstance.py - [line:48] - root - INFO - 
+
+2021-11-25 10:04:36 - test_network_sriov_stress.py - [line:249] - root - ERROR - Failed to shut down the VM VMtest2
+2021-11-25 10:04:39 - sshInstance.py - [line:44] - root - INFO - virsh destroy VMtest1
+2021-11-25 10:04:39 - sshInstance.py - [line:48] - root - INFO - 
+
+2021-11-25 10:04:44 - test_network_sriov_stress.py - [line:249] - root - ERROR - Failed to shut down the VM VMtest1
+2021-11-25 10:04:44 - sshInstance.py - [line:39] - root - INFO - closing ssh client on SUT
+2021-11-25 10:04:44 - test_network_sriov_stress.py - [line:57] - root - INFO - =============================================Finished run the test case===============================================
+2021-11-25 10:04:44 - NicTestFixture.py - [line:28] - root - INFO - Starting to run test_PI_Networking_SRIOV_StressDisableEnableFor5TimesWhenVFIsAssigned_VM_Guest[rhel84rt.img-ubuntu20.04.img]
+2021-11-25 10:04:44 - NicTestFixture.py - [line:29] - root - INFO - setup log for testing in the fixture class fbefore
+2021-11-25 10:04:44 - test_network_sriov_stress.py - [line:30] - root - INFO - SSH SUT and setup configurations in the setup function.
+2021-11-25 10:04:44 - transport.py - [line:1819] - paramiko.transport - INFO - Connected (version 2.0, client OpenSSH_8.0)
+2021-11-25 10:04:44 - transport.py - [line:1819] - paramiko.transport - INFO - Authentication (publickey) failed.
+2021-11-25 10:04:44 - transport.py - [line:1819] - paramiko.transport - INFO - Authentication (password) successful!
+2021-11-25 10:04:44 - sshInstance.py - [line:28] - root - INFO - SSH on SUT: 10.112.97.157
+2021-11-25 10:04:44 - test_network_sriov_stress.py - [line:349] - root - INFO - 
+
+********************************************************Stress Disable and Enable for 1 time when VF is Assigned VM guest.*************************************************************
+
+
+2021-11-25 10:04:47 - sshInstance.py - [line:44] - root - INFO - /opt/APP/utility/DPDK_install/dpdk-stable-20.11.1/usertools/dpdk-devbind.py -s | grep ens787f0 | awk '{print $1;}'
+2021-11-25 10:04:48 - sshInstance.py - [line:48] - root - INFO - 0000:31:00.0
+0000:31:01.0
+0000:31:01.1
+0000:31:01.2
+0000:31:01.3
+
+2021-11-25 10:04:53 - test_network_sriov_stress.py - [line:80] - root - INFO - pf_id was found: 0000:31:00.0
+0000:31:01.0
+0000:31:01.1
+0000:31:01.2
+0000:31:01.3
+
+2021-11-25 10:04:53 - test_network_sriov_stress.py - [line:357] - root - INFO - format_pf_id is 0000\:31\:00.0
+0000:31:01.0
+0000:31:01.1
+0000:31:01.2
+0000:31:01.3
+
+2021-11-25 10:04:53 - test_network_sriov_stress.py - [line:360] - root - INFO - pf_id_key: 31
+2021-11-25 10:04:58 - sshInstance.py - [line:89] - root - INFO - Activate the web console with: systemctl enable --now cockpit.socket
+This system is not registered to Red Hat Insights. See https://cloud.redhat.com/
+To register this system, run: insights-client --register
+Last login: Thu Nov 25 10:03:04 2021 from 10.239.129.147
+[root@WW30CYP10 ~]# ifconfig ens787f0 192.168.10.11
+[root@WW30CYP10 ~]# 
+2021-11-25 10:05:01 - test_network_sriov_stress.py - [line:268] - root - INFO - Successfully assigned ip to ethernet: ens787f0
+2021-11-25 10:05:04 - sshInstance.py - [line:44] - root - INFO - echo 4 > /sys/class/net/ens787f0/device/sriov_numvfs
+2021-11-25 10:05:04 - sshInstance.py - [line:48] - root - INFO - 
+2021-11-25 10:05:09 - test_network_sriov_stress.py - [line:95] - root - INFO - Successfully Virtualized PF to VFs.
+2021-11-25 10:05:12 - sshInstance.py - [line:44] - root - INFO -  lspci | grep "Virtual" | awk '{print $1;}'list
+2021-11-25 10:05:12 - sshInstance.py - [line:48] - root - INFO - 31:01.0
+31:01.1
+31:01.2
+31:01.3
+
+2021-11-25 10:05:17 - test_network_sriov_stress.py - [line:109] - root - INFO - Succssfully Gotten vf_id list:
+
+2021-11-25 10:05:20 - sshInstance.py - [line:44] - root - INFO -  modinfo vfio-pci | grep "vfio_pci" | awk '{ print $2;}'
+2021-11-25 10:05:20 - sshInstance.py - [line:48] - root - INFO - vfio_pci
+
+2021-11-25 10:05:25 - test_network_sriov_stress.py - [line:162] - root - INFO - Successfuly modeprobe vfio-pci
+2021-11-25 10:05:28 - sshInstance.py - [line:44] - root - INFO - /opt/APP/utility/DPDK_install/dpdk-stable-20.11.1/usertools/dpdk-devbind.py -b vfio-pci 31:01.0
+2021-11-25 10:05:28 - sshInstance.py - [line:48] - root - INFO - 
+2021-11-25 10:05:33 - test_network_sriov_stress.py - [line:141] - root - INFO - Successfuly bound VF to vfio-pci
+2021-11-25 10:05:36 - sshInstance.py - [line:44] - root - INFO - /opt/APP/utility/DPDK_install/dpdk-stable-20.11.1/usertools/dpdk-devbind.py -b vfio-pci 31:01.1
+2021-11-25 10:05:37 - sshInstance.py - [line:48] - root - INFO - 
+2021-11-25 10:05:42 - test_network_sriov_stress.py - [line:141] - root - INFO - Successfuly bound VF to vfio-pci
+2021-11-25 10:05:42 - test_network_sriov_stress.py - [line:381] - root - INFO - lspci -Dnn | grep 31:01.1
+2021-11-25 10:05:45 - sshInstance.py - [line:44] - root - INFO - lspci -Dnn | grep 31:01.1
+2021-11-25 10:05:45 - sshInstance.py - [line:48] - root - INFO - 0000:31:01.1 Ethernet controller [0200]: Intel Corporation Ethernet Adaptive Virtual Function [8086:1889] (rev 02)
+
+2021-11-25 10:05:50 - test_network_sriov_stress.py - [line:392] - root - INFO - Successfully get vf device id: 8086:1889
+2021-11-25 10:05:53 - sshInstance.py - [line:44] - root - INFO - virsh net-info default | grep "Active" | awk '{print $2;}'
+2021-11-25 10:05:53 - sshInstance.py - [line:48] - root - INFO - yes
+
+2021-11-25 10:05:58 - test_network_sriov_stress.py - [line:170] - root - INFO - Default network is active? yes
+
+2021-11-25 10:06:02 - sshInstance.py - [line:69] - root - INFO - virt-install --name VMtest1 --ram 4096 --cpu host --vcpus=5 ---network network=default --hostdev pci_0000_31_01_0 --boot hd --disk path=/home//image/rhel84rt.img,size=50,format=qcow2 --graphics vnc,listen=0.0.0.0,port=5900  --noautoconsole
+
+** (process:92506): [1;33mWARNING[0m **: [34m10:06:13.849[0m: Entity http://pcisig.com/pci/1B36/0100 referenced but not defined
+WARNING  No operating system detected, VM performance may suffer. Specify an OS with --os-variant for optimal results.
+
+Starting install...
+ERROR    Guest name 'VMtest1' is already in use.
+Domain installation does not appear to have been successful.
+If it was, you can restart your domain by running:
+  virsh --connect qemu:///system start VMtest1
+otherwise, please restart your installation.
+[root@WW30CYP10 ~]# 
+2021-11-25 10:06:05 - test_network_sriov_stress.py - [line:202] - root - ERROR - Failed to create a VM: virt-install --name VMtest1 --ram 4096 --cpu host --vcpus=5 ---network network=default --hostdev pci_0000_31_01_0 --boot hd --disk path=/home//image/rhel84rt.img,size=50,format=qcow2 --graphics vnc,listen=0.0.0.0,port=5900  --noautoconsole
+
+** (process:92506): [1;33mWARNING[0m **: [34m10:06:13.849[0m: Entity http://pcisig.com/pci/1B36/0100 referenced but not defined
+WARNING  No operating system detected, VM performance may suffer. Specify an OS with --os-variant for optimal results.
+
+Starting install...
+ERROR    Guest name 'VMtest1' is already in use.
+Domain installation does not appear to have been successful.
+If it was, you can restart your domain by running:
+  virsh --connect qemu:///system start VMtest1
+otherwise, please restart your installation.
+[root@WW30CYP10 ~]# 
+2021-11-25 10:06:05 - test_network_sriov_stress.py - [line:203] - root - ERROR - Failed to create a VM: 
+2021-11-25 10:06:09 - sshInstance.py - [line:69] - root - INFO - virt-install --name VMtest1 --ram 4096 --cpu host --vcpus=5 ---network network=default --hostdev pci_0000_31_01_0 --boot hd --disk path=/home//image/rhel84rt.img,size=50,format=qcow2 --graphics vnc,listen=0.0.0.0,port=5900  --noautoconsole
+
+** (process:92512): [1;33mWARNING[0m **: [34m10:06:20.880[0m: Entity http://pcisig.com/pci/1B36/0100 referenced but not defined
+WARNING  No operating system detected, VM performance may suffer. Specify an OS with --os-variant for optimal results.
+
+Starting install...
+ERROR    Guest name 'VMtest1' is already in use.
+Domain installation does not appear to have been successful.
+If it was, you can restart your domain by running:
+  virsh --connect qemu:///system start VMtest1
+otherwise, please restart your installation.
+[root@WW30CYP10 ~]# 
+2021-11-25 10:06:12 - test_network_sriov_stress.py - [line:202] - root - ERROR - Failed to create a VM: virt-install --name VMtest1 --ram 4096 --cpu host --vcpus=5 ---network network=default --hostdev pci_0000_31_01_0 --boot hd --disk path=/home//image/rhel84rt.img,size=50,format=qcow2 --graphics vnc,listen=0.0.0.0,port=5900  --noautoconsole
+
+** (process:92512): [1;33mWARNING[0m **: [34m10:06:20.880[0m: Entity http://pcisig.com/pci/1B36/0100 referenced but not defined
+WARNING  No operating system detected, VM performance may suffer. Specify an OS with --os-variant for optimal results.
+
+Starting install...
+ERROR    Guest name 'VMtest1' is already in use.
+Domain installation does not appear to have been successful.
+If it was, you can restart your domain by running:
+  virsh --connect qemu:///system start VMtest1
+otherwise, please restart your installation.
+[root@WW30CYP10 ~]# 
+2021-11-25 10:06:12 - test_network_sriov_stress.py - [line:203] - root - ERROR - Failed to create a VM: 
+2021-11-25 10:06:16 - sshInstance.py - [line:69] - root - INFO - virt-install --name VMtest1 --ram 4096 --cpu host --vcpus=5 ---network network=default --hostdev pci_0000_31_01_0 --boot hd --disk path=/home//image/rhel84rt.img,size=50,format=qcow2 --graphics vnc,listen=0.0.0.0,port=5900  --noautoconsole
+
+** (process:92517): [1;33mWARNING[0m **: [34m10:06:27.885[0m: Entity http://pcisig.com/pci/1B36/0100 referenced but not defined
+WARNING  No operating system detected, VM performance may suffer. Specify an OS with --os-variant for optimal results.
+
+Starting install...
+ERROR    Guest name 'VMtest1' is already in use.
+Domain installation does not appear to have been successful.
+If it was, you can restart your domain by running:
+  virsh --connect qemu:///system start VMtest1
+otherwise, please restart your installation.
+[root@WW30CYP10 ~]# 
+2021-11-25 10:06:19 - test_network_sriov_stress.py - [line:202] - root - ERROR - Failed to create a VM: virt-install --name VMtest1 --ram 4096 --cpu host --vcpus=5 ---network network=default --hostdev pci_0000_31_01_0 --boot hd --disk path=/home//image/rhel84rt.img,size=50,format=qcow2 --graphics vnc,listen=0.0.0.0,port=5900  --noautoconsole
+
+** (process:92517): [1;33mWARNING[0m **: [34m10:06:27.885[0m: Entity http://pcisig.com/pci/1B36/0100 referenced but not defined
+WARNING  No operating system detected, VM performance may suffer. Specify an OS with --os-variant for optimal results.
+
+Starting install...
+ERROR    Guest name 'VMtest1' is already in use.
+Domain installation does not appear to have been successful.
+If it was, you can restart your domain by running:
+  virsh --connect qemu:///system start VMtest1
+otherwise, please restart your installation.
+[root@WW30CYP10 ~]# 
+2021-11-25 10:06:19 - test_network_sriov_stress.py - [line:203] - root - ERROR - Failed to create a VM: 
+F2021-11-25 10:06:19 - test_network_sriov_stress.py - [line:52] - root - INFO - this is the teardown of Test_Network_SRIOV_Stress.
+2021-11-25 10:06:22 - sshInstance.py - [line:44] - root - INFO - virsh destroy VMtest2
+2021-11-25 10:06:22 - sshInstance.py - [line:48] - root - INFO - 
+
+2021-11-25 10:06:27 - test_network_sriov_stress.py - [line:249] - root - ERROR - Failed to shut down the VM VMtest2
+2021-11-25 10:06:30 - sshInstance.py - [line:44] - root - INFO - virsh destroy VMtest1
+2021-11-25 10:06:30 - sshInstance.py - [line:48] - root - INFO - 
+
+2021-11-25 10:06:35 - test_network_sriov_stress.py - [line:249] - root - ERROR - Failed to shut down the VM VMtest1
+2021-11-25 10:06:35 - sshInstance.py - [line:39] - root - INFO - closing ssh client on SUT
+2021-11-25 10:06:35 - test_network_sriov_stress.py - [line:57] - root - INFO - =============================================Finished run the test case===============================================
+2021-11-25 10:06:35 - NicTestFixture.py - [line:28] - root - INFO - Starting to run test_PI_Networking_SRIOV_StressDisableEnableFor5TimesWhenVFIsAssigned_VM_Guest[rhel84rt.img-rhel84rt2.img]
+2021-11-25 10:06:35 - NicTestFixture.py - [line:29] - root - INFO - setup log for testing in the fixture class fbefore
+2021-11-25 10:06:35 - test_network_sriov_stress.py - [line:30] - root - INFO - SSH SUT and setup configurations in the setup function.
+2021-11-25 10:06:35 - transport.py - [line:1819] - paramiko.transport - INFO - Connected (version 2.0, client OpenSSH_8.0)
+2021-11-25 10:06:35 - transport.py - [line:1819] - paramiko.transport - INFO - Authentication (publickey) failed.
+2021-11-25 10:06:35 - transport.py - [line:1819] - paramiko.transport - INFO - Authentication (password) successful!
+2021-11-25 10:06:35 - sshInstance.py - [line:28] - root - INFO - SSH on SUT: 10.112.97.157
+2021-11-25 10:06:35 - test_network_sriov_stress.py - [line:349] - root - INFO - 
+
+********************************************************Stress Disable and Enable for 1 time when VF is Assigned VM guest.*************************************************************
+
+
+2021-11-25 10:06:38 - sshInstance.py - [line:44] - root - INFO - /opt/APP/utility/DPDK_install/dpdk-stable-20.11.1/usertools/dpdk-devbind.py -s | grep ens787f0 | awk '{print $1;}'
+2021-11-25 10:06:39 - sshInstance.py - [line:48] - root - INFO - 0000:31:00.0
+0000:31:01.0
+0000:31:01.1
+0000:31:01.2
+0000:31:01.3
+
+2021-11-25 10:06:44 - test_network_sriov_stress.py - [line:80] - root - INFO - pf_id was found: 0000:31:00.0
+0000:31:01.0
+0000:31:01.1
+0000:31:01.2
+0000:31:01.3
+
+2021-11-25 10:06:44 - test_network_sriov_stress.py - [line:357] - root - INFO - format_pf_id is 0000\:31\:00.0
+0000:31:01.0
+0000:31:01.1
+0000:31:01.2
+0000:31:01.3
+
+2021-11-25 10:06:44 - test_network_sriov_stress.py - [line:360] - root - INFO - pf_id_key: 31
+2021-11-25 10:06:49 - sshInstance.py - [line:89] - root - INFO - Activate the web console with: systemctl enable --now cockpit.socket
+This system is not registered to Red Hat Insights. See https://cloud.redhat.com/
+To register this system, run: insights-client --register
+Last login: Thu Nov 25 10:04:55 2021 from 10.239.129.147
+[root@WW30CYP10 ~]# ifconfig ens787f0 192.168.10.11
+[root@WW30CYP10 ~]# 
+2021-11-25 10:06:52 - test_network_sriov_stress.py - [line:268] - root - INFO - Successfully assigned ip to ethernet: ens787f0
+2021-11-25 10:06:55 - sshInstance.py - [line:44] - root - INFO - echo 4 > /sys/class/net/ens787f0/device/sriov_numvfs
+2021-11-25 10:06:55 - sshInstance.py - [line:48] - root - INFO - 
+2021-11-25 10:07:00 - test_network_sriov_stress.py - [line:95] - root - INFO - Successfully Virtualized PF to VFs.
+2021-11-25 10:07:03 - sshInstance.py - [line:44] - root - INFO -  lspci | grep "Virtual" | awk '{print $1;}'list
+2021-11-25 10:07:03 - sshInstance.py - [line:48] - root - INFO - 31:01.0
+31:01.1
+31:01.2
+31:01.3
+
+2021-11-25 10:07:08 - test_network_sriov_stress.py - [line:109] - root - INFO - Succssfully Gotten vf_id list:
+
+2021-11-25 10:07:11 - sshInstance.py - [line:44] - root - INFO -  modinfo vfio-pci | grep "vfio_pci" | awk '{ print $2;}'
+2021-11-25 10:07:11 - sshInstance.py - [line:48] - root - INFO - vfio_pci
+
+2021-11-25 10:07:16 - test_network_sriov_stress.py - [line:162] - root - INFO - Successfuly modeprobe vfio-pci
+2021-11-25 10:07:19 - sshInstance.py - [line:44] - root - INFO - /opt/APP/utility/DPDK_install/dpdk-stable-20.11.1/usertools/dpdk-devbind.py -b vfio-pci 31:01.0
+2021-11-25 10:07:20 - sshInstance.py - [line:48] - root - INFO - 
+2021-11-25 10:07:25 - test_network_sriov_stress.py - [line:141] - root - INFO - Successfuly bound VF to vfio-pci
+2021-11-25 10:07:28 - sshInstance.py - [line:44] - root - INFO - /opt/APP/utility/DPDK_install/dpdk-stable-20.11.1/usertools/dpdk-devbind.py -b vfio-pci 31:01.1
+2021-11-25 10:07:28 - sshInstance.py - [line:48] - root - INFO - 
+2021-11-25 10:07:33 - test_network_sriov_stress.py - [line:141] - root - INFO - Successfuly bound VF to vfio-pci
+2021-11-25 10:07:33 - test_network_sriov_stress.py - [line:381] - root - INFO - lspci -Dnn | grep 31:01.1
+2021-11-25 10:07:36 - sshInstance.py - [line:44] - root - INFO - lspci -Dnn | grep 31:01.1
+2021-11-25 10:07:36 - sshInstance.py - [line:48] - root - INFO - 0000:31:01.1 Ethernet controller [0200]: Intel Corporation Ethernet Adaptive Virtual Function [8086:1889] (rev 02)
+
+2021-11-25 10:07:41 - test_network_sriov_stress.py - [line:392] - root - INFO - Successfully get vf device id: 8086:1889
+2021-11-25 10:07:44 - sshInstance.py - [line:44] - root - INFO - virsh net-info default | grep "Active" | awk '{print $2;}'
+2021-11-25 10:07:45 - sshInstance.py - [line:48] - root - INFO - yes
+
+2021-11-25 10:07:50 - test_network_sriov_stress.py - [line:170] - root - INFO - Default network is active? yes
+
+2021-11-25 10:07:54 - sshInstance.py - [line:69] - root - INFO - virt-install --name VMtest1 --ram 4096 --cpu host --vcpus=5 ---network network=default --hostdev pci_0000_31_01_0 --boot hd --disk path=/home//image/rhel84rt.img,size=50,format=qcow2 --graphics vnc,listen=0.0.0.0,port=5900  --noautoconsole
+
+** (process:92877): [1;33mWARNING[0m **: [34m10:08:05.327[0m: Entity http://pcisig.com/pci/1B36/0100 referenced but not defined
+WARNING  No operating system detected, VM performance may suffer. Specify an OS with --os-variant for optimal results.
+
+Starting install...
+ERROR    Guest name 'VMtest1' is already in use.
+Domain installation does not appear to have been successful.
+If it was, you can restart your domain by running:
+  virsh --connect qemu:///system start VMtest1
+otherwise, please restart your installation.
+[root@WW30CYP10 ~]# 
+2021-11-25 10:07:57 - test_network_sriov_stress.py - [line:202] - root - ERROR - Failed to create a VM: virt-install --name VMtest1 --ram 4096 --cpu host --vcpus=5 ---network network=default --hostdev pci_0000_31_01_0 --boot hd --disk path=/home//image/rhel84rt.img,size=50,format=qcow2 --graphics vnc,listen=0.0.0.0,port=5900  --noautoconsole
+
+** (process:92877): [1;33mWARNING[0m **: [34m10:08:05.327[0m: Entity http://pcisig.com/pci/1B36/0100 referenced but not defined
+WARNING  No operating system detected, VM performance may suffer. Specify an OS with --os-variant for optimal results.
+
+Starting install...
+ERROR    Guest name 'VMtest1' is already in use.
+Domain installation does not appear to have been successful.
+If it was, you can restart your domain by running:
+  virsh --connect qemu:///system start VMtest1
+otherwise, please restart your installation.
+[root@WW30CYP10 ~]# 
+2021-11-25 10:07:57 - test_network_sriov_stress.py - [line:203] - root - ERROR - Failed to create a VM: 
+2021-11-25 10:08:01 - sshInstance.py - [line:69] - root - INFO - virt-install --name VMtest1 --ram 4096 --cpu host --vcpus=5 ---network network=default --hostdev pci_0000_31_01_0 --boot hd --disk path=/home//image/rhel84rt.img,size=50,format=qcow2 --graphics vnc,listen=0.0.0.0,port=5900  --noautoconsole
+
+** (process:92880): [1;33mWARNING[0m **: [34m10:08:12.323[0m: Entity http://pcisig.com/pci/1B36/0100 referenced but not defined
+WARNING  No operating system detected, VM performance may suffer. Specify an OS with --os-variant for optimal results.
+
+Starting install...
+ERROR    Guest name 'VMtest1' is already in use.
+Domain installation does not appear to have been successful.
+If it was, you can restart your domain by running:
+  virsh --connect qemu:///system start VMtest1
+otherwise, please restart your installation.
+[root@WW30CYP10 ~]# 
+2021-11-25 10:08:04 - test_network_sriov_stress.py - [line:202] - root - ERROR - Failed to create a VM: virt-install --name VMtest1 --ram 4096 --cpu host --vcpus=5 ---network network=default --hostdev pci_0000_31_01_0 --boot hd --disk path=/home//image/rhel84rt.img,size=50,format=qcow2 --graphics vnc,listen=0.0.0.0,port=5900  --noautoconsole
+
+** (process:92880): [1;33mWARNING[0m **: [34m10:08:12.323[0m: Entity http://pcisig.com/pci/1B36/0100 referenced but not defined
+WARNING  No operating system detected, VM performance may suffer. Specify an OS with --os-variant for optimal results.
+
+Starting install...
+ERROR    Guest name 'VMtest1' is already in use.
+Domain installation does not appear to have been successful.
+If it was, you can restart your domain by running:
+  virsh --connect qemu:///system start VMtest1
+otherwise, please restart your installation.
+[root@WW30CYP10 ~]# 
+2021-11-25 10:08:04 - test_network_sriov_stress.py - [line:203] - root - ERROR - Failed to create a VM: 
+2021-11-25 10:08:08 - sshInstance.py - [line:69] - root - INFO - virt-install --name VMtest1 --ram 4096 --cpu host --vcpus=5 ---network network=default --hostdev pci_0000_31_01_0 --boot hd --disk path=/home//image/rhel84rt.img,size=50,format=qcow2 --graphics vnc,listen=0.0.0.0,port=5900  --noautoconsole
+
+** (process:92885): [1;33mWARNING[0m **: [34m10:08:19.341[0m: Entity http://pcisig.com/pci/1B36/0100 referenced but not defined
+WARNING  No operating system detected, VM performance may suffer. Specify an OS with --os-variant for optimal results.
+
+Starting install...
+ERROR    Guest name 'VMtest1' is already in use.
+Domain installation does not appear to have been successful.
+If it was, you can restart your domain by running:
+  virsh --connect qemu:///system start VMtest1
+otherwise, please restart your installation.
+[root@WW30CYP10 ~]# 
+2021-11-25 10:08:11 - test_network_sriov_stress.py - [line:202] - root - ERROR - Failed to create a VM: virt-install --name VMtest1 --ram 4096 --cpu host --vcpus=5 ---network network=default --hostdev pci_0000_31_01_0 --boot hd --disk path=/home//image/rhel84rt.img,size=50,format=qcow2 --graphics vnc,listen=0.0.0.0,port=5900  --noautoconsole
+
+** (process:92885): [1;33mWARNING[0m **: [34m10:08:19.341[0m: Entity http://pcisig.com/pci/1B36/0100 referenced but not defined
+WARNING  No operating system detected, VM performance may suffer. Specify an OS with --os-variant for optimal results.
+
+Starting install...
+ERROR    Guest name 'VMtest1' is already in use.
+Domain installation does not appear to have been successful.
+If it was, you can restart your domain by running:
+  virsh --connect qemu:///system start VMtest1
+otherwise, please restart your installation.
+[root@WW30CYP10 ~]# 
+2021-11-25 10:08:11 - test_network_sriov_stress.py - [line:203] - root - ERROR - Failed to create a VM: 
+F2021-11-25 10:08:11 - test_network_sriov_stress.py - [line:52] - root - INFO - this is the teardown of Test_Network_SRIOV_Stress.
+2021-11-25 10:08:14 - sshInstance.py - [line:44] - root - INFO - virsh destroy VMtest2
+2021-11-25 10:08:14 - sshInstance.py - [line:48] - root - INFO - 
+
+2021-11-25 10:08:19 - test_network_sriov_stress.py - [line:249] - root - ERROR - Failed to shut down the VM VMtest2
+2021-11-25 10:08:22 - sshInstance.py - [line:44] - root - INFO - virsh destroy VMtest1
+2021-11-25 10:08:22 - sshInstance.py - [line:48] - root - INFO - 
+
+2021-11-25 10:08:27 - test_network_sriov_stress.py - [line:249] - root - ERROR - Failed to shut down the VM VMtest1
+2021-11-25 10:08:27 - sshInstance.py - [line:39] - root - INFO - closing ssh client on SUT
+2021-11-25 10:08:27 - test_network_sriov_stress.py - [line:57] - root - INFO - =============================================Finished run the test case===============================================
+2021-11-25 10:08:27 - NicTestFixture.py - [line:28] - root - INFO - Starting to run test_PI_Networking_SRIOV_StressTrafficBetweenPFVFAndTestClientFor2Hours_VM_Guest[ubuntu20.04_2.img-ubuntu20.04.img]
+2021-11-25 10:08:27 - NicTestFixture.py - [line:29] - root - INFO - setup log for testing in the fixture class fbefore
+2021-11-25 10:08:27 - test_network_sriov_stress.py - [line:30] - root - INFO - SSH SUT and setup configurations in the setup function.
+2021-11-25 10:08:27 - transport.py - [line:1819] - paramiko.transport - INFO - Connected (version 2.0, client OpenSSH_8.0)
+2021-11-25 10:08:27 - transport.py - [line:1819] - paramiko.transport - INFO - Authentication (publickey) failed.
+2021-11-25 10:08:27 - transport.py - [line:1819] - paramiko.transport - INFO - Authentication (password) successful!
+2021-11-25 10:08:27 - sshInstance.py - [line:28] - root - INFO - SSH on SUT: 10.112.97.157
+2021-11-25 10:08:30 - sshInstance.py - [line:44] - root - INFO - /opt/APP/utility/DPDK_install/dpdk-stable-20.11.1/usertools/dpdk-devbind.py -s | grep ens787f0 | awk '{print $1;}'
+2021-11-25 10:08:30 - sshInstance.py - [line:48] - root - INFO - 0000:31:00.0
+0000:31:01.0
+0000:31:01.1
+0000:31:01.2
+0000:31:01.3
+
+2021-11-25 10:08:35 - test_network_sriov_stress.py - [line:80] - root - INFO - pf_id was found: 0000:31:00.0
+0000:31:01.0
+0000:31:01.1
+0000:31:01.2
+0000:31:01.3
+
+2021-11-25 10:08:35 - test_network_sriov_stress.py - [line:467] - root - INFO - format_pf_id is 0000\:31\:00.0
+0000:31:01.0
+0000:31:01.1
+0000:31:01.2
+0000:31:01.3
+
+2021-11-25 10:08:35 - test_network_sriov_stress.py - [line:470] - root - INFO - pf_id_key: 31
+2021-11-25 10:08:40 - sshInstance.py - [line:89] - root - INFO - Activate the web console with: systemctl enable --now cockpit.socket
+This system is not registered to Red Hat Insights. See https://cloud.redhat.com/
+To register this system, run: insights-client --register
+Last login: Thu Nov 25 10:06:47 2021 from 10.239.129.147
+[root@WW30CYP10 ~]# ifconfig ens787f0 192.168.10.11
+[root@WW30CYP10 ~]# 
+2021-11-25 10:08:43 - test_network_sriov_stress.py - [line:268] - root - INFO - Successfully assigned ip to ethernet: ens787f0
+2021-11-25 10:08:46 - sshInstance.py - [line:44] - root - INFO - echo 4 > /sys/class/net/ens787f0/device/sriov_numvfs
+2021-11-25 10:08:47 - sshInstance.py - [line:48] - root - INFO - 
+2021-11-25 10:08:52 - test_network_sriov_stress.py - [line:95] - root - INFO - Successfully Virtualized PF to VFs.
+2021-11-25 10:08:55 - sshInstance.py - [line:44] - root - INFO -  lspci | grep "Virtual" | awk '{print $1;}'list
+2021-11-25 10:08:55 - sshInstance.py - [line:48] - root - INFO - 31:01.0
+31:01.1
+31:01.2
+31:01.3
+
+2021-11-25 10:09:00 - test_network_sriov_stress.py - [line:109] - root - INFO - Succssfully Gotten vf_id list:
+
+2021-11-25 10:09:03 - sshInstance.py - [line:44] - root - INFO -  modinfo vfio-pci | grep "vfio_pci" | awk '{ print $2;}'
+2021-11-25 10:09:03 - sshInstance.py - [line:48] - root - INFO - vfio_pci
+
+2021-11-25 10:09:08 - test_network_sriov_stress.py - [line:162] - root - INFO - Successfuly modeprobe vfio-pci
+2021-11-25 10:09:11 - sshInstance.py - [line:44] - root - INFO - /opt/APP/utility/DPDK_install/dpdk-stable-20.11.1/usertools/dpdk-devbind.py -b vfio-pci 31:01.0
+2021-11-25 10:09:11 - sshInstance.py - [line:48] - root - INFO - 
+2021-11-25 10:09:16 - test_network_sriov_stress.py - [line:141] - root - INFO - Successfuly bound VF to vfio-pci
+2021-11-25 10:09:19 - sshInstance.py - [line:44] - root - INFO - /opt/APP/utility/DPDK_install/dpdk-stable-20.11.1/usertools/dpdk-devbind.py -b vfio-pci 31:01.1
+2021-11-25 10:09:20 - sshInstance.py - [line:48] - root - INFO - 
+2021-11-25 10:09:25 - test_network_sriov_stress.py - [line:141] - root - INFO - Successfuly bound VF to vfio-pci
+2021-11-25 10:09:25 - test_network_sriov_stress.py - [line:493] - root - INFO - lspci -Dnn | grep 31:01.1
+2021-11-25 10:09:28 - sshInstance.py - [line:44] - root - INFO - lspci -Dnn | grep 31:01.1
+2021-11-25 10:09:28 - sshInstance.py - [line:48] - root - INFO - 0000:31:01.1 Ethernet controller [0200]: Intel Corporation Ethernet Adaptive Virtual Function [8086:1889] (rev 02)
+
+2021-11-25 10:09:33 - test_network_sriov_stress.py - [line:504] - root - INFO - Successfully get vf device id: 8086:1889
+2021-11-25 10:09:36 - sshInstance.py - [line:44] - root - INFO - virsh net-info default | grep "Active" | awk '{print $2;}'
+2021-11-25 10:09:36 - sshInstance.py - [line:48] - root - INFO - yes
+
+2021-11-25 10:09:41 - test_network_sriov_stress.py - [line:170] - root - INFO - Default network is active? yes
+
+2021-11-25 10:09:45 - sshInstance.py - [line:69] - root - INFO - virt-install --name VMtest1 --ram 4096 --cpu host --vcpus=5 ---network network=default --hostdev pci_0000_31_01_0 --boot hd --disk path=/home//image/ubuntu20.04_2.img,size=50,format=qcow2 --graphics vnc,listen=0.0.0.0,port==5900 --noautoconsole
+
+** (process:93242): [1;33mWARNING[0m **: [34m10:09:56.783[0m: Entity http://pcisig.com/pci/1B36/0100 referenced but not defined
+ERROR    Disk /home/image/ubuntu20.04_2.img is already in use by other guests ['VMtest2']. (Use --check path_in_use=off or --check all=off to override)
+[root@WW30CYP10 ~]# 
+2021-11-25 10:09:48 - test_network_sriov_stress.py - [line:202] - root - ERROR - Failed to create a VM: virt-install --name VMtest1 --ram 4096 --cpu host --vcpus=5 ---network network=default --hostdev pci_0000_31_01_0 --boot hd --disk path=/home//image/ubuntu20.04_2.img,size=50,format=qcow2 --graphics vnc,listen=0.0.0.0,port==5900 --noautoconsole
+
+** (process:93242): [1;33mWARNING[0m **: [34m10:09:56.783[0m: Entity http://pcisig.com/pci/1B36/0100 referenced but not defined
+ERROR    Disk /home/image/ubuntu20.04_2.img is already in use by other guests ['VMtest2']. (Use --check path_in_use=off or --check all=off to override)
+[root@WW30CYP10 ~]# 
+2021-11-25 10:09:48 - test_network_sriov_stress.py - [line:203] - root - ERROR - Failed to create a VM: 
+2021-11-25 10:09:52 - sshInstance.py - [line:69] - root - INFO - virt-install --name VMtest1 --ram 4096 --cpu host --vcpus=5 ---network network=default --hostdev pci_0000_31_01_0 --boot hd --disk path=/home//image/ubuntu20.04_2.img,size=50,format=qcow2 --graphics vnc,listen=0.0.0.0,port==5900 --noautoconsole
+
+** (process:93249): [1;33mWARNING[0m **: [34m10:10:03.783[0m: Entity http://pcisig.com/pci/1B36/0100 referenced but not defined
+ERROR    Disk /home/image/ubuntu20.04_2.img is already in use by other guests ['VMtest2']. (Use --check path_in_use=off or --check all=off to override)
+[root@WW30CYP10 ~]# 
+2021-11-25 10:09:55 - test_network_sriov_stress.py - [line:202] - root - ERROR - Failed to create a VM: virt-install --name VMtest1 --ram 4096 --cpu host --vcpus=5 ---network network=default --hostdev pci_0000_31_01_0 --boot hd --disk path=/home//image/ubuntu20.04_2.img,size=50,format=qcow2 --graphics vnc,listen=0.0.0.0,port==5900 --noautoconsole
+
+** (process:93249): [1;33mWARNING[0m **: [34m10:10:03.783[0m: Entity http://pcisig.com/pci/1B36/0100 referenced but not defined
+ERROR    Disk /home/image/ubuntu20.04_2.img is already in use by other guests ['VMtest2']. (Use --check path_in_use=off or --check all=off to override)
+[root@WW30CYP10 ~]# 
+2021-11-25 10:09:55 - test_network_sriov_stress.py - [line:203] - root - ERROR - Failed to create a VM: 
+2021-11-25 10:09:59 - sshInstance.py - [line:69] - root - INFO - virt-install --name VMtest1 --ram 4096 --cpu host --vcpus=5 ---network network=default --hostdev pci_0000_31_01_0 --boot hd --disk path=/home//image/ubuntu20.04_2.img,size=50,format=qcow2 --graphics vnc,listen=0.0.0.0,port==5900 --noautoconsole
+
+** (process:93254): [1;33mWARNING[0m **: [34m10:10:10.796[0m: Entity http://pcisig.com/pci/1B36/0100 referenced but not defined
+ERROR    Disk /home/image/ubuntu20.04_2.img is already in use by other guests ['VMtest2']. (Use --check path_in_use=off or --check all=off to override)
+[root@WW30CYP10 ~]# 
+2021-11-25 10:10:02 - test_network_sriov_stress.py - [line:202] - root - ERROR - Failed to create a VM: virt-install --name VMtest1 --ram 4096 --cpu host --vcpus=5 ---network network=default --hostdev pci_0000_31_01_0 --boot hd --disk path=/home//image/ubuntu20.04_2.img,size=50,format=qcow2 --graphics vnc,listen=0.0.0.0,port==5900 --noautoconsole
+
+** (process:93254): [1;33mWARNING[0m **: [34m10:10:10.796[0m: Entity http://pcisig.com/pci/1B36/0100 referenced but not defined
+ERROR    Disk /home/image/ubuntu20.04_2.img is already in use by other guests ['VMtest2']. (Use --check path_in_use=off or --check all=off to override)
+[root@WW30CYP10 ~]# 
+2021-11-25 10:10:02 - test_network_sriov_stress.py - [line:203] - root - ERROR - Failed to create a VM: 
+F2021-11-25 10:10:02 - test_network_sriov_stress.py - [line:52] - root - INFO - this is the teardown of Test_Network_SRIOV_Stress.
+2021-11-25 10:10:05 - sshInstance.py - [line:44] - root - INFO - virsh destroy VMtest2
+2021-11-25 10:10:05 - sshInstance.py - [line:48] - root - INFO - 
+
+2021-11-25 10:10:10 - test_network_sriov_stress.py - [line:249] - root - ERROR - Failed to shut down the VM VMtest2
+2021-11-25 10:10:13 - sshInstance.py - [line:44] - root - INFO - virsh destroy VMtest1
+2021-11-25 10:10:13 - sshInstance.py - [line:48] - root - INFO - 
+
+2021-11-25 10:10:18 - test_network_sriov_stress.py - [line:249] - root - ERROR - Failed to shut down the VM VMtest1
+2021-11-25 10:10:18 - sshInstance.py - [line:39] - root - INFO - closing ssh client on SUT
+2021-11-25 10:10:18 - test_network_sriov_stress.py - [line:57] - root - INFO - =============================================Finished run the test case===============================================
+2021-11-25 10:10:18 - NicTestFixture.py - [line:28] - root - INFO - Starting to run test_PI_Networking_SRIOV_StressTrafficBetweenPFVFAndTestClientFor2Hours_VM_Guest[rhel84rt.img-ubuntu20.04.img]
+2021-11-25 10:10:18 - NicTestFixture.py - [line:29] - root - INFO - setup log for testing in the fixture class fbefore
+2021-11-25 10:10:18 - test_network_sriov_stress.py - [line:30] - root - INFO - SSH SUT and setup configurations in the setup function.
+2021-11-25 10:10:18 - transport.py - [line:1819] - paramiko.transport - INFO - Connected (version 2.0, client OpenSSH_8.0)
+2021-11-25 10:10:18 - transport.py - [line:1819] - paramiko.transport - INFO - Authentication (publickey) failed.
+2021-11-25 10:10:18 - transport.py - [line:1819] - paramiko.transport - INFO - Authentication (password) successful!
+2021-11-25 10:10:18 - sshInstance.py - [line:28] - root - INFO - SSH on SUT: 10.112.97.157
+2021-11-25 10:10:21 - sshInstance.py - [line:44] - root - INFO - /opt/APP/utility/DPDK_install/dpdk-stable-20.11.1/usertools/dpdk-devbind.py -s | grep ens787f0 | awk '{print $1;}'
+2021-11-25 10:10:22 - sshInstance.py - [line:48] - root - INFO - 0000:31:00.0
+0000:31:01.0
+0000:31:01.1
+0000:31:01.2
+0000:31:01.3
+
+2021-11-25 10:10:27 - test_network_sriov_stress.py - [line:80] - root - INFO - pf_id was found: 0000:31:00.0
+0000:31:01.0
+0000:31:01.1
+0000:31:01.2
+0000:31:01.3
+
+2021-11-25 10:10:27 - test_network_sriov_stress.py - [line:467] - root - INFO - format_pf_id is 0000\:31\:00.0
+0000:31:01.0
+0000:31:01.1
+0000:31:01.2
+0000:31:01.3
+
+2021-11-25 10:10:27 - test_network_sriov_stress.py - [line:470] - root - INFO - pf_id_key: 31
+2021-11-25 10:10:32 - sshInstance.py - [line:89] - root - INFO - Activate the web console with: systemctl enable --now cockpit.socket
+This system is not registered to Red Hat Insights. See https://cloud.redhat.com/
+To register this system, run: insights-client --register
+Last login: Thu Nov 25 10:08:38 2021 from 10.239.129.147
+[root@WW30CYP10 ~]# ifconfig ens787f0 192.168.10.11
+[root@WW30CYP10 ~]# 
+2021-11-25 10:10:35 - test_network_sriov_stress.py - [line:268] - root - INFO - Successfully assigned ip to ethernet: ens787f0
+2021-11-25 10:10:38 - sshInstance.py - [line:44] - root - INFO - echo 4 > /sys/class/net/ens787f0/device/sriov_numvfs
+2021-11-25 10:10:38 - sshInstance.py - [line:48] - root - INFO - 
+2021-11-25 10:10:43 - test_network_sriov_stress.py - [line:95] - root - INFO - Successfully Virtualized PF to VFs.
+2021-11-25 10:10:46 - sshInstance.py - [line:44] - root - INFO -  lspci | grep "Virtual" | awk '{print $1;}'list
+2021-11-25 10:10:46 - sshInstance.py - [line:48] - root - INFO - 31:01.0
+31:01.1
+31:01.2
+31:01.3
+
+2021-11-25 10:10:51 - test_network_sriov_stress.py - [line:109] - root - INFO - Succssfully Gotten vf_id list:
+
+2021-11-25 10:10:54 - sshInstance.py - [line:44] - root - INFO -  modinfo vfio-pci | grep "vfio_pci" | awk '{ print $2;}'
+2021-11-25 10:10:54 - sshInstance.py - [line:48] - root - INFO - vfio_pci
+
+2021-11-25 10:10:59 - test_network_sriov_stress.py - [line:162] - root - INFO - Successfuly modeprobe vfio-pci
+2021-11-25 10:11:02 - sshInstance.py - [line:44] - root - INFO - /opt/APP/utility/DPDK_install/dpdk-stable-20.11.1/usertools/dpdk-devbind.py -b vfio-pci 31:01.0
+2021-11-25 10:11:03 - sshInstance.py - [line:48] - root - INFO - 
+2021-11-25 10:11:08 - test_network_sriov_stress.py - [line:141] - root - INFO - Successfuly bound VF to vfio-pci
+2021-11-25 10:11:11 - sshInstance.py - [line:44] - root - INFO - /opt/APP/utility/DPDK_install/dpdk-stable-20.11.1/usertools/dpdk-devbind.py -b vfio-pci 31:01.1
+2021-11-25 10:11:11 - sshInstance.py - [line:48] - root - INFO - 
+2021-11-25 10:11:16 - test_network_sriov_stress.py - [line:141] - root - INFO - Successfuly bound VF to vfio-pci
+2021-11-25 10:11:16 - test_network_sriov_stress.py - [line:493] - root - INFO - lspci -Dnn | grep 31:01.1
+2021-11-25 10:11:19 - sshInstance.py - [line:44] - root - INFO - lspci -Dnn | grep 31:01.1
+2021-11-25 10:11:19 - sshInstance.py - [line:48] - root - INFO - 0000:31:01.1 Ethernet controller [0200]: Intel Corporation Ethernet Adaptive Virtual Function [8086:1889] (rev 02)
+
+2021-11-25 10:11:24 - test_network_sriov_stress.py - [line:504] - root - INFO - Successfully get vf device id: 8086:1889
+2021-11-25 10:11:27 - sshInstance.py - [line:44] - root - INFO - virsh net-info default | grep "Active" | awk '{print $2;}'
+2021-11-25 10:11:27 - sshInstance.py - [line:48] - root - INFO - yes
+
+2021-11-25 10:11:32 - test_network_sriov_stress.py - [line:170] - root - INFO - Default network is active? yes
+
+2021-11-25 10:11:36 - sshInstance.py - [line:69] - root - INFO - virt-install --name VMtest1 --ram 4096 --cpu host --vcpus=5 ---network network=default --hostdev pci_0000_31_01_0 --boot hd --disk path=/home//image/rhel84rt.img,size=50,format=qcow2 --graphics vnc,listen=0.0.0.0,port=5900  --noautoconsole
+
+** (process:93620): [1;33mWARNING[0m **: [34m10:11:48.233[0m: Entity http://pcisig.com/pci/1B36/0100 referenced but not defined
+WARNING  No operating system detected, VM performance may suffer. Specify an OS with --os-variant for optimal results.
+
+Starting install...
+ERROR    Guest name 'VMtest1' is already in use.
+Domain installation does not appear to have been successful.
+If it was, you can restart your domain by running:
+  virsh --connect qemu:///system start VMtest1
+otherwise, please restart your installation.
+[root@WW30CYP10 ~]# 
+2021-11-25 10:11:39 - test_network_sriov_stress.py - [line:202] - root - ERROR - Failed to create a VM: virt-install --name VMtest1 --ram 4096 --cpu host --vcpus=5 ---network network=default --hostdev pci_0000_31_01_0 --boot hd --disk path=/home//image/rhel84rt.img,size=50,format=qcow2 --graphics vnc,listen=0.0.0.0,port=5900  --noautoconsole
+
+** (process:93620): [1;33mWARNING[0m **: [34m10:11:48.233[0m: Entity http://pcisig.com/pci/1B36/0100 referenced but not defined
+WARNING  No operating system detected, VM performance may suffer. Specify an OS with --os-variant for optimal results.
+
+Starting install...
+ERROR    Guest name 'VMtest1' is already in use.
+Domain installation does not appear to have been successful.
+If it was, you can restart your domain by running:
+  virsh --connect qemu:///system start VMtest1
+otherwise, please restart your installation.
+[root@WW30CYP10 ~]# 
+2021-11-25 10:11:39 - test_network_sriov_stress.py - [line:203] - root - ERROR - Failed to create a VM: 
+2021-11-25 10:11:43 - sshInstance.py - [line:69] - root - INFO - virt-install --name VMtest1 --ram 4096 --cpu host --vcpus=5 ---network network=default --hostdev pci_0000_31_01_0 --boot hd --disk path=/home//image/rhel84rt.img,size=50,format=qcow2 --graphics vnc,listen=0.0.0.0,port=5900  --noautoconsole
+
+** (process:93624): [1;33mWARNING[0m **: [34m10:11:55.250[0m: Entity http://pcisig.com/pci/1B36/0100 referenced but not defined
+WARNING  No operating system detected, VM performance may suffer. Specify an OS with --os-variant for optimal results.
+
+Starting install...
+ERROR    Guest name 'VMtest1' is already in use.
+Domain installation does not appear to have been successful.
+If it was, you can restart your domain by running:
+  virsh --connect qemu:///system start VMtest1
+otherwise, please restart your installation.
+[root@WW30CYP10 ~]# 
+2021-11-25 10:11:47 - test_network_sriov_stress.py - [line:202] - root - ERROR - Failed to create a VM: virt-install --name VMtest1 --ram 4096 --cpu host --vcpus=5 ---network network=default --hostdev pci_0000_31_01_0 --boot hd --disk path=/home//image/rhel84rt.img,size=50,format=qcow2 --graphics vnc,listen=0.0.0.0,port=5900  --noautoconsole
+
+** (process:93624): [1;33mWARNING[0m **: [34m10:11:55.250[0m: Entity http://pcisig.com/pci/1B36/0100 referenced but not defined
+WARNING  No operating system detected, VM performance may suffer. Specify an OS with --os-variant for optimal results.
+
+Starting install...
+ERROR    Guest name 'VMtest1' is already in use.
+Domain installation does not appear to have been successful.
+If it was, you can restart your domain by running:
+  virsh --connect qemu:///system start VMtest1
+otherwise, please restart your installation.
+[root@WW30CYP10 ~]# 
+2021-11-25 10:11:47 - test_network_sriov_stress.py - [line:203] - root - ERROR - Failed to create a VM: 
+2021-11-25 10:11:51 - sshInstance.py - [line:69] - root - INFO - virt-install --name VMtest1 --ram 4096 --cpu host --vcpus=5 ---network network=default --hostdev pci_0000_31_01_0 --boot hd --disk path=/home//image/rhel84rt.img,size=50,format=qcow2 --graphics vnc,listen=0.0.0.0,port=5900  --noautoconsole
+
+** (process:93627): [1;33mWARNING[0m **: [34m10:12:02.245[0m: Entity http://pcisig.com/pci/1B36/0100 referenced but not defined
+WARNING  No operating system detected, VM performance may suffer. Specify an OS with --os-variant for optimal results.
+
+Starting install...
+ERROR    Guest name 'VMtest1' is already in use.
+Domain installation does not appear to have been successful.
+If it was, you can restart your domain by running:
+  virsh --connect qemu:///system start VMtest1
+otherwise, please restart your installation.
+[root@WW30CYP10 ~]# 
+2021-11-25 10:11:54 - test_network_sriov_stress.py - [line:202] - root - ERROR - Failed to create a VM: virt-install --name VMtest1 --ram 4096 --cpu host --vcpus=5 ---network network=default --hostdev pci_0000_31_01_0 --boot hd --disk path=/home//image/rhel84rt.img,size=50,format=qcow2 --graphics vnc,listen=0.0.0.0,port=5900  --noautoconsole
+
+** (process:93627): [1;33mWARNING[0m **: [34m10:12:02.245[0m: Entity http://pcisig.com/pci/1B36/0100 referenced but not defined
+WARNING  No operating system detected, VM performance may suffer. Specify an OS with --os-variant for optimal results.
+
+Starting install...
+ERROR    Guest name 'VMtest1' is already in use.
+Domain installation does not appear to have been successful.
+If it was, you can restart your domain by running:
+  virsh --connect qemu:///system start VMtest1
+otherwise, please restart your installation.
+[root@WW30CYP10 ~]# 
+2021-11-25 10:11:54 - test_network_sriov_stress.py - [line:203] - root - ERROR - Failed to create a VM: 
+F2021-11-25 10:11:54 - test_network_sriov_stress.py - [line:52] - root - INFO - this is the teardown of Test_Network_SRIOV_Stress.
+2021-11-25 10:11:57 - sshInstance.py - [line:44] - root - INFO - virsh destroy VMtest2
+2021-11-25 10:11:57 - sshInstance.py - [line:48] - root - INFO - 
+
+2021-11-25 10:12:02 - test_network_sriov_stress.py - [line:249] - root - ERROR - Failed to shut down the VM VMtest2
+2021-11-25 10:12:05 - sshInstance.py - [line:44] - root - INFO - virsh destroy VMtest1
+2021-11-25 10:12:05 - sshInstance.py - [line:48] - root - INFO - 
+
+2021-11-25 10:12:10 - test_network_sriov_stress.py - [line:249] - root - ERROR - Failed to shut down the VM VMtest1
+2021-11-25 10:12:10 - sshInstance.py - [line:39] - root - INFO - closing ssh client on SUT
+2021-11-25 10:12:10 - test_network_sriov_stress.py - [line:57] - root - INFO - =============================================Finished run the test case===============================================
+2021-11-25 10:12:10 - NicTestFixture.py - [line:28] - root - INFO - Starting to run test_PI_Networking_SRIOV_StressTrafficBetweenPFVFAndTestClientFor2Hours_VM_Guest[rhel84rt.img-rhel84rt2.img]
+2021-11-25 10:12:10 - NicTestFixture.py - [line:29] - root - INFO - setup log for testing in the fixture class fbefore
+2021-11-25 10:12:10 - test_network_sriov_stress.py - [line:30] - root - INFO - SSH SUT and setup configurations in the setup function.
+2021-11-25 10:12:10 - transport.py - [line:1819] - paramiko.transport - INFO - Connected (version 2.0, client OpenSSH_8.0)
+2021-11-25 10:12:10 - transport.py - [line:1819] - paramiko.transport - INFO - Authentication (publickey) failed.
+2021-11-25 10:12:10 - transport.py - [line:1819] - paramiko.transport - INFO - Authentication (password) successful!
+2021-11-25 10:12:10 - sshInstance.py - [line:28] - root - INFO - SSH on SUT: 10.112.97.157
+2021-11-25 10:12:13 - sshInstance.py - [line:44] - root - INFO - /opt/APP/utility/DPDK_install/dpdk-stable-20.11.1/usertools/dpdk-devbind.py -s | grep ens787f0 | awk '{print $1;}'
+2021-11-25 10:12:13 - sshInstance.py - [line:48] - root - INFO - 0000:31:00.0
+0000:31:01.0
+0000:31:01.1
+0000:31:01.2
+0000:31:01.3
+
+2021-11-25 10:12:18 - test_network_sriov_stress.py - [line:80] - root - INFO - pf_id was found: 0000:31:00.0
+0000:31:01.0
+0000:31:01.1
+0000:31:01.2
+0000:31:01.3
+
+2021-11-25 10:12:18 - test_network_sriov_stress.py - [line:467] - root - INFO - format_pf_id is 0000\:31\:00.0
+0000:31:01.0
+0000:31:01.1
+0000:31:01.2
+0000:31:01.3
+
+2021-11-25 10:12:18 - test_network_sriov_stress.py - [line:470] - root - INFO - pf_id_key: 31
+2021-11-25 10:12:23 - sshInstance.py - [line:89] - root - INFO - Activate the web console with: systemctl enable --now cockpit.socket
+This system is not registered to Red Hat Insights. See https://cloud.redhat.com/
+To register this system, run: insights-client --register
+Last login: Thu Nov 25 10:10:30 2021 from 10.239.129.147
+[root@WW30CYP10 ~]# ifconfig ens787f0 192.168.10.11
+[root@WW30CYP10 ~]# 
+2021-11-25 10:12:26 - test_network_sriov_stress.py - [line:268] - root - INFO - Successfully assigned ip to ethernet: ens787f0
+2021-11-25 10:12:29 - sshInstance.py - [line:44] - root - INFO - echo 4 > /sys/class/net/ens787f0/device/sriov_numvfs
+2021-11-25 10:12:29 - sshInstance.py - [line:48] - root - INFO - 
+2021-11-25 10:12:34 - test_network_sriov_stress.py - [line:95] - root - INFO - Successfully Virtualized PF to VFs.
+2021-11-25 10:12:37 - sshInstance.py - [line:44] - root - INFO -  lspci | grep "Virtual" | awk '{print $1;}'list
+2021-11-25 10:12:38 - sshInstance.py - [line:48] - root - INFO - 31:01.0
+31:01.1
+31:01.2
+31:01.3
+
+2021-11-25 10:12:43 - test_network_sriov_stress.py - [line:109] - root - INFO - Succssfully Gotten vf_id list:
+
+2021-11-25 10:12:46 - sshInstance.py - [line:44] - root - INFO -  modinfo vfio-pci | grep "vfio_pci" | awk '{ print $2;}'
+2021-11-25 10:12:46 - sshInstance.py - [line:48] - root - INFO - vfio_pci
+
+2021-11-25 10:12:51 - test_network_sriov_stress.py - [line:162] - root - INFO - Successfuly modeprobe vfio-pci
+2021-11-25 10:12:54 - sshInstance.py - [line:44] - root - INFO - /opt/APP/utility/DPDK_install/dpdk-stable-20.11.1/usertools/dpdk-devbind.py -b vfio-pci 31:01.0
+2021-11-25 10:12:54 - sshInstance.py - [line:48] - root - INFO - 
+2021-11-25 10:12:59 - test_network_sriov_stress.py - [line:141] - root - INFO - Successfuly bound VF to vfio-pci
+2021-11-25 10:13:02 - sshInstance.py - [line:44] - root - INFO - /opt/APP/utility/DPDK_install/dpdk-stable-20.11.1/usertools/dpdk-devbind.py -b vfio-pci 31:01.1
+2021-11-25 10:13:03 - sshInstance.py - [line:48] - root - INFO - 
+2021-11-25 10:13:08 - test_network_sriov_stress.py - [line:141] - root - INFO - Successfuly bound VF to vfio-pci
+2021-11-25 10:13:08 - test_network_sriov_stress.py - [line:493] - root - INFO - lspci -Dnn | grep 31:01.1
+2021-11-25 10:13:11 - sshInstance.py - [line:44] - root - INFO - lspci -Dnn | grep 31:01.1
+2021-11-25 10:13:11 - sshInstance.py - [line:48] - root - INFO - 0000:31:01.1 Ethernet controller [0200]: Intel Corporation Ethernet Adaptive Virtual Function [8086:1889] (rev 02)
+
+2021-11-25 10:13:16 - test_network_sriov_stress.py - [line:504] - root - INFO - Successfully get vf device id: 8086:1889
+2021-11-25 10:13:19 - sshInstance.py - [line:44] - root - INFO - virsh net-info default | grep "Active" | awk '{print $2;}'
+2021-11-25 10:13:19 - sshInstance.py - [line:48] - root - INFO - yes
+
+2021-11-25 10:13:24 - test_network_sriov_stress.py - [line:170] - root - INFO - Default network is active? yes
+
+2021-11-25 10:13:28 - sshInstance.py - [line:69] - root - INFO - virt-install --name VMtest1 --ram 4096 --cpu host --vcpus=5 ---network network=default --hostdev pci_0000_31_01_0 --boot hd --disk path=/home//image/rhel84rt.img,size=50,format=qcow2 --graphics vnc,listen=0.0.0.0,port=5900  --noautoconsole
+
+** (process:93991): [1;33mWARNING[0m **: [34m10:13:39.720[0m: Entity http://pcisig.com/pci/1B36/0100 referenced but not defined
+WARNING  No operating system detected, VM performance may suffer. Specify an OS with --os-variant for optimal results.
+
+Starting install...
+ERROR    Guest name 'VMtest1' is already in use.
+Domain installation does not appear to have been successful.
+If it was, you can restart your domain by running:
+  virsh --connect qemu:///system start VMtest1
+otherwise, please restart your installation.
+[root@WW30CYP10 ~]# 
+2021-11-25 10:13:31 - test_network_sriov_stress.py - [line:202] - root - ERROR - Failed to create a VM: virt-install --name VMtest1 --ram 4096 --cpu host --vcpus=5 ---network network=default --hostdev pci_0000_31_01_0 --boot hd --disk path=/home//image/rhel84rt.img,size=50,format=qcow2 --graphics vnc,listen=0.0.0.0,port=5900  --noautoconsole
+
+** (process:93991): [1;33mWARNING[0m **: [34m10:13:39.720[0m: Entity http://pcisig.com/pci/1B36/0100 referenced but not defined
+WARNING  No operating system detected, VM performance may suffer. Specify an OS with --os-variant for optimal results.
+
+Starting install...
+ERROR    Guest name 'VMtest1' is already in use.
+Domain installation does not appear to have been successful.
+If it was, you can restart your domain by running:
+  virsh --connect qemu:///system start VMtest1
+otherwise, please restart your installation.
+[root@WW30CYP10 ~]# 
+2021-11-25 10:13:31 - test_network_sriov_stress.py - [line:203] - root - ERROR - Failed to create a VM: 
+2021-11-25 10:13:35 - sshInstance.py - [line:69] - root - INFO - virt-install --name VMtest1 --ram 4096 --cpu host --vcpus=5 ---network network=default --hostdev pci_0000_31_01_0 --boot hd --disk path=/home//image/rhel84rt.img,size=50,format=qcow2 --graphics vnc,listen=0.0.0.0,port=5900  --noautoconsole
+
+** (process:93996): [1;33mWARNING[0m **: [34m10:13:46.703[0m: Entity http://pcisig.com/pci/1B36/0100 referenced but not defined
+WARNING  No operating system detected, VM performance may suffer. Specify an OS with --os-variant for optimal results.
+
+Starting install...
+ERROR    Guest name 'VMtest1' is already in use.
+Domain installation does not appear to have been successful.
+If it was, you can restart your domain by running:
+  virsh --connect qemu:///system start VMtest1
+otherwise, please restart your installation.
+[root@WW30CYP10 ~]# 
+2021-11-25 10:13:38 - test_network_sriov_stress.py - [line:202] - root - ERROR - Failed to create a VM: virt-install --name VMtest1 --ram 4096 --cpu host --vcpus=5 ---network network=default --hostdev pci_0000_31_01_0 --boot hd --disk path=/home//image/rhel84rt.img,size=50,format=qcow2 --graphics vnc,listen=0.0.0.0,port=5900  --noautoconsole
+
+** (process:93996): [1;33mWARNING[0m **: [34m10:13:46.703[0m: Entity http://pcisig.com/pci/1B36/0100 referenced but not defined
+WARNING  No operating system detected, VM performance may suffer. Specify an OS with --os-variant for optimal results.
+
+Starting install...
+ERROR    Guest name 'VMtest1' is already in use.
+Domain installation does not appear to have been successful.
+If it was, you can restart your domain by running:
+  virsh --connect qemu:///system start VMtest1
+otherwise, please restart your installation.
+[root@WW30CYP10 ~]# 
+2021-11-25 10:13:38 - test_network_sriov_stress.py - [line:203] - root - ERROR - Failed to create a VM: 
+2021-11-25 10:13:42 - sshInstance.py - [line:69] - root - INFO - virt-install --name VMtest1 --ram 4096 --cpu host --vcpus=5 ---network network=default --hostdev pci_0000_31_01_0 --boot hd --disk path=/home//image/rhel84rt.img,size=50,format=qcow2 --graphics vnc,listen=0.0.0.0,port=5900  --noautoconsole
+
+** (process:93999): [1;33mWARNING[0m **: [34m10:13:53.725[0m: Entity http://pcisig.com/pci/1B36/0100 referenced but not defined
+WARNING  No operating system detected, VM performance may suffer. Specify an OS with --os-variant for optimal results.
+
+Starting install...
+ERROR    Guest name 'VMtest1' is already in use.
+Domain installation does not appear to have been successful.
+If it was, you can restart your domain by running:
+  virsh --connect qemu:///system start VMtest1
+otherwise, please restart your installation.
+[root@WW30CYP10 ~]# 
+2021-11-25 10:13:45 - test_network_sriov_stress.py - [line:202] - root - ERROR - Failed to create a VM: virt-install --name VMtest1 --ram 4096 --cpu host --vcpus=5 ---network network=default --hostdev pci_0000_31_01_0 --boot hd --disk path=/home//image/rhel84rt.img,size=50,format=qcow2 --graphics vnc,listen=0.0.0.0,port=5900  --noautoconsole
+
+** (process:93999): [1;33mWARNING[0m **: [34m10:13:53.725[0m: Entity http://pcisig.com/pci/1B36/0100 referenced but not defined
+WARNING  No operating system detected, VM performance may suffer. Specify an OS with --os-variant for optimal results.
+
+Starting install...
+ERROR    Guest name 'VMtest1' is already in use.
+Domain installation does not appear to have been successful.
+If it was, you can restart your domain by running:
+  virsh --connect qemu:///system start VMtest1
+otherwise, please restart your installation.
+[root@WW30CYP10 ~]# 
+2021-11-25 10:13:45 - test_network_sriov_stress.py - [line:203] - root - ERROR - Failed to create a VM: 
+F2021-11-25 10:13:45 - test_network_sriov_stress.py - [line:52] - root - INFO - this is the teardown of Test_Network_SRIOV_Stress.
+2021-11-25 10:13:48 - sshInstance.py - [line:44] - root - INFO - virsh destroy VMtest2
+2021-11-25 10:13:48 - sshInstance.py - [line:48] - root - INFO - 
+
+2021-11-25 10:13:53 - test_network_sriov_stress.py - [line:249] - root - ERROR - Failed to shut down the VM VMtest2
+2021-11-25 10:13:56 - sshInstance.py - [line:44] - root - INFO - virsh destroy VMtest1
+2021-11-25 10:13:56 - sshInstance.py - [line:48] - root - INFO - 
+
+2021-11-25 10:14:01 - test_network_sriov_stress.py - [line:249] - root - ERROR - Failed to shut down the VM VMtest1
+2021-11-25 10:14:01 - sshInstance.py - [line:39] - root - INFO - closing ssh client on SUT
+2021-11-25 10:14:01 - test_network_sriov_stress.py - [line:57] - root - INFO - =============================================Finished run the test case===============================================
+
+
+=================================== FAILURES ===================================
+_ Test_Network_SRIOV_Stress.test_PI_Networking_SRIOV_StressDisableEnableFor5TimesWhenVFIsAssigned_VM_Guest[ubuntu20.04_2.img-ubuntu20.04.img] _
+
+self = <Tests.testNics.test_network_sriov_stress.Test_Network_SRIOV_Stress object at 0x7faadf21d3c8>
+vm1_image = 'ubuntu20.04_2.img', vm2_image = 'ubuntu20.04.img'
+
+    @pytest.mark.nicall
+    @pytest.mark.usefixtures("fbefore")
+    @pytest.mark.parametrize('vm1_image, vm2_image', vm_image)
+    def test_PI_Networking_SRIOV_StressDisableEnableFor5TimesWhenVFIsAssigned_VM_Guest(self, vm1_image, vm2_image):
+        for j in range(1, 6):
+            logging.info("\n\n********************************************************Stress Disable and Enable for {} time when VF is Assigned VM guest.*************************************************************\n\n".format(j))
+            # get pf id: 0000:xx:xx.x
+            pf_id, status= self.get_pf_id(self.pf_name)
+            # transfer pf_id to 0000\:00\:00.0 format
+            if not pf_id:
+                assert 200 == status
+            else:
+                pf_id_format = pf_id.replace(":", "\\:", 2)
+                logging.info("format_pf_id is {}".format(pf_id_format))
+                # get the number key of pf_id
+                pf_id_key = pf_id.split(":")[1]
+                logging.info("pf_id_key: {}".format(pf_id_key))
+                # assign IP to PF in SUT and sut2
+                pf_ip = "192.168.{}.{}".format(self.dhcp_info["ipv4"].split(".")[2],
+                                               str(int(self.dhcp_info["ipv4"].split(".")[3])+1))
+                dhcp_ipv4 = self.dhcp_info["ipv4"]
+                assert 200 == self.assign_ip_ehternet(self.session, pf_ip, self.pf_name)
+                # virtulize the pf to vfs
+                assert 200 == self.virtualize_pf_to_vfs(self.pf_name)
+                # get vf ids
+                vf_id_list, status=self.get_vf_ids(pf_id_key)
+                if status == 200:
+                    # modprobe vfio-pci
+                    assert 200 == self.modprobe("vfio-pci")
+                    # bind vf with vfio-pci
+                    host_dev_id_list, status = self.bind_vf_to_vfio_pci(vf_id_list)
+                    assert 200 == status
+                else:
+                    assert 200 == status
+                # get vF device ida
+                #tmp code
+                cmd = "lspci -Dnn | grep %s" % (vf_id_list[1])
+                logging.info(cmd)
+                vf_device_id = ""
+                vf_device_id_rs, error = self.ssh_sut.ssh_exec_cmd(self.client, cmd)
+                if vf_device_id_rs:
+                    st = False
+                    vf_device_id = None
+                    for one in vf_device_id_rs.split(" "):
+                        one = " "+one+" "
+                        if one.find(" [") > -1 and one.find("] ") > -1 and one.find(":")> -1:
+                            vf_device_id = one.replace("[", "").replace("]","").strip()
+                    if not vf_device_id: assert 200 == 400,"vf_device_id is not found"
+                    logging.info("Successfully get vf device id: {}".format(vf_device_id))
+                    assert 200 == 200
+                else:
+                    logging.error("Fail to get vf device id.")
+                    assert 200==400
+    
+                #set network
+                status = self.default_network_isActive(self.defult_network)
+                if status == "no":
+                    assert 200 == self.start_default_network(self.defult_network)
+    
+                # start VMs
+>               assert 200 == self.create_vm(vm1_image, host_dev_id_list[0], self.vm1_name, "5900")
+E               AssertionError: assert 200 == 400
+E                +  where 400 = <bound method Test_Network_SRIOV_Stress.create_vm of <Tests.testNics.test_network_sriov_stress.Test_Network_SRIOV_Stress object at 0x7faadf21d3c8>>('ubuntu20.04_2.img', 'pci_0000_31_01_0', 'VMtest1', '5900')
+E                +    where <bound method Test_Network_SRIOV_Stress.create_vm of <Tests.testNics.test_network_sriov_stress.Test_Network_SRIOV_Stress object at 0x7faadf21d3c8>> = <Tests.testNics.test_network_sriov_stress.Test_Network_SRIOV_Stress object at 0x7faadf21d3c8>.create_vm
+E                +    and   'VMtest1' = <Tests.testNics.test_network_sriov_stress.Test_Network_SRIOV_Stress object at 0x7faadf21d3c8>.vm1_name
+
+../test-nic/npxtester/Tests/testNics/test_network_sriov_stress.py:404: AssertionError
+------------------------------ Captured log call -------------------------------
+INFO     root:test_network_sriov_stress.py:349 
+
+********************************************************Stress Disable and Enable for 1 time when VF is Assigned VM guest.*************************************************************
+
+
+INFO     root:sshInstance.py:44 /opt/APP/utility/DPDK_install/dpdk-stable-20.11.1/usertools/dpdk-devbind.py -s | grep ens787f0 | awk '{print $1;}'
+INFO     root:sshInstance.py:48 0000:31:00.0
+0000:31:01.0
+0000:31:01.1
+0000:31:01.2
+0000:31:01.3
+
+INFO     root:test_network_sriov_stress.py:80 pf_id was found: 0000:31:00.0
+0000:31:01.0
+0000:31:01.1
+0000:31:01.2
+0000:31:01.3
+
+INFO     root:test_network_sriov_stress.py:357 format_pf_id is 0000\:31\:00.0
+0000:31:01.0
+0000:31:01.1
+0000:31:01.2
+0000:31:01.3
+
+INFO     root:test_network_sriov_stress.py:360 pf_id_key: 31
+INFO     root:sshInstance.py:89 Activate the web console with: systemctl enable --now cockpit.socket
+This system is not registered to Red Hat Insights. See https://cloud.redhat.com/
+To register this system, run: insights-client --register
+Last login: Thu Nov 25 09:59:55 2021 from 10.239.129.147
+[root@WW30CYP10 ~]# ifconfig ens787f0 192.168.10.11
+[root@WW30CYP10 ~]# 
+INFO     root:test_network_sriov_stress.py:268 Successfully assigned ip to ethernet: ens787f0
+INFO     root:sshInstance.py:44 echo 4 > /sys/class/net/ens787f0/device/sriov_numvfs
+INFO     root:sshInstance.py:48 
+INFO     root:test_network_sriov_stress.py:95 Successfully Virtualized PF to VFs.
+INFO     root:sshInstance.py:44  lspci | grep "Virtual" | awk '{print $1;}'list
+INFO     root:sshInstance.py:48 31:01.0
+31:01.1
+31:01.2
+31:01.3
+
+INFO     root:test_network_sriov_stress.py:109 Succssfully Gotten vf_id list:
+
+INFO     root:sshInstance.py:44  modinfo vfio-pci | grep "vfio_pci" | awk '{ print $2;}'
+INFO     root:sshInstance.py:48 vfio_pci
+
+INFO     root:test_network_sriov_stress.py:162 Successfuly modeprobe vfio-pci
+INFO     root:sshInstance.py:44 /opt/APP/utility/DPDK_install/dpdk-stable-20.11.1/usertools/dpdk-devbind.py -b vfio-pci 31:01.0
+INFO     root:sshInstance.py:48 
+INFO     root:test_network_sriov_stress.py:141 Successfuly bound VF to vfio-pci
+INFO     root:sshInstance.py:44 /opt/APP/utility/DPDK_install/dpdk-stable-20.11.1/usertools/dpdk-devbind.py -b vfio-pci 31:01.1
+INFO     root:sshInstance.py:48 
+INFO     root:test_network_sriov_stress.py:141 Successfuly bound VF to vfio-pci
+INFO     root:test_network_sriov_stress.py:381 lspci -Dnn | grep 31:01.1
+INFO     root:sshInstance.py:44 lspci -Dnn | grep 31:01.1
+INFO     root:sshInstance.py:48 0000:31:01.1 Ethernet controller [0200]: Intel Corporation Ethernet Adaptive Virtual Function [8086:1889] (rev 02)
+
+INFO     root:test_network_sriov_stress.py:392 Successfully get vf device id: 8086:1889
+INFO     root:sshInstance.py:44 virsh net-info default | grep "Active" | awk '{print $2;}'
+INFO     root:sshInstance.py:48 yes
+
+INFO     root:test_network_sriov_stress.py:170 Default network is active? yes
+
+INFO     root:sshInstance.py:69 virt-install --name VMtest1 --ram 4096 --cpu host --vcpus=5 ---network network=default --hostdev pci_0000_31_01_0 --boot hd --disk path=/home//image/ubuntu20.04_2.img,size=50,format=qcow2 --graphics vnc,listen=0.0.0.0,port==5900 --noautoconsole
+
+** (process:92128): [1;33mWARNING[0m **: [34m10:04:22.425[0m: Entity http://pcisig.com/pci/1B36/0100 referenced but not defined
+ERROR    Disk /home/image/ubuntu20.04_2.img is already in use by other guests ['VMtest2']. (Use --check path_in_use=off or --check all=off to override)
+[root@WW30CYP10 ~]# 
+ERROR    root:test_network_sriov_stress.py:202 Failed to create a VM: virt-install --name VMtest1 --ram 4096 --cpu host --vcpus=5 ---network network=default --hostdev pci_0000_31_01_0 --boot hd --disk path=/home//image/ubuntu20.04_2.img,size=50,format=qcow2 --graphics vnc,listen=0.0.0.0,port==5900 --noautoconsole
+
+** (process:92128): [1;33mWARNING[0m **: [34m10:04:22.425[0m: Entity http://pcisig.com/pci/1B36/0100 referenced but not defined
+ERROR    Disk /home/image/ubuntu20.04_2.img is already in use by other guests ['VMtest2']. (Use --check path_in_use=off or --check all=off to override)
+[root@WW30CYP10 ~]# 
+ERROR    root:test_network_sriov_stress.py:203 Failed to create a VM: 
+INFO     root:sshInstance.py:69 virt-install --name VMtest1 --ram 4096 --cpu host --vcpus=5 ---network network=default --hostdev pci_0000_31_01_0 --boot hd --disk path=/home//image/ubuntu20.04_2.img,size=50,format=qcow2 --graphics vnc,listen=0.0.0.0,port==5900 --noautoconsole
+
+** (process:92137): [1;33mWARNING[0m **: [34m10:04:29.398[0m: Entity http://pcisig.com/pci/1B36/0100 referenced but not defined
+ERROR    Disk /home/image/ubuntu20.04_2.img is already in use by other guests ['VMtest2']. (Use --check path_in_use=off or --check all=off to override)
+[root@WW30CYP10 ~]# 
+ERROR    root:test_network_sriov_stress.py:202 Failed to create a VM: virt-install --name VMtest1 --ram 4096 --cpu host --vcpus=5 ---network network=default --hostdev pci_0000_31_01_0 --boot hd --disk path=/home//image/ubuntu20.04_2.img,size=50,format=qcow2 --graphics vnc,listen=0.0.0.0,port==5900 --noautoconsole
+
+** (process:92137): [1;33mWARNING[0m **: [34m10:04:29.398[0m: Entity http://pcisig.com/pci/1B36/0100 referenced but not defined
+ERROR    Disk /home/image/ubuntu20.04_2.img is already in use by other guests ['VMtest2']. (Use --check path_in_use=off or --check all=off to override)
+[root@WW30CYP10 ~]# 
+ERROR    root:test_network_sriov_stress.py:203 Failed to create a VM: 
+INFO     root:sshInstance.py:69 virt-install --name VMtest1 --ram 4096 --cpu host --vcpus=5 ---network network=default --hostdev pci_0000_31_01_0 --boot hd --disk path=/home//image/ubuntu20.04_2.img,size=50,format=qcow2 --graphics vnc,listen=0.0.0.0,port==5900 --noautoconsole
+
+** (process:92143): [1;33mWARNING[0m **: [34m10:04:36.408[0m: Entity http://pcisig.com/pci/1B36/0100 referenced but not defined
+ERROR    Disk /home/image/ubuntu20.04_2.img is already in use by other guests ['VMtest2']. (Use --check path_in_use=off or --check all=off to override)
+[root@WW30CYP10 ~]# 
+ERROR    root:test_network_sriov_stress.py:202 Failed to create a VM: virt-install --name VMtest1 --ram 4096 --cpu host --vcpus=5 ---network network=default --hostdev pci_0000_31_01_0 --boot hd --disk path=/home//image/ubuntu20.04_2.img,size=50,format=qcow2 --graphics vnc,listen=0.0.0.0,port==5900 --noautoconsole
+
+** (process:92143): [1;33mWARNING[0m **: [34m10:04:36.408[0m: Entity http://pcisig.com/pci/1B36/0100 referenced but not defined
+ERROR    Disk /home/image/ubuntu20.04_2.img is already in use by other guests ['VMtest2']. (Use --check path_in_use=off or --check all=off to override)
+[root@WW30CYP10 ~]# 
+ERROR    root:test_network_sriov_stress.py:203 Failed to create a VM:
+---------------------------- Captured log teardown -----------------------------
+INFO     root:test_network_sriov_stress.py:52 this is the teardown of Test_Network_SRIOV_Stress.
+INFO     root:sshInstance.py:44 virsh destroy VMtest2
+INFO     root:sshInstance.py:48 
+
+ERROR    root:test_network_sriov_stress.py:249 Failed to shut down the VM VMtest2
+INFO     root:sshInstance.py:44 virsh destroy VMtest1
+INFO     root:sshInstance.py:48 
+
+ERROR    root:test_network_sriov_stress.py:249 Failed to shut down the VM VMtest1
+INFO     root:sshInstance.py:39 closing ssh client on SUT
+INFO     root:test_network_sriov_stress.py:57 =============================================Finished run the test case===============================================
+_ Test_Network_SRIOV_Stress.test_PI_Networking_SRIOV_StressDisableEnableFor5TimesWhenVFIsAssigned_VM_Guest[rhel84rt.img-ubuntu20.04.img] _
+
+self = <Tests.testNics.test_network_sriov_stress.Test_Network_SRIOV_Stress object at 0x7faadc46e588>
+vm1_image = 'rhel84rt.img', vm2_image = 'ubuntu20.04.img'
+
+    @pytest.mark.nicall
+    @pytest.mark.usefixtures("fbefore")
+    @pytest.mark.parametrize('vm1_image, vm2_image', vm_image)
+    def test_PI_Networking_SRIOV_StressDisableEnableFor5TimesWhenVFIsAssigned_VM_Guest(self, vm1_image, vm2_image):
+        for j in range(1, 6):
+            logging.info("\n\n********************************************************Stress Disable and Enable for {} time when VF is Assigned VM guest.*************************************************************\n\n".format(j))
+            # get pf id: 0000:xx:xx.x
+            pf_id, status= self.get_pf_id(self.pf_name)
+            # transfer pf_id to 0000\:00\:00.0 format
+            if not pf_id:
+                assert 200 == status
+            else:
+                pf_id_format = pf_id.replace(":", "\\:", 2)
+                logging.info("format_pf_id is {}".format(pf_id_format))
+                # get the number key of pf_id
+                pf_id_key = pf_id.split(":")[1]
+                logging.info("pf_id_key: {}".format(pf_id_key))
+                # assign IP to PF in SUT and sut2
+                pf_ip = "192.168.{}.{}".format(self.dhcp_info["ipv4"].split(".")[2],
+                                               str(int(self.dhcp_info["ipv4"].split(".")[3])+1))
+                dhcp_ipv4 = self.dhcp_info["ipv4"]
+                assert 200 == self.assign_ip_ehternet(self.session, pf_ip, self.pf_name)
+                # virtulize the pf to vfs
+                assert 200 == self.virtualize_pf_to_vfs(self.pf_name)
+                # get vf ids
+                vf_id_list, status=self.get_vf_ids(pf_id_key)
+                if status == 200:
+                    # modprobe vfio-pci
+                    assert 200 == self.modprobe("vfio-pci")
+                    # bind vf with vfio-pci
+                    host_dev_id_list, status = self.bind_vf_to_vfio_pci(vf_id_list)
+                    assert 200 == status
+                else:
+                    assert 200 == status
+                # get vF device ida
+                #tmp code
+                cmd = "lspci -Dnn | grep %s" % (vf_id_list[1])
+                logging.info(cmd)
+                vf_device_id = ""
+                vf_device_id_rs, error = self.ssh_sut.ssh_exec_cmd(self.client, cmd)
+                if vf_device_id_rs:
+                    st = False
+                    vf_device_id = None
+                    for one in vf_device_id_rs.split(" "):
+                        one = " "+one+" "
+                        if one.find(" [") > -1 and one.find("] ") > -1 and one.find(":")> -1:
+                            vf_device_id = one.replace("[", "").replace("]","").strip()
+                    if not vf_device_id: assert 200 == 400,"vf_device_id is not found"
+                    logging.info("Successfully get vf device id: {}".format(vf_device_id))
+                    assert 200 == 200
+                else:
+                    logging.error("Fail to get vf device id.")
+                    assert 200==400
+    
+                #set network
+                status = self.default_network_isActive(self.defult_network)
+                if status == "no":
+                    assert 200 == self.start_default_network(self.defult_network)
+    
+                # start VMs
+>               assert 200 == self.create_vm(vm1_image, host_dev_id_list[0], self.vm1_name, "5900")
+E               AssertionError: assert 200 == 400
+E                +  where 400 = <bound method Test_Network_SRIOV_Stress.create_vm of <Tests.testNics.test_network_sriov_stress.Test_Network_SRIOV_Stress object at 0x7faadc46e588>>('rhel84rt.img', 'pci_0000_31_01_0', 'VMtest1', '5900')
+E                +    where <bound method Test_Network_SRIOV_Stress.create_vm of <Tests.testNics.test_network_sriov_stress.Test_Network_SRIOV_Stress object at 0x7faadc46e588>> = <Tests.testNics.test_network_sriov_stress.Test_Network_SRIOV_Stress object at 0x7faadc46e588>.create_vm
+E                +    and   'VMtest1' = <Tests.testNics.test_network_sriov_stress.Test_Network_SRIOV_Stress object at 0x7faadc46e588>.vm1_name
+
+../test-nic/npxtester/Tests/testNics/test_network_sriov_stress.py:404: AssertionError
+------------------------------ Captured log call -------------------------------
+INFO     root:test_network_sriov_stress.py:349 
+
+********************************************************Stress Disable and Enable for 1 time when VF is Assigned VM guest.*************************************************************
+
+
+INFO     root:sshInstance.py:44 /opt/APP/utility/DPDK_install/dpdk-stable-20.11.1/usertools/dpdk-devbind.py -s | grep ens787f0 | awk '{print $1;}'
+INFO     root:sshInstance.py:48 0000:31:00.0
+0000:31:01.0
+0000:31:01.1
+0000:31:01.2
+0000:31:01.3
+
+INFO     root:test_network_sriov_stress.py:80 pf_id was found: 0000:31:00.0
+0000:31:01.0
+0000:31:01.1
+0000:31:01.2
+0000:31:01.3
+
+INFO     root:test_network_sriov_stress.py:357 format_pf_id is 0000\:31\:00.0
+0000:31:01.0
+0000:31:01.1
+0000:31:01.2
+0000:31:01.3
+
+INFO     root:test_network_sriov_stress.py:360 pf_id_key: 31
+INFO     root:sshInstance.py:89 Activate the web console with: systemctl enable --now cockpit.socket
+This system is not registered to Red Hat Insights. See https://cloud.redhat.com/
+To register this system, run: insights-client --register
+Last login: Thu Nov 25 10:03:04 2021 from 10.239.129.147
+[root@WW30CYP10 ~]# ifconfig ens787f0 192.168.10.11
+[root@WW30CYP10 ~]# 
+INFO     root:test_network_sriov_stress.py:268 Successfully assigned ip to ethernet: ens787f0
+INFO     root:sshInstance.py:44 echo 4 > /sys/class/net/ens787f0/device/sriov_numvfs
+INFO     root:sshInstance.py:48 
+INFO     root:test_network_sriov_stress.py:95 Successfully Virtualized PF to VFs.
+INFO     root:sshInstance.py:44  lspci | grep "Virtual" | awk '{print $1;}'list
+INFO     root:sshInstance.py:48 31:01.0
+31:01.1
+31:01.2
+31:01.3
+
+INFO     root:test_network_sriov_stress.py:109 Succssfully Gotten vf_id list:
+
+INFO     root:sshInstance.py:44  modinfo vfio-pci | grep "vfio_pci" | awk '{ print $2;}'
+INFO     root:sshInstance.py:48 vfio_pci
+
+INFO     root:test_network_sriov_stress.py:162 Successfuly modeprobe vfio-pci
+INFO     root:sshInstance.py:44 /opt/APP/utility/DPDK_install/dpdk-stable-20.11.1/usertools/dpdk-devbind.py -b vfio-pci 31:01.0
+INFO     root:sshInstance.py:48 
+INFO     root:test_network_sriov_stress.py:141 Successfuly bound VF to vfio-pci
+INFO     root:sshInstance.py:44 /opt/APP/utility/DPDK_install/dpdk-stable-20.11.1/usertools/dpdk-devbind.py -b vfio-pci 31:01.1
+INFO     root:sshInstance.py:48 
+INFO     root:test_network_sriov_stress.py:141 Successfuly bound VF to vfio-pci
+INFO     root:test_network_sriov_stress.py:381 lspci -Dnn | grep 31:01.1
+INFO     root:sshInstance.py:44 lspci -Dnn | grep 31:01.1
+INFO     root:sshInstance.py:48 0000:31:01.1 Ethernet controller [0200]: Intel Corporation Ethernet Adaptive Virtual Function [8086:1889] (rev 02)
+
+INFO     root:test_network_sriov_stress.py:392 Successfully get vf device id: 8086:1889
+INFO     root:sshInstance.py:44 virsh net-info default | grep "Active" | awk '{print $2;}'
+INFO     root:sshInstance.py:48 yes
+
+INFO     root:test_network_sriov_stress.py:170 Default network is active? yes
+
+INFO     root:sshInstance.py:69 virt-install --name VMtest1 --ram 4096 --cpu host --vcpus=5 ---network network=default --hostdev pci_0000_31_01_0 --boot hd --disk path=/home//image/rhel84rt.img,size=50,format=qcow2 --graphics vnc,listen=0.0.0.0,port=5900  --noautoconsole
+
+** (process:92506): [1;33mWARNING[0m **: [34m10:06:13.849[0m: Entity http://pcisig.com/pci/1B36/0100 referenced but not defined
+WARNING  No operating system detected, VM performance may suffer. Specify an OS with --os-variant for optimal results.
+
+Starting install...
+ERROR    Guest name 'VMtest1' is already in use.
+Domain installation does not appear to have been successful.
+If it was, you can restart your domain by running:
+  virsh --connect qemu:///system start VMtest1
+otherwise, please restart your installation.
+[root@WW30CYP10 ~]# 
+ERROR    root:test_network_sriov_stress.py:202 Failed to create a VM: virt-install --name VMtest1 --ram 4096 --cpu host --vcpus=5 ---network network=default --hostdev pci_0000_31_01_0 --boot hd --disk path=/home//image/rhel84rt.img,size=50,format=qcow2 --graphics vnc,listen=0.0.0.0,port=5900  --noautoconsole
+
+** (process:92506): [1;33mWARNING[0m **: [34m10:06:13.849[0m: Entity http://pcisig.com/pci/1B36/0100 referenced but not defined
+WARNING  No operating system detected, VM performance may suffer. Specify an OS with --os-variant for optimal results.
+
+Starting install...
+ERROR    Guest name 'VMtest1' is already in use.
+Domain installation does not appear to have been successful.
+If it was, you can restart your domain by running:
+  virsh --connect qemu:///system start VMtest1
+otherwise, please restart your installation.
+[root@WW30CYP10 ~]# 
+ERROR    root:test_network_sriov_stress.py:203 Failed to create a VM: 
+INFO     root:sshInstance.py:69 virt-install --name VMtest1 --ram 4096 --cpu host --vcpus=5 ---network network=default --hostdev pci_0000_31_01_0 --boot hd --disk path=/home//image/rhel84rt.img,size=50,format=qcow2 --graphics vnc,listen=0.0.0.0,port=5900  --noautoconsole
+
+** (process:92512): [1;33mWARNING[0m **: [34m10:06:20.880[0m: Entity http://pcisig.com/pci/1B36/0100 referenced but not defined
+WARNING  No operating system detected, VM performance may suffer. Specify an OS with --os-variant for optimal results.
+
+Starting install...
+ERROR    Guest name 'VMtest1' is already in use.
+Domain installation does not appear to have been successful.
+If it was, you can restart your domain by running:
+  virsh --connect qemu:///system start VMtest1
+otherwise, please restart your installation.
+[root@WW30CYP10 ~]# 
+ERROR    root:test_network_sriov_stress.py:202 Failed to create a VM: virt-install --name VMtest1 --ram 4096 --cpu host --vcpus=5 ---network network=default --hostdev pci_0000_31_01_0 --boot hd --disk path=/home//image/rhel84rt.img,size=50,format=qcow2 --graphics vnc,listen=0.0.0.0,port=5900  --noautoconsole
+
+** (process:92512): [1;33mWARNING[0m **: [34m10:06:20.880[0m: Entity http://pcisig.com/pci/1B36/0100 referenced but not defined
+WARNING  No operating system detected, VM performance may suffer. Specify an OS with --os-variant for optimal results.
+
+Starting install...
+ERROR    Guest name 'VMtest1' is already in use.
+Domain installation does not appear to have been successful.
+If it was, you can restart your domain by running:
+  virsh --connect qemu:///system start VMtest1
+otherwise, please restart your installation.
+[root@WW30CYP10 ~]# 
+ERROR    root:test_network_sriov_stress.py:203 Failed to create a VM: 
+INFO     root:sshInstance.py:69 virt-install --name VMtest1 --ram 4096 --cpu host --vcpus=5 ---network network=default --hostdev pci_0000_31_01_0 --boot hd --disk path=/home//image/rhel84rt.img,size=50,format=qcow2 --graphics vnc,listen=0.0.0.0,port=5900  --noautoconsole
+
+** (process:92517): [1;33mWARNING[0m **: [34m10:06:27.885[0m: Entity http://pcisig.com/pci/1B36/0100 referenced but not defined
+WARNING  No operating system detected, VM performance may suffer. Specify an OS with --os-variant for optimal results.
+
+Starting install...
+ERROR    Guest name 'VMtest1' is already in use.
+Domain installation does not appear to have been successful.
+If it was, you can restart your domain by running:
+  virsh --connect qemu:///system start VMtest1
+otherwise, please restart your installation.
+[root@WW30CYP10 ~]# 
+ERROR    root:test_network_sriov_stress.py:202 Failed to create a VM: virt-install --name VMtest1 --ram 4096 --cpu host --vcpus=5 ---network network=default --hostdev pci_0000_31_01_0 --boot hd --disk path=/home//image/rhel84rt.img,size=50,format=qcow2 --graphics vnc,listen=0.0.0.0,port=5900  --noautoconsole
+
+** (process:92517): [1;33mWARNING[0m **: [34m10:06:27.885[0m: Entity http://pcisig.com/pci/1B36/0100 referenced but not defined
+WARNING  No operating system detected, VM performance may suffer. Specify an OS with --os-variant for optimal results.
+
+Starting install...
+ERROR    Guest name 'VMtest1' is already in use.
+Domain installation does not appear to have been successful.
+If it was, you can restart your domain by running:
+  virsh --connect qemu:///system start VMtest1
+otherwise, please restart your installation.
+[root@WW30CYP10 ~]# 
+ERROR    root:test_network_sriov_stress.py:203 Failed to create a VM:
+---------------------------- Captured log teardown -----------------------------
+INFO     root:test_network_sriov_stress.py:52 this is the teardown of Test_Network_SRIOV_Stress.
+INFO     root:sshInstance.py:44 virsh destroy VMtest2
+INFO     root:sshInstance.py:48 
+
+ERROR    root:test_network_sriov_stress.py:249 Failed to shut down the VM VMtest2
+INFO     root:sshInstance.py:44 virsh destroy VMtest1
+INFO     root:sshInstance.py:48 
+
+ERROR    root:test_network_sriov_stress.py:249 Failed to shut down the VM VMtest1
+INFO     root:sshInstance.py:39 closing ssh client on SUT
+INFO     root:test_network_sriov_stress.py:57 =============================================Finished run the test case===============================================
+_ Test_Network_SRIOV_Stress.test_PI_Networking_SRIOV_StressDisableEnableFor5TimesWhenVFIsAssigned_VM_Guest[rhel84rt.img-rhel84rt2.img] _
+
+self = <Tests.testNics.test_network_sriov_stress.Test_Network_SRIOV_Stress object at 0x7faade0c5ac8>
+vm1_image = 'rhel84rt.img', vm2_image = 'rhel84rt2.img'
+
+    @pytest.mark.nicall
+    @pytest.mark.usefixtures("fbefore")
+    @pytest.mark.parametrize('vm1_image, vm2_image', vm_image)
+    def test_PI_Networking_SRIOV_StressDisableEnableFor5TimesWhenVFIsAssigned_VM_Guest(self, vm1_image, vm2_image):
+        for j in range(1, 6):
+            logging.info("\n\n********************************************************Stress Disable and Enable for {} time when VF is Assigned VM guest.*************************************************************\n\n".format(j))
+            # get pf id: 0000:xx:xx.x
+            pf_id, status= self.get_pf_id(self.pf_name)
+            # transfer pf_id to 0000\:00\:00.0 format
+            if not pf_id:
+                assert 200 == status
+            else:
+                pf_id_format = pf_id.replace(":", "\\:", 2)
+                logging.info("format_pf_id is {}".format(pf_id_format))
+                # get the number key of pf_id
+                pf_id_key = pf_id.split(":")[1]
+                logging.info("pf_id_key: {}".format(pf_id_key))
+                # assign IP to PF in SUT and sut2
+                pf_ip = "192.168.{}.{}".format(self.dhcp_info["ipv4"].split(".")[2],
+                                               str(int(self.dhcp_info["ipv4"].split(".")[3])+1))
+                dhcp_ipv4 = self.dhcp_info["ipv4"]
+                assert 200 == self.assign_ip_ehternet(self.session, pf_ip, self.pf_name)
+                # virtulize the pf to vfs
+                assert 200 == self.virtualize_pf_to_vfs(self.pf_name)
+                # get vf ids
+                vf_id_list, status=self.get_vf_ids(pf_id_key)
+                if status == 200:
+                    # modprobe vfio-pci
+                    assert 200 == self.modprobe("vfio-pci")
+                    # bind vf with vfio-pci
+                    host_dev_id_list, status = self.bind_vf_to_vfio_pci(vf_id_list)
+                    assert 200 == status
+                else:
+                    assert 200 == status
+                # get vF device ida
+                #tmp code
+                cmd = "lspci -Dnn | grep %s" % (vf_id_list[1])
+                logging.info(cmd)
+                vf_device_id = ""
+                vf_device_id_rs, error = self.ssh_sut.ssh_exec_cmd(self.client, cmd)
+                if vf_device_id_rs:
+                    st = False
+                    vf_device_id = None
+                    for one in vf_device_id_rs.split(" "):
+                        one = " "+one+" "
+                        if one.find(" [") > -1 and one.find("] ") > -1 and one.find(":")> -1:
+                            vf_device_id = one.replace("[", "").replace("]","").strip()
+                    if not vf_device_id: assert 200 == 400,"vf_device_id is not found"
+                    logging.info("Successfully get vf device id: {}".format(vf_device_id))
+                    assert 200 == 200
+                else:
+                    logging.error("Fail to get vf device id.")
+                    assert 200==400
+    
+                #set network
+                status = self.default_network_isActive(self.defult_network)
+                if status == "no":
+                    assert 200 == self.start_default_network(self.defult_network)
+    
+                # start VMs
+>               assert 200 == self.create_vm(vm1_image, host_dev_id_list[0], self.vm1_name, "5900")
+E               AssertionError: assert 200 == 400
+E                +  where 400 = <bound method Test_Network_SRIOV_Stress.create_vm of <Tests.testNics.test_network_sriov_stress.Test_Network_SRIOV_Stress object at 0x7faade0c5ac8>>('rhel84rt.img', 'pci_0000_31_01_0', 'VMtest1', '5900')
+E                +    where <bound method Test_Network_SRIOV_Stress.create_vm of <Tests.testNics.test_network_sriov_stress.Test_Network_SRIOV_Stress object at 0x7faade0c5ac8>> = <Tests.testNics.test_network_sriov_stress.Test_Network_SRIOV_Stress object at 0x7faade0c5ac8>.create_vm
+E                +    and   'VMtest1' = <Tests.testNics.test_network_sriov_stress.Test_Network_SRIOV_Stress object at 0x7faade0c5ac8>.vm1_name
+
+../test-nic/npxtester/Tests/testNics/test_network_sriov_stress.py:404: AssertionError
+------------------------------ Captured log call -------------------------------
+INFO     root:test_network_sriov_stress.py:349 
+
+********************************************************Stress Disable and Enable for 1 time when VF is Assigned VM guest.*************************************************************
+
+
+INFO     root:sshInstance.py:44 /opt/APP/utility/DPDK_install/dpdk-stable-20.11.1/usertools/dpdk-devbind.py -s | grep ens787f0 | awk '{print $1;}'
+INFO     root:sshInstance.py:48 0000:31:00.0
+0000:31:01.0
+0000:31:01.1
+0000:31:01.2
+0000:31:01.3
+
+INFO     root:test_network_sriov_stress.py:80 pf_id was found: 0000:31:00.0
+0000:31:01.0
+0000:31:01.1
+0000:31:01.2
+0000:31:01.3
+
+INFO     root:test_network_sriov_stress.py:357 format_pf_id is 0000\:31\:00.0
+0000:31:01.0
+0000:31:01.1
+0000:31:01.2
+0000:31:01.3
+
+INFO     root:test_network_sriov_stress.py:360 pf_id_key: 31
+INFO     root:sshInstance.py:89 Activate the web console with: systemctl enable --now cockpit.socket
+This system is not registered to Red Hat Insights. See https://cloud.redhat.com/
+To register this system, run: insights-client --register
+Last login: Thu Nov 25 10:04:55 2021 from 10.239.129.147
+[root@WW30CYP10 ~]# ifconfig ens787f0 192.168.10.11
+[root@WW30CYP10 ~]# 
+INFO     root:test_network_sriov_stress.py:268 Successfully assigned ip to ethernet: ens787f0
+INFO     root:sshInstance.py:44 echo 4 > /sys/class/net/ens787f0/device/sriov_numvfs
+INFO     root:sshInstance.py:48 
+INFO     root:test_network_sriov_stress.py:95 Successfully Virtualized PF to VFs.
+INFO     root:sshInstance.py:44  lspci | grep "Virtual" | awk '{print $1;}'list
+INFO     root:sshInstance.py:48 31:01.0
+31:01.1
+31:01.2
+31:01.3
+
+INFO     root:test_network_sriov_stress.py:109 Succssfully Gotten vf_id list:
+
+INFO     root:sshInstance.py:44  modinfo vfio-pci | grep "vfio_pci" | awk '{ print $2;}'
+INFO     root:sshInstance.py:48 vfio_pci
+
+INFO     root:test_network_sriov_stress.py:162 Successfuly modeprobe vfio-pci
+INFO     root:sshInstance.py:44 /opt/APP/utility/DPDK_install/dpdk-stable-20.11.1/usertools/dpdk-devbind.py -b vfio-pci 31:01.0
+INFO     root:sshInstance.py:48 
+INFO     root:test_network_sriov_stress.py:141 Successfuly bound VF to vfio-pci
+INFO     root:sshInstance.py:44 /opt/APP/utility/DPDK_install/dpdk-stable-20.11.1/usertools/dpdk-devbind.py -b vfio-pci 31:01.1
+INFO     root:sshInstance.py:48 
+INFO     root:test_network_sriov_stress.py:141 Successfuly bound VF to vfio-pci
+INFO     root:test_network_sriov_stress.py:381 lspci -Dnn | grep 31:01.1
+INFO     root:sshInstance.py:44 lspci -Dnn | grep 31:01.1
+INFO     root:sshInstance.py:48 0000:31:01.1 Ethernet controller [0200]: Intel Corporation Ethernet Adaptive Virtual Function [8086:1889] (rev 02)
+
+INFO     root:test_network_sriov_stress.py:392 Successfully get vf device id: 8086:1889
+INFO     root:sshInstance.py:44 virsh net-info default | grep "Active" | awk '{print $2;}'
+INFO     root:sshInstance.py:48 yes
+
+INFO     root:test_network_sriov_stress.py:170 Default network is active? yes
+
+INFO     root:sshInstance.py:69 virt-install --name VMtest1 --ram 4096 --cpu host --vcpus=5 ---network network=default --hostdev pci_0000_31_01_0 --boot hd --disk path=/home//image/rhel84rt.img,size=50,format=qcow2 --graphics vnc,listen=0.0.0.0,port=5900  --noautoconsole
+
+** (process:92877): [1;33mWARNING[0m **: [34m10:08:05.327[0m: Entity http://pcisig.com/pci/1B36/0100 referenced but not defined
+WARNING  No operating system detected, VM performance may suffer. Specify an OS with --os-variant for optimal results.
+
+Starting install...
+ERROR    Guest name 'VMtest1' is already in use.
+Domain installation does not appear to have been successful.
+If it was, you can restart your domain by running:
+  virsh --connect qemu:///system start VMtest1
+otherwise, please restart your installation.
+[root@WW30CYP10 ~]# 
+ERROR    root:test_network_sriov_stress.py:202 Failed to create a VM: virt-install --name VMtest1 --ram 4096 --cpu host --vcpus=5 ---network network=default --hostdev pci_0000_31_01_0 --boot hd --disk path=/home//image/rhel84rt.img,size=50,format=qcow2 --graphics vnc,listen=0.0.0.0,port=5900  --noautoconsole
+
+** (process:92877): [1;33mWARNING[0m **: [34m10:08:05.327[0m: Entity http://pcisig.com/pci/1B36/0100 referenced but not defined
+WARNING  No operating system detected, VM performance may suffer. Specify an OS with --os-variant for optimal results.
+
+Starting install...
+ERROR    Guest name 'VMtest1' is already in use.
+Domain installation does not appear to have been successful.
+If it was, you can restart your domain by running:
+  virsh --connect qemu:///system start VMtest1
+otherwise, please restart your installation.
+[root@WW30CYP10 ~]# 
+ERROR    root:test_network_sriov_stress.py:203 Failed to create a VM: 
+INFO     root:sshInstance.py:69 virt-install --name VMtest1 --ram 4096 --cpu host --vcpus=5 ---network network=default --hostdev pci_0000_31_01_0 --boot hd --disk path=/home//image/rhel84rt.img,size=50,format=qcow2 --graphics vnc,listen=0.0.0.0,port=5900  --noautoconsole
+
+** (process:92880): [1;33mWARNING[0m **: [34m10:08:12.323[0m: Entity http://pcisig.com/pci/1B36/0100 referenced but not defined
+WARNING  No operating system detected, VM performance may suffer. Specify an OS with --os-variant for optimal results.
+
+Starting install...
+ERROR    Guest name 'VMtest1' is already in use.
+Domain installation does not appear to have been successful.
+If it was, you can restart your domain by running:
+  virsh --connect qemu:///system start VMtest1
+otherwise, please restart your installation.
+[root@WW30CYP10 ~]# 
+ERROR    root:test_network_sriov_stress.py:202 Failed to create a VM: virt-install --name VMtest1 --ram 4096 --cpu host --vcpus=5 ---network network=default --hostdev pci_0000_31_01_0 --boot hd --disk path=/home//image/rhel84rt.img,size=50,format=qcow2 --graphics vnc,listen=0.0.0.0,port=5900  --noautoconsole
+
+** (process:92880): [1;33mWARNING[0m **: [34m10:08:12.323[0m: Entity http://pcisig.com/pci/1B36/0100 referenced but not defined
+WARNING  No operating system detected, VM performance may suffer. Specify an OS with --os-variant for optimal results.
+
+Starting install...
+ERROR    Guest name 'VMtest1' is already in use.
+Domain installation does not appear to have been successful.
+If it was, you can restart your domain by running:
+  virsh --connect qemu:///system start VMtest1
+otherwise, please restart your installation.
+[root@WW30CYP10 ~]# 
+ERROR    root:test_network_sriov_stress.py:203 Failed to create a VM: 
+INFO     root:sshInstance.py:69 virt-install --name VMtest1 --ram 4096 --cpu host --vcpus=5 ---network network=default --hostdev pci_0000_31_01_0 --boot hd --disk path=/home//image/rhel84rt.img,size=50,format=qcow2 --graphics vnc,listen=0.0.0.0,port=5900  --noautoconsole
+
+** (process:92885): [1;33mWARNING[0m **: [34m10:08:19.341[0m: Entity http://pcisig.com/pci/1B36/0100 referenced but not defined
+WARNING  No operating system detected, VM performance may suffer. Specify an OS with --os-variant for optimal results.
+
+Starting install...
+ERROR    Guest name 'VMtest1' is already in use.
+Domain installation does not appear to have been successful.
+If it was, you can restart your domain by running:
+  virsh --connect qemu:///system start VMtest1
+otherwise, please restart your installation.
+[root@WW30CYP10 ~]# 
+ERROR    root:test_network_sriov_stress.py:202 Failed to create a VM: virt-install --name VMtest1 --ram 4096 --cpu host --vcpus=5 ---network network=default --hostdev pci_0000_31_01_0 --boot hd --disk path=/home//image/rhel84rt.img,size=50,format=qcow2 --graphics vnc,listen=0.0.0.0,port=5900  --noautoconsole
+
+** (process:92885): [1;33mWARNING[0m **: [34m10:08:19.341[0m: Entity http://pcisig.com/pci/1B36/0100 referenced but not defined
+WARNING  No operating system detected, VM performance may suffer. Specify an OS with --os-variant for optimal results.
+
+Starting install...
+ERROR    Guest name 'VMtest1' is already in use.
+Domain installation does not appear to have been successful.
+If it was, you can restart your domain by running:
+  virsh --connect qemu:///system start VMtest1
+otherwise, please restart your installation.
+[root@WW30CYP10 ~]# 
+ERROR    root:test_network_sriov_stress.py:203 Failed to create a VM:
+---------------------------- Captured log teardown -----------------------------
+INFO     root:test_network_sriov_stress.py:52 this is the teardown of Test_Network_SRIOV_Stress.
+INFO     root:sshInstance.py:44 virsh destroy VMtest2
+INFO     root:sshInstance.py:48 
+
+ERROR    root:test_network_sriov_stress.py:249 Failed to shut down the VM VMtest2
+INFO     root:sshInstance.py:44 virsh destroy VMtest1
+INFO     root:sshInstance.py:48 
+
+ERROR    root:test_network_sriov_stress.py:249 Failed to shut down the VM VMtest1
+INFO     root:sshInstance.py:39 closing ssh client on SUT
+INFO     root:test_network_sriov_stress.py:57 =============================================Finished run the test case===============================================
+_ Test_Network_SRIOV_Stress.test_PI_Networking_SRIOV_StressTrafficBetweenPFVFAndTestClientFor2Hours_VM_Guest[ubuntu20.04_2.img-ubuntu20.04.img] _
+
+self = <Tests.testNics.test_network_sriov_stress.Test_Network_SRIOV_Stress object at 0x7faadd86bfd0>
+vm1_image = 'ubuntu20.04_2.img', vm2_image = 'ubuntu20.04.img'
+
+    @pytest.mark.nicall
+    @pytest.mark.usefixtures("fbefore")
+    @pytest.mark.parametrize('vm1_image, vm2_image', vm_image)
+    def test_PI_Networking_SRIOV_StressTrafficBetweenPFVFAndTestClientFor2Hours_VM_Guest(self,vm1_image, vm2_image):
+    
+        pf_id, status = self.get_pf_id(self.pf_name)
+        # transfer pf_id to 0000\:00\:00.0 format
+        if not pf_id:
+            assert 200 == status
+        else:
+            pf_id_format = pf_id.replace(":", "\\:", 2)
+            logging.info("format_pf_id is {}".format(pf_id_format))
+            # get the number key of pf_id
+            pf_id_key = pf_id.split(":")[1]
+            logging.info("pf_id_key: {}".format(pf_id_key))
+            # assign IP to PF in SUT and sut2
+            pf_ip = "192.168.{}.{}".format(self.dhcp_info["ipv4"].split(".")[2],
+                                           str(int(self.dhcp_info["ipv4"].split(".")[3]) + 1))
+            dhcp_ipv4 = self.dhcp_info["ipv4"]
+            assert 200 == self.assign_ip_ehternet(self.session, pf_ip, self.pf_name)
+    
+            # virtulize the pf to vfs
+            assert 200 == self.virtualize_pf_to_vfs(self.pf_name)
+            # get vf ids
+            vf_id_list, status = self.get_vf_ids(pf_id_key)
+    
+            if status == 200:
+                # modprobe vfio-pci
+                assert 200 == self.modprobe("vfio-pci")
+                # bind vf with vfio-pci
+                host_dev_id_list, status = self.bind_vf_to_vfio_pci(vf_id_list)
+                assert 200 == status
+            else:
+                assert 200 == status
+            # get vF device id
+    
+            cmd = "lspci -Dnn | grep %s" % (vf_id_list[1])
+            logging.info(cmd)
+            vf_device_id = ""
+            vf_device_id_rs, error = self.ssh_sut.ssh_exec_cmd(self.client, cmd)
+            if vf_device_id_rs:
+                st = False
+                vf_device_id = None
+                for one in vf_device_id_rs.split(" "):
+                    one = " "+one+" "
+                    if one.find(" [") > -1 and one.find("] ") > -1 and one.find(":")> -1:
+                        vf_device_id = one.replace("[", "").replace("]","").strip()
+                if not vf_device_id: assert 200 == 400,"vf_device_id is not found"
+                logging.info("Successfully get vf device id: {}".format(vf_device_id))
+                assert 200 == 200
+            else:
+                logging.error("Fail to get vf device id.")
+                assert 200==400
+            # set network
+            status = self.default_network_isActive(self.defult_network)
+            if status == "no":
+                assert 200 == self.start_default_network(self.defult_network)
+    
+            # start VMs
+>           assert 200 == self.create_vm(vm1_image, host_dev_id_list[0], self.vm1_name, "5900")
+E           AssertionError: assert 200 == 400
+E            +  where 400 = <bound method Test_Network_SRIOV_Stress.create_vm of <Tests.testNics.test_network_sriov_stress.Test_Network_SRIOV_Stress object at 0x7faadd86bfd0>>('ubuntu20.04_2.img', 'pci_0000_31_01_0', 'VMtest1', '5900')
+E            +    where <bound method Test_Network_SRIOV_Stress.create_vm of <Tests.testNics.test_network_sriov_stress.Test_Network_SRIOV_Stress object at 0x7faadd86bfd0>> = <Tests.testNics.test_network_sriov_stress.Test_Network_SRIOV_Stress object at 0x7faadd86bfd0>.create_vm
+E            +    and   'VMtest1' = <Tests.testNics.test_network_sriov_stress.Test_Network_SRIOV_Stress object at 0x7faadd86bfd0>.vm1_name
+
+../test-nic/npxtester/Tests/testNics/test_network_sriov_stress.py:515: AssertionError
+------------------------------ Captured log call -------------------------------
+INFO     root:sshInstance.py:44 /opt/APP/utility/DPDK_install/dpdk-stable-20.11.1/usertools/dpdk-devbind.py -s | grep ens787f0 | awk '{print $1;}'
+INFO     root:sshInstance.py:48 0000:31:00.0
+0000:31:01.0
+0000:31:01.1
+0000:31:01.2
+0000:31:01.3
+
+INFO     root:test_network_sriov_stress.py:80 pf_id was found: 0000:31:00.0
+0000:31:01.0
+0000:31:01.1
+0000:31:01.2
+0000:31:01.3
+
+INFO     root:test_network_sriov_stress.py:467 format_pf_id is 0000\:31\:00.0
+0000:31:01.0
+0000:31:01.1
+0000:31:01.2
+0000:31:01.3
+
+INFO     root:test_network_sriov_stress.py:470 pf_id_key: 31
+INFO     root:sshInstance.py:89 Activate the web console with: systemctl enable --now cockpit.socket
+This system is not registered to Red Hat Insights. See https://cloud.redhat.com/
+To register this system, run: insights-client --register
+Last login: Thu Nov 25 10:06:47 2021 from 10.239.129.147
+[root@WW30CYP10 ~]# ifconfig ens787f0 192.168.10.11
+[root@WW30CYP10 ~]# 
+INFO     root:test_network_sriov_stress.py:268 Successfully assigned ip to ethernet: ens787f0
+INFO     root:sshInstance.py:44 echo 4 > /sys/class/net/ens787f0/device/sriov_numvfs
+INFO     root:sshInstance.py:48 
+INFO     root:test_network_sriov_stress.py:95 Successfully Virtualized PF to VFs.
+INFO     root:sshInstance.py:44  lspci | grep "Virtual" | awk '{print $1;}'list
+INFO     root:sshInstance.py:48 31:01.0
+31:01.1
+31:01.2
+31:01.3
+
+INFO     root:test_network_sriov_stress.py:109 Succssfully Gotten vf_id list:
+
+INFO     root:sshInstance.py:44  modinfo vfio-pci | grep "vfio_pci" | awk '{ print $2;}'
+INFO     root:sshInstance.py:48 vfio_pci
+
+INFO     root:test_network_sriov_stress.py:162 Successfuly modeprobe vfio-pci
+INFO     root:sshInstance.py:44 /opt/APP/utility/DPDK_install/dpdk-stable-20.11.1/usertools/dpdk-devbind.py -b vfio-pci 31:01.0
+INFO     root:sshInstance.py:48 
+INFO     root:test_network_sriov_stress.py:141 Successfuly bound VF to vfio-pci
+INFO     root:sshInstance.py:44 /opt/APP/utility/DPDK_install/dpdk-stable-20.11.1/usertools/dpdk-devbind.py -b vfio-pci 31:01.1
+INFO     root:sshInstance.py:48 
+INFO     root:test_network_sriov_stress.py:141 Successfuly bound VF to vfio-pci
+INFO     root:test_network_sriov_stress.py:493 lspci -Dnn | grep 31:01.1
+INFO     root:sshInstance.py:44 lspci -Dnn | grep 31:01.1
+INFO     root:sshInstance.py:48 0000:31:01.1 Ethernet controller [0200]: Intel Corporation Ethernet Adaptive Virtual Function [8086:1889] (rev 02)
+
+INFO     root:test_network_sriov_stress.py:504 Successfully get vf device id: 8086:1889
+INFO     root:sshInstance.py:44 virsh net-info default | grep "Active" | awk '{print $2;}'
+INFO     root:sshInstance.py:48 yes
+
+INFO     root:test_network_sriov_stress.py:170 Default network is active? yes
+
+INFO     root:sshInstance.py:69 virt-install --name VMtest1 --ram 4096 --cpu host --vcpus=5 ---network network=default --hostdev pci_0000_31_01_0 --boot hd --disk path=/home//image/ubuntu20.04_2.img,size=50,format=qcow2 --graphics vnc,listen=0.0.0.0,port==5900 --noautoconsole
+
+** (process:93242): [1;33mWARNING[0m **: [34m10:09:56.783[0m: Entity http://pcisig.com/pci/1B36/0100 referenced but not defined
+ERROR    Disk /home/image/ubuntu20.04_2.img is already in use by other guests ['VMtest2']. (Use --check path_in_use=off or --check all=off to override)
+[root@WW30CYP10 ~]# 
+ERROR    root:test_network_sriov_stress.py:202 Failed to create a VM: virt-install --name VMtest1 --ram 4096 --cpu host --vcpus=5 ---network network=default --hostdev pci_0000_31_01_0 --boot hd --disk path=/home//image/ubuntu20.04_2.img,size=50,format=qcow2 --graphics vnc,listen=0.0.0.0,port==5900 --noautoconsole
+
+** (process:93242): [1;33mWARNING[0m **: [34m10:09:56.783[0m: Entity http://pcisig.com/pci/1B36/0100 referenced but not defined
+ERROR    Disk /home/image/ubuntu20.04_2.img is already in use by other guests ['VMtest2']. (Use --check path_in_use=off or --check all=off to override)
+[root@WW30CYP10 ~]# 
+ERROR    root:test_network_sriov_stress.py:203 Failed to create a VM: 
+INFO     root:sshInstance.py:69 virt-install --name VMtest1 --ram 4096 --cpu host --vcpus=5 ---network network=default --hostdev pci_0000_31_01_0 --boot hd --disk path=/home//image/ubuntu20.04_2.img,size=50,format=qcow2 --graphics vnc,listen=0.0.0.0,port==5900 --noautoconsole
+
+** (process:93249): [1;33mWARNING[0m **: [34m10:10:03.783[0m: Entity http://pcisig.com/pci/1B36/0100 referenced but not defined
+ERROR    Disk /home/image/ubuntu20.04_2.img is already in use by other guests ['VMtest2']. (Use --check path_in_use=off or --check all=off to override)
+[root@WW30CYP10 ~]# 
+ERROR    root:test_network_sriov_stress.py:202 Failed to create a VM: virt-install --name VMtest1 --ram 4096 --cpu host --vcpus=5 ---network network=default --hostdev pci_0000_31_01_0 --boot hd --disk path=/home//image/ubuntu20.04_2.img,size=50,format=qcow2 --graphics vnc,listen=0.0.0.0,port==5900 --noautoconsole
+
+** (process:93249): [1;33mWARNING[0m **: [34m10:10:03.783[0m: Entity http://pcisig.com/pci/1B36/0100 referenced but not defined
+ERROR    Disk /home/image/ubuntu20.04_2.img is already in use by other guests ['VMtest2']. (Use --check path_in_use=off or --check all=off to override)
+[root@WW30CYP10 ~]# 
+ERROR    root:test_network_sriov_stress.py:203 Failed to create a VM: 
+INFO     root:sshInstance.py:69 virt-install --name VMtest1 --ram 4096 --cpu host --vcpus=5 ---network network=default --hostdev pci_0000_31_01_0 --boot hd --disk path=/home//image/ubuntu20.04_2.img,size=50,format=qcow2 --graphics vnc,listen=0.0.0.0,port==5900 --noautoconsole
+
+** (process:93254): [1;33mWARNING[0m **: [34m10:10:10.796[0m: Entity http://pcisig.com/pci/1B36/0100 referenced but not defined
+ERROR    Disk /home/image/ubuntu20.04_2.img is already in use by other guests ['VMtest2']. (Use --check path_in_use=off or --check all=off to override)
+[root@WW30CYP10 ~]# 
+ERROR    root:test_network_sriov_stress.py:202 Failed to create a VM: virt-install --name VMtest1 --ram 4096 --cpu host --vcpus=5 ---network network=default --hostdev pci_0000_31_01_0 --boot hd --disk path=/home//image/ubuntu20.04_2.img,size=50,format=qcow2 --graphics vnc,listen=0.0.0.0,port==5900 --noautoconsole
+
+** (process:93254): [1;33mWARNING[0m **: [34m10:10:10.796[0m: Entity http://pcisig.com/pci/1B36/0100 referenced but not defined
+ERROR    Disk /home/image/ubuntu20.04_2.img is already in use by other guests ['VMtest2']. (Use --check path_in_use=off or --check all=off to override)
+[root@WW30CYP10 ~]# 
+ERROR    root:test_network_sriov_stress.py:203 Failed to create a VM:
+---------------------------- Captured log teardown -----------------------------
+INFO     root:test_network_sriov_stress.py:52 this is the teardown of Test_Network_SRIOV_Stress.
+INFO     root:sshInstance.py:44 virsh destroy VMtest2
+INFO     root:sshInstance.py:48 
+
+ERROR    root:test_network_sriov_stress.py:249 Failed to shut down the VM VMtest2
+INFO     root:sshInstance.py:44 virsh destroy VMtest1
+INFO     root:sshInstance.py:48 
+
+ERROR    root:test_network_sriov_stress.py:249 Failed to shut down the VM VMtest1
+INFO     root:sshInstance.py:39 closing ssh client on SUT
+INFO     root:test_network_sriov_stress.py:57 =============================================Finished run the test case===============================================
+_ Test_Network_SRIOV_Stress.test_PI_Networking_SRIOV_StressTrafficBetweenPFVFAndTestClientFor2Hours_VM_Guest[rhel84rt.img-ubuntu20.04.img] _
+
+self = <Tests.testNics.test_network_sriov_stress.Test_Network_SRIOV_Stress object at 0x7faadf3320b8>
+vm1_image = 'rhel84rt.img', vm2_image = 'ubuntu20.04.img'
+
+    @pytest.mark.nicall
+    @pytest.mark.usefixtures("fbefore")
+    @pytest.mark.parametrize('vm1_image, vm2_image', vm_image)
+    def test_PI_Networking_SRIOV_StressTrafficBetweenPFVFAndTestClientFor2Hours_VM_Guest(self,vm1_image, vm2_image):
+    
+        pf_id, status = self.get_pf_id(self.pf_name)
+        # transfer pf_id to 0000\:00\:00.0 format
+        if not pf_id:
+            assert 200 == status
+        else:
+            pf_id_format = pf_id.replace(":", "\\:", 2)
+            logging.info("format_pf_id is {}".format(pf_id_format))
+            # get the number key of pf_id
+            pf_id_key = pf_id.split(":")[1]
+            logging.info("pf_id_key: {}".format(pf_id_key))
+            # assign IP to PF in SUT and sut2
+            pf_ip = "192.168.{}.{}".format(self.dhcp_info["ipv4"].split(".")[2],
+                                           str(int(self.dhcp_info["ipv4"].split(".")[3]) + 1))
+            dhcp_ipv4 = self.dhcp_info["ipv4"]
+            assert 200 == self.assign_ip_ehternet(self.session, pf_ip, self.pf_name)
+    
+            # virtulize the pf to vfs
+            assert 200 == self.virtualize_pf_to_vfs(self.pf_name)
+            # get vf ids
+            vf_id_list, status = self.get_vf_ids(pf_id_key)
+    
+            if status == 200:
+                # modprobe vfio-pci
+                assert 200 == self.modprobe("vfio-pci")
+                # bind vf with vfio-pci
+                host_dev_id_list, status = self.bind_vf_to_vfio_pci(vf_id_list)
+                assert 200 == status
+            else:
+                assert 200 == status
+            # get vF device id
+    
+            cmd = "lspci -Dnn | grep %s" % (vf_id_list[1])
+            logging.info(cmd)
+            vf_device_id = ""
+            vf_device_id_rs, error = self.ssh_sut.ssh_exec_cmd(self.client, cmd)
+            if vf_device_id_rs:
+                st = False
+                vf_device_id = None
+                for one in vf_device_id_rs.split(" "):
+                    one = " "+one+" "
+                    if one.find(" [") > -1 and one.find("] ") > -1 and one.find(":")> -1:
+                        vf_device_id = one.replace("[", "").replace("]","").strip()
+                if not vf_device_id: assert 200 == 400,"vf_device_id is not found"
+                logging.info("Successfully get vf device id: {}".format(vf_device_id))
+                assert 200 == 200
+            else:
+                logging.error("Fail to get vf device id.")
+                assert 200==400
+            # set network
+            status = self.default_network_isActive(self.defult_network)
+            if status == "no":
+                assert 200 == self.start_default_network(self.defult_network)
+    
+            # start VMs
+>           assert 200 == self.create_vm(vm1_image, host_dev_id_list[0], self.vm1_name, "5900")
+E           AssertionError: assert 200 == 400
+E            +  where 400 = <bound method Test_Network_SRIOV_Stress.create_vm of <Tests.testNics.test_network_sriov_stress.Test_Network_SRIOV_Stress object at 0x7faadf3320b8>>('rhel84rt.img', 'pci_0000_31_01_0', 'VMtest1', '5900')
+E            +    where <bound method Test_Network_SRIOV_Stress.create_vm of <Tests.testNics.test_network_sriov_stress.Test_Network_SRIOV_Stress object at 0x7faadf3320b8>> = <Tests.testNics.test_network_sriov_stress.Test_Network_SRIOV_Stress object at 0x7faadf3320b8>.create_vm
+E            +    and   'VMtest1' = <Tests.testNics.test_network_sriov_stress.Test_Network_SRIOV_Stress object at 0x7faadf3320b8>.vm1_name
+
+../test-nic/npxtester/Tests/testNics/test_network_sriov_stress.py:515: AssertionError
+------------------------------ Captured log call -------------------------------
+INFO     root:sshInstance.py:44 /opt/APP/utility/DPDK_install/dpdk-stable-20.11.1/usertools/dpdk-devbind.py -s | grep ens787f0 | awk '{print $1;}'
+INFO     root:sshInstance.py:48 0000:31:00.0
+0000:31:01.0
+0000:31:01.1
+0000:31:01.2
+0000:31:01.3
+
+INFO     root:test_network_sriov_stress.py:80 pf_id was found: 0000:31:00.0
+0000:31:01.0
+0000:31:01.1
+0000:31:01.2
+0000:31:01.3
+
+INFO     root:test_network_sriov_stress.py:467 format_pf_id is 0000\:31\:00.0
+0000:31:01.0
+0000:31:01.1
+0000:31:01.2
+0000:31:01.3
+
+INFO     root:test_network_sriov_stress.py:470 pf_id_key: 31
+INFO     root:sshInstance.py:89 Activate the web console with: systemctl enable --now cockpit.socket
+This system is not registered to Red Hat Insights. See https://cloud.redhat.com/
+To register this system, run: insights-client --register
+Last login: Thu Nov 25 10:08:38 2021 from 10.239.129.147
+[root@WW30CYP10 ~]# ifconfig ens787f0 192.168.10.11
+[root@WW30CYP10 ~]# 
+INFO     root:test_network_sriov_stress.py:268 Successfully assigned ip to ethernet: ens787f0
+INFO     root:sshInstance.py:44 echo 4 > /sys/class/net/ens787f0/device/sriov_numvfs
+INFO     root:sshInstance.py:48 
+INFO     root:test_network_sriov_stress.py:95 Successfully Virtualized PF to VFs.
+INFO     root:sshInstance.py:44  lspci | grep "Virtual" | awk '{print $1;}'list
+INFO     root:sshInstance.py:48 31:01.0
+31:01.1
+31:01.2
+31:01.3
+
+INFO     root:test_network_sriov_stress.py:109 Succssfully Gotten vf_id list:
+
+INFO     root:sshInstance.py:44  modinfo vfio-pci | grep "vfio_pci" | awk '{ print $2;}'
+INFO     root:sshInstance.py:48 vfio_pci
+
+INFO     root:test_network_sriov_stress.py:162 Successfuly modeprobe vfio-pci
+INFO     root:sshInstance.py:44 /opt/APP/utility/DPDK_install/dpdk-stable-20.11.1/usertools/dpdk-devbind.py -b vfio-pci 31:01.0
+INFO     root:sshInstance.py:48 
+INFO     root:test_network_sriov_stress.py:141 Successfuly bound VF to vfio-pci
+INFO     root:sshInstance.py:44 /opt/APP/utility/DPDK_install/dpdk-stable-20.11.1/usertools/dpdk-devbind.py -b vfio-pci 31:01.1
+INFO     root:sshInstance.py:48 
+INFO     root:test_network_sriov_stress.py:141 Successfuly bound VF to vfio-pci
+INFO     root:test_network_sriov_stress.py:493 lspci -Dnn | grep 31:01.1
+INFO     root:sshInstance.py:44 lspci -Dnn | grep 31:01.1
+INFO     root:sshInstance.py:48 0000:31:01.1 Ethernet controller [0200]: Intel Corporation Ethernet Adaptive Virtual Function [8086:1889] (rev 02)
+
+INFO     root:test_network_sriov_stress.py:504 Successfully get vf device id: 8086:1889
+INFO     root:sshInstance.py:44 virsh net-info default | grep "Active" | awk '{print $2;}'
+INFO     root:sshInstance.py:48 yes
+
+INFO     root:test_network_sriov_stress.py:170 Default network is active? yes
+
+INFO     root:sshInstance.py:69 virt-install --name VMtest1 --ram 4096 --cpu host --vcpus=5 ---network network=default --hostdev pci_0000_31_01_0 --boot hd --disk path=/home//image/rhel84rt.img,size=50,format=qcow2 --graphics vnc,listen=0.0.0.0,port=5900  --noautoconsole
+
+** (process:93620): [1;33mWARNING[0m **: [34m10:11:48.233[0m: Entity http://pcisig.com/pci/1B36/0100 referenced but not defined
+WARNING  No operating system detected, VM performance may suffer. Specify an OS with --os-variant for optimal results.
+
+Starting install...
+ERROR    Guest name 'VMtest1' is already in use.
+Domain installation does not appear to have been successful.
+If it was, you can restart your domain by running:
+  virsh --connect qemu:///system start VMtest1
+otherwise, please restart your installation.
+[root@WW30CYP10 ~]# 
+ERROR    root:test_network_sriov_stress.py:202 Failed to create a VM: virt-install --name VMtest1 --ram 4096 --cpu host --vcpus=5 ---network network=default --hostdev pci_0000_31_01_0 --boot hd --disk path=/home//image/rhel84rt.img,size=50,format=qcow2 --graphics vnc,listen=0.0.0.0,port=5900  --noautoconsole
+
+** (process:93620): [1;33mWARNING[0m **: [34m10:11:48.233[0m: Entity http://pcisig.com/pci/1B36/0100 referenced but not defined
+WARNING  No operating system detected, VM performance may suffer. Specify an OS with --os-variant for optimal results.
+
+Starting install...
+ERROR    Guest name 'VMtest1' is already in use.
+Domain installation does not appear to have been successful.
+If it was, you can restart your domain by running:
+  virsh --connect qemu:///system start VMtest1
+otherwise, please restart your installation.
+[root@WW30CYP10 ~]# 
+ERROR    root:test_network_sriov_stress.py:203 Failed to create a VM: 
+INFO     root:sshInstance.py:69 virt-install --name VMtest1 --ram 4096 --cpu host --vcpus=5 ---network network=default --hostdev pci_0000_31_01_0 --boot hd --disk path=/home//image/rhel84rt.img,size=50,format=qcow2 --graphics vnc,listen=0.0.0.0,port=5900  --noautoconsole
+
+** (process:93624): [1;33mWARNING[0m **: [34m10:11:55.250[0m: Entity http://pcisig.com/pci/1B36/0100 referenced but not defined
+WARNING  No operating system detected, VM performance may suffer. Specify an OS with --os-variant for optimal results.
+
+Starting install...
+ERROR    Guest name 'VMtest1' is already in use.
+Domain installation does not appear to have been successful.
+If it was, you can restart your domain by running:
+  virsh --connect qemu:///system start VMtest1
+otherwise, please restart your installation.
+[root@WW30CYP10 ~]# 
+ERROR    root:test_network_sriov_stress.py:202 Failed to create a VM: virt-install --name VMtest1 --ram 4096 --cpu host --vcpus=5 ---network network=default --hostdev pci_0000_31_01_0 --boot hd --disk path=/home//image/rhel84rt.img,size=50,format=qcow2 --graphics vnc,listen=0.0.0.0,port=5900  --noautoconsole
+
+** (process:93624): [1;33mWARNING[0m **: [34m10:11:55.250[0m: Entity http://pcisig.com/pci/1B36/0100 referenced but not defined
+WARNING  No operating system detected, VM performance may suffer. Specify an OS with --os-variant for optimal results.
+
+Starting install...
+ERROR    Guest name 'VMtest1' is already in use.
+Domain installation does not appear to have been successful.
+If it was, you can restart your domain by running:
+  virsh --connect qemu:///system start VMtest1
+otherwise, please restart your installation.
+[root@WW30CYP10 ~]# 
+ERROR    root:test_network_sriov_stress.py:203 Failed to create a VM: 
+INFO     root:sshInstance.py:69 virt-install --name VMtest1 --ram 4096 --cpu host --vcpus=5 ---network network=default --hostdev pci_0000_31_01_0 --boot hd --disk path=/home//image/rhel84rt.img,size=50,format=qcow2 --graphics vnc,listen=0.0.0.0,port=5900  --noautoconsole
+
+** (process:93627): [1;33mWARNING[0m **: [34m10:12:02.245[0m: Entity http://pcisig.com/pci/1B36/0100 referenced but not defined
+WARNING  No operating system detected, VM performance may suffer. Specify an OS with --os-variant for optimal results.
+
+Starting install...
+ERROR    Guest name 'VMtest1' is already in use.
+Domain installation does not appear to have been successful.
+If it was, you can restart your domain by running:
+  virsh --connect qemu:///system start VMtest1
+otherwise, please restart your installation.
+[root@WW30CYP10 ~]# 
+ERROR    root:test_network_sriov_stress.py:202 Failed to create a VM: virt-install --name VMtest1 --ram 4096 --cpu host --vcpus=5 ---network network=default --hostdev pci_0000_31_01_0 --boot hd --disk path=/home//image/rhel84rt.img,size=50,format=qcow2 --graphics vnc,listen=0.0.0.0,port=5900  --noautoconsole
+
+** (process:93627): [1;33mWARNING[0m **: [34m10:12:02.245[0m: Entity http://pcisig.com/pci/1B36/0100 referenced but not defined
+WARNING  No operating system detected, VM performance may suffer. Specify an OS with --os-variant for optimal results.
+
+Starting install...
+ERROR    Guest name 'VMtest1' is already in use.
+Domain installation does not appear to have been successful.
+If it was, you can restart your domain by running:
+  virsh --connect qemu:///system start VMtest1
+otherwise, please restart your installation.
+[root@WW30CYP10 ~]# 
+ERROR    root:test_network_sriov_stress.py:203 Failed to create a VM:
+---------------------------- Captured log teardown -----------------------------
+INFO     root:test_network_sriov_stress.py:52 this is the teardown of Test_Network_SRIOV_Stress.
+INFO     root:sshInstance.py:44 virsh destroy VMtest2
+INFO     root:sshInstance.py:48 
+
+ERROR    root:test_network_sriov_stress.py:249 Failed to shut down the VM VMtest2
+INFO     root:sshInstance.py:44 virsh destroy VMtest1
+INFO     root:sshInstance.py:48 
+
+ERROR    root:test_network_sriov_stress.py:249 Failed to shut down the VM VMtest1
+INFO     root:sshInstance.py:39 closing ssh client on SUT
+INFO     root:test_network_sriov_stress.py:57 =============================================Finished run the test case===============================================
+_ Test_Network_SRIOV_Stress.test_PI_Networking_SRIOV_StressTrafficBetweenPFVFAndTestClientFor2Hours_VM_Guest[rhel84rt.img-rhel84rt2.img] _
+
+self = <Tests.testNics.test_network_sriov_stress.Test_Network_SRIOV_Stress object at 0x7faadf3254e0>
+vm1_image = 'rhel84rt.img', vm2_image = 'rhel84rt2.img'
+
+    @pytest.mark.nicall
+    @pytest.mark.usefixtures("fbefore")
+    @pytest.mark.parametrize('vm1_image, vm2_image', vm_image)
+    def test_PI_Networking_SRIOV_StressTrafficBetweenPFVFAndTestClientFor2Hours_VM_Guest(self,vm1_image, vm2_image):
+    
+        pf_id, status = self.get_pf_id(self.pf_name)
+        # transfer pf_id to 0000\:00\:00.0 format
+        if not pf_id:
+            assert 200 == status
+        else:
+            pf_id_format = pf_id.replace(":", "\\:", 2)
+            logging.info("format_pf_id is {}".format(pf_id_format))
+            # get the number key of pf_id
+            pf_id_key = pf_id.split(":")[1]
+            logging.info("pf_id_key: {}".format(pf_id_key))
+            # assign IP to PF in SUT and sut2
+            pf_ip = "192.168.{}.{}".format(self.dhcp_info["ipv4"].split(".")[2],
+                                           str(int(self.dhcp_info["ipv4"].split(".")[3]) + 1))
+            dhcp_ipv4 = self.dhcp_info["ipv4"]
+            assert 200 == self.assign_ip_ehternet(self.session, pf_ip, self.pf_name)
+    
+            # virtulize the pf to vfs
+            assert 200 == self.virtualize_pf_to_vfs(self.pf_name)
+            # get vf ids
+            vf_id_list, status = self.get_vf_ids(pf_id_key)
+    
+            if status == 200:
+                # modprobe vfio-pci
+                assert 200 == self.modprobe("vfio-pci")
+                # bind vf with vfio-pci
+                host_dev_id_list, status = self.bind_vf_to_vfio_pci(vf_id_list)
+                assert 200 == status
+            else:
+                assert 200 == status
+            # get vF device id
+    
+            cmd = "lspci -Dnn | grep %s" % (vf_id_list[1])
+            logging.info(cmd)
+            vf_device_id = ""
+            vf_device_id_rs, error = self.ssh_sut.ssh_exec_cmd(self.client, cmd)
+            if vf_device_id_rs:
+                st = False
+                vf_device_id = None
+                for one in vf_device_id_rs.split(" "):
+                    one = " "+one+" "
+                    if one.find(" [") > -1 and one.find("] ") > -1 and one.find(":")> -1:
+                        vf_device_id = one.replace("[", "").replace("]","").strip()
+                if not vf_device_id: assert 200 == 400,"vf_device_id is not found"
+                logging.info("Successfully get vf device id: {}".format(vf_device_id))
+                assert 200 == 200
+            else:
+                logging.error("Fail to get vf device id.")
+                assert 200==400
+            # set network
+            status = self.default_network_isActive(self.defult_network)
+            if status == "no":
+                assert 200 == self.start_default_network(self.defult_network)
+    
+            # start VMs
+>           assert 200 == self.create_vm(vm1_image, host_dev_id_list[0], self.vm1_name, "5900")
+E           AssertionError: assert 200 == 400
+E            +  where 400 = <bound method Test_Network_SRIOV_Stress.create_vm of <Tests.testNics.test_network_sriov_stress.Test_Network_SRIOV_Stress object at 0x7faadf3254e0>>('rhel84rt.img', 'pci_0000_31_01_0', 'VMtest1', '5900')
+E            +    where <bound method Test_Network_SRIOV_Stress.create_vm of <Tests.testNics.test_network_sriov_stress.Test_Network_SRIOV_Stress object at 0x7faadf3254e0>> = <Tests.testNics.test_network_sriov_stress.Test_Network_SRIOV_Stress object at 0x7faadf3254e0>.create_vm
+E            +    and   'VMtest1' = <Tests.testNics.test_network_sriov_stress.Test_Network_SRIOV_Stress object at 0x7faadf3254e0>.vm1_name
+
+../test-nic/npxtester/Tests/testNics/test_network_sriov_stress.py:515: AssertionError
+------------------------------ Captured log call -------------------------------
+INFO     root:sshInstance.py:44 /opt/APP/utility/DPDK_install/dpdk-stable-20.11.1/usertools/dpdk-devbind.py -s | grep ens787f0 | awk '{print $1;}'
+INFO     root:sshInstance.py:48 0000:31:00.0
+0000:31:01.0
+0000:31:01.1
+0000:31:01.2
+0000:31:01.3
+
+INFO     root:test_network_sriov_stress.py:80 pf_id was found: 0000:31:00.0
+0000:31:01.0
+0000:31:01.1
+0000:31:01.2
+0000:31:01.3
+
+INFO     root:test_network_sriov_stress.py:467 format_pf_id is 0000\:31\:00.0
+0000:31:01.0
+0000:31:01.1
+0000:31:01.2
+0000:31:01.3
+
+INFO     root:test_network_sriov_stress.py:470 pf_id_key: 31
+INFO     root:sshInstance.py:89 Activate the web console with: systemctl enable --now cockpit.socket
+This system is not registered to Red Hat Insights. See https://cloud.redhat.com/
+To register this system, run: insights-client --register
+Last login: Thu Nov 25 10:10:30 2021 from 10.239.129.147
+[root@WW30CYP10 ~]# ifconfig ens787f0 192.168.10.11
+[root@WW30CYP10 ~]# 
+INFO     root:test_network_sriov_stress.py:268 Successfully assigned ip to ethernet: ens787f0
+INFO     root:sshInstance.py:44 echo 4 > /sys/class/net/ens787f0/device/sriov_numvfs
+INFO     root:sshInstance.py:48 
+INFO     root:test_network_sriov_stress.py:95 Successfully Virtualized PF to VFs.
+INFO     root:sshInstance.py:44  lspci | grep "Virtual" | awk '{print $1;}'list
+INFO     root:sshInstance.py:48 31:01.0
+31:01.1
+31:01.2
+31:01.3
+
+INFO     root:test_network_sriov_stress.py:109 Succssfully Gotten vf_id list:
+
+INFO     root:sshInstance.py:44  modinfo vfio-pci | grep "vfio_pci" | awk '{ print $2;}'
+INFO     root:sshInstance.py:48 vfio_pci
+
+INFO     root:test_network_sriov_stress.py:162 Successfuly modeprobe vfio-pci
+INFO     root:sshInstance.py:44 /opt/APP/utility/DPDK_install/dpdk-stable-20.11.1/usertools/dpdk-devbind.py -b vfio-pci 31:01.0
+INFO     root:sshInstance.py:48 
+INFO     root:test_network_sriov_stress.py:141 Successfuly bound VF to vfio-pci
+INFO     root:sshInstance.py:44 /opt/APP/utility/DPDK_install/dpdk-stable-20.11.1/usertools/dpdk-devbind.py -b vfio-pci 31:01.1
+INFO     root:sshInstance.py:48 
+INFO     root:test_network_sriov_stress.py:141 Successfuly bound VF to vfio-pci
+INFO     root:test_network_sriov_stress.py:493 lspci -Dnn | grep 31:01.1
+INFO     root:sshInstance.py:44 lspci -Dnn | grep 31:01.1
+INFO     root:sshInstance.py:48 0000:31:01.1 Ethernet controller [0200]: Intel Corporation Ethernet Adaptive Virtual Function [8086:1889] (rev 02)
+
+INFO     root:test_network_sriov_stress.py:504 Successfully get vf device id: 8086:1889
+INFO     root:sshInstance.py:44 virsh net-info default | grep "Active" | awk '{print $2;}'
+INFO     root:sshInstance.py:48 yes
+
+INFO     root:test_network_sriov_stress.py:170 Default network is active? yes
+
+INFO     root:sshInstance.py:69 virt-install --name VMtest1 --ram 4096 --cpu host --vcpus=5 ---network network=default --hostdev pci_0000_31_01_0 --boot hd --disk path=/home//image/rhel84rt.img,size=50,format=qcow2 --graphics vnc,listen=0.0.0.0,port=5900  --noautoconsole
+
+** (process:93991): [1;33mWARNING[0m **: [34m10:13:39.720[0m: Entity http://pcisig.com/pci/1B36/0100 referenced but not defined
+WARNING  No operating system detected, VM performance may suffer. Specify an OS with --os-variant for optimal results.
+
+Starting install...
+ERROR    Guest name 'VMtest1' is already in use.
+Domain installation does not appear to have been successful.
+If it was, you can restart your domain by running:
+  virsh --connect qemu:///system start VMtest1
+otherwise, please restart your installation.
+[root@WW30CYP10 ~]# 
+ERROR    root:test_network_sriov_stress.py:202 Failed to create a VM: virt-install --name VMtest1 --ram 4096 --cpu host --vcpus=5 ---network network=default --hostdev pci_0000_31_01_0 --boot hd --disk path=/home//image/rhel84rt.img,size=50,format=qcow2 --graphics vnc,listen=0.0.0.0,port=5900  --noautoconsole
+
+** (process:93991): [1;33mWARNING[0m **: [34m10:13:39.720[0m: Entity http://pcisig.com/pci/1B36/0100 referenced but not defined
+WARNING  No operating system detected, VM performance may suffer. Specify an OS with --os-variant for optimal results.
+
+Starting install...
+ERROR    Guest name 'VMtest1' is already in use.
+Domain installation does not appear to have been successful.
+If it was, you can restart your domain by running:
+  virsh --connect qemu:///system start VMtest1
+otherwise, please restart your installation.
+[root@WW30CYP10 ~]# 
+ERROR    root:test_network_sriov_stress.py:203 Failed to create a VM: 
+INFO     root:sshInstance.py:69 virt-install --name VMtest1 --ram 4096 --cpu host --vcpus=5 ---network network=default --hostdev pci_0000_31_01_0 --boot hd --disk path=/home//image/rhel84rt.img,size=50,format=qcow2 --graphics vnc,listen=0.0.0.0,port=5900  --noautoconsole
+
+** (process:93996): [1;33mWARNING[0m **: [34m10:13:46.703[0m: Entity http://pcisig.com/pci/1B36/0100 referenced but not defined
+WARNING  No operating system detected, VM performance may suffer. Specify an OS with --os-variant for optimal results.
+
+Starting install...
+ERROR    Guest name 'VMtest1' is already in use.
+Domain installation does not appear to have been successful.
+If it was, you can restart your domain by running:
+  virsh --connect qemu:///system start VMtest1
+otherwise, please restart your installation.
+[root@WW30CYP10 ~]# 
+ERROR    root:test_network_sriov_stress.py:202 Failed to create a VM: virt-install --name VMtest1 --ram 4096 --cpu host --vcpus=5 ---network network=default --hostdev pci_0000_31_01_0 --boot hd --disk path=/home//image/rhel84rt.img,size=50,format=qcow2 --graphics vnc,listen=0.0.0.0,port=5900  --noautoconsole
+
+** (process:93996): [1;33mWARNING[0m **: [34m10:13:46.703[0m: Entity http://pcisig.com/pci/1B36/0100 referenced but not defined
+WARNING  No operating system detected, VM performance may suffer. Specify an OS with --os-variant for optimal results.
+
+Starting install...
+ERROR    Guest name 'VMtest1' is already in use.
+Domain installation does not appear to have been successful.
+If it was, you can restart your domain by running:
+  virsh --connect qemu:///system start VMtest1
+otherwise, please restart your installation.
+[root@WW30CYP10 ~]# 
+ERROR    root:test_network_sriov_stress.py:203 Failed to create a VM: 
+INFO     root:sshInstance.py:69 virt-install --name VMtest1 --ram 4096 --cpu host --vcpus=5 ---network network=default --hostdev pci_0000_31_01_0 --boot hd --disk path=/home//image/rhel84rt.img,size=50,format=qcow2 --graphics vnc,listen=0.0.0.0,port=5900  --noautoconsole
+
+** (process:93999): [1;33mWARNING[0m **: [34m10:13:53.725[0m: Entity http://pcisig.com/pci/1B36/0100 referenced but not defined
+WARNING  No operating system detected, VM performance may suffer. Specify an OS with --os-variant for optimal results.
+
+Starting install...
+ERROR    Guest name 'VMtest1' is already in use.
+Domain installation does not appear to have been successful.
+If it was, you can restart your domain by running:
+  virsh --connect qemu:///system start VMtest1
+otherwise, please restart your installation.
+[root@WW30CYP10 ~]# 
+ERROR    root:test_network_sriov_stress.py:202 Failed to create a VM: virt-install --name VMtest1 --ram 4096 --cpu host --vcpus=5 ---network network=default --hostdev pci_0000_31_01_0 --boot hd --disk path=/home//image/rhel84rt.img,size=50,format=qcow2 --graphics vnc,listen=0.0.0.0,port=5900  --noautoconsole
+
+** (process:93999): [1;33mWARNING[0m **: [34m10:13:53.725[0m: Entity http://pcisig.com/pci/1B36/0100 referenced but not defined
+WARNING  No operating system detected, VM performance may suffer. Specify an OS with --os-variant for optimal results.
+
+Starting install...
+ERROR    Guest name 'VMtest1' is already in use.
+Domain installation does not appear to have been successful.
+If it was, you can restart your domain by running:
+  virsh --connect qemu:///system start VMtest1
+otherwise, please restart your installation.
+[root@WW30CYP10 ~]# 
+ERROR    root:test_network_sriov_stress.py:203 Failed to create a VM:
+---------------------------- Captured log teardown -----------------------------
+INFO     root:test_network_sriov_stress.py:52 this is the teardown of Test_Network_SRIOV_Stress.
+INFO     root:sshInstance.py:44 virsh destroy VMtest2
+INFO     root:sshInstance.py:48 
+
+ERROR    root:test_network_sriov_stress.py:249 Failed to shut down the VM VMtest2
+INFO     root:sshInstance.py:44 virsh destroy VMtest1
+INFO     root:sshInstance.py:48 
+
+ERROR    root:test_network_sriov_stress.py:249 Failed to shut down the VM VMtest1
+INFO     root:sshInstance.py:39 closing ssh client on SUT
+INFO     root:test_network_sriov_stress.py:57 =============================================Finished run the test case===============================================
+=========================== short test summary info ============================
+FAILED ../test-nic/npxtester/Tests/testNics/test_network_sriov_stress.py::Test_Network_SRIOV_Stress::test_PI_Networking_SRIOV_StressDisableEnableFor5TimesWhenVFIsAssigned_VM_Guest[ubuntu20.04_2.img-ubuntu20.04.img]
+FAILED ../test-nic/npxtester/Tests/testNics/test_network_sriov_stress.py::Test_Network_SRIOV_Stress::test_PI_Networking_SRIOV_StressDisableEnableFor5TimesWhenVFIsAssigned_VM_Guest[rhel84rt.img-ubuntu20.04.img]
+FAILED ../test-nic/npxtester/Tests/testNics/test_network_sriov_stress.py::Test_Network_SRIOV_Stress::test_PI_Networking_SRIOV_StressDisableEnableFor5TimesWhenVFIsAssigned_VM_Guest[rhel84rt.img-rhel84rt2.img]
+FAILED ../test-nic/npxtester/Tests/testNics/test_network_sriov_stress.py::Test_Network_SRIOV_Stress::test_PI_Networking_SRIOV_StressTrafficBetweenPFVFAndTestClientFor2Hours_VM_Guest[ubuntu20.04_2.img-ubuntu20.04.img]
+FAILED ../test-nic/npxtester/Tests/testNics/test_network_sriov_stress.py::Test_Network_SRIOV_Stress::test_PI_Networking_SRIOV_StressTrafficBetweenPFVFAndTestClientFor2Hours_VM_Guest[rhel84rt.img-ubuntu20.04.img]
+FAILED ../test-nic/npxtester/Tests/testNics/test_network_sriov_stress.py::Test_Network_SRIOV_Stress::test_PI_Networking_SRIOV_StressTrafficBetweenPFVFAndTestClientFor2Hours_VM_Guest[rhel84rt.img-rhel84rt2.img]
+================= 6 failed, 1 deselected in 669.27s (0:11:09) ==================
+[8mha:////4LYnTL2kHEK3xk4r0Ko1+Seo0jzleqkNHqW+48vbd8D5AAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiGoSEqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDyFBu95/avQHhgNoTvgAAAA==[0m[Pipeline] }
+[8mha:////4NMYSizRLQ1dZuwWSEHzgQ6w9lPsBbHRCtMg5H1rEwslAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiCgqEqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDyFBu95/avQH+Ao9BvgAAAA==[0m[Pipeline] // stage
+[8mha:////4DKXsabp5/afXFSsWLUBDHMQEXD3jgAzV8WEfOF26pEaAAAAox+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMJBiA5R0VppeIFJjHFi3QX7QlLxIr7GH4iIRMVWO9PM641lijhydKqx1HpKlVdd6N301MCxvQYeVMMXVTElDlaVdii5tqcZSxaLeVmOhcbKUhU4eXKCtW7MwxTBkCvOEid30Mh9fccTmZ7KYqJ8YYzY3Po6Mf06fwMYu06Q77aCbP8BK1nRVL0AAAA=[0m[Pipeline] }
+[8mha:////4HmorPDDfMRqsF6zz9/2vCOvXnWMSW4cx9qE6GTxL9MFAAAAoh+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIRUCIqWisNLzCJMU6su2BfSCpexNf4AxGRqNhqZ5p5vbFMEUeOTjWWWk+p8qoLvZueGji218CDaviiKqbEwarSDiXX9jRjyWIxL8ux0FhZqgInT06w1o15mCIYcsVZ4uQOGrmv73gi01NZTJQvjBGbW18npl/nbwBj1wny3VaQ7T845dX3vQAAAA==[0m[Pipeline] // node
+[8mha:////4BE+fprF9eommgtvg+AAT8POwnI+05QgEWtQ8SEssetUAAAAoh+LCAAAAAAAAP9tjbEOgjAURS8YB1dHP6IkrMbJtWHxCyrUWmjeg/YhTH6Rv+Y/SCRx8k73nOW83timiBNHp1pLnadUe9WH0S1PTRy7W+BJtXxVNVPiYFVlp4obe16xYrFYl+XYaOws1YGTJyfY69Y8TBEMueIicXFHjdw3A57I9FIWE+ULc8ThPjaJ6df5G8Dc94K8LAVZ+QF+r3LHvQAAAA==[0m[Pipeline] End of Pipeline
+ERROR: script returned exit code 1
+Finished: FAILURE

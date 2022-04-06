@@ -1,0 +1,11 @@
+commit edb60398a6d7453866277b3e16f648c08152f6b1
+tree 650464ef184ec4d9b4b4bdb9f5339cee94b0e94d
+parent ac11b6258723f7362654ad8b2fd5d54363d1e5e5
+author Ying Zhao <ying.zhao@intel.com> 2021-10-08 15:30:27 +0800
+committer Ying Zhao <ying.zhao@intel.com> 2021-10-08 15:30:27 +0800
+
+    fixed testconf of command path
+
+
+:100644 100644 2afeb6bf75df992797b77854c70f0e21448e8173 fa9d5fe7243df1ff2070def01de16621d12edd07 M	k8s_yamls/sriov/k8s_test_pktgen.yaml
+:100644 100644 55539c7cb14cd3cce8423037b1e37e9d671cc949 a5cb372d68828759cc8d4155ec3810d319f7ad73 M	k8s_yamls/sriov/k8s_testconfig_testpmd.yaml

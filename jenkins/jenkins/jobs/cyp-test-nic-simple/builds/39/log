@@ -1,0 +1,1330 @@
+Started by user [8mha:////4C8zTO/v0UlG+vQ5Fjm5jTf9kR93yL5yxTMP2X04T9v8AAAAlh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyWEgYu/dLi1CL9ovz8EgDKVWzSvwAAAA==[0mroot
+Running in Durability level: MAX_SURVIVABILITY
+[8mha:////4DOlrZhma2TKYqx8mtRBwGXVE8Xt4z3OJyo/zi+ICDdzAAAAoh+LCAAAAAAAAP9tjTEOwjAQBM8BClpKHuFItIiK1krDC0x8GCfWnbEdkooX8TX+gCESFVvtrLSa5wtWKcKBo5UdUu8otU4GP9jS5Mixv3geZcdn2TIl9igbHBs2eJyx4YwwR1SwULBGaj0nRzbDRnX6rmuvydanHMu2V1A5c4MHCFXMWcf8hSnC9jqYxPTz/BXAFEIGsfuclm8zQVqFvQAAAA==[0m[Pipeline] Start of Pipeline
+[8mha:////4B4K7nOhvaaLmbeE3w0NEhE1GAALwLDjakw9plXgkY6XAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycohUghExsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jduZBmjwAAAAA==[0m[Pipeline] node
+Running on [8mha:////4C8PgMHPegRpCg8+HpIiIHK02uxvuQktJylkqRHkJagNAAAAox+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzeEgYJ/eT83ILSktQiICOvpCg/Jye1SNfSUh8ABjlyb80AAAA=[0mcontroller-99 in /root/.jenkins/workspace/cyp-test-nic-simple
+[8mha:////4NUxBMzN6CtFAbQ4pdo7pH8ZuwVHigLf0SdP3FcjQTwyAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gA0xsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jfoP95RwAAAAA==[0m[Pipeline] {
+[8mha:////4OCB1+Up79PmV3LnMeomKr9r+JFCKkFjAfTpr2UorbLOAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gQkxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jc09154wAAAAA==[0m[Pipeline] stage
+[8mha:////4N6KQN35K8CT/Pcr9a+R4oOEu4uEh3phvpB1t67zd2hmAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0ggUxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jek7ggRwAAAAA==[0m[Pipeline] { (rm project dir)
+[8mha:////4EWjgIQS1R18e39T6LdOu3ZpSMSXMburmKwxJHd8e163AAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gwExsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jcChmMxwAAAAA==[0m[Pipeline] script
+[8mha:////4NOJ/YVWDlnnBpjDdLKlLZkF5LrR387vblsx7fWhZkPlAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0BAkxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jfpX/cvwAAAAA==[0m[Pipeline] {
+[8mha:////4MAm0moKTc8Eo2PcB0LgkHNHI7Xtf5Poej2Mf/l8xh/lAAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQTbaoyVLaHxBMgiwpL/WWDdrTyRV/MOEjexcpJJ5k3zXm9Y5wQnSpZ7g73DrB2PYbR18YlSfws0cU9XrgkzBcOlmSR15rygpGJgCWtgJWBjUAfKDm2BrfDqodqg0LaXkup3FNC4boAnMFHNRaXyhTnB7j52mfDn+SuAORZg+9pD/AAeoCAqvAAAAA==[0m[Pipeline] sh
++ ls /root/.jenkins/workspace/cyp-test-nic-simple/npxtester
+1.0.0.0001.version
+conf
+installation
+libs
+log_analyzer
+README.md
+testconf
+testLibs
+Tests
+[8mha:////4F3BY6hez6Yn9lSF4dYULOlz4RwK0Fdsp1OYWtj0vxDtAAAAox+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMKBDglR0VppeIFJjHFi3QX7QlLxIr7GH4iIRMVWO9PM641lijhydKqx1HpKlVdd6N301MCxvQYeVMMXVTElDlaVdii5tqcZSxaLeVmOhcbKUhU4eXKCtW7MwxTBkCvOEid30Mh9fccTmZ7KYqJ8YYzY3Po6Mf06fwMYO0G2F+S7bfcBITL9lL0AAAA=[0m[Pipeline] echo
+dir is exists and rm dir
+[8mha:////4KL1cTFlC/t8/0LRf71hJwxXIUFLIMviWtcIHXR2W8epAAAAox+LCAAAAAAAAP9tjbEOgjAURS8YB1dHP6KEzcQ4uTYsfkGFWgvNe9g+hMkv8tf8B4kkTt7pnrOc1xvrFHHk6FRrqfOUaq/6MLj5qZFjdw08qpYvqmZKHKyq7FhxY08LViwWy7IcK42NpTpw8uQEW92ahymCIVecJc7uoJH75o4nMj2XxUT5whSxuw1NYvp1/gYw9YJsL8jLsv8AYAPmjb0AAAA=[0m[Pipeline] sh
++ rm -rf /root/.jenkins/workspace/cyp-test-nic-simple/npxtester
+[8mha:////4GzJynz9IX3CLl34e/1JpYOeLz7FDsqMtIihCtFGqNpZAAAAox+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIRVEiIitZKwwtMYowT6y7YF5KKF/E1/kBEJCq22plmXm8sU8SRo1ONpdZTqrzqQu+mpwaO7TXwoBq+qIopcbCqtEPJtT3NWLJYzMtyLDRWlqrAyZMTrHVjHqYIhlxxlji5g0bu6zueyPRUFhPlC2PE5tbXienX+RvA2HWCfLsTZPsPzjQzob0AAAA=[0m[Pipeline] }
+[8mha:////4MvApYhNLg1xEFG2iXyHCog7Z9h4MbdAsNSDoK4wJnDgAAAApB+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIRoqBAVLRWGl5gEmOcWHfBvpBUvIiv8QciIlGx1c4083pjmSKOHJ1qLLWeUuVVF3o3PTVwbK+BB9XwRVVMiYNVpR1Kru1pxpLFYl6WY6GxslQFTp6cYK0b8zBFMOSKs8TJHTRyX9/xRKanspgoXxgjNre+Tky/zt8Axq4T5NudINt/AO8A7Ay9AAAA[0m[Pipeline] // script
+[8mha:////4P1g47DHQeYIMdAQPrqVFJW5XTEYSJkMqP0k+p1upCWxAAAApB+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIREqJBVLRWGl5gEmOcWHfBvpBUvIiv8QciIlGx1c4083pjmSKOHJ1qLLWeUuVVF3o3PTVwbK+BB9XwRVVMiYNVpR1Kru1pxpLFYl6WY6GxslQFTp6cYK0b8zBFMOSKs8TJHTRyX9/xRKanspgoXxgjNre+Tky/zt8Axq4T5NudINt/AGnsy8m9AAAA[0m[Pipeline] }
+[8mha:////4Lc6WrLYEiiAC7rTWY8q4RQPGu1FD+hrgClvEqpzcg2sAAAAox+LCAAAAAAAAP9tjTESgjAQRT84FraWHiKMBZVjZZuh8QQRYgxkdjFZhMoTeTXvICMzVv7qv9e81xvrFHHk6FRrqfOUaq/6MLj5qZFjdw08qpYvqmZKHKyq7FhxY08LViwWy7IcK42NpTpw8uQEW92ahymCIVecJc7uoJH75o4nMj2XxUT5whSxuw1NYvp1/gYw9b0g35eCrPwAY5Sibb0AAAA=[0m[Pipeline] // stage
+[8mha:////4LPzYIRsJlP9vBl87WR2FbvV5590n9jZkqHCRBijPEs5AAAApx+LCAAAAAAAAP9tjTEOwjAQBM9BKWgpeYQjJESDqGgtN7zAxMY4se6CfSGpeBFf4w8EIlGx1c5Kq3m+oMwJDpS8bBy2AXMdZBd7PzU5UGovkQbZ0FnWhJmik9oNmqw7zqiJHcwRBSwULB3WkXJAz7BSjbmbKhr01YnTtO0VFMHe4AFCTWY2ib8wJlhfe5sJf56/Ahg7BrFlKDa7z7F8A6sHc4fBAAAA[0m[Pipeline] stage
+[8mha:////4P0yjWfQiEwQxZO7i9obwDXrYwQclNR3i//1CTGbFwBFAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohULDAgpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD1+IXOLCAAAA[0m[Pipeline] { (clone)
+[8mha:////4I3tKNYAz7At397ZkNOs6SFwEn2bzn3ZBhsoegW1dhRwAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiKpAQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGPIUG53n9qHNxXfVKy+AAAA[0m[Pipeline] sh
++ git clone -b develop https://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@github.com/intel-innersource/applications.validation.network-platform.npxtester.git npxtester
+Cloning into 'npxtester'...
+[8mha:////4CRWXV91kUhqh2bTVXI+2n5U32cQ89nJ7yub5blKQ29bAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiKoQQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGMIGcrt/lO7N9Jjga++AAAA[0m[Pipeline] }
+[8mha:////4I4ZVrOFMvh2sVfxnfT9s6+paGHoH9OzkxEwdR4h+nRDAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOICFDQoFa3lhheYxBgn1l2wHZyKF/E1/oBFJCq2WO1sM683LIOHmr3BTlNvKTQWBzeavDCx76+OE3Z8wYYpsNModZLc6tOMkqOGOUUJCwErTY3jYMlEWItOPVTlFJnqHH3+jgJK297hCYXI5qh8/MLkYXMb28D08/wVwDQMEcr9Ntfu8AERGGHOvgAAAA==[0m[Pipeline] // stage
+[8mha:////4J4BpfnRrLE6odVrNZGgZ11wIRy0HYHBalvcHAcD12j/AAAAph+LCAAAAAAAAP9tjTEOwjAQBM9BKWgpeYQjEB2iorXc8AITG+PEugv2haTiRXyNPxCIRMVWOyut5vmCMic4UPKycdgGzHWQXez91ORAqb1EGmRDZ1kTZopOajdosu44oyZ2MEcUsFCwdFhHygE9w0o15m6qaNBXJ07TtldQBHuDBwg1mdkk/sKYYH3tbSb8ef4KYOwYxI6h2G4+x/INji2eq8EAAAA=[0m[Pipeline] stage
+[8mha:////4AgPhGmio4pMNzq5gItmuDxswb3P5dwyIofUIBdMXBTmAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+DOrAycohUdEVMrFEXThCaEJJG/7dJSjpxIq7GHWipxIQHy7ZkvdcbyhjgRMFwp7GzGFvLez+aOfFMobt5ytzRlbeEkbzmjc4NKX1ea0NJw6qCwUbAVmPrKVo0CXbCyYesvERTXVKYt6MAZtUATyjETE4ypG+ZAuzvo4qEP85fAEx9AlYfFquXZ/kBAsTc3cIAAAA=[0m[Pipeline] { (set args)
+[8mha:////4G9dxluK5ut2lxdfo2JVi6OIov1ZH/881VUFzuPzanonAAAAox+LCAAAAAAAAP9tjTESwiAURH/iWNhaeggyE0vHypah8QSYIEKY/wkQSeWJvJp3EM2MlVvs7NvmPV+wjgGOFDSzCgeDsTPMu0mXxTKF4eooM0sX1hFGcooJlQX16rSgoKRgSVXDisNGYecoGtQJttzKu2ycRN2cUyjfgUNt+hEeUPFiTjKkL8wBdrepj4Q/z18BzD5B3baf2vs3w5BRkb4AAAA=[0m[Pipeline] sh
++ python /root/.jenkins/workspace/cyp-test-nic-simple/npxtester/conf/change_args.py '{"dpdk_dir":"/opt/APP/utility/DPDK_install/dpdk-21.02/","sut_conf":{"board_type":"commercial","host":"10.239.182.209","sut1_pf1":"ens785f2","os":"UBUNTU","PF1_NIC_type":"4*25"},"pkg_generator":{"host":"10.239.182.99","pf1":"ens787f2"},"drive_info":{"drive_version":"1.6.4"}}'
+[8mha:////4FhUQONKPXFSeOjFO92QKbtxv93cUzSuhB7hx3xoWX6KAAAApB+LCAAAAAAAAP9tjbEOwiAURV9rHFwd/QiaNG7GyZWw+AXYIkLJexSodPKL/DX/QbSJk3e4uecu5/mCdQxwpKCZVTgYjJ1h3k26LJYpDFdHmVm6sI4wklNMqCyoV6cFBSUFS6oaVhw2CjtH0aBOsOVW3mXjJOrmnEL5Dhxq04/wgIoXc5IhfWEOsLtNfST8ef4KYPY+Qd3uP9W+Ad3NsHm+AAAA[0m[Pipeline] }
+[8mha:////4EpM1Tihe33kOTBucrClpdwMCq1FF6wGwTU/AEOZmYaNAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIikKgQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGMIGcrd/lPbN8JP5Su+AAAA[0m[Pipeline] // stage
+[8mha:////4JJk4NQMkVX21N+ktknOqKLQw+FD2VU/fvD8dhBPuambAAAApx+LCAAAAAAAAP9tjTEOwjAQBM9BKWgpeYQjIUSDqGgtN7zAxMY4se6CfSGpeBFf4w8EIlGx1c5Kq3m+oMwJDpS8bBy2AXMdZBd7PzU5UGovkQbZ0FnWhJmik9oNmqw7zqiJHcwRBSwULB3WkXJAz7BSjbmbKhr01YnTtO0VFMHe4AFCTWY2ib8wJlhfe5sJf56/Ahg7BrFlKDa7z7F8AzYdm7bBAAAA[0m[Pipeline] stage
+[8mha:////4GToWcz1lEtttcc1F67+obVKf97ChyGWoNBgdNb8ln6iAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUYoABMXWNsnCC0ISQNvq//KS0EyfiatyBlkpMeLBsS9Z7vaGIDCdiJxqLrcdYe9GF3k1JDMTtNdAgGrqImjBSsELZQZGx1VIVJQuLshxWEtYW60DRo0uwkY1+6DJodOU58bQdJeTe3OEJmZzISXP6lpFhe+tNJPxx/gJg7BLku/1sh/lZfAAyQCqkwgAAAA==[0m[Pipeline] { (restore bios)
+[8mha:////4M/BBJOrvLliK1a64sS7A0hf4H4seiclg8D1IX9OqKAVAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIi0YCEqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDhnK7+9Q+vAGvZp0gvgAAAA==[0m[Pipeline] sh
++ pytest /root/.jenkins/workspace/cyp-test-nic-simple/npxtester/Tests/testBios/testBiosSetting.py -s -m restoreBios --capture=tee-sys --html=/root/testconfig/testlogs/HtmlReport/restore_bios_report.html --self-contained-html
+============================= test session starts ==============================
+platform linux -- Python 3.6.8, pytest-6.2.4, py-1.11.0, pluggy-0.13.1
+rootdir: /root/.jenkins/workspace/cyp-test-nic-simple/npxtester/Tests/testBios, configfile: pytest.ini
+plugins: metadata-1.11.0, html-3.1.1
+collected 1 item
+
+npxtester/Tests/testBios/testBiosSetting.py 2022-03-17 11:29:54 - biosSetupTestFixture.py - [line:28] - root - INFO - ============================ Starting to run test_restore_bios_setting case ============================
+2022-03-17 11:29:54 - testBiosSetting.py - [line:16] - root - INFO - this is Test_biosSetting setup.
+2022-03-17 11:29:54 - testBiosSetting.py - [line:21] - root - INFO - check_rs is ~#
+2022-03-17 11:29:54 - testBiosSetting.py - [line:24] - root - INFO - SSH SUT and setup configurations in the setup function.
+2022-03-17 11:29:54 - transport.py - [line:1819] - paramiko.transport - INFO - Connected (version 2.0, client OpenSSH_8.0)
+2022-03-17 11:29:55 - transport.py - [line:1819] - paramiko.transport - INFO - Authentication (password) successful!
+2022-03-17 11:29:55 - sshInstance.py - [line:28] - root - INFO - SSH on SUT: 10.239.182.209
+2022-03-17 11:29:55 - testBiosSetting.py - [line:89] - root - INFO - starting to git clone bios-setup...
+2022-03-17 11:29:58 - sshInstance.py - [line:46] - root - INFO - rm $(pwd)/bios-setup -rf
+2022-03-17 11:29:58 - sshInstance.py - [line:50] - root - INFO - 
+2022-03-17 11:30:03 - testBiosSetting.py - [line:42] - root - INFO - removed bios-setup directory: rm $(pwd)/bios-setup -rf
+2022-03-17 11:30:06 - sshInstance.py - [line:46] - root - INFO - git config --global http.proxy http://child-prc.intel.com:913
+2022-03-17 11:30:06 - sshInstance.py - [line:50] - root - INFO - 
+2022-03-17 11:30:11 - testBiosSetting.py - [line:46] - root - INFO - set http_proxy: git config --global http.proxy http://child-prc.intel.com:913
+2022-03-17 11:30:14 - sshInstance.py - [line:46] - root - INFO - git config --global https.proxy http://child-prc.intel.com:913
+2022-03-17 11:30:14 - sshInstance.py - [line:50] - root - INFO - 
+2022-03-17 11:30:19 - testBiosSetting.py - [line:48] - root - INFO - set https_proxy:: git config --global https.proxy http://child-prc.intel.com:913
+2022-03-17 11:30:19 - testBiosSetting.py - [line:49] - root - INFO - start to git clone bios-setup repo...
+2022-03-17 11:30:19 - testBiosSetting.py - [line:51] - root - INFO - git clone command: git clone -b master https://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@github.com/intel-innersource/applications.validation.network-platform.bios-setup.git bios-setup
+2022-03-17 11:30:22 - sshInstance.py - [line:46] - root - INFO - git clone -b master https://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@github.com/intel-innersource/applications.validation.network-platform.bios-setup.git bios-setup
+2022-03-17 11:31:00 - sshInstance.py - [line:50] - root - INFO - Cloning into 'bios-setup'...
+remote: Enumerating objects: 458, done.[K
+remote: Counting objects:   0% (1/458)[Kremote: Counting objects:   1% (5/458)[Kremote: Counting objects:   2% (10/458)[Kremote: Counting objects:   3% (14/458)[Kremote: Counting objects:   4% (19/458)[Kremote: Counting objects:   5% (23/458)[Kremote: Counting objects:   6% (28/458)[Kremote: Counting objects:   7% (33/458)[Kremote: Counting objects:   8% (37/458)[Kremote: Counting objects:   9% (42/458)[Kremote: Counting objects:  10% (46/458)[Kremote: Counting objects:  11% (51/458)[Kremote: Counting objects:  12% (55/458)[Kremote: Counting objects:  13% (60/458)[Kremote: Counting objects:  14% (65/458)[Kremote: Counting objects:  15% (69/458)[Kremote: Counting objects:  16% (74/458)[Kremote: Counting objects:  17% (78/458)[Kremote: Counting objects:  18% (83/458)[Kremote: Counting objects:  19% (88/458)[Kremote: Counting objects:  20% (92/458)[Kremote: Counting objects:  21% (97/458)[Kremote: Counting objects:  22% (101/458)[Kremote: Counting objects:  23% (106/458)[Kremote: Counting objects:  24% (110/458)[Kremote: Counting objects:  25% (115/458)[Kremote: Counting objects:  26% (120/458)[Kremote: Counting objects:  27% (124/458)[Kremote: Counting objects:  28% (129/458)[Kremote: Counting objects:  29% (133/458)[Kremote: Counting objects:  30% (138/458)[Kremote: Counting objects:  31% (142/458)[Kremote: Counting objects:  32% (147/458)[Kremote: Counting objects:  33% (152/458)[Kremote: Counting objects:  34% (156/458)[Kremote: Counting objects:  35% (161/458)[Kremote: Counting objects:  36% (165/458)[Kremote: Counting objects:  37% (170/458)[Kremote: Counting objects:  38% (175/458)[Kremote: Counting objects:  39% (179/458)[Kremote: Counting objects:  40% (184/458)[Kremote: Counting objects:  41% (188/458)[Kremote: Counting objects:  42% (193/458)[Kremote: Counting objects:  43% (197/458)[Kremote: Counting objects:  44% (202/458)[Kremote: Counting objects:  45% (207/458)[Kremote: Counting objects:  46% (211/458)[Kremote: Counting objects:  47% (216/458)[Kremote: Counting objects:  48% (220/458)[Kremote: Counting objects:  49% (225/458)[Kremote: Counting objects:  50% (229/458)[Kremote: Counting objects:  51% (234/458)[Kremote: Counting objects:  52% (239/458)[Kremote: Counting objects:  53% (243/458)[Kremote: Counting objects:  54% (248/458)[Kremote: Counting objects:  55% (252/458)[Kremote: Counting objects:  56% (257/458)[Kremote: Counting objects:  57% (262/458)[Kremote: Counting objects:  58% (266/458)[Kremote: Counting objects:  59% (271/458)[Kremote: Counting objects:  60% (275/458)[Kremote: Counting objects:  61% (280/458)[Kremote: Counting objects:  62% (284/458)[Kremote: Counting objects:  63% (289/458)[Kremote: Counting objects:  64% (294/458)[Kremote: Counting objects:  65% (298/458)[Kremote: Counting objects:  66% (303/458)[Kremote: Counting objects:  67% (307/458)[Kremote: Counting objects:  68% (312/458)[Kremote: Counting objects:  69% (317/458)[Kremote: Counting objects:  70% (321/458)[Kremote: Counting objects:  71% (326/458)[Kremote: Counting objects:  72% (330/458)[Kremote: Counting objects:  73% (335/458)[Kremote: Counting objects:  74% (339/458)[Kremote: Counting objects:  75% (344/458)[Kremote: Counting objects:  76% (349/458)[Kremote: Counting objects:  77% (353/458)[Kremote: Counting objects:  78% (358/458)[Kremote: Counting objects:  79% (362/458)[Kremote: Counting objects:  80% (367/458)[Kremote: Counting objects:  81% (371/458)[Kremote: Counting objects:  82% (376/458)[Kremote: Counting objects:  83% (381/458)[Kremote: Counting objects:  84% (385/458)[Kremote: Counting objects:  85% (390/458)[Kremote: Counting objects:  86% (394/458)[Kremote: Counting objects:  87% (399/458)[Kremote: Counting objects:  88% (404/458)[Kremote: Counting objects:  89% (408/458)[Kremote: Counting objects:  90% (413/458)[Kremote: Counting objects:  91% (417/458)[Kremote: Counting objects:  92% (422/458)[Kremote: Counting objects:  93% (426/458)[Kremote: Counting objects:  94% (431/458)[Kremote: Counting objects:  95% (436/458)[Kremote: Counting objects:  96% (440/458)[Kremote: Counting objects:  97% (445/458)[Kremote: Counting objects:  98% (449/458)[Kremote: Counting objects:  99% (454/458)[Kremote: Counting objects: 100% (458/458)[Kremote: Counting objects: 100% (458/458), done.[K
+remote: Compressing objects:   0% (1/328)[Kremote: Compressing objects:   1% (4/328)[Kremote: Compressing objects:   2% (7/328)[Kremote: Compressing objects:   3% (10/328)[Kremote: Compressing objects:   4% (14/328)[Kremote: Compressing objects:   5% (17/328)[Kremote: Compressing objects:   6% (20/328)[Kremote: Compressing objects:   7% (23/328)[Kremote: Compressing objects:   8% (27/328)[Kremote: Compressing objects:   9% (30/328)[Kremote: Compressing objects:  10% (33/328)[Kremote: Compressing objects:  11% (37/328)[Kremote: Compressing objects:  12% (40/328)[Kremote: Compressing objects:  13% (43/328)[Kremote: Compressing objects:  14% (46/328)[Kremote: Compressing objects:  15% (50/328)[Kremote: Compressing objects:  16% (53/328)[Kremote: Compressing objects:  17% (56/328)[Kremote: Compressing objects:  18% (60/328)[Kremote: Compressing objects:  19% (63/328)[Kremote: Compressing objects:  20% (66/328)[Kremote: Compressing objects:  21% (69/328)[Kremote: Compressing objects:  22% (73/328)[Kremote: Compressing objects:  23% (76/328)[Kremote: Compressing objects:  24% (79/328)[Kremote: Compressing objects:  25% (82/328)[Kremote: Compressing objects:  26% (86/328)[Kremote: Compressing objects:  27% (89/328)[Kremote: Compressing objects:  28% (92/328)[Kremote: Compressing objects:  29% (96/328)[Kremote: Compressing objects:  30% (99/328)[Kremote: Compressing objects:  31% (102/328)[Kremote: Compressing objects:  32% (105/328)[Kremote: Compressing objects:  33% (109/328)[Kremote: Compressing objects:  34% (112/328)[Kremote: Compressing objects:  35% (115/328)[Kremote: Compressing objects:  36% (119/328)[Kremote: Compressing objects:  37% (122/328)[Kremote: Compressing objects:  38% (125/328)[Kremote: Compressing objects:  39% (128/328)[Kremote: Compressing objects:  40% (132/328)[Kremote: Compressing objects:  41% (135/328)[Kremote: Compressing objects:  42% (138/328)[Kremote: Compressing objects:  43% (142/328)[Kremote: Compressing objects:  44% (145/328)[Kremote: Compressing objects:  45% (148/328)[Kremote: Compressing objects:  46% (151/328)[Kremote: Compressing objects:  47% (155/328)[Kremote: Compressing objects:  48% (158/328)[Kremote: Compressing objects:  49% (161/328)[Kremote: Compressing objects:  50% (164/328)[Kremote: Compressing objects:  51% (168/328)[Kremote: Compressing objects:  52% (171/328)[Kremote: Compressing objects:  53% (174/328)[Kremote: Compressing objects:  54% (178/328)[Kremote: Compressing objects:  55% (181/328)[Kremote: Compressing objects:  56% (184/328)[Kremote: Compressing objects:  57% (187/328)[Kremote: Compressing objects:  58% (191/328)[Kremote: Compressing objects:  59% (194/328)[Kremote: Compressing objects:  60% (197/328)[Kremote: Compressing objects:  61% (201/328)[Kremote: Compressing objects:  62% (204/328)[Kremote: Compressing objects:  63% (207/328)[Kremote: Compressing objects:  64% (210/328)[Kremote: Compressing objects:  65% (214/328)[Kremote: Compressing objects:  66% (217/328)[Kremote: Compressing objects:  67% (220/328)[Kremote: Compressing objects:  68% (224/328)[Kremote: Compressing objects:  69% (227/328)[Kremote: Compressing objects:  70% (230/328)[Kremote: Compressing objects:  71% (233/328)[Kremote: Compressing objects:  72% (237/328)[Kremote: Compressing objects:  73% (240/328)[Kremote: Compressing objects:  74% (243/328)[Kremote: Compressing objects:  75% (246/328)[Kremote: Compressing objects:  76% (250/328)[Kremote: Compressing objects:  77% (253/328)[Kremote: Compressing objects:  78% (256/328)[Kremote: Compressing objects:  79% (260/328)[Kremote: Compressing objects:  80% (263/328)[Kremote: Compressing objects:  81% (266/328)[Kremote: Compressing objects:  82% (269/328)[Kremote: Compressing objects:  83% (273/328)[Kremote: Compressing objects:  84% (276/328)[Kremote: Compressing objects:  85% (279/328)[Kremote: Compressing objects:  86% (283/328)[Kremote: Compressing objects:  87% (286/328)[Kremote: Compressing objects:  88% (289/328)[Kremote: Compressing objects:  89% (292/328)[Kremote: Compressing objects:  90% (296/328)[Kremote: Compressing objects:  91% (299/328)[Kremote: Compressing objects:  92% (302/328)[Kremote: Compressing objects:  93% (306/328)[Kremote: Compressing objects:  94% (309/328)[Kremote: Compressing objects:  95% (312/328)[Kremote: Compressing objects:  96% (315/328)[Kremote: Compressing objects:  97% (319/328)[Kremote: Compressing objects:  98% (322/328)[Kremote: Compressing objects:  99% (325/328)[Kremote: Compressing objects: 100% (328/328)[Kremote: Compressing objects: 100% (328/328), done.[K
+Receiving objects:   0% (1/458)   Receiving objects:   1% (5/458)   Receiving objects:   2% (10/458)   Receiving objects:   3% (14/458)   Receiving objects:   4% (19/458)   Receiving objects:   5% (23/458)   Receiving objects:   6% (28/458)   Receiving objects:   7% (33/458)   Receiving objects:   8% (37/458)   Receiving objects:   9% (42/458)   Receiving objects:  10% (46/458)   Receiving objects:  11% (51/458)   Receiving objects:  12% (55/458)   Receiving objects:  13% (60/458)   Receiving objects:  14% (65/458)   Receiving objects:  15% (69/458)   Receiving objects:  15% (71/458), 156.00 KiB | 105.00 KiB/s   Receiving objects:  15% (71/458), 244.00 KiB | 107.00 KiB/s   Receiving objects:  15% (71/458), 460.00 KiB | 124.00 KiB/s   Receiving objects:  15% (71/458), 604.00 KiB | 135.00 KiB/s   Receiving objects:  15% (71/458), 780.00 KiB | 151.00 KiB/s   Receiving objects:  15% (71/458), 1.24 MiB | 189.00 KiB/s   Receiving objects:  15% (71/458), 1.61 MiB | 237.00 KiB/s   Receiving objects:  15% (71/458), 2.08 MiB | 297.00 KiB/s   Receiving objects:  15% (71/458), 3.46 MiB | 499.00 KiB/s   Receiving objects:  15% (71/458), 4.93 MiB | 731.00 KiB/s   Receiving objects:  15% (71/458), 7.21 MiB | 1.12 MiB/s   Receiving objects:  15% (71/458), 8.56 MiB | 1.37 MiB/s   Receiving objects:  15% (71/458), 11.57 MiB | 1.93 MiB/s   Receiving objects:  15% (71/458), 15.45 MiB | 2.53 MiB/s   Receiving objects:  15% (71/458), 20.24 MiB | 3.31 MiB/s   Receiving objects:  15% (71/458), 24.18 MiB | 3.67 MiB/s   Receiving objects:  15% (71/458), 30.96 MiB | 4.60 MiB/s   Receiving objects:  15% (71/458), 38.07 MiB | 5.47 MiB/s   Receiving objects:  15% (71/458), 45.34 MiB | 6.14 MiB/s   Receiving objects:  15% (71/458), 53.92 MiB | 6.88 MiB/s   Receiving objects:  15% (72/458), 57.38 MiB | 7.17 MiB/s   Receiving objects:  16% (74/458), 57.38 MiB | 7.17 MiB/s   Receiving objects:  17% (78/458), 57.38 MiB | 7.17 MiB/s   Receiving objects:  17% (82/458), 69.64 MiB | 7.49 MiB/s   Receiving objects:  18% (83/458), 74.38 MiB | 7.87 MiB/s   Receiving objects:  19% (88/458), 74.38 MiB | 7.87 MiB/s   Receiving objects:  20% (92/458), 74.38 MiB | 7.87 MiB/s   Receiving objects:  21% (97/458), 74.38 MiB | 7.87 MiB/s   Receiving objects:  22% (101/458), 74.38 MiB | 7.87 MiB/s   Receiving objects:  23% (106/458), 74.38 MiB | 7.87 MiB/s   Receiving objects:  24% (110/458), 74.38 MiB | 7.87 MiB/s   Receiving objects:  25% (115/458), 74.38 MiB | 7.87 MiB/s   Receiving objects:  26% (120/458), 74.38 MiB | 7.87 MiB/s   Receiving objects:  27% (124/458), 74.38 MiB | 7.87 MiB/s   Receiving objects:  28% (129/458), 74.38 MiB | 7.87 MiB/s   Receiving objects:  29% (133/458), 74.38 MiB | 7.87 MiB/s   Receiving objects:  30% (138/458), 74.38 MiB | 7.87 MiB/s   Receiving objects:  31% (142/458), 74.38 MiB | 7.87 MiB/s   Receiving objects:  32% (147/458), 74.38 MiB | 7.87 MiB/s   Receiving objects:  33% (152/458), 74.38 MiB | 7.87 MiB/s   Receiving objects:  34% (156/458), 74.38 MiB | 7.87 MiB/s   Receiving objects:  35% (161/458), 74.38 MiB | 7.87 MiB/s   Receiving objects:  36% (165/458), 77.63 MiB | 7.58 MiB/s   Receiving objects:  37% (170/458), 77.63 MiB | 7.58 MiB/s   Receiving objects:  38% (175/458), 77.63 MiB | 7.58 MiB/s   Receiving objects:  39% (179/458), 77.63 MiB | 7.58 MiB/s   Receiving objects:  40% (184/458), 77.63 MiB | 7.58 MiB/s   Receiving objects:  41% (188/458), 77.63 MiB | 7.58 MiB/s   Receiving objects:  42% (193/458), 77.63 MiB | 7.58 MiB/s   Receiving objects:  43% (197/458), 77.63 MiB | 7.58 MiB/s   Receiving objects:  43% (199/458), 81.87 MiB | 7.89 MiB/s   Receiving objects:  44% (202/458), 81.87 MiB | 7.89 MiB/s   Receiving objects:  45% (207/458), 81.87 MiB | 7.89 MiB/s   Receiving objects:  46% (211/458), 81.87 MiB | 7.89 MiB/s   Receiving objects:  47% (216/458), 84.52 MiB | 7.44 MiB/s   Receiving objects:  48% (220/458), 84.52 MiB | 7.44 MiB/s   Receiving objects:  49% (225/458), 84.52 MiB | 7.44 MiB/s   Receiving objects:  50% (229/458), 84.52 MiB | 7.44 MiB/s   Receiving objects:  51% (234/458), 84.52 MiB | 7.44 MiB/s   Receiving objects:  52% (239/458), 84.52 MiB | 7.44 MiB/s   Receiving objects:  53% (243/458), 84.52 MiB | 7.44 MiB/s   Receiving objects:  54% (248/458), 84.52 MiB | 7.44 MiB/s   Receiving objects:  55% (252/458), 84.52 MiB | 7.44 MiB/s   Receiving objects:  56% (257/458), 84.52 MiB | 7.44 MiB/s   Receiving objects:  57% (262/458), 84.52 MiB | 7.44 MiB/s   Receiving objects:  58% (266/458), 84.52 MiB | 7.44 MiB/s   Receiving objects:  59% (271/458), 84.52 MiB | 7.44 MiB/s   Receiving objects:  60% (275/458), 84.52 MiB | 7.44 MiB/s   Receiving objects:  61% (280/458), 84.52 MiB | 7.44 MiB/s   Receiving objects:  62% (284/458), 84.52 MiB | 7.44 MiB/s   Receiving objects:  63% (289/458), 84.52 MiB | 7.44 MiB/s   Receiving objects:  64% (294/458), 84.52 MiB | 7.44 MiB/s   Receiving objects:  65% (298/458), 84.52 MiB | 7.44 MiB/s   Receiving objects:  66% (303/458), 84.52 MiB | 7.44 MiB/s   Receiving objects:  67% (307/458), 84.52 MiB | 7.44 MiB/s   Receiving objects:  68% (312/458), 84.52 MiB | 7.44 MiB/s   Receiving objects:  69% (317/458), 84.52 MiB | 7.44 MiB/s   Receiving objects:  70% (321/458), 84.52 MiB | 7.44 MiB/s   Receiving objects:  71% (326/458), 84.52 MiB | 7.44 MiB/s   Receiving objects:  72% (330/458), 84.52 MiB | 7.44 MiB/s   Receiving objects:  73% (335/458), 84.52 MiB | 7.44 MiB/s   Receiving objects:  74% (339/458), 84.52 MiB | 7.44 MiB/s   Receiving objects:  75% (344/458), 84.52 MiB | 7.44 MiB/s   Receiving objects:  76% (349/458), 84.52 MiB | 7.44 MiB/s   Receiving objects:  77% (353/458), 84.52 MiB | 7.44 MiB/s   Receiving objects:  78% (358/458), 84.52 MiB | 7.44 MiB/s   Receiving objects:  79% (362/458), 84.52 MiB | 7.44 MiB/s   Receiving objects:  80% (367/458), 84.52 MiB | 7.44 MiB/s   Receiving objects:  81% (371/458), 84.52 MiB | 7.44 MiB/s   Receiving objects:  82% (376/458), 84.52 MiB | 7.44 MiB/s   Receiving objects:  83% (381/458), 84.52 MiB | 7.44 MiB/s   Receiving objects:  84% (385/458), 84.52 MiB | 7.44 MiB/s   Receiving objects:  85% (390/458), 84.52 MiB | 7.44 MiB/s   Receiving objects:  86% (394/458), 84.52 MiB | 7.44 MiB/s   Receiving objects:  87% (399/458), 84.52 MiB | 7.44 MiB/s   Receiving objects:  88% (404/458), 84.52 MiB | 7.44 MiB/s   Receiving objects:  89% (408/458), 84.52 MiB | 7.44 MiB/s   Receiving objects:  90% (413/458), 84.52 MiB | 7.44 MiB/s   Receiving objects:  91% (417/458), 84.52 MiB | 7.44 MiB/s   Receiving objects:  92% (422/458), 84.52 MiB | 7.44 MiB/s   Receiving objects:  93% (426/458), 84.52 MiB | 7.44 MiB/s   Receiving objects:  93% (428/458), 91.79 MiB | 7.44 MiB/s   Receiving objects:  93% (429/458), 96.70 MiB | 6.23 MiB/s   Receiving objects:  93% (430/458), 100.96 MiB | 6.29 MiB/s   Receiving objects:  94% (431/458), 100.96 MiB | 6.29 MiB/s   Receiving objects:  94% (431/458), 108.57 MiB | 6.00 MiB/s   Receiving objects:  95% (436/458), 108.57 MiB | 6.00 MiB/s   Receiving objects:  95% (436/458), 110.63 MiB | 5.58 MiB/s   Receiving objects:  95% (438/458), 117.07 MiB | 5.37 MiB/s   Receiving objects:  96% (440/458), 117.07 MiB | 5.37 MiB/s   Receiving objects:  96% (440/458), 123.89 MiB | 5.54 MiB/s   Receiving objects:  97% (445/458), 127.34 MiB | 5.96 MiB/s   Receiving objects:  97% (448/458), 127.34 MiB | 5.96 MiB/s   Receiving objects:  98% (449/458), 127.34 MiB | 5.96 MiB/s   Receiving objects:  99% (454/458), 134.42 MiB | 6.13 MiB/s   Receiving objects:  99% (455/458), 137.96 MiB | 6.02 MiB/s   remote: Total 458 (delta 161), reused 401 (delta 118), pack-reused 0[K
+Receiving objects: 100% (458/458), 137.96 MiB | 6.02 MiB/s   Receiving objects: 100% (458/458), 138.70 MiB | 4.14 MiB/s, done.
+Resolving deltas:   0% (0/161)   Resolving deltas:   6% (10/161)   Resolving deltas:   8% (14/161)   Resolving deltas:  13% (21/161)   Resolving deltas:  21% (34/161)   Resolving deltas:  22% (37/161)   Resolving deltas:  24% (40/161)   Resolving deltas:  32% (53/161)   Resolving deltas:  33% (54/161)   Resolving deltas:  34% (55/161)   Resolving deltas:  35% (57/161)   Resolving deltas:  36% (58/161)   Resolving deltas:  38% (62/161)   Resolving deltas:  39% (63/161)   Resolving deltas:  40% (65/161)   Resolving deltas:  41% (67/161)   Resolving deltas:  42% (69/161)   Resolving deltas:  44% (71/161)   Resolving deltas:  45% (73/161)   Resolving deltas:  46% (75/161)   Resolving deltas:  48% (78/161)   Resolving deltas:  49% (80/161)   Resolving deltas:  50% (81/161)   Resolving deltas:  51% (83/161)   Resolving deltas:  52% (84/161)   Resolving deltas:  54% (87/161)   Resolving deltas:  63% (103/161)   Resolving deltas:  65% (105/161)   Resolving deltas:  74% (120/161)   Resolving deltas:  76% (123/161)   Resolving deltas:  77% (124/161)   Resolving deltas:  78% (127/161)   Resolving deltas:  82% (133/161)   Resolving deltas:  85% (137/161)   Resolving deltas:  86% (139/161)   Resolving deltas:  87% (141/161)   Resolving deltas:  90% (145/161)   Resolving deltas:  92% (149/161)   Resolving deltas:  93% (150/161)   Resolving deltas:  95% (154/161)   Resolving deltas:  96% (155/161)   Resolving deltas:  98% (158/161)   Resolving deltas: 100% (161/161)   Resolving deltas: 100% (161/161), done.
+
+2022-03-17 11:31:05 - testBiosSetting.py - [line:92] - root - INFO - Succeeded to git clone bios-setup.
+2022-03-17 11:31:05 - testBiosSetting.py - [line:97] - root - INFO - install bios tools in SUT....
+2022-03-17 11:31:08 - sshInstance.py - [line:46] - root - INFO - chmod a+x $(pwd)/bios-setup/installation/bios_commercial/install_for_commercial_board.sh
+2022-03-17 11:31:09 - sshInstance.py - [line:50] - root - INFO - 
+2022-03-17 11:31:14 - testBiosSetting.py - [line:59] - root - INFO - chmod .sh files: chmod a+x $(pwd)/bios-setup/installation/bios_commercial/install_for_commercial_board.sh
+2022-03-17 11:31:17 - sshInstance.py - [line:46] - root - INFO - /bin/bash $(pwd)/bios-setup/installation/bios_commercial/install_for_commercial_board.sh UBUNTU
+2022-03-17 11:31:29 - sshInstance.py - [line:50] - root - INFO - + cd /root/bios-setup/installation/bios_commercial
++ mkdir syscfg_install
++ cd syscfg_install
++ unzip ../Syscfg_V14_2_Build8_AllOS.zip
+Archive:  ../Syscfg_V14_2_Build8_AllOS.zip
+   creating: Drivers/
+   creating: Drivers/win/
+   creating: Drivers/win/x64/
+  inflating: Drivers/win/x64/DeviceSetup.exe  
+  inflating: Drivers/win/x64/flashud.cat  
+  inflating: Drivers/win/x64/flashud.inf  
+  inflating: Drivers/win/x64/FLASHUD.sys  
+  inflating: Drivers/win/x64/ibsmutil.cat  
+  inflating: Drivers/win/x64/IBSMUtil.sys  
+  inflating: Drivers/win/x64/IBSMUx64.inf  
+  inflating: Drivers/win/x64/imbdrv.cat  
+  inflating: Drivers/win/x64/IMBDrv.inf  
+  inflating: Drivers/win/x64/imbdrv.sys  
+  inflating: Drivers/win/x64/install.cmd  
+  inflating: Drivers/win/x64/uninstall.cmd  
+   creating: Drivers/win/x86/
+  inflating: Drivers/win/x86/DeviceSetup.exe  
+  inflating: Drivers/win/x86/flashud.cat  
+  inflating: Drivers/win/x86/flashud.inf  
+  inflating: Drivers/win/x86/FLASHUD.sys  
+  inflating: Drivers/win/x86/ibsmutil.cat  
+  inflating: Drivers/win/x86/IBSMUtil.inf  
+  inflating: Drivers/win/x86/IBSMUtil.sys  
+  inflating: Drivers/win/x86/imbdrv.cat  
+  inflating: Drivers/win/x86/IMBDrv.inf  
+  inflating: Drivers/win/x86/imbdrv.sys  
+  inflating: Drivers/win/x86/install.cmd  
+  inflating: Drivers/win/x86/uninstall.cmd  
+   creating: Licenses/
+   creating: Licenses/EFIToolKit/
+  inflating: Licenses/EFIToolKit/BSD-License-From-Intel.txt  
+   creating: Licenses/GPL/
+  inflating: Licenses/GPL/Gpl-2_0.txt  
+  inflating: Licenses/INTEL-SOFTWARE-LICENSE-AGREEMENT-WITH.doc  
+  inflating: Licenses/license.txt    
+   creating: Licenses/Others/
+  inflating: Licenses/Others/AES-License.txt  
+  inflating: Licenses/Others/MD5_Message-Digest-License.txt  
+  inflating: Licenses/Others/SSL-Implementation-License.txt  
+   creating: Linux_x64/
+   creating: Linux_x64/RHEL/
+   creating: Linux_x64/RHEL/RHEL8/
+  inflating: Linux_x64/RHEL/RHEL8/syscfg-V14.2-B8.x86_64.rpm  
+  inflating: Linux_x64/RHEL/RHEL8/syscfg.zip  
+  inflating: Linux_x64/RHEL/syscfg-V14.2-B8.x86_64.rpm  
+  inflating: Linux_x64/RHEL/syscfg.zip  
+   creating: Linux_x64/SLES/
+   creating: Linux_x64/SLES/SLES15/
+  inflating: Linux_x64/SLES/SLES15/syscfg-V14.2-B8.x86_64.rpm  
+  inflating: Linux_x64/SLES/SLES15/syscfg.zip  
+  inflating: Linux_x64/SLES/syscfg-V14.2-B8.x86_64.rpm  
+  inflating: Linux_x64/SLES/syscfg.zip  
+   creating: Linux_x64/UBUNTU/
+ extracting: Linux_x64/UBUNTU/syscfg-V14.2-B8.x86_64.deb  
+  inflating: Linux_x64/UBUNTU/syscfg.zip  
+  inflating: ReleaseNotes.txt        
+   creating: UEFI_x64/
+  inflating: UEFI_x64/ipmi.efi       
+  inflating: UEFI_x64/NShell.efi     
+  inflating: UEFI_x64/syscfg.efi     
+  inflating: UEFI_x64/syscfg_core.efi  
+   creating: Win_x64/
+  inflating: Win_x64/imbapi.dll      
+  inflating: Win_x64/msipmi.dll      
+  inflating: Win_x64/syscfg.exe      
+   creating: Win_x86/
+  inflating: Win_x86/imbapi.dll      
+  inflating: Win_x86/msipmi.dll      
+  inflating: Win_x86/syscfg.exe      
++ cd Linux_x64/UBUNTU
++ '[' UBUNTU == UBUNTU ']'
++ unzip syscfg.zip
+Archive:  syscfg.zip
+  inflating: syscfg                  
++ '[' UBUNTU == RHEL ']'
++ chmod 777 syscfg
++ echo export PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/root/bin:/root/bios-setup/installation/bios_commercial/syscfg_install/Linux_x64/UBUNTU
++ source /root/.bashrc
+++ alias 'rm=rm -i'
+++ alias 'cp=cp -i'
+++ alias 'mv=mv -i'
+++ '[' -f /etc/bashrc ']'
+++ . /etc/bashrc
++++ '[' -z '' ']'
++++ BASHRCSOURCED=Y
++++ '[' '' ']'
++++ shopt -q login_shell
++++ '[' 0 -gt 199 ']'
++++ umask 022
++++ SHELL=/bin/bash
++++ for i in /etc/profile.d/*.sh
++++ '[' -r /etc/profile.d/bash_completion.sh ']'
++++ '[' '' ']'
++++ . /etc/profile.d/bash_completion.sh
+++++ '[' -n '4.4.19(1)-release' -a -n '' -a -z '' ']'
++++ for i in /etc/profile.d/*.sh
++++ '[' -r /etc/profile.d/colorgrep.sh ']'
++++ '[' '' ']'
++++ . /etc/profile.d/colorgrep.sh
+++++ /usr/libexec/grepconf.sh -c
+++++ alias 'grep=grep --color=auto'
+++++ alias 'egrep=egrep --color=auto'
+++++ alias 'fgrep=fgrep --color=auto'
++++ for i in /etc/profile.d/*.sh
++++ '[' -r /etc/profile.d/colorls.sh ']'
++++ '[' '' ']'
++++ . /etc/profile.d/colorls.sh
+++++ '[' '!' -t 0 ']'
+++++ '[' -z '' ']'
+++++ alias 'll=ls -l'
+++++ alias 'l.=ls -d .*'
+++++ INCLUDE=
+++++ COLORS=
+++++ for colors in "$HOME/.dir_colors.$TERM" "$HOME/.dircolors.$TERM" "$HOME/.dir_colors" "$HOME/.dircolors"
+++++ '[' -e /root/.dir_colors.vt100 ']'
+++++ for colors in "$HOME/.dir_colors.$TERM" "$HOME/.dircolors.$TERM" "$HOME/.dir_colors" "$HOME/.dircolors"
+++++ '[' -e /root/.dircolors.vt100 ']'
+++++ for colors in "$HOME/.dir_colors.$TERM" "$HOME/.dircolors.$TERM" "$HOME/.dir_colors" "$HOME/.dircolors"
+++++ '[' -e /root/.dir_colors ']'
+++++ for colors in "$HOME/.dir_colors.$TERM" "$HOME/.dircolors.$TERM" "$HOME/.dir_colors" "$HOME/.dircolors"
+++++ '[' -e /root/.dircolors ']'
+++++ '[' -z '' ']'
+++++ '[' -e /etc/DIR_COLORS.vt100 ']'
+++++ '[' -z '' ']'
+++++ '[' -e /etc/DIR_COLORS.256color ']'
++++++ /usr/bin/tty -s
++++++ /usr/bin/tput colors
+++++ '[' x-1 = x256 ']'
+++++ '[' -z '' ']'
+++++ '[' -e /etc/DIR_COLORS ']'
+++++ COLORS=/etc/DIR_COLORS
+++++ '[' -n /etc/DIR_COLORS ']'
+++++ '[' -e '' ']'
++++++ /usr/bin/dircolors --sh /etc/DIR_COLORS
+++++ eval 'LS_COLORS='\''rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=01;05;37;41:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=01;36:*.au=01;36:*.flac=01;36:*.m4a=01;36:*.mid=01;36:*.midi=01;36:*.mka=01;36:*.mp3=01;36:*.mpc=01;36:*.ogg=01;36:*.ra=01;36:*.wav=01;36:*.oga=01;36:*.opus=01;36:*.spx=01;36:*.xspf=01;36:'\'';
+export LS_COLORS'
++++++ LS_COLORS='rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=01;05;37;41:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=01;36:*.au=01;36:*.flac=01;36:*.m4a=01;36:*.mid=01;36:*.midi=01;36:*.mka=01;36:*.mp3=01;36:*.mpc=01;36:*.ogg=01;36:*.ra=01;36:*.wav=01;36:*.oga=01;36:*.opus=01;36:*.spx=01;36:*.xspf=01;36:'
++++++ export LS_COLORS
+++++ '[' -z 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=01;05;37;41:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=01;36:*.au=01;36:*.flac=01;36:*.m4a=01;36:*.mid=01;36:*.midi=01;36:*.mka=01;36:*.mp3=01;36:*.mpc=01;36:*.ogg=01;36:*.ra=01;36:*.wav=01;36:*.oga=01;36:*.opus=01;36:*.spx=01;36:*.xspf=01;36:' ']'
+++++ /usr/bin/grep -qi '^COLOR.*none' /etc/DIR_COLORS
+++++ unset TMP COLORS INCLUDE
+++++ alias 'll=ls -l --color=auto'
+++++ alias 'l.=ls -d .* --color=auto'
+++++ alias 'ls=ls --color=auto'
++++ for i in /etc/profile.d/*.sh
++++ '[' -r /etc/profile.d/colorsysstat.sh ']'
++++ '[' '' ']'
++++ . /etc/profile.d/colorsysstat.sh
+++++ export S_COLORS=auto
+++++ S_COLORS=auto
++++ for i in /etc/profile.d/*.sh
++++ '[' -r /etc/profile.d/colorxzgrep.sh ']'
++++ '[' '' ']'
++++ . /etc/profile.d/colorxzgrep.sh
+++++ /usr/libexec/grepconf.sh -c
+++++ alias 'xzgrep=xzgrep --color=auto'
+++++ alias 'xzegrep=xzegrep --color=auto'
+++++ alias 'xzfgrep=xzfgrep --color=auto'
++++ for i in /etc/profile.d/*.sh
++++ '[' -r /etc/profile.d/colorzgrep.sh ']'
++++ '[' '' ']'
++++ . /etc/profile.d/colorzgrep.sh
+++++ '[' -f /usr/libexec/grepconf.sh ']'
+++++ /usr/libexec/grepconf.sh -c
+++++ alias 'zgrep=zgrep --color=auto'
+++++ alias 'zfgrep=zfgrep --color=auto'
+++++ alias 'zegrep=zegrep --color=auto'
++++ for i in /etc/profile.d/*.sh
++++ '[' -r /etc/profile.d/flatpak.sh ']'
++++ '[' '' ']'
++++ . /etc/profile.d/flatpak.sh
+++++ command -v flatpak
++++++ unset G_MESSAGES_DEBUG
++++++ echo /root/.local/share/flatpak
++++++ flatpak --installations
++++++ new_dirs=
++++++ read -r install_path
++++++ share_path=/root/.local/share/flatpak/exports/share
++++++ case ":$XDG_DATA_DIRS:" in
++++++ :
++++++ read -r install_path
++++++ share_path=/var/lib/flatpak/exports/share
++++++ case ":$XDG_DATA_DIRS:" in
++++++ :
++++++ read -r install_path
++++++ echo ''
+++++ new_dirs=
+++++ export XDG_DATA_DIRS
+++++ XDG_DATA_DIRS=/root/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share:/usr/share
++++ for i in /etc/profile.d/*.sh
++++ '[' -r /etc/profile.d/gawk.sh ']'
++++ '[' '' ']'
++++ . /etc/profile.d/gawk.sh
++++ for i in /etc/profile.d/*.sh
++++ '[' -r /etc/profile.d/lang.sh ']'
++++ '[' '' ']'
++++ . /etc/profile.d/lang.sh
+++++ '[' -n en_US.UTF-8 ']'
+++++ LANG_backup=en_US.UTF-8
+++++ for config in /etc/locale.conf "${HOME}/.i18n"
+++++ '[' -f /etc/locale.conf ']'
++++++ /usr/bin/sed -r -e 's/^[[:blank:]]*([[:upper:]_]+)=([[:print:][:digit:]\._-]+|"[[:print:][:digit:]\._-]+")/export \1=\2/;t;d' /etc/locale.conf
+++++ eval export 'LANG="en_US.UTF-8"'
++++++ export LANG=en_US.UTF-8
++++++ LANG=en_US.UTF-8
+++++ for config in /etc/locale.conf "${HOME}/.i18n"
+++++ '[' -f /root/.i18n ']'
+++++ '[' -n en_US.UTF-8 ']'
+++++ LANG=en_US.UTF-8
+++++ unset LANG_backup config
+++++ '[' -n '' ']'
+++++ '[' -n en_US.UTF-8 ']'
+++++ '[' vt100 = linux ']'
++++ for i in /etc/profile.d/*.sh
++++ '[' -r /etc/profile.d/less.sh ']'
++++ '[' '' ']'
++++ . /etc/profile.d/less.sh
+++++ '[' -z '||/usr/bin/lesspipe.sh %s' ']'
++++ for i in /etc/profile.d/*.sh
++++ '[' -r /etc/profile.d/PackageKit.sh ']'
++++ '[' '' ']'
++++ . /etc/profile.d/PackageKit.sh
+++++ [[ -n '' ]]
++++ for i in /etc/profile.d/*.sh
++++ '[' -r /etc/profile.d/vim.sh ']'
++++ '[' '' ']'
++++ . /etc/profile.d/vim.sh
+++++ '[' -n '4.4.19(1)-release' -o -n '' -o -n '' ']'
++++++ /usr/bin/id -u
+++++ '[' 0 -le 200 ']'
+++++ return
++++ for i in /etc/profile.d/*.sh
++++ '[' -r /etc/profile.d/vte.sh ']'
++++ '[' '' ']'
++++ . /etc/profile.d/vte.sh
+++++ '[' -n '4.4.19(1)-release' -o -n '' ']'
+++++ [[ hxB == *i* ]]
+++++ return 0
++++ for i in /etc/profile.d/*.sh
++++ '[' -r /etc/profile.d/which2.sh ']'
++++ '[' '' ']'
++++ . /etc/profile.d/which2.sh
+++++ '[' /root/bios-setup/installation/bios_commercial/install_for_commercial_board.sh = ksh ']'
+++++ '[' /root/bios-setup/installation/bios_commercial/install_for_commercial_board.sh = -ksh ']'
+++++ alias 'which=(alias; declare -f) | /usr/bin/which --tty-only --read-alias --read-functions --show-tilde --show-dot'
++++ unset i
++++ unset -f pathmunge
+++ export PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/root/bin:/root/bios-setup/installation/bios_commercial/syscfg_install/Linux_x64/RHEL
+++ PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/root/bin:/root/bios-setup/installation/bios_commercial/syscfg_install/Linux_x64/RHEL
+++ export PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/root/bin:/root/bios-setup/installation/bios_commercial/syscfg_install/Linux_x64/UBUNTU
+++ PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/root/bin:/root/bios-setup/installation/bios_commercial/syscfg_install/Linux_x64/UBUNTU
++ sleep 4
++ cd /root/bios-setup/installation
++ export http_proxy=http://proxy-prc.intel.com:912/
++ http_proxy=http://proxy-prc.intel.com:912/
++ export https_proxy=http://proxy-prc.intel.com:912/
++ https_proxy=http://proxy-prc.intel.com:912/
++ pip3 install --upgrade pip
+Requirement already satisfied: pip in /usr/local/lib/python3.6/site-packages (21.3.1)
+[33mWARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv[0m
++ pip3 install -r requirements.txt
+Requirement already satisfied: setuptools-rust==0.12.1 in /usr/local/lib/python3.6/site-packages (from -r requirements.txt (line 1)) (0.12.1)
+Requirement already satisfied: wheel==0.36.2 in /usr/local/lib/python3.6/site-packages (from -r requirements.txt (line 2)) (0.36.2)
+Requirement already satisfied: pytest==6.2.4 in /usr/local/lib/python3.6/site-packages (from -r requirements.txt (line 3)) (6.2.4)
+Requirement already satisfied: paramiko==2.7.2 in /usr/local/lib/python3.6/site-packages (from -r requirements.txt (line 4)) (2.7.2)
+Requirement already satisfied: toml>=0.9.0 in /usr/local/lib/python3.6/site-packages (from setuptools-rust==0.12.1->-r requirements.txt (line 1)) (0.10.2)
+Requirement already satisfied: semantic-version>=2.6.0 in /usr/local/lib/python3.6/site-packages (from setuptools-rust==0.12.1->-r requirements.txt (line 1)) (2.8.5)
+Requirement already satisfied: setuptools>=46.1 in /usr/local/lib/python3.6/site-packages (from setuptools-rust==0.12.1->-r requirements.txt (line 1)) (58.1.0)
+Requirement already satisfied: iniconfig in /usr/local/lib/python3.6/site-packages (from pytest==6.2.4->-r requirements.txt (line 3)) (1.1.1)
+Requirement already satisfied: py>=1.8.2 in /usr/local/lib/python3.6/site-packages (from pytest==6.2.4->-r requirements.txt (line 3)) (1.11.0)
+Requirement already satisfied: packaging in /usr/local/lib/python3.6/site-packages (from pytest==6.2.4->-r requirements.txt (line 3)) (21.3)
+Requirement already satisfied: pluggy<1.0.0a1,>=0.12 in /usr/local/lib/python3.6/site-packages (from pytest==6.2.4->-r requirements.txt (line 3)) (0.13.1)
+Requirement already satisfied: importlib-metadata>=0.12 in /usr/local/lib/python3.6/site-packages (from pytest==6.2.4->-r requirements.txt (line 3)) (4.8.3)
+Requirement already satisfied: attrs>=19.2.0 in /usr/local/lib/python3.6/site-packages (from pytest==6.2.4->-r requirements.txt (line 3)) (21.2.0)
+Requirement already satisfied: pynacl>=1.0.1 in /usr/local/lib64/python3.6/site-packages (from paramiko==2.7.2->-r requirements.txt (line 4)) (1.4.0)
+Requirement already satisfied: bcrypt>=3.1.3 in /usr/local/lib64/python3.6/site-packages (from paramiko==2.7.2->-r requirements.txt (line 4)) (3.2.0)
+Requirement already satisfied: cryptography>=2.5 in /usr/local/lib64/python3.6/site-packages (from paramiko==2.7.2->-r requirements.txt (line 4)) (3.4.8)
+Requirement already satisfied: cffi>=1.1 in /usr/local/lib64/python3.6/site-packages (from bcrypt>=3.1.3->paramiko==2.7.2->-r requirements.txt (line 4)) (1.15.0)
+Requirement already satisfied: six>=1.4.1 in /usr/lib/python3.6/site-packages (from bcrypt>=3.1.3->paramiko==2.7.2->-r requirements.txt (line 4)) (1.11.0)
+Requirement already satisfied: zipp>=0.5 in /usr/local/lib/python3.6/site-packages (from importlib-metadata>=0.12->pytest==6.2.4->-r requirements.txt (line 3)) (3.6.0)
+Requirement already satisfied: typing-extensions>=3.6.4 in /usr/local/lib/python3.6/site-packages (from importlib-metadata>=0.12->pytest==6.2.4->-r requirements.txt (line 3)) (4.0.1)
+Requirement already satisfied: pyparsing!=3.0.5,>=2.0.2 in /usr/lib/python3.6/site-packages (from packaging->pytest==6.2.4->-r requirements.txt (line 3)) (2.1.10)
+Requirement already satisfied: pycparser in /usr/lib/python3.6/site-packages (from cffi>=1.1->bcrypt>=3.1.3->paramiko==2.7.2->-r requirements.txt (line 4)) (2.14)
+[33mWARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv[0m
++ sed -i 's/\r//g' ../libs/recommendBios/comm_default.sh
++ sleep 2
++ source /root/.bashrc
+++ alias 'rm=rm -i'
+++ alias 'cp=cp -i'
+++ alias 'mv=mv -i'
+++ '[' -f /etc/bashrc ']'
+++ . /etc/bashrc
++++ '[' -z Y ']'
+++ export PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/root/bin:/root/bios-setup/installation/bios_commercial/syscfg_install/Linux_x64/RHEL
+++ PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/root/bin:/root/bios-setup/installation/bios_commercial/syscfg_install/Linux_x64/RHEL
+++ export PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/root/bin:/root/bios-setup/installation/bios_commercial/syscfg_install/Linux_x64/UBUNTU
+++ PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/root/bin:/root/bios-setup/installation/bios_commercial/syscfg_install/Linux_x64/UBUNTU
++ sleep 2
++ '[' UBUNTU == UBUNTU ']'
++ apt-get update
++ local runcnf=1
++ local retval=127
++ [[ hxB == *\i* ]]
++ runcnf=0
++ [[ ! -S /run/dbus/system_bus_socket ]]
++ [[ ! -x /usr/libexec/packagekitd ]]
++ [[ -n '' ]]
++ [[ ! -x /usr/libexec/pk-command-not-found ]]
++ '[' 0 -eq 1 ']'
++ [[ -n 4.4.19(1)-release ]]
++ printf 'bash: %scommand not found\n' 'apt-get: '
+bash: apt-get: command not found
++ return 127
++ apt-get -y install 'libncurses*'
++ local runcnf=1
++ local retval=127
++ [[ hxB == *\i* ]]
++ runcnf=0
++ [[ ! -S /run/dbus/system_bus_socket ]]
++ [[ ! -x /usr/libexec/packagekitd ]]
++ [[ -n '' ]]
++ [[ ! -x /usr/libexec/pk-command-not-found ]]
++ '[' 0 -eq 1 ']'
++ [[ -n 4.4.19(1)-release ]]
++ printf 'bash: %scommand not found\n' 'apt-get: '
+bash: apt-get: command not found
++ return 127
++ '[' UBUNTU == RHEL ']'
++ syscfg
+
+	System Configuration Utility Version 14.2 Build 8
+	Copyright (c) 2021 Intel Corporation
+
++ echo 'bios tool installation completed'
+bios tool installation completed
+
+2022-03-17 11:31:34 - testBiosSetting.py - [line:103] - root - INFO - Succeeded to install the bios tool.
+2022-03-17 11:31:34 - testBiosSetting.py - [line:105] - root - INFO - start to restore bios setting for SUT
+2022-03-17 11:31:37 - sshInstance.py - [line:46] - root - INFO - chmod a+x $(pwd)/bios-setup/libs/recommendBios/*.sh
+2022-03-17 11:31:37 - sshInstance.py - [line:50] - root - INFO - 
+2022-03-17 11:31:45 - sshInstance.py - [line:46] - root - INFO - pytest $(pwd)/bios-setup/testLibs/testComBiosSetting.py -s -m comm_default --capture=tee-sys
+2022-03-17 11:31:46 - sshInstance.py - [line:50] - root - INFO - [1m============================= test session starts ==============================[0m
+platform linux -- Python 3.6.8, pytest-6.2.4, py-1.11.0, pluggy-0.13.1
+rootdir: /root/bios-setup/testLibs, configfile: pytest.ini
+plugins: metadata-1.11.0, html-3.1.1
+[1mcollecting ... [0m[1mcollected 6 items / 5 deselected / 1 selected                                  [0m
+
+bios-setup/testLibs/testComBiosSetting.py 2022-03-17 11:33:22 - testComBiosSetting.py - [line:58] - root - INFO - ==================Start Test_restore_commercial_gen_bios_setting========================
+2022-03-17 11:33:22 - testComBiosSetting.py - [line:59] - root - INFO - init commercial bios factory.
+2022-03-17 11:33:22 - biosFactory.py - [line:27] - root - INFO - Whitley factory was created.
+2022-03-17 11:33:22 - testComBiosSetting.py - [line:61] - root - INFO - create a bios instance.
+2022-03-17 11:33:22 - bios.py - [line:129] - root - INFO - whitley Bios was created.
+[31mF[0m[31m                              [100%][0m
+
+=================================== FAILURES ===================================
+[31m[1m___ Test_commercialBiosSetting.test_restore_commercial_default_bios_setting ____[0m
+
+self = <testLibs.testComBiosSetting.Test_commercialBiosSetting object at 0x7f2570cb6940>
+request = <FixtureRequest for <Function test_restore_commercial_default_bios_setting>>
+
+    @pytest.mark.comm_default
+    def test_restore_commercial_default_bios_setting(self, request):
+        logs = Logger()
+        logs.generate_log_path(request._pyfuncitem.name)
+        logging.info("==================Start Test_restore_commercial_gen_bios_setting========================")
+        logging.info("init commercial bios factory.")
+        whitley_factory = whitleyFactory()
+        logging.info("create a bios instance.")
+        whitley_bios = whitley_factory.create_bios()
+>       output = whitley_bios.load_recommend_biso_setting("comm_default.sh")
+[1m[31mE       AttributeError: 'whitleyBios' object has no attribute 'load_recommend_biso_setting'[0m
+
+[1m[31mbios-setup/testLibs/testComBiosSetting.py[0m:63: AttributeError
+----------------------------- Captured stdout call -----------------------------
+2022-03-17 11:33:22 - testComBiosSetting.py - [line:58] - root - INFO - ==================Start Test_restore_commercial_gen_bios_setting========================
+2022-03-17 11:33:22 - testComBiosSetting.py - [line:59] - root - INFO - init commercial bios factory.
+2022-03-17 11:33:22 - biosFactory.py - [line:27] - root - INFO - Whitley factory was created.
+2022-03-17 11:33:22 - testComBiosSetting.py - [line:61] - root - INFO - create a bios instance.
+2022-03-17 11:33:22 - bios.py - [line:129] - root - INFO - whitley Bios was created.
+=========================== short test summary info ============================
+FAILED bios-setup/testLibs/testComBiosSetting.py::Test_commercialBiosSetting::test_restore_commercial_default_bios_setting
+[31m======================= [31m[1m1 failed[0m, [33m5 deselected[0m[31m in 0.18s[0m[31m ========================[0m
+
+2022-03-17 11:31:51 - testBiosSetting.py - [line:111] - root - INFO - succeeded to restore bios.
+2022-03-17 11:31:51 - testBiosSetting.py - [line:113] - root - INFO - reboot the SUT to make bios setting valid.
+2022-03-17 11:31:57 - sshInstance.py - [line:94] - root - INFO - Activate the web console with: systemctl enable --now cockpit.socket
+This system is not registered to Red Hat Insights. See https://cloud.redhat.com/
+To register this system, run: insights-client --register
+Last login: Thu Mar 17 10:59:13 2022 from 10.239.182.99
+[root@npx-cyp7-rh82 ~]# reboot
+
+2022-03-17 11:32:00 - sshInstance.py - [line:154] - root - INFO - sut server reboot, please wait ......
+2022-03-17 11:33:00 - commonFunc.py - [line:16] - root - INFO - starting to execute the cmd: ping -w 5 10.239.182.209....
+2022-03-17 11:33:05 - commonFunc.py - [line:30] - root - INFO - PING 10.239.182.209 (10.239.182.209) 56(84) bytes of data.
+2022-03-17 11:33:05 - commonFunc.py - [line:30] - root - INFO - 
+2022-03-17 11:33:05 - commonFunc.py - [line:30] - root - INFO - --- 10.239.182.209 ping statistics ---
+2022-03-17 11:33:05 - commonFunc.py - [line:30] - root - INFO - 5 packets transmitted, 0 received, 100% packet loss, time 4098ms
+2022-03-17 11:33:05 - commonFunc.py - [line:30] - root - INFO - 
+2022-03-17 11:33:05 - commonFunc.py - [line:30] - root - INFO - 
+2022-03-17 11:33:05 - commonFunc.py - [line:31] - root - INFO - finished exeucting the cmd: ping -w 5 10.239.182.209
+2022-03-17 11:33:10 - commonFunc.py - [line:16] - root - INFO - starting to execute the cmd: ping -w 5 10.239.182.209....
+2022-03-17 11:33:13 - commonFunc.py - [line:30] - root - INFO - PING 10.239.182.209 (10.239.182.209) 56(84) bytes of data.
+2022-03-17 11:33:13 - commonFunc.py - [line:30] - root - INFO - From 10.239.182.99 icmp_seq=1 Destination Host Unreachable
+2022-03-17 11:33:13 - commonFunc.py - [line:30] - root - INFO - From 10.239.182.99 icmp_seq=2 Destination Host Unreachable
+2022-03-17 11:33:13 - commonFunc.py - [line:30] - root - INFO - From 10.239.182.99 icmp_seq=3 Destination Host Unreachable
+2022-03-17 11:33:13 - commonFunc.py - [line:30] - root - INFO - 
+2022-03-17 11:33:13 - commonFunc.py - [line:30] - root - INFO - --- 10.239.182.209 ping statistics ---
+2022-03-17 11:33:13 - commonFunc.py - [line:30] - root - INFO - 3 packets transmitted, 0 received, +3 errors, 100% packet loss, time 2067ms
+2022-03-17 11:33:13 - commonFunc.py - [line:30] - root - INFO - pipe 3
+2022-03-17 11:33:13 - commonFunc.py - [line:30] - root - INFO - 
+2022-03-17 11:33:13 - commonFunc.py - [line:31] - root - INFO - finished exeucting the cmd: ping -w 5 10.239.182.209
+2022-03-17 11:33:18 - commonFunc.py - [line:16] - root - INFO - starting to execute the cmd: ping -w 5 10.239.182.209....
+2022-03-17 11:33:21 - commonFunc.py - [line:30] - root - INFO - PING 10.239.182.209 (10.239.182.209) 56(84) bytes of data.
+2022-03-17 11:33:21 - commonFunc.py - [line:30] - root - INFO - From 10.239.182.99 icmp_seq=1 Destination Host Unreachable
+2022-03-17 11:33:21 - commonFunc.py - [line:30] - root - INFO - From 10.239.182.99 icmp_seq=2 Destination Host Unreachable
+2022-03-17 11:33:21 - commonFunc.py - [line:30] - root - INFO - From 10.239.182.99 icmp_seq=3 Destination Host Unreachable
+2022-03-17 11:33:21 - commonFunc.py - [line:30] - root - INFO - 
+2022-03-17 11:33:21 - commonFunc.py - [line:30] - root - INFO - --- 10.239.182.209 ping statistics ---
+2022-03-17 11:33:21 - commonFunc.py - [line:30] - root - INFO - 3 packets transmitted, 0 received, +3 errors, 100% packet loss, time 2072ms
+2022-03-17 11:33:21 - commonFunc.py - [line:30] - root - INFO - pipe 3
+2022-03-17 11:33:21 - commonFunc.py - [line:30] - root - INFO - 
+2022-03-17 11:33:21 - commonFunc.py - [line:31] - root - INFO - finished exeucting the cmd: ping -w 5 10.239.182.209
+2022-03-17 11:33:26 - commonFunc.py - [line:16] - root - INFO - starting to execute the cmd: ping -w 5 10.239.182.209....
+2022-03-17 11:33:29 - commonFunc.py - [line:30] - root - INFO - PING 10.239.182.209 (10.239.182.209) 56(84) bytes of data.
+2022-03-17 11:33:29 - commonFunc.py - [line:30] - root - INFO - From 10.239.182.99 icmp_seq=1 Destination Host Unreachable
+2022-03-17 11:33:29 - commonFunc.py - [line:30] - root - INFO - From 10.239.182.99 icmp_seq=2 Destination Host Unreachable
+2022-03-17 11:33:29 - commonFunc.py - [line:30] - root - INFO - From 10.239.182.99 icmp_seq=3 Destination Host Unreachable
+2022-03-17 11:33:29 - commonFunc.py - [line:30] - root - INFO - 
+2022-03-17 11:33:29 - commonFunc.py - [line:30] - root - INFO - --- 10.239.182.209 ping statistics ---
+2022-03-17 11:33:29 - commonFunc.py - [line:30] - root - INFO - 3 packets transmitted, 0 received, +3 errors, 100% packet loss, time 2072ms
+2022-03-17 11:33:29 - commonFunc.py - [line:30] - root - INFO - pipe 3
+2022-03-17 11:33:29 - commonFunc.py - [line:30] - root - INFO - 
+2022-03-17 11:33:29 - commonFunc.py - [line:31] - root - INFO - finished exeucting the cmd: ping -w 5 10.239.182.209
+2022-03-17 11:33:34 - commonFunc.py - [line:16] - root - INFO - starting to execute the cmd: ping -w 5 10.239.182.209....
+2022-03-17 11:33:37 - commonFunc.py - [line:30] - root - INFO - PING 10.239.182.209 (10.239.182.209) 56(84) bytes of data.
+2022-03-17 11:33:37 - commonFunc.py - [line:30] - root - INFO - From 10.239.182.99 icmp_seq=1 Destination Host Unreachable
+2022-03-17 11:33:37 - commonFunc.py - [line:30] - root - INFO - From 10.239.182.99 icmp_seq=2 Destination Host Unreachable
+2022-03-17 11:33:37 - commonFunc.py - [line:30] - root - INFO - From 10.239.182.99 icmp_seq=3 Destination Host Unreachable
+2022-03-17 11:33:37 - commonFunc.py - [line:30] - root - INFO - 
+2022-03-17 11:33:37 - commonFunc.py - [line:30] - root - INFO - --- 10.239.182.209 ping statistics ---
+2022-03-17 11:33:37 - commonFunc.py - [line:30] - root - INFO - 3 packets transmitted, 0 received, +3 errors, 100% packet loss, time 2073ms
+2022-03-17 11:33:37 - commonFunc.py - [line:30] - root - INFO - pipe 3
+2022-03-17 11:33:37 - commonFunc.py - [line:30] - root - INFO - 
+2022-03-17 11:33:37 - commonFunc.py - [line:31] - root - INFO - finished exeucting the cmd: ping -w 5 10.239.182.209
+2022-03-17 11:33:42 - commonFunc.py - [line:16] - root - INFO - starting to execute the cmd: ping -w 5 10.239.182.209....
+2022-03-17 11:33:45 - commonFunc.py - [line:30] - root - INFO - PING 10.239.182.209 (10.239.182.209) 56(84) bytes of data.
+2022-03-17 11:33:45 - commonFunc.py - [line:30] - root - INFO - From 10.239.182.99 icmp_seq=1 Destination Host Unreachable
+2022-03-17 11:33:45 - commonFunc.py - [line:30] - root - INFO - From 10.239.182.99 icmp_seq=2 Destination Host Unreachable
+2022-03-17 11:33:45 - commonFunc.py - [line:30] - root - INFO - From 10.239.182.99 icmp_seq=3 Destination Host Unreachable
+2022-03-17 11:33:45 - commonFunc.py - [line:30] - root - INFO - 
+2022-03-17 11:33:45 - commonFunc.py - [line:30] - root - INFO - --- 10.239.182.209 ping statistics ---
+2022-03-17 11:33:45 - commonFunc.py - [line:30] - root - INFO - 3 packets transmitted, 0 received, +3 errors, 100% packet loss, time 2071ms
+2022-03-17 11:33:45 - commonFunc.py - [line:30] - root - INFO - pipe 3
+2022-03-17 11:33:45 - commonFunc.py - [line:30] - root - INFO - 
+2022-03-17 11:33:45 - commonFunc.py - [line:31] - root - INFO - finished exeucting the cmd: ping -w 5 10.239.182.209
+2022-03-17 11:33:50 - commonFunc.py - [line:16] - root - INFO - starting to execute the cmd: ping -w 5 10.239.182.209....
+2022-03-17 11:33:53 - commonFunc.py - [line:30] - root - INFO - PING 10.239.182.209 (10.239.182.209) 56(84) bytes of data.
+2022-03-17 11:33:53 - commonFunc.py - [line:30] - root - INFO - From 10.239.182.99 icmp_seq=1 Destination Host Unreachable
+2022-03-17 11:33:53 - commonFunc.py - [line:30] - root - INFO - From 10.239.182.99 icmp_seq=2 Destination Host Unreachable
+2022-03-17 11:33:53 - commonFunc.py - [line:30] - root - INFO - From 10.239.182.99 icmp_seq=3 Destination Host Unreachable
+2022-03-17 11:33:53 - commonFunc.py - [line:30] - root - INFO - 
+2022-03-17 11:33:53 - commonFunc.py - [line:30] - root - INFO - --- 10.239.182.209 ping statistics ---
+2022-03-17 11:33:53 - commonFunc.py - [line:30] - root - INFO - 3 packets transmitted, 0 received, +3 errors, 100% packet loss, time 2072ms
+2022-03-17 11:33:53 - commonFunc.py - [line:30] - root - INFO - pipe 3
+2022-03-17 11:33:53 - commonFunc.py - [line:30] - root - INFO - 
+2022-03-17 11:33:53 - commonFunc.py - [line:31] - root - INFO - finished exeucting the cmd: ping -w 5 10.239.182.209
+2022-03-17 11:33:58 - commonFunc.py - [line:16] - root - INFO - starting to execute the cmd: ping -w 5 10.239.182.209....
+2022-03-17 11:34:02 - commonFunc.py - [line:30] - root - INFO - PING 10.239.182.209 (10.239.182.209) 56(84) bytes of data.
+2022-03-17 11:34:02 - commonFunc.py - [line:30] - root - INFO - From 10.239.182.99 icmp_seq=1 Destination Host Unreachable
+2022-03-17 11:34:02 - commonFunc.py - [line:30] - root - INFO - From 10.239.182.99 icmp_seq=2 Destination Host Unreachable
+2022-03-17 11:34:02 - commonFunc.py - [line:30] - root - INFO - From 10.239.182.99 icmp_seq=3 Destination Host Unreachable
+2022-03-17 11:34:02 - commonFunc.py - [line:30] - root - INFO - 
+2022-03-17 11:34:02 - commonFunc.py - [line:30] - root - INFO - --- 10.239.182.209 ping statistics ---
+2022-03-17 11:34:02 - commonFunc.py - [line:30] - root - INFO - 3 packets transmitted, 0 received, +3 errors, 100% packet loss, time 2072ms
+2022-03-17 11:34:02 - commonFunc.py - [line:30] - root - INFO - pipe 3
+2022-03-17 11:34:02 - commonFunc.py - [line:30] - root - INFO - 
+2022-03-17 11:34:02 - commonFunc.py - [line:31] - root - INFO - finished exeucting the cmd: ping -w 5 10.239.182.209
+2022-03-17 11:34:07 - commonFunc.py - [line:16] - root - INFO - starting to execute the cmd: ping -w 5 10.239.182.209....
+2022-03-17 11:34:10 - commonFunc.py - [line:30] - root - INFO - PING 10.239.182.209 (10.239.182.209) 56(84) bytes of data.
+2022-03-17 11:34:10 - commonFunc.py - [line:30] - root - INFO - From 10.239.182.99 icmp_seq=1 Destination Host Unreachable
+2022-03-17 11:34:10 - commonFunc.py - [line:30] - root - INFO - From 10.239.182.99 icmp_seq=2 Destination Host Unreachable
+2022-03-17 11:34:10 - commonFunc.py - [line:30] - root - INFO - From 10.239.182.99 icmp_seq=3 Destination Host Unreachable
+2022-03-17 11:34:10 - commonFunc.py - [line:30] - root - INFO - 
+2022-03-17 11:34:10 - commonFunc.py - [line:30] - root - INFO - --- 10.239.182.209 ping statistics ---
+2022-03-17 11:34:10 - commonFunc.py - [line:30] - root - INFO - 3 packets transmitted, 0 received, +3 errors, 100% packet loss, time 2072ms
+2022-03-17 11:34:10 - commonFunc.py - [line:30] - root - INFO - pipe 3
+2022-03-17 11:34:10 - commonFunc.py - [line:30] - root - INFO - 
+2022-03-17 11:34:10 - commonFunc.py - [line:31] - root - INFO - finished exeucting the cmd: ping -w 5 10.239.182.209
+2022-03-17 11:34:15 - commonFunc.py - [line:16] - root - INFO - starting to execute the cmd: ping -w 5 10.239.182.209....
+2022-03-17 11:34:20 - commonFunc.py - [line:30] - root - INFO - PING 10.239.182.209 (10.239.182.209) 56(84) bytes of data.
+2022-03-17 11:34:20 - commonFunc.py - [line:30] - root - INFO - 64 bytes from 10.239.182.209: icmp_seq=1 ttl=64 time=1.09 ms
+2022-03-17 11:34:20 - commonFunc.py - [line:30] - root - INFO - 64 bytes from 10.239.182.209: icmp_seq=2 ttl=64 time=1.19 ms
+2022-03-17 11:34:20 - commonFunc.py - [line:30] - root - INFO - 64 bytes from 10.239.182.209: icmp_seq=3 ttl=64 time=0.737 ms
+2022-03-17 11:34:20 - commonFunc.py - [line:30] - root - INFO - 64 bytes from 10.239.182.209: icmp_seq=4 ttl=64 time=0.726 ms
+2022-03-17 11:34:20 - commonFunc.py - [line:30] - root - INFO - 64 bytes from 10.239.182.209: icmp_seq=5 ttl=64 time=0.748 ms
+2022-03-17 11:34:20 - commonFunc.py - [line:30] - root - INFO - 
+2022-03-17 11:34:20 - commonFunc.py - [line:30] - root - INFO - --- 10.239.182.209 ping statistics ---
+2022-03-17 11:34:20 - commonFunc.py - [line:30] - root - INFO - 5 packets transmitted, 5 received, 0% packet loss, time 4056ms
+2022-03-17 11:34:20 - commonFunc.py - [line:30] - root - INFO - rtt min/avg/max/mdev = 0.726/0.896/1.186/0.199 ms
+2022-03-17 11:34:20 - commonFunc.py - [line:30] - root - INFO - 
+2022-03-17 11:34:20 - commonFunc.py - [line:31] - root - INFO - finished exeucting the cmd: ping -w 5 10.239.182.209
+.2022-03-17 11:34:23 - sshInstance.py - [line:46] - root - INFO - ls
+2022-03-17 11:34:23 - transport.py - [line:1819] - paramiko.transport - INFO - Connected (version 2.0, client OpenSSH_8.0)
+2022-03-17 11:34:23 - transport.py - [line:1819] - paramiko.transport - INFO - Authentication (password) successful!
+2022-03-17 11:34:23 - sshInstance.py - [line:28] - root - INFO - SSH on SUT: 10.239.182.209
+2022-03-17 11:34:26 - sshInstance.py - [line:46] - root - INFO - ls
+2022-03-17 11:34:26 - sshInstance.py - [line:50] - root - INFO -  anaconda-ks.cfg
+ bios-setup
+ client.txt
+ cmdline~
+ cmdlinu~
+ cmdlinv~
+ cmdlinw~
+ cmdlinx~
+ cmdliny~
+ cmdlinz~
+ Desktop
+ Documents
+ Downloads
+ E810
+ E810_NVMUpdatePackage_v3_00_Linux.tar.gz
+ EPCT_1.37.28.0
+ github
+ htop-3.0.5-1.el8.x86_64.rpm
+ i40e-2.12.6.5.tar.gz
+ ice-1.6.0_es1_rc5
+ ice-1.6.0_es1_rc5.tar.gz
+ ice-1.6.7
+ ice-1.6.7.tar.gz
+ ice-1.7.11
+ ice-1.7.11.tar.gz
+ ice-1.7.12
+ ice-1.7.12.tar.gz
+ ifcfg-ethernet-enp0s20f0u3
+ ifconfig.txt
+ iperf-2.0.13
+ iperf-2.0.13.tar.gz
+ iperf_ipv4_sut1_sut2.txt
+ iperf_ipv6_sut1_sut2.txt
+ iperf_server_tcp_20210926163144.log
+ iperf_server_udp_20210926163144.log
+ iperf_tcp_udp_server.sh
+ kernel
+ linux-5.17-rc8.tar.gz
+ linuxptp-3.1.1
+ linuxptp-3.1.1.tgz
+ master.zip
+ Music
+ nohup.out
+ npxautomation
+ npxtester
+ npxtester.zip
+'NVMUpdate Package'
+ openvswitch-ovs-bfc6e97
+ openvswitch-ovs-v1.1.0pre2-16982-gbfc6e97.tar.gz
+ original-ks.cfg
+ phc2sys.txt
+ Pictures
+ pktgen-dpdk-pktgen-21.05.0
+ pktgen-dpdk-pktgen-21.05.0.tar.gz
+ pktgenshell
+ pmc.txt
+ ptp4l.txt
+ Public
+ rpmbuild
+ rt_kernel
+ scapy-2.4.3
+ scapy-2.4.3.tar.gz
+ scapy-master
+ screen-4.7.0
+ screen-4.7.0.tar.gz
+ sriov
+ sut_install.sh
+ tcp.txt
+ Templates
+ test
+ testconfig
+ ts2phc.txt
+ Videos
+
+2022-03-17 11:34:31 - testBiosSetting.py - [line:37] - root - INFO - this is Test_biosSetting teardown
+2022-03-17 11:34:31 - biosSetupTestFixture.py - [line:32] - root - INFO - ============================ end of run test_restore_bios_setting case ============================
+                            [100%]
+
+- generated html file: file:///root/testconfig/testlogs/HtmlReport/restore_bios_report.html -
+======================== 1 passed in 276.55s (0:04:36) =========================
+[8mha:////4LeiMYyvaTAszhIQ10pdIeDepJ20hGjpoNTSDQ54vTlOAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIi0SCEqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDyFBu95/avQGMKkS1vgAAAA==[0m[Pipeline] }
+[8mha:////4I/tRoD/KV6lJ76TTEJ8vusLD5mbZiDJ1z7tZBIwhHThAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKCQKJBqWgtN7zAJMY4se6C7eBUvIiv8QcsIlGxxWpnm3m9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKZhiFDut7l2hw9mQDtDvgAAAA==[0m[Pipeline] // stage
+[8mha:////4CAP7WQdC2FMpNczqgZSKdPjM+Zu6Lz59I8VEE3/AlUOAAAAph+LCAAAAAAAAP9tjTEOwjAQBM9BKWgpeYQjBB2iorXc8AITG+PEugv2haTiRXyNPxCIRMVWOyut5vmCMic4UPKycdgGzHWQXez91ORAqb1EGmRDZ1kTZopOajdosu44oyZ2MEcUsFCwdFhHygE9w0o15m6qaNBXJ07TtldQBHuDBwg1mdkk/sKYYH3tbSb8ef4KYOwYxI6h2G4+x/INOibpDcEAAAA=[0m[Pipeline] stage
+[8mha:////4Db8sOlSRxZnVxb7xJBDSAteoF0PgC9lkQldzKIJFwYiAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUwIiYukZZOEFoQkgb/V9+UtqJE3E17kBLJSY8WLYl673eUESGE7ETjcXWY6y96ELvpiQG4vYaaBANXURNGClYoeygyNhqqYqShUVZDisJa4t1oOjRJdjIRj90GTS68px42o4Scm/u8IRMTuSkOX3LyLC99SYS/jh/ATB2CfLDbrb9/Cw+2YMO4MIAAAA=[0m[Pipeline] { (run nic case)
+[8mha:////4LN/0LMxu1hyybTBeE6CHwDx82bv/lkvxFk3cdgHTSuWAAAAox+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIikRJR0VppeIFJjLFj3Tm2g1PxIr7GHwhEomKL1c4283zBOgY4ctBoFfWGYmvQu1HPCzOH/uo4o+ULtkyRncJG5YY7dVqw4aRgSVHCSsBGUes4GtIJtsLKu6ycJF2dU5i/g4DSdAM8oBCzOcmQvjAF2N3GLjL9PH8FMPkEZb3/VO3favo5XL4AAAA=[0m[Pipeline] sh
++ pytest /root/.jenkins/workspace/cyp-test-nic-simple/npxtester/Tests/testNics -s -m nicSimple --capture=tee-sys --html=/root/testconfig/testlogs/HtmlReport/nic_simple_report.html --self-contained-html
+============================= test session starts ==============================
+platform linux -- Python 3.6.8, pytest-6.2.4, py-1.11.0, pluggy-0.13.1
+rootdir: /root/.jenkins/workspace/cyp-test-nic-simple/npxtester/Tests/testNics, configfile: pytest.ini
+plugins: metadata-1.11.0, html-3.1.1
+collected 17 items / 10 deselected / 7 selected
+
+npxtester/Tests/testNics/test_mtu.py 2022-03-17 11:34:33 - NicTestFixture.py - [line:30] - root - INFO - ============================ Starting to run test_PI_Networking_Jumbo_Packet_CVL case ============================
+2022-03-17 11:34:33 - test_mtu.py - [line:16] - root - INFO - this is Test_mtu setup.
+2022-03-17 11:34:33 - transport.py - [line:1819] - paramiko.transport - INFO - Connected (version 2.0, client OpenSSH_8.0)
+2022-03-17 11:34:33 - transport.py - [line:1819] - paramiko.transport - INFO - Authentication (password) successful!
+2022-03-17 11:34:33 - sshInstance.py - [line:28] - root - INFO - SSH on SUT: 10.239.182.209
+2022-03-17 11:34:33 - transport.py - [line:1819] - paramiko.transport - INFO - Connected (version 2.0, client OpenSSH_8.0)
+2022-03-17 11:34:33 - transport.py - [line:1819] - paramiko.transport - INFO - Authentication (password) successful!
+2022-03-17 11:34:33 - sshInstance.py - [line:28] - root - INFO - SSH on SUT: 10.239.182.99
+2022-03-17 11:34:33 - sftp.py - [line:158] - paramiko.transport.sftp - INFO - [chan 1] Opened sftp connection (server version 3)
+2022-03-17 11:34:36 - sshInstance.py - [line:46] - root - INFO - modinfo ice | grep ^version:
+2022-03-17 11:34:36 - sshInstance.py - [line:50] - root - INFO - version:        1.6.4
+
+2022-03-17 11:34:44 - sshInstance.py - [line:46] - root - INFO - rmmod ice
+2022-03-17 11:34:54 - sshInstance.py - [line:50] - root - INFO - 
+2022-03-17 11:35:02 - sshInstance.py - [line:46] - root - INFO - modprobe ice
+2022-03-17 11:35:07 - sshInstance.py - [line:50] - root - INFO - 
+2022-03-17 11:35:15 - sshInstance.py - [line:46] - root - INFO - ethtool -i ens2f0
+2022-03-17 11:35:15 - sshInstance.py - [line:50] - root - INFO - Cannot get driver information: No such device
+
+E2022-03-17 11:35:20 - NicTestFixture.py - [line:34] - root - INFO - ============================ end of run test_PI_Networking_Jumbo_Packet_CVL case ============================
+2022-03-17 11:35:20 - NicTestFixture.py - [line:30] - root - INFO - ============================ Starting to run test_PI_Networking_MTU_set_CVL case ============================
+2022-03-17 11:35:20 - test_mtu.py - [line:16] - root - INFO - this is Test_mtu setup.
+2022-03-17 11:35:20 - transport.py - [line:1819] - paramiko.transport - INFO - Connected (version 2.0, client OpenSSH_8.0)
+2022-03-17 11:35:20 - transport.py - [line:1819] - paramiko.transport - INFO - Authentication (password) successful!
+2022-03-17 11:35:20 - sshInstance.py - [line:28] - root - INFO - SSH on SUT: 10.239.182.209
+2022-03-17 11:35:20 - transport.py - [line:1819] - paramiko.transport - INFO - Connected (version 2.0, client OpenSSH_8.0)
+2022-03-17 11:35:20 - transport.py - [line:1819] - paramiko.transport - INFO - Authentication (password) successful!
+2022-03-17 11:35:20 - sshInstance.py - [line:28] - root - INFO - SSH on SUT: 10.239.182.99
+2022-03-17 11:35:20 - sftp.py - [line:158] - paramiko.transport.sftp - INFO - [chan 1] Opened sftp connection (server version 3)
+2022-03-17 11:35:23 - sshInstance.py - [line:46] - root - INFO - modinfo ice | grep ^version:
+2022-03-17 11:35:23 - sshInstance.py - [line:50] - root - INFO - version:        1.6.4
+
+2022-03-17 11:35:31 - sshInstance.py - [line:46] - root - INFO - rmmod ice
+2022-03-17 11:35:41 - sshInstance.py - [line:50] - root - INFO - 
+2022-03-17 11:35:49 - sshInstance.py - [line:46] - root - INFO - modprobe ice
+2022-03-17 11:35:53 - sshInstance.py - [line:50] - root - INFO - 
+2022-03-17 11:36:02 - sshInstance.py - [line:46] - root - INFO - ethtool -i ens2f0
+2022-03-17 11:36:02 - sshInstance.py - [line:50] - root - INFO - Cannot get driver information: No such device
+
+E2022-03-17 11:36:07 - NicTestFixture.py - [line:34] - root - INFO - ============================ end of run test_PI_Networking_MTU_set_CVL case ============================
+                                  [ 28%]
+npxtester/Tests/testNics/test_nics.py 2022-03-17 11:36:07 - NicTestFixture.py - [line:20] - root - INFO - test -------
+2022-03-17 11:36:07 - NicTestFixture.py - [line:30] - root - INFO - ============================ Starting to run test_silver_Networking_ConnectivityEnableDisable case ============================
+2022-03-17 11:36:07 - test_nics.py - [line:20] - root - INFO - this is Test_Nics setup.
+2022-03-17 11:36:07 - transport.py - [line:1819] - paramiko.transport - INFO - Connected (version 2.0, client OpenSSH_8.0)
+2022-03-17 11:36:07 - transport.py - [line:1819] - paramiko.transport - INFO - Authentication (password) successful!
+2022-03-17 11:36:07 - sshInstance.py - [line:28] - root - INFO - SSH on SUT: 10.239.182.209
+2022-03-17 11:36:07 - transport.py - [line:1819] - paramiko.transport - INFO - Connected (version 2.0, client OpenSSH_8.0)
+2022-03-17 11:36:07 - transport.py - [line:1819] - paramiko.transport - INFO - Authentication (password) successful!
+2022-03-17 11:36:07 - sshInstance.py - [line:28] - root - INFO - SSH on SUT: 10.239.182.99
+2022-03-17 11:36:07 - sftp.py - [line:158] - paramiko.transport.sftp - INFO - [chan 1] Opened sftp connection (server version 3)
+2022-03-17 11:36:10 - sshInstance.py - [line:46] - root - INFO - modinfo ice | grep ^version:
+2022-03-17 11:36:10 - sshInstance.py - [line:50] - root - INFO - version:        1.6.4
+
+2022-03-17 11:36:18 - sshInstance.py - [line:46] - root - INFO - rmmod ice
+2022-03-17 11:36:27 - sshInstance.py - [line:50] - root - INFO - 
+2022-03-17 11:36:35 - sshInstance.py - [line:46] - root - INFO - modprobe ice
+2022-03-17 11:36:40 - sshInstance.py - [line:50] - root - INFO - 
+2022-03-17 11:36:48 - sshInstance.py - [line:46] - root - INFO - ifconfig ens2f0 up
+2022-03-17 11:36:48 - sshInstance.py - [line:50] - root - INFO - ens2f0: ERROR while getting interface flags: No such device
+
+2022-03-17 11:36:56 - sshInstance.py - [line:46] - root - INFO - ethtool -i ens2f0 | grep ^version:
+2022-03-17 11:36:56 - sshInstance.py - [line:50] - root - INFO - Cannot get driver information: No such device
+
+E2022-03-17 11:37:01 - NicTestFixture.py - [line:34] - root - INFO - ============================ end of run test_silver_Networking_ConnectivityEnableDisable case ============================
+2022-03-17 11:37:01 - NicTestFixture.py - [line:30] - root - INFO - ============================ Starting to run test_silver_ConnectivityReboot case ============================
+2022-03-17 11:37:01 - test_nics.py - [line:20] - root - INFO - this is Test_Nics setup.
+2022-03-17 11:37:01 - transport.py - [line:1819] - paramiko.transport - INFO - Connected (version 2.0, client OpenSSH_8.0)
+2022-03-17 11:37:01 - transport.py - [line:1819] - paramiko.transport - INFO - Authentication (password) successful!
+2022-03-17 11:37:01 - sshInstance.py - [line:28] - root - INFO - SSH on SUT: 10.239.182.209
+2022-03-17 11:37:01 - transport.py - [line:1819] - paramiko.transport - INFO - Connected (version 2.0, client OpenSSH_8.0)
+2022-03-17 11:37:01 - transport.py - [line:1819] - paramiko.transport - INFO - Authentication (password) successful!
+2022-03-17 11:37:01 - sshInstance.py - [line:28] - root - INFO - SSH on SUT: 10.239.182.99
+2022-03-17 11:37:01 - sftp.py - [line:158] - paramiko.transport.sftp - INFO - [chan 1] Opened sftp connection (server version 3)
+2022-03-17 11:37:04 - sshInstance.py - [line:46] - root - INFO - modinfo ice | grep ^version:
+2022-03-17 11:37:04 - sshInstance.py - [line:50] - root - INFO - version:        1.6.4
+
+2022-03-17 11:37:12 - sshInstance.py - [line:46] - root - INFO - rmmod ice
+2022-03-17 11:37:23 - sshInstance.py - [line:50] - root - INFO - 
+2022-03-17 11:37:31 - sshInstance.py - [line:46] - root - INFO - modprobe ice
+2022-03-17 11:37:35 - sshInstance.py - [line:50] - root - INFO - 
+2022-03-17 11:37:43 - sshInstance.py - [line:46] - root - INFO - ifconfig ens2f0 up
+2022-03-17 11:37:43 - sshInstance.py - [line:50] - root - INFO - ens2f0: ERROR while getting interface flags: No such device
+
+2022-03-17 11:37:51 - sshInstance.py - [line:46] - root - INFO - ethtool -i ens2f0 | grep ^version:
+2022-03-17 11:37:51 - sshInstance.py - [line:50] - root - INFO - Cannot get driver information: No such device
+
+E2022-03-17 11:37:56 - NicTestFixture.py - [line:34] - root - INFO - ============================ end of run test_silver_ConnectivityReboot case ============================
+2022-03-17 11:37:56 - NicTestFixture.py - [line:30] - root - INFO - ============================ Starting to run test_gold_PI_Networking_SRIOV_CheckDevice case ============================
+2022-03-17 11:37:56 - test_nics.py - [line:20] - root - INFO - this is Test_Nics setup.
+2022-03-17 11:37:56 - transport.py - [line:1819] - paramiko.transport - INFO - Connected (version 2.0, client OpenSSH_8.0)
+2022-03-17 11:37:56 - transport.py - [line:1819] - paramiko.transport - INFO - Authentication (password) successful!
+2022-03-17 11:37:56 - sshInstance.py - [line:28] - root - INFO - SSH on SUT: 10.239.182.209
+2022-03-17 11:37:56 - transport.py - [line:1819] - paramiko.transport - INFO - Connected (version 2.0, client OpenSSH_8.0)
+2022-03-17 11:37:56 - transport.py - [line:1819] - paramiko.transport - INFO - Authentication (password) successful!
+2022-03-17 11:37:57 - sshInstance.py - [line:28] - root - INFO - SSH on SUT: 10.239.182.99
+2022-03-17 11:37:57 - sftp.py - [line:158] - paramiko.transport.sftp - INFO - [chan 1] Opened sftp connection (server version 3)
+2022-03-17 11:38:00 - sshInstance.py - [line:46] - root - INFO - modinfo ice | grep ^version:
+2022-03-17 11:38:00 - sshInstance.py - [line:50] - root - INFO - version:        1.6.4
+
+2022-03-17 11:38:08 - sshInstance.py - [line:46] - root - INFO - rmmod ice
+2022-03-17 11:38:19 - sshInstance.py - [line:50] - root - INFO - 
+2022-03-17 11:38:27 - sshInstance.py - [line:46] - root - INFO - modprobe ice
+2022-03-17 11:38:32 - sshInstance.py - [line:50] - root - INFO - 
+2022-03-17 11:38:40 - sshInstance.py - [line:46] - root - INFO - ifconfig ens2f0 up
+2022-03-17 11:38:40 - sshInstance.py - [line:50] - root - INFO - ens2f0: ERROR while getting interface flags: No such device
+
+2022-03-17 11:38:48 - sshInstance.py - [line:46] - root - INFO - ethtool -i ens2f0 | grep ^version:
+2022-03-17 11:38:48 - sshInstance.py - [line:50] - root - INFO - Cannot get driver information: No such device
+
+E2022-03-17 11:38:53 - NicTestFixture.py - [line:34] - root - INFO - ============================ end of run test_gold_PI_Networking_SRIOV_CheckDevice case ============================
+2022-03-17 11:38:53 - NicTestFixture.py - [line:30] - root - INFO - ============================ Starting to run test_PI_Networking_InternetProtocolv4v6_CVL case ============================
+2022-03-17 11:38:53 - test_nics.py - [line:20] - root - INFO - this is Test_Nics setup.
+2022-03-17 11:38:53 - transport.py - [line:1819] - paramiko.transport - INFO - Connected (version 2.0, client OpenSSH_8.0)
+2022-03-17 11:38:53 - transport.py - [line:1819] - paramiko.transport - INFO - Authentication (password) successful!
+2022-03-17 11:38:53 - sshInstance.py - [line:28] - root - INFO - SSH on SUT: 10.239.182.209
+2022-03-17 11:38:53 - transport.py - [line:1819] - paramiko.transport - INFO - Connected (version 2.0, client OpenSSH_8.0)
+2022-03-17 11:38:53 - transport.py - [line:1819] - paramiko.transport - INFO - Authentication (password) successful!
+2022-03-17 11:38:53 - sshInstance.py - [line:28] - root - INFO - SSH on SUT: 10.239.182.99
+2022-03-17 11:38:53 - sftp.py - [line:158] - paramiko.transport.sftp - INFO - [chan 1] Opened sftp connection (server version 3)
+2022-03-17 11:38:56 - sshInstance.py - [line:46] - root - INFO - modinfo ice | grep ^version:
+2022-03-17 11:38:56 - sshInstance.py - [line:50] - root - INFO - version:        1.6.4
+
+2022-03-17 11:39:04 - sshInstance.py - [line:46] - root - INFO - rmmod ice
+2022-03-17 11:39:13 - sshInstance.py - [line:50] - root - INFO - 
+2022-03-17 11:39:21 - sshInstance.py - [line:46] - root - INFO - modprobe ice
+2022-03-17 11:39:26 - sshInstance.py - [line:50] - root - INFO - 
+2022-03-17 11:39:34 - sshInstance.py - [line:46] - root - INFO - ifconfig ens2f0 up
+2022-03-17 11:39:34 - sshInstance.py - [line:50] - root - INFO - ens2f0: ERROR while getting interface flags: No such device
+
+2022-03-17 11:39:42 - sshInstance.py - [line:46] - root - INFO - ethtool -i ens2f0 | grep ^version:
+2022-03-17 11:39:42 - sshInstance.py - [line:50] - root - INFO - Cannot get driver information: No such device
+
+E2022-03-17 11:39:47 - NicTestFixture.py - [line:34] - root - INFO - ============================ end of run test_PI_Networking_InternetProtocolv4v6_CVL case ============================
+2022-03-17 11:39:47 - NicTestFixture.py - [line:30] - root - INFO - ============================ Starting to run test_PI_Networking_Link_State_Check_CVL case ============================
+2022-03-17 11:39:47 - test_nics.py - [line:20] - root - INFO - this is Test_Nics setup.
+2022-03-17 11:39:47 - transport.py - [line:1819] - paramiko.transport - INFO - Connected (version 2.0, client OpenSSH_8.0)
+2022-03-17 11:39:47 - transport.py - [line:1819] - paramiko.transport - INFO - Authentication (password) successful!
+2022-03-17 11:39:47 - sshInstance.py - [line:28] - root - INFO - SSH on SUT: 10.239.182.209
+2022-03-17 11:39:47 - transport.py - [line:1819] - paramiko.transport - INFO - Connected (version 2.0, client OpenSSH_8.0)
+2022-03-17 11:39:47 - transport.py - [line:1819] - paramiko.transport - INFO - Authentication (password) successful!
+2022-03-17 11:39:47 - sshInstance.py - [line:28] - root - INFO - SSH on SUT: 10.239.182.99
+2022-03-17 11:39:47 - sftp.py - [line:158] - paramiko.transport.sftp - INFO - [chan 1] Opened sftp connection (server version 3)
+2022-03-17 11:39:50 - sshInstance.py - [line:46] - root - INFO - modinfo ice | grep ^version:
+2022-03-17 11:39:50 - sshInstance.py - [line:50] - root - INFO - version:        1.6.4
+
+2022-03-17 11:39:58 - sshInstance.py - [line:46] - root - INFO - rmmod ice
+2022-03-17 11:40:10 - sshInstance.py - [line:50] - root - INFO - 
+2022-03-17 11:40:18 - sshInstance.py - [line:46] - root - INFO - modprobe ice
+2022-03-17 11:40:22 - sshInstance.py - [line:50] - root - INFO - 
+2022-03-17 11:40:30 - sshInstance.py - [line:46] - root - INFO - ifconfig ens2f0 up
+2022-03-17 11:40:30 - sshInstance.py - [line:50] - root - INFO - ens2f0: ERROR while getting interface flags: No such device
+
+2022-03-17 11:40:38 - sshInstance.py - [line:46] - root - INFO - ethtool -i ens2f0 | grep ^version:
+2022-03-17 11:40:38 - sshInstance.py - [line:50] - root - INFO - Cannot get driver information: No such device
+
+E2022-03-17 11:40:43 - NicTestFixture.py - [line:34] - root - INFO - ============================ end of run test_PI_Networking_Link_State_Check_CVL case ============================
+                              [100%]
+
+==================================== ERRORS ====================================
+________ ERROR at setup of Test_mtu.test_PI_Networking_Jumbo_Packet_CVL ________
+
+self = <Tests.testNics.test_mtu.Test_mtu object at 0x7fe3908ae1d0>
+
+    def setup(self):
+        logging.info("this is Test_mtu setup.")
+        self.sut_conf = settings.__getattribute__("sut_conf")
+        self.pkg_generator = settings.__getattribute__("pkg_generator")
+        self.check_str = settings.__getattribute__("check_str")
+        self.drive_info = settings.__getattribute__("drive_info")
+        self.cn_test_sut = sshInstance()
+        self.sut1_cli, self.sut1_session = self.cn_test_sut.get_ssh_instance(self.sut_conf["host"], self.sut_conf["user"],
+                                                       self.sut_conf["password"], self.sut_conf["port"])
+        self.sut2_cli, self.sut2_session = self.cn_test_sut.get_ssh_instance(self.pkg_generator["host"], self.pkg_generator["user"],
+                                                       self.pkg_generator["password"], self.pkg_generator["port"])
+    
+        self.sftp = self.sut1_cli.open_sftp()
+        cmd1 = "modinfo ice | grep ^version:"
+        self.cn_test_sut.ssh_exec_cmd(self.sut1_cli, cmd1)
+        cmd2 = "rmmod ice"
+        self.cn_test_sut.ssh_exec_cmd(self.sut1_cli, cmd2)
+        cmd3 = "modprobe ice"
+        self.cn_test_sut.ssh_exec_cmd(self.sut1_cli, cmd3)
+        stdout, stderr = self.cn_test_sut.ssh_exec_cmd(self.sut1_cli, "ethtool -i {}".format(self.sut_conf["pf1"]))
+        st = False
+        for line in stdout.split("\n"):
+            if line.find("version:") == 0 and line.find(self.drive_info["drive_version"]) > -1:
+                st = True
+        if not st:
+>           assert 200 == 400, "driver version mismatch version ,please check"
+E           AssertionError: driver version mismatch version ,please check
+E           assert 200 == 400
+
+npxtester/Tests/testNics/test_mtu.py:40: AssertionError
+---------------------------- Captured stdout setup -----------------------------
+2022-03-17 11:34:33 - NicTestFixture.py - [line:30] - root - INFO - ============================ Starting to run test_PI_Networking_Jumbo_Packet_CVL case ============================
+2022-03-17 11:34:33 - test_mtu.py - [line:16] - root - INFO - this is Test_mtu setup.
+2022-03-17 11:34:33 - transport.py - [line:1819] - paramiko.transport - INFO - Connected (version 2.0, client OpenSSH_8.0)
+2022-03-17 11:34:33 - transport.py - [line:1819] - paramiko.transport - INFO - Authentication (password) successful!
+2022-03-17 11:34:33 - sshInstance.py - [line:28] - root - INFO - SSH on SUT: 10.239.182.209
+2022-03-17 11:34:33 - transport.py - [line:1819] - paramiko.transport - INFO - Connected (version 2.0, client OpenSSH_8.0)
+2022-03-17 11:34:33 - transport.py - [line:1819] - paramiko.transport - INFO - Authentication (password) successful!
+2022-03-17 11:34:33 - sshInstance.py - [line:28] - root - INFO - SSH on SUT: 10.239.182.99
+2022-03-17 11:34:33 - sftp.py - [line:158] - paramiko.transport.sftp - INFO - [chan 1] Opened sftp connection (server version 3)
+2022-03-17 11:34:36 - sshInstance.py - [line:46] - root - INFO - modinfo ice | grep ^version:
+2022-03-17 11:34:36 - sshInstance.py - [line:50] - root - INFO - version:        1.6.4
+
+2022-03-17 11:34:44 - sshInstance.py - [line:46] - root - INFO - rmmod ice
+2022-03-17 11:34:54 - sshInstance.py - [line:50] - root - INFO - 
+2022-03-17 11:35:02 - sshInstance.py - [line:46] - root - INFO - modprobe ice
+2022-03-17 11:35:07 - sshInstance.py - [line:50] - root - INFO - 
+2022-03-17 11:35:15 - sshInstance.py - [line:46] - root - INFO - ethtool -i ens2f0
+2022-03-17 11:35:15 - sshInstance.py - [line:50] - root - INFO - Cannot get driver information: No such device
+
+__________ ERROR at setup of Test_mtu.test_PI_Networking_MTU_set_CVL ___________
+
+self = <Tests.testNics.test_mtu.Test_mtu object at 0x7fe390ad6160>
+
+    def setup(self):
+        logging.info("this is Test_mtu setup.")
+        self.sut_conf = settings.__getattribute__("sut_conf")
+        self.pkg_generator = settings.__getattribute__("pkg_generator")
+        self.check_str = settings.__getattribute__("check_str")
+        self.drive_info = settings.__getattribute__("drive_info")
+        self.cn_test_sut = sshInstance()
+        self.sut1_cli, self.sut1_session = self.cn_test_sut.get_ssh_instance(self.sut_conf["host"], self.sut_conf["user"],
+                                                       self.sut_conf["password"], self.sut_conf["port"])
+        self.sut2_cli, self.sut2_session = self.cn_test_sut.get_ssh_instance(self.pkg_generator["host"], self.pkg_generator["user"],
+                                                       self.pkg_generator["password"], self.pkg_generator["port"])
+    
+        self.sftp = self.sut1_cli.open_sftp()
+        cmd1 = "modinfo ice | grep ^version:"
+        self.cn_test_sut.ssh_exec_cmd(self.sut1_cli, cmd1)
+        cmd2 = "rmmod ice"
+        self.cn_test_sut.ssh_exec_cmd(self.sut1_cli, cmd2)
+        cmd3 = "modprobe ice"
+        self.cn_test_sut.ssh_exec_cmd(self.sut1_cli, cmd3)
+        stdout, stderr = self.cn_test_sut.ssh_exec_cmd(self.sut1_cli, "ethtool -i {}".format(self.sut_conf["pf1"]))
+        st = False
+        for line in stdout.split("\n"):
+            if line.find("version:") == 0 and line.find(self.drive_info["drive_version"]) > -1:
+                st = True
+        if not st:
+>           assert 200 == 400, "driver version mismatch version ,please check"
+E           AssertionError: driver version mismatch version ,please check
+E           assert 200 == 400
+
+npxtester/Tests/testNics/test_mtu.py:40: AssertionError
+---------------------------- Captured stdout setup -----------------------------
+2022-03-17 11:35:20 - NicTestFixture.py - [line:30] - root - INFO - ============================ Starting to run test_PI_Networking_MTU_set_CVL case ============================
+2022-03-17 11:35:20 - test_mtu.py - [line:16] - root - INFO - this is Test_mtu setup.
+2022-03-17 11:35:20 - transport.py - [line:1819] - paramiko.transport - INFO - Connected (version 2.0, client OpenSSH_8.0)
+2022-03-17 11:35:20 - transport.py - [line:1819] - paramiko.transport - INFO - Authentication (password) successful!
+2022-03-17 11:35:20 - sshInstance.py - [line:28] - root - INFO - SSH on SUT: 10.239.182.209
+2022-03-17 11:35:20 - transport.py - [line:1819] - paramiko.transport - INFO - Connected (version 2.0, client OpenSSH_8.0)
+2022-03-17 11:35:20 - transport.py - [line:1819] - paramiko.transport - INFO - Authentication (password) successful!
+2022-03-17 11:35:20 - sshInstance.py - [line:28] - root - INFO - SSH on SUT: 10.239.182.99
+2022-03-17 11:35:20 - sftp.py - [line:158] - paramiko.transport.sftp - INFO - [chan 1] Opened sftp connection (server version 3)
+2022-03-17 11:35:23 - sshInstance.py - [line:46] - root - INFO - modinfo ice | grep ^version:
+2022-03-17 11:35:23 - sshInstance.py - [line:50] - root - INFO - version:        1.6.4
+
+2022-03-17 11:35:31 - sshInstance.py - [line:46] - root - INFO - rmmod ice
+2022-03-17 11:35:41 - sshInstance.py - [line:50] - root - INFO - 
+2022-03-17 11:35:49 - sshInstance.py - [line:46] - root - INFO - modprobe ice
+2022-03-17 11:35:53 - sshInstance.py - [line:50] - root - INFO - 
+2022-03-17 11:36:02 - sshInstance.py - [line:46] - root - INFO - ethtool -i ens2f0
+2022-03-17 11:36:02 - sshInstance.py - [line:50] - root - INFO - Cannot get driver information: No such device
+
+_ ERROR at setup of Test_Nics.test_silver_Networking_ConnectivityEnableDisable _
+
+self = <Tests.testNics.test_nics.Test_Nics object at 0x7fe3908aeba8>
+
+    def setup(self):
+        logging.info("this is Test_Nics setup.")
+        self.sut_conf = settings.__getattribute__("sut_conf")
+        self.pkg_generator = settings.__getattribute__("pkg_generator")
+        self.drive_info = settings.__getattribute__("drive_info")
+        self.check_str = settings.__getattribute__("check_str")
+        self.dpdk_dir = settings.__getattribute__("dpdk_dir")
+        self.cn_test_sut = sshInstance()
+        self.client, self.session = self.cn_test_sut.get_ssh_instance(self.sut_conf["host"], self.sut_conf["user"],
+                                                       self.sut_conf["password"], self.sut_conf["port"])
+        self.client2, self.session2 = self.cn_test_sut.get_ssh_instance(self.pkg_generator["host"], self.pkg_generator["user"],
+                                                       self.pkg_generator["password"], self.pkg_generator["port"])
+        self.sftp = self.client.open_sftp()
+        cmd1 = "modinfo ice | grep ^version:"
+        self.cn_test_sut.ssh_exec_cmd(self.client, cmd1)
+        cmd2 = "rmmod ice"
+        self.cn_test_sut.ssh_exec_cmd(self.client, cmd2)
+        cmd3 = "modprobe ice"
+        self.cn_test_sut.ssh_exec_cmd(self.client, cmd3)
+        self.cn_test_sut.ssh_exec_cmd(self.client, "ifconfig {} up".format(self.sut_conf["pf1"]))
+        stdout, stderr = self.cn_test_sut.ssh_exec_cmd(self.client, "ethtool -i {} | grep ^version:".format(self.sut_conf["pf1"]))
+        st = False
+        for line in stdout.split("\n"):
+            if line.find("version:") == 0 and line.find(self.drive_info["drive_version"]) > -1:
+                st = True
+        if not st:
+>           assert 200 == 400, "driver version mismatch version ,please check"
+E           AssertionError: driver version mismatch version ,please check
+E           assert 200 == 400
+
+npxtester/Tests/testNics/test_nics.py:45: AssertionError
+---------------------------- Captured stdout setup -----------------------------
+2022-03-17 11:36:07 - NicTestFixture.py - [line:20] - root - INFO - test -------
+2022-03-17 11:36:07 - NicTestFixture.py - [line:30] - root - INFO - ============================ Starting to run test_silver_Networking_ConnectivityEnableDisable case ============================
+2022-03-17 11:36:07 - test_nics.py - [line:20] - root - INFO - this is Test_Nics setup.
+2022-03-17 11:36:07 - transport.py - [line:1819] - paramiko.transport - INFO - Connected (version 2.0, client OpenSSH_8.0)
+2022-03-17 11:36:07 - transport.py - [line:1819] - paramiko.transport - INFO - Authentication (password) successful!
+2022-03-17 11:36:07 - sshInstance.py - [line:28] - root - INFO - SSH on SUT: 10.239.182.209
+2022-03-17 11:36:07 - transport.py - [line:1819] - paramiko.transport - INFO - Connected (version 2.0, client OpenSSH_8.0)
+2022-03-17 11:36:07 - transport.py - [line:1819] - paramiko.transport - INFO - Authentication (password) successful!
+2022-03-17 11:36:07 - sshInstance.py - [line:28] - root - INFO - SSH on SUT: 10.239.182.99
+2022-03-17 11:36:07 - sftp.py - [line:158] - paramiko.transport.sftp - INFO - [chan 1] Opened sftp connection (server version 3)
+2022-03-17 11:36:10 - sshInstance.py - [line:46] - root - INFO - modinfo ice | grep ^version:
+2022-03-17 11:36:10 - sshInstance.py - [line:50] - root - INFO - version:        1.6.4
+
+2022-03-17 11:36:18 - sshInstance.py - [line:46] - root - INFO - rmmod ice
+2022-03-17 11:36:27 - sshInstance.py - [line:50] - root - INFO - 
+2022-03-17 11:36:35 - sshInstance.py - [line:46] - root - INFO - modprobe ice
+2022-03-17 11:36:40 - sshInstance.py - [line:50] - root - INFO - 
+2022-03-17 11:36:48 - sshInstance.py - [line:46] - root - INFO - ifconfig ens2f0 up
+2022-03-17 11:36:48 - sshInstance.py - [line:50] - root - INFO - ens2f0: ERROR while getting interface flags: No such device
+
+2022-03-17 11:36:56 - sshInstance.py - [line:46] - root - INFO - ethtool -i ens2f0 | grep ^version:
+2022-03-17 11:36:56 - sshInstance.py - [line:50] - root - INFO - Cannot get driver information: No such device
+
+------------------------------ Captured log setup ------------------------------
+INFO     root:NicTestFixture.py:20 test -------
+__________ ERROR at setup of Test_Nics.test_silver_ConnectivityReboot __________
+
+self = <Tests.testNics.test_nics.Test_Nics object at 0x7fe390a372b0>
+
+    def setup(self):
+        logging.info("this is Test_Nics setup.")
+        self.sut_conf = settings.__getattribute__("sut_conf")
+        self.pkg_generator = settings.__getattribute__("pkg_generator")
+        self.drive_info = settings.__getattribute__("drive_info")
+        self.check_str = settings.__getattribute__("check_str")
+        self.dpdk_dir = settings.__getattribute__("dpdk_dir")
+        self.cn_test_sut = sshInstance()
+        self.client, self.session = self.cn_test_sut.get_ssh_instance(self.sut_conf["host"], self.sut_conf["user"],
+                                                       self.sut_conf["password"], self.sut_conf["port"])
+        self.client2, self.session2 = self.cn_test_sut.get_ssh_instance(self.pkg_generator["host"], self.pkg_generator["user"],
+                                                       self.pkg_generator["password"], self.pkg_generator["port"])
+        self.sftp = self.client.open_sftp()
+        cmd1 = "modinfo ice | grep ^version:"
+        self.cn_test_sut.ssh_exec_cmd(self.client, cmd1)
+        cmd2 = "rmmod ice"
+        self.cn_test_sut.ssh_exec_cmd(self.client, cmd2)
+        cmd3 = "modprobe ice"
+        self.cn_test_sut.ssh_exec_cmd(self.client, cmd3)
+        self.cn_test_sut.ssh_exec_cmd(self.client, "ifconfig {} up".format(self.sut_conf["pf1"]))
+        stdout, stderr = self.cn_test_sut.ssh_exec_cmd(self.client, "ethtool -i {} | grep ^version:".format(self.sut_conf["pf1"]))
+        st = False
+        for line in stdout.split("\n"):
+            if line.find("version:") == 0 and line.find(self.drive_info["drive_version"]) > -1:
+                st = True
+        if not st:
+>           assert 200 == 400, "driver version mismatch version ,please check"
+E           AssertionError: driver version mismatch version ,please check
+E           assert 200 == 400
+
+npxtester/Tests/testNics/test_nics.py:45: AssertionError
+---------------------------- Captured stdout setup -----------------------------
+2022-03-17 11:37:01 - NicTestFixture.py - [line:30] - root - INFO - ============================ Starting to run test_silver_ConnectivityReboot case ============================
+2022-03-17 11:37:01 - test_nics.py - [line:20] - root - INFO - this is Test_Nics setup.
+2022-03-17 11:37:01 - transport.py - [line:1819] - paramiko.transport - INFO - Connected (version 2.0, client OpenSSH_8.0)
+2022-03-17 11:37:01 - transport.py - [line:1819] - paramiko.transport - INFO - Authentication (password) successful!
+2022-03-17 11:37:01 - sshInstance.py - [line:28] - root - INFO - SSH on SUT: 10.239.182.209
+2022-03-17 11:37:01 - transport.py - [line:1819] - paramiko.transport - INFO - Connected (version 2.0, client OpenSSH_8.0)
+2022-03-17 11:37:01 - transport.py - [line:1819] - paramiko.transport - INFO - Authentication (password) successful!
+2022-03-17 11:37:01 - sshInstance.py - [line:28] - root - INFO - SSH on SUT: 10.239.182.99
+2022-03-17 11:37:01 - sftp.py - [line:158] - paramiko.transport.sftp - INFO - [chan 1] Opened sftp connection (server version 3)
+2022-03-17 11:37:04 - sshInstance.py - [line:46] - root - INFO - modinfo ice | grep ^version:
+2022-03-17 11:37:04 - sshInstance.py - [line:50] - root - INFO - version:        1.6.4
+
+2022-03-17 11:37:12 - sshInstance.py - [line:46] - root - INFO - rmmod ice
+2022-03-17 11:37:23 - sshInstance.py - [line:50] - root - INFO - 
+2022-03-17 11:37:31 - sshInstance.py - [line:46] - root - INFO - modprobe ice
+2022-03-17 11:37:35 - sshInstance.py - [line:50] - root - INFO - 
+2022-03-17 11:37:43 - sshInstance.py - [line:46] - root - INFO - ifconfig ens2f0 up
+2022-03-17 11:37:43 - sshInstance.py - [line:50] - root - INFO - ens2f0: ERROR while getting interface flags: No such device
+
+2022-03-17 11:37:51 - sshInstance.py - [line:46] - root - INFO - ethtool -i ens2f0 | grep ^version:
+2022-03-17 11:37:51 - sshInstance.py - [line:50] - root - INFO - Cannot get driver information: No such device
+
+____ ERROR at setup of Test_Nics.test_gold_PI_Networking_SRIOV_CheckDevice _____
+
+self = <Tests.testNics.test_nics.Test_Nics object at 0x7fe39084f550>
+
+    def setup(self):
+        logging.info("this is Test_Nics setup.")
+        self.sut_conf = settings.__getattribute__("sut_conf")
+        self.pkg_generator = settings.__getattribute__("pkg_generator")
+        self.drive_info = settings.__getattribute__("drive_info")
+        self.check_str = settings.__getattribute__("check_str")
+        self.dpdk_dir = settings.__getattribute__("dpdk_dir")
+        self.cn_test_sut = sshInstance()
+        self.client, self.session = self.cn_test_sut.get_ssh_instance(self.sut_conf["host"], self.sut_conf["user"],
+                                                       self.sut_conf["password"], self.sut_conf["port"])
+        self.client2, self.session2 = self.cn_test_sut.get_ssh_instance(self.pkg_generator["host"], self.pkg_generator["user"],
+                                                       self.pkg_generator["password"], self.pkg_generator["port"])
+        self.sftp = self.client.open_sftp()
+        cmd1 = "modinfo ice | grep ^version:"
+        self.cn_test_sut.ssh_exec_cmd(self.client, cmd1)
+        cmd2 = "rmmod ice"
+        self.cn_test_sut.ssh_exec_cmd(self.client, cmd2)
+        cmd3 = "modprobe ice"
+        self.cn_test_sut.ssh_exec_cmd(self.client, cmd3)
+        self.cn_test_sut.ssh_exec_cmd(self.client, "ifconfig {} up".format(self.sut_conf["pf1"]))
+        stdout, stderr = self.cn_test_sut.ssh_exec_cmd(self.client, "ethtool -i {} | grep ^version:".format(self.sut_conf["pf1"]))
+        st = False
+        for line in stdout.split("\n"):
+            if line.find("version:") == 0 and line.find(self.drive_info["drive_version"]) > -1:
+                st = True
+        if not st:
+>           assert 200 == 400, "driver version mismatch version ,please check"
+E           AssertionError: driver version mismatch version ,please check
+E           assert 200 == 400
+
+npxtester/Tests/testNics/test_nics.py:45: AssertionError
+---------------------------- Captured stdout setup -----------------------------
+2022-03-17 11:37:56 - NicTestFixture.py - [line:30] - root - INFO - ============================ Starting to run test_gold_PI_Networking_SRIOV_CheckDevice case ============================
+2022-03-17 11:37:56 - test_nics.py - [line:20] - root - INFO - this is Test_Nics setup.
+2022-03-17 11:37:56 - transport.py - [line:1819] - paramiko.transport - INFO - Connected (version 2.0, client OpenSSH_8.0)
+2022-03-17 11:37:56 - transport.py - [line:1819] - paramiko.transport - INFO - Authentication (password) successful!
+2022-03-17 11:37:56 - sshInstance.py - [line:28] - root - INFO - SSH on SUT: 10.239.182.209
+2022-03-17 11:37:56 - transport.py - [line:1819] - paramiko.transport - INFO - Connected (version 2.0, client OpenSSH_8.0)
+2022-03-17 11:37:56 - transport.py - [line:1819] - paramiko.transport - INFO - Authentication (password) successful!
+2022-03-17 11:37:57 - sshInstance.py - [line:28] - root - INFO - SSH on SUT: 10.239.182.99
+2022-03-17 11:37:57 - sftp.py - [line:158] - paramiko.transport.sftp - INFO - [chan 1] Opened sftp connection (server version 3)
+2022-03-17 11:38:00 - sshInstance.py - [line:46] - root - INFO - modinfo ice | grep ^version:
+2022-03-17 11:38:00 - sshInstance.py - [line:50] - root - INFO - version:        1.6.4
+
+2022-03-17 11:38:08 - sshInstance.py - [line:46] - root - INFO - rmmod ice
+2022-03-17 11:38:19 - sshInstance.py - [line:50] - root - INFO - 
+2022-03-17 11:38:27 - sshInstance.py - [line:46] - root - INFO - modprobe ice
+2022-03-17 11:38:32 - sshInstance.py - [line:50] - root - INFO - 
+2022-03-17 11:38:40 - sshInstance.py - [line:46] - root - INFO - ifconfig ens2f0 up
+2022-03-17 11:38:40 - sshInstance.py - [line:50] - root - INFO - ens2f0: ERROR while getting interface flags: No such device
+
+2022-03-17 11:38:48 - sshInstance.py - [line:46] - root - INFO - ethtool -i ens2f0 | grep ^version:
+2022-03-17 11:38:48 - sshInstance.py - [line:50] - root - INFO - Cannot get driver information: No such device
+
+___ ERROR at setup of Test_Nics.test_PI_Networking_InternetProtocolv4v6_CVL ____
+
+self = <Tests.testNics.test_nics.Test_Nics object at 0x7fe39084f438>
+
+    def setup(self):
+        logging.info("this is Test_Nics setup.")
+        self.sut_conf = settings.__getattribute__("sut_conf")
+        self.pkg_generator = settings.__getattribute__("pkg_generator")
+        self.drive_info = settings.__getattribute__("drive_info")
+        self.check_str = settings.__getattribute__("check_str")
+        self.dpdk_dir = settings.__getattribute__("dpdk_dir")
+        self.cn_test_sut = sshInstance()
+        self.client, self.session = self.cn_test_sut.get_ssh_instance(self.sut_conf["host"], self.sut_conf["user"],
+                                                       self.sut_conf["password"], self.sut_conf["port"])
+        self.client2, self.session2 = self.cn_test_sut.get_ssh_instance(self.pkg_generator["host"], self.pkg_generator["user"],
+                                                       self.pkg_generator["password"], self.pkg_generator["port"])
+        self.sftp = self.client.open_sftp()
+        cmd1 = "modinfo ice | grep ^version:"
+        self.cn_test_sut.ssh_exec_cmd(self.client, cmd1)
+        cmd2 = "rmmod ice"
+        self.cn_test_sut.ssh_exec_cmd(self.client, cmd2)
+        cmd3 = "modprobe ice"
+        self.cn_test_sut.ssh_exec_cmd(self.client, cmd3)
+        self.cn_test_sut.ssh_exec_cmd(self.client, "ifconfig {} up".format(self.sut_conf["pf1"]))
+        stdout, stderr = self.cn_test_sut.ssh_exec_cmd(self.client, "ethtool -i {} | grep ^version:".format(self.sut_conf["pf1"]))
+        st = False
+        for line in stdout.split("\n"):
+            if line.find("version:") == 0 and line.find(self.drive_info["drive_version"]) > -1:
+                st = True
+        if not st:
+>           assert 200 == 400, "driver version mismatch version ,please check"
+E           AssertionError: driver version mismatch version ,please check
+E           assert 200 == 400
+
+npxtester/Tests/testNics/test_nics.py:45: AssertionError
+---------------------------- Captured stdout setup -----------------------------
+2022-03-17 11:38:53 - NicTestFixture.py - [line:30] - root - INFO - ============================ Starting to run test_PI_Networking_InternetProtocolv4v6_CVL case ============================
+2022-03-17 11:38:53 - test_nics.py - [line:20] - root - INFO - this is Test_Nics setup.
+2022-03-17 11:38:53 - transport.py - [line:1819] - paramiko.transport - INFO - Connected (version 2.0, client OpenSSH_8.0)
+2022-03-17 11:38:53 - transport.py - [line:1819] - paramiko.transport - INFO - Authentication (password) successful!
+2022-03-17 11:38:53 - sshInstance.py - [line:28] - root - INFO - SSH on SUT: 10.239.182.209
+2022-03-17 11:38:53 - transport.py - [line:1819] - paramiko.transport - INFO - Connected (version 2.0, client OpenSSH_8.0)
+2022-03-17 11:38:53 - transport.py - [line:1819] - paramiko.transport - INFO - Authentication (password) successful!
+2022-03-17 11:38:53 - sshInstance.py - [line:28] - root - INFO - SSH on SUT: 10.239.182.99
+2022-03-17 11:38:53 - sftp.py - [line:158] - paramiko.transport.sftp - INFO - [chan 1] Opened sftp connection (server version 3)
+2022-03-17 11:38:56 - sshInstance.py - [line:46] - root - INFO - modinfo ice | grep ^version:
+2022-03-17 11:38:56 - sshInstance.py - [line:50] - root - INFO - version:        1.6.4
+
+2022-03-17 11:39:04 - sshInstance.py - [line:46] - root - INFO - rmmod ice
+2022-03-17 11:39:13 - sshInstance.py - [line:50] - root - INFO - 
+2022-03-17 11:39:21 - sshInstance.py - [line:46] - root - INFO - modprobe ice
+2022-03-17 11:39:26 - sshInstance.py - [line:50] - root - INFO - 
+2022-03-17 11:39:34 - sshInstance.py - [line:46] - root - INFO - ifconfig ens2f0 up
+2022-03-17 11:39:34 - sshInstance.py - [line:50] - root - INFO - ens2f0: ERROR while getting interface flags: No such device
+
+2022-03-17 11:39:42 - sshInstance.py - [line:46] - root - INFO - ethtool -i ens2f0 | grep ^version:
+2022-03-17 11:39:42 - sshInstance.py - [line:50] - root - INFO - Cannot get driver information: No such device
+
+_____ ERROR at setup of Test_Nics.test_PI_Networking_Link_State_Check_CVL ______
+
+self = <Tests.testNics.test_nics.Test_Nics object at 0x7fe39098ba90>
+
+    def setup(self):
+        logging.info("this is Test_Nics setup.")
+        self.sut_conf = settings.__getattribute__("sut_conf")
+        self.pkg_generator = settings.__getattribute__("pkg_generator")
+        self.drive_info = settings.__getattribute__("drive_info")
+        self.check_str = settings.__getattribute__("check_str")
+        self.dpdk_dir = settings.__getattribute__("dpdk_dir")
+        self.cn_test_sut = sshInstance()
+        self.client, self.session = self.cn_test_sut.get_ssh_instance(self.sut_conf["host"], self.sut_conf["user"],
+                                                       self.sut_conf["password"], self.sut_conf["port"])
+        self.client2, self.session2 = self.cn_test_sut.get_ssh_instance(self.pkg_generator["host"], self.pkg_generator["user"],
+                                                       self.pkg_generator["password"], self.pkg_generator["port"])
+        self.sftp = self.client.open_sftp()
+        cmd1 = "modinfo ice | grep ^version:"
+        self.cn_test_sut.ssh_exec_cmd(self.client, cmd1)
+        cmd2 = "rmmod ice"
+        self.cn_test_sut.ssh_exec_cmd(self.client, cmd2)
+        cmd3 = "modprobe ice"
+        self.cn_test_sut.ssh_exec_cmd(self.client, cmd3)
+        self.cn_test_sut.ssh_exec_cmd(self.client, "ifconfig {} up".format(self.sut_conf["pf1"]))
+        stdout, stderr = self.cn_test_sut.ssh_exec_cmd(self.client, "ethtool -i {} | grep ^version:".format(self.sut_conf["pf1"]))
+        st = False
+        for line in stdout.split("\n"):
+            if line.find("version:") == 0 and line.find(self.drive_info["drive_version"]) > -1:
+                st = True
+        if not st:
+>           assert 200 == 400, "driver version mismatch version ,please check"
+E           AssertionError: driver version mismatch version ,please check
+E           assert 200 == 400
+
+npxtester/Tests/testNics/test_nics.py:45: AssertionError
+---------------------------- Captured stdout setup -----------------------------
+2022-03-17 11:39:47 - NicTestFixture.py - [line:30] - root - INFO - ============================ Starting to run test_PI_Networking_Link_State_Check_CVL case ============================
+2022-03-17 11:39:47 - test_nics.py - [line:20] - root - INFO - this is Test_Nics setup.
+2022-03-17 11:39:47 - transport.py - [line:1819] - paramiko.transport - INFO - Connected (version 2.0, client OpenSSH_8.0)
+2022-03-17 11:39:47 - transport.py - [line:1819] - paramiko.transport - INFO - Authentication (password) successful!
+2022-03-17 11:39:47 - sshInstance.py - [line:28] - root - INFO - SSH on SUT: 10.239.182.209
+2022-03-17 11:39:47 - transport.py - [line:1819] - paramiko.transport - INFO - Connected (version 2.0, client OpenSSH_8.0)
+2022-03-17 11:39:47 - transport.py - [line:1819] - paramiko.transport - INFO - Authentication (password) successful!
+2022-03-17 11:39:47 - sshInstance.py - [line:28] - root - INFO - SSH on SUT: 10.239.182.99
+2022-03-17 11:39:47 - sftp.py - [line:158] - paramiko.transport.sftp - INFO - [chan 1] Opened sftp connection (server version 3)
+2022-03-17 11:39:50 - sshInstance.py - [line:46] - root - INFO - modinfo ice | grep ^version:
+2022-03-17 11:39:50 - sshInstance.py - [line:50] - root - INFO - version:        1.6.4
+
+2022-03-17 11:39:58 - sshInstance.py - [line:46] - root - INFO - rmmod ice
+2022-03-17 11:40:10 - sshInstance.py - [line:50] - root - INFO - 
+2022-03-17 11:40:18 - sshInstance.py - [line:46] - root - INFO - modprobe ice
+2022-03-17 11:40:22 - sshInstance.py - [line:50] - root - INFO - 
+2022-03-17 11:40:30 - sshInstance.py - [line:46] - root - INFO - ifconfig ens2f0 up
+2022-03-17 11:40:30 - sshInstance.py - [line:50] - root - INFO - ens2f0: ERROR while getting interface flags: No such device
+
+2022-03-17 11:40:38 - sshInstance.py - [line:46] - root - INFO - ethtool -i ens2f0 | grep ^version:
+2022-03-17 11:40:38 - sshInstance.py - [line:50] - root - INFO - Cannot get driver information: No such device
+
+=============================== warnings summary ===============================
+npxtester/Tests/testNics/test_iperf_client_4hour.py:70
+  /root/.jenkins/workspace/cyp-test-nic-simple/npxtester/Tests/testNics/test_iperf_client_4hour.py:70: PytestUnknownMarkWarning: Unknown pytest.mark.iperf_tcp - is this a typo?  You can register custom marks to avoid this warning - for details, see https://docs.pytest.org/en/stable/mark.html
+    @pytest.mark.iperf_tcp
+
+npxtester/Tests/testNics/test_iperf_client_4hour.py:108
+  /root/.jenkins/workspace/cyp-test-nic-simple/npxtester/Tests/testNics/test_iperf_client_4hour.py:108: PytestUnknownMarkWarning: Unknown pytest.mark.iperf_udp - is this a typo?  You can register custom marks to avoid this warning - for details, see https://docs.pytest.org/en/stable/mark.html
+    @pytest.mark.iperf_udp
+
+npxtester/Tests/testNics/test_mtu.py:69
+  /root/.jenkins/workspace/cyp-test-nic-simple/npxtester/Tests/testNics/test_mtu.py:69: PytestUnknownMarkWarning: Unknown pytest.mark.two_sut_CVL - is this a typo?  You can register custom marks to avoid this warning - for details, see https://docs.pytest.org/en/stable/mark.html
+    @pytest.mark.two_sut_CVL
+
+npxtester/Tests/testNics/test_mtu.py:70
+  /root/.jenkins/workspace/cyp-test-nic-simple/npxtester/Tests/testNics/test_mtu.py:70: PytestUnknownMarkWarning: Unknown pytest.mark.nicSimple - is this a typo?  You can register custom marks to avoid this warning - for details, see https://docs.pytest.org/en/stable/mark.html
+    @pytest.mark.nicSimple
+
+npxtester/Tests/testNics/test_mtu.py:109
+  /root/.jenkins/workspace/cyp-test-nic-simple/npxtester/Tests/testNics/test_mtu.py:109: PytestUnknownMarkWarning: Unknown pytest.mark.two_sut_CVL - is this a typo?  You can register custom marks to avoid this warning - for details, see https://docs.pytest.org/en/stable/mark.html
+    @pytest.mark.two_sut_CVL
+
+npxtester/Tests/testNics/test_mtu.py:110
+  /root/.jenkins/workspace/cyp-test-nic-simple/npxtester/Tests/testNics/test_mtu.py:110: PytestUnknownMarkWarning: Unknown pytest.mark.nicSimple - is this a typo?  You can register custom marks to avoid this warning - for details, see https://docs.pytest.org/en/stable/mark.html
+    @pytest.mark.nicSimple
+
+npxtester/Tests/testNics/test_network_sriov_stress.py:382
+  /root/.jenkins/workspace/cyp-test-nic-simple/npxtester/Tests/testNics/test_network_sriov_stress.py:382: PytestUnknownMarkWarning: Unknown pytest.mark.nicSriov5times - is this a typo?  You can register custom marks to avoid this warning - for details, see https://docs.pytest.org/en/stable/mark.html
+    @pytest.mark.nicSriov5times
+
+npxtester/Tests/testNics/test_network_sriov_stress.py:500
+  /root/.jenkins/workspace/cyp-test-nic-simple/npxtester/Tests/testNics/test_network_sriov_stress.py:500: PytestUnknownMarkWarning: Unknown pytest.mark.nicSriov2hours - is this a typo?  You can register custom marks to avoid this warning - for details, see https://docs.pytest.org/en/stable/mark.html
+    @pytest.mark.nicSriov2hours
+
+npxtester/Tests/testNics/test_network_sriov_stress.py:799
+  /root/.jenkins/workspace/cyp-test-nic-simple/npxtester/Tests/testNics/test_network_sriov_stress.py:799: PytestUnknownMarkWarning: Unknown pytest.mark.SriovVfIperf - is this a typo?  You can register custom marks to avoid this warning - for details, see https://docs.pytest.org/en/stable/mark.html
+    @pytest.mark.SriovVfIperf
+
+npxtester/Tests/testNics/test_nics.py:91
+  /root/.jenkins/workspace/cyp-test-nic-simple/npxtester/Tests/testNics/test_nics.py:91: PytestUnknownMarkWarning: Unknown pytest.mark.nicSimple - is this a typo?  You can register custom marks to avoid this warning - for details, see https://docs.pytest.org/en/stable/mark.html
+    @pytest.mark.nicSimple
+
+npxtester/Tests/testNics/test_nics.py:116
+  /root/.jenkins/workspace/cyp-test-nic-simple/npxtester/Tests/testNics/test_nics.py:116: PytestUnknownMarkWarning: Unknown pytest.mark.nicSimple - is this a typo?  You can register custom marks to avoid this warning - for details, see https://docs.pytest.org/en/stable/mark.html
+    @pytest.mark.nicSimple
+
+npxtester/Tests/testNics/test_nics.py:140
+  /root/.jenkins/workspace/cyp-test-nic-simple/npxtester/Tests/testNics/test_nics.py:140: PytestUnknownMarkWarning: Unknown pytest.mark.nicSimple - is this a typo?  You can register custom marks to avoid this warning - for details, see https://docs.pytest.org/en/stable/mark.html
+    @pytest.mark.nicSimple
+
+npxtester/Tests/testNics/test_nics.py:211
+  /root/.jenkins/workspace/cyp-test-nic-simple/npxtester/Tests/testNics/test_nics.py:211: PytestUnknownMarkWarning: Unknown pytest.mark.nicSimple - is this a typo?  You can register custom marks to avoid this warning - for details, see https://docs.pytest.org/en/stable/mark.html
+    @pytest.mark.nicSimple
+
+npxtester/Tests/testNics/test_nics.py:237
+  /root/.jenkins/workspace/cyp-test-nic-simple/npxtester/Tests/testNics/test_nics.py:237: PytestUnknownMarkWarning: Unknown pytest.mark.nicSimple - is this a typo?  You can register custom marks to avoid this warning - for details, see https://docs.pytest.org/en/stable/mark.html
+    @pytest.mark.nicSimple
+
+-- Docs: https://docs.pytest.org/en/stable/warnings.html
+- generated html file: file:///root/testconfig/testlogs/HtmlReport/nic_simple_report.html -
+=========================== short test summary info ============================
+ERROR npxtester/Tests/testNics/test_mtu.py::Test_mtu::test_PI_Networking_Jumbo_Packet_CVL
+ERROR npxtester/Tests/testNics/test_mtu.py::Test_mtu::test_PI_Networking_MTU_set_CVL
+ERROR npxtester/Tests/testNics/test_nics.py::Test_Nics::test_silver_Networking_ConnectivityEnableDisable
+ERROR npxtester/Tests/testNics/test_nics.py::Test_Nics::test_silver_ConnectivityReboot
+ERROR npxtester/Tests/testNics/test_nics.py::Test_Nics::test_gold_PI_Networking_SRIOV_CheckDevice
+ERROR npxtester/Tests/testNics/test_nics.py::Test_Nics::test_PI_Networking_InternetProtocolv4v6_CVL
+ERROR npxtester/Tests/testNics/test_nics.py::Test_Nics::test_PI_Networking_Link_State_Check_CVL
+========== 10 deselected, 14 warnings, 7 errors in 371.21s (0:06:11) ===========
+[8mha:////4LRW2DdsXtQctfseDjj8CogspyHgDww0EUE+/jR7GKbKAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiAR2iSmu54QUmNsaJdWdsh6TiRXyNPxCIRMUWq51t5vmCZYpw5GixNdQ5So3D4Hs7LRw4dhfPA7Z8xoYpsTcozSBZm3pGydnAnKKEhYCVocZzcmQzrEWr7qryimx1ynH6DgJKp2/wgEJM5qxi/sIYYXPtdWL6ef4KYAwhQ7nbf2r7Bij33Ma+AAAA[0m[Pipeline] }
+[8mha:////4MtFrNFM+aEeBNZBbAJy/46jMZQN76dnRC8O8BA5PJ+LAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIihKgQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGMIGcrd/lPbNzd1iZS+AAAA[0m[Pipeline] // stage
+[8mha:////4NSEudJsFfRpbbYNcUBQ90+OKZsCWrEatcJhNtBKGDbJAAAAph+LCAAAAAAAAP9tjTEOwjAQBM9BKWgpeYRTgGgQFa3lhheY2Bgn1l2wLyQVL+Jr/IFAJCq22llpNc8XlDnBgZKXjcM2YK6D7GLvpyYHSu0l0iAbOsuaMFN0UrtBk3XHGTWxgzmigIWCpcM6Ug7oGVaqMXdTRYO+OnGatr2CItgbPECoycwm8RfGBOtrbzPhz/NXAGPHILYMxWb3OZZvghbsEMEAAAA=[0m[Pipeline] stage
+[8mha:////4KPBUFnCkN9ctr3CeDZLjlHoYlmTVAAOB/IdZzV1H6aZAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0QIIBMXWNsnCC0ISQNvq//KS0EyfiatyBlkpMeLBsS9Z7vaGIDCdiJxqLrcdYe9GF3k1JDMTtNdAgGrqImjBSsELZQZGx1VIVJQuLshxWEtYW60DRo0uwkY1+6DJodOU58bQdJeTe3OEJmZzISXP6lpFhe+tNJPxx/gJg7BLku/1sh/lZfADpB/iZwgAAAA==[0m[Pipeline] { (collect logs)
+Stage "collect logs" skipped due to earlier failure(s)
+[8mha:////4H9HBr381pShuKjqnnT6WuNSaY8Npv2rZbZCCk0VWaSSAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSUICEqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDyFBu95/avQHcw3TBvgAAAA==[0m[Pipeline] }
+[8mha:////4LfZy3EfPx/kHHleZTxqJOfiK3UUmDX2EWdJdHN9sFHOAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSICEhRJXWcsMLTGyME+vO2A5JxYv4Gn8gEImKLVY728zzBcsU4cjRYmuoc5Qah8H3dlo4cOwungds+YwNU2JvUJpBsjb1jJKzgTlFCQsBK0ON5+TIZliLVt1V5RXZ6pTj9B0ElE7f4AGFmMxZxfyFMcLm2uvE9PP8FcAYQoZyu//U7g3vIC99vgAAAA==[0m[Pipeline] // stage
+[8mha:////4DToTvpCpgrF5/5Zgek9AyLtcqGgh+QI4fV0YtI1EzyKAAAAoh+LCAAAAAAAAP9tjTESgjAQRT84FraWHiJY0DlWthkaTxAhxkBmF5NFqDyRV/MOMjJj5a/+e817vbFOEUeOTrWWOk+p9qoPg5ufGjl218CjavmiaqbEwarKjhU39rRgxWKxLMux0thYqgMnT06w1a15mCIYcsVZ4uwOGrlv7ngi03NZTJQvTBG729Akpl/nbwBT3wvyci/Iyg82uoiCvQAAAA==[0m[Pipeline] }
+[8mha:////4Mrlgpl8eOA3i6ESJcibTMRBEWkOhdsVQamay/I+SPIPAAAAox+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIRgg5R0VppeIFJjHFi3QX7QlLxIr7GH4iIRMVWO9PM641lijhydKqx1HpKlVdd6N301MCxvQYeVMMXVTElDlaVdii5tqcZSxaLeVmOhcbKUhU4eXKCtW7MwxTBkCvOEid30Mh9fccTmZ7KYqJ8YYzY3Po6Mf06fwMYu06Q77eCbPcBJQaMIb0AAAA=[0m[Pipeline] // node
+[8mha:////4BO5VpBeimDRMhqN8nAYKvXJCHueyk8OjAidptAp/T2TAAAAox+LCAAAAAAAAP9tjbEOgjAURS8YB1dHP6IkxM04uTYsfkGFWgvNe9g+hMkv8tf8B4kkTt7pnrOc1xvrFHHk6FRrqfOUaq/6MLj5qZFjdw08qpYvqmZKHKyq7FhxY08LViwWy7IcK42NpTpw8uQEW92ahymCIVecJc7uoJH75o4nMj2XxUT5whSxuw1NYvp1/gYw9b0g35eCrPwAY0wrEb0AAAA=[0m[Pipeline] End of Pipeline
+ERROR: script returned exit code 1
+Finished: FAILURE

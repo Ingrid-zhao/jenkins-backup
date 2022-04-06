@@ -1,0 +1,41 @@
+Started by user [8mha:////4C8zTO/v0UlG+vQ5Fjm5jTf9kR93yL5yxTMP2X04T9v8AAAAlh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyWEgYu/dLi1CL9ovz8EgDKVWzSvwAAAA==[0mroot
+Running as SYSTEM
+Building remotely on [8mha:////4LafVuX3eTQLm8yF81fMq4k6u04xgOhoE2RdYhqdKBmyAAAApB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAy+EgYJ/eT83ILSktQi/azUvOzMvOL4pMTk7NICAAghILnNAAAA[0mjenkins_backup in workspace /root/.jenkins/workspace/jenkins-backup
+[jenkins-backup] $ /bin/bash /tmp/jenkins8397668566327828459.sh
++ '[' -e /var/lib/jenkins/index.lock ']'
++ cp /home/jenkins_home /home/jenkins-backup -rf
++ cd /home/jenkins-backup
++ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	jenkins_home/
+
+nothing added to commit but untracked files present (use "git add" to track)
++ git add -A
+warning: adding embedded git repository: jenkins_home
+hint: You've added another git repository inside your current repository.
+hint: Clones of the outer repository will not contain the contents of
+hint: the embedded repository and will not know how to obtain it.
+hint: If you meant to add a submodule, use:
+hint: 
+hint: 	git submodule add <url> jenkins_home
+hint: 
+hint: If you added this path by mistake, you can remove it from the
+hint: index with:
+hint: 
+hint: 	git rm --cached jenkins_home
+hint: 
+hint: See "git help submodule" for more information.
+++ date
++ git commit -s -m 'Jenkins backup at Tue Apr  5 12:44:00 CST 2022'
+[master ac72c40f] Jenkins backup at Tue Apr  5 12:44:00 CST 2022
+ 1 file changed, 1 insertion(+)
+ create mode 160000 jenkins_home
++ git push origin master
+fatal: could not read Password for 'https://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@github.com': No such device or address
+Build step 'Execute shell' marked build as failure
+Finished: FAILURE

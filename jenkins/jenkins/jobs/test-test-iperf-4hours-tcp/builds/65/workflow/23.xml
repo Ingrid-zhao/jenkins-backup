@@ -1,0 +1,26 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<Tag plugin="workflow-support@3.8">
+  <node class="cps.n.StepAtomNode" plugin="workflow-cps@2.94">
+    <parentIds>
+      <string>22</string>
+    </parentIds>
+    <id>23</id>
+    <descriptorId>org.jenkinsci.plugins.workflow.steps.durable_task.ShellStep</descriptorId>
+  </node>
+  <actions>
+    <cps.a.ArgumentsActionImpl plugin="workflow-cps@2.94">
+      <arguments>
+        <entry>
+          <string>script</string>
+          <string>python /root/.jenkins/workspace/test-test-iperf-4hours-tcp/npxtester/conf/change_args.py  &apos;{&quot;drive_info&quot;:{&quot;drive_version&quot;:&quot;1.6.4&quot;},&quot;sut_conf&quot;:{&quot;host&quot;:&quot;10.112.97.62&quot;,&quot;run_time&quot;:&quot;600&quot;,&quot;pf1&quot;:&quot;ens2f0&quot;,&quot;os&quot;:&quot;rehat&quot;,&quot;pf1_bandwidth&quot;:&quot;25&quot;},&quot;pkg_generator&quot;:{&quot;host&quot;:&quot;10.112.97.60&quot;,&quot;pf1&quot;:&quot;ens2f1&quot;,&quot;pf1_bandwidth&quot;:&quot;25&quot;}}&apos;</string>
+        </entry>
+      </arguments>
+      <sensitiveVariables/>
+      <isUnmodifiedBySanitization>true</isUnmodifiedBySanitization>
+    </cps.a.ArgumentsActionImpl>
+    <wf.a.TimingAction plugin="workflow-api@2.46">
+      <startTime>1647458953004</startTime>
+    </wf.a.TimingAction>
+    <s.a.LogStorageAction/>
+  </actions>
+</Tag>

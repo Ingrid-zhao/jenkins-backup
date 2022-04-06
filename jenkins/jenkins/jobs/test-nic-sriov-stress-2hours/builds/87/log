@@ -1,0 +1,106 @@
+Started by user [8mha:////4C8zTO/v0UlG+vQ5Fjm5jTf9kR93yL5yxTMP2X04T9v8AAAAlh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyWEgYu/dLi1CL9ovz8EgDKVWzSvwAAAA==[0mroot
+Running in Durability level: MAX_SURVIVABILITY
+[8mha:////4DOlrZhma2TKYqx8mtRBwGXVE8Xt4z3OJyo/zi+ICDdzAAAAoh+LCAAAAAAAAP9tjTEOwjAQBM8BClpKHuFItIiK1krDC0x8GCfWnbEdkooX8TX+gCESFVvtrLSa5wtWKcKBo5UdUu8otU4GP9jS5Mixv3geZcdn2TIl9igbHBs2eJyx4YwwR1SwULBGaj0nRzbDRnX6rmuvydanHMu2V1A5c4MHCFXMWcf8hSnC9jqYxPTz/BXAFEIGsfuclm8zQVqFvQAAAA==[0m[Pipeline] Start of Pipeline
+[8mha:////4B4K7nOhvaaLmbeE3w0NEhE1GAALwLDjakw9plXgkY6XAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycohUghExsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jduZBmjwAAAAA==[0m[Pipeline] node
+Running on [8mha:////4JQmdQSV2sAuVFk2A1iq0cchuL2wGsZlwhjgGuBsQEy8AAAAnx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyOEgZh/eT83ILSktQi/ZLU4hLdvMxkfQDdlfoHyAAAAA==[0mtest-nic in /root/.jenkins/workspace/test-nic
+[8mha:////4NUxBMzN6CtFAbQ4pdo7pH8ZuwVHigLf0SdP3FcjQTwyAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gA0xsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jfoP95RwAAAAA==[0m[Pipeline] {
+[8mha:////4OCB1+Up79PmV3LnMeomKr9r+JFCKkFjAfTpr2UorbLOAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gQkxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jc09154wAAAAA==[0m[Pipeline] stage
+[8mha:////4N6KQN35K8CT/Pcr9a+R4oOEu4uEh3phvpB1t67zd2hmAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0ggUxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jek7ggRwAAAAA==[0m[Pipeline] { (set args)
+[8mha:////4KpTcsSlLG7yEvo1vGv2QG1z86HMYkLASFXVuKwhd7SZAAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQTbaWGsbAmNJ0AWEZb8zwLrbuWJvJp3kLiJlZNMMm+a93rDOic4UbLcG+wdZu14DKOti0+U+lugiXu6ck2YKRguzSSpM+cFJRUDS1gDKwEbgzpQdmgLbIVXD9UGhba9lFS/o4DGdQM8gYlqLiqVL8wJdvexy4Q/z18BzLEA29ce4gfg7KmOvAAAAA==[0m[Pipeline] sh
++ python /root/.jenkins/workspace/test-nic/npxtester/conf/change_args.py '{"sut_conf":{"host":"10.112.97.55","connect_switch_sut_pf":"ens2f0","os":"rehat"},"dhcp":{"ipv4":"127.0.0.1","ipv6":"::1"}}'
+[8mha:////4ChDQWb8Lvr0RoXQ1L8EY4p37+Po0Q8Mb8bchs8JeqDJAAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQTbGRNjZUtoPAGyiLDkfxZYdytP5NW8g8RNrJxkknnTvNcb1jnBiZLl3mDvMGvHYxhtXXyi1N8CTdzTlWvCTMFwaSZJnTkvKKkYWMIaWAnYGNSBskNbYCu8eqg2KLTtpaT6HQU0rhvgCUxUc1GpfGFOsLuPXSb8ef4KYI6xADvU7j9Dg2gqvAAAAA==[0m[Pipeline] }
+[8mha:////4J0p4zt/+On27QitkvU5TFB8M2wwWYWaAHIuYiUer4fkAAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQRbWRhjZUtoPAGyiLDkfxZYdytP5NW8g8RNrJxkknnTvNcb1jnBiZLl3mDvMGvHYxhtXXyi1N8CTdzTlWvCTMFwaSZJnTkvKKkYWMIaWAnYGNSBskNbYCu8eqg2KLTtpaT6HQU0rhvgCUxUc1GpfGFOsLuPXSb8ef4KYI6xADvU7j9J+wGOvAAAAA==[0m[Pipeline] // stage
+[8mha:////4Ea3/4ZYuTM98yMZ9UntzMXOyQ2ItSOm6XAUUO4QqkITAAAAph+LCAAAAAAAAP9tjTEOwjAQBM9BKWgpeYQDEh2iorXc8AITG+PEugv2haTiRXyNPxCIRMVWOyut5vmCMic4UPKycdgGzHWQXez91ORAqb1EGmRDZ1kTZopOajdosu44oyZ2MEcUsFCwdFhHygE9w0o15m6qaNBXJ07TtldQBHuDBwg1mdkk/sKYYH3tbSb8ef4KYOwYxI6h2G4+x/INtuQqUcEAAAA=[0m[Pipeline] stage
+[8mha:////4IJd0qxfNFkcgwUT9OFke9rxaJjwCH2G9mHJ+5FMmbLfAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+DOrAycoiUzoiJNerCCUITQtLo/zZJSSdOxNW4Ay2VmPBg2Zas93pDGQOcKBjuNHYWY2t570czJ54pdDdPmTu68pYwkte80bkhpc9rbShpWFUw2AjYamw9RYsmwU44+ZCVl2iqSwrzdhTArBrgCYWYyUmG9C1TgP19VJHwx/kLgKlPwOrDYvXyLD8BobDcwgAAAA==[0m[Pipeline] { (run)
+[8mha:////4KACpsxoNqug+yeGIE2K55MD+IyPDLfbYOrean7h1Zl/AAAAox+LCAAAAAAAAP9tjTESwiAURH/iWNhaeggysXWsbBkaT4AJIoT5nwCRVJ7Iq3kH0cxYucXOvm3e8wXrGOBIQTOrcDAYO8O8m3RZLFMYro4ys3RhHWEkp5hQWVCvTgsKSgqWVDWsOGwUdo6iQZ1gy628y8ZJ1M05hfIdONSmH+EBFS/mJEP6whxgd5v6SPjz/BXA7BPUbfupvX8DpQJrNb4AAAA=[0m[Pipeline] sh
++ pytest /root/.jenkins/workspace/test-nic/npxtester/Tests/testNics/test_nics.py -m nicall -s
+============================= test session starts ==============================
+platform linux -- Python 3.6.8, pytest-6.2.4, py-1.10.0, pluggy-0.13.1
+rootdir: /root/.jenkins/workspace/test-nic/npxtester/Tests/testNics, configfile: pytest.ini
+plugins: metadata-1.11.0, html-3.1.1
+collected 3 items / 2 deselected / 1 selected
+
+npxtester/Tests/testNics/test_nics.py 2021-11-11 16:29:19 - NicTestFixture.py - [line:28] - root - INFO - Starting to run test_gold_PI_Networking_SRIOV_CheckDevice
+2021-11-11 16:29:19 - NicTestFixture.py - [line:29] - root - INFO - setup log for testing in the fixture class fbefore
+2021-11-11 16:29:19 - test_nics.py - [line:19] - root - INFO - this is Test_Nics setup.
+2021-11-11 16:29:19 - transport.py - [line:1819] - paramiko.transport - INFO - Connected (version 2.0, client OpenSSH_8.0)
+2021-11-11 16:29:19 - transport.py - [line:1819] - paramiko.transport - INFO - Authentication (publickey) failed.
+2021-11-11 16:29:19 - transport.py - [line:1819] - paramiko.transport - INFO - Authentication (password) successful!
+2021-11-11 16:29:19 - sshInstance.py - [line:28] - root - INFO - SSH on SUT: 10.112.97.55
+2021-11-11 16:29:19 - test_nics.py - [line:80] - root - INFO - run gold_PI_Networking_SRIOV_CheckDevice
+2021-11-11 16:29:22 - sshInstance.py - [line:44] - root - INFO - echo 4 > /sys/class/net/ens2f0/device/sriov_numvfs
+2021-11-11 16:29:22 - sshInstance.py - [line:48] - root - INFO - 
+2021-11-11 16:29:30 - sshInstance.py - [line:44] - root - INFO - ifconfig ens2f0v0 192.168.10.10
+2021-11-11 16:29:30 - sshInstance.py - [line:48] - root - INFO - 
+2021-11-11 16:29:38 - sshInstance.py - [line:44] - root - INFO - ifconfig ens2f0v1 192.168.10.11
+2021-11-11 16:29:39 - sshInstance.py - [line:48] - root - INFO - 
+2021-11-11 16:29:47 - sshInstance.py - [line:44] - root - INFO - ifconfig ens2f0v2 192.168.10.12
+2021-11-11 16:29:47 - sshInstance.py - [line:48] - root - INFO - 
+2021-11-11 16:29:55 - sshInstance.py - [line:44] - root - INFO - ifconfig ens2f0v3 192.168.10.13
+2021-11-11 16:29:55 - sshInstance.py - [line:48] - root - INFO - 
+2021-11-11 16:30:03 - sshInstance.py - [line:44] - root - INFO - ping -c 5 127.0.0.1
+2021-11-11 16:30:07 - sshInstance.py - [line:48] - root - INFO - PING 127.0.0.1 (127.0.0.1) 56(84) bytes of data.
+64 bytes from 127.0.0.1: icmp_seq=1 ttl=64 time=0.033 ms
+64 bytes from 127.0.0.1: icmp_seq=2 ttl=64 time=0.014 ms
+64 bytes from 127.0.0.1: icmp_seq=3 ttl=64 time=0.019 ms
+64 bytes from 127.0.0.1: icmp_seq=4 ttl=64 time=0.017 ms
+64 bytes from 127.0.0.1: icmp_seq=5 ttl=64 time=0.012 ms
+
+--- 127.0.0.1 ping statistics ---
+5 packets transmitted, 5 received, 0% packet loss, time 94ms
+rtt min/avg/max/mdev = 0.012/0.019/0.033/0.007 ms
+
+2021-11-11 16:30:15 - sshInstance.py - [line:44] - root - INFO - ping6 -c 5 -I ens2f0v0 ::1
+2021-11-11 16:30:15 - sshInstance.py - [line:48] - root - INFO - 
+F2021-11-11 16:30:20 - sshInstance.py - [line:39] - root - INFO - closing ssh client on SUT
+2021-11-11 16:30:20 - test_nics.py - [line:29] - root - INFO - this is Test_Nics teardown
+
+
+=================================== FAILURES ===================================
+_____________ Test_Nics.test_gold_PI_Networking_SRIOV_CheckDevice ______________
+
+self = <Tests.testNics.test_nics.Test_Nics object at 0x7f981e268f60>
+
+    @pytest.mark.usefixtures("fbefore")
+    @pytest.mark.nicall
+    def test_gold_PI_Networking_SRIOV_CheckDevice(self):
+        logs = Logger()
+        logs.generate_log_path(sys._getframe().f_code.co_name)
+        logging.info("run gold_PI_Networking_SRIOV_CheckDevice")
+        cmd = "echo 4 > /sys/class/net/{}/device/sriov_numvfs".format(self.sut_conf["connect_switch_sut_pf"])
+        stdout, stderr = self.cn_test_sut.ssh_exec_cmd(self.client, cmd)
+        if stdout or stderr:
+            assert 200 == 400
+        manual_ip_cmd = "ifconfig {}{} 192.168.10.{}"
+        for i in range(4):
+            vf = "v"+str(i)
+            ip_part = str(10+i)
+            stdout, stderr = self.cn_test_sut.ssh_exec_cmd(self.client, manual_ip_cmd.format(self.sut_conf["pf1"], vf, ip_part))
+            if stdout or stderr:
+                assert 200 == 400
+        ping_ipv4_cmd = "ping -c 5 {}"
+        ping_ipv6_cmd = "ping6 -c 5 -I {}{} {}"
+        for i in range(4):
+            vf = "v"+str(i)
+            stdout, stderr = self.cn_test_sut.ssh_exec_cmd(self.client, ping_ipv4_cmd.format(self.dhcp["ipv4"]))
+            if stdout.find("0% packet loss") == -1:
+                assert 200 == 400
+            stdout, stderr = self.cn_test_sut.ssh_exec_cmd(self.client, ping_ipv6_cmd.format(self.sut_conf["pf1"], vf, self.dhcp["ipv6"]))
+            if stdout.find("0% packet loss") == -1:
+>               assert 200 == 400
+E               assert 200 == 400
+
+npxtester/Tests/testNics/test_nics.py:101: AssertionError
+---------------------------- Captured log teardown -----------------------------
+INFO     root:sshInstance.py:39 closing ssh client on SUT
+INFO     root:test_nics.py:29 this is Test_Nics teardown
+=========================== short test summary info ============================
+FAILED npxtester/Tests/testNics/test_nics.py::Test_Nics::test_gold_PI_Networking_SRIOV_CheckDevice
+================== 1 failed, 2 deselected in 60.90s (0:01:00) ==================
+[8mha:////4KMKnj+jwomtBZRlOM1zDNsT7NVP2UylJUBAmwQdpqOFAAAAox+LCAAAAAAAAP9tjTESwiAURH/iWNhaeggyGUvHypah8QSYIEKY/wkQSeWJvJp3EM2MlVvs7NvmPV+wjgGOFDSzCgeDsTPMu0mXxTKF4eooM0sX1hFGcooJlQX16rSgoKRgSVXDisNGYecoGtQJttzKu2ycRN2cUyjfgUNt+hEeUPFiTjKkL8wBdrepj4Q/z18BzN4nqNv9p9o3geV5574AAAA=[0m[Pipeline] }
+[8mha:////4PHbOgS4fTQzlO31aLQygq6Gmyy7LbpReNAbbgHuNOsPAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOICEh2iSmu54QUmNsaJdWdsh6TiRXyNPxCIRMUWq51t5vmCZYpw5GixNdQ5So3D4Hs7LRw4dhfPA7Z8xoYpsTcozSBZm3pGydnAnKKEhYCVocZzcmQzrEWr7qryimx1ynH6DgJKp2/wgEJM5qxi/sIYYXPtdWL6ef4KYAwhQ7nbf2r7Bq/le42+AAAA[0m[Pipeline] // stage
+[8mha:////4I9CBL1TQQZuqbZ2jRHSmcHnuMbbRTwUd9k6KAOagwtcAAAAox+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIRElSIitZKwwtMYowT6y7YF5KKF/E1/kBEJCq22plmXm8sU8SRo1ONpdZTqrzqQu+mpwaO7TXwoBq+qIopcbCqtEPJtT3NWLJYzMtyLDRWlqrAyZMTrHVjHqYIhlxxlji5g0bu6zueyPRUFhPlC2PE5tbXienX+RvA2HWCfLsXZLsP9aSlGr0AAAA=[0m[Pipeline] }
+[8mha:////4AgCtwjc4t5tcZsCa10f3l1mNPWqCUOes7yjbzZP2H6lAAAApB+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIRQqJBVLRWGl5gEmOcWHfBvpBUvIiv8QciIlGx1c4083pjmSKOHJ1qLLWeUuVVF3o3PTVwbK+BB9XwRVVMiYNVpR1Kru1pxpLFYl6WY6GxslQFTp6cYK0b8zBFMOSKs8TJHTRyX9/xRKanspgoXxgjNre+Tky/zt8Axq4T5Nu9INt9AIZLYcO9AAAA[0m[Pipeline] // node
+[8mha:////4HNhgbRMdr5fLy6tNmZPXDu18JtR1J6yjnVzc/IrJ0XIAAAAox+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIRNBSIitZKwwtMYowT6y7YF5KKF/E1/kBEJCq22plmXm8sU8SRo1ONpdZTqrzqQu+mpwaO7TXwoBq+qIopcbCqtEPJtT3NWLJYzMtyLDRWlqrAyZMTrHVjHqYIhlxxlji5g0bu6zueyPRUFhPlC2PE5tbXienX+RvA2HWCfLsXZLsPoFIGib0AAAA=[0m[Pipeline] End of Pipeline
+ERROR: script returned exit code 1
+Finished: FAILURE

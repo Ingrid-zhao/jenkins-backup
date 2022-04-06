@@ -1,0 +1,462 @@
+Started by user [8mha:////4C8zTO/v0UlG+vQ5Fjm5jTf9kR93yL5yxTMP2X04T9v8AAAAlh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyWEgYu/dLi1CL9ovz8EgDKVWzSvwAAAA==[0mroot
+Running in Durability level: MAX_SURVIVABILITY
+[8mha:////4DOlrZhma2TKYqx8mtRBwGXVE8Xt4z3OJyo/zi+ICDdzAAAAoh+LCAAAAAAAAP9tjTEOwjAQBM8BClpKHuFItIiK1krDC0x8GCfWnbEdkooX8TX+gCESFVvtrLSa5wtWKcKBo5UdUu8otU4GP9jS5Mixv3geZcdn2TIl9igbHBs2eJyx4YwwR1SwULBGaj0nRzbDRnX6rmuvydanHMu2V1A5c4MHCFXMWcf8hSnC9jqYxPTz/BXAFEIGsfuclm8zQVqFvQAAAA==[0m[Pipeline] Start of Pipeline
+[8mha:////4B4K7nOhvaaLmbeE3w0NEhE1GAALwLDjakw9plXgkY6XAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycohUghExsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jduZBmjwAAAAA==[0m[Pipeline] node
+Running on [8mha:////4EheNQ7D4c27QswDGPiDpGtf9rfQF1HauEmyd+/REsZ/AAAAoh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyeEgZx/eT83ILSktQiICOvpCg/Jye1SDdLHwCRPP8lzAAAAA==[0mcontroller-j in /root/.jenkins/workspace/iperf-vf-2hours-ipv4
+[8mha:////4NUxBMzN6CtFAbQ4pdo7pH8ZuwVHigLf0SdP3FcjQTwyAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gA0xsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jfoP95RwAAAAA==[0m[Pipeline] {
+[8mha:////4OCB1+Up79PmV3LnMeomKr9r+JFCKkFjAfTpr2UorbLOAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gQkxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jc09154wAAAAA==[0m[Pipeline] stage
+[8mha:////4N6KQN35K8CT/Pcr9a+R4oOEu4uEh3phvpB1t67zd2hmAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0ggUxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jek7ggRwAAAAA==[0m[Pipeline] { (clone)
+[8mha:////4KpTcsSlLG7yEvo1vGv2QG1z86HMYkLASFXVuKwhd7SZAAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQTbaWGsbAmNJ0AWEZb8zwLrbuWJvJp3kLiJlZNMMm+a93rDOic4UbLcG+wdZu14DKOti0+U+lugiXu6ck2YKRguzSSpM+cFJRUDS1gDKwEbgzpQdmgLbIVXD9UGhba9lFS/o4DGdQM8gYlqLiqVL8wJdvexy4Q/z18BzLEA29ce4gfg7KmOvAAAAA==[0m[Pipeline] sh
++ git clone -b develop https://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@github.com/Jiz1028/applications.validation.network-platform.npxtester.git npxtester
+Cloning into 'npxtester'...
+[8mha:////4ChDQWb8Lvr0RoXQ1L8EY4p37+Po0Q8Mb8bchs8JeqDJAAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQTbGRNjZUtoPAGyiLDkfxZYdytP5NW8g8RNrJxkknnTvNcb1jnBiZLl3mDvMGvHYxhtXXyi1N8CTdzTlWvCTMFwaSZJnTkvKKkYWMIaWAnYGNSBskNbYCu8eqg2KLTtpaT6HQU0rhvgCUxUc1GpfGFOsLuPXSb8ef4KYI6xADvU7j9Dg2gqvAAAAA==[0m[Pipeline] }
+[8mha:////4J0p4zt/+On27QitkvU5TFB8M2wwWYWaAHIuYiUer4fkAAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQRbWRhjZUtoPAGyiLDkfxZYdytP5NW8g8RNrJxkknnTvNcb1jnBiZLl3mDvMGvHYxhtXXyi1N8CTdzTlWvCTMFwaSZJnTkvKKkYWMIaWAnYGNSBskNbYCu8eqg2KLTtpaT6HQU0rhvgCUxUc1GpfGFOsLuPXSb8ef4KYI6xADvU7j9J+wGOvAAAAA==[0m[Pipeline] // stage
+[8mha:////4Ea3/4ZYuTM98yMZ9UntzMXOyQ2ItSOm6XAUUO4QqkITAAAAph+LCAAAAAAAAP9tjTEOwjAQBM9BKWgpeYQDEh2iorXc8AITG+PEugv2haTiRXyNPxCIRMVWOyut5vmCMic4UPKycdgGzHWQXez91ORAqb1EGmRDZ1kTZopOajdosu44oyZ2MEcUsFCwdFhHygE9w0o15m6qaNBXJ07TtldQBHuDBwg1mdkk/sKYYH3tbSb8ef4KYOwYxI6h2G4+x/INtuQqUcEAAAA=[0m[Pipeline] stage
+[8mha:////4IJd0qxfNFkcgwUT9OFke9rxaJjwCH2G9mHJ+5FMmbLfAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+DOrAycoiUzoiJNerCCUITQtLo/zZJSSdOxNW4Ay2VmPBg2Zas93pDGQOcKBjuNHYWY2t570czJ54pdDdPmTu68pYwkte80bkhpc9rbShpWFUw2AjYamw9RYsmwU44+ZCVl2iqSwrzdhTArBrgCYWYyUmG9C1TgP19VJHwx/kLgKlPwOrDYvXyLD8BobDcwgAAAA==[0m[Pipeline] { (set args)
+[8mha:////4KACpsxoNqug+yeGIE2K55MD+IyPDLfbYOrean7h1Zl/AAAAox+LCAAAAAAAAP9tjTESwiAURH/iWNhaeggysXWsbBkaT4AJIoT5nwCRVJ7Iq3kH0cxYucXOvm3e8wXrGOBIQTOrcDAYO8O8m3RZLFMYro4ys3RhHWEkp5hQWVCvTgsKSgqWVDWsOGwUdo6iQZ1gy628y8ZJ1M05hfIdONSmH+EBFS/mJEP6whxgd5v6SPjz/BXA7BPUbfupvX8DpQJrNb4AAAA=[0m[Pipeline] sh
++ python /root/.jenkins/workspace/iperf-vf-2hours-ipv4/npxtester/conf/change_args.py '{"dpdk_dir":"/opt/APP/utility/DPDK_install/dpdk-21.11/","vm_image_conf":{"image1":"uvm1.img","image2":"uvm2.img","image3":"rhel84rt.img","image4":"rhel84rt2.img","image_dir":"/home/image"},"sut_conf":{"host":"10.239.182.97","pf1":"ens44","os":"rehat"},"sut2_conf":{"host":"10.239.182.79","pf1":"ens785"},"run_type":"ipv4"}'
+[8mha:////4KMKnj+jwomtBZRlOM1zDNsT7NVP2UylJUBAmwQdpqOFAAAAox+LCAAAAAAAAP9tjTESwiAURH/iWNhaeggyGUvHypah8QSYIEKY/wkQSeWJvJp3EM2MlVvs7NvmPV+wjgGOFDSzCgeDsTPMu0mXxTKF4eooM0sX1hFGcooJlQX16rSgoKRgSVXDisNGYecoGtQJttzKu2ycRN2cUyjfgUNt+hEeUPFiTjKkL8wBdrepj4Q/z18BzN4nqNv9p9o3geV5574AAAA=[0m[Pipeline] }
+[8mha:////4PHbOgS4fTQzlO31aLQygq6Gmyy7LbpReNAbbgHuNOsPAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOICEh2iSmu54QUmNsaJdWdsh6TiRXyNPxCIRMUWq51t5vmCZYpw5GixNdQ5So3D4Hs7LRw4dhfPA7Z8xoYpsTcozSBZm3pGydnAnKKEhYCVocZzcmQzrEWr7qryimx1ynH6DgJKp2/wgEJM5qxi/sIYYXPtdWL6ef4KYAwhQ7nbf2r7Bq/le42+AAAA[0m[Pipeline] // stage
+[8mha:////4MZyk33+V/AiT4fn8n6G3pw2AKptiha+GL2FVGy8vSODAAAAph+LCAAAAAAAAP9tjTEOwjAQBM9BKWgpeYQjJKgQFa3lhheY2Bgn1l2wLyQVL+Jr/IFAJCq22llpNc8XlDnBgZKXjcM2YK6D7GLvpyYHSu0l0iAbOsuaMFN0UrtBk3XHGTWxgzmigIWCpcM6Ug7oGVaqMXdTRYO+OnGatr2CItgbPECoycwm8RfGBOtrbzPhz/NXAGPHILYMxWb3OZZvBXXnAcEAAAA=[0m[Pipeline] stage
+[8mha:////4IbAYeEfzIYrbjXur3hhLHFS6T3zmMsYQQAYadAUrpZ/AAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUDLAgpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD/s94rDCAAAA[0m[Pipeline] { (run nic case)
+[8mha:////4FPk2mTBzwof/oyzK3/Y2W4GOSwpNdCdlxh/EpNq5ACcAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiGigQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGPIUG53n9qHN27Iu42+AAAA[0m[Pipeline] sh
++ pytest /root/.jenkins/workspace/iperf-vf-2hours-ipv4/npxtester/Tests/testNics -s -m SriovVfIperf --html=/root/testconfig/testlogs/HtmlReport/sriov_iperfvf_2hours_ipv4.html --self-contained-html
+============================= test session starts ==============================
+platform linux -- Python 3.6.8, pytest-6.2.4, py-1.11.0, pluggy-0.13.1
+rootdir: /root/.jenkins/workspace/iperf-vf-2hours-ipv4/npxtester/Tests/testNics, configfile: pytest.ini
+plugins: metadata-1.11.0, html-3.1.1
+collected 13 items / 12 deselected / 1 selected
+
+npxtester/Tests/testNics/test_network_sriov_stress.py 2022-01-18 20:22:10 - NicTestFixture.py - [line:28] - root - INFO - Starting to run test_PI_Virtualization_SRIOV_VF_Stress_L[uvm1.img-uvm2.img]
+2022-01-18 20:22:10 - NicTestFixture.py - [line:29] - root - INFO - setup log for testing in the fixture class fbefore
+2022-01-18 20:22:10 - test_network_sriov_stress.py - [line:31] - root - INFO - SSH SUT and setup configurations in the setup function.
+2022-01-18 20:22:11 - transport.py - [line:1819] - paramiko.transport - INFO - Connected (version 2.0, client OpenSSH_8.4p1)
+2022-01-18 20:22:11 - transport.py - [line:1819] - paramiko.transport - INFO - Authentication (password) successful!
+2022-01-18 20:22:11 - sshInstance.py - [line:28] - root - INFO - SSH on SUT: 10.239.182.97
+2022-01-18 20:22:11 - sftp.py - [line:158] - paramiko.transport.sftp - INFO - [chan 1] Opened sftp connection (server version 3)
+2022-01-18 20:22:11 - transport.py - [line:1819] - paramiko.transport - INFO - Connected (version 2.0, client OpenSSH_8.0)
+2022-01-18 20:22:11 - transport.py - [line:1819] - paramiko.transport - INFO - Authentication (password) successful!
+2022-01-18 20:22:12 - sshInstance.py - [line:28] - root - INFO - SSH on SUT: 10.239.182.79
+2022-01-18 20:22:15 - sshInstance.py - [line:44] - root - INFO - /opt/APP/utility/DPDK_install/dpdk-21.11/usertools/dpdk-devbind.py -s | grep ens44 | awk '{print $1;}'
+2022-01-18 20:22:16 - sshInstance.py - [line:48] - root - INFO - 0000:98:00.0
+
+2022-01-18 20:22:21 - test_network_sriov_stress.py - [line:87] - root - INFO - pf_id was found: 0000:98:00.0
+
+2022-01-18 20:22:21 - test_network_sriov_stress.py - [line:789] - root - INFO - format_pf_id is 0000\:98\:00.0
+
+2022-01-18 20:22:21 - test_network_sriov_stress.py - [line:792] - root - INFO - pf_id_key: 98
+2022-01-18 20:22:27 - sshInstance.py - [line:92] - root - INFO - Welcome to Ubuntu 21.04 (GNU/Linux 5.11.0-41-generic x86_64)
+ * Documentation:  https://help.ubuntu.com
+ * Management:     https://landscape.canonical.com
+ * Support:        https://ubuntu.com/advantage
+  System information as of Tue Jan 18 12:30:41 PM UTC 2022
+  System load:  0.02                Swap usage:  0%       Users logged in: 1
+  Usage of /:   29.8% of 195.86GB   Temperature: 30.0 C
+  Memory usage: 15%                 Processes:   1939
+  => There were exceptions while processing one or more plugins. See
+     /var/log/landscape/sysinfo.log for more information.
+
+63 updates can be installed immediately.
+0 of these updates are security updates.
+To see these additional updates run: apt list --upgradable
+New release '21.10' available.
+Run 'do-release-upgrade' to upgrade to it.
+
+Last login: Tue Jan 18 12:27:07 2022 from 10.254.214.248
+[?2004hroot@ubuntu:~# ifconfig ens44 192.168.10.10
+[?2004l[?2004hroot@ubuntu:~# 
+2022-01-18 20:22:30 - test_network_sriov_stress.py - [line:283] - root - INFO - Successfully assigned ip to ethernet: ens44
+2022-01-18 20:22:36 - sshInstance.py - [line:92] - root - INFO - Activate the web console with: systemctl enable --now cockpit.socket
+This system is not registered to Red Hat Insights. See https://cloud.redhat.com/
+To register this system, run: insights-client --register
+Last login: Tue Jan 18 20:28:48 2022 from 10.254.214.248
+[root@npx-cyp7-rh82 ~]# ifconfig ens785 192.168.10.11
+[root@npx-cyp7-rh82 ~]# 
+2022-01-18 20:22:39 - test_network_sriov_stress.py - [line:283] - root - INFO - Successfully assigned ip to ethernet: ens785
+2022-01-18 20:22:42 - sshInstance.py - [line:44] - root - INFO - echo 4 > /sys/class/net/ens44/device/sriov_numvfs
+2022-01-18 20:22:42 - sshInstance.py - [line:48] - root - INFO - 
+2022-01-18 20:22:47 - test_network_sriov_stress.py - [line:101] - root - INFO - Successfully Virtualized PF to VFs.
+2022-01-18 20:22:50 - sshInstance.py - [line:44] - root - INFO -  lspci | grep "Virtual" | awk '{print $1;}'list
+2022-01-18 20:22:51 - sshInstance.py - [line:48] - root - INFO - 98:01.0
+98:01.1
+98:01.2
+98:01.3
+
+2022-01-18 20:22:56 - test_network_sriov_stress.py - [line:115] - root - INFO - Succssfully Gotten vf_id list:
+
+2022-01-18 20:22:59 - sshInstance.py - [line:44] - root - INFO -  modinfo vfio-pci | grep "vfio_pci" | awk '{ print $2;}'
+2022-01-18 20:22:59 - sshInstance.py - [line:48] - root - INFO - vfio_pci
+
+2022-01-18 20:23:04 - test_network_sriov_stress.py - [line:168] - root - INFO - Successfuly modeprobe vfio-pci
+2022-01-18 20:23:07 - sshInstance.py - [line:44] - root - INFO - /opt/APP/utility/DPDK_install/dpdk-21.11/usertools/dpdk-devbind.py -b vfio-pci 98:01.0
+2022-01-18 20:23:09 - sshInstance.py - [line:48] - root - INFO - 
+2022-01-18 20:23:14 - test_network_sriov_stress.py - [line:147] - root - INFO - Successfuly bound VF to vfio-pci
+2022-01-18 20:23:17 - sshInstance.py - [line:44] - root - INFO - /opt/APP/utility/DPDK_install/dpdk-21.11/usertools/dpdk-devbind.py -b vfio-pci 98:01.1
+2022-01-18 20:23:19 - sshInstance.py - [line:48] - root - INFO - 
+2022-01-18 20:23:24 - test_network_sriov_stress.py - [line:147] - root - INFO - Successfuly bound VF to vfio-pci
+2022-01-18 20:23:24 - test_network_sriov_stress.py - [line:816] - root - INFO - lspci -Dnn | grep 98:01.1
+2022-01-18 20:23:27 - sshInstance.py - [line:44] - root - INFO - lspci -Dnn | grep 98:01.1
+2022-01-18 20:23:27 - sshInstance.py - [line:48] - root - INFO - 0000:98:01.1 Ethernet controller [0200]: Intel Corporation Ethernet Adaptive Virtual Function [8086:1889] (rev 01)
+
+2022-01-18 20:23:32 - test_network_sriov_stress.py - [line:827] - root - INFO - Successfully get vf device id: 8086:1889
+2022-01-18 20:23:35 - sshInstance.py - [line:44] - root - INFO - virsh net-info default | grep "Active" | awk '{print $2;}'
+2022-01-18 20:23:35 - sshInstance.py - [line:48] - root - INFO - yes
+
+2022-01-18 20:23:40 - test_network_sriov_stress.py - [line:177] - root - INFO - Default network is active? yes
+
+2022-01-18 20:23:44 - sshInstance.py - [line:69] - root - INFO - virt-install --name VMtest1 --ram 4096 --cpu host --vcpus=5 --network network=default --hostdev pci_0000_98_01_0 --boot hd --disk path=/home/image/uvm1.img,size=50,format=qcow2 --graphics vnc,listen=0.0.0.0,port=5900 --noautoconsole
+[?2004l
+2022-01-18 20:23:45 - sshInstance.py - [line:69] - root - INFO - WARNING  No operating system detected, VM performance may suffer. Specify an OS with --os-variant for optimal results.
+
+Starting install...
+2022-01-18 20:23:48 - sshInstance.py - [line:69] - root - INFO - Domain creation completed.
+[?2004hroot@ubuntu:~# 
+2022-01-18 20:24:20 - test_network_sriov_stress.py - [line:212] - root - INFO - Successfully created a VM: VMtest1
+2022-01-18 20:24:24 - sshInstance.py - [line:69] - root - INFO - virt-install --name VMtest2 --ram 4096 --cpu host --vcpus=5 --network network=default --hostdev pci_0000_98_01_1 --boot hd --disk path=/home/image/uvm2.img,size=50,format=qcow2 --graphics vnc,listen=0.0.0.0,port=5901 --noautoconsole
+[?2004l
+2022-01-18 20:24:25 - sshInstance.py - [line:69] - root - INFO - WARNING  No operating system detected, VM performance may suffer. Specify an OS with --os-variant for optimal results.
+
+Starting install...
+2022-01-18 20:24:27 - sshInstance.py - [line:69] - root - INFO - Domain creation completed.
+2022-01-18 20:24:28 - sshInstance.py - [line:69] - root - INFO - [?2004hroot@ubuntu:~# 
+2022-01-18 20:25:01 - test_network_sriov_stress.py - [line:212] - root - INFO - Successfully created a VM: VMtest2
+2022-01-18 20:25:04 - sshInstance.py - [line:44] - root - INFO - virsh domifaddr VMtest1 | grep '192.168' | awk '{print $4;}'
+2022-01-18 20:25:04 - sshInstance.py - [line:48] - root - INFO - 192.168.122.41/24
+
+2022-01-18 20:25:09 - test_network_sriov_stress.py - [line:224] - root - INFO - Successfully got VMtest1 IP: 192.168.122.41/24
+
+2022-01-18 20:25:12 - sshInstance.py - [line:44] - root - INFO - virsh domifaddr VMtest2 | grep '192.168' | awk '{print $4;}'
+2022-01-18 20:25:12 - sshInstance.py - [line:48] - root - INFO - 192.168.122.163/24
+
+2022-01-18 20:25:17 - test_network_sriov_stress.py - [line:224] - root - INFO - Successfully got VMtest2 IP: 192.168.122.163/24
+
+2022-01-18 20:25:21 - sshInstance.py - [line:69] - root - INFO - ping -c 5 192.168.122.41
+[?2004lPING 192.168.122.41 (192.168.122.41) 56(84) bytes of data.
+64 bytes from 192.168.122.41: icmp_seq=1 ttl=64 time=0.555 ms
+2022-01-18 20:25:22 - sshInstance.py - [line:69] - root - INFO - 64 bytes from 192.168.122.41: icmp_seq=2 ttl=64 time=0.385 ms
+2022-01-18 20:25:23 - sshInstance.py - [line:69] - root - INFO - 64 bytes from 192.168.122.41: icmp_seq=3 ttl=64 time=0.334 ms
+2022-01-18 20:25:24 - sshInstance.py - [line:69] - root - INFO - 64 bytes from 192.168.122.41: icmp_seq=4 ttl=64 time=0.365 ms
+2022-01-18 20:25:25 - sshInstance.py - [line:69] - root - INFO - 64 bytes from 192.168.122.41: icmp_seq=5 ttl=64 time=0.274 ms
+
+--- 192.168.122.41 ping statistics ---
+5 packets transmitted, 5 received, 0% packet loss, time 4104ms
+rtt min/avg/max/mdev = 0.274/0.382/0.555/0.094 ms
+[?2004hroot@ubuntu:~# 
+2022-01-18 20:26:05 - sshInstance.py - [line:92] - root - INFO - ssh root@192.168.122.41
+[?2004lroot@192.168.122.41's password: 
+2022-01-18 20:26:14 - sshInstance.py - [line:92] - root - INFO - 
+Welcome to Ubuntu 21.04 (GNU/Linux 5.11.0-46-generic x86_64)
+ * Documentation:  https://help.ubuntu.com
+ * Management:     https://landscape.canonical.com
+ * Support:        https://ubuntu.com/advantage
+ System information disabled due to load higher than 5.0
+
+63 updates can be installed immediately.
+0 of these updates are security updates.
+To see these additional updates run: apt list --upgradable
+New release '21.10' available.
+Run 'do-release-upgrade' to upgrade to it.
+
+Last login: Tue Jan 18 12:07:22 2022 from 192.168.122.1
+[?2004hroot@npx:~# 
+2022-01-18 20:26:23 - sshInstance.py - [line:92] - root - INFO - lspci -Dnn | grep "8086:1889" --color=never| awk '{print $1;}'
+[?2004l0000:00:05.0
+[?2004hroot@npx:~# 
+2022-01-18 20:26:29 - test_network_sriov_stress.py - [line:322] - root - INFO - successfully got vf pci id of vm1: 0000:00:05.0
+2022-01-18 20:26:35 - sshInstance.py - [line:92] - root - INFO - ls /sys/bus/pci/devices/0000\:00\:05.0/net/ --color=never
+[?2004lens5
+[?2004hroot@npx:~# 
+2022-01-18 20:26:40 - test_network_sriov_stress.py - [line:336] - root - INFO - Successfully got vf device name of vm1: ens5
+2022-01-18 20:26:46 - sshInstance.py - [line:92] - root - INFO - ifconfig ens5 192.168.10.12
+[?2004l[?2004hroot@npx:~# 
+2022-01-18 20:26:49 - test_network_sriov_stress.py - [line:283] - root - INFO - Successfully assigned ip to ethernet: ens5
+2022-01-18 20:26:55 - sshInstance.py - [line:92] - root - INFO - ifconfig ens5 down
+[?2004l[?2004hroot@npx:~# 
+2022-01-18 20:27:04 - sshInstance.py - [line:92] - root - INFO - ifconfig ens5 hw ether 1234567890ac
+[?2004l[?2004hroot@npx:~# 
+2022-01-18 20:27:13 - sshInstance.py - [line:92] - root - INFO - ifconfig ens5 up
+[?2004l[?2004hroot@npx:~# 
+2022-01-18 20:27:22 - sshInstance.py - [line:92] - root - INFO - nmcli device connect ens5
+[?2004lCommand 'nmcli' not found, but can be installed with:
+snap install network-manager  # version 1.2.2-28, or
+apt  install network-manager  # version 1.30.0-1ubuntu3
+See 'snap info network-manager' for additional versions.
+[?2004hroot@npx:~# 
+2022-01-18 20:27:31 - sshInstance.py - [line:92] - root - INFO - ifconfig ens5
+[?2004lens5: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        inet 192.168.10.12  netmask 255.255.255.0  broadcast 192.168.10.255
+        inet6 fe80::1034:56ff:fe78:90ac  prefixlen 64  scopeid 0x20<link>
+        ether 12:34:56:78:90:ac  txqueuelen 1000  (Ethernet)
+        RX packets 0  bytes 0 (0.0 B)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 14  bytes 1732 (1.7 KB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+[?2004hroot@npx:~# 
+2022-01-18 20:27:40 - sshInstance.py - [line:92] - root - INFO - exit
+[?2004llogout
+Connection to 192.168.122.41 closed.
+[?2004hroot@ubuntu:~# 
+2022-01-18 20:27:47 - sshInstance.py - [line:69] - root - INFO - ping -c 5 192.168.122.163
+[?2004lPING 192.168.122.163 (192.168.122.163) 56(84) bytes of data.
+64 bytes from 192.168.122.163: icmp_seq=1 ttl=64 time=0.616 ms
+2022-01-18 20:27:48 - sshInstance.py - [line:69] - root - INFO - 64 bytes from 192.168.122.163: icmp_seq=2 ttl=64 time=0.366 ms
+2022-01-18 20:27:49 - sshInstance.py - [line:69] - root - INFO - 64 bytes from 192.168.122.163: icmp_seq=3 ttl=64 time=0.298 ms
+2022-01-18 20:27:50 - sshInstance.py - [line:69] - root - INFO - 64 bytes from 192.168.122.163: icmp_seq=4 ttl=64 time=0.302 ms
+2022-01-18 20:27:51 - sshInstance.py - [line:69] - root - INFO - 64 bytes from 192.168.122.163: icmp_seq=5 ttl=64 time=0.315 ms
+
+--- 192.168.122.163 ping statistics ---
+5 packets transmitted, 5 received, 0% packet loss, time 4101ms
+rtt min/avg/max/mdev = 0.298/0.379/0.616/0.120 ms
+[?2004hroot@ubuntu:~# 
+2022-01-18 20:28:31 - sshInstance.py - [line:92] - root - INFO - ssh root@192.168.122.163
+[?2004lroot@192.168.122.163's password: 
+2022-01-18 20:28:40 - sshInstance.py - [line:92] - root - INFO - 
+Welcome to Ubuntu 21.04 (GNU/Linux 5.11.0-46-generic x86_64)
+ * Documentation:  https://help.ubuntu.com
+ * Management:     https://landscape.canonical.com
+ * Support:        https://ubuntu.com/advantage
+ System information disabled due to load higher than 5.0
+
+63 updates can be installed immediately.
+0 of these updates are security updates.
+To see these additional updates run: apt list --upgradable
+New release '21.10' available.
+Run 'do-release-upgrade' to upgrade to it.
+
+Last login: Tue Jan 18 12:05:55 2022 from 192.168.122.1
+[?2004hroot@npx:~# 
+2022-01-18 20:28:49 - sshInstance.py - [line:92] - root - INFO - lspci -Dnn | grep "8086:1889" --color=never| awk '{print $1;}'
+[?2004l0000:00:05.0
+[?2004hroot@npx:~# 
+2022-01-18 20:28:55 - test_network_sriov_stress.py - [line:322] - root - INFO - successfully got vf pci id of vm1: 0000:00:05.0
+2022-01-18 20:29:01 - sshInstance.py - [line:92] - root - INFO - ls /sys/bus/pci/devices/0000\:00\:05.0/net/ --color=never
+[?2004lens5
+[?2004hroot@npx:~# 
+2022-01-18 20:29:06 - test_network_sriov_stress.py - [line:336] - root - INFO - Successfully got vf device name of vm1: ens5
+2022-01-18 20:29:12 - sshInstance.py - [line:92] - root - INFO - ifconfig ens5 192.168.10.13
+[?2004l[?2004hroot@npx:~# 
+2022-01-18 20:29:15 - test_network_sriov_stress.py - [line:283] - root - INFO - Successfully assigned ip to ethernet: ens5
+2022-01-18 20:29:21 - sshInstance.py - [line:92] - root - INFO - ifconfig ens5 down
+[?2004l[?2004hroot@npx:~# 
+2022-01-18 20:29:30 - sshInstance.py - [line:92] - root - INFO - ifconfig ens5 hw ether 1234567890ab
+[?2004l[?2004hroot@npx:~# 
+2022-01-18 20:29:39 - sshInstance.py - [line:92] - root - INFO - ifconfig ens5 up
+[?2004l[?2004hroot@npx:~# 
+2022-01-18 20:29:48 - sshInstance.py - [line:92] - root - INFO - nmcli device connect ens5
+[?2004lCommand 'nmcli' not found, but can be installed with:
+snap install network-manager  # version 1.2.2-28, or
+apt  install network-manager  # version 1.30.0-1ubuntu3
+See 'snap info network-manager' for additional versions.
+[?2004hroot@npx:~# 
+2022-01-18 20:29:57 - sshInstance.py - [line:92] - root - INFO - ifconfig ens5
+[?2004lens5: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        inet 192.168.10.13  netmask 255.255.255.0  broadcast 192.168.10.255
+        inet6 fe80::1034:56ff:fe78:90ab  prefixlen 64  scopeid 0x20<link>
+        ether 12:34:56:78:90:ab  txqueuelen 1000  (Ethernet)
+        RX packets 2  bytes 684 (684.0 B)
+        RX errors 0  dropped 1  overruns 0  frame 0
+        TX packets 7  bytes 906 (906.0 B)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+[?2004hroot@npx:~# 
+2022-01-18 20:30:06 - sshInstance.py - [line:92] - root - INFO - exit
+[?2004llogout
+Connection to 192.168.122.163 closed.
+[?2004hroot@ubuntu:~# 
+2022-01-18 20:30:13 - sshInstance.py - [line:69] - root - INFO - ping -c 5 192.168.122.163
+[?2004lPING 192.168.122.163 (192.168.122.163) 56(84) bytes of data.
+64 bytes from 192.168.122.163: icmp_seq=1 ttl=64 time=0.567 ms
+2022-01-18 20:30:14 - sshInstance.py - [line:69] - root - INFO - 64 bytes from 192.168.122.163: icmp_seq=2 ttl=64 time=0.465 ms
+2022-01-18 20:30:15 - sshInstance.py - [line:69] - root - INFO - 64 bytes from 192.168.122.163: icmp_seq=3 ttl=64 time=0.333 ms
+2022-01-18 20:30:16 - sshInstance.py - [line:69] - root - INFO - 64 bytes from 192.168.122.163: icmp_seq=4 ttl=64 time=0.430 ms
+2022-01-18 20:30:17 - sshInstance.py - [line:69] - root - INFO - 64 bytes from 192.168.122.163: icmp_seq=5 ttl=64 time=0.403 ms
+
+--- 192.168.122.163 ping statistics ---
+5 packets transmitted, 5 received, 0% packet loss, time 4099ms
+rtt min/avg/max/mdev = 0.333/0.439/0.567/0.077 ms
+[?2004hroot@ubuntu:~# 
+2022-01-18 20:30:57 - sshInstance.py - [line:92] - root - INFO - ssh root@192.168.122.163
+[?2004lroot@192.168.122.163's password: 
+2022-01-18 20:31:06 - sshInstance.py - [line:92] - root - INFO - 
+Welcome to Ubuntu 21.04 (GNU/Linux 5.11.0-46-generic x86_64)
+ * Documentation:  https://help.ubuntu.com
+ * Management:     https://landscape.canonical.com
+ * Support:        https://ubuntu.com/advantage
+  System information as of Tue Jan 18 12:39:34 PM UTC 2022
+  System load: 4.94               Memory usage: 13%   Processes:       176
+  Usage of /:  67.4% of 18.57GB   Swap usage:   0%    Users logged in: 0
+  => There were exceptions while processing one or more plugins. See
+     /var/log/landscape/sysinfo.log for more information.
+
+63 updates can be installed immediately.
+0 of these updates are security updates.
+To see these additional updates run: apt list --upgradable
+New release '21.10' available.
+Run 'do-release-upgrade' to upgrade to it.
+
+Last login: Tue Jan 18 12:37:09 2022 from 192.168.122.1
+[?2004hroot@npx:~# 
+2022-01-18 20:31:15 - sshInstance.py - [line:92] - root - INFO - nohup iperf -s -V&
+[?2004l[1] 25102
+[?2004hroot@npx:~# 
+[?2004l[?2004hroot@npx:~# nohup: ignoring input and appending output to 'nohup.out'
+
+2022-01-18 20:31:24 - sshInstance.py - [line:92] - root - INFO - exit
+[?2004llogout
+Connection to 192.168.122.163 closed.
+[?2004hroot@ubuntu:~# 
+2022-01-18 20:31:33 - sshInstance.py - [line:92] - root - INFO - nohup iperf -s -V&
+[1] 219462
+[root@npx-cyp7-rh82 ~]# 
+[root@npx-cyp7-rh82 ~]# nohup: ignoring input and appending output to 'nohup.out'
+
+2022-01-18 20:31:40 - sshInstance.py - [line:69] - root - INFO - ping -c 5 192.168.122.41
+[?2004lPING 192.168.122.41 (192.168.122.41) 56(84) bytes of data.
+64 bytes from 192.168.122.41: icmp_seq=1 ttl=64 time=0.513 ms
+2022-01-18 20:31:41 - sshInstance.py - [line:69] - root - INFO - 64 bytes from 192.168.122.41: icmp_seq=2 ttl=64 time=0.539 ms
+2022-01-18 20:31:42 - sshInstance.py - [line:69] - root - INFO - 64 bytes from 192.168.122.41: icmp_seq=3 ttl=64 time=0.369 ms
+2022-01-18 20:31:43 - sshInstance.py - [line:69] - root - INFO - 64 bytes from 192.168.122.41: icmp_seq=4 ttl=64 time=0.557 ms
+2022-01-18 20:31:44 - sshInstance.py - [line:69] - root - INFO - 64 bytes from 192.168.122.41: icmp_seq=5 ttl=64 time=0.368 ms
+
+--- 192.168.122.41 ping statistics ---
+5 packets transmitted, 5 received, 0% packet loss, time 4098ms
+rtt min/avg/max/mdev = 0.368/0.469/0.557/0.083 ms
+[?2004hroot@ubuntu:~# 
+2022-01-18 20:32:24 - sshInstance.py - [line:92] - root - INFO - ssh root@192.168.122.41
+[?2004lroot@192.168.122.41's password: 
+2022-01-18 20:32:33 - sshInstance.py - [line:92] - root - INFO - 
+Welcome to Ubuntu 21.04 (GNU/Linux 5.11.0-46-generic x86_64)
+ * Documentation:  https://help.ubuntu.com
+ * Management:     https://landscape.canonical.com
+ * Support:        https://ubuntu.com/advantage
+  System information as of Tue Jan 18 12:41:02 PM UTC 2022
+  System load: 0.83               Memory usage: 26%   Processes:       183
+  Usage of /:  67.6% of 18.57GB   Swap usage:   0%    Users logged in: 0
+  => There were exceptions while processing one or more plugins. See
+     /var/log/landscape/sysinfo.log for more information.
+
+63 updates can be installed immediately.
+0 of these updates are security updates.
+To see these additional updates run: apt list --upgradable
+New release '21.10' available.
+Run 'do-release-upgrade' to upgrade to it.
+
+Last login: Tue Jan 18 12:34:42 2022 from 192.168.122.1
+[?2004hroot@npx:~# 
+2022-01-18 20:32:43 - sshInstance.py - [line:92] - root - INFO - rm -rf /tmp/*.txt
+[?2004l[?2004hroot@npx:~# 
+2022-01-18 20:38:02 - sshInstance.py - [line:92] - root - INFO - iperf -c 192.168.10.13 -i 1 -f g -P 9 -t 300 > /tmp/iperf_ipv4_vm1_vm2.txt
+[?2004l[?2004hroot@npx:~# 
+2022-01-18 20:43:21 - sshInstance.py - [line:92] - root - INFO - iperf -c 192.168.10.11 -i 1 -f g -P 9 -t 300 > /tmp/iperf_ipv4_vm1_sut2.txt
+[?2004l[?2004hroot@npx:~# 
+2022-01-18 20:43:30 - sshInstance.py - [line:92] - root - INFO - exit
+[?2004llogout
+Connection to 192.168.122.41 closed.
+[?2004hroot@ubuntu:~# 
+2022-01-18 20:43:39 - sshInstance.py - [line:92] - root - INFO - rm -rf /tmp/*.txt
+[?2004l[?2004hroot@ubuntu:~# 
+2022-01-18 20:48:59 - sshInstance.py - [line:92] - root - INFO - iperf -c 192.168.10.11 -i 1 -f g -P 9 -t 300 > /tmp/iperf_ipv4_sut1_sut2.txt
+[?2004l[?2004hroot@ubuntu:~# 
+2022-01-18 20:49:08 - sshInstance.py - [line:92] - root - INFO - scp root@192.168.122.41:/tmp/*.txt /tmp
+[?2004lroot@192.168.122.41's password: 
+2022-01-18 20:49:17 - sshInstance.py - [line:92] - root - INFO - 
+iperf_ipv4_vm1_sut2.txt                         0%    0     0.0KB/s   --:-- ETAiperf_ipv4_vm1_sut2.txt                       100%  149KB  35.4MB/s   00:00    
+iperf_ipv4_vm1_vm2.txt                          0%    0     0.0KB/s   --:-- ETAiperf_ipv4_vm1_vm2.txt                        100%  149KB  44.9MB/s   00:00    
+[?2004hroot@ubuntu:~# 
+2022-01-18 20:49:20 - commonFunc.py - [line:16] - root - INFO - starting to execute the cmd: rm -rf /tmp/*.txt....
+2022-01-18 20:49:20 - commonFunc.py - [line:30] - root - INFO - 
+2022-01-18 20:49:20 - commonFunc.py - [line:31] - root - INFO - finished exeucting the cmd: rm -rf /tmp/*.txt
+2022-01-18 20:49:20 - test_network_sriov_stress.py - [line:775] - root - INFO - Successfully iperf ipv4 vm1 vm2
+2022-01-18 20:49:20 - test_network_sriov_stress.py - [line:775] - root - INFO - Successfully iperf ipv4 vm1 sut2
+2022-01-18 20:49:20 - test_network_sriov_stress.py - [line:775] - root - INFO - Successfully iperf ipv4 sut1 sut2
+2022-01-18 20:49:20 - test_network_sriov_stress.py - [line:776] - root - INFO - check ---end---
+.2022-01-18 20:49:20 - test_network_sriov_stress.py - [line:57] - root - INFO - this is the teardown of Test_Network_SRIOV_Stress.
+2022-01-18 20:49:23 - sshInstance.py - [line:44] - root - INFO - virsh destroy VMtest2
+2022-01-18 20:49:23 - sshInstance.py - [line:48] - root - INFO - Domain 'VMtest2' destroyed
+
+
+2022-01-18 20:49:28 - test_network_sriov_stress.py - [line:258] - root - INFO - Successfully shut down the VM: VMtest2
+2022-01-18 20:49:31 - sshInstance.py - [line:44] - root - INFO - virsh undefine VMtest2
+2022-01-18 20:49:31 - sshInstance.py - [line:48] - root - INFO - Domain 'VMtest2' has been undefined
+
+
+2022-01-18 20:49:36 - test_network_sriov_stress.py - [line:268] - root - INFO - Successfully removed the VM: VMtest2
+2022-01-18 20:49:39 - sshInstance.py - [line:44] - root - INFO - virsh destroy VMtest1
+2022-01-18 20:49:40 - sshInstance.py - [line:48] - root - INFO - Domain 'VMtest1' destroyed
+
+
+2022-01-18 20:49:45 - test_network_sriov_stress.py - [line:258] - root - INFO - Successfully shut down the VM: VMtest1
+2022-01-18 20:49:48 - sshInstance.py - [line:44] - root - INFO - virsh undefine VMtest1
+2022-01-18 20:49:48 - sshInstance.py - [line:48] - root - INFO - Domain 'VMtest1' has been undefined
+
+
+2022-01-18 20:49:53 - test_network_sriov_stress.py - [line:268] - root - INFO - Successfully removed the VM: VMtest1
+2022-01-18 20:49:53 - sshInstance.py - [line:39] - root - INFO - closing ssh client on SUT
+2022-01-18 20:49:53 - test_network_sriov_stress.py - [line:63] - root - INFO - =============================================Finished run the test case===============================================
+
+
+=============================== warnings summary ===============================
+npxtester/Tests/testNics/test_iperf_client_4hour.py:15
+  /root/.jenkins/workspace/iperf-vf-2hours-ipv4/npxtester/Tests/testNics/test_iperf_client_4hour.py:15: PytestUnknownMarkWarning: Unknown pytest.mark.iperf_tcp - is this a typo?  You can register custom marks to avoid this warning - for details, see https://docs.pytest.org/en/stable/mark.html
+    @pytest.mark.iperf_tcp
+
+npxtester/Tests/testNics/test_iperf_client_4hour.py:44
+  /root/.jenkins/workspace/iperf-vf-2hours-ipv4/npxtester/Tests/testNics/test_iperf_client_4hour.py:44: PytestUnknownMarkWarning: Unknown pytest.mark.iperf_udp - is this a typo?  You can register custom marks to avoid this warning - for details, see https://docs.pytest.org/en/stable/mark.html
+    @pytest.mark.iperf_udp
+
+npxtester/Tests/testNics/test_network_sriov_stress.py:362
+  /root/.jenkins/workspace/iperf-vf-2hours-ipv4/npxtester/Tests/testNics/test_network_sriov_stress.py:362: PytestUnknownMarkWarning: Unknown pytest.mark.nicRegression - is this a typo?  You can register custom marks to avoid this warning - for details, see https://docs.pytest.org/en/stable/mark.html
+    @pytest.mark.nicRegression
+
+npxtester/Tests/testNics/test_network_sriov_stress.py:363
+  /root/.jenkins/workspace/iperf-vf-2hours-ipv4/npxtester/Tests/testNics/test_network_sriov_stress.py:363: PytestUnknownMarkWarning: Unknown pytest.mark.nicSriov5times - is this a typo?  You can register custom marks to avoid this warning - for details, see https://docs.pytest.org/en/stable/mark.html
+    @pytest.mark.nicSriov5times
+
+npxtester/Tests/testNics/test_network_sriov_stress.py:479
+  /root/.jenkins/workspace/iperf-vf-2hours-ipv4/npxtester/Tests/testNics/test_network_sriov_stress.py:479: PytestUnknownMarkWarning: Unknown pytest.mark.nicRegression - is this a typo?  You can register custom marks to avoid this warning - for details, see https://docs.pytest.org/en/stable/mark.html
+    @pytest.mark.nicRegression
+
+npxtester/Tests/testNics/test_network_sriov_stress.py:480
+  /root/.jenkins/workspace/iperf-vf-2hours-ipv4/npxtester/Tests/testNics/test_network_sriov_stress.py:480: PytestUnknownMarkWarning: Unknown pytest.mark.nicSriov2hours - is this a typo?  You can register custom marks to avoid this warning - for details, see https://docs.pytest.org/en/stable/mark.html
+    @pytest.mark.nicSriov2hours
+
+npxtester/Tests/testNics/test_network_sriov_stress.py:778
+  /root/.jenkins/workspace/iperf-vf-2hours-ipv4/npxtester/Tests/testNics/test_network_sriov_stress.py:778: PytestUnknownMarkWarning: Unknown pytest.mark.SriovVfIperf - is this a typo?  You can register custom marks to avoid this warning - for details, see https://docs.pytest.org/en/stable/mark.html
+    @pytest.mark.SriovVfIperf
+
+npxtester/Tests/testNics/test_nics.py:34
+  /root/.jenkins/workspace/iperf-vf-2hours-ipv4/npxtester/Tests/testNics/test_nics.py:34: PytestUnknownMarkWarning: Unknown pytest.mark.nicSimple - is this a typo?  You can register custom marks to avoid this warning - for details, see https://docs.pytest.org/en/stable/mark.html
+    @pytest.mark.nicSimple
+
+npxtester/Tests/testNics/test_nics.py:35
+  /root/.jenkins/workspace/iperf-vf-2hours-ipv4/npxtester/Tests/testNics/test_nics.py:35: PytestUnknownMarkWarning: Unknown pytest.mark.nicRegression - is this a typo?  You can register custom marks to avoid this warning - for details, see https://docs.pytest.org/en/stable/mark.html
+    @pytest.mark.nicRegression
+
+npxtester/Tests/testNics/test_nics.py:60
+  /root/.jenkins/workspace/iperf-vf-2hours-ipv4/npxtester/Tests/testNics/test_nics.py:60: PytestUnknownMarkWarning: Unknown pytest.mark.nicSimple - is this a typo?  You can register custom marks to avoid this warning - for details, see https://docs.pytest.org/en/stable/mark.html
+    @pytest.mark.nicSimple
+
+npxtester/Tests/testNics/test_nics.py:61
+  /root/.jenkins/workspace/iperf-vf-2hours-ipv4/npxtester/Tests/testNics/test_nics.py:61: PytestUnknownMarkWarning: Unknown pytest.mark.bugtest1 - is this a typo?  You can register custom marks to avoid this warning - for details, see https://docs.pytest.org/en/stable/mark.html
+    @pytest.mark.bugtest1
+
+npxtester/Tests/testNics/test_nics.py:62
+  /root/.jenkins/workspace/iperf-vf-2hours-ipv4/npxtester/Tests/testNics/test_nics.py:62: PytestUnknownMarkWarning: Unknown pytest.mark.nicRegression - is this a typo?  You can register custom marks to avoid this warning - for details, see https://docs.pytest.org/en/stable/mark.html
+    @pytest.mark.nicRegression
+
+npxtester/Tests/testNics/test_nics.py:86
+  /root/.jenkins/workspace/iperf-vf-2hours-ipv4/npxtester/Tests/testNics/test_nics.py:86: PytestUnknownMarkWarning: Unknown pytest.mark.nicSimple - is this a typo?  You can register custom marks to avoid this warning - for details, see https://docs.pytest.org/en/stable/mark.html
+    @pytest.mark.nicSimple
+
+npxtester/Tests/testNics/test_nics.py:87
+  /root/.jenkins/workspace/iperf-vf-2hours-ipv4/npxtester/Tests/testNics/test_nics.py:87: PytestUnknownMarkWarning: Unknown pytest.mark.nicRegression - is this a typo?  You can register custom marks to avoid this warning - for details, see https://docs.pytest.org/en/stable/mark.html
+    @pytest.mark.nicRegression
+
+-- Docs: https://docs.pytest.org/en/stable/warnings.html
+- generated html file: file:///root/testconfig/testlogs/HtmlReport/sriov_iperfvf_2hours_ipv4.html -
+========== 1 passed, 12 deselected, 14 warnings in 1662.90s (0:27:42) ==========
+[8mha:////4LYnTL2kHEK3xk4r0Ko1+Seo0jzleqkNHqW+48vbd8D5AAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiGoSEqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDyFBu95/avQHhgNoTvgAAAA==[0m[Pipeline] }
+[8mha:////4NMYSizRLQ1dZuwWSEHzgQ6w9lPsBbHRCtMg5H1rEwslAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiCgqEqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDyFBu95/avQH+Ao9BvgAAAA==[0m[Pipeline] // stage
+[8mha:////4DKXsabp5/afXFSsWLUBDHMQEXD3jgAzV8WEfOF26pEaAAAAox+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMJBiA5R0VppeIFJjHFi3QX7QlLxIr7GH4iIRMVWO9PM641lijhydKqx1HpKlVdd6N301MCxvQYeVMMXVTElDlaVdii5tqcZSxaLeVmOhcbKUhU4eXKCtW7MwxTBkCvOEid30Mh9fccTmZ7KYqJ8YYzY3Po6Mf06fwMYu06Q77aCbP8BK1nRVL0AAAA=[0m[Pipeline] }
+[8mha:////4HmorPDDfMRqsF6zz9/2vCOvXnWMSW4cx9qE6GTxL9MFAAAAoh+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIRUCIqWisNLzCJMU6su2BfSCpexNf4AxGRqNhqZ5p5vbFMEUeOTjWWWk+p8qoLvZueGji218CDaviiKqbEwarSDiXX9jRjyWIxL8ux0FhZqgInT06w1o15mCIYcsVZ4uQOGrmv73gi01NZTJQvjBGbW18npl/nbwBj1wny3VaQ7T845dX3vQAAAA==[0m[Pipeline] // node
+[8mha:////4BE+fprF9eommgtvg+AAT8POwnI+05QgEWtQ8SEssetUAAAAoh+LCAAAAAAAAP9tjbEOgjAURS8YB1dHP6IkrMbJtWHxCyrUWmjeg/YhTH6Rv+Y/SCRx8k73nOW83timiBNHp1pLnadUe9WH0S1PTRy7W+BJtXxVNVPiYFVlp4obe16xYrFYl+XYaOws1YGTJyfY69Y8TBEMueIicXFHjdw3A57I9FIWE+ULc8ThPjaJ6df5G8Dc94K8LAVZ+QF+r3LHvQAAAA==[0m[Pipeline] End of Pipeline
+Finished: SUCCESS

@@ -1,0 +1,371 @@
+Started by timer
+Running as SYSTEM
+Building remotely on [8mha:////4LafVuX3eTQLm8yF81fMq4k6u04xgOhoE2RdYhqdKBmyAAAApB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAy+EgYJ/eT83ILSktQi/azUvOzMvOL4pMTk7NICAAghILnNAAAA[0mjenkins_backup in workspace /root/.jenkins/workspace/jenkins-backup
+[jenkins-backup] $ /bin/bash /tmp/jenkins591041948442777303.sh
++ '[' -e /var/lib/jenkins/index.lock ']'
++ cd /home/jenkins_home
++ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   jenkins/credentials.xml
+	deleted:    jenkins/fingerprints/3f/f4/edc55e56af3f9904ae2c94ac7f26.xml
+	modified:   jenkins/fingerprints/b0/93/d59ef8794b435bdc7c8894d17dbf.xml
+	modified:   jenkins/jobs/jenkins-backup/builds/41/log
+	modified:   jenkins/jobs/jenkins-backup/builds/permalinks
+	modified:   jenkins/jobs/jenkins-backup/nextBuildNumber
+	modified:   jenkins/jobs/test-nic/builds/permalinks
+	modified:   jenkins/jobs/test-nic/config.xml
+	modified:   jenkins/jobs/test-nic/nextBuildNumber
+	modified:   jenkins/logs/health-checker.log
+	deleted:    jenkins/logs/slaves/test-nic/slave.log
+	deleted:    jenkins/logs/slaves/test-nic/slave.log.1
+	deleted:    jenkins/logs/slaves/test-nic/slave.log.10
+	deleted:    jenkins/logs/slaves/test-nic/slave.log.2
+	deleted:    jenkins/logs/slaves/test-nic/slave.log.3
+	deleted:    jenkins/logs/slaves/test-nic/slave.log.4
+	deleted:    jenkins/logs/slaves/test-nic/slave.log.5
+	deleted:    jenkins/logs/slaves/test-nic/slave.log.6
+	deleted:    jenkins/logs/slaves/test-nic/slave.log.7
+	deleted:    jenkins/logs/slaves/test-nic/slave.log.8
+	deleted:    jenkins/logs/slaves/test-nic/slave.log.9
+	modified:   jenkins/logs/tasks/Download metadata.log
+	modified:   jenkins/logs/tasks/Download metadata.log.1
+	modified:   jenkins/logs/tasks/Download metadata.log.2
+	modified:   jenkins/logs/tasks/Download metadata.log.3
+	modified:   jenkins/logs/tasks/Download metadata.log.4
+	modified:   jenkins/logs/tasks/Download metadata.log.5
+	modified:   jenkins/logs/tasks/Fingerprint cleanup.log
+	modified:   jenkins/logs/tasks/Fingerprint cleanup.log.1
+	modified:   jenkins/logs/tasks/Fingerprint cleanup.log.2
+	modified:   jenkins/logs/tasks/Fingerprint cleanup.log.3
+	modified:   jenkins/logs/tasks/Fingerprint cleanup.log.4
+	modified:   jenkins/logs/tasks/Fingerprint cleanup.log.5
+	modified:   jenkins/logs/tasks/Periodic background build discarder.log
+	modified:   jenkins/logs/tasks/Periodic background build discarder.log.1
+	modified:   jenkins/logs/tasks/Periodic background build discarder.log.2
+	modified:   jenkins/logs/tasks/Periodic background build discarder.log.3
+	modified:   jenkins/logs/tasks/Periodic background build discarder.log.4
+	modified:   jenkins/logs/tasks/Periodic background build discarder.log.5
+	modified:   jenkins/logs/tasks/Workspace clean-up.log
+	modified:   jenkins/logs/tasks/telemetry collection.log
+	modified:   jenkins/logs/tasks/telemetry collection.log.1
+	modified:   jenkins/logs/tasks/telemetry collection.log.2
+	modified:   jenkins/logs/tasks/telemetry collection.log.3
+	modified:   jenkins/logs/tasks/telemetry collection.log.4
+	modified:   jenkins/logs/tasks/telemetry collection.log.5
+	deleted:    jenkins/nodes/test-nic/config.xml
+	deleted:    jenkins/nodes/test-nic/ssh-host-key.xml
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	jenkins/fingerprints/0c/
+	jenkins/jobs/jenkins-backup/builds/41/build.xml
+	jenkins/jobs/jenkins-backup/builds/42/
+	jenkins/jobs/test-nic/builds/100/
+	jenkins/jobs/test-nic/builds/101/
+	jenkins/jobs/test-nic/builds/102/
+	jenkins/jobs/test-nic/builds/103/
+	jenkins/jobs/test-nic/builds/89/
+	jenkins/jobs/test-nic/builds/90/
+	jenkins/jobs/test-nic/builds/91/
+	jenkins/jobs/test-nic/builds/92/
+	jenkins/jobs/test-nic/builds/93/
+	jenkins/jobs/test-nic/builds/94/
+	jenkins/jobs/test-nic/builds/95/
+	jenkins/jobs/test-nic/builds/96/
+	jenkins/jobs/test-nic/builds/97/
+	jenkins/jobs/test-nic/builds/98/
+	jenkins/jobs/test-nic/builds/99/
+	jenkins/logs/slaves/cyp10-remote/
+	jenkins/nodes/cyp10-remote/
+	jenkins/queue.xml
+
+no changes added to commit (use "git add" and/or "git commit -a")
++ git add -A
+++ date
++ git commit -s -m 'Jenkins backup at Wed Nov 24 03:06:25 CST 2021'
+Auto packing the repository in background for optimum performance.
+See "git help gc" for manual housekeeping.
+error: The last gc run reported the following. Please correct the root cause
+and remove .git/gc.log.
+Automatic cleanup will not be performed until the file is removed.
+
+error: pack-objects died of signal 15
+error: failed to run repack
+
+[master 888ad45] Jenkins backup at Wed Nov 24 03:06:25 CST 2021
+ Committer: root <root@ying-k8s-jenkins.sh.intel.com>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 271 files changed, 11979 insertions(+), 1131 deletions(-)
+ create mode 100644 jenkins/fingerprints/0c/81/7f39df6213cc7ae8a43759750301.xml
+ delete mode 100644 jenkins/fingerprints/3f/f4/edc55e56af3f9904ae2c94ac7f26.xml
+ create mode 100644 jenkins/jobs/jenkins-backup/builds/41/build.xml
+ create mode 100644 jenkins/jobs/jenkins-backup/builds/42/changelog.xml
+ create mode 100644 jenkins/jobs/jenkins-backup/builds/42/log
+ create mode 100644 jenkins/jobs/test-nic/builds/100/build.xml
+ create mode 100644 jenkins/jobs/test-nic/builds/100/log
+ create mode 100644 jenkins/jobs/test-nic/builds/100/log-index
+ create mode 100644 jenkins/jobs/test-nic/builds/101/build.xml
+ create mode 100644 jenkins/jobs/test-nic/builds/101/log
+ create mode 100644 jenkins/jobs/test-nic/builds/101/log-index
+ create mode 100644 jenkins/jobs/test-nic/builds/102/build.xml
+ create mode 100644 jenkins/jobs/test-nic/builds/102/log
+ create mode 100644 jenkins/jobs/test-nic/builds/102/log-index
+ create mode 100644 jenkins/jobs/test-nic/builds/102/workflow/10.xml
+ create mode 100644 jenkins/jobs/test-nic/builds/102/workflow/11.xml
+ create mode 100644 jenkins/jobs/test-nic/builds/102/workflow/12.xml
+ create mode 100644 jenkins/jobs/test-nic/builds/102/workflow/13.xml
+ create mode 100644 jenkins/jobs/test-nic/builds/102/workflow/14.xml
+ create mode 100644 jenkins/jobs/test-nic/builds/102/workflow/15.xml
+ create mode 100644 jenkins/jobs/test-nic/builds/102/workflow/16.xml
+ create mode 100644 jenkins/jobs/test-nic/builds/102/workflow/17.xml
+ create mode 100644 jenkins/jobs/test-nic/builds/102/workflow/18.xml
+ create mode 100644 jenkins/jobs/test-nic/builds/102/workflow/19.xml
+ create mode 100644 jenkins/jobs/test-nic/builds/102/workflow/2.xml
+ create mode 100644 jenkins/jobs/test-nic/builds/102/workflow/3.xml
+ create mode 100644 jenkins/jobs/test-nic/builds/102/workflow/4.xml
+ create mode 100644 jenkins/jobs/test-nic/builds/102/workflow/5.xml
+ create mode 100644 jenkins/jobs/test-nic/builds/102/workflow/6.xml
+ create mode 100644 jenkins/jobs/test-nic/builds/102/workflow/7.xml
+ create mode 100644 jenkins/jobs/test-nic/builds/102/workflow/8.xml
+ create mode 100644 jenkins/jobs/test-nic/builds/102/workflow/9.xml
+ create mode 100644 jenkins/jobs/test-nic/builds/103/build.xml
+ create mode 100644 jenkins/jobs/test-nic/builds/103/log
+ create mode 100644 jenkins/jobs/test-nic/builds/103/log-index
+ create mode 100644 jenkins/jobs/test-nic/builds/103/workflow/10.xml
+ create mode 100644 jenkins/jobs/test-nic/builds/103/workflow/11.xml
+ create mode 100644 jenkins/jobs/test-nic/builds/103/workflow/12.xml
+ create mode 100644 jenkins/jobs/test-nic/builds/103/workflow/13.xml
+ create mode 100644 jenkins/jobs/test-nic/builds/103/workflow/14.xml
+ create mode 100644 jenkins/jobs/test-nic/builds/103/workflow/15.xml
+ create mode 100644 jenkins/jobs/test-nic/builds/103/workflow/16.xml
+ create mode 100644 jenkins/jobs/test-nic/builds/103/workflow/17.xml
+ create mode 100644 jenkins/jobs/test-nic/builds/103/workflow/18.xml
+ create mode 100644 jenkins/jobs/test-nic/builds/103/workflow/19.xml
+ create mode 100644 jenkins/jobs/test-nic/builds/103/workflow/2.xml
+ create mode 100644 jenkins/jobs/test-nic/builds/103/workflow/20.xml
+ create mode 100644 jenkins/jobs/test-nic/builds/103/workflow/21.xml
+ create mode 100644 jenkins/jobs/test-nic/builds/103/workflow/3.xml
+ create mode 100644 jenkins/jobs/test-nic/builds/103/workflow/4.xml
+ create mode 100644 jenkins/jobs/test-nic/builds/103/workflow/5.xml
+ create mode 100644 jenkins/jobs/test-nic/builds/103/workflow/6.xml
+ create mode 100644 jenkins/jobs/test-nic/builds/103/workflow/7.xml
+ create mode 100644 jenkins/jobs/test-nic/builds/103/workflow/8.xml
+ create mode 100644 jenkins/jobs/test-nic/builds/103/workflow/9.xml
+ create mode 100644 jenkins/jobs/test-nic/builds/89/build.xml
+ create mode 100644 jenkins/jobs/test-nic/builds/89/log
+ create mode 100644 jenkins/jobs/test-nic/builds/89/log-index
+ create mode 100644 jenkins/jobs/test-nic/builds/89/workflow/10.xml
+ create mode 100644 jenkins/jobs/test-nic/builds/89/workflow/11.xml
+ create mode 100644 jenkins/jobs/test-nic/builds/89/workflow/12.xml
+ create mode 100644 jenkins/jobs/test-nic/builds/89/workflow/13.xml
+ create mode 100644 jenkins/jobs/test-nic/builds/89/workflow/14.xml
+ create mode 100644 jenkins/jobs/test-nic/builds/89/workflow/15.xml
+ create mode 100644 jenkins/jobs/test-nic/builds/89/workflow/16.xml
+ create mode 100644 jenkins/jobs/test-nic/builds/89/workflow/2.xml
+ create mode 100644 jenkins/jobs/test-nic/builds/89/workflow/3.xml
+ create mode 100644 jenkins/jobs/test-nic/builds/89/workflow/4.xml
+ create mode 100644 jenkins/jobs/test-nic/builds/89/workflow/5.xml
+ create mode 100644 jenkins/jobs/test-nic/builds/89/workflow/6.xml
+ create mode 100644 jenkins/jobs/test-nic/builds/89/workflow/7.xml
+ create mode 100644 jenkins/jobs/test-nic/builds/89/workflow/8.xml
+ create mode 100644 jenkins/jobs/test-nic/builds/89/workflow/9.xml
+ create mode 100644 jenkins/jobs/test-nic/builds/90/build.xml
+ create mode 100644 jenkins/jobs/test-nic/builds/90/log
+ create mode 100644 jenkins/jobs/test-nic/builds/90/log-index
+ create mode 100644 jenkins/jobs/test-nic/builds/90/workflow/10.xml
+ create mode 100644 jenkins/jobs/test-nic/builds/90/workflow/11.xml
+ create mode 100644 jenkins/jobs/test-nic/builds/90/workflow/12.xml
+ create mode 100644 jenkins/jobs/test-nic/builds/90/workflow/13.xml
+ create mode 100644 jenkins/jobs/test-nic/builds/90/workflow/14.xml
+ create mode 100644 jenkins/jobs/test-nic/builds/90/workflow/15.xml
+ create mode 100644 jenkins/jobs/test-nic/builds/90/workflow/16.xml
+ create mode 100644 jenkins/jobs/test-nic/builds/90/workflow/17.xml
+ create mode 100644 jenkins/jobs/test-nic/builds/90/workflow/18.xml
+ create mode 100644 jenkins/jobs/test-nic/builds/90/workflow/19.xml
+ create mode 100644 jenkins/jobs/test-nic/builds/90/workflow/2.xml
+ create mode 100644 jenkins/jobs/test-nic/builds/90/workflow/20.xml
+ create mode 100644 jenkins/jobs/test-nic/builds/90/workflow/3.xml
+ create mode 100644 jenkins/jobs/test-nic/builds/90/workflow/4.xml
+ create mode 100644 jenkins/jobs/test-nic/builds/90/workflow/5.xml
+ create mode 100644 jenkins/jobs/test-nic/builds/90/workflow/6.xml
+ create mode 100644 jenkins/jobs/test-nic/builds/90/workflow/7.xml
+ create mode 100644 jenkins/jobs/test-nic/builds/90/workflow/8.xml
+ create mode 100644 jenkins/jobs/test-nic/builds/90/workflow/9.xml
+ create mode 100644 jenkins/jobs/test-nic/builds/91/build.xml
+ create mode 100644 jenkins/jobs/test-nic/builds/91/log
+ create mode 100644 jenkins/jobs/test-nic/builds/91/log-index
+ create mode 100644 jenkins/jobs/test-nic/builds/91/workflow/10.xml
+ create mode 100644 jenkins/jobs/test-nic/builds/91/workflow/11.xml
+ create mode 100644 jenkins/jobs/test-nic/builds/91/workflow/12.xml
+ create mode 100644 jenkins/jobs/test-nic/builds/91/workflow/13.xml
+ create mode 100644 jenkins/jobs/test-nic/builds/91/workflow/14.xml
+ create mode 100644 jenkins/jobs/test-nic/builds/91/workflow/15.xml
+ create mode 100644 jenkins/jobs/test-nic/builds/91/workflow/16.xml
+ create mode 100644 jenkins/jobs/test-nic/builds/91/workflow/17.xml
+ create mode 100644 jenkins/jobs/test-nic/builds/91/workflow/18.xml
+ create mode 100644 jenkins/jobs/test-nic/builds/91/workflow/19.xml
+ create mode 100644 jenkins/jobs/test-nic/builds/91/workflow/2.xml
+ create mode 100644 jenkins/jobs/test-nic/builds/91/workflow/20.xml
+ create mode 100644 jenkins/jobs/test-nic/builds/91/workflow/21.xml
+ create mode 100644 jenkins/jobs/test-nic/builds/91/workflow/3.xml
+ create mode 100644 jenkins/jobs/test-nic/builds/91/workflow/4.xml
+ create mode 100644 jenkins/jobs/test-nic/builds/91/workflow/5.xml
+ create mode 100644 jenkins/jobs/test-nic/builds/91/workflow/6.xml
+ create mode 100644 jenkins/jobs/test-nic/builds/91/workflow/7.xml
+ create mode 100644 jenkins/jobs/test-nic/builds/91/workflow/8.xml
+ create mode 100644 jenkins/jobs/test-nic/builds/91/workflow/9.xml
+ create mode 100644 jenkins/jobs/test-nic/builds/92/build.xml
+ create mode 100644 jenkins/jobs/test-nic/builds/92/log
+ create mode 100644 jenkins/jobs/test-nic/builds/92/log-index
+ create mode 100644 jenkins/jobs/test-nic/builds/92/workflow/10.xml
+ create mode 100644 jenkins/jobs/test-nic/builds/92/workflow/11.xml
+ create mode 100644 jenkins/jobs/test-nic/builds/92/workflow/12.xml
+ create mode 100644 jenkins/jobs/test-nic/builds/92/workflow/13.xml
+ create mode 100644 jenkins/jobs/test-nic/builds/92/workflow/14.xml
+ create mode 100644 jenkins/jobs/test-nic/builds/92/workflow/15.xml
+ create mode 100644 jenkins/jobs/test-nic/builds/92/workflow/16.xml
+ create mode 100644 jenkins/jobs/test-nic/builds/92/workflow/17.xml
+ create mode 100644 jenkins/jobs/test-nic/builds/92/workflow/18.xml
+ create mode 100644 jenkins/jobs/test-nic/builds/92/workflow/19.xml
+ create mode 100644 jenkins/jobs/test-nic/builds/92/workflow/2.xml
+ create mode 100644 jenkins/jobs/test-nic/builds/92/workflow/20.xml
+ create mode 100644 jenkins/jobs/test-nic/builds/92/workflow/21.xml
+ create mode 100644 jenkins/jobs/test-nic/builds/92/workflow/3.xml
+ create mode 100644 jenkins/jobs/test-nic/builds/92/workflow/4.xml
+ create mode 100644 jenkins/jobs/test-nic/builds/92/workflow/5.xml
+ create mode 100644 jenkins/jobs/test-nic/builds/92/workflow/6.xml
+ create mode 100644 jenkins/jobs/test-nic/builds/92/workflow/7.xml
+ create mode 100644 jenkins/jobs/test-nic/builds/92/workflow/8.xml
+ create mode 100644 jenkins/jobs/test-nic/builds/92/workflow/9.xml
+ create mode 100644 jenkins/jobs/test-nic/builds/93/build.xml
+ create mode 100644 jenkins/jobs/test-nic/builds/93/log
+ create mode 100644 jenkins/jobs/test-nic/builds/93/log-index
+ create mode 100644 jenkins/jobs/test-nic/builds/93/workflow/10.xml
+ create mode 100644 jenkins/jobs/test-nic/builds/93/workflow/11.xml
+ create mode 100644 jenkins/jobs/test-nic/builds/93/workflow/12.xml
+ create mode 100644 jenkins/jobs/test-nic/builds/93/workflow/13.xml
+ create mode 100644 jenkins/jobs/test-nic/builds/93/workflow/14.xml
+ create mode 100644 jenkins/jobs/test-nic/builds/93/workflow/15.xml
+ create mode 100644 jenkins/jobs/test-nic/builds/93/workflow/16.xml
+ create mode 100644 jenkins/jobs/test-nic/builds/93/workflow/17.xml
+ create mode 100644 jenkins/jobs/test-nic/builds/93/workflow/18.xml
+ create mode 100644 jenkins/jobs/test-nic/builds/93/workflow/19.xml
+ create mode 100644 jenkins/jobs/test-nic/builds/93/workflow/2.xml
+ create mode 100644 jenkins/jobs/test-nic/builds/93/workflow/20.xml
+ create mode 100644 jenkins/jobs/test-nic/builds/93/workflow/21.xml
+ create mode 100644 jenkins/jobs/test-nic/builds/93/workflow/3.xml
+ create mode 100644 jenkins/jobs/test-nic/builds/93/workflow/4.xml
+ create mode 100644 jenkins/jobs/test-nic/builds/93/workflow/5.xml
+ create mode 100644 jenkins/jobs/test-nic/builds/93/workflow/6.xml
+ create mode 100644 jenkins/jobs/test-nic/builds/93/workflow/7.xml
+ create mode 100644 jenkins/jobs/test-nic/builds/93/workflow/8.xml
+ create mode 100644 jenkins/jobs/test-nic/builds/93/workflow/9.xml
+ create mode 100644 jenkins/jobs/test-nic/builds/94/build.xml
+ create mode 100644 jenkins/jobs/test-nic/builds/94/log
+ create mode 100644 jenkins/jobs/test-nic/builds/94/log-index
+ create mode 100644 jenkins/jobs/test-nic/builds/94/workflow/10.xml
+ create mode 100644 jenkins/jobs/test-nic/builds/94/workflow/11.xml
+ create mode 100644 jenkins/jobs/test-nic/builds/94/workflow/12.xml
+ create mode 100644 jenkins/jobs/test-nic/builds/94/workflow/13.xml
+ create mode 100644 jenkins/jobs/test-nic/builds/94/workflow/14.xml
+ create mode 100644 jenkins/jobs/test-nic/builds/94/workflow/15.xml
+ create mode 100644 jenkins/jobs/test-nic/builds/94/workflow/16.xml
+ create mode 100644 jenkins/jobs/test-nic/builds/94/workflow/17.xml
+ create mode 100644 jenkins/jobs/test-nic/builds/94/workflow/18.xml
+ create mode 100644 jenkins/jobs/test-nic/builds/94/workflow/19.xml
+ create mode 100644 jenkins/jobs/test-nic/builds/94/workflow/2.xml
+ create mode 100644 jenkins/jobs/test-nic/builds/94/workflow/20.xml
+ create mode 100644 jenkins/jobs/test-nic/builds/94/workflow/21.xml
+ create mode 100644 jenkins/jobs/test-nic/builds/94/workflow/22.xml
+ create mode 100644 jenkins/jobs/test-nic/builds/94/workflow/3.xml
+ create mode 100644 jenkins/jobs/test-nic/builds/94/workflow/4.xml
+ create mode 100644 jenkins/jobs/test-nic/builds/94/workflow/5.xml
+ create mode 100644 jenkins/jobs/test-nic/builds/94/workflow/6.xml
+ create mode 100644 jenkins/jobs/test-nic/builds/94/workflow/7.xml
+ create mode 100644 jenkins/jobs/test-nic/builds/94/workflow/8.xml
+ create mode 100644 jenkins/jobs/test-nic/builds/94/workflow/9.xml
+ create mode 100644 jenkins/jobs/test-nic/builds/95/build.xml
+ create mode 100644 jenkins/jobs/test-nic/builds/95/log
+ create mode 100644 jenkins/jobs/test-nic/builds/95/log-index
+ create mode 100644 jenkins/jobs/test-nic/builds/95/workflow/10.xml
+ create mode 100644 jenkins/jobs/test-nic/builds/95/workflow/11.xml
+ create mode 100644 jenkins/jobs/test-nic/builds/95/workflow/12.xml
+ create mode 100644 jenkins/jobs/test-nic/builds/95/workflow/13.xml
+ create mode 100644 jenkins/jobs/test-nic/builds/95/workflow/14.xml
+ create mode 100644 jenkins/jobs/test-nic/builds/95/workflow/15.xml
+ create mode 100644 jenkins/jobs/test-nic/builds/95/workflow/16.xml
+ create mode 100644 jenkins/jobs/test-nic/builds/95/workflow/17.xml
+ create mode 100644 jenkins/jobs/test-nic/builds/95/workflow/18.xml
+ create mode 100644 jenkins/jobs/test-nic/builds/95/workflow/19.xml
+ create mode 100644 jenkins/jobs/test-nic/builds/95/workflow/2.xml
+ create mode 100644 jenkins/jobs/test-nic/builds/95/workflow/20.xml
+ create mode 100644 jenkins/jobs/test-nic/builds/95/workflow/3.xml
+ create mode 100644 jenkins/jobs/test-nic/builds/95/workflow/4.xml
+ create mode 100644 jenkins/jobs/test-nic/builds/95/workflow/5.xml
+ create mode 100644 jenkins/jobs/test-nic/builds/95/workflow/6.xml
+ create mode 100644 jenkins/jobs/test-nic/builds/95/workflow/7.xml
+ create mode 100644 jenkins/jobs/test-nic/builds/95/workflow/8.xml
+ create mode 100644 jenkins/jobs/test-nic/builds/95/workflow/9.xml
+ create mode 100644 jenkins/jobs/test-nic/builds/96/build.xml
+ create mode 100644 jenkins/jobs/test-nic/builds/96/log
+ create mode 100644 jenkins/jobs/test-nic/builds/96/log-index
+ create mode 100644 jenkins/jobs/test-nic/builds/97/build.xml
+ create mode 100644 jenkins/jobs/test-nic/builds/97/log
+ create mode 100644 jenkins/jobs/test-nic/builds/97/log-index
+ create mode 100644 jenkins/jobs/test-nic/builds/98/build.xml
+ create mode 100644 jenkins/jobs/test-nic/builds/98/log
+ create mode 100644 jenkins/jobs/test-nic/builds/98/log-index
+ create mode 100644 jenkins/jobs/test-nic/builds/99/build.xml
+ create mode 100644 jenkins/jobs/test-nic/builds/99/log
+ create mode 100644 jenkins/jobs/test-nic/builds/99/log-index
+ create mode 100644 jenkins/logs/slaves/cyp10-remote/slave.log
+ delete mode 100644 jenkins/logs/slaves/test-nic/slave.log
+ delete mode 100644 jenkins/logs/slaves/test-nic/slave.log.1
+ delete mode 100644 jenkins/logs/slaves/test-nic/slave.log.10
+ delete mode 100644 jenkins/logs/slaves/test-nic/slave.log.2
+ delete mode 100644 jenkins/logs/slaves/test-nic/slave.log.3
+ delete mode 100644 jenkins/logs/slaves/test-nic/slave.log.4
+ delete mode 100644 jenkins/logs/slaves/test-nic/slave.log.5
+ delete mode 100644 jenkins/logs/slaves/test-nic/slave.log.6
+ delete mode 100644 jenkins/logs/slaves/test-nic/slave.log.7
+ delete mode 100644 jenkins/logs/slaves/test-nic/slave.log.8
+ delete mode 100644 jenkins/logs/slaves/test-nic/slave.log.9
+ copy jenkins/logs/tasks/{Periodic background build discarder.log.2 => Periodic background build discarder.log.1} (66%)
+ rewrite jenkins/logs/tasks/Periodic background build discarder.log.2 (74%)
+ rename jenkins/nodes/{test-nic => cyp10-remote}/config.xml (60%)
+ delete mode 100644 jenkins/nodes/test-nic/ssh-host-key.xml
+ create mode 100644 jenkins/queue.xml
++ git push origin HEAD:master
+Welcome to Intel Hardened OS
+remote: 
+remote: ========================================================================        
+remote: 
+remote:     GitLab failover to FM datacenter completed successfully. Please        
+remote:                      file a [support ticket if any        
+remote:    issues](https://it.intel.com/#/searchResult/gitlab). More details        
+remote:                                    on        
+remote: [yammer](https://web.yammer.com/main/threads/eyJfdHlwZSI6IlRocmVhZCIsImlkIjoiMTQ3Njc1NzcwMzQ1ODgxNiJ9)        
+remote: 
+remote: ========================================================================        
+remote: 
+To ssh://gitlab.devtools.intel.com:29418/yzhao18/jenkins-backup.git
+   6dce6c6..888ad45  HEAD -> master
+Finished: SUCCESS

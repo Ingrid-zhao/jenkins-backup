@@ -1,0 +1,338 @@
+Started by user [8mha:////4C8zTO/v0UlG+vQ5Fjm5jTf9kR93yL5yxTMP2X04T9v8AAAAlh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyWEgYu/dLi1CL9ovz8EgDKVWzSvwAAAA==[0mroot
+Running in Durability level: MAX_SURVIVABILITY
+[8mha:////4DOlrZhma2TKYqx8mtRBwGXVE8Xt4z3OJyo/zi+ICDdzAAAAoh+LCAAAAAAAAP9tjTEOwjAQBM8BClpKHuFItIiK1krDC0x8GCfWnbEdkooX8TX+gCESFVvtrLSa5wtWKcKBo5UdUu8otU4GP9jS5Mixv3geZcdn2TIl9igbHBs2eJyx4YwwR1SwULBGaj0nRzbDRnX6rmuvydanHMu2V1A5c4MHCFXMWcf8hSnC9jqYxPTz/BXAFEIGsfuclm8zQVqFvQAAAA==[0m[Pipeline] Start of Pipeline
+[8mha:////4B4K7nOhvaaLmbeE3w0NEhE1GAALwLDjakw9plXgkY6XAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycohUghExsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jduZBmjwAAAAA==[0m[Pipeline] node
+Running on [8mha:////4B9Psk2XgowbhPf3YaoofcjnCEzxPj3KmUkXJb9c+rI0AAAApB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz+EgYp/eT83ILSktQi/cTSknxdoK6SovycHCAfANhVmRrPAAAA[0mauto-controller in /root/.jenkins/workspace/test-nic-sriov-stress-2h
+[8mha:////4NUxBMzN6CtFAbQ4pdo7pH8ZuwVHigLf0SdP3FcjQTwyAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gA0xsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jfoP95RwAAAAA==[0m[Pipeline] {
+[8mha:////4OCB1+Up79PmV3LnMeomKr9r+JFCKkFjAfTpr2UorbLOAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gQkxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jc09154wAAAAA==[0m[Pipeline] stage
+[8mha:////4N6KQN35K8CT/Pcr9a+R4oOEu4uEh3phvpB1t67zd2hmAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0ggUxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jek7ggRwAAAAA==[0m[Pipeline] { (set args)
+[8mha:////4KpTcsSlLG7yEvo1vGv2QG1z86HMYkLASFXVuKwhd7SZAAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQTbaWGsbAmNJ0AWEZb8zwLrbuWJvJp3kLiJlZNMMm+a93rDOic4UbLcG+wdZu14DKOti0+U+lugiXu6ck2YKRguzSSpM+cFJRUDS1gDKwEbgzpQdmgLbIVXD9UGhba9lFS/o4DGdQM8gYlqLiqVL8wJdvexy4Q/z18BzLEA29ce4gfg7KmOvAAAAA==[0m[Pipeline] sh
++ python /root/.jenkins/workspace/test-nic-sriov-stress-2h/npxtester/conf/change_args.py '{"dpdk_dir":"/opt/APP/utility/DPDK_install/dpdk-stable-20.11.3/","vm_image_conf":{"image1":"rvm1.img","image2":"rvm2.img","image3":"rhel84rt.img","image4":"rhel84rt2.img","image_dir":"/home/image"},"sut_conf":{"host":"10.112.97.162","connect_switch_sut_pf":"ens66f0","pf1":"ens66f0","pf1_ipv6":"fe80::b696:91ff:fe9c:f9fc","os":"rehat"},"dhcp":{"ipv4":"192.168.3.80","ipv6":"fe80::3efd:feff:fed2:7411"}}'
+[8mha:////4ChDQWb8Lvr0RoXQ1L8EY4p37+Po0Q8Mb8bchs8JeqDJAAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQTbGRNjZUtoPAGyiLDkfxZYdytP5NW8g8RNrJxkknnTvNcb1jnBiZLl3mDvMGvHYxhtXXyi1N8CTdzTlWvCTMFwaSZJnTkvKKkYWMIaWAnYGNSBskNbYCu8eqg2KLTtpaT6HQU0rhvgCUxUc1GpfGFOsLuPXSb8ef4KYI6xADvU7j9Dg2gqvAAAAA==[0m[Pipeline] }
+[8mha:////4J0p4zt/+On27QitkvU5TFB8M2wwWYWaAHIuYiUer4fkAAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQRbWRhjZUtoPAGyiLDkfxZYdytP5NW8g8RNrJxkknnTvNcb1jnBiZLl3mDvMGvHYxhtXXyi1N8CTdzTlWvCTMFwaSZJnTkvKKkYWMIaWAnYGNSBskNbYCu8eqg2KLTtpaT6HQU0rhvgCUxUc1GpfGFOsLuPXSb8ef4KYI6xADvU7j9J+wGOvAAAAA==[0m[Pipeline] // stage
+[8mha:////4Ea3/4ZYuTM98yMZ9UntzMXOyQ2ItSOm6XAUUO4QqkITAAAAph+LCAAAAAAAAP9tjTEOwjAQBM9BKWgpeYQDEh2iorXc8AITG+PEugv2haTiRXyNPxCIRMVWOyut5vmCMic4UPKycdgGzHWQXez91ORAqb1EGmRDZ1kTZopOajdosu44oyZ2MEcUsFCwdFhHygE9w0o15m6qaNBXJ07TtldQBHuDBwg1mdkk/sKYYH3tbSb8ef4KYOwYxI6h2G4+x/INtuQqUcEAAAA=[0m[Pipeline] stage
+[8mha:////4IJd0qxfNFkcgwUT9OFke9rxaJjwCH2G9mHJ+5FMmbLfAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+DOrAycoiUzoiJNerCCUITQtLo/zZJSSdOxNW4Ay2VmPBg2Zas93pDGQOcKBjuNHYWY2t570czJ54pdDdPmTu68pYwkte80bkhpc9rbShpWFUw2AjYamw9RYsmwU44+ZCVl2iqSwrzdhTArBrgCYWYyUmG9C1TgP19VJHwx/kLgKlPwOrDYvXyLD8BobDcwgAAAA==[0m[Pipeline] { (run nic case)
+[8mha:////4KACpsxoNqug+yeGIE2K55MD+IyPDLfbYOrean7h1Zl/AAAAox+LCAAAAAAAAP9tjTESwiAURH/iWNhaeggysXWsbBkaT4AJIoT5nwCRVJ7Iq3kH0cxYucXOvm3e8wXrGOBIQTOrcDAYO8O8m3RZLFMYro4ys3RhHWEkp5hQWVCvTgsKSgqWVDWsOGwUdo6iQZ1gy628y8ZJ1M05hfIdONSmH+EBFS/mJEP6whxgd5v6SPjz/BXA7BPUbfupvX8DpQJrNb4AAAA=[0m[Pipeline] sh
++ pytest /root/.jenkins/workspace/test-nic-sriov-stress-2h/npxtester/Tests/testNics -s -m nicSriov2hours --html=/root/testconfig/testlogs/HtmlReport/nic_sriov2hours_case_report.html --self-contained-html
+============================= test session starts ==============================
+platform linux -- Python 3.6.8, pytest-6.2.4, py-1.11.0, pluggy-0.13.1
+rootdir: /root/.jenkins/workspace/test-nic-sriov-stress-2h/npxtester/Tests/testNics, configfile: pytest.ini
+plugins: metadata-1.11.0, html-3.1.1
+collected 8 items / 7 deselected / 1 selected
+
+npxtester/Tests/testNics/test_network_sriov_stress.py 2021-12-08 10:32:21 - NicTestFixture.py - [line:28] - root - INFO - Starting to run test_PI_Networking_SRIOV_StressTrafficBetweenPFVFAndTestClientFor2Hours_VM_Guest[rvm1.img-rvm2.img]
+2021-12-08 10:32:21 - NicTestFixture.py - [line:29] - root - INFO - setup log for testing in the fixture class fbefore
+2021-12-08 10:32:21 - test_network_sriov_stress.py - [line:29] - root - INFO - SSH SUT and setup configurations in the setup function.
+2021-12-08 10:32:21 - transport.py - [line:1819] - paramiko.transport - INFO - Connected (version 2.0, client OpenSSH_8.0)
+2021-12-08 10:32:21 - transport.py - [line:1819] - paramiko.transport - INFO - Authentication (password) successful!
+2021-12-08 10:32:21 - sshInstance.py - [line:28] - root - INFO - SSH on SUT: 10.112.97.162
+2021-12-08 10:32:24 - sshInstance.py - [line:44] - root - INFO - /opt/APP/utility/DPDK_install/dpdk-stable-20.11.3/usertools/dpdk-devbind.py -s | grep ens66f0 | awk '{print $1;}'
+2021-12-08 10:32:25 - sshInstance.py - [line:48] - root - INFO - 0000:38:00.0
+
+2021-12-08 10:32:30 - test_network_sriov_stress.py - [line:79] - root - INFO - pf_id was found: 0000:38:00.0
+
+2021-12-08 10:32:30 - test_network_sriov_stress.py - [line:469] - root - INFO - format_pf_id is 0000\:38\:00.0
+
+2021-12-08 10:32:30 - test_network_sriov_stress.py - [line:472] - root - INFO - pf_id_key: 38
+2021-12-08 10:32:35 - sshInstance.py - [line:89] - root - INFO - Activate the web console with: systemctl enable --now cockpit.socket
+This system is not registered to Red Hat Insights. See https://cloud.redhat.com/
+To register this system, run: insights-client --register
+Last login: Wed Dec  8 10:46:12 2021 from 10.238.10.192
+xhost:  unable to open display ""
+xhost:  unable to open display ""
+[root@localhost ~]# ifconfig ens66f0 192.168.3.81
+[root@localhost ~]# 
+2021-12-08 10:32:38 - test_network_sriov_stress.py - [line:267] - root - INFO - Successfully assigned ip to ethernet: ens66f0
+2021-12-08 10:32:41 - sshInstance.py - [line:44] - root - INFO - echo 4 > /sys/class/net/ens66f0/device/sriov_numvfs
+2021-12-08 10:32:41 - sshInstance.py - [line:48] - root - INFO - 
+2021-12-08 10:32:46 - test_network_sriov_stress.py - [line:94] - root - INFO - Successfully Virtualized PF to VFs.
+2021-12-08 10:32:49 - sshInstance.py - [line:44] - root - INFO -  lspci | grep "Virtual" | awk '{print $1;}'list
+2021-12-08 10:32:49 - sshInstance.py - [line:48] - root - INFO - 38:01.0
+38:01.1
+38:01.2
+38:01.3
+
+2021-12-08 10:32:54 - test_network_sriov_stress.py - [line:108] - root - INFO - Succssfully Gotten vf_id list:
+
+2021-12-08 10:32:57 - sshInstance.py - [line:44] - root - INFO -  modinfo vfio-pci | grep "vfio_pci" | awk '{ print $2;}'
+2021-12-08 10:32:57 - sshInstance.py - [line:48] - root - INFO - vfio_pci
+
+2021-12-08 10:33:02 - test_network_sriov_stress.py - [line:161] - root - INFO - Successfuly modeprobe vfio-pci
+2021-12-08 10:33:05 - sshInstance.py - [line:44] - root - INFO - /opt/APP/utility/DPDK_install/dpdk-stable-20.11.3/usertools/dpdk-devbind.py -b vfio-pci 38:01.0
+2021-12-08 10:33:06 - sshInstance.py - [line:48] - root - INFO - 
+2021-12-08 10:33:11 - test_network_sriov_stress.py - [line:140] - root - INFO - Successfuly bound VF to vfio-pci
+2021-12-08 10:33:14 - sshInstance.py - [line:44] - root - INFO - /opt/APP/utility/DPDK_install/dpdk-stable-20.11.3/usertools/dpdk-devbind.py -b vfio-pci 38:01.1
+2021-12-08 10:33:14 - sshInstance.py - [line:48] - root - INFO - 
+2021-12-08 10:33:19 - test_network_sriov_stress.py - [line:140] - root - INFO - Successfuly bound VF to vfio-pci
+2021-12-08 10:33:19 - test_network_sriov_stress.py - [line:495] - root - INFO - lspci -Dnn | grep 38:01.1
+2021-12-08 10:33:22 - sshInstance.py - [line:44] - root - INFO - lspci -Dnn | grep 38:01.1
+2021-12-08 10:33:22 - sshInstance.py - [line:48] - root - INFO - 0000:38:01.1 Ethernet controller [0200]: Intel Corporation Ethernet Adaptive Virtual Function [8086:1889] (rev 02)
+
+2021-12-08 10:33:27 - test_network_sriov_stress.py - [line:506] - root - INFO - Successfully get vf device id: 8086:1889
+2021-12-08 10:33:30 - sshInstance.py - [line:44] - root - INFO - virsh net-info default | grep "Active" | awk '{print $2;}'
+2021-12-08 10:33:31 - sshInstance.py - [line:48] - root - INFO - yes
+
+2021-12-08 10:33:36 - test_network_sriov_stress.py - [line:169] - root - INFO - Default network is active? yes
+
+2021-12-08 10:33:40 - sshInstance.py - [line:69] - root - INFO - virt-install --name VMtest1 --ram 4096 --cpu host --vcpus=5 ---network network=default --hostdev pci_0000_38_01_0 --boot hd --disk path=/home//image/rvm1.img,size=50,format=qcow2 --graphics vnc,listen=0.0.0.0,port=5900 --nooautoconsole
+
+** (process:143929): [1;33mWARNING[0m **: [34m10:49:16.291[0m: Entity http://pcisig.com/pci/1B36/0100 referenced but not defined
+ERROR    Disk /home/image/rvm1.img is already in use by other guests ['VMtest1']. (Use --check path_in_use=off or --check all=off to override)
+[root@localhost ~]# 
+2021-12-08 10:33:43 - test_network_sriov_stress.py - [line:201] - root - ERROR - Failed to create a VM: virt-install --name VMtest1 --ram 4096 --cpu host --vcpus=5 ---network network=default --hostdev pci_0000_38_01_0 --boot hd --disk path=/home//image/rvm1.img,size=50,format=qcow2 --graphics vnc,listen=0.0.0.0,port=5900 --nooautoconsole
+
+** (process:143929): [1;33mWARNING[0m **: [34m10:49:16.291[0m: Entity http://pcisig.com/pci/1B36/0100 referenced but not defined
+ERROR    Disk /home/image/rvm1.img is already in use by other guests ['VMtest1']. (Use --check path_in_use=off or --check all=off to override)
+[root@localhost ~]# 
+2021-12-08 10:33:43 - test_network_sriov_stress.py - [line:202] - root - ERROR - Failed to create a VM: 
+2021-12-08 10:33:47 - sshInstance.py - [line:69] - root - INFO - virt-install --name VMtest1 --ram 4096 --cpu host --vcpus=5 ---network network=default --hostdev pci_0000_38_01_0 --boot hd --disk path=/home//image/rvm1.img,size=50,format=qcow2 --graphics vnc,listen=0.0.0.0,port=5900 --nooautoconsole
+
+** (process:144128): [1;33mWARNING[0m **: [34m10:49:23.187[0m: Entity http://pcisig.com/pci/1B36/0100 referenced but not defined
+ERROR    Disk /home/image/rvm1.img is already in use by other guests ['VMtest1']. (Use --check path_in_use=off or --check all=off to override)
+[root@localhost ~]# 
+2021-12-08 10:33:50 - test_network_sriov_stress.py - [line:201] - root - ERROR - Failed to create a VM: virt-install --name VMtest1 --ram 4096 --cpu host --vcpus=5 ---network network=default --hostdev pci_0000_38_01_0 --boot hd --disk path=/home//image/rvm1.img,size=50,format=qcow2 --graphics vnc,listen=0.0.0.0,port=5900 --nooautoconsole
+
+** (process:144128): [1;33mWARNING[0m **: [34m10:49:23.187[0m: Entity http://pcisig.com/pci/1B36/0100 referenced but not defined
+ERROR    Disk /home/image/rvm1.img is already in use by other guests ['VMtest1']. (Use --check path_in_use=off or --check all=off to override)
+[root@localhost ~]# 
+2021-12-08 10:33:50 - test_network_sriov_stress.py - [line:202] - root - ERROR - Failed to create a VM: 
+2021-12-08 10:33:54 - sshInstance.py - [line:69] - root - INFO - virt-install --name VMtest1 --ram 4096 --cpu host --vcpus=5 ---network network=default --hostdev pci_0000_38_01_0 --boot hd --disk path=/home//image/rvm1.img,size=50,format=qcow2 --graphics vnc,listen=0.0.0.0,port=5900 --nooautoconsole
+
+** (process:144329): [1;33mWARNING[0m **: [34m10:49:30.178[0m: Entity http://pcisig.com/pci/1B36/0100 referenced but not defined
+ERROR    Disk /home/image/rvm1.img is already in use by other guests ['VMtest1']. (Use --check path_in_use=off or --check all=off to override)
+[root@localhost ~]# 
+2021-12-08 10:33:57 - test_network_sriov_stress.py - [line:201] - root - ERROR - Failed to create a VM: virt-install --name VMtest1 --ram 4096 --cpu host --vcpus=5 ---network network=default --hostdev pci_0000_38_01_0 --boot hd --disk path=/home//image/rvm1.img,size=50,format=qcow2 --graphics vnc,listen=0.0.0.0,port=5900 --nooautoconsole
+
+** (process:144329): [1;33mWARNING[0m **: [34m10:49:30.178[0m: Entity http://pcisig.com/pci/1B36/0100 referenced but not defined
+ERROR    Disk /home/image/rvm1.img is already in use by other guests ['VMtest1']. (Use --check path_in_use=off or --check all=off to override)
+[root@localhost ~]# 
+2021-12-08 10:33:57 - test_network_sriov_stress.py - [line:202] - root - ERROR - Failed to create a VM: 
+F2021-12-08 10:33:57 - test_network_sriov_stress.py - [line:51] - root - INFO - this is the teardown of Test_Network_SRIOV_Stress.
+2021-12-08 10:34:00 - sshInstance.py - [line:44] - root - INFO - virsh destroy VMtest2
+2021-12-08 10:34:00 - sshInstance.py - [line:48] - root - INFO - 
+
+2021-12-08 10:34:05 - test_network_sriov_stress.py - [line:248] - root - ERROR - Failed to shut down the VM VMtest2
+2021-12-08 10:34:08 - sshInstance.py - [line:44] - root - INFO - virsh destroy VMtest1
+2021-12-08 10:34:08 - sshInstance.py - [line:48] - root - INFO - 
+
+2021-12-08 10:34:13 - test_network_sriov_stress.py - [line:248] - root - ERROR - Failed to shut down the VM VMtest1
+2021-12-08 10:34:13 - sshInstance.py - [line:39] - root - INFO - closing ssh client on SUT
+2021-12-08 10:34:13 - test_network_sriov_stress.py - [line:56] - root - INFO - =============================================Finished run the test case===============================================
+
+
+=================================== FAILURES ===================================
+_ Test_Network_SRIOV_Stress.test_PI_Networking_SRIOV_StressTrafficBetweenPFVFAndTestClientFor2Hours_VM_Guest[rvm1.img-rvm2.img] _
+
+self = <Tests.testNics.test_network_sriov_stress.Test_Network_SRIOV_Stress object at 0x7f12ac697c50>
+vm1_image = 'rvm1.img', vm2_image = 'rvm2.img'
+
+    @pytest.mark.nicRegression
+    @pytest.mark.nicSriov2hours
+    @pytest.mark.usefixtures("fbefore")
+    @pytest.mark.parametrize('vm1_image, vm2_image', vm_image)
+    def test_PI_Networking_SRIOV_StressTrafficBetweenPFVFAndTestClientFor2Hours_VM_Guest(self,vm1_image, vm2_image):
+    
+        pf_id, status = self.get_pf_id(self.pf_name)
+        # transfer pf_id to 0000\:00\:00.0 format
+        if not pf_id:
+            assert 200 == status
+        else:
+            pf_id_format = pf_id.replace(":", "\\:", 2)
+            logging.info("format_pf_id is {}".format(pf_id_format))
+            # get the number key of pf_id
+            pf_id_key = pf_id.split(":")[1]
+            logging.info("pf_id_key: {}".format(pf_id_key))
+            # assign IP to PF in SUT and sut2
+            pf_ip = "192.168.{}.{}".format(self.dhcp_info["ipv4"].split(".")[2],
+                                           str(int(self.dhcp_info["ipv4"].split(".")[3]) + 1))
+            dhcp_ipv4 = self.dhcp_info["ipv4"]
+            assert 200 == self.assign_ip_ehternet(self.session, pf_ip, self.pf_name)
+    
+            # virtulize the pf to vfs
+            assert 200 == self.virtualize_pf_to_vfs(self.pf_name)
+            # get vf ids
+            vf_id_list, status = self.get_vf_ids(pf_id_key)
+    
+            if status == 200:
+                # modprobe vfio-pci
+                assert 200 == self.modprobe("vfio-pci")
+                # bind vf with vfio-pci
+                host_dev_id_list, status = self.bind_vf_to_vfio_pci(vf_id_list)
+                assert 200 == status
+            else:
+                assert 200 == status
+            # get vF device id
+    
+            cmd = "lspci -Dnn | grep %s" % (vf_id_list[1])
+            logging.info(cmd)
+            vf_device_id = ""
+            vf_device_id_rs, error = self.ssh_sut.ssh_exec_cmd(self.client, cmd)
+            if vf_device_id_rs:
+                st = False
+                vf_device_id = None
+                for one in vf_device_id_rs.split(" "):
+                    one = " "+one+" "
+                    if one.find(" [") > -1 and one.find("] ") > -1 and one.find(":")> -1:
+                        vf_device_id = one.replace("[", "").replace("]","").strip()
+                if not vf_device_id: assert 200 == 400,"vf_device_id is not found"
+                logging.info("Successfully get vf device id: {}".format(vf_device_id))
+                assert 200 == 200
+            else:
+                logging.error("Fail to get vf device id.")
+                assert 200==400
+            # set network
+            status = self.default_network_isActive(self.defult_network)
+            if status == "no":
+                assert 200 == self.start_default_network(self.defult_network)
+    
+            # start VMs
+>           assert 200 == self.create_vm(vm1_image, host_dev_id_list[0], self.vm1_name, "5900")
+E           AssertionError: assert 200 == 400
+E            +  where 400 = <bound method Test_Network_SRIOV_Stress.create_vm of <Tests.testNics.test_network_sriov_stress.Test_Network_SRIOV_Stress object at 0x7f12ac697c50>>('rvm1.img', 'pci_0000_38_01_0', 'VMtest1', '5900')
+E            +    where <bound method Test_Network_SRIOV_Stress.create_vm of <Tests.testNics.test_network_sriov_stress.Test_Network_SRIOV_Stress object at 0x7f12ac697c50>> = <Tests.testNics.test_network_sriov_stress.Test_Network_SRIOV_Stress object at 0x7f12ac697c50>.create_vm
+E            +    and   'VMtest1' = <Tests.testNics.test_network_sriov_stress.Test_Network_SRIOV_Stress object at 0x7f12ac697c50>.vm1_name
+
+npxtester/Tests/testNics/test_network_sriov_stress.py:517: AssertionError
+------------------------------ Captured log call -------------------------------
+INFO     root:sshInstance.py:44 /opt/APP/utility/DPDK_install/dpdk-stable-20.11.3/usertools/dpdk-devbind.py -s | grep ens66f0 | awk '{print $1;}'
+INFO     root:sshInstance.py:48 0000:38:00.0
+
+INFO     root:test_network_sriov_stress.py:79 pf_id was found: 0000:38:00.0
+
+INFO     root:test_network_sriov_stress.py:469 format_pf_id is 0000\:38\:00.0
+
+INFO     root:test_network_sriov_stress.py:472 pf_id_key: 38
+INFO     root:sshInstance.py:89 Activate the web console with: systemctl enable --now cockpit.socket
+This system is not registered to Red Hat Insights. See https://cloud.redhat.com/
+To register this system, run: insights-client --register
+Last login: Wed Dec  8 10:46:12 2021 from 10.238.10.192
+xhost:  unable to open display ""
+xhost:  unable to open display ""
+[root@localhost ~]# ifconfig ens66f0 192.168.3.81
+[root@localhost ~]# 
+INFO     root:test_network_sriov_stress.py:267 Successfully assigned ip to ethernet: ens66f0
+INFO     root:sshInstance.py:44 echo 4 > /sys/class/net/ens66f0/device/sriov_numvfs
+INFO     root:sshInstance.py:48 
+INFO     root:test_network_sriov_stress.py:94 Successfully Virtualized PF to VFs.
+INFO     root:sshInstance.py:44  lspci | grep "Virtual" | awk '{print $1;}'list
+INFO     root:sshInstance.py:48 38:01.0
+38:01.1
+38:01.2
+38:01.3
+
+INFO     root:test_network_sriov_stress.py:108 Succssfully Gotten vf_id list:
+
+INFO     root:sshInstance.py:44  modinfo vfio-pci | grep "vfio_pci" | awk '{ print $2;}'
+INFO     root:sshInstance.py:48 vfio_pci
+
+INFO     root:test_network_sriov_stress.py:161 Successfuly modeprobe vfio-pci
+INFO     root:sshInstance.py:44 /opt/APP/utility/DPDK_install/dpdk-stable-20.11.3/usertools/dpdk-devbind.py -b vfio-pci 38:01.0
+INFO     root:sshInstance.py:48 
+INFO     root:test_network_sriov_stress.py:140 Successfuly bound VF to vfio-pci
+INFO     root:sshInstance.py:44 /opt/APP/utility/DPDK_install/dpdk-stable-20.11.3/usertools/dpdk-devbind.py -b vfio-pci 38:01.1
+INFO     root:sshInstance.py:48 
+INFO     root:test_network_sriov_stress.py:140 Successfuly bound VF to vfio-pci
+INFO     root:test_network_sriov_stress.py:495 lspci -Dnn | grep 38:01.1
+INFO     root:sshInstance.py:44 lspci -Dnn | grep 38:01.1
+INFO     root:sshInstance.py:48 0000:38:01.1 Ethernet controller [0200]: Intel Corporation Ethernet Adaptive Virtual Function [8086:1889] (rev 02)
+
+INFO     root:test_network_sriov_stress.py:506 Successfully get vf device id: 8086:1889
+INFO     root:sshInstance.py:44 virsh net-info default | grep "Active" | awk '{print $2;}'
+INFO     root:sshInstance.py:48 yes
+
+INFO     root:test_network_sriov_stress.py:169 Default network is active? yes
+
+INFO     root:sshInstance.py:69 virt-install --name VMtest1 --ram 4096 --cpu host --vcpus=5 ---network network=default --hostdev pci_0000_38_01_0 --boot hd --disk path=/home//image/rvm1.img,size=50,format=qcow2 --graphics vnc,listen=0.0.0.0,port=5900 --nooautoconsole
+
+** (process:143929): [1;33mWARNING[0m **: [34m10:49:16.291[0m: Entity http://pcisig.com/pci/1B36/0100 referenced but not defined
+ERROR    Disk /home/image/rvm1.img is already in use by other guests ['VMtest1']. (Use --check path_in_use=off or --check all=off to override)
+[root@localhost ~]# 
+ERROR    root:test_network_sriov_stress.py:201 Failed to create a VM: virt-install --name VMtest1 --ram 4096 --cpu host --vcpus=5 ---network network=default --hostdev pci_0000_38_01_0 --boot hd --disk path=/home//image/rvm1.img,size=50,format=qcow2 --graphics vnc,listen=0.0.0.0,port=5900 --nooautoconsole
+
+** (process:143929): [1;33mWARNING[0m **: [34m10:49:16.291[0m: Entity http://pcisig.com/pci/1B36/0100 referenced but not defined
+ERROR    Disk /home/image/rvm1.img is already in use by other guests ['VMtest1']. (Use --check path_in_use=off or --check all=off to override)
+[root@localhost ~]# 
+ERROR    root:test_network_sriov_stress.py:202 Failed to create a VM: 
+INFO     root:sshInstance.py:69 virt-install --name VMtest1 --ram 4096 --cpu host --vcpus=5 ---network network=default --hostdev pci_0000_38_01_0 --boot hd --disk path=/home//image/rvm1.img,size=50,format=qcow2 --graphics vnc,listen=0.0.0.0,port=5900 --nooautoconsole
+
+** (process:144128): [1;33mWARNING[0m **: [34m10:49:23.187[0m: Entity http://pcisig.com/pci/1B36/0100 referenced but not defined
+ERROR    Disk /home/image/rvm1.img is already in use by other guests ['VMtest1']. (Use --check path_in_use=off or --check all=off to override)
+[root@localhost ~]# 
+ERROR    root:test_network_sriov_stress.py:201 Failed to create a VM: virt-install --name VMtest1 --ram 4096 --cpu host --vcpus=5 ---network network=default --hostdev pci_0000_38_01_0 --boot hd --disk path=/home//image/rvm1.img,size=50,format=qcow2 --graphics vnc,listen=0.0.0.0,port=5900 --nooautoconsole
+
+** (process:144128): [1;33mWARNING[0m **: [34m10:49:23.187[0m: Entity http://pcisig.com/pci/1B36/0100 referenced but not defined
+ERROR    Disk /home/image/rvm1.img is already in use by other guests ['VMtest1']. (Use --check path_in_use=off or --check all=off to override)
+[root@localhost ~]# 
+ERROR    root:test_network_sriov_stress.py:202 Failed to create a VM: 
+INFO     root:sshInstance.py:69 virt-install --name VMtest1 --ram 4096 --cpu host --vcpus=5 ---network network=default --hostdev pci_0000_38_01_0 --boot hd --disk path=/home//image/rvm1.img,size=50,format=qcow2 --graphics vnc,listen=0.0.0.0,port=5900 --nooautoconsole
+
+** (process:144329): [1;33mWARNING[0m **: [34m10:49:30.178[0m: Entity http://pcisig.com/pci/1B36/0100 referenced but not defined
+ERROR    Disk /home/image/rvm1.img is already in use by other guests ['VMtest1']. (Use --check path_in_use=off or --check all=off to override)
+[root@localhost ~]# 
+ERROR    root:test_network_sriov_stress.py:201 Failed to create a VM: virt-install --name VMtest1 --ram 4096 --cpu host --vcpus=5 ---network network=default --hostdev pci_0000_38_01_0 --boot hd --disk path=/home//image/rvm1.img,size=50,format=qcow2 --graphics vnc,listen=0.0.0.0,port=5900 --nooautoconsole
+
+** (process:144329): [1;33mWARNING[0m **: [34m10:49:30.178[0m: Entity http://pcisig.com/pci/1B36/0100 referenced but not defined
+ERROR    Disk /home/image/rvm1.img is already in use by other guests ['VMtest1']. (Use --check path_in_use=off or --check all=off to override)
+[root@localhost ~]# 
+ERROR    root:test_network_sriov_stress.py:202 Failed to create a VM:
+=============================== warnings summary ===============================
+npxtester/Tests/testNics/test_iperf_client_4hour.py:15
+  /root/.jenkins/workspace/test-nic-sriov-stress-2h/npxtester/Tests/testNics/test_iperf_client_4hour.py:15: PytestUnknownMarkWarning: Unknown pytest.mark.iperf_tcp - is this a typo?  You can register custom marks to avoid this warning - for details, see https://docs.pytest.org/en/stable/mark.html
+    @pytest.mark.iperf_tcp
+
+npxtester/Tests/testNics/test_iperf_client_4hour.py:44
+  /root/.jenkins/workspace/test-nic-sriov-stress-2h/npxtester/Tests/testNics/test_iperf_client_4hour.py:44: PytestUnknownMarkWarning: Unknown pytest.mark.iperf_udp - is this a typo?  You can register custom marks to avoid this warning - for details, see https://docs.pytest.org/en/stable/mark.html
+    @pytest.mark.iperf_udp
+
+npxtester/Tests/testNics/test_network_sriov_stress.py:344
+  /root/.jenkins/workspace/test-nic-sriov-stress-2h/npxtester/Tests/testNics/test_network_sriov_stress.py:344: PytestUnknownMarkWarning: Unknown pytest.mark.nicRegression - is this a typo?  You can register custom marks to avoid this warning - for details, see https://docs.pytest.org/en/stable/mark.html
+    @pytest.mark.nicRegression
+
+npxtester/Tests/testNics/test_network_sriov_stress.py:345
+  /root/.jenkins/workspace/test-nic-sriov-stress-2h/npxtester/Tests/testNics/test_network_sriov_stress.py:345: PytestUnknownMarkWarning: Unknown pytest.mark.nicSriov5times - is this a typo?  You can register custom marks to avoid this warning - for details, see https://docs.pytest.org/en/stable/mark.html
+    @pytest.mark.nicSriov5times
+
+npxtester/Tests/testNics/test_network_sriov_stress.py:457
+  /root/.jenkins/workspace/test-nic-sriov-stress-2h/npxtester/Tests/testNics/test_network_sriov_stress.py:457: PytestUnknownMarkWarning: Unknown pytest.mark.nicRegression - is this a typo?  You can register custom marks to avoid this warning - for details, see https://docs.pytest.org/en/stable/mark.html
+    @pytest.mark.nicRegression
+
+npxtester/Tests/testNics/test_network_sriov_stress.py:458
+  /root/.jenkins/workspace/test-nic-sriov-stress-2h/npxtester/Tests/testNics/test_network_sriov_stress.py:458: PytestUnknownMarkWarning: Unknown pytest.mark.nicSriov2hours - is this a typo?  You can register custom marks to avoid this warning - for details, see https://docs.pytest.org/en/stable/mark.html
+    @pytest.mark.nicSriov2hours
+
+npxtester/Tests/testNics/test_nics.py:34
+  /root/.jenkins/workspace/test-nic-sriov-stress-2h/npxtester/Tests/testNics/test_nics.py:34: PytestUnknownMarkWarning: Unknown pytest.mark.nicSimple - is this a typo?  You can register custom marks to avoid this warning - for details, see https://docs.pytest.org/en/stable/mark.html
+    @pytest.mark.nicSimple
+
+npxtester/Tests/testNics/test_nics.py:35
+  /root/.jenkins/workspace/test-nic-sriov-stress-2h/npxtester/Tests/testNics/test_nics.py:35: PytestUnknownMarkWarning: Unknown pytest.mark.nicRegression - is this a typo?  You can register custom marks to avoid this warning - for details, see https://docs.pytest.org/en/stable/mark.html
+    @pytest.mark.nicRegression
+
+npxtester/Tests/testNics/test_nics.py:56
+  /root/.jenkins/workspace/test-nic-sriov-stress-2h/npxtester/Tests/testNics/test_nics.py:56: PytestUnknownMarkWarning: Unknown pytest.mark.nicSimple - is this a typo?  You can register custom marks to avoid this warning - for details, see https://docs.pytest.org/en/stable/mark.html
+    @pytest.mark.nicSimple
+
+npxtester/Tests/testNics/test_nics.py:57
+  /root/.jenkins/workspace/test-nic-sriov-stress-2h/npxtester/Tests/testNics/test_nics.py:57: PytestUnknownMarkWarning: Unknown pytest.mark.nicRegression - is this a typo?  You can register custom marks to avoid this warning - for details, see https://docs.pytest.org/en/stable/mark.html
+    @pytest.mark.nicRegression
+
+npxtester/Tests/testNics/test_nics.py:76
+  /root/.jenkins/workspace/test-nic-sriov-stress-2h/npxtester/Tests/testNics/test_nics.py:76: PytestUnknownMarkWarning: Unknown pytest.mark.nicSimple - is this a typo?  You can register custom marks to avoid this warning - for details, see https://docs.pytest.org/en/stable/mark.html
+    @pytest.mark.nicSimple
+
+npxtester/Tests/testNics/test_nics.py:77
+  /root/.jenkins/workspace/test-nic-sriov-stress-2h/npxtester/Tests/testNics/test_nics.py:77: PytestUnknownMarkWarning: Unknown pytest.mark.nicRegression - is this a typo?  You can register custom marks to avoid this warning - for details, see https://docs.pytest.org/en/stable/mark.html
+    @pytest.mark.nicRegression
+
+-- Docs: https://docs.pytest.org/en/stable/warnings.html
+- generated html file: file:///root/testconfig/testlogs/HtmlReport/nic_sriov2hours_case_report.html -
+=========================== short test summary info ============================
+FAILED npxtester/Tests/testNics/test_network_sriov_stress.py::Test_Network_SRIOV_Stress::test_PI_Networking_SRIOV_StressTrafficBetweenPFVFAndTestClientFor2Hours_VM_Guest[rvm1.img-rvm2.img]
+=========== 1 failed, 7 deselected, 12 warnings in 111.86s (0:01:51) ===========
+[8mha:////4KMKnj+jwomtBZRlOM1zDNsT7NVP2UylJUBAmwQdpqOFAAAAox+LCAAAAAAAAP9tjTESwiAURH/iWNhaeggyGUvHypah8QSYIEKY/wkQSeWJvJp3EM2MlVvs7NvmPV+wjgGOFDSzCgeDsTPMu0mXxTKF4eooM0sX1hFGcooJlQX16rSgoKRgSVXDisNGYecoGtQJttzKu2ycRN2cUyjfgUNt+hEeUPFiTjKkL8wBdrepj4Q/z18BzN4nqNv9p9o3geV5574AAAA=[0m[Pipeline] }
+[8mha:////4PHbOgS4fTQzlO31aLQygq6Gmyy7LbpReNAbbgHuNOsPAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOICEh2iSmu54QUmNsaJdWdsh6TiRXyNPxCIRMUWq51t5vmCZYpw5GixNdQ5So3D4Hs7LRw4dhfPA7Z8xoYpsTcozSBZm3pGydnAnKKEhYCVocZzcmQzrEWr7qryimx1ynH6DgJKp2/wgEJM5qxi/sIYYXPtdWL6ef4KYAwhQ7nbf2r7Bq/le42+AAAA[0m[Pipeline] // stage
+[8mha:////4I9CBL1TQQZuqbZ2jRHSmcHnuMbbRTwUd9k6KAOagwtcAAAAox+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIRElSIitZKwwtMYowT6y7YF5KKF/E1/kBEJCq22plmXm8sU8SRo1ONpdZTqrzqQu+mpwaO7TXwoBq+qIopcbCqtEPJtT3NWLJYzMtyLDRWlqrAyZMTrHVjHqYIhlxxlji5g0bu6zueyPRUFhPlC2PE5tbXienX+RvA2HWCfLsXZLsP9aSlGr0AAAA=[0m[Pipeline] }
+[8mha:////4AgCtwjc4t5tcZsCa10f3l1mNPWqCUOes7yjbzZP2H6lAAAApB+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIRQqJBVLRWGl5gEmOcWHfBvpBUvIiv8QciIlGx1c4083pjmSKOHJ1qLLWeUuVVF3o3PTVwbK+BB9XwRVVMiYNVpR1Kru1pxpLFYl6WY6GxslQFTp6cYK0b8zBFMOSKs8TJHTRyX9/xRKanspgoXxgjNre+Tky/zt8Axq4T5Nu9INt9AIZLYcO9AAAA[0m[Pipeline] // node
+[8mha:////4HNhgbRMdr5fLy6tNmZPXDu18JtR1J6yjnVzc/IrJ0XIAAAAox+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIRNBSIitZKwwtMYowT6y7YF5KKF/E1/kBEJCq22plmXm8sU8SRo1ONpdZTqrzqQu+mpwaO7TXwoBq+qIopcbCqtEPJtT3NWLJYzMtyLDRWlqrAyZMTrHVjHqYIhlxxlji5g0bu6zueyPRUFhPlC2PE5tbXienX+RvA2HWCfLsXZLsPoFIGib0AAAA=[0m[Pipeline] End of Pipeline
+ERROR: script returned exit code 1
+Finished: FAILURE

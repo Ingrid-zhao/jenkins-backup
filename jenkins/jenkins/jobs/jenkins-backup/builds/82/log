@@ -1,0 +1,129 @@
+Started by timer
+Running as SYSTEM
+Building remotely on [8mha:////4LafVuX3eTQLm8yF81fMq4k6u04xgOhoE2RdYhqdKBmyAAAApB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAy+EgYJ/eT83ILSktQi/azUvOzMvOL4pMTk7NICAAghILnNAAAA[0mjenkins_backup in workspace /root/.jenkins/workspace/jenkins-backup
+[jenkins-backup] $ /bin/bash /tmp/jenkins4952404382179186130.sh
++ '[' -e /var/lib/jenkins/index.lock ']'
++ cd /home/jenkins_home
++ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   jenkins/fingerprints/fc/7b/c9872f4f5327e1eea7e83ff746c1.xml
+	modified:   jenkins/jobs/jenkins-backup/builds/81/log
+	modified:   jenkins/jobs/jenkins-backup/builds/permalinks
+	modified:   jenkins/jobs/jenkins-backup/nextBuildNumber
+	modified:   jenkins/jobs/test-nic-simple/builds/15/build.xml
+	modified:   jenkins/jobs/test-nic-simple/builds/15/log
+	modified:   jenkins/jobs/test-nic-simple/builds/15/log-index
+	modified:   jenkins/jobs/test-nic-simple/builds/permalinks
+	modified:   jenkins/jobs/test-nic-simple/nextBuildNumber
+	modified:   jenkins/jobs/test-nic-sriov-5times/builds/permalinks
+	modified:   jenkins/jobs/test-nic-sriov-5times/nextBuildNumber
+	modified:   jenkins/logs/health-checker.log
+	modified:   jenkins/logs/slaves/ipu-iauto_test/slave.log
+	modified:   jenkins/logs/slaves/ipu-iauto_test/slave.log.1
+	modified:   jenkins/logs/slaves/ipu-iauto_test/slave.log.10
+	modified:   jenkins/logs/slaves/ipu-iauto_test/slave.log.2
+	modified:   jenkins/logs/slaves/ipu-iauto_test/slave.log.3
+	modified:   jenkins/logs/slaves/ipu-iauto_test/slave.log.4
+	modified:   jenkins/logs/slaves/ipu-iauto_test/slave.log.5
+	modified:   jenkins/logs/slaves/ipu-iauto_test/slave.log.6
+	modified:   jenkins/logs/slaves/ipu-iauto_test/slave.log.7
+	modified:   jenkins/logs/slaves/ipu-iauto_test/slave.log.8
+	modified:   jenkins/logs/slaves/ipu-iauto_test/slave.log.9
+	modified:   jenkins/logs/tasks/Download metadata.log
+	modified:   jenkins/logs/tasks/Fingerprint cleanup.log
+	modified:   jenkins/logs/tasks/Fingerprint cleanup.log.1
+	modified:   jenkins/logs/tasks/Fingerprint cleanup.log.2
+	modified:   jenkins/logs/tasks/Fingerprint cleanup.log.3
+	modified:   jenkins/logs/tasks/Fingerprint cleanup.log.4
+	modified:   jenkins/logs/tasks/Fingerprint cleanup.log.5
+	modified:   jenkins/logs/tasks/Periodic background build discarder.log
+	modified:   jenkins/logs/tasks/Periodic background build discarder.log.1
+	modified:   jenkins/logs/tasks/Periodic background build discarder.log.2
+	modified:   jenkins/logs/tasks/Periodic background build discarder.log.3
+	modified:   jenkins/logs/tasks/Periodic background build discarder.log.4
+	modified:   jenkins/logs/tasks/Periodic background build discarder.log.5
+	modified:   jenkins/logs/tasks/Workspace clean-up.log
+	modified:   jenkins/logs/tasks/telemetry collection.log
+	modified:   jenkins/logs/tasks/telemetry collection.log.1
+	modified:   jenkins/logs/tasks/telemetry collection.log.2
+	modified:   jenkins/logs/tasks/telemetry collection.log.3
+	modified:   jenkins/logs/tasks/telemetry collection.log.4
+	modified:   jenkins/logs/tasks/telemetry collection.log.5
+	modified:   jenkins/org.jenkinsci.plugins.workflow.flow.FlowExecutionList.xml
+	modified:   jenkins/queue.xml
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	jenkins/jobs/jenkins-backup/builds/81/build.xml
+	jenkins/jobs/jenkins-backup/builds/82/
+	jenkins/jobs/test-nic-simple/builds/15/workflow/
+	jenkins/jobs/test-nic-simple/builds/16/
+	jenkins/jobs/test-nic-sriov-5times/builds/8/
+
+no changes added to commit (use "git add" and/or "git commit -a")
++ git add -A
+++ date
++ git commit -s -m 'Jenkins backup at Mon Jan 24 03:06:00 CST 2022'
+[master 00b76bb] Jenkins backup at Mon Jan 24 03:06:00 CST 2022
+ 92 files changed, 3635 insertions(+), 728 deletions(-)
+ create mode 100644 jenkins/jobs/jenkins-backup/builds/81/build.xml
+ create mode 100644 jenkins/jobs/jenkins-backup/builds/82/changelog.xml
+ create mode 100644 jenkins/jobs/jenkins-backup/builds/82/log
+ create mode 100644 jenkins/jobs/test-nic-simple/builds/15/workflow/10.xml
+ create mode 100644 jenkins/jobs/test-nic-simple/builds/15/workflow/11.xml
+ create mode 100644 jenkins/jobs/test-nic-simple/builds/15/workflow/12.xml
+ create mode 100644 jenkins/jobs/test-nic-simple/builds/15/workflow/13.xml
+ create mode 100644 jenkins/jobs/test-nic-simple/builds/15/workflow/14.xml
+ create mode 100644 jenkins/jobs/test-nic-simple/builds/15/workflow/15.xml
+ create mode 100644 jenkins/jobs/test-nic-simple/builds/15/workflow/16.xml
+ create mode 100644 jenkins/jobs/test-nic-simple/builds/15/workflow/17.xml
+ create mode 100644 jenkins/jobs/test-nic-simple/builds/15/workflow/18.xml
+ create mode 100644 jenkins/jobs/test-nic-simple/builds/15/workflow/19.xml
+ create mode 100644 jenkins/jobs/test-nic-simple/builds/15/workflow/2.xml
+ create mode 100644 jenkins/jobs/test-nic-simple/builds/15/workflow/20.xml
+ create mode 100644 jenkins/jobs/test-nic-simple/builds/15/workflow/3.xml
+ create mode 100644 jenkins/jobs/test-nic-simple/builds/15/workflow/4.xml
+ create mode 100644 jenkins/jobs/test-nic-simple/builds/15/workflow/5.xml
+ create mode 100644 jenkins/jobs/test-nic-simple/builds/15/workflow/6.xml
+ create mode 100644 jenkins/jobs/test-nic-simple/builds/15/workflow/7.xml
+ create mode 100644 jenkins/jobs/test-nic-simple/builds/15/workflow/8.xml
+ create mode 100644 jenkins/jobs/test-nic-simple/builds/15/workflow/9.xml
+ create mode 100644 jenkins/jobs/test-nic-simple/builds/16/build.xml
+ create mode 100644 jenkins/jobs/test-nic-simple/builds/16/log
+ create mode 100644 jenkins/jobs/test-nic-simple/builds/16/log-index
+ create mode 100644 jenkins/jobs/test-nic-sriov-5times/builds/8/build.xml
+ create mode 100644 jenkins/jobs/test-nic-sriov-5times/builds/8/log
+ create mode 100644 jenkins/jobs/test-nic-sriov-5times/builds/8/log-index
+ create mode 100644 jenkins/jobs/test-nic-sriov-5times/builds/8/workflow/10.xml
+ create mode 100644 jenkins/jobs/test-nic-sriov-5times/builds/8/workflow/11.xml
+ create mode 100644 jenkins/jobs/test-nic-sriov-5times/builds/8/workflow/12.xml
+ create mode 100644 jenkins/jobs/test-nic-sriov-5times/builds/8/workflow/13.xml
+ create mode 100644 jenkins/jobs/test-nic-sriov-5times/builds/8/workflow/14.xml
+ create mode 100644 jenkins/jobs/test-nic-sriov-5times/builds/8/workflow/15.xml
+ create mode 100644 jenkins/jobs/test-nic-sriov-5times/builds/8/workflow/16.xml
+ create mode 100644 jenkins/jobs/test-nic-sriov-5times/builds/8/workflow/17.xml
+ create mode 100644 jenkins/jobs/test-nic-sriov-5times/builds/8/workflow/18.xml
+ create mode 100644 jenkins/jobs/test-nic-sriov-5times/builds/8/workflow/19.xml
+ create mode 100644 jenkins/jobs/test-nic-sriov-5times/builds/8/workflow/2.xml
+ create mode 100644 jenkins/jobs/test-nic-sriov-5times/builds/8/workflow/20.xml
+ create mode 100644 jenkins/jobs/test-nic-sriov-5times/builds/8/workflow/3.xml
+ create mode 100644 jenkins/jobs/test-nic-sriov-5times/builds/8/workflow/4.xml
+ create mode 100644 jenkins/jobs/test-nic-sriov-5times/builds/8/workflow/5.xml
+ create mode 100644 jenkins/jobs/test-nic-sriov-5times/builds/8/workflow/6.xml
+ create mode 100644 jenkins/jobs/test-nic-sriov-5times/builds/8/workflow/7.xml
+ create mode 100644 jenkins/jobs/test-nic-sriov-5times/builds/8/workflow/8.xml
+ create mode 100644 jenkins/jobs/test-nic-sriov-5times/builds/8/workflow/9.xml
+ rewrite jenkins/logs/tasks/Fingerprint cleanup.log.2 (65%)
+ copy jenkins/logs/tasks/{Fingerprint cleanup.log.2 => Fingerprint cleanup.log.3} (100%)
+ rewrite jenkins/logs/tasks/Fingerprint cleanup.log.5 (65%)
++ git push origin master
+To github.intel.com:yzhao18/jenkins-backup.git
+   89154cf..00b76bb  master -> master
+Finished: SUCCESS

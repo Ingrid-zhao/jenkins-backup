@@ -1,0 +1,391 @@
+Started by timer
+Running as SYSTEM
+Building remotely on [8mha:////4LafVuX3eTQLm8yF81fMq4k6u04xgOhoE2RdYhqdKBmyAAAApB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAy+EgYJ/eT83ILSktQi/azUvOzMvOL4pMTk7NICAAghILnNAAAA[0mjenkins_backup in workspace /root/.jenkins/workspace/jenkins-backup
+[jenkins-backup] $ /bin/bash /tmp/jenkins109143677084114856.sh
++ '[' -e /var/lib/jenkins/index.lock ']'
++ cd /home/jenkins_home
++ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+	modified:   jenkins/config.xml
+	new file:   jenkins/fingerprints/0c/81/7f39df6213cc7ae8a43759750301.xml
+	new file:   jenkins/fingerprints/3f/f4/edc55e56af3f9904ae2c94ac7f26.xml
+	deleted:    jenkins/fingerprints/5b/5c/083acd0044396dfd3949fd873369.xml
+	modified:   jenkins/fingerprints/fc/7b/c9872f4f5327e1eea7e83ff746c1.xml
+	deleted:    jenkins/jobs/clone code/builds/3/log
+	deleted:    jenkins/jobs/clone code/builds/3/log-index
+	deleted:    jenkins/jobs/clone code/builds/3/program.dat
+	deleted:    jenkins/jobs/clone code/nextBuildNumber
+	renamed:    jenkins/jobs/clone code/builds/1/build.xml -> jenkins/jobs/clone_code/builds/1/build.xml
+	renamed:    jenkins/jobs/clone code/builds/1/log -> jenkins/jobs/clone_code/builds/1/log
+	renamed:    jenkins/jobs/clone code/builds/1/log-index -> jenkins/jobs/clone_code/builds/1/log-index
+	renamed:    jenkins/jobs/clone code/builds/1/workflow/2.xml -> jenkins/jobs/clone_code/builds/1/workflow/2.xml
+	renamed:    jenkins/jobs/clone code/builds/1/workflow/3.xml -> jenkins/jobs/clone_code/builds/1/workflow/3.xml
+	renamed:    jenkins/jobs/clone code/builds/1/workflow/4.xml -> jenkins/jobs/clone_code/builds/1/workflow/4.xml
+	renamed:    jenkins/jobs/clone code/builds/1/workflow/5.xml -> jenkins/jobs/clone_code/builds/1/workflow/5.xml
+	renamed:    jenkins/jobs/clone code/builds/2/build.xml -> jenkins/jobs/clone_code/builds/2/build.xml
+	renamed:    jenkins/jobs/clone code/builds/2/log -> jenkins/jobs/clone_code/builds/2/log
+	renamed:    jenkins/jobs/clone code/builds/2/log-index -> jenkins/jobs/clone_code/builds/2/log-index
+	renamed:    jenkins/jobs/clone code/builds/2/workflow/2.xml -> jenkins/jobs/clone_code/builds/2/workflow/2.xml
+	renamed:    jenkins/jobs/clone code/builds/2/workflow/3.xml -> jenkins/jobs/clone_code/builds/2/workflow/3.xml
+	renamed:    jenkins/jobs/clone code/builds/2/workflow/4.xml -> jenkins/jobs/clone_code/builds/2/workflow/4.xml
+	renamed:    jenkins/jobs/clone code/builds/2/workflow/5.xml -> jenkins/jobs/clone_code/builds/2/workflow/5.xml
+	renamed:    jenkins/jobs/clone code/builds/3/build.xml -> jenkins/jobs/clone_code/builds/3/build.xml
+	new file:   jenkins/jobs/clone_code/builds/3/log
+	new file:   jenkins/jobs/clone_code/builds/3/log-index
+	new file:   jenkins/jobs/clone_code/builds/3/workflow/10.xml
+	new file:   jenkins/jobs/clone_code/builds/3/workflow/11.xml
+	new file:   jenkins/jobs/clone_code/builds/3/workflow/12.xml
+	renamed:    jenkins/jobs/clone code/builds/3/workflow/2.xml -> jenkins/jobs/clone_code/builds/3/workflow/2.xml
+	renamed:    jenkins/jobs/clone code/builds/3/workflow/3.xml -> jenkins/jobs/clone_code/builds/3/workflow/3.xml
+	new file:   jenkins/jobs/clone_code/builds/3/workflow/4.xml
+	new file:   jenkins/jobs/clone_code/builds/3/workflow/5.xml
+	new file:   jenkins/jobs/clone_code/builds/3/workflow/6.xml
+	new file:   jenkins/jobs/clone_code/builds/3/workflow/7.xml
+	new file:   jenkins/jobs/clone_code/builds/3/workflow/8.xml
+	new file:   jenkins/jobs/clone_code/builds/3/workflow/9.xml
+	new file:   jenkins/jobs/clone_code/builds/4/build.xml
+	new file:   jenkins/jobs/clone_code/builds/4/log
+	new file:   jenkins/jobs/clone_code/builds/4/log-index
+	new file:   jenkins/jobs/clone_code/builds/4/workflow/10.xml
+	new file:   jenkins/jobs/clone_code/builds/4/workflow/11.xml
+	new file:   jenkins/jobs/clone_code/builds/4/workflow/12.xml
+	new file:   jenkins/jobs/clone_code/builds/4/workflow/2.xml
+	new file:   jenkins/jobs/clone_code/builds/4/workflow/3.xml
+	new file:   jenkins/jobs/clone_code/builds/4/workflow/4.xml
+	new file:   jenkins/jobs/clone_code/builds/4/workflow/5.xml
+	new file:   jenkins/jobs/clone_code/builds/4/workflow/6.xml
+	new file:   jenkins/jobs/clone_code/builds/4/workflow/7.xml
+	new file:   jenkins/jobs/clone_code/builds/4/workflow/8.xml
+	new file:   jenkins/jobs/clone_code/builds/4/workflow/9.xml
+	new file:   jenkins/jobs/clone_code/builds/5/build.xml
+	new file:   jenkins/jobs/clone_code/builds/5/log
+	new file:   jenkins/jobs/clone_code/builds/5/log-index
+	new file:   jenkins/jobs/clone_code/builds/5/workflow/10.xml
+	new file:   jenkins/jobs/clone_code/builds/5/workflow/11.xml
+	new file:   jenkins/jobs/clone_code/builds/5/workflow/12.xml
+	new file:   jenkins/jobs/clone_code/builds/5/workflow/2.xml
+	new file:   jenkins/jobs/clone_code/builds/5/workflow/3.xml
+	new file:   jenkins/jobs/clone_code/builds/5/workflow/4.xml
+	new file:   jenkins/jobs/clone_code/builds/5/workflow/5.xml
+	new file:   jenkins/jobs/clone_code/builds/5/workflow/6.xml
+	new file:   jenkins/jobs/clone_code/builds/5/workflow/7.xml
+	new file:   jenkins/jobs/clone_code/builds/5/workflow/8.xml
+	new file:   jenkins/jobs/clone_code/builds/5/workflow/9.xml
+	renamed:    jenkins/jobs/clone code/builds/legacyIds -> jenkins/jobs/clone_code/builds/legacyIds
+	renamed:    jenkins/jobs/clone code/builds/permalinks -> jenkins/jobs/clone_code/builds/permalinks
+	renamed:    jenkins/jobs/clone code/config.xml -> jenkins/jobs/clone_code/config.xml
+	new file:   jenkins/jobs/clone_code/nextBuildNumber
+	new file:   jenkins/jobs/jenkins-backup/builds/49/build.xml
+	modified:   jenkins/jobs/jenkins-backup/builds/49/log
+	new file:   jenkins/jobs/jenkins-backup/builds/50/changelog.xml
+	new file:   jenkins/jobs/jenkins-backup/builds/50/log
+	modified:   jenkins/jobs/jenkins-backup/builds/permalinks
+	modified:   jenkins/jobs/jenkins-backup/nextBuildNumber
+	modified:   jenkins/jobs/test-nic-regression/config.xml
+	new file:   jenkins/jobs/test-nic-simple-Test/builds/1/build.xml
+	new file:   jenkins/jobs/test-nic-simple-Test/builds/1/log
+	new file:   jenkins/jobs/test-nic-simple-Test/builds/1/log-index
+	new file:   jenkins/jobs/test-nic-simple-Test/builds/1/workflow/10.xml
+	new file:   jenkins/jobs/test-nic-simple-Test/builds/1/workflow/11.xml
+	new file:   jenkins/jobs/test-nic-simple-Test/builds/1/workflow/12.xml
+	new file:   jenkins/jobs/test-nic-simple-Test/builds/1/workflow/13.xml
+	new file:   jenkins/jobs/test-nic-simple-Test/builds/1/workflow/14.xml
+	new file:   jenkins/jobs/test-nic-simple-Test/builds/1/workflow/15.xml
+	new file:   jenkins/jobs/test-nic-simple-Test/builds/1/workflow/16.xml
+	new file:   jenkins/jobs/test-nic-simple-Test/builds/1/workflow/2.xml
+	new file:   jenkins/jobs/test-nic-simple-Test/builds/1/workflow/3.xml
+	new file:   jenkins/jobs/test-nic-simple-Test/builds/1/workflow/4.xml
+	new file:   jenkins/jobs/test-nic-simple-Test/builds/1/workflow/5.xml
+	new file:   jenkins/jobs/test-nic-simple-Test/builds/1/workflow/6.xml
+	new file:   jenkins/jobs/test-nic-simple-Test/builds/1/workflow/7.xml
+	new file:   jenkins/jobs/test-nic-simple-Test/builds/1/workflow/8.xml
+	new file:   jenkins/jobs/test-nic-simple-Test/builds/1/workflow/9.xml
+	modified:   jenkins/jobs/test-nic-simple-Test/builds/permalinks
+	modified:   jenkins/jobs/test-nic-simple-Test/config.xml
+	modified:   jenkins/jobs/test-nic-simple-Test/nextBuildNumber
+	modified:   jenkins/jobs/test-nic-sriov-5times/config.xml
+	modified:   jenkins/jobs/test-nic-sriov-stress-2h/config.xml
+	modified:   jenkins/logs/health-checker.log
+	new file:   jenkins/logs/slaves/auto-controller/slave.log
+	new file:   jenkins/logs/slaves/auto-controller/slave.log.1
+	new file:   jenkins/logs/slaves/auto-controller/slave.log.10
+	new file:   jenkins/logs/slaves/auto-controller/slave.log.2
+	new file:   jenkins/logs/slaves/auto-controller/slave.log.3
+	new file:   jenkins/logs/slaves/auto-controller/slave.log.4
+	new file:   jenkins/logs/slaves/auto-controller/slave.log.5
+	new file:   jenkins/logs/slaves/auto-controller/slave.log.6
+	new file:   jenkins/logs/slaves/auto-controller/slave.log.7
+	new file:   jenkins/logs/slaves/auto-controller/slave.log.8
+	new file:   jenkins/logs/slaves/auto-controller/slave.log.9
+	deleted:    jenkins/logs/slaves/dts1/slave.log
+	modified:   jenkins/logs/slaves/ipu-iauto_test/slave.log
+	modified:   jenkins/logs/slaves/ipu-iauto_test/slave.log.1
+	modified:   jenkins/logs/slaves/ipu-iauto_test/slave.log.10
+	modified:   jenkins/logs/slaves/ipu-iauto_test/slave.log.2
+	modified:   jenkins/logs/slaves/ipu-iauto_test/slave.log.3
+	modified:   jenkins/logs/slaves/ipu-iauto_test/slave.log.4
+	modified:   jenkins/logs/slaves/ipu-iauto_test/slave.log.5
+	modified:   jenkins/logs/slaves/ipu-iauto_test/slave.log.6
+	modified:   jenkins/logs/slaves/ipu-iauto_test/slave.log.7
+	modified:   jenkins/logs/slaves/ipu-iauto_test/slave.log.8
+	modified:   jenkins/logs/slaves/ipu-iauto_test/slave.log.9
+	modified:   jenkins/logs/slaves/jenkins_backup/slave.log
+	modified:   jenkins/logs/slaves/jenkins_backup/slave.log.1
+	new file:   jenkins/logs/slaves/jenkins_backup/slave.log.10
+	modified:   jenkins/logs/slaves/jenkins_backup/slave.log.2
+	modified:   jenkins/logs/slaves/jenkins_backup/slave.log.3
+	modified:   jenkins/logs/slaves/jenkins_backup/slave.log.4
+	modified:   jenkins/logs/slaves/jenkins_backup/slave.log.5
+	modified:   jenkins/logs/slaves/jenkins_backup/slave.log.6
+	modified:   jenkins/logs/slaves/jenkins_backup/slave.log.7
+	new file:   jenkins/logs/slaves/jenkins_backup/slave.log.8
+	new file:   jenkins/logs/slaves/jenkins_backup/slave.log.9
+	modified:   jenkins/logs/tasks/Download metadata.log
+	modified:   jenkins/logs/tasks/Fingerprint cleanup.log
+	modified:   jenkins/logs/tasks/Fingerprint cleanup.log.1
+	modified:   jenkins/logs/tasks/Fingerprint cleanup.log.2
+	modified:   jenkins/logs/tasks/Fingerprint cleanup.log.3
+	modified:   jenkins/logs/tasks/Fingerprint cleanup.log.4
+	modified:   jenkins/logs/tasks/Fingerprint cleanup.log.5
+	modified:   jenkins/logs/tasks/Periodic background build discarder.log
+	modified:   jenkins/logs/tasks/Periodic background build discarder.log.1
+	modified:   jenkins/logs/tasks/Periodic background build discarder.log.2
+	modified:   jenkins/logs/tasks/Periodic background build discarder.log.3
+	modified:   jenkins/logs/tasks/Periodic background build discarder.log.4
+	modified:   jenkins/logs/tasks/Periodic background build discarder.log.5
+	modified:   jenkins/logs/tasks/Workspace clean-up.log
+	modified:   jenkins/logs/tasks/Workspace clean-up.log.1
+	modified:   jenkins/logs/tasks/Workspace clean-up.log.2
+	modified:   jenkins/logs/tasks/Workspace clean-up.log.3
+	modified:   jenkins/logs/tasks/Workspace clean-up.log.4
+	modified:   jenkins/logs/tasks/Workspace clean-up.log.5
+	modified:   jenkins/logs/tasks/telemetry collection.log
+	modified:   jenkins/logs/tasks/telemetry collection.log.1
+	modified:   jenkins/logs/tasks/telemetry collection.log.2
+	modified:   jenkins/logs/tasks/telemetry collection.log.3
+	modified:   jenkins/logs/tasks/telemetry collection.log.4
+	modified:   jenkins/logs/tasks/telemetry collection.log.5
+	renamed:    jenkins/nodes/dts1/config.xml -> jenkins/nodes/auto-controller/config.xml
+	modified:   jenkins/org.jenkinsci.plugins.workflow.flow.FlowExecutionList.xml
+	modified:   jenkins/queue.xml
+	modified:   jenkins/updates/default.json
+
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   jenkins/config.xml
+	modified:   jenkins/copy_reference_file.log
+	deleted:    jenkins/fingerprints/0c/81/7f39df6213cc7ae8a43759750301.xml
+	deleted:    jenkins/fingerprints/3f/f4/edc55e56af3f9904ae2c94ac7f26.xml
+	modified:   jenkins/fingerprints/fc/7b/c9872f4f5327e1eea7e83ff746c1.xml
+	modified:   jenkins/jobs/jenkins-backup/builds/50/log
+	modified:   jenkins/jobs/jenkins-backup/builds/permalinks
+	modified:   jenkins/jobs/jenkins-backup/nextBuildNumber
+	modified:   jenkins/logs/health-checker.log
+	modified:   jenkins/logs/slaves/auto-controller/slave.log
+	deleted:    jenkins/logs/slaves/auto-controller/slave.log.1
+	deleted:    jenkins/logs/slaves/auto-controller/slave.log.10
+	deleted:    jenkins/logs/slaves/auto-controller/slave.log.2
+	deleted:    jenkins/logs/slaves/auto-controller/slave.log.3
+	deleted:    jenkins/logs/slaves/auto-controller/slave.log.4
+	deleted:    jenkins/logs/slaves/auto-controller/slave.log.5
+	deleted:    jenkins/logs/slaves/auto-controller/slave.log.6
+	deleted:    jenkins/logs/slaves/auto-controller/slave.log.7
+	deleted:    jenkins/logs/slaves/auto-controller/slave.log.8
+	deleted:    jenkins/logs/slaves/auto-controller/slave.log.9
+	modified:   jenkins/logs/slaves/ipu-iauto_test/slave.log
+	modified:   jenkins/logs/slaves/ipu-iauto_test/slave.log.1
+	deleted:    jenkins/logs/slaves/ipu-iauto_test/slave.log.10
+	modified:   jenkins/logs/slaves/ipu-iauto_test/slave.log.2
+	modified:   jenkins/logs/slaves/ipu-iauto_test/slave.log.3
+	modified:   jenkins/logs/slaves/ipu-iauto_test/slave.log.4
+	modified:   jenkins/logs/slaves/ipu-iauto_test/slave.log.5
+	modified:   jenkins/logs/slaves/ipu-iauto_test/slave.log.6
+	deleted:    jenkins/logs/slaves/ipu-iauto_test/slave.log.7
+	deleted:    jenkins/logs/slaves/ipu-iauto_test/slave.log.8
+	deleted:    jenkins/logs/slaves/ipu-iauto_test/slave.log.9
+	modified:   jenkins/logs/slaves/jenkins_backup/slave.log
+	deleted:    jenkins/logs/slaves/jenkins_backup/slave.log.1
+	deleted:    jenkins/logs/slaves/jenkins_backup/slave.log.10
+	deleted:    jenkins/logs/slaves/jenkins_backup/slave.log.2
+	deleted:    jenkins/logs/slaves/jenkins_backup/slave.log.3
+	deleted:    jenkins/logs/slaves/jenkins_backup/slave.log.4
+	deleted:    jenkins/logs/slaves/jenkins_backup/slave.log.5
+	deleted:    jenkins/logs/slaves/jenkins_backup/slave.log.6
+	deleted:    jenkins/logs/slaves/jenkins_backup/slave.log.7
+	deleted:    jenkins/logs/slaves/jenkins_backup/slave.log.8
+	deleted:    jenkins/logs/slaves/jenkins_backup/slave.log.9
+	modified:   jenkins/logs/tasks/Download metadata.log
+	modified:   jenkins/logs/tasks/Download metadata.log.1
+	modified:   jenkins/logs/tasks/Download metadata.log.2
+	modified:   jenkins/logs/tasks/Download metadata.log.3
+	modified:   jenkins/logs/tasks/Download metadata.log.4
+	modified:   jenkins/logs/tasks/Download metadata.log.5
+	modified:   jenkins/logs/tasks/Fingerprint cleanup.log
+	modified:   jenkins/logs/tasks/Fingerprint cleanup.log.1
+	modified:   jenkins/logs/tasks/Fingerprint cleanup.log.2
+	modified:   jenkins/logs/tasks/Fingerprint cleanup.log.3
+	modified:   jenkins/logs/tasks/Fingerprint cleanup.log.4
+	modified:   jenkins/logs/tasks/Fingerprint cleanup.log.5
+	modified:   jenkins/logs/tasks/Periodic background build discarder.log
+	modified:   jenkins/logs/tasks/Periodic background build discarder.log.1
+	modified:   jenkins/logs/tasks/Periodic background build discarder.log.2
+	modified:   jenkins/logs/tasks/Periodic background build discarder.log.3
+	modified:   jenkins/logs/tasks/Periodic background build discarder.log.4
+	modified:   jenkins/logs/tasks/Periodic background build discarder.log.5
+	modified:   jenkins/logs/tasks/Workspace clean-up.log
+	modified:   jenkins/logs/tasks/Workspace clean-up.log.1
+	modified:   jenkins/logs/tasks/Workspace clean-up.log.2
+	modified:   jenkins/logs/tasks/Workspace clean-up.log.3
+	modified:   jenkins/logs/tasks/Workspace clean-up.log.4
+	modified:   jenkins/logs/tasks/Workspace clean-up.log.5
+	deleted:    jenkins/queue.xml
+	modified:   jenkins/queue.xml.bak
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	jenkins/.java/fonts/11.0.12/fcinfo-1-jenkins-7565f75f47-84nwl-Linux-4.18.0-193.el8.x86_64-en.properties
+	jenkins/jobs/jenkins-backup/builds/50/build.xml
+	jenkins/jobs/jenkins-backup/builds/51/
+
++ git add -A
+++ date
++ git commit -s -m 'Jenkins backup at Fri Dec  3 03:06:01 CST 2021'
+Auto packing the repository in background for optimum performance.
+See "git help gc" for manual housekeeping.
+[master f6625c2] Jenkins backup at Fri Dec  3 03:06:01 CST 2021
+ Committer: root <root@ying-k8s-jenkins.sh.intel.com>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 158 files changed, 5383 insertions(+), 1220 deletions(-)
+ create mode 100644 jenkins/.java/fonts/11.0.12/fcinfo-1-jenkins-7565f75f47-84nwl-Linux-4.18.0-193.el8.x86_64-en.properties
+ delete mode 100644 jenkins/fingerprints/5b/5c/083acd0044396dfd3949fd873369.xml
+ delete mode 100644 jenkins/jobs/clone code/builds/3/log
+ delete mode 100644 jenkins/jobs/clone code/builds/3/log-index
+ delete mode 100644 jenkins/jobs/clone code/builds/3/program.dat
+ delete mode 100644 jenkins/jobs/clone code/nextBuildNumber
+ rename jenkins/jobs/{clone code => clone_code}/builds/1/build.xml (100%)
+ rename jenkins/jobs/{clone code => clone_code}/builds/1/log (100%)
+ rename jenkins/jobs/{clone code => clone_code}/builds/1/log-index (100%)
+ rename jenkins/jobs/{clone code => clone_code}/builds/1/workflow/2.xml (100%)
+ rename jenkins/jobs/{clone code => clone_code}/builds/1/workflow/3.xml (100%)
+ rename jenkins/jobs/{clone code => clone_code}/builds/1/workflow/4.xml (100%)
+ rename jenkins/jobs/{clone code => clone_code}/builds/1/workflow/5.xml (100%)
+ rename jenkins/jobs/{clone code => clone_code}/builds/2/build.xml (100%)
+ rename jenkins/jobs/{clone code => clone_code}/builds/2/log (100%)
+ rename jenkins/jobs/{clone code => clone_code}/builds/2/log-index (100%)
+ rename jenkins/jobs/{clone code => clone_code}/builds/2/workflow/2.xml (100%)
+ rename jenkins/jobs/{clone code => clone_code}/builds/2/workflow/3.xml (100%)
+ rename jenkins/jobs/{clone code => clone_code}/builds/2/workflow/4.xml (100%)
+ rename jenkins/jobs/{clone code => clone_code}/builds/2/workflow/5.xml (100%)
+ rename jenkins/jobs/{clone code => clone_code}/builds/3/build.xml (86%)
+ create mode 100644 jenkins/jobs/clone_code/builds/3/log
+ create mode 100644 jenkins/jobs/clone_code/builds/3/log-index
+ create mode 100644 jenkins/jobs/clone_code/builds/3/workflow/10.xml
+ create mode 100644 jenkins/jobs/clone_code/builds/3/workflow/11.xml
+ create mode 100644 jenkins/jobs/clone_code/builds/3/workflow/12.xml
+ rename jenkins/jobs/{clone code => clone_code}/builds/3/workflow/2.xml (100%)
+ rename jenkins/jobs/{clone code => clone_code}/builds/3/workflow/3.xml (85%)
+ create mode 100644 jenkins/jobs/clone_code/builds/3/workflow/4.xml
+ create mode 100644 jenkins/jobs/clone_code/builds/3/workflow/5.xml
+ create mode 100644 jenkins/jobs/clone_code/builds/3/workflow/6.xml
+ create mode 100644 jenkins/jobs/clone_code/builds/3/workflow/7.xml
+ create mode 100644 jenkins/jobs/clone_code/builds/3/workflow/8.xml
+ create mode 100644 jenkins/jobs/clone_code/builds/3/workflow/9.xml
+ create mode 100644 jenkins/jobs/clone_code/builds/4/build.xml
+ create mode 100644 jenkins/jobs/clone_code/builds/4/log
+ create mode 100644 jenkins/jobs/clone_code/builds/4/log-index
+ create mode 100644 jenkins/jobs/clone_code/builds/4/workflow/10.xml
+ create mode 100644 jenkins/jobs/clone_code/builds/4/workflow/11.xml
+ create mode 100644 jenkins/jobs/clone_code/builds/4/workflow/12.xml
+ create mode 100644 jenkins/jobs/clone_code/builds/4/workflow/2.xml
+ create mode 100644 jenkins/jobs/clone_code/builds/4/workflow/3.xml
+ create mode 100644 jenkins/jobs/clone_code/builds/4/workflow/4.xml
+ create mode 100644 jenkins/jobs/clone_code/builds/4/workflow/5.xml
+ create mode 100644 jenkins/jobs/clone_code/builds/4/workflow/6.xml
+ create mode 100644 jenkins/jobs/clone_code/builds/4/workflow/7.xml
+ create mode 100644 jenkins/jobs/clone_code/builds/4/workflow/8.xml
+ create mode 100644 jenkins/jobs/clone_code/builds/4/workflow/9.xml
+ create mode 100644 jenkins/jobs/clone_code/builds/5/build.xml
+ create mode 100644 jenkins/jobs/clone_code/builds/5/log
+ create mode 100644 jenkins/jobs/clone_code/builds/5/log-index
+ create mode 100644 jenkins/jobs/clone_code/builds/5/workflow/10.xml
+ create mode 100644 jenkins/jobs/clone_code/builds/5/workflow/11.xml
+ create mode 100644 jenkins/jobs/clone_code/builds/5/workflow/12.xml
+ create mode 100644 jenkins/jobs/clone_code/builds/5/workflow/2.xml
+ create mode 100644 jenkins/jobs/clone_code/builds/5/workflow/3.xml
+ create mode 100644 jenkins/jobs/clone_code/builds/5/workflow/4.xml
+ create mode 100644 jenkins/jobs/clone_code/builds/5/workflow/5.xml
+ create mode 100644 jenkins/jobs/clone_code/builds/5/workflow/6.xml
+ create mode 100644 jenkins/jobs/clone_code/builds/5/workflow/7.xml
+ create mode 100644 jenkins/jobs/clone_code/builds/5/workflow/8.xml
+ create mode 100644 jenkins/jobs/clone_code/builds/5/workflow/9.xml
+ rename jenkins/jobs/{clone code => clone_code}/builds/legacyIds (100%)
+ rename jenkins/jobs/{clone code => clone_code}/builds/permalinks (50%)
+ rename jenkins/jobs/{clone code => clone_code}/config.xml (95%)
+ create mode 100644 jenkins/jobs/clone_code/nextBuildNumber
+ create mode 100644 jenkins/jobs/jenkins-backup/builds/49/build.xml
+ create mode 100644 jenkins/jobs/jenkins-backup/builds/50/build.xml
+ create mode 100644 jenkins/jobs/jenkins-backup/builds/50/changelog.xml
+ create mode 100644 jenkins/jobs/jenkins-backup/builds/50/log
+ create mode 100644 jenkins/jobs/jenkins-backup/builds/51/changelog.xml
+ create mode 100644 jenkins/jobs/jenkins-backup/builds/51/log
+ create mode 100644 jenkins/jobs/test-nic-simple-Test/builds/1/build.xml
+ create mode 100644 jenkins/jobs/test-nic-simple-Test/builds/1/log
+ create mode 100644 jenkins/jobs/test-nic-simple-Test/builds/1/log-index
+ create mode 100644 jenkins/jobs/test-nic-simple-Test/builds/1/workflow/10.xml
+ create mode 100644 jenkins/jobs/test-nic-simple-Test/builds/1/workflow/11.xml
+ create mode 100644 jenkins/jobs/test-nic-simple-Test/builds/1/workflow/12.xml
+ create mode 100644 jenkins/jobs/test-nic-simple-Test/builds/1/workflow/13.xml
+ create mode 100644 jenkins/jobs/test-nic-simple-Test/builds/1/workflow/14.xml
+ create mode 100644 jenkins/jobs/test-nic-simple-Test/builds/1/workflow/15.xml
+ create mode 100644 jenkins/jobs/test-nic-simple-Test/builds/1/workflow/16.xml
+ create mode 100644 jenkins/jobs/test-nic-simple-Test/builds/1/workflow/2.xml
+ create mode 100644 jenkins/jobs/test-nic-simple-Test/builds/1/workflow/3.xml
+ create mode 100644 jenkins/jobs/test-nic-simple-Test/builds/1/workflow/4.xml
+ create mode 100644 jenkins/jobs/test-nic-simple-Test/builds/1/workflow/5.xml
+ create mode 100644 jenkins/jobs/test-nic-simple-Test/builds/1/workflow/6.xml
+ create mode 100644 jenkins/jobs/test-nic-simple-Test/builds/1/workflow/7.xml
+ create mode 100644 jenkins/jobs/test-nic-simple-Test/builds/1/workflow/8.xml
+ create mode 100644 jenkins/jobs/test-nic-simple-Test/builds/1/workflow/9.xml
+ rename jenkins/logs/slaves/{dts1 => auto-controller}/slave.log (73%)
+ delete mode 100644 jenkins/logs/slaves/ipu-iauto_test/slave.log.10
+ delete mode 100644 jenkins/logs/slaves/ipu-iauto_test/slave.log.7
+ delete mode 100644 jenkins/logs/slaves/ipu-iauto_test/slave.log.8
+ delete mode 100644 jenkins/logs/slaves/ipu-iauto_test/slave.log.9
+ delete mode 100644 jenkins/logs/slaves/jenkins_backup/slave.log.1
+ delete mode 100644 jenkins/logs/slaves/jenkins_backup/slave.log.2
+ delete mode 100644 jenkins/logs/slaves/jenkins_backup/slave.log.3
+ delete mode 100644 jenkins/logs/slaves/jenkins_backup/slave.log.4
+ delete mode 100644 jenkins/logs/slaves/jenkins_backup/slave.log.5
+ delete mode 100644 jenkins/logs/slaves/jenkins_backup/slave.log.6
+ delete mode 100644 jenkins/logs/slaves/jenkins_backup/slave.log.7
+ rewrite jenkins/logs/tasks/Fingerprint cleanup.log.2 (100%)
+ copy jenkins/logs/tasks/{Fingerprint cleanup.log.2 => Fingerprint cleanup.log.4} (100%)
+ rewrite jenkins/logs/tasks/Periodic background build discarder.log (79%)
+ rewrite jenkins/logs/tasks/Workspace clean-up.log.3 (70%)
+ copy jenkins/logs/tasks/{Workspace clean-up.log.3 => Workspace clean-up.log.5} (100%)
+ rename jenkins/nodes/{dts1 => auto-controller}/config.xml (60%)
+ delete mode 100644 jenkins/queue.xml
++ git push origin HEAD:master
+Welcome to Intel Hardened OS
+To ssh://gitlab.devtools.intel.com:29418/yzhao18/jenkins-backup.git
+   1021595..f6625c2  HEAD -> master
+Finished: SUCCESS

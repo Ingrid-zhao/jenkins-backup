@@ -1,0 +1,234 @@
+Started by user [8mha:////4C8zTO/v0UlG+vQ5Fjm5jTf9kR93yL5yxTMP2X04T9v8AAAAlh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyWEgYu/dLi1CL9ovz8EgDKVWzSvwAAAA==[0mroot
+Running in Durability level: MAX_SURVIVABILITY
+[8mha:////4DOlrZhma2TKYqx8mtRBwGXVE8Xt4z3OJyo/zi+ICDdzAAAAoh+LCAAAAAAAAP9tjTEOwjAQBM8BClpKHuFItIiK1krDC0x8GCfWnbEdkooX8TX+gCESFVvtrLSa5wtWKcKBo5UdUu8otU4GP9jS5Mixv3geZcdn2TIl9igbHBs2eJyx4YwwR1SwULBGaj0nRzbDRnX6rmuvydanHMu2V1A5c4MHCFXMWcf8hSnC9jqYxPTz/BXAFEIGsfuclm8zQVqFvQAAAA==[0m[Pipeline] Start of Pipeline
+[8mha:////4B4K7nOhvaaLmbeE3w0NEhE1GAALwLDjakw9plXgkY6XAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycohUghExsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jduZBmjwAAAAA==[0m[Pipeline] node
+Running on [8mha:////4JQmdQSV2sAuVFk2A1iq0cchuL2wGsZlwhjgGuBsQEy8AAAAnx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyOEgZh/eT83ILSktQi/ZLU4hLdvMxkfQDdlfoHyAAAAA==[0mtest-nic in /root/.jenkins/workspace/test-nic
+[8mha:////4NUxBMzN6CtFAbQ4pdo7pH8ZuwVHigLf0SdP3FcjQTwyAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gA0xsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jfoP95RwAAAAA==[0m[Pipeline] {
+[8mha:////4OCB1+Up79PmV3LnMeomKr9r+JFCKkFjAfTpr2UorbLOAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gQkxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jc09154wAAAAA==[0m[Pipeline] stage
+[8mha:////4N6KQN35K8CT/Pcr9a+R4oOEu4uEh3phvpB1t67zd2hmAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0ggUxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jek7ggRwAAAAA==[0m[Pipeline] { (set args)
+[8mha:////4KpTcsSlLG7yEvo1vGv2QG1z86HMYkLASFXVuKwhd7SZAAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQTbaWGsbAmNJ0AWEZb8zwLrbuWJvJp3kLiJlZNMMm+a93rDOic4UbLcG+wdZu14DKOti0+U+lugiXu6ck2YKRguzSSpM+cFJRUDS1gDKwEbgzpQdmgLbIVXD9UGhba9lFS/o4DGdQM8gYlqLiqVL8wJdvexy4Q/z18BzLEA29ce4gfg7KmOvAAAAA==[0m[Pipeline] sh
++ python /root/.jenkins/workspace/test-nic/npxtester/conf/change_args.py '{"sut_conf":{"host":"10.112.97.55","connect_switch_sut_pf":"ens7f2","os":"rehat"},"dhcp":{"ipv4":"127.0.0.1","ipv6":"::1"}}'
+[8mha:////4ChDQWb8Lvr0RoXQ1L8EY4p37+Po0Q8Mb8bchs8JeqDJAAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQTbGRNjZUtoPAGyiLDkfxZYdytP5NW8g8RNrJxkknnTvNcb1jnBiZLl3mDvMGvHYxhtXXyi1N8CTdzTlWvCTMFwaSZJnTkvKKkYWMIaWAnYGNSBskNbYCu8eqg2KLTtpaT6HQU0rhvgCUxUc1GpfGFOsLuPXSb8ef4KYI6xADvU7j9Dg2gqvAAAAA==[0m[Pipeline] }
+[8mha:////4J0p4zt/+On27QitkvU5TFB8M2wwWYWaAHIuYiUer4fkAAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQRbWRhjZUtoPAGyiLDkfxZYdytP5NW8g8RNrJxkknnTvNcb1jnBiZLl3mDvMGvHYxhtXXyi1N8CTdzTlWvCTMFwaSZJnTkvKKkYWMIaWAnYGNSBskNbYCu8eqg2KLTtpaT6HQU0rhvgCUxUc1GpfGFOsLuPXSb8ef4KYI6xADvU7j9J+wGOvAAAAA==[0m[Pipeline] // stage
+[8mha:////4Ea3/4ZYuTM98yMZ9UntzMXOyQ2ItSOm6XAUUO4QqkITAAAAph+LCAAAAAAAAP9tjTEOwjAQBM9BKWgpeYQDEh2iorXc8AITG+PEugv2haTiRXyNPxCIRMVWOyut5vmCMic4UPKycdgGzHWQXez91ORAqb1EGmRDZ1kTZopOajdosu44oyZ2MEcUsFCwdFhHygE9w0o15m6qaNBXJ07TtldQBHuDBwg1mdkk/sKYYH3tbSb8ef4KYOwYxI6h2G4+x/INtuQqUcEAAAA=[0m[Pipeline] stage
+[8mha:////4IJd0qxfNFkcgwUT9OFke9rxaJjwCH2G9mHJ+5FMmbLfAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+DOrAycoiUzoiJNerCCUITQtLo/zZJSSdOxNW4Ay2VmPBg2Zas93pDGQOcKBjuNHYWY2t570czJ54pdDdPmTu68pYwkte80bkhpc9rbShpWFUw2AjYamw9RYsmwU44+ZCVl2iqSwrzdhTArBrgCYWYyUmG9C1TgP19VJHwx/kLgKlPwOrDYvXyLD8BobDcwgAAAA==[0m[Pipeline] { (run)
+[8mha:////4KACpsxoNqug+yeGIE2K55MD+IyPDLfbYOrean7h1Zl/AAAAox+LCAAAAAAAAP9tjTESwiAURH/iWNhaeggysXWsbBkaT4AJIoT5nwCRVJ7Iq3kH0cxYucXOvm3e8wXrGOBIQTOrcDAYO8O8m3RZLFMYro4ys3RhHWEkp5hQWVCvTgsKSgqWVDWsOGwUdo6iQZ1gy628y8ZJ1M05hfIdONSmH+EBFS/mJEP6whxgd5v6SPjz/BXA7BPUbfupvX8DpQJrNb4AAAA=[0m[Pipeline] sh
++ pytest /root/.jenkins/workspace/test-nic/npxtester/Tests/testNics/test_nics.py -m nicall -s
+============================= test session starts ==============================
+platform linux -- Python 3.6.8, pytest-6.2.4, py-1.10.0, pluggy-0.13.1
+rootdir: /root/.jenkins/workspace/test-nic/npxtester/Tests/testNics, configfile: pytest.ini
+plugins: metadata-1.11.0, html-3.1.1
+{'host': '10.112.97.55', 'port': 22, 'user': 'root', 'password': 'password', 'pf1': '', 'pf1_ipv6': '127.0.0.1', 'pf2': 'ens787f1', 'os': 'rehat', 'connect_switch_sut_pf': 'ens7f2'}
+collected 2 items
+
+npxtester/Tests/testNics/test_nics.py 2021-11-09 09:47:00 - NicTestFixture.py - [line:28] - root - INFO - Starting to run test_silver_Networking_ConnectivityEnableDisable
+2021-11-09 09:47:00 - NicTestFixture.py - [line:29] - root - INFO - setup log for testing in the fixture class fbefore
+2021-11-09 09:47:00 - test_nics.py - [line:18] - root - INFO - this is Test_Nics setup.
+2021-11-09 09:47:00 - transport.py - [line:1819] - paramiko.transport - INFO - Connected (version 2.0, client OpenSSH_8.0)
+2021-11-09 09:47:00 - transport.py - [line:1819] - paramiko.transport - INFO - Authentication (publickey) failed.
+2021-11-09 09:47:00 - transport.py - [line:1819] - paramiko.transport - INFO - Authentication (password) successful!
+2021-11-09 09:47:00 - sshInstance.py - [line:28] - root - INFO - SSH on SUT: 10.112.97.55
+2021-11-09 09:47:00 - test_nics.py - [line:34] - root - INFO - run silver_Networking_ConnectivityEnableDisable
+2021-11-09 09:47:04 - sshInstance.py - [line:69] - root - INFO - Activate the web console with: systemctl enable --now cockpit.socket
+
+This system is not registered to Red Hat Insights. See https://cloud.redhat.com/
+To register this system, run: insights-client --register
+
+Last login: Mon Nov  8 19:58:01 2021 from 10.239.132.228
+[root@localhost ~]# ping -c 5 127.0.0.1
+PING 127.0.0.1 (127.0.0.1) 56(84) bytes of data.
+64 bytes from 127.0.0.1: icmp_seq=1 ttl=64 time=0.035 ms
+2021-11-09 09:47:05 - sshInstance.py - [line:69] - root - INFO - 64 bytes from 127.0.0.1: icmp_seq=2 ttl=64 time=0.012 ms
+2021-11-09 09:47:06 - sshInstance.py - [line:69] - root - INFO - 64 bytes from 127.0.0.1: icmp_seq=3 ttl=64 time=0.018 ms
+2021-11-09 09:47:07 - sshInstance.py - [line:69] - root - INFO - 64 bytes from 127.0.0.1: icmp_seq=4 ttl=64 time=0.013 ms
+2021-11-09 09:47:08 - sshInstance.py - [line:69] - root - INFO - 64 bytes from 127.0.0.1: icmp_seq=5 ttl=64 time=0.008 ms
+
+--- 127.0.0.1 ping statistics ---
+5 packets transmitted, 5 received, 0% packet loss, time 96ms
+rtt min/avg/max/mdev = 0.008/0.017/0.035/0.009 ms
+[root@localhost ~]# 
+2021-11-09 09:47:16 - sshInstance.py - [line:89] - root - INFO - ifconfig ens7f2 down
+[root@localhost ~]# 
+2021-11-09 09:47:24 - sshInstance.py - [line:89] - root - INFO - ifconfig ens7f2 up
+[root@localhost ~]# 
+2021-11-09 09:47:31 - sshInstance.py - [line:69] - root - INFO - ping -c 5 127.0.0.1
+PING 127.0.0.1 (127.0.0.1) 56(84) bytes of data.
+64 bytes from 127.0.0.1: icmp_seq=1 ttl=64 time=0.029 ms
+2021-11-09 09:47:32 - sshInstance.py - [line:69] - root - INFO - 64 bytes from 127.0.0.1: icmp_seq=2 ttl=64 time=0.011 ms
+2021-11-09 09:47:33 - sshInstance.py - [line:69] - root - INFO - 64 bytes from 127.0.0.1: icmp_seq=3 ttl=64 time=0.010 ms
+2021-11-09 09:47:34 - sshInstance.py - [line:69] - root - INFO - 64 bytes from 127.0.0.1: icmp_seq=4 ttl=64 time=0.008 ms
+2021-11-09 09:47:35 - sshInstance.py - [line:69] - root - INFO - 64 bytes from 127.0.0.1: icmp_seq=5 ttl=64 time=0.009 ms
+
+--- 127.0.0.1 ping statistics ---
+5 packets transmitted, 5 received, 0% packet loss, time 77ms
+rtt min/avg/max/mdev = 0.008/0.013/0.029/0.008 ms
+[root@localhost ~]# 
+2021-11-09 09:47:43 - sshInstance.py - [line:89] - root - INFO - ifconfig ens7f2 down
+[root@localhost ~]# 
+2021-11-09 09:47:51 - sshInstance.py - [line:89] - root - INFO - ifconfig ens7f2 up
+[root@localhost ~]# 
+2021-11-09 09:47:58 - sshInstance.py - [line:69] - root - INFO - ping -c 5 127.0.0.1
+PING 127.0.0.1 (127.0.0.1) 56(84) bytes of data.
+64 bytes from 127.0.0.1: icmp_seq=1 ttl=64 time=0.035 ms
+2021-11-09 09:47:59 - sshInstance.py - [line:69] - root - INFO - 64 bytes from 127.0.0.1: icmp_seq=2 ttl=64 time=0.016 ms
+2021-11-09 09:48:00 - sshInstance.py - [line:69] - root - INFO - 64 bytes from 127.0.0.1: icmp_seq=3 ttl=64 time=0.010 ms
+2021-11-09 09:48:01 - sshInstance.py - [line:69] - root - INFO - 64 bytes from 127.0.0.1: icmp_seq=4 ttl=64 time=0.017 ms
+2021-11-09 09:48:02 - sshInstance.py - [line:69] - root - INFO - 64 bytes from 127.0.0.1: icmp_seq=5 ttl=64 time=0.016 ms
+
+--- 127.0.0.1 ping statistics ---
+5 packets transmitted, 5 received, 0% packet loss, time 121ms
+rtt min/avg/max/mdev = 0.010/0.018/0.035/0.010 ms
+[root@localhost ~]# 
+2021-11-09 09:48:10 - sshInstance.py - [line:89] - root - INFO - ifconfig ens7f2 down
+[root@localhost ~]# 
+2021-11-09 09:48:18 - sshInstance.py - [line:89] - root - INFO - ifconfig ens7f2 up
+[root@localhost ~]# 
+2021-11-09 09:48:25 - sshInstance.py - [line:69] - root - INFO - ping -c 5 127.0.0.1
+PING 127.0.0.1 (127.0.0.1) 56(84) bytes of data.
+64 bytes from 127.0.0.1: icmp_seq=1 ttl=64 time=0.030 ms
+2021-11-09 09:48:26 - sshInstance.py - [line:69] - root - INFO - 64 bytes from 127.0.0.1: icmp_seq=2 ttl=64 time=0.020 ms
+2021-11-09 09:48:27 - sshInstance.py - [line:69] - root - INFO - 64 bytes from 127.0.0.1: icmp_seq=3 ttl=64 time=0.011 ms
+2021-11-09 09:48:28 - sshInstance.py - [line:69] - root - INFO - 64 bytes from 127.0.0.1: icmp_seq=4 ttl=64 time=0.011 ms
+2021-11-09 09:48:29 - sshInstance.py - [line:69] - root - INFO - 64 bytes from 127.0.0.1: icmp_seq=5 ttl=64 time=0.010 ms
+
+--- 127.0.0.1 ping statistics ---
+5 packets transmitted, 5 received, 0% packet loss, time 102ms
+rtt min/avg/max/mdev = 0.010/0.016/0.030/0.008 ms
+[root@localhost ~]# 
+2021-11-09 09:48:37 - sshInstance.py - [line:89] - root - INFO - ifconfig ens7f2 down
+[root@localhost ~]# 
+2021-11-09 09:48:45 - sshInstance.py - [line:89] - root - INFO - ifconfig ens7f2 up
+[root@localhost ~]# 
+2021-11-09 09:48:52 - sshInstance.py - [line:69] - root - INFO - ping -c 5 127.0.0.1
+PING 127.0.0.1 (127.0.0.1) 56(84) bytes of data.
+64 bytes from 127.0.0.1: icmp_seq=1 ttl=64 time=0.027 ms
+2021-11-09 09:48:53 - sshInstance.py - [line:69] - root - INFO - 64 bytes from 127.0.0.1: icmp_seq=2 ttl=64 time=0.015 ms
+2021-11-09 09:48:54 - sshInstance.py - [line:69] - root - INFO - 64 bytes from 127.0.0.1: icmp_seq=3 ttl=64 time=0.012 ms
+2021-11-09 09:48:55 - sshInstance.py - [line:69] - root - INFO - 64 bytes from 127.0.0.1: icmp_seq=4 ttl=64 time=0.022 ms
+2021-11-09 09:48:56 - sshInstance.py - [line:69] - root - INFO - 64 bytes from 127.0.0.1: icmp_seq=5 ttl=64 time=0.012 ms
+
+--- 127.0.0.1 ping statistics ---
+5 packets transmitted, 5 received, 0% packet loss, time 80ms
+rtt min/avg/max/mdev = 0.012/0.017/0.027/0.007 ms
+[root@localhost ~]# 
+2021-11-09 09:49:04 - sshInstance.py - [line:89] - root - INFO - ifconfig ens7f2 down
+[root@localhost ~]# 
+2021-11-09 09:49:12 - sshInstance.py - [line:89] - root - INFO - ifconfig ens7f2 up
+[root@localhost ~]# 
+2021-11-09 09:49:19 - sshInstance.py - [line:69] - root - INFO - ping -c 5 127.0.0.1
+PING 127.0.0.1 (127.0.0.1) 56(84) bytes of data.
+64 bytes from 127.0.0.1: icmp_seq=1 ttl=64 time=0.027 ms
+2021-11-09 09:49:20 - sshInstance.py - [line:69] - root - INFO - 64 bytes from 127.0.0.1: icmp_seq=2 ttl=64 time=0.014 ms
+2021-11-09 09:49:21 - sshInstance.py - [line:69] - root - INFO - 64 bytes from 127.0.0.1: icmp_seq=3 ttl=64 time=0.019 ms
+2021-11-09 09:49:22 - sshInstance.py - [line:69] - root - INFO - 64 bytes from 127.0.0.1: icmp_seq=4 ttl=64 time=0.012 ms
+2021-11-09 09:49:23 - sshInstance.py - [line:69] - root - INFO - 64 bytes from 127.0.0.1: icmp_seq=5 ttl=64 time=0.010 ms
+
+--- 127.0.0.1 ping statistics ---
+5 packets transmitted, 5 received, 0% packet loss, time 124ms
+rtt min/avg/max/mdev = 0.010/0.016/0.027/0.007 ms
+[root@localhost ~]# 
+.2021-11-09 09:49:26 - sshInstance.py - [line:39] - root - INFO - closing ssh client on SUT
+2021-11-09 09:49:26 - test_nics.py - [line:28] - root - INFO - this is Test_Nics teardown
+2021-11-09 09:49:26 - NicTestFixture.py - [line:28] - root - INFO - Starting to run test_silver_ConnectivityReboot
+2021-11-09 09:49:26 - NicTestFixture.py - [line:29] - root - INFO - setup log for testing in the fixture class fbefore
+2021-11-09 09:49:26 - test_nics.py - [line:18] - root - INFO - this is Test_Nics setup.
+2021-11-09 09:49:26 - transport.py - [line:1819] - paramiko.transport - INFO - Connected (version 2.0, client OpenSSH_8.0)
+2021-11-09 09:49:26 - transport.py - [line:1819] - paramiko.transport - INFO - Authentication (publickey) failed.
+2021-11-09 09:49:27 - transport.py - [line:1819] - paramiko.transport - INFO - Authentication (password) successful!
+2021-11-09 09:49:27 - sshInstance.py - [line:28] - root - INFO - SSH on SUT: 10.112.97.55
+2021-11-09 09:49:27 - test_nics.py - [line:56] - root - INFO - run silver_ConnectivityReboot
+2021-11-09 09:49:27 - transport.py - [line:1819] - paramiko.transport - INFO - Connected (version 2.0, client OpenSSH_8.0)
+2021-11-09 09:49:27 - transport.py - [line:1819] - paramiko.transport - INFO - Authentication (publickey) failed.
+2021-11-09 09:49:27 - transport.py - [line:1819] - paramiko.transport - INFO - Authentication (password) successful!
+2021-11-09 09:49:27 - sshInstance.py - [line:28] - root - INFO - SSH on SUT: 10.112.97.55
+2021-11-09 09:49:31 - sshInstance.py - [line:69] - root - INFO - Activate the web console with: systemctl enable --now cockpit.socket
+
+This system is not registered to Red Hat Insights. See https://cloud.redhat.com/
+To register this system, run: insights-client --register
+
+Last login: Tue Nov  9 09:43:18 2021 from 10.112.97.58
+[root@localhost ~]# ping -c 5 127.0.0.1
+PING 127.0.0.1 (127.0.0.1) 56(84) bytes of data.
+64 bytes from 127.0.0.1: icmp_seq=1 ttl=64 time=0.029 ms
+2021-11-09 09:49:32 - sshInstance.py - [line:69] - root - INFO - 64 bytes from 127.0.0.1: icmp_seq=2 ttl=64 time=0.020 ms
+2021-11-09 09:49:33 - sshInstance.py - [line:69] - root - INFO - 64 bytes from 127.0.0.1: icmp_seq=3 ttl=64 time=0.016 ms
+2021-11-09 09:49:34 - sshInstance.py - [line:69] - root - INFO - 64 bytes from 127.0.0.1: icmp_seq=4 ttl=64 time=0.012 ms
+2021-11-09 09:49:35 - sshInstance.py - [line:69] - root - INFO - 64 bytes from 127.0.0.1: icmp_seq=5 ttl=64 time=0.015 ms
+
+--- 127.0.0.1 ping statistics ---
+5 packets transmitted, 5 received, 0% packet loss, time 126ms
+rtt min/avg/max/mdev = 0.012/0.018/0.029/0.007 ms
+[root@localhost ~]# 
+2021-11-09 09:49:42 - sshInstance.py - [line:69] - root - INFO - ping6 -c 5 -I ens7f2 ::1
+connect: Network is unreachable
+[root@localhost ~]# 
+F2021-11-09 09:49:45 - sshInstance.py - [line:39] - root - INFO - closing ssh client on SUT
+2021-11-09 09:49:45 - test_nics.py - [line:28] - root - INFO - this is Test_Nics teardown
+
+
+=================================== FAILURES ===================================
+___________________ Test_Nics.test_silver_ConnectivityReboot ___________________
+
+self = <Tests.testNics.test_nics.Test_Nics object at 0x7f3e3b4c4780>
+
+    @pytest.mark.usefixtures("fbefore")
+    @pytest.mark.nicall
+    def test_silver_ConnectivityReboot(self):
+        logs = Logger()
+        logging.info("run silver_ConnectivityReboot")
+        rs = 0
+        cmdip = "ping -c 5 {}\n".format(self.dhcp["ipv4"])
+        cmdipv6 = "ping6 -c 5 -I {} {}\n".format(self.sut_conf["connect_switch_sut_pf"],self.dhcp["ipv6"])
+        for num in range(5):
+            cn_test_sut = sshInstance()
+            client, session = cn_test_sut.get_ssh_instance(self.sut_conf["host"], self.sut_conf["user"],
+                                                           self.sut_conf["password"], self.sut_conf["port"])
+            output, stderr = cn_test_sut.run_ssh_cmd(session, cmdip, self.check_str)
+            assert 200 == cn_test_sut.commond_rs_check(output, "0% packet loss", True)
+            output, stderr = cn_test_sut.run_ssh_cmd(session, cmdipv6, self.check_str)
+>           assert 200 == cn_test_sut.commond_rs_check(output, "0% packet loss", True)
+E           AssertionError: assert 200 == 400
+E            +  where 400 = <bound method sshInstance.commond_rs_check of <libs.commons.sshInstance.sshInstance object at 0x7f3e3b4d8630>>('ping6 -c 5 -I ens7f2 ::1\r\nconnect: Network is unreachable\r\n[root@localhost ~]# ', '0% packet loss', True)
+E            +    where <bound method sshInstance.commond_rs_check of <libs.commons.sshInstance.sshInstance object at 0x7f3e3b4d8630>> = <libs.commons.sshInstance.sshInstance object at 0x7f3e3b4d8630>.commond_rs_check
+
+npxtester/Tests/testNics/test_nics.py:67: AssertionError
+------------------------------ Captured log call -------------------------------
+INFO     root:test_nics.py:56 run silver_ConnectivityReboot
+INFO     paramiko.transport:transport.py:1819 Connected (version 2.0, client OpenSSH_8.0)
+INFO     paramiko.transport:transport.py:1819 Authentication (publickey) failed.
+INFO     paramiko.transport:transport.py:1819 Authentication (password) successful!
+INFO     root:sshInstance.py:28 SSH on SUT: 10.112.97.55
+INFO     root:sshInstance.py:69 Activate the web console with: systemctl enable --now cockpit.socket
+
+This system is not registered to Red Hat Insights. See https://cloud.redhat.com/
+To register this system, run: insights-client --register
+
+Last login: Tue Nov  9 09:43:18 2021 from 10.112.97.58
+[root@localhost ~]# ping -c 5 127.0.0.1
+PING 127.0.0.1 (127.0.0.1) 56(84) bytes of data.
+64 bytes from 127.0.0.1: icmp_seq=1 ttl=64 time=0.029 ms
+INFO     root:sshInstance.py:69 64 bytes from 127.0.0.1: icmp_seq=2 ttl=64 time=0.020 ms
+INFO     root:sshInstance.py:69 64 bytes from 127.0.0.1: icmp_seq=3 ttl=64 time=0.016 ms
+INFO     root:sshInstance.py:69 64 bytes from 127.0.0.1: icmp_seq=4 ttl=64 time=0.012 ms
+INFO     root:sshInstance.py:69 64 bytes from 127.0.0.1: icmp_seq=5 ttl=64 time=0.015 ms
+
+--- 127.0.0.1 ping statistics ---
+5 packets transmitted, 5 received, 0% packet loss, time 126ms
+rtt min/avg/max/mdev = 0.012/0.018/0.029/0.007 ms
+[root@localhost ~]# 
+INFO     root:sshInstance.py:69 ping6 -c 5 -I ens7f2 ::1
+connect: Network is unreachable
+[root@localhost ~]#
+---------------------------- Captured log teardown -----------------------------
+INFO     root:sshInstance.py:39 closing ssh client on SUT
+INFO     root:test_nics.py:28 this is Test_Nics teardown
+=========================== short test summary info ============================
+FAILED npxtester/Tests/testNics/test_nics.py::Test_Nics::test_silver_ConnectivityReboot
+=================== 1 failed, 1 passed in 164.88s (0:02:44) ====================
+[8mha:////4KMKnj+jwomtBZRlOM1zDNsT7NVP2UylJUBAmwQdpqOFAAAAox+LCAAAAAAAAP9tjTESwiAURH/iWNhaeggyGUvHypah8QSYIEKY/wkQSeWJvJp3EM2MlVvs7NvmPV+wjgGOFDSzCgeDsTPMu0mXxTKF4eooM0sX1hFGcooJlQX16rSgoKRgSVXDisNGYecoGtQJttzKu2ycRN2cUyjfgUNt+hEeUPFiTjKkL8wBdrepj4Q/z18BzN4nqNv9p9o3geV5574AAAA=[0m[Pipeline] }
+[8mha:////4PHbOgS4fTQzlO31aLQygq6Gmyy7LbpReNAbbgHuNOsPAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOICEh2iSmu54QUmNsaJdWdsh6TiRXyNPxCIRMUWq51t5vmCZYpw5GixNdQ5So3D4Hs7LRw4dhfPA7Z8xoYpsTcozSBZm3pGydnAnKKEhYCVocZzcmQzrEWr7qryimx1ynH6DgJKp2/wgEJM5qxi/sIYYXPtdWL6ef4KYAwhQ7nbf2r7Bq/le42+AAAA[0m[Pipeline] // stage
+[8mha:////4I9CBL1TQQZuqbZ2jRHSmcHnuMbbRTwUd9k6KAOagwtcAAAAox+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIRElSIitZKwwtMYowT6y7YF5KKF/E1/kBEJCq22plmXm8sU8SRo1ONpdZTqrzqQu+mpwaO7TXwoBq+qIopcbCqtEPJtT3NWLJYzMtyLDRWlqrAyZMTrHVjHqYIhlxxlji5g0bu6zueyPRUFhPlC2PE5tbXienX+RvA2HWCfLsXZLsP9aSlGr0AAAA=[0m[Pipeline] }
+[8mha:////4AgCtwjc4t5tcZsCa10f3l1mNPWqCUOes7yjbzZP2H6lAAAApB+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIRQqJBVLRWGl5gEmOcWHfBvpBUvIiv8QciIlGx1c4083pjmSKOHJ1qLLWeUuVVF3o3PTVwbK+BB9XwRVVMiYNVpR1Kru1pxpLFYl6WY6GxslQFTp6cYK0b8zBFMOSKs8TJHTRyX9/xRKanspgoXxgjNre+Tky/zt8Axq4T5Nu9INt9AIZLYcO9AAAA[0m[Pipeline] // node
+[8mha:////4HNhgbRMdr5fLy6tNmZPXDu18JtR1J6yjnVzc/IrJ0XIAAAAox+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIRNBSIitZKwwtMYowT6y7YF5KKF/E1/kBEJCq22plmXm8sU8SRo1ONpdZTqrzqQu+mpwaO7TXwoBq+qIopcbCqtEPJtT3NWLJYzMtyLDRWlqrAyZMTrHVjHqYIhlxxlji5g0bu6zueyPRUFhPlC2PE5tbXienX+RvA2HWCfLsXZLsPoFIGib0AAAA=[0m[Pipeline] End of Pipeline
+ERROR: script returned exit code 1
+Finished: FAILURE

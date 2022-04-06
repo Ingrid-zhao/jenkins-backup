@@ -1,0 +1,378 @@
+Started by user [8mha:////4C8zTO/v0UlG+vQ5Fjm5jTf9kR93yL5yxTMP2X04T9v8AAAAlh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyWEgYu/dLi1CL9ovz8EgDKVWzSvwAAAA==[0mroot
+Running in Durability level: MAX_SURVIVABILITY
+[8mha:////4DOlrZhma2TKYqx8mtRBwGXVE8Xt4z3OJyo/zi+ICDdzAAAAoh+LCAAAAAAAAP9tjTEOwjAQBM8BClpKHuFItIiK1krDC0x8GCfWnbEdkooX8TX+gCESFVvtrLSa5wtWKcKBo5UdUu8otU4GP9jS5Mixv3geZcdn2TIl9igbHBs2eJyx4YwwR1SwULBGaj0nRzbDRnX6rmuvydanHMu2V1A5c4MHCFXMWcf8hSnC9jqYxPTz/BXAFEIGsfuclm8zQVqFvQAAAA==[0m[Pipeline] Start of Pipeline
+[8mha:////4B4K7nOhvaaLmbeE3w0NEhE1GAALwLDjakw9plXgkY6XAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycohUghExsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jduZBmjwAAAAA==[0m[Pipeline] node
+Running on [8mha:////4GiJsi7Mya/6bg7lYfwMQTzNVpzT54TxwGFsrEp/EcRtAAAAoh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyeEgZx/eT83ILSktQi/eTKAkMD3aLUXKBKfQCdwg2/zAAAAA==[0mcyp10-remote in /root/.jenkins/workspace/test-nic@2
+[8mha:////4NUxBMzN6CtFAbQ4pdo7pH8ZuwVHigLf0SdP3FcjQTwyAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gA0xsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jfoP95RwAAAAA==[0m[Pipeline] {
+[8mha:////4OCB1+Up79PmV3LnMeomKr9r+JFCKkFjAfTpr2UorbLOAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gQkxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jc09154wAAAAA==[0m[Pipeline] stage
+[8mha:////4N6KQN35K8CT/Pcr9a+R4oOEu4uEh3phvpB1t67zd2hmAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0ggUxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jek7ggRwAAAAA==[0m[Pipeline] { (set args)
+[8mha:////4KpTcsSlLG7yEvo1vGv2QG1z86HMYkLASFXVuKwhd7SZAAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQTbaWGsbAmNJ0AWEZb8zwLrbuWJvJp3kLiJlZNMMm+a93rDOic4UbLcG+wdZu14DKOti0+U+lugiXu6ck2YKRguzSSpM+cFJRUDS1gDKwEbgzpQdmgLbIVXD9UGhba9lFS/o4DGdQM8gYlqLiqVL8wJdvexy4Q/z18BzLEA29ce4gfg7KmOvAAAAA==[0m[Pipeline] sh
++ python /root/.jenkins/workspace/test-nic/npxtester/conf/change_args.py '{"dpdk_dir":"/opt/APP/utility/DPDK_install/dpdk-stable-20.11.1/","vm_image_conf":{"image1":"ubuntu20.04.img","image2":"ubuntu20.04_2.img","image3":"rhel84rt.img","image4":"rhel84rt2.img","image_dir":"/home/image"},"sut_conf":{"host":"10.112.97.157","connect_switch_sut_pf":"ens787f0","pf1":"ens787f0","pf1_ipv6":"fe80::b696:91ff:fe9c:f760","os":"rehat"},"dhcp":{"ipv4":"192.168.10.10","ipv6":"fe80::b696:91ff:fe9c:f762"}}'
+[8mha:////4ChDQWb8Lvr0RoXQ1L8EY4p37+Po0Q8Mb8bchs8JeqDJAAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQTbGRNjZUtoPAGyiLDkfxZYdytP5NW8g8RNrJxkknnTvNcb1jnBiZLl3mDvMGvHYxhtXXyi1N8CTdzTlWvCTMFwaSZJnTkvKKkYWMIaWAnYGNSBskNbYCu8eqg2KLTtpaT6HQU0rhvgCUxUc1GpfGFOsLuPXSb8ef4KYI6xADvU7j9Dg2gqvAAAAA==[0m[Pipeline] }
+[8mha:////4J0p4zt/+On27QitkvU5TFB8M2wwWYWaAHIuYiUer4fkAAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQRbWRhjZUtoPAGyiLDkfxZYdytP5NW8g8RNrJxkknnTvNcb1jnBiZLl3mDvMGvHYxhtXXyi1N8CTdzTlWvCTMFwaSZJnTkvKKkYWMIaWAnYGNSBskNbYCu8eqg2KLTtpaT6HQU0rhvgCUxUc1GpfGFOsLuPXSb8ef4KYI6xADvU7j9J+wGOvAAAAA==[0m[Pipeline] // stage
+[8mha:////4Ea3/4ZYuTM98yMZ9UntzMXOyQ2ItSOm6XAUUO4QqkITAAAAph+LCAAAAAAAAP9tjTEOwjAQBM9BKWgpeYQDEh2iorXc8AITG+PEugv2haTiRXyNPxCIRMVWOyut5vmCMic4UPKycdgGzHWQXez91ORAqb1EGmRDZ1kTZopOajdosu44oyZ2MEcUsFCwdFhHygE9w0o15m6qaNBXJ07TtldQBHuDBwg1mdkk/sKYYH3tbSb8ef4KYOwYxI6h2G4+x/INtuQqUcEAAAA=[0m[Pipeline] stage
+[8mha:////4IJd0qxfNFkcgwUT9OFke9rxaJjwCH2G9mHJ+5FMmbLfAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+DOrAycoiUzoiJNerCCUITQtLo/zZJSSdOxNW4Ay2VmPBg2Zas93pDGQOcKBjuNHYWY2t570czJ54pdDdPmTu68pYwkte80bkhpc9rbShpWFUw2AjYamw9RYsmwU44+ZCVl2iqSwrzdhTArBrgCYWYyUmG9C1TgP19VJHwx/kLgKlPwOrDYvXyLD8BobDcwgAAAA==[0m[Pipeline] { (run silver nic case)
+[8mha:////4KACpsxoNqug+yeGIE2K55MD+IyPDLfbYOrean7h1Zl/AAAAox+LCAAAAAAAAP9tjTESwiAURH/iWNhaeggysXWsbBkaT4AJIoT5nwCRVJ7Iq3kH0cxYucXOvm3e8wXrGOBIQTOrcDAYO8O8m3RZLFMYro4ys3RhHWEkp5hQWVCvTgsKSgqWVDWsOGwUdo6iQZ1gy628y8ZJ1M05hfIdONSmH+EBFS/mJEP6whxgd5v6SPjz/BXA7BPUbfupvX8DpQJrNb4AAAA=[0m[Pipeline] sh
++ pytest /root/.jenkins/workspace/test-nic/npxtester/Tests/testNics/test_nics.py -m nicall -s
+============================= test session starts ==============================
+platform linux -- Python 3.6.8, pytest-6.2.4, py-1.11.0, pluggy-0.13.1
+rootdir: /root/.jenkins/workspace/test-nic/npxtester/Tests/testNics, configfile: pytest.ini
+plugins: metadata-1.11.0, html-3.1.1
+collected 3 items
+
+../test-nic/npxtester/Tests/testNics/test_nics.py 2021-11-25 09:10:37 - NicTestFixture.py - [line:28] - root - INFO - Starting to run test_silver_Networking_ConnectivityEnableDisable
+2021-11-25 09:10:37 - NicTestFixture.py - [line:29] - root - INFO - setup log for testing in the fixture class fbefore
+2021-11-25 09:10:37 - test_nics.py - [line:18] - root - INFO - this is Test_Nics setup.
+2021-11-25 09:10:37 - transport.py - [line:1819] - paramiko.transport - INFO - Connected (version 2.0, client OpenSSH_8.0)
+2021-11-25 09:10:37 - transport.py - [line:1819] - paramiko.transport - INFO - Authentication (publickey) failed.
+2021-11-25 09:10:37 - transport.py - [line:1819] - paramiko.transport - INFO - Authentication (password) successful!
+2021-11-25 09:10:37 - sshInstance.py - [line:28] - root - INFO - SSH on SUT: 10.112.97.157
+2021-11-25 09:10:37 - test_nics.py - [line:34] - root - INFO - run silver_Networking_ConnectivityEnableDisable
+2021-11-25 09:10:41 - sshInstance.py - [line:69] - root - INFO - Activate the web console with: systemctl enable --now cockpit.socket
+
+This system is not registered to Red Hat Insights. See https://cloud.redhat.com/
+To register this system, run: insights-client --register
+
+Last login: Wed Nov 24 18:18:32 2021 from 10.239.129.147
+[root@WW30CYP10 ~]# ping -c 5 192.168.10.10
+PING 192.168.10.10 (192.168.10.10) 56(84) bytes of data.
+64 bytes from 192.168.10.10: icmp_seq=1 ttl=64 time=0.035 ms
+2021-11-25 09:10:42 - sshInstance.py - [line:69] - root - INFO - 64 bytes from 192.168.10.10: icmp_seq=2 ttl=64 time=0.014 ms
+2021-11-25 09:10:43 - sshInstance.py - [line:69] - root - INFO - 64 bytes from 192.168.10.10: icmp_seq=3 ttl=64 time=0.014 ms
+2021-11-25 09:10:44 - sshInstance.py - [line:69] - root - INFO - 64 bytes from 192.168.10.10: icmp_seq=4 ttl=64 time=0.011 ms
+2021-11-25 09:10:45 - sshInstance.py - [line:69] - root - INFO - 64 bytes from 192.168.10.10: icmp_seq=5 ttl=64 time=0.011 ms
+
+--- 192.168.10.10 ping statistics ---
+5 packets transmitted, 5 received, 0% packet loss, time 4123ms
+rtt min/avg/max/mdev = 0.011/0.017/0.035/0.009 ms
+[root@WW30CYP10 ~]# 
+2021-11-25 09:10:53 - sshInstance.py - [line:89] - root - INFO - ifconfig ens787f0 down
+[root@WW30CYP10 ~]# 
+2021-11-25 09:11:01 - sshInstance.py - [line:89] - root - INFO - ifconfig ens787f0 up
+[root@WW30CYP10 ~]# 
+2021-11-25 09:11:08 - sshInstance.py - [line:69] - root - INFO - ping -c 5 192.168.10.10
+PING 192.168.10.10 (192.168.10.10) 56(84) bytes of data.
+64 bytes from 192.168.10.10: icmp_seq=1 ttl=64 time=0.029 ms
+2021-11-25 09:11:09 - sshInstance.py - [line:69] - root - INFO - 64 bytes from 192.168.10.10: icmp_seq=2 ttl=64 time=0.015 ms
+2021-11-25 09:11:10 - sshInstance.py - [line:69] - root - INFO - 64 bytes from 192.168.10.10: icmp_seq=3 ttl=64 time=0.009 ms
+2021-11-25 09:11:11 - sshInstance.py - [line:69] - root - INFO - 64 bytes from 192.168.10.10: icmp_seq=4 ttl=64 time=0.009 ms
+2021-11-25 09:11:12 - sshInstance.py - [line:69] - root - INFO - 64 bytes from 192.168.10.10: icmp_seq=5 ttl=64 time=0.011 ms
+
+--- 192.168.10.10 ping statistics ---
+5 packets transmitted, 5 received, 0% packet loss, time 4100ms
+rtt min/avg/max/mdev = 0.009/0.014/0.029/0.008 ms
+[root@WW30CYP10 ~]# 
+2021-11-25 09:11:20 - sshInstance.py - [line:89] - root - INFO - ifconfig ens787f0 down
+[root@WW30CYP10 ~]# 
+2021-11-25 09:11:28 - sshInstance.py - [line:89] - root - INFO - ifconfig ens787f0 up
+[root@WW30CYP10 ~]# 
+2021-11-25 09:11:35 - sshInstance.py - [line:69] - root - INFO - ping -c 5 192.168.10.10
+PING 192.168.10.10 (192.168.10.10) 56(84) bytes of data.
+64 bytes from 192.168.10.10: icmp_seq=1 ttl=64 time=0.033 ms
+2021-11-25 09:11:36 - sshInstance.py - [line:69] - root - INFO - 64 bytes from 192.168.10.10: icmp_seq=2 ttl=64 time=0.018 ms
+2021-11-25 09:11:37 - sshInstance.py - [line:69] - root - INFO - 64 bytes from 192.168.10.10: icmp_seq=3 ttl=64 time=0.010 ms
+2021-11-25 09:11:38 - sshInstance.py - [line:69] - root - INFO - 64 bytes from 192.168.10.10: icmp_seq=4 ttl=64 time=0.011 ms
+2021-11-25 09:11:39 - sshInstance.py - [line:69] - root - INFO - 64 bytes from 192.168.10.10: icmp_seq=5 ttl=64 time=0.009 ms
+
+--- 192.168.10.10 ping statistics ---
+5 packets transmitted, 5 received, 0% packet loss, time 4078ms
+rtt min/avg/max/mdev = 0.009/0.016/0.033/0.009 ms
+[root@WW30CYP10 ~]# 
+2021-11-25 09:11:47 - sshInstance.py - [line:89] - root - INFO - ifconfig ens787f0 down
+[root@WW30CYP10 ~]# 
+2021-11-25 09:11:55 - sshInstance.py - [line:89] - root - INFO - ifconfig ens787f0 up
+[root@WW30CYP10 ~]# 
+2021-11-25 09:12:02 - sshInstance.py - [line:69] - root - INFO - ping -c 5 192.168.10.10
+PING 192.168.10.10 (192.168.10.10) 56(84) bytes of data.
+64 bytes from 192.168.10.10: icmp_seq=1 ttl=64 time=0.037 ms
+2021-11-25 09:12:03 - sshInstance.py - [line:69] - root - INFO - 64 bytes from 192.168.10.10: icmp_seq=2 ttl=64 time=0.013 ms
+2021-11-25 09:12:04 - sshInstance.py - [line:69] - root - INFO - 64 bytes from 192.168.10.10: icmp_seq=3 ttl=64 time=0.008 ms
+2021-11-25 09:12:05 - sshInstance.py - [line:69] - root - INFO - 64 bytes from 192.168.10.10: icmp_seq=4 ttl=64 time=0.008 ms
+2021-11-25 09:12:06 - sshInstance.py - [line:69] - root - INFO - 64 bytes from 192.168.10.10: icmp_seq=5 ttl=64 time=0.008 ms
+
+--- 192.168.10.10 ping statistics ---
+5 packets transmitted, 5 received, 0% packet loss, time 4120ms
+rtt min/avg/max/mdev = 0.008/0.014/0.037/0.012 ms
+[root@WW30CYP10 ~]# 
+2021-11-25 09:12:14 - sshInstance.py - [line:89] - root - INFO - ifconfig ens787f0 down
+[root@WW30CYP10 ~]# 
+2021-11-25 09:12:22 - sshInstance.py - [line:89] - root - INFO - ifconfig ens787f0 up
+[root@WW30CYP10 ~]# 
+2021-11-25 09:12:29 - sshInstance.py - [line:69] - root - INFO - ping -c 5 192.168.10.10
+PING 192.168.10.10 (192.168.10.10) 56(84) bytes of data.
+64 bytes from 192.168.10.10: icmp_seq=1 ttl=64 time=0.031 ms
+2021-11-25 09:12:30 - sshInstance.py - [line:69] - root - INFO - 64 bytes from 192.168.10.10: icmp_seq=2 ttl=64 time=0.013 ms
+2021-11-25 09:12:31 - sshInstance.py - [line:69] - root - INFO - 64 bytes from 192.168.10.10: icmp_seq=3 ttl=64 time=0.008 ms
+2021-11-25 09:12:32 - sshInstance.py - [line:69] - root - INFO - 64 bytes from 192.168.10.10: icmp_seq=4 ttl=64 time=0.016 ms
+2021-11-25 09:12:33 - sshInstance.py - [line:69] - root - INFO - 64 bytes from 192.168.10.10: icmp_seq=5 ttl=64 time=0.013 ms
+
+--- 192.168.10.10 ping statistics ---
+5 packets transmitted, 5 received, 0% packet loss, time 4102ms
+rtt min/avg/max/mdev = 0.008/0.016/0.031/0.008 ms
+[root@WW30CYP10 ~]# 
+2021-11-25 09:12:41 - sshInstance.py - [line:89] - root - INFO - ifconfig ens787f0 down
+[root@WW30CYP10 ~]# 
+2021-11-25 09:12:49 - sshInstance.py - [line:89] - root - INFO - ifconfig ens787f0 up
+[root@WW30CYP10 ~]# 
+2021-11-25 09:12:56 - sshInstance.py - [line:69] - root - INFO - ping -c 5 192.168.10.10
+PING 192.168.10.10 (192.168.10.10) 56(84) bytes of data.
+64 bytes from 192.168.10.10: icmp_seq=1 ttl=64 time=0.040 ms
+2021-11-25 09:12:57 - sshInstance.py - [line:69] - root - INFO - 64 bytes from 192.168.10.10: icmp_seq=2 ttl=64 time=0.010 ms
+2021-11-25 09:12:58 - sshInstance.py - [line:69] - root - INFO - 64 bytes from 192.168.10.10: icmp_seq=3 ttl=64 time=0.014 ms
+2021-11-25 09:12:59 - sshInstance.py - [line:69] - root - INFO - 64 bytes from 192.168.10.10: icmp_seq=4 ttl=64 time=0.008 ms
+2021-11-25 09:13:00 - sshInstance.py - [line:69] - root - INFO - 64 bytes from 192.168.10.10: icmp_seq=5 ttl=64 time=0.008 ms
+
+--- 192.168.10.10 ping statistics ---
+5 packets transmitted, 5 received, 0% packet loss, time 4080ms
+rtt min/avg/max/mdev = 0.008/0.016/0.040/0.012 ms
+[root@WW30CYP10 ~]# 
+.2021-11-25 09:13:03 - sshInstance.py - [line:39] - root - INFO - closing ssh client on SUT
+2021-11-25 09:13:03 - test_nics.py - [line:28] - root - INFO - this is Test_Nics teardown
+2021-11-25 09:13:03 - NicTestFixture.py - [line:28] - root - INFO - Starting to run test_silver_ConnectivityReboot
+2021-11-25 09:13:03 - NicTestFixture.py - [line:29] - root - INFO - setup log for testing in the fixture class fbefore
+2021-11-25 09:13:03 - test_nics.py - [line:18] - root - INFO - this is Test_Nics setup.
+2021-11-25 09:13:03 - transport.py - [line:1819] - paramiko.transport - INFO - Connected (version 2.0, client OpenSSH_8.0)
+2021-11-25 09:13:03 - transport.py - [line:1819] - paramiko.transport - INFO - Authentication (publickey) failed.
+2021-11-25 09:13:03 - transport.py - [line:1819] - paramiko.transport - INFO - Authentication (password) successful!
+2021-11-25 09:13:03 - sshInstance.py - [line:28] - root - INFO - SSH on SUT: 10.112.97.157
+2021-11-25 09:13:03 - test_nics.py - [line:56] - root - INFO - run silver_ConnectivityReboot
+2021-11-25 09:13:03 - transport.py - [line:1819] - paramiko.transport - INFO - Connected (version 2.0, client OpenSSH_8.0)
+2021-11-25 09:13:03 - transport.py - [line:1819] - paramiko.transport - INFO - Authentication (publickey) failed.
+2021-11-25 09:13:03 - transport.py - [line:1819] - paramiko.transport - INFO - Authentication (password) successful!
+2021-11-25 09:13:03 - sshInstance.py - [line:28] - root - INFO - SSH on SUT: 10.112.97.157
+2021-11-25 09:13:07 - sshInstance.py - [line:69] - root - INFO - Activate the web console with: systemctl enable --now cockpit.socket
+
+This system is not registered to Red Hat Insights. See https://cloud.redhat.com/
+To register this system, run: insights-client --register
+
+Last login: Thu Nov 25 09:13:15 2021 from 10.239.129.147
+[root@WW30CYP10 ~]# ping -c 5 192.168.10.10
+PING 192.168.10.10 (192.168.10.10) 56(84) bytes of data.
+64 bytes from 192.168.10.10: icmp_seq=1 ttl=64 time=0.039 ms
+2021-11-25 09:13:08 - sshInstance.py - [line:69] - root - INFO - 64 bytes from 192.168.10.10: icmp_seq=2 ttl=64 time=0.011 ms
+2021-11-25 09:13:09 - sshInstance.py - [line:69] - root - INFO - 64 bytes from 192.168.10.10: icmp_seq=3 ttl=64 time=0.008 ms
+2021-11-25 09:13:10 - sshInstance.py - [line:69] - root - INFO - 64 bytes from 192.168.10.10: icmp_seq=4 ttl=64 time=0.008 ms
+2021-11-25 09:13:11 - sshInstance.py - [line:69] - root - INFO - 64 bytes from 192.168.10.10: icmp_seq=5 ttl=64 time=0.008 ms
+
+--- 192.168.10.10 ping statistics ---
+5 packets transmitted, 5 received, 0% packet loss, time 4115ms
+rtt min/avg/max/mdev = 0.008/0.014/0.039/0.013 ms
+[root@WW30CYP10 ~]# 
+2021-11-25 09:13:18 - sshInstance.py - [line:69] - root - INFO - ping6 -c 5 -I ens787f0 fe80::b696:91ff:fe9c:f762
+ping6: Warning: source address might be selected on device other than ens787f0.
+PING fe80::b696:91ff:fe9c:f762(fe80::b696:91ff:fe9c:f762) from :: ens787f0: 56 data bytes
+64 bytes from fe80::b696:91ff:fe9c:f762%ens787f0: icmp_seq=1 ttl=64 time=0.184 ms
+2021-11-25 09:13:19 - sshInstance.py - [line:69] - root - INFO - 64 bytes from fe80::b696:91ff:fe9c:f762%ens787f0: icmp_seq=2 ttl=64 time=0.036 ms
+2021-11-25 09:13:20 - sshInstance.py - [line:69] - root - INFO - 64 bytes from fe80::b696:91ff:fe9c:f762%ens787f0: icmp_seq=3 ttl=64 time=0.051 ms
+2021-11-25 09:13:21 - sshInstance.py - [line:69] - root - INFO - 64 bytes from fe80::b696:91ff:fe9c:f762%ens787f0: icmp_seq=4 ttl=64 time=0.033 ms
+2021-11-25 09:13:22 - sshInstance.py - [line:69] - root - INFO - 64 bytes from fe80::b696:91ff:fe9c:f762%ens787f0: icmp_seq=5 ttl=64 time=0.031 ms
+
+--- fe80::b696:91ff:fe9c:f762 ping statistics ---
+5 packets transmitted, 5 received, 0% packet loss, time 4111ms
+rtt min/avg/max/mdev = 0.031/0.067/0.184/0.058 ms
+[root@WW30CYP10 ~]# 
+2021-11-25 09:13:25 - transport.py - [line:1819] - paramiko.transport - INFO - Connected (version 2.0, client OpenSSH_8.0)
+2021-11-25 09:13:25 - transport.py - [line:1819] - paramiko.transport - INFO - Authentication (publickey) failed.
+2021-11-25 09:13:26 - transport.py - [line:1819] - paramiko.transport - INFO - Authentication (password) successful!
+2021-11-25 09:13:26 - sshInstance.py - [line:28] - root - INFO - SSH on SUT: 10.112.97.157
+2021-11-25 09:13:30 - sshInstance.py - [line:69] - root - INFO - Activate the web console with: systemctl enable --now cockpit.socket
+
+This system is not registered to Red Hat Insights. See https://cloud.redhat.com/
+To register this system, run: insights-client --register
+
+Last login: Thu Nov 25 09:13:15 2021 from 10.239.129.147
+[root@WW30CYP10 ~]# ping -c 5 192.168.10.10
+PING 192.168.10.10 (192.168.10.10) 56(84) bytes of data.
+64 bytes from 192.168.10.10: icmp_seq=1 ttl=64 time=0.071 ms
+2021-11-25 09:13:31 - sshInstance.py - [line:69] - root - INFO - 64 bytes from 192.168.10.10: icmp_seq=2 ttl=64 time=0.010 ms
+2021-11-25 09:13:32 - sshInstance.py - [line:69] - root - INFO - 64 bytes from 192.168.10.10: icmp_seq=3 ttl=64 time=0.011 ms
+2021-11-25 09:13:33 - sshInstance.py - [line:69] - root - INFO - 64 bytes from 192.168.10.10: icmp_seq=4 ttl=64 time=0.030 ms
+2021-11-25 09:13:34 - sshInstance.py - [line:69] - root - INFO - 64 bytes from 192.168.10.10: icmp_seq=5 ttl=64 time=0.009 ms
+
+--- 192.168.10.10 ping statistics ---
+5 packets transmitted, 5 received, 0% packet loss, time 4129ms
+rtt min/avg/max/mdev = 0.009/0.026/0.071/0.023 ms
+[root@WW30CYP10 ~]# 
+2021-11-25 09:13:41 - sshInstance.py - [line:69] - root - INFO - ping6 -c 5 -I ens787f0 fe80::b696:91ff:fe9c:f762
+ping6: Warning: source address might be selected on device other than ens787f0.
+PING fe80::b696:91ff:fe9c:f762(fe80::b696:91ff:fe9c:f762) from :: ens787f0: 56 data bytes
+64 bytes from fe80::b696:91ff:fe9c:f762%ens787f0: icmp_seq=1 ttl=64 time=0.055 ms
+2021-11-25 09:13:42 - sshInstance.py - [line:69] - root - INFO - 64 bytes from fe80::b696:91ff:fe9c:f762%ens787f0: icmp_seq=2 ttl=64 time=0.032 ms
+2021-11-25 09:13:43 - sshInstance.py - [line:69] - root - INFO - 64 bytes from fe80::b696:91ff:fe9c:f762%ens787f0: icmp_seq=3 ttl=64 time=0.032 ms
+2021-11-25 09:13:44 - sshInstance.py - [line:69] - root - INFO - 64 bytes from fe80::b696:91ff:fe9c:f762%ens787f0: icmp_seq=4 ttl=64 time=0.024 ms
+2021-11-25 09:13:45 - sshInstance.py - [line:69] - root - INFO - 64 bytes from fe80::b696:91ff:fe9c:f762%ens787f0: icmp_seq=5 ttl=64 time=0.025 ms
+
+--- fe80::b696:91ff:fe9c:f762 ping statistics ---
+5 packets transmitted, 5 received, 0% packet loss, time 4122ms
+rtt min/avg/max/mdev = 0.024/0.033/0.055/0.012 ms
+[root@WW30CYP10 ~]# 
+2021-11-25 09:13:48 - transport.py - [line:1819] - paramiko.transport - INFO - Connected (version 2.0, client OpenSSH_8.0)
+2021-11-25 09:13:48 - transport.py - [line:1819] - paramiko.transport - INFO - Authentication (publickey) failed.
+2021-11-25 09:13:48 - transport.py - [line:1819] - paramiko.transport - INFO - Authentication (password) successful!
+2021-11-25 09:13:48 - sshInstance.py - [line:28] - root - INFO - SSH on SUT: 10.112.97.157
+2021-11-25 09:13:52 - sshInstance.py - [line:69] - root - INFO - Activate the web console with: systemctl enable --now cockpit.socket
+
+This system is not registered to Red Hat Insights. See https://cloud.redhat.com/
+To register this system, run: insights-client --register
+
+Last login: Thu Nov 25 09:13:37 2021 from 10.239.129.147
+[root@WW30CYP10 ~]# ping -c 5 192.168.10.10
+PING 192.168.10.10 (192.168.10.10) 56(84) bytes of data.
+64 bytes from 192.168.10.10: icmp_seq=1 ttl=64 time=0.034 ms
+2021-11-25 09:13:53 - sshInstance.py - [line:69] - root - INFO - 64 bytes from 192.168.10.10: icmp_seq=2 ttl=64 time=0.015 ms
+2021-11-25 09:13:54 - sshInstance.py - [line:69] - root - INFO - 64 bytes from 192.168.10.10: icmp_seq=3 ttl=64 time=0.007 ms
+2021-11-25 09:13:55 - sshInstance.py - [line:69] - root - INFO - 64 bytes from 192.168.10.10: icmp_seq=4 ttl=64 time=0.008 ms
+2021-11-25 09:13:56 - sshInstance.py - [line:69] - root - INFO - 64 bytes from 192.168.10.10: icmp_seq=5 ttl=64 time=0.008 ms
+
+--- 192.168.10.10 ping statistics ---
+5 packets transmitted, 5 received, 0% packet loss, time 4080ms
+rtt min/avg/max/mdev = 0.007/0.014/0.034/0.010 ms
+[root@WW30CYP10 ~]# 
+2021-11-25 09:14:03 - sshInstance.py - [line:69] - root - INFO - ping6 -c 5 -I ens787f0 fe80::b696:91ff:fe9c:f762
+ping6: Warning: source address might be selected on device other than ens787f0.
+PING fe80::b696:91ff:fe9c:f762(fe80::b696:91ff:fe9c:f762) from :: ens787f0: 56 data bytes
+64 bytes from fe80::b696:91ff:fe9c:f762%ens787f0: icmp_seq=1 ttl=64 time=0.074 ms
+2021-11-25 09:14:04 - sshInstance.py - [line:69] - root - INFO - 64 bytes from fe80::b696:91ff:fe9c:f762%ens787f0: icmp_seq=2 ttl=64 time=0.043 ms
+2021-11-25 09:14:05 - sshInstance.py - [line:69] - root - INFO - 64 bytes from fe80::b696:91ff:fe9c:f762%ens787f0: icmp_seq=3 ttl=64 time=0.030 ms
+2021-11-25 09:14:06 - sshInstance.py - [line:69] - root - INFO - 64 bytes from fe80::b696:91ff:fe9c:f762%ens787f0: icmp_seq=4 ttl=64 time=0.039 ms
+2021-11-25 09:14:07 - sshInstance.py - [line:69] - root - INFO - 64 bytes from fe80::b696:91ff:fe9c:f762%ens787f0: icmp_seq=5 ttl=64 time=0.027 ms
+
+--- fe80::b696:91ff:fe9c:f762 ping statistics ---
+5 packets transmitted, 5 received, 0% packet loss, time 4073ms
+rtt min/avg/max/mdev = 0.027/0.042/0.074/0.018 ms
+[root@WW30CYP10 ~]# 
+2021-11-25 09:14:10 - transport.py - [line:1819] - paramiko.transport - INFO - Connected (version 2.0, client OpenSSH_8.0)
+2021-11-25 09:14:10 - transport.py - [line:1819] - paramiko.transport - INFO - Authentication (publickey) failed.
+2021-11-25 09:14:10 - transport.py - [line:1819] - paramiko.transport - INFO - Authentication (password) successful!
+2021-11-25 09:14:10 - sshInstance.py - [line:28] - root - INFO - SSH on SUT: 10.112.97.157
+2021-11-25 09:14:14 - sshInstance.py - [line:69] - root - INFO - Activate the web console with: systemctl enable --now cockpit.socket
+
+This system is not registered to Red Hat Insights. See https://cloud.redhat.com/
+To register this system, run: insights-client --register
+
+Last login: Thu Nov 25 09:13:59 2021 from 10.239.129.147
+[root@WW30CYP10 ~]# ping -c 5 192.168.10.10
+PING 192.168.10.10 (192.168.10.10) 56(84) bytes of data.
+64 bytes from 192.168.10.10: icmp_seq=1 ttl=64 time=0.143 ms
+2021-11-25 09:14:15 - sshInstance.py - [line:69] - root - INFO - 64 bytes from 192.168.10.10: icmp_seq=2 ttl=64 time=0.011 ms
+2021-11-25 09:14:16 - sshInstance.py - [line:69] - root - INFO - 64 bytes from 192.168.10.10: icmp_seq=3 ttl=64 time=0.008 ms
+2021-11-25 09:14:17 - sshInstance.py - [line:69] - root - INFO - 64 bytes from 192.168.10.10: icmp_seq=4 ttl=64 time=0.009 ms
+2021-11-25 09:14:18 - sshInstance.py - [line:69] - root - INFO - 64 bytes from 192.168.10.10: icmp_seq=5 ttl=64 time=0.009 ms
+
+--- 192.168.10.10 ping statistics ---
+5 packets transmitted, 5 received, 0% packet loss, time 4091ms
+rtt min/avg/max/mdev = 0.008/0.036/0.143/0.053 ms
+[root@WW30CYP10 ~]# 
+2021-11-25 09:14:25 - sshInstance.py - [line:69] - root - INFO - ping6 -c 5 -I ens787f0 fe80::b696:91ff:fe9c:f762
+ping6: Warning: source address might be selected on device other than ens787f0.
+PING fe80::b696:91ff:fe9c:f762(fe80::b696:91ff:fe9c:f762) from :: ens787f0: 56 data bytes
+64 bytes from fe80::b696:91ff:fe9c:f762%ens787f0: icmp_seq=1 ttl=64 time=0.062 ms
+2021-11-25 09:14:26 - sshInstance.py - [line:69] - root - INFO - 64 bytes from fe80::b696:91ff:fe9c:f762%ens787f0: icmp_seq=2 ttl=64 time=0.033 ms
+2021-11-25 09:14:27 - sshInstance.py - [line:69] - root - INFO - 64 bytes from fe80::b696:91ff:fe9c:f762%ens787f0: icmp_seq=3 ttl=64 time=0.027 ms
+2021-11-25 09:14:28 - sshInstance.py - [line:69] - root - INFO - 64 bytes from fe80::b696:91ff:fe9c:f762%ens787f0: icmp_seq=4 ttl=64 time=0.041 ms
+2021-11-25 09:14:29 - sshInstance.py - [line:69] - root - INFO - 64 bytes from fe80::b696:91ff:fe9c:f762%ens787f0: icmp_seq=5 ttl=64 time=0.031 ms
+
+--- fe80::b696:91ff:fe9c:f762 ping statistics ---
+5 packets transmitted, 5 received, 0% packet loss, time 4086ms
+rtt min/avg/max/mdev = 0.027/0.038/0.062/0.014 ms
+[root@WW30CYP10 ~]# 
+2021-11-25 09:14:32 - transport.py - [line:1819] - paramiko.transport - INFO - Connected (version 2.0, client OpenSSH_8.0)
+2021-11-25 09:14:32 - transport.py - [line:1819] - paramiko.transport - INFO - Authentication (publickey) failed.
+2021-11-25 09:14:32 - transport.py - [line:1819] - paramiko.transport - INFO - Authentication (password) successful!
+2021-11-25 09:14:32 - sshInstance.py - [line:28] - root - INFO - SSH on SUT: 10.112.97.157
+2021-11-25 09:14:36 - sshInstance.py - [line:69] - root - INFO - Activate the web console with: systemctl enable --now cockpit.socket
+
+This system is not registered to Red Hat Insights. See https://cloud.redhat.com/
+To register this system, run: insights-client --register
+
+Last login: Thu Nov 25 09:14:21 2021 from 10.239.129.147
+[root@WW30CYP10 ~]# ping -c 5 192.168.10.10
+PING 192.168.10.10 (192.168.10.10) 56(84) bytes of data.
+64 bytes from 192.168.10.10: icmp_seq=1 ttl=64 time=0.031 ms
+2021-11-25 09:14:37 - sshInstance.py - [line:69] - root - INFO - 64 bytes from 192.168.10.10: icmp_seq=2 ttl=64 time=0.016 ms
+2021-11-25 09:14:38 - sshInstance.py - [line:69] - root - INFO - 64 bytes from 192.168.10.10: icmp_seq=3 ttl=64 time=0.009 ms
+2021-11-25 09:14:39 - sshInstance.py - [line:69] - root - INFO - 64 bytes from 192.168.10.10: icmp_seq=4 ttl=64 time=0.008 ms
+2021-11-25 09:14:40 - sshInstance.py - [line:69] - root - INFO - 64 bytes from 192.168.10.10: icmp_seq=5 ttl=64 time=0.008 ms
+
+--- 192.168.10.10 ping statistics ---
+5 packets transmitted, 5 received, 0% packet loss, time 4104ms
+rtt min/avg/max/mdev = 0.008/0.014/0.031/0.009 ms
+[root@WW30CYP10 ~]# 
+2021-11-25 09:14:47 - sshInstance.py - [line:69] - root - INFO - ping6 -c 5 -I ens787f0 fe80::b696:91ff:fe9c:f762
+ping6: Warning: source address might be selected on device other than ens787f0.
+PING fe80::b696:91ff:fe9c:f762(fe80::b696:91ff:fe9c:f762) from :: ens787f0: 56 data bytes
+64 bytes from fe80::b696:91ff:fe9c:f762%ens787f0: icmp_seq=1 ttl=64 time=0.063 ms
+2021-11-25 09:14:48 - sshInstance.py - [line:69] - root - INFO - 64 bytes from fe80::b696:91ff:fe9c:f762%ens787f0: icmp_seq=2 ttl=64 time=0.033 ms
+2021-11-25 09:14:49 - sshInstance.py - [line:69] - root - INFO - 64 bytes from fe80::b696:91ff:fe9c:f762%ens787f0: icmp_seq=3 ttl=64 time=0.039 ms
+2021-11-25 09:14:50 - sshInstance.py - [line:69] - root - INFO - 64 bytes from fe80::b696:91ff:fe9c:f762%ens787f0: icmp_seq=4 ttl=64 time=0.031 ms
+2021-11-25 09:14:51 - sshInstance.py - [line:69] - root - INFO - 64 bytes from fe80::b696:91ff:fe9c:f762%ens787f0: icmp_seq=5 ttl=64 time=0.036 ms
+
+--- fe80::b696:91ff:fe9c:f762 ping statistics ---
+5 packets transmitted, 5 received, 0% packet loss, time 4099ms
+rtt min/avg/max/mdev = 0.031/0.040/0.063/0.012 ms
+[root@WW30CYP10 ~]# 
+.2021-11-25 09:14:54 - sshInstance.py - [line:39] - root - INFO - closing ssh client on SUT
+2021-11-25 09:14:54 - test_nics.py - [line:28] - root - INFO - this is Test_Nics teardown
+2021-11-25 09:14:54 - NicTestFixture.py - [line:28] - root - INFO - Starting to run test_gold_PI_Networking_SRIOV_CheckDevice
+2021-11-25 09:14:54 - NicTestFixture.py - [line:29] - root - INFO - setup log for testing in the fixture class fbefore
+2021-11-25 09:14:54 - test_nics.py - [line:18] - root - INFO - this is Test_Nics setup.
+2021-11-25 09:14:54 - transport.py - [line:1819] - paramiko.transport - INFO - Connected (version 2.0, client OpenSSH_8.0)
+2021-11-25 09:14:54 - transport.py - [line:1819] - paramiko.transport - INFO - Authentication (publickey) failed.
+2021-11-25 09:14:54 - transport.py - [line:1819] - paramiko.transport - INFO - Authentication (password) successful!
+2021-11-25 09:14:54 - sshInstance.py - [line:28] - root - INFO - SSH on SUT: 10.112.97.157
+2021-11-25 09:14:54 - test_nics.py - [line:74] - root - INFO - run gold_PI_Networking_SRIOV_CheckDevice
+2021-11-25 09:14:57 - sshInstance.py - [line:44] - root - INFO - echo 4 > /sys/class/net/ens787f0/device/sriov_numvfs
+2021-11-25 09:14:57 - sshInstance.py - [line:48] - root - INFO - 
+2021-11-25 09:15:05 - sshInstance.py - [line:44] - root - INFO - ifconfig ens787f0v0 192.168.10.11
+2021-11-25 09:15:05 - sshInstance.py - [line:48] - root - INFO - 
+F2021-11-25 09:15:10 - sshInstance.py - [line:39] - root - INFO - closing ssh client on SUT
+2021-11-25 09:15:10 - test_nics.py - [line:28] - root - INFO - this is Test_Nics teardown
+
+
+=================================== FAILURES ===================================
+_____________ Test_Nics.test_gold_PI_Networking_SRIOV_CheckDevice ______________
+
+self = <Tests.testNics.test_nics.Test_Nics object at 0x7f8dba130208>
+
+    @pytest.mark.usefixtures("fbefore")
+    @pytest.mark.nicall
+    def test_gold_PI_Networking_SRIOV_CheckDevice(self):
+        logging.info("run gold_PI_Networking_SRIOV_CheckDevice")
+        cmd = "echo 4 > /sys/class/net/{}/device/sriov_numvfs".format(self.sut_conf["connect_switch_sut_pf"])
+        stdout, stderr = self.cn_test_sut.ssh_exec_cmd(self.client, cmd)
+        if stdout or stderr:
+            assert 200 == 400
+        manual_ip_cmd = "ifconfig {}{} 192.168.10.{}"
+        for i in range(4):
+            vf = "v"+str(i)
+            ip_part = str(11+i)
+            stdout, stderr = self.cn_test_sut.ssh_exec_cmd(self.client, manual_ip_cmd.format(self.sut_conf["pf1"], vf, ip_part))
+            if stdout or stderr:
+>               assert 200 == 400
+E               assert 200 == 400
+
+../test-nic/npxtester/Tests/testNics/test_nics.py:85: AssertionError
+------------------------------ Captured log call -------------------------------
+INFO     root:test_nics.py:74 run gold_PI_Networking_SRIOV_CheckDevice
+INFO     root:sshInstance.py:44 echo 4 > /sys/class/net/ens787f0/device/sriov_numvfs
+INFO     root:sshInstance.py:48 
+INFO     root:sshInstance.py:44 ifconfig ens787f0v0 192.168.10.11
+INFO     root:sshInstance.py:48
+---------------------------- Captured log teardown -----------------------------
+INFO     root:sshInstance.py:39 closing ssh client on SUT
+INFO     root:test_nics.py:28 this is Test_Nics teardown
+=========================== short test summary info ============================
+FAILED ../test-nic/npxtester/Tests/testNics/test_nics.py::Test_Nics::test_gold_PI_Networking_SRIOV_CheckDevice
+=================== 1 failed, 2 passed in 273.85s (0:04:33) ====================
+[8mha:////4KMKnj+jwomtBZRlOM1zDNsT7NVP2UylJUBAmwQdpqOFAAAAox+LCAAAAAAAAP9tjTESwiAURH/iWNhaeggyGUvHypah8QSYIEKY/wkQSeWJvJp3EM2MlVvs7NvmPV+wjgGOFDSzCgeDsTPMu0mXxTKF4eooM0sX1hFGcooJlQX16rSgoKRgSVXDisNGYecoGtQJttzKu2ycRN2cUyjfgUNt+hEeUPFiTjKkL8wBdrepj4Q/z18BzN4nqNv9p9o3geV5574AAAA=[0m[Pipeline] }
+[8mha:////4PHbOgS4fTQzlO31aLQygq6Gmyy7LbpReNAbbgHuNOsPAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOICEh2iSmu54QUmNsaJdWdsh6TiRXyNPxCIRMUWq51t5vmCZYpw5GixNdQ5So3D4Hs7LRw4dhfPA7Z8xoYpsTcozSBZm3pGydnAnKKEhYCVocZzcmQzrEWr7qryimx1ynH6DgJKp2/wgEJM5qxi/sIYYXPtdWL6ef4KYAwhQ7nbf2r7Bq/le42+AAAA[0m[Pipeline] // stage
+[8mha:////4MZyk33+V/AiT4fn8n6G3pw2AKptiha+GL2FVGy8vSODAAAAph+LCAAAAAAAAP9tjTEOwjAQBM9BKWgpeYQjJKgQFa3lhheY2Bgn1l2wLyQVL+Jr/IFAJCq22llpNc8XlDnBgZKXjcM2YK6D7GLvpyYHSu0l0iAbOsuaMFN0UrtBk3XHGTWxgzmigIWCpcM6Ug7oGVaqMXdTRYO+OnGatr2CItgbPECoycwm8RfGBOtrbzPhz/NXAGPHILYMxWb3OZZvBXXnAcEAAAA=[0m[Pipeline] stage
+[8mha:////4IbAYeEfzIYrbjXur3hhLHFS6T3zmMsYQQAYadAUrpZ/AAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUDLAgpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD/s94rDCAAAA[0m[Pipeline] { (run gold nic sriov stress vm)
+Stage "run gold nic sriov stress vm" skipped due to earlier failure(s)
+[8mha:////4FZOdZA4EH7v0GuPYG0+df5/oynuVYfHKaWXukv+7uACAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiGigQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGMIGcrt/lO7NzQyjOK+AAAA[0m[Pipeline] }
+[8mha:////4BnoyqoiCB4Y4m7+9SbboprhH/DV/5+1ZIlV82ktp6oOAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiCiQkRJXWcsMLTGyME+vO2A5JxYv4Gn8gEImKLVY728zzBcsU4cjRYmuoc5Qah8H3dlo4cOwungds+YwNU2JvUJpBsjb1jJKzgTlFCQsBK0ON5+TIZliLVt1V5RXZ6pTj9B0ElE7f4AGFmMxZxfyFMcLm2uvE9PP8FcAYQoZyu//U7g1b0dOKvgAAAA==[0m[Pipeline] // stage
+[8mha:////4PcGAlEr9IXjWmlrLFsuGz5KxYWyyk1/fcBrH+Va1Cp1AAAApB+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIREg1CVLRWGl5gEmOcWHfBvpBUvIiv8QciIlGx1c4083pjmSKOHJ1qLLWeUuVVF3o3PTVwbK+BB9XwRVVMiYNVpR1Kru1pxpLFYl6WY6GxslQFTp6cYK0b8zBFMOSKs8TJHTRyX9/xRKanspgoXxgjNre+Tky/zt8Axq4T5Nu9INt9APRJVd+9AAAA[0m[Pipeline] }
+[8mha:////4IhQGyXEeT/Be/KQW11H5lk72PYf0pQKfBMzB32Q9eQ+AAAAoh+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMJBUCIqWisNLzCJMU6su2BfSCpexNf4AxGRqNhqZ5p5vbFMEUeOTjWWWk+p8qoLvZueGji218CDaviiKqbEwarSDiXX9jRjyWIxL8ux0FhZqgInT06w1o15mCIYcsVZ4uQOGrmv73gi01NZTJQvjBGbW18npl/nbwBj1wny3VaQ7T+IzLXKvQAAAA==[0m[Pipeline] // node
+[8mha:////4EyKrC07b4fK033/qP2syzgyPaLkAmAQlXqFc2lyhb7qAAAAoh+LCAAAAAAAAP9tjTESgjAQRT84FraWHiKMtI6VbYbGE0SIMZDZxWQRKk/k1byDjMxY+av/XvNeb6xTxJGjU62lzlOqverD4OanRo7dNfCoWr6omilxsKqyY8WNPS1YsVgsy3KsNDaW6sDJkxNsdWsepgiGXHGWOLuDRu6bO57I9FwWE+ULU8TuNjSJ6df5G8DU94K83Auy8gOu1dKAvQAAAA==[0m[Pipeline] End of Pipeline
+ERROR: script returned exit code 1
+Finished: FAILURE

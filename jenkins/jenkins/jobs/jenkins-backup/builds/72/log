@@ -1,0 +1,86 @@
+Started by timer
+Running as SYSTEM
+Building remotely on [8mha:////4LafVuX3eTQLm8yF81fMq4k6u04xgOhoE2RdYhqdKBmyAAAApB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAy+EgYJ/eT83ILSktQi/azUvOzMvOL4pMTk7NICAAghILnNAAAA[0mjenkins_backup in workspace /root/.jenkins/workspace/jenkins-backup
+[jenkins-backup] $ /bin/bash /tmp/jenkins284403867632210137.sh
++ '[' -e /var/lib/jenkins/index.lock ']'
++ cd /home/jenkins_home
++ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   jenkins/config.xml
+	modified:   jenkins/copy_reference_file.log
+	modified:   jenkins/fingerprints/0c/81/7f39df6213cc7ae8a43759750301.xml
+	modified:   jenkins/fingerprints/3f/f4/edc55e56af3f9904ae2c94ac7f26.xml
+	modified:   jenkins/fingerprints/fc/7b/c9872f4f5327e1eea7e83ff746c1.xml
+	modified:   jenkins/jobs/jenkins-backup/nextBuildNumber
+	modified:   jenkins/logs/health-checker.log
+	modified:   jenkins/logs/slaves/controller-j/slave.log
+	modified:   jenkins/logs/slaves/ipu-iauto_test/slave.log
+	modified:   jenkins/logs/slaves/ipu-iauto_test/slave.log.1
+	modified:   jenkins/logs/slaves/ipu-iauto_test/slave.log.10
+	modified:   jenkins/logs/slaves/ipu-iauto_test/slave.log.2
+	modified:   jenkins/logs/slaves/ipu-iauto_test/slave.log.3
+	modified:   jenkins/logs/slaves/ipu-iauto_test/slave.log.4
+	modified:   jenkins/logs/slaves/ipu-iauto_test/slave.log.5
+	modified:   jenkins/logs/slaves/ipu-iauto_test/slave.log.6
+	modified:   jenkins/logs/slaves/ipu-iauto_test/slave.log.7
+	modified:   jenkins/logs/slaves/ipu-iauto_test/slave.log.8
+	modified:   jenkins/logs/slaves/ipu-iauto_test/slave.log.9
+	modified:   jenkins/logs/slaves/jenkins_backup/slave.log
+	deleted:    jenkins/logs/slaves/jenkins_backup/slave.log.1
+	modified:   jenkins/logs/slaves/jenkins_backup/slave.log.10
+	modified:   jenkins/logs/slaves/jenkins_backup/slave.log.2
+	modified:   jenkins/logs/slaves/jenkins_backup/slave.log.3
+	modified:   jenkins/logs/slaves/jenkins_backup/slave.log.4
+	modified:   jenkins/logs/slaves/jenkins_backup/slave.log.5
+	modified:   jenkins/logs/slaves/jenkins_backup/slave.log.6
+	modified:   jenkins/logs/slaves/jenkins_backup/slave.log.7
+	modified:   jenkins/logs/slaves/jenkins_backup/slave.log.8
+	modified:   jenkins/logs/slaves/jenkins_backup/slave.log.9
+	modified:   jenkins/logs/tasks/Download metadata.log
+	modified:   jenkins/logs/tasks/Download metadata.log.1
+	modified:   jenkins/logs/tasks/Download metadata.log.2
+	modified:   jenkins/logs/tasks/Download metadata.log.3
+	modified:   jenkins/logs/tasks/Download metadata.log.4
+	modified:   jenkins/logs/tasks/Download metadata.log.5
+	modified:   jenkins/logs/tasks/Periodic background build discarder.log
+	modified:   jenkins/logs/tasks/Periodic background build discarder.log.1
+	modified:   jenkins/logs/tasks/Periodic background build discarder.log.2
+	modified:   jenkins/logs/tasks/Periodic background build discarder.log.3
+	modified:   jenkins/logs/tasks/Periodic background build discarder.log.4
+	modified:   jenkins/logs/tasks/Periodic background build discarder.log.5
+	modified:   jenkins/nodes/jenkins_backup/config.xml
+	deleted:    jenkins/queue.xml
+	modified:   jenkins/queue.xml.bak
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	jenkins/.java/fonts/11.0.12/fcinfo-1-jenkins-7bcdfbdb87-qc5sx-Linux-4.18.0-193.el8.x86_64-en.properties
+	jenkins/jobs/jenkins-backup/builds/72/
+	jenkins/logs/slaves/controller-j/slave.log.1
+
+no changes added to commit (use "git add" and/or "git commit -a")
++ git add -A
+++ date
++ git commit -s -m 'Jenkins backup at Mon Jan 17 11:40:01 CST 2022'
+[master 283d153] Jenkins backup at Mon Jan 17 11:40:01 CST 2022
+ 48 files changed, 622 insertions(+), 858 deletions(-)
+ create mode 100644 jenkins/.java/fonts/11.0.12/fcinfo-1-jenkins-7bcdfbdb87-qc5sx-Linux-4.18.0-193.el8.x86_64-en.properties
+ create mode 100644 jenkins/jobs/jenkins-backup/builds/72/changelog.xml
+ create mode 100644 jenkins/jobs/jenkins-backup/builds/72/log
+ create mode 100644 jenkins/logs/slaves/controller-j/slave.log.1
+ rewrite jenkins/logs/slaves/jenkins_backup/slave.log (91%)
+ delete mode 100644 jenkins/logs/slaves/jenkins_backup/slave.log.1
+ rewrite jenkins/logs/tasks/Periodic background build discarder.log (94%)
+ copy jenkins/logs/tasks/{Periodic background build discarder.log => Periodic background build discarder.log.2} (69%)
+ rename jenkins/{queue.xml => queue.xml.bak} (100%)
++ git push origin HEAD:master
+To github.intel.com:yzhao18/jenkins-backup.git
+   5173507..283d153  HEAD -> master
+Finished: SUCCESS
