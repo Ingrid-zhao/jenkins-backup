@@ -600,11 +600,20 @@
     <org.jenkinsci.plugins.workflow.cps.EnvActionImpl plugin="workflow-cps@2.94">
       <env class="tree-map"/>
     </org.jenkinsci.plugins.workflow.cps.EnvActionImpl>
+    <jenkins.metrics.impl.SubTaskTimeInQueueAction plugin="metrics@4.0.2.8">
+      <queuingDurationMillis>2</queuingDurationMillis>
+      <blockedDurationMillis>0</blockedDurationMillis>
+      <buildableDurationMillis>0</buildableDurationMillis>
+      <waitingDurationMillis>0</waitingDurationMillis>
+      <executingDurationMillis>871207</executingDurationMillis>
+      <workUnitCount>1</workUnitCount>
+    </jenkins.metrics.impl.SubTaskTimeInQueueAction>
   </actions>
   <queueId>3043</queueId>
   <timestamp>1649207634823</timestamp>
   <startTime>1649207634824</startTime>
-  <duration>0</duration>
+  <result>SUCCESS</result>
+  <duration>871756</duration>
   <charset>UTF-8</charset>
   <keepLog>false</keepLog>
   <execution class="org.jenkinsci.plugins.workflow.cps.CpsFlowExecution">
@@ -665,15 +674,15 @@
     <timings class="map">
       <entry>
         <string>flowNode</string>
-        <long>21852153</long>
+        <long>31109309</long>
       </entry>
       <entry>
         <string>classLoad</string>
-        <long>679696319</long>
+        <long>679854581</long>
       </entry>
       <entry>
         <string>run</string>
-        <long>647293734</long>
+        <long>836490492</long>
       </entry>
       <entry>
         <string>parse</string>
@@ -681,16 +690,15 @@
       </entry>
       <entry>
         <string>saveProgram</string>
-        <long>51207375</long>
+        <long>84394958</long>
       </entry>
     </timings>
     <sandbox>true</sandbox>
-    <iota>26</iota>
-    <head>1:26</head>
-    <start>2</start>
-    <done>false</done>
+    <iota>38</iota>
+    <head>1:38</head>
+    <done>true</done>
     <resumeBlocked>false</resumeBlocked>
   </execution>
-  <completed>false</completed>
+  <completed>true</completed>
   <checkouts class="hudson.util.PersistedList"/>
 </flow-build>

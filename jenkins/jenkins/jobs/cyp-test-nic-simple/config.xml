@@ -10,13 +10,16 @@
         <string>board_type</string>
         <string>os</string>
         <string>dpdk_dir</string>
-        <string>drive_version</string>
+        <string>bmc_ip</string>
         <string>sut2_ip</string>
-        <string>git_repo_url</string>
+        <string>bmc_user</string>
         <string>sut1_ip</string>
         <string>sut1_pf1</string>
-        <string>PF1_NIC_type</string>
         <string>token</string>
+        <string>drive_version</string>
+        <string>bmc_password</string>
+        <string>git_repo_url</string>
+        <string>PF1_NIC_type</string>
       </parameters>
       <options/>
     </org.jenkinsci.plugins.pipeline.modeldefinition.actions.DeclarativeJobPropertyTrackerAction>
@@ -37,12 +40,15 @@
       <permission>hudson.model.Run.Delete:authenticated</permission>
       <permission>hudson.model.Run.Update:authenticated</permission>
     </hudson.security.AuthorizationMatrixProperty>
+    <org.jenkinsci.plugins.workflow.job.properties.PipelineTriggersJobProperty>
+      <triggers/>
+    </org.jenkinsci.plugins.workflow.job.properties.PipelineTriggersJobProperty>
     <hudson.model.ParametersDefinitionProperty>
       <parameterDefinitions>
         <hudson.model.StringParameterDefinition>
           <name>token</name>
           <description>git token</description>
-          <defaultValue>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</defaultValue>
+          <defaultValue>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</defaultValue>
           <trim>false</trim>
         </hudson.model.StringParameterDefinition>
         <hudson.model.StringParameterDefinition>
@@ -96,7 +102,7 @@
         <hudson.model.StringParameterDefinition>
           <name>drive_version</name>
           <description>drive 版本号</description>
-          <defaultValue>1.7.11</defaultValue>
+          <defaultValue>1.6.4</defaultValue>
           <trim>false</trim>
         </hudson.model.StringParameterDefinition>
         <hudson.model.StringParameterDefinition>
@@ -105,11 +111,26 @@
           <defaultValue>4*25</defaultValue>
           <trim>false</trim>
         </hudson.model.StringParameterDefinition>
+        <hudson.model.StringParameterDefinition>
+          <name>bmc_ip</name>
+          <description>BMC IP</description>
+          <defaultValue>10.239.183.128</defaultValue>
+          <trim>false</trim>
+        </hudson.model.StringParameterDefinition>
+        <hudson.model.StringParameterDefinition>
+          <name>bmc_user</name>
+          <description>BMC USER</description>
+          <defaultValue>debuguser</defaultValue>
+          <trim>false</trim>
+        </hudson.model.StringParameterDefinition>
+        <hudson.model.StringParameterDefinition>
+          <name>bmc_password</name>
+          <description>BMC PASSWORD</description>
+          <defaultValue>0penBmc1</defaultValue>
+          <trim>false</trim>
+        </hudson.model.StringParameterDefinition>
       </parameterDefinitions>
     </hudson.model.ParametersDefinitionProperty>
-    <org.jenkinsci.plugins.workflow.job.properties.PipelineTriggersJobProperty>
-      <triggers/>
-    </org.jenkinsci.plugins.workflow.job.properties.PipelineTriggersJobProperty>
   </properties>
   <definition class="org.jenkinsci.plugins.workflow.cps.CpsFlowDefinition" plugin="workflow-cps@2.94">
     <script>pipeline {
@@ -117,7 +138,7 @@
         label &apos;controller-j&apos;
     }
     parameters {
-        string defaultValue: &apos;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&apos;, description: &apos;git token&apos;, name: &apos;token&apos;, trim: false
+        string defaultValue: &apos;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&apos;, description: &apos;git token&apos;, name: &apos;token&apos;, trim: false
         string defaultValue: &apos;github.com/intel-innersource/applications.validation.network-platform.npxtester.git&apos;, description: &apos;github repo url&apos;, name: &apos;git_repo_url&apos;, trim: false
         string defaultValue: &apos;10.239.182.209&apos;, description: &apos;测试机IP&apos;, name: &apos;sut1_ip&apos;, trim: false
         string defaultValue: &apos;commercial&apos;, description: &apos;board_type of SUT1&apos;, name: &apos;board_type&apos;, trim: false
@@ -126,8 +147,11 @@
         string defaultValue: &apos;/opt/APP/utility/DPDK_install/dpdk-21.02/&apos;, description: &apos;dpdk路径&apos;, name: &apos;dpdk_dir&apos;, trim: false
         string defaultValue: &apos;10.239.182.79&apos;, description: &apos;发报机IP&apos;, name: &apos;sut2_ip&apos;, trim: false
         string defaultValue: &apos;ens787f2&apos;, description: &apos;发报机网口名称&apos;, name: &apos;sut2_pf1&apos;, trim: false
-        string defaultValue: &apos;1.7.11&apos;, description: &apos;drive 版本号&apos;, name: &apos;drive_version&apos;, trim: false
+        string defaultValue: &apos;1.6.4&apos;, description: &apos;drive 版本号&apos;, name: &apos;drive_version&apos;, trim: false
         string defaultValue: &apos;4*25&apos;, description: &apos;4*25 or 100 or 2*100&apos;, name: &apos;PF1_NIC_type&apos;, trim: false
+        string defaultValue: &apos;10.239.183.128&apos;, description: &apos;BMC IP&apos;, name: &apos;bmc_ip&apos;, trim: false
+        string defaultValue: &apos;debuguser&apos;, description: &apos;BMC USER&apos;, name: &apos;bmc_user&apos;, trim: false
+        string defaultValue: &apos;0penBmc1&apos;, description: &apos;BMC PASSWORD&apos;, name: &apos;bmc_password&apos;, trim: false
     }
     stages{
         stage(&apos;rm project dir&apos;){
@@ -148,7 +172,7 @@
         }
         stage(&apos;set args&apos;){
             steps{
-                sh &quot;python $WORKSPACE/npxtester/conf/change_args.py  &apos;{\&quot;dpdk_dir\&quot;:\&quot;$dpdk_dir\&quot;,\&quot;sut_conf\&quot;:{\&quot;board_type\&quot;:\&quot;$board_type\&quot;,\&quot;host\&quot;:\&quot;$sut1_ip\&quot;,\&quot;pf1\&quot;:\&quot;$sut1_pf1\&quot;,\&quot;os\&quot;:\&quot;$os\&quot;,\&quot;PF1_NIC_type\&quot;:\&quot;$PF1_NIC_type\&quot;},\&quot;pkg_generator\&quot;:{\&quot;host\&quot;:\&quot;$sut2_ip\&quot;,\&quot;pf1\&quot;:\&quot;$sut2_pf1\&quot;},\&quot;drive_info\&quot;:{\&quot;drive_version\&quot;:\&quot;$drive_version\&quot;}}&apos;&quot;
+                sh &quot;python $WORKSPACE/npxtester/conf/change_args.py  &apos;{\&quot;bmc_conf\&quot;:{\&quot;user\&quot;:\&quot;$bmc_user\&quot;,\&quot;password\&quot;:\&quot;$bmc_password\&quot;},\&quot;dpdk_dir\&quot;:\&quot;$dpdk_dir\&quot;,\&quot;sut_conf\&quot;:{\&quot;bmc_ip\&quot;:\&quot;$bmc_ip\&quot;,\&quot;board_type\&quot;:\&quot;$board_type\&quot;,\&quot;host\&quot;:\&quot;$sut1_ip\&quot;,\&quot;pf1\&quot;:\&quot;$sut1_pf1\&quot;,\&quot;os\&quot;:\&quot;$os\&quot;,\&quot;PF1_NIC_type\&quot;:\&quot;$PF1_NIC_type\&quot;},\&quot;pkg_generator\&quot;:{\&quot;host\&quot;:\&quot;$sut2_ip\&quot;,\&quot;pf1\&quot;:\&quot;$sut2_pf1\&quot;},\&quot;drive_info\&quot;:{\&quot;drive_version\&quot;:\&quot;$drive_version\&quot;}}&apos;&quot;
             }
         }
         //stage(&apos;restore bios&apos;){
@@ -159,13 +183,6 @@
         stage(&apos;run nic case&apos;){
             steps{
                 sh &quot;pytest $WORKSPACE/npxtester/Tests/testNics -s -m nicSimple --capture=tee-sys --html=/root/testconfig/testlogs/HtmlReport/nic_simple_report.html --self-contained-html&quot;
-            }
-        }
-        stage(&apos;collect logs&apos;){
-            steps{
-                sh &quot;sed -i &apos;s/\r//g&apos; $WORKSPACE/npxtester/log_analyzer/log_analyzer.sh&quot;
-                sh &quot;chmod a+x $WORKSPACE/npxtester/log_analyzer/log_analyzer.sh&quot;
-                sh &quot;sh $WORKSPACE/npxtester/log_analyzer/log_analyzer.sh&quot;
             }
         }
     }

@@ -48,7 +48,7 @@
         <hudson.model.StringParameterDefinition>
           <name>token</name>
           <description>github token</description>
-          <defaultValue>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</defaultValue>
+          <defaultValue>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</defaultValue>
           <trim>false</trim>
         </hudson.model.StringParameterDefinition>
         <hudson.model.StringParameterDefinition>
@@ -154,10 +154,10 @@
   <definition class="org.jenkinsci.plugins.workflow.cps.CpsFlowDefinition" plugin="workflow-cps@2.94">
     <script>pipeline {
     agent {
-        label &apos;controller-99&apos;
+        label &apos;controller-j&apos;
     }
     parameters {
-        string defaultValue: &apos;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&apos;, description: &apos;github token&apos;, name: &apos;token&apos;, trim: false
+        string defaultValue: &apos;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&apos;, description: &apos;github token&apos;, name: &apos;token&apos;, trim: false
         string defaultValue: &apos;github.com/intel-innersource/applications.validation.network-platform.npxtester.git&apos;, description: &apos;github repo url&apos;, name: &apos;git_repo_url&apos;, trim: false
         string defaultValue: &apos;10.239.182.209&apos;, description: &apos;测试机IP&apos;, name: &apos;sut1_ip&apos;, trim: false
 	    string defaultValue: &apos;rehat&apos;, description: &apos;测试机器系统:rehat or ubuntu&apos;, name: &apos;os&apos;, trim: false

@@ -31,7 +31,7 @@
         <hudson.model.StringParameterDefinition>
           <name>token</name>
           <description>github token</description>
-          <defaultValue>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</defaultValue>
+          <defaultValue>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</defaultValue>
           <trim>false</trim>
         </hudson.model.StringParameterDefinition>
         <hudson.model.StringParameterDefinition>
@@ -85,7 +85,7 @@
         <hudson.model.StringParameterDefinition>
           <name>drive_version</name>
           <description>driver version</description>
-          <defaultValue>5.15.0-1003-realtime</defaultValue>
+          <defaultValue>5.15.0-1005-realtime</defaultValue>
           <trim>false</trim>
         </hudson.model.StringParameterDefinition>
       </parameterDefinitions>
@@ -100,7 +100,7 @@
         label &apos;controller-j&apos;
     }
     parameters {
-        string defaultValue: &apos;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&apos;, description: &apos;github token&apos;, name: &apos;token&apos;, trim: false
+        string defaultValue: &apos;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&apos;, description: &apos;github token&apos;, name: &apos;token&apos;, trim: false
         string defaultValue: &apos;github.com/intel-innersource/applications.validation.network-platform.npxtester.git&apos;, description: &apos;github repo url&apos;, name: &apos;git_repo_url&apos;, trim: false
         string defaultValue: &apos;10.239.183.130&apos;, description: &apos;测试机IP&apos;, name: &apos;sut1_ip&apos;, trim: false
         string defaultValue: &apos;UBUNTU&apos;, description: &apos;测试机器系统:RHEL or UBUNTU&apos;, name: &apos;os&apos;, trim: false
@@ -109,7 +109,7 @@
         string defaultValue: &apos;ens785f0&apos;, description: &apos;发报机网口名称&apos;, name: &apos;sut2_pf1&apos;, trim: false
         string defaultValue: &apos;100&apos;, description: &apos;网卡带宽&apos;, name: &apos;pf1_bandwidth&apos;, trim: false
         string defaultValue: &apos;600&apos;, description: &apos;运行时间&apos;, name: &apos;run_time&apos;, trim: false
-        string defaultValue: &apos;5.15.0-1003-realtime&apos;, description: &apos;driver version&apos;, name: &apos;drive_version&apos;, trim: false
+        string defaultValue: &apos;5.15.0-1005-realtime&apos;, description: &apos;driver version&apos;, name: &apos;drive_version&apos;, trim: false
     }
     stages{
         stage(&apos;rm project dir&apos;){

@@ -33,7 +33,7 @@
         <hudson.model.StringParameterDefinition>
           <name>token</name>
           <description>测试机IP</description>
-          <defaultValue>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</defaultValue>
+          <defaultValue>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</defaultValue>
           <trim>false</trim>
         </hudson.model.StringParameterDefinition>
         <hudson.model.StringParameterDefinition>
@@ -136,7 +136,7 @@
         label &apos;controller-j&apos;
     }
     parameters {
-    	string defaultValue: &apos;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&apos;, description: &apos;测试机IP&apos;, name: &apos;token&apos;, trim: false
+    	string defaultValue: &apos;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&apos;, description: &apos;测试机IP&apos;, name: &apos;token&apos;, trim: false
     	string defaultValue: &apos;github.com/intel-innersource/applications.validation.network-platform.npxtester.git&apos;, description: &apos;github repo url&apos;, name: &apos;git_repo_url&apos;, trim: false
         string defaultValue: &apos;10.112.97.62&apos;, description: &apos;测试机IP&apos;, name: &apos;sut1_ip&apos;, trim: false
 	    string defaultValue: &apos;ens2f0&apos;, description: &apos;sut1 pf1 name&apos;, name: &apos;pf1&apos;, trim: false

@@ -45,7 +45,7 @@
         <hudson.model.StringParameterDefinition>
           <name>token</name>
           <description>git token</description>
-          <defaultValue>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</defaultValue>
+          <defaultValue>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</defaultValue>
           <trim>false</trim>
         </hudson.model.StringParameterDefinition>
         <hudson.model.StringParameterDefinition>
@@ -142,7 +142,7 @@
         label &apos;controller-99&apos;
     }
     parameters {
-        string defaultValue: &apos;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&apos;, description: &apos;git token&apos;, name: &apos;token&apos;, trim: false
+        string defaultValue: &apos;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&apos;, description: &apos;git token&apos;, name: &apos;token&apos;, trim: false
         string defaultValue: &apos;github.com/intel-innersource/applications.validation.network-platform.npxtester.git&apos;, description: &apos;github repo url&apos;, name: &apos;git_repo_url&apos;, trim: false
         string defaultValue: &apos;10.239.115.71&apos;, description: &apos;测试机IP&apos;, name: &apos;sut1_ip&apos;, trim: false
         string defaultValue: &apos;rp&apos;, description: &apos;board_type of SUT1&apos;, name: &apos;board_type&apos;, trim: false

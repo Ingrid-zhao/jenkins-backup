@@ -1,0 +1,1828 @@
+Started by user [8mha:////4C8zTO/v0UlG+vQ5Fjm5jTf9kR93yL5yxTMP2X04T9v8AAAAlh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyWEgYu/dLi1CL9ovz8EgDKVWzSvwAAAA==[0mroot
+Running in Durability level: MAX_SURVIVABILITY
+[8mha:////4DOlrZhma2TKYqx8mtRBwGXVE8Xt4z3OJyo/zi+ICDdzAAAAoh+LCAAAAAAAAP9tjTEOwjAQBM8BClpKHuFItIiK1krDC0x8GCfWnbEdkooX8TX+gCESFVvtrLSa5wtWKcKBo5UdUu8otU4GP9jS5Mixv3geZcdn2TIl9igbHBs2eJyx4YwwR1SwULBGaj0nRzbDRnX6rmuvydanHMu2V1A5c4MHCFXMWcf8hSnC9jqYxPTz/BXAFEIGsfuclm8zQVqFvQAAAA==[0m[Pipeline] Start of Pipeline
+[8mha:////4B4K7nOhvaaLmbeE3w0NEhE1GAALwLDjakw9plXgkY6XAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycohUghExsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jduZBmjwAAAAA==[0m[Pipeline] node
+Running on [8mha:////4EheNQ7D4c27QswDGPiDpGtf9rfQF1HauEmyd+/REsZ/AAAAoh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyeEgZx/eT83ILSktQiICOvpCg/Jye1SDdLHwCRPP8lzAAAAA==[0mcontroller-j in /root/.jenkins/workspace/spr-test-nicSilver
+[8mha:////4NUxBMzN6CtFAbQ4pdo7pH8ZuwVHigLf0SdP3FcjQTwyAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gA0xsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jfoP95RwAAAAA==[0m[Pipeline] {
+[8mha:////4OCB1+Up79PmV3LnMeomKr9r+JFCKkFjAfTpr2UorbLOAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gQkxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jc09154wAAAAA==[0m[Pipeline] stage
+[8mha:////4N6KQN35K8CT/Pcr9a+R4oOEu4uEh3phvpB1t67zd2hmAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0ggUxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jek7ggRwAAAAA==[0m[Pipeline] { (rm project dir)
+[8mha:////4EWjgIQS1R18e39T6LdOu3ZpSMSXMburmKwxJHd8e163AAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gwExsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jcChmMxwAAAAA==[0m[Pipeline] script
+[8mha:////4NOJ/YVWDlnnBpjDdLKlLZkF5LrR387vblsx7fWhZkPlAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0BAkxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jfpX/cvwAAAAA==[0m[Pipeline] {
+[8mha:////4MAm0moKTc8Eo2PcB0LgkHNHI7Xtf5Poej2Mf/l8xh/lAAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQTbaoyVLaHxBMgiwpL/WWDdrTyRV/MOEjexcpJJ5k3zXm9Y5wQnSpZ7g73DrB2PYbR18YlSfws0cU9XrgkzBcOlmSR15rygpGJgCWtgJWBjUAfKDm2BrfDqodqg0LaXkup3FNC4boAnMFHNRaXyhTnB7j52mfDn+SuAORZg+9pD/AAeoCAqvAAAAA==[0m[Pipeline] sh
++ ls /root/.jenkins/workspace/spr-test-nicSilver/npxtester
+1.0.0.0001.version
+conf
+installation
+libs
+log_analyzer
+README.md
+testconf
+testLibs
+Tests
+[8mha:////4F3BY6hez6Yn9lSF4dYULOlz4RwK0Fdsp1OYWtj0vxDtAAAAox+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMKBDglR0VppeIFJjHFi3QX7QlLxIr7GH4iIRMVWO9PM641lijhydKqx1HpKlVdd6N301MCxvQYeVMMXVTElDlaVdii5tqcZSxaLeVmOhcbKUhU4eXKCtW7MwxTBkCvOEid30Mh9fccTmZ7KYqJ8YYzY3Po6Mf06fwMYO0G2F+S7bfcBITL9lL0AAAA=[0m[Pipeline] echo
+dir is exists and rm dir
+[8mha:////4KL1cTFlC/t8/0LRf71hJwxXIUFLIMviWtcIHXR2W8epAAAAox+LCAAAAAAAAP9tjbEOgjAURS8YB1dHP6KEzcQ4uTYsfkGFWgvNe9g+hMkv8tf8B4kkTt7pnrOc1xvrFHHk6FRrqfOUaq/6MLj5qZFjdw08qpYvqmZKHKyq7FhxY08LViwWy7IcK42NpTpw8uQEW92ahymCIVecJc7uoJH75o4nMj2XxUT5whSxuw1NYvp1/gYw9YJsL8jLsv8AYAPmjb0AAAA=[0m[Pipeline] sh
++ rm -rf /root/.jenkins/workspace/spr-test-nicSilver/npxtester
+[8mha:////4GzJynz9IX3CLl34e/1JpYOeLz7FDsqMtIihCtFGqNpZAAAAox+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIRVEiIitZKwwtMYowT6y7YF5KKF/E1/kBEJCq22plmXm8sU8SRo1ONpdZTqrzqQu+mpwaO7TXwoBq+qIopcbCqtEPJtT3NWLJYzMtyLDRWlqrAyZMTrHVjHqYIhlxxlji5g0bu6zueyPRUFhPlC2PE5tbXienX+RvA2HWCfLsTZPsPzjQzob0AAAA=[0m[Pipeline] }
+[8mha:////4MvApYhNLg1xEFG2iXyHCog7Z9h4MbdAsNSDoK4wJnDgAAAApB+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIRoqBAVLRWGl5gEmOcWHfBvpBUvIiv8QciIlGx1c4083pjmSKOHJ1qLLWeUuVVF3o3PTVwbK+BB9XwRVVMiYNVpR1Kru1pxpLFYl6WY6GxslQFTp6cYK0b8zBFMOSKs8TJHTRyX9/xRKanspgoXxgjNre+Tky/zt8Axq4T5NudINt/AO8A7Ay9AAAA[0m[Pipeline] // script
+[8mha:////4P1g47DHQeYIMdAQPrqVFJW5XTEYSJkMqP0k+p1upCWxAAAApB+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIREqJBVLRWGl5gEmOcWHfBvpBUvIiv8QciIlGx1c4083pjmSKOHJ1qLLWeUuVVF3o3PTVwbK+BB9XwRVVMiYNVpR1Kru1pxpLFYl6WY6GxslQFTp6cYK0b8zBFMOSKs8TJHTRyX9/xRKanspgoXxgjNre+Tky/zt8Axq4T5NudINt/AGnsy8m9AAAA[0m[Pipeline] }
+[8mha:////4Lc6WrLYEiiAC7rTWY8q4RQPGu1FD+hrgClvEqpzcg2sAAAAox+LCAAAAAAAAP9tjTESgjAQRT84FraWHiKMBZVjZZuh8QQRYgxkdjFZhMoTeTXvICMzVv7qv9e81xvrFHHk6FRrqfOUaq/6MLj5qZFjdw08qpYvqmZKHKyq7FhxY08LViwWy7IcK42NpTpw8uQEW92ahymCIVecJc7uoJH75o4nMj2XxUT5whSxuw1NYvp1/gYw9b0g35eCrPwAY5Sibb0AAAA=[0m[Pipeline] // stage
+[8mha:////4LPzYIRsJlP9vBl87WR2FbvV5590n9jZkqHCRBijPEs5AAAApx+LCAAAAAAAAP9tjTEOwjAQBM9BKWgpeYQjJESDqGgtN7zAxMY4se6CfSGpeBFf4w8EIlGx1c5Kq3m+oMwJDpS8bBy2AXMdZBd7PzU5UGovkQbZ0FnWhJmik9oNmqw7zqiJHcwRBSwULB3WkXJAz7BSjbmbKhr01YnTtO0VFMHe4AFCTWY2ib8wJlhfe5sJf56/Ahg7BrFlKDa7z7F8A6sHc4fBAAAA[0m[Pipeline] stage
+[8mha:////4P0yjWfQiEwQxZO7i9obwDXrYwQclNR3i//1CTGbFwBFAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohULDAgpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD1+IXOLCAAAA[0m[Pipeline] { (clone)
+[8mha:////4I3tKNYAz7At397ZkNOs6SFwEn2bzn3ZBhsoegW1dhRwAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiKpAQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGPIUG53n9qHNxXfVKy+AAAA[0m[Pipeline] sh
++ git clone -b develop https://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@github.com/intel-innersource/applications.validation.network-platform.npxtester.git npxtester
+Cloning into 'npxtester'...
+[8mha:////4CRWXV91kUhqh2bTVXI+2n5U32cQ89nJ7yub5blKQ29bAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiKoQQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGMIGcrt/lO7N9Jjga++AAAA[0m[Pipeline] }
+[8mha:////4I4ZVrOFMvh2sVfxnfT9s6+paGHoH9OzkxEwdR4h+nRDAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOICFDQoFa3lhheYxBgn1l2wHZyKF/E1/oBFJCq2WO1sM683LIOHmr3BTlNvKTQWBzeavDCx76+OE3Z8wYYpsNModZLc6tOMkqOGOUUJCwErTY3jYMlEWItOPVTlFJnqHH3+jgJK297hCYXI5qh8/MLkYXMb28D08/wVwDQMEcr9Ntfu8AERGGHOvgAAAA==[0m[Pipeline] // stage
+[8mha:////4J4BpfnRrLE6odVrNZGgZ11wIRy0HYHBalvcHAcD12j/AAAAph+LCAAAAAAAAP9tjTEOwjAQBM9BKWgpeYQjEB2iorXc8AITG+PEugv2haTiRXyNPxCIRMVWOyut5vmCMic4UPKycdgGzHWQXez91ORAqb1EGmRDZ1kTZopOajdosu44oyZ2MEcUsFCwdFhHygE9w0o15m6qaNBXJ07TtldQBHuDBwg1mdkk/sKYYH3tbSb8ef4KYOwYxI6h2G4+x/INji2eq8EAAAA=[0m[Pipeline] stage
+[8mha:////4AgPhGmio4pMNzq5gItmuDxswb3P5dwyIofUIBdMXBTmAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+DOrAycohUdEVMrFEXThCaEJJG/7dJSjpxIq7GHWipxIQHy7ZkvdcbyhjgRMFwp7GzGFvLez+aOfFMobt5ytzRlbeEkbzmjc4NKX1ea0NJw6qCwUbAVmPrKVo0CXbCyYesvERTXVKYt6MAZtUATyjETE4ypG+ZAuzvo4qEP85fAEx9AlYfFquXZ/kBAsTc3cIAAAA=[0m[Pipeline] { (set args)
+[8mha:////4G9dxluK5ut2lxdfo2JVi6OIov1ZH/881VUFzuPzanonAAAAox+LCAAAAAAAAP9tjTESwiAURH/iWNhaeggyE0vHypah8QSYIEKY/wkQSeWJvJp3EM2MlVvs7NvmPV+wjgGOFDSzCgeDsTPMu0mXxTKF4eooM0sX1hFGcooJlQX16rSgoKRgSVXDisNGYecoGtQJttzKu2ycRN2cUyjfgUNt+hEeUPFiTjKkL8wBdrepj4Q/z18BzD5B3baf2vs3w5BRkb4AAAA=[0m[Pipeline] sh
++ python /root/.jenkins/workspace/spr-test-nicSilver/npxtester/conf/change_args.py '{"dpdk_dir":"/root/dpdk-stable-20.11.3/","sut_conf":{"board_type":"rp","host":"10.239.183.130","pf1":"ens4f0","os":"UBUNTU","PF1_NIC_type":"100"},"pkg_generator":{"host":"10.239.182.88","pf1":"ens785f0"},"drive_info":{"drive_version":"5.15.0-1005-realtime"}}'
+[8mha:////4FhUQONKPXFSeOjFO92QKbtxv93cUzSuhB7hx3xoWX6KAAAApB+LCAAAAAAAAP9tjbEOwiAURV9rHFwd/QiaNG7GyZWw+AXYIkLJexSodPKL/DX/QbSJk3e4uecu5/mCdQxwpKCZVTgYjJ1h3k26LJYpDFdHmVm6sI4wklNMqCyoV6cFBSUFS6oaVhw2CjtH0aBOsOVW3mXjJOrmnEL5Dhxq04/wgIoXc5IhfWEOsLtNfST8ef4KYPY+Qd3uP9W+Ad3NsHm+AAAA[0m[Pipeline] }
+[8mha:////4EpM1Tihe33kOTBucrClpdwMCq1FF6wGwTU/AEOZmYaNAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIikKgQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGMIGcrd/lPbN8JP5Su+AAAA[0m[Pipeline] // stage
+[8mha:////4JJk4NQMkVX21N+ktknOqKLQw+FD2VU/fvD8dhBPuambAAAApx+LCAAAAAAAAP9tjTEOwjAQBM9BKWgpeYQjIUSDqGgtN7zAxMY4se6CfSGpeBFf4w8EIlGx1c5Kq3m+oMwJDpS8bBy2AXMdZBd7PzU5UGovkQbZ0FnWhJmik9oNmqw7zqiJHcwRBSwULB3WkXJAz7BSjbmbKhr01YnTtO0VFMHe4AFCTWY2ib8wJlhfe5sJf56/Ahg7BrFlKDa7z7F8AzYdm7bBAAAA[0m[Pipeline] stage
+[8mha:////4GToWcz1lEtttcc1F67+obVKf97ChyGWoNBgdNb8ln6iAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUYoABMXWNsnCC0ISQNvq//KS0EyfiatyBlkpMeLBsS9Z7vaGIDCdiJxqLrcdYe9GF3k1JDMTtNdAgGrqImjBSsELZQZGx1VIVJQuLshxWEtYW60DRo0uwkY1+6DJodOU58bQdJeTe3OEJmZzISXP6lpFhe+tNJPxx/gJg7BLku/1sh/lZfAAyQCqkwgAAAA==[0m[Pipeline] { (run nic case)
+[8mha:////4Dqouna/UALz1cds/DYDIib12lRO4R4U9QQgmUx/wyv5AAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUYgEJMXWNsnCC0ISQNvq//KS0EyfiatyBlkpMeLBsS9Z7vaGIDCdiJxqLrcdYe9GF3k1JDMTtNdAgGrqImjBSsELZQZGx1VIVJQuLshxWEtYW60DRo0uwkY1+6DJodOU58bQdJeTe3OEJmZzISXP6lpFhe+tNJPxx/gJg7BLku/1sh/lZfAAnLfKUwgAAAA==[0m[Pipeline] script
+[8mha:////4JUhH4fIWh5icAEY6zBr3HRHHu0lnMalVyM2fPsu3/3sAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUYgIhpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD0QKVszCAAAA[0m[Pipeline] {
+[8mha:////4PJRxj8hD/CuSHgtWDRwAQ67XTdBRcldvWih24U4ysBWAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKCoEIoFa3lhheYxBgn1l2wHZyKF/E1/oBFJCq2WO1sM683LIOHmr3BTlNvKTQWBzeavDCx76+OE3Z8wYYpsNModZLc6tOMkqOGOUUJCwErTY3jYMlEWItOPVTlFJnqHH3+jgJK297hCYXI5qh8/MLkYXMb28D08/wVwDREKHeHXPvt8AHN/bm5vgAAAA==[0m[Pipeline] sh
++ pytest /root/.jenkins/workspace/spr-test-nicSilver/npxtester/Tests/testNics -s -m nicSilver --capture=tee-sys --html=/root/testconfig/testlogs/HtmlReport/nicSilver_report.html --self-contained-html
+============================= test session starts ==============================
+platform linux -- Python 3.6.8, pytest-6.2.4, py-1.11.0, pluggy-0.13.1
+rootdir: /root/.jenkins/workspace/spr-test-nicSilver/npxtester/Tests/testNics, configfile: pytest.ini
+plugins: metadata-1.11.0, html-3.1.1
+collected 19 items / 14 deselected / 5 selected
+
+npxtester/Tests/testNics/test_nics.py 2022-04-06 21:35:13 - NicTestFixture.py - [line:27] - root - INFO - case_logpath: /root/testconfig/testlogs/2022-04-06/test_silver_Networking_ConnectivityEnableDisable_21_35_13/test_silver_Networking_ConnectivityEnableDisable.log, case_logdir: /root/testconfig/testlogs/2022-04-06/test_silver_Networking_ConnectivityEnableDisable_21_35_13
+2022-04-06 21:35:13 - NicTestFixture.py - [line:31] - root - INFO - ============================ Starting to run test_silver_Networking_ConnectivityEnableDisable case ============================
+2022-04-06 21:35:13 - test_nics.py - [line:21] - root - INFO - this is Test_Nics setup.
+2022-04-06 21:35:13 - test_nics.py - [line:28] - root - INFO - ssh to the sut1
+2022-04-06 21:35:13 - transport.py - [line:1819] - paramiko.transport - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2022-04-06 21:35:13 - transport.py - [line:1819] - paramiko.transport - INFO - Authentication (password) successful!
+2022-04-06 21:35:14 - sshInstance.py - [line:28] - root - INFO - SSH on SUT: 10.239.183.130
+2022-04-06 21:35:14 - transport.py - [line:1819] - paramiko.transport - INFO - Connected (version 2.0, client OpenSSH_8.0)
+2022-04-06 21:35:14 - transport.py - [line:1819] - paramiko.transport - INFO - Authentication (password) successful!
+2022-04-06 21:35:14 - sshInstance.py - [line:28] - root - INFO - SSH on SUT: 10.239.182.88
+2022-04-06 21:35:14 - sftp.py - [line:158] - paramiko.transport.sftp - INFO - [chan 1] Opened sftp connection (server version 3)
+2022-04-06 21:35:14 - test_nics.py - [line:44] - root - INFO - --Start rmmod irdma --
+2022-04-06 21:35:17 - sshInstance.py - [line:50] - root - INFO - rmmod irdma
+2022-04-06 21:35:17 - sshInstance.py - [line:54] - root - INFO - 
+2022-04-06 21:35:22 - test_nics.py - [line:46] - root - INFO - --Finish rmmod irdma --
+2022-04-06 21:35:22 - test_nics.py - [line:47] - root - INFO - --Start rmmod ice --
+2022-04-06 21:35:25 - sshInstance.py - [line:50] - root - INFO - rmmod ice
+2022-04-06 21:35:31 - sshInstance.py - [line:54] - root - INFO - 
+2022-04-06 21:35:36 - test_nics.py - [line:49] - root - INFO - --Finish rmmod ice --
+2022-04-06 21:35:36 - test_nics.py - [line:50] - root - INFO - --Start modprobe ice --
+2022-04-06 21:35:39 - sshInstance.py - [line:50] - root - INFO - modprobe ice
+2022-04-06 21:36:14 - sshInstance.py - [line:54] - root - INFO - 
+2022-04-06 21:36:19 - test_nics.py - [line:52] - root - INFO - --Finish modprobe ice --
+2022-04-06 21:36:22 - sshInstance.py - [line:50] - root - INFO - ifconfig ens4f0 up
+2022-04-06 21:36:22 - sshInstance.py - [line:54] - root - INFO - 
+2022-04-06 21:36:30 - sshInstance.py - [line:50] - root - INFO - ethtool -i ens4f0 | grep ^version:
+2022-04-06 21:36:30 - sshInstance.py - [line:54] - root - INFO - version: 5.15.0-1005-realtime
+
+2022-04-06 21:36:35 - test_nics.py - [line:58] - root - INFO - Passed: driver version is what expected.
+2022-04-06 21:36:35 - sshInstance.py - [line:190] - root - INFO - start to rmmod irdma....
+2022-04-06 21:36:38 - sshInstance.py - [line:50] - root - INFO - rmmod irdma
+2022-04-06 21:36:38 - sshInstance.py - [line:54] - root - INFO - 
+2022-04-06 21:36:43 - sshInstance.py - [line:193] - root - INFO - finished rmmod irdma....
+2022-04-06 21:36:43 - sshInstance.py - [line:194] - root - INFO - start to rmmod ice....
+2022-04-06 21:36:46 - sshInstance.py - [line:50] - root - INFO - rmmod ice
+2022-04-06 21:36:52 - sshInstance.py - [line:54] - root - INFO - 
+2022-04-06 21:36:57 - sshInstance.py - [line:197] - root - INFO - finished rmmod ice....
+2022-04-06 21:36:57 - sshInstance.py - [line:199] - root - INFO - start to modprobe ice....
+2022-04-06 21:37:00 - sshInstance.py - [line:50] - root - INFO - modprobe ice
+2022-04-06 21:37:35 - sshInstance.py - [line:54] - root - INFO - 
+2022-04-06 21:37:40 - sshInstance.py - [line:201] - root - INFO - finished modprobe ice....
+2022-04-06 21:37:43 - sshInstance.py - [line:50] - root - INFO - ifconfig ens4f0 up
+2022-04-06 21:37:43 - sshInstance.py - [line:54] - root - INFO - 
+2022-04-06 21:37:51 - sshInstance.py - [line:50] - root - INFO - ethtool -i ens4f0
+2022-04-06 21:37:51 - sshInstance.py - [line:54] - root - INFO - driver: ice
+version: 5.15.0-1005-realtime
+firmware-version: 3.10 0x8000ad67 1.3106.0
+expansion-rom-version: 
+bus-info: 0000:6f:00.0
+supports-statistics: yes
+supports-test: yes
+supports-eeprom-access: yes
+supports-register-dump: yes
+supports-priv-flags: yes
+
+2022-04-06 21:37:59 - sshInstance.py - [line:50] - root - INFO - ifconfig ens4f0
+2022-04-06 21:37:59 - sshInstance.py - [line:54] - root - INFO - ens4f0: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        inet6 fe80::b696:91ff:fea0:2140  prefixlen 64  scopeid 0x20<link>
+        ether b4:96:91:a0:21:40  txqueuelen 1000  (Ethernet)
+        RX packets 0  bytes 0 (0.0 B)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 8  bytes 656 (656.0 B)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+
+2022-04-06 21:38:07 - sshInstance.py - [line:50] - root - INFO - ifconfig ens785f0
+2022-04-06 21:38:07 - sshInstance.py - [line:54] - root - INFO - ens785f0: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        inet 192.168.100.1  netmask 255.255.255.0  broadcast 192.168.100.255
+        inet6 fe80::b696:91ff:fea0:2170  prefixlen 64  scopeid 0x20<link>
+        ether b4:96:91:a0:21:70  txqueuelen 1000  (Ethernet)
+        RX packets 107926  bytes 36904176 (35.1 MiB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 1297  bytes 121925 (119.0 KiB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+
+2022-04-06 21:38:15 - sshInstance.py - [line:50] - root - INFO - ifconfig ens4f0 192.168.10.10
+2022-04-06 21:38:15 - sshInstance.py - [line:54] - root - INFO - 
+2022-04-06 21:38:23 - sshInstance.py - [line:50] - root - INFO - ifconfig ens785f0 192.168.10.11
+2022-04-06 21:38:23 - sshInstance.py - [line:54] - root - INFO - 
+2022-04-06 21:38:32 - sshInstance.py - [line:75] - root - INFO - Welcome to Ubuntu Jammy Jellyfish (development branch) (GNU/Linux 5.15.0-1005-realtime x86_64)
+
+ * Documentation:  https://help.ubuntu.com
+ * Management:     https://landscape.canonical.com
+ * Support:        https://ubuntu.com/advantage
+
+  System information as of Wed Apr  6 01:46:14 PM UTC 2022
+
+  System load:  0.39990234375       Processes:               1505
+  Usage of /:   63.8% of 297.87GB   Users logged in:         1
+  Memory usage: 54%                 IPv4 address for enp3s0: 10.239.183.130
+  Swap usage:   0%                  IPv4 address for virbr0: 192.168.122.1
+  Temperature:  36.0 C
+
+
+0 updates can be applied immediately.
+
+
+Last login: Wed Apr  6 13:45:11 2022 from 10.254.212.63
+RTNETLINK answers: File exists
+[?2004hroot@npx-SPR-automation:~# ping -c 5 192.168.10.10
+[?2004lPING 192.168.10.10 (192.168.10.10) 56(84) bytes of data.
+64 bytes from 192.168.10.10: icmp_seq=1 ttl=64 time=0.061 ms
+2022-04-06 21:38:33 - sshInstance.py - [line:75] - root - INFO - 64 bytes from 192.168.10.10: icmp_seq=2 ttl=64 time=0.060 ms
+2022-04-06 21:38:34 - sshInstance.py - [line:75] - root - INFO - 64 bytes from 192.168.10.10: icmp_seq=3 ttl=64 time=0.040 ms
+2022-04-06 21:38:35 - sshInstance.py - [line:75] - root - INFO - 64 bytes from 192.168.10.10: icmp_seq=4 ttl=64 time=0.017 ms
+2022-04-06 21:38:36 - sshInstance.py - [line:75] - root - INFO - 64 bytes from 192.168.10.10: icmp_seq=5 ttl=64 time=0.024 ms
+
+--- 192.168.10.10 ping statistics ---
+5 packets transmitted, 5 received, 0% packet loss, time 4109ms
+rtt min/avg/max/mdev = 0.017/0.040/0.061/0.018 ms
+[?2004hroot@npx-SPR-automation:~# 
+2022-04-06 21:38:45 - sshInstance.py - [line:99] - root - INFO - ifconfig ens4f0 down
+[?2004l[?2004hroot@npx-SPR-automation:~# 
+2022-04-06 21:38:55 - sshInstance.py - [line:99] - root - INFO - ifconfig ens4f0 up
+[?2004l[?2004hroot@npx-SPR-automation:~# 
+2022-04-06 21:39:01 - sshInstance.py - [line:50] - root - INFO - ifconfig ens4f0 192.168.10.10
+2022-04-06 21:39:01 - sshInstance.py - [line:54] - root - INFO - 
+2022-04-06 21:39:10 - sshInstance.py - [line:75] - root - INFO - ping -c 5 192.168.10.10
+[?2004lPING 192.168.10.10 (192.168.10.10) 56(84) bytes of data.
+64 bytes from 192.168.10.10: icmp_seq=1 ttl=64 time=0.061 ms
+2022-04-06 21:39:11 - sshInstance.py - [line:75] - root - INFO - 64 bytes from 192.168.10.10: icmp_seq=2 ttl=64 time=0.042 ms
+2022-04-06 21:39:12 - sshInstance.py - [line:75] - root - INFO - 64 bytes from 192.168.10.10: icmp_seq=3 ttl=64 time=0.055 ms
+2022-04-06 21:39:13 - sshInstance.py - [line:75] - root - INFO - 64 bytes from 192.168.10.10: icmp_seq=4 ttl=64 time=0.046 ms
+2022-04-06 21:39:14 - sshInstance.py - [line:75] - root - INFO - 64 bytes from 192.168.10.10: icmp_seq=5 ttl=64 time=0.021 ms
+
+--- 192.168.10.10 ping statistics ---
+5 packets transmitted, 5 received, 0% packet loss, time 4121ms
+rtt min/avg/max/mdev = 0.021/0.045/0.061/0.013 ms
+[?2004hroot@npx-SPR-automation:~# 
+2022-04-06 21:39:23 - sshInstance.py - [line:99] - root - INFO - ifconfig ens4f0 down
+[?2004l[?2004hroot@npx-SPR-automation:~# 
+2022-04-06 21:39:33 - sshInstance.py - [line:99] - root - INFO - ifconfig ens4f0 up
+[?2004l[?2004hroot@npx-SPR-automation:~# 
+2022-04-06 21:39:39 - sshInstance.py - [line:50] - root - INFO - ifconfig ens4f0 192.168.10.10
+2022-04-06 21:39:39 - sshInstance.py - [line:54] - root - INFO - 
+2022-04-06 21:39:48 - sshInstance.py - [line:75] - root - INFO - ping -c 5 192.168.10.10
+[?2004lPING 192.168.10.10 (192.168.10.10) 56(84) bytes of data.
+64 bytes from 192.168.10.10: icmp_seq=1 ttl=64 time=0.063 ms
+2022-04-06 21:39:49 - sshInstance.py - [line:75] - root - INFO - 64 bytes from 192.168.10.10: icmp_seq=2 ttl=64 time=0.051 ms
+2022-04-06 21:39:50 - sshInstance.py - [line:75] - root - INFO - 64 bytes from 192.168.10.10: icmp_seq=3 ttl=64 time=0.029 ms
+2022-04-06 21:39:51 - sshInstance.py - [line:75] - root - INFO - 64 bytes from 192.168.10.10: icmp_seq=4 ttl=64 time=0.022 ms
+2022-04-06 21:39:52 - sshInstance.py - [line:75] - root - INFO - 64 bytes from 192.168.10.10: icmp_seq=5 ttl=64 time=0.016 ms
+
+--- 192.168.10.10 ping statistics ---
+5 packets transmitted, 5 received, 0% packet loss, time 4134ms
+rtt min/avg/max/mdev = 0.016/0.036/0.063/0.017 ms
+[?2004hroot@npx-SPR-automation:~# 
+2022-04-06 21:40:01 - sshInstance.py - [line:99] - root - INFO - ifconfig ens4f0 down
+[?2004l[?2004hroot@npx-SPR-automation:~# 
+2022-04-06 21:40:11 - sshInstance.py - [line:99] - root - INFO - ifconfig ens4f0 up
+[?2004l[?2004hroot@npx-SPR-automation:~# 
+2022-04-06 21:40:17 - sshInstance.py - [line:50] - root - INFO - ifconfig ens4f0 192.168.10.10
+2022-04-06 21:40:17 - sshInstance.py - [line:54] - root - INFO - 
+2022-04-06 21:40:26 - sshInstance.py - [line:75] - root - INFO - ping -c 5 192.168.10.10
+[?2004lPING 192.168.10.10 (192.168.10.10) 56(84) bytes of data.
+64 bytes from 192.168.10.10: icmp_seq=1 ttl=64 time=0.088 ms
+2022-04-06 21:40:27 - sshInstance.py - [line:75] - root - INFO - 64 bytes from 192.168.10.10: icmp_seq=2 ttl=64 time=0.050 ms
+2022-04-06 21:40:28 - sshInstance.py - [line:75] - root - INFO - 64 bytes from 192.168.10.10: icmp_seq=3 ttl=64 time=0.022 ms
+2022-04-06 21:40:29 - sshInstance.py - [line:75] - root - INFO - 64 bytes from 192.168.10.10: icmp_seq=4 ttl=64 time=0.021 ms
+2022-04-06 21:40:31 - sshInstance.py - [line:75] - root - INFO - 64 bytes from 192.168.10.10: icmp_seq=5 ttl=64 time=0.017 ms
+
+--- 192.168.10.10 ping statistics ---
+5 packets transmitted, 5 received, 0% packet loss, time 4081ms
+rtt min/avg/max/mdev = 0.017/0.039/0.088/0.026 ms
+[?2004hroot@npx-SPR-automation:~# 
+2022-04-06 21:40:40 - sshInstance.py - [line:99] - root - INFO - ifconfig ens4f0 down
+[?2004l[?2004hroot@npx-SPR-automation:~# 
+2022-04-06 21:40:50 - sshInstance.py - [line:99] - root - INFO - ifconfig ens4f0 up
+[?2004l[?2004hroot@npx-SPR-automation:~# 
+2022-04-06 21:40:56 - sshInstance.py - [line:50] - root - INFO - ifconfig ens4f0 192.168.10.10
+2022-04-06 21:40:56 - sshInstance.py - [line:54] - root - INFO - 
+2022-04-06 21:41:05 - sshInstance.py - [line:75] - root - INFO - ping -c 5 192.168.10.10
+[?2004lPING 192.168.10.10 (192.168.10.10) 56(84) bytes of data.
+64 bytes from 192.168.10.10: icmp_seq=1 ttl=64 time=0.057 ms
+2022-04-06 21:41:06 - sshInstance.py - [line:75] - root - INFO - 64 bytes from 192.168.10.10: icmp_seq=2 ttl=64 time=0.053 ms
+2022-04-06 21:41:07 - sshInstance.py - [line:75] - root - INFO - 64 bytes from 192.168.10.10: icmp_seq=3 ttl=64 time=0.047 ms
+2022-04-06 21:41:08 - sshInstance.py - [line:75] - root - INFO - 64 bytes from 192.168.10.10: icmp_seq=4 ttl=64 time=0.023 ms
+2022-04-06 21:41:09 - sshInstance.py - [line:75] - root - INFO - 64 bytes from 192.168.10.10: icmp_seq=5 ttl=64 time=0.039 ms
+
+--- 192.168.10.10 ping statistics ---
+5 packets transmitted, 5 received, 0% packet loss, time 4093ms
+rtt min/avg/max/mdev = 0.023/0.043/0.057/0.012 ms
+[?2004hroot@npx-SPR-automation:~# 
+2022-04-06 21:41:18 - sshInstance.py - [line:99] - root - INFO - ifconfig ens4f0 down
+[?2004l[?2004hroot@npx-SPR-automation:~# 
+2022-04-06 21:41:28 - sshInstance.py - [line:99] - root - INFO - ifconfig ens4f0 up
+[?2004l[?2004hroot@npx-SPR-automation:~# 
+2022-04-06 21:41:34 - sshInstance.py - [line:50] - root - INFO - ifconfig ens4f0 192.168.10.10
+2022-04-06 21:41:34 - sshInstance.py - [line:54] - root - INFO - 
+2022-04-06 21:41:43 - sshInstance.py - [line:75] - root - INFO - ping -c 5 192.168.10.10
+[?2004lPING 192.168.10.10 (192.168.10.10) 56(84) bytes of data.
+64 bytes from 192.168.10.10: icmp_seq=1 ttl=64 time=0.058 ms
+2022-04-06 21:41:44 - sshInstance.py - [line:75] - root - INFO - 64 bytes from 192.168.10.10: icmp_seq=2 ttl=64 time=0.040 ms
+2022-04-06 21:41:45 - sshInstance.py - [line:75] - root - INFO - 64 bytes from 192.168.10.10: icmp_seq=3 ttl=64 time=0.044 ms
+2022-04-06 21:41:46 - sshInstance.py - [line:75] - root - INFO - 64 bytes from 192.168.10.10: icmp_seq=4 ttl=64 time=0.015 ms
+2022-04-06 21:41:47 - sshInstance.py - [line:75] - root - INFO - 64 bytes from 192.168.10.10: icmp_seq=5 ttl=64 time=0.056 ms
+
+--- 192.168.10.10 ping statistics ---
+5 packets transmitted, 5 received, 0% packet loss, time 4105ms
+rtt min/avg/max/mdev = 0.015/0.042/0.058/0.015 ms
+[?2004hroot@npx-SPR-automation:~# 
+.2022-04-06 21:41:53 - sshInstance.py - [line:50] - root - INFO - echo 0 > /sys/class/net/ens4f0/device/sriov_numvfs
+2022-04-06 21:41:53 - sshInstance.py - [line:54] - root - INFO - 
+2022-04-06 21:42:01 - sshInstance.py - [line:50] - root - INFO - echo 0 > /sys/class/net/ens4f0/device/sriov_numvfs
+2022-04-06 21:42:01 - sshInstance.py - [line:54] - root - INFO - 
+2022-04-06 21:42:09 - sshInstance.py - [line:50] - root - INFO - ifconfig ens4f0 0
+2022-04-06 21:42:09 - sshInstance.py - [line:54] - root - INFO - 
+2022-04-06 21:42:17 - sshInstance.py - [line:50] - root - INFO - ifconfig ens785f0 0
+2022-04-06 21:42:17 - sshInstance.py - [line:54] - root - INFO - 
+2022-04-06 21:42:25 - sshInstance.py - [line:50] - root - INFO - dmesg > /tmp/dmesg.log
+2022-04-06 21:42:25 - sshInstance.py - [line:54] - root - INFO - 
+2022-04-06 21:42:30 - test_nics.py - [line:87] - root - INFO - generate dmesg.log file on sut /tmp/dmesg.log
+2022-04-06 21:42:30 - test_nics.py - [line:89] - root - INFO - copy dmesg.log from sut1 /tmp dir to controller dir /root/testconfig/testlogs/2022-04-06/test_silver_Networking_ConnectivityEnableDisable_21_35_13
+2022-04-06 21:42:33 - sshInstance.py - [line:50] - root - INFO - rm -f /tmp/dmesg.log
+2022-04-06 21:42:33 - sshInstance.py - [line:54] - root - INFO - 
+2022-04-06 21:42:38 - test_nics.py - [line:91] - root - INFO - rm dmesg.log on sut1 /tmp dir
+2022-04-06 21:42:38 - sshInstance.py - [line:43] - root - INFO - closing ssh client on SUT
+2022-04-06 21:42:38 - test_nics.py - [line:93] - root - INFO - this is Test_Nics teardown
+2022-04-06 21:42:38 - NicTestFixture.py - [line:35] - root - INFO - ============================ end of run test_silver_Networking_ConnectivityEnableDisable case ============================
+2022-04-06 21:42:38 - NicTestFixture.py - [line:27] - root - INFO - case_logpath: /root/testconfig/testlogs/2022-04-06/test_silver_ConnectivityReboot_21_42_38/test_silver_ConnectivityReboot.log, case_logdir: /root/testconfig/testlogs/2022-04-06/test_silver_ConnectivityReboot_21_42_38
+2022-04-06 21:42:38 - NicTestFixture.py - [line:31] - root - INFO - ============================ Starting to run test_silver_ConnectivityReboot case ============================
+2022-04-06 21:42:38 - test_nics.py - [line:21] - root - INFO - this is Test_Nics setup.
+2022-04-06 21:42:38 - test_nics.py - [line:28] - root - INFO - ssh to the sut1
+2022-04-06 21:42:38 - transport.py - [line:1819] - paramiko.transport - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2022-04-06 21:42:38 - transport.py - [line:1819] - paramiko.transport - INFO - Authentication (password) successful!
+2022-04-06 21:42:39 - sshInstance.py - [line:28] - root - INFO - SSH on SUT: 10.239.183.130
+2022-04-06 21:42:39 - transport.py - [line:1819] - paramiko.transport - INFO - Connected (version 2.0, client OpenSSH_8.0)
+2022-04-06 21:42:39 - transport.py - [line:1819] - paramiko.transport - INFO - Authentication (password) successful!
+2022-04-06 21:42:39 - sshInstance.py - [line:28] - root - INFO - SSH on SUT: 10.239.182.88
+2022-04-06 21:42:39 - sftp.py - [line:158] - paramiko.transport.sftp - INFO - [chan 1] Opened sftp connection (server version 3)
+2022-04-06 21:42:39 - test_nics.py - [line:44] - root - INFO - --Start rmmod irdma --
+2022-04-06 21:42:42 - sshInstance.py - [line:50] - root - INFO - rmmod irdma
+2022-04-06 21:42:42 - sshInstance.py - [line:54] - root - INFO - 
+2022-04-06 21:42:47 - test_nics.py - [line:46] - root - INFO - --Finish rmmod irdma --
+2022-04-06 21:42:47 - test_nics.py - [line:47] - root - INFO - --Start rmmod ice --
+2022-04-06 21:42:50 - sshInstance.py - [line:50] - root - INFO - rmmod ice
+2022-04-06 21:42:56 - sshInstance.py - [line:54] - root - INFO - 
+2022-04-06 21:43:01 - test_nics.py - [line:49] - root - INFO - --Finish rmmod ice --
+2022-04-06 21:43:01 - test_nics.py - [line:50] - root - INFO - --Start modprobe ice --
+2022-04-06 21:43:04 - sshInstance.py - [line:50] - root - INFO - modprobe ice
+2022-04-06 21:43:39 - sshInstance.py - [line:54] - root - INFO - 
+2022-04-06 21:43:44 - test_nics.py - [line:52] - root - INFO - --Finish modprobe ice --
+2022-04-06 21:43:47 - sshInstance.py - [line:50] - root - INFO - ifconfig ens4f0 up
+2022-04-06 21:43:47 - sshInstance.py - [line:54] - root - INFO - 
+2022-04-06 21:43:55 - sshInstance.py - [line:50] - root - INFO - ethtool -i ens4f0 | grep ^version:
+2022-04-06 21:43:55 - sshInstance.py - [line:54] - root - INFO - version: 5.15.0-1005-realtime
+
+2022-04-06 21:44:00 - test_nics.py - [line:58] - root - INFO - Passed: driver version is what expected.
+2022-04-06 21:44:00 - sshInstance.py - [line:190] - root - INFO - start to rmmod irdma....
+2022-04-06 21:44:03 - sshInstance.py - [line:50] - root - INFO - rmmod irdma
+2022-04-06 21:44:03 - sshInstance.py - [line:54] - root - INFO - 
+2022-04-06 21:44:08 - sshInstance.py - [line:193] - root - INFO - finished rmmod irdma....
+2022-04-06 21:44:08 - sshInstance.py - [line:194] - root - INFO - start to rmmod ice....
+2022-04-06 21:44:11 - sshInstance.py - [line:50] - root - INFO - rmmod ice
+2022-04-06 21:44:17 - sshInstance.py - [line:54] - root - INFO - 
+2022-04-06 21:44:22 - sshInstance.py - [line:197] - root - INFO - finished rmmod ice....
+2022-04-06 21:44:22 - sshInstance.py - [line:199] - root - INFO - start to modprobe ice....
+2022-04-06 21:44:25 - sshInstance.py - [line:50] - root - INFO - modprobe ice
+2022-04-06 21:45:01 - sshInstance.py - [line:54] - root - INFO - 
+2022-04-06 21:45:06 - sshInstance.py - [line:201] - root - INFO - finished modprobe ice....
+2022-04-06 21:45:09 - sshInstance.py - [line:50] - root - INFO - ifconfig ens4f0 up
+2022-04-06 21:45:09 - sshInstance.py - [line:54] - root - INFO - 
+2022-04-06 21:45:17 - sshInstance.py - [line:50] - root - INFO - ethtool -i ens4f0
+2022-04-06 21:45:17 - sshInstance.py - [line:54] - root - INFO - driver: ice
+version: 5.15.0-1005-realtime
+firmware-version: 3.10 0x8000ad67 1.3106.0
+expansion-rom-version: 
+bus-info: 0000:6f:00.0
+supports-statistics: yes
+supports-test: yes
+supports-eeprom-access: yes
+supports-register-dump: yes
+supports-priv-flags: yes
+
+2022-04-06 21:45:25 - sshInstance.py - [line:50] - root - INFO - ifconfig ens4f0
+2022-04-06 21:45:25 - sshInstance.py - [line:54] - root - INFO - ens4f0: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        inet6 fe80::b696:91ff:fea0:2140  prefixlen 64  scopeid 0x20<link>
+        ether b4:96:91:a0:21:40  txqueuelen 1000  (Ethernet)
+        RX packets 0  bytes 0 (0.0 B)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 17  bytes 2686 (2.6 KB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+
+2022-04-06 21:45:33 - sshInstance.py - [line:50] - root - INFO - ifconfig ens785f0
+2022-04-06 21:45:33 - sshInstance.py - [line:54] - root - INFO - ens785f0: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        inet6 fe80::b696:91ff:fea0:2170  prefixlen 64  scopeid 0x20<link>
+        ether b4:96:91:a0:21:70  txqueuelen 1000  (Ethernet)
+        RX packets 107934  bytes 36906912 (35.1 MiB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 1310  bytes 124527 (121.6 KiB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+
+2022-04-06 21:45:41 - sshInstance.py - [line:50] - root - INFO - ifconfig ens785f0 192.168.10.11
+2022-04-06 21:45:41 - sshInstance.py - [line:54] - root - INFO - 
+2022-04-06 21:45:49 - sshInstance.py - [line:50] - root - INFO - ifconfig ens4f0 192.168.10.10
+2022-04-06 21:45:49 - sshInstance.py - [line:54] - root - INFO - 
+2022-04-06 21:45:54 - test_nics.py - [line:136] - root - INFO - -- reboot 1 times --
+2022-04-06 21:45:58 - sshInstance.py - [line:75] - root - INFO - Welcome to Ubuntu Jammy Jellyfish (development branch) (GNU/Linux 5.15.0-1005-realtime x86_64)
+
+ * Documentation:  https://help.ubuntu.com
+ * Management:     https://landscape.canonical.com
+ * Support:        https://ubuntu.com/advantage
+
+  System information as of Wed Apr  6 01:53:39 PM UTC 2022
+
+  System load:  0.0166015625        Processes:               1309
+  Usage of /:   63.8% of 297.87GB   Users logged in:         1
+  Memory usage: 53%                 IPv4 address for enp3s0: 10.239.183.130
+  Swap usage:   0%                  IPv4 address for virbr0: 192.168.122.1
+  Temperature:  40.0 C
+
+
+0 updates can be applied immediately.
+
+
+Last login: Wed Apr  6 13:53:34 2022 from 10.112.97.60
+RTNETLINK answers: File exists
+[?2004hroot@npx-SPR-automation:~# ping -c 5 192.168.10.11
+[?2004lPING 192.168.10.11 (192.168.10.11) 56(84) bytes of data.
+64 bytes from 192.168.10.11: icmp_seq=1 ttl=64 time=0.512 ms
+2022-04-06 21:45:59 - sshInstance.py - [line:75] - root - INFO - 64 bytes from 192.168.10.11: icmp_seq=2 ttl=64 time=0.150 ms
+2022-04-06 21:46:00 - sshInstance.py - [line:75] - root - INFO - 64 bytes from 192.168.10.11: icmp_seq=3 ttl=64 time=0.165 ms
+2022-04-06 21:46:01 - sshInstance.py - [line:75] - root - INFO - 64 bytes from 192.168.10.11: icmp_seq=4 ttl=64 time=0.147 ms
+2022-04-06 21:46:02 - sshInstance.py - [line:75] - root - INFO - 64 bytes from 192.168.10.11: icmp_seq=5 ttl=64 time=0.153 ms
+
+--- 192.168.10.11 ping statistics ---
+5 packets transmitted, 5 received, 0% packet loss, time 4130ms
+rtt min/avg/max/mdev = 0.147/0.225/0.512/0.143 ms
+[?2004hroot@npx-SPR-automation:~# 
+2022-04-06 21:46:09 - sshInstance.py - [line:75] - root - INFO - ping6 -c 5 -I ens4f0 fe80::b696:91ff:fea0:2170
+[?2004lping6: Warning: source address might be selected on device other than: ens4f0
+PING fe80::b696:91ff:fea0:2170(fe80::b696:91ff:fea0:2170) from :: ens4f0: 56 data bytes
+64 bytes from fe80::b696:91ff:fea0:2170%ens4f0: icmp_seq=1 ttl=64 time=0.651 ms
+2022-04-06 21:46:10 - sshInstance.py - [line:75] - root - INFO - 64 bytes from fe80::b696:91ff:fea0:2170%ens4f0: icmp_seq=2 ttl=64 time=0.176 ms
+2022-04-06 21:46:11 - sshInstance.py - [line:75] - root - INFO - 64 bytes from fe80::b696:91ff:fea0:2170%ens4f0: icmp_seq=3 ttl=64 time=0.155 ms
+2022-04-06 21:46:12 - sshInstance.py - [line:75] - root - INFO - 64 bytes from fe80::b696:91ff:fea0:2170%ens4f0: icmp_seq=4 ttl=64 time=0.160 ms
+2022-04-06 21:46:13 - sshInstance.py - [line:75] - root - INFO - 64 bytes from fe80::b696:91ff:fea0:2170%ens4f0: icmp_seq=5 ttl=64 time=0.146 ms
+
+--- fe80::b696:91ff:fea0:2170 ping statistics ---
+5 packets transmitted, 5 received, 0% packet loss, time 4120ms
+rtt min/avg/max/mdev = 0.146/0.257/0.651/0.196 ms
+[?2004hroot@npx-SPR-automation:~# 
+2022-04-06 21:46:22 - sshInstance.py - [line:99] - root - INFO - reboot
+[?2004l
+2022-04-06 21:46:25 - sshInstance.py - [line:159] - root - INFO - sut server reboot, please wait ......
+2022-04-06 21:47:25 - commonFunc.py - [line:16] - root - INFO - starting to execute the cmd: ping -w 5 10.239.183.130....
+2022-04-06 21:47:30 - commonFunc.py - [line:30] - root - INFO - PING 10.239.183.130 (10.239.183.130) 56(84) bytes of data.
+2022-04-06 21:47:30 - commonFunc.py - [line:30] - root - INFO - 
+2022-04-06 21:47:30 - commonFunc.py - [line:30] - root - INFO - --- 10.239.183.130 ping statistics ---
+2022-04-06 21:47:30 - commonFunc.py - [line:30] - root - INFO - 5 packets transmitted, 0 received, 100% packet loss, time 122ms
+2022-04-06 21:47:30 - commonFunc.py - [line:30] - root - INFO - 
+2022-04-06 21:47:30 - commonFunc.py - [line:30] - root - INFO - 
+2022-04-06 21:47:30 - commonFunc.py - [line:31] - root - INFO - finished exeucting the cmd: ping -w 5 10.239.183.130
+2022-04-06 21:47:35 - commonFunc.py - [line:16] - root - INFO - starting to execute the cmd: ping -w 5 10.239.183.130....
+2022-04-06 21:47:40 - commonFunc.py - [line:30] - root - INFO - PING 10.239.183.130 (10.239.183.130) 56(84) bytes of data.
+2022-04-06 21:47:40 - commonFunc.py - [line:30] - root - INFO - 
+2022-04-06 21:47:40 - commonFunc.py - [line:30] - root - INFO - --- 10.239.183.130 ping statistics ---
+2022-04-06 21:47:40 - commonFunc.py - [line:30] - root - INFO - 5 packets transmitted, 0 received, 100% packet loss, time 96ms
+2022-04-06 21:47:40 - commonFunc.py - [line:30] - root - INFO - 
+2022-04-06 21:47:40 - commonFunc.py - [line:30] - root - INFO - 
+2022-04-06 21:47:40 - commonFunc.py - [line:31] - root - INFO - finished exeucting the cmd: ping -w 5 10.239.183.130
+2022-04-06 21:47:45 - commonFunc.py - [line:16] - root - INFO - starting to execute the cmd: ping -w 5 10.239.183.130....
+2022-04-06 21:47:50 - commonFunc.py - [line:30] - root - INFO - PING 10.239.183.130 (10.239.183.130) 56(84) bytes of data.
+2022-04-06 21:47:50 - commonFunc.py - [line:30] - root - INFO - 
+2022-04-06 21:47:50 - commonFunc.py - [line:30] - root - INFO - --- 10.239.183.130 ping statistics ---
+2022-04-06 21:47:50 - commonFunc.py - [line:30] - root - INFO - 5 packets transmitted, 0 received, 100% packet loss, time 134ms
+2022-04-06 21:47:50 - commonFunc.py - [line:30] - root - INFO - 
+2022-04-06 21:47:50 - commonFunc.py - [line:30] - root - INFO - 
+2022-04-06 21:47:50 - commonFunc.py - [line:31] - root - INFO - finished exeucting the cmd: ping -w 5 10.239.183.130
+2022-04-06 21:47:55 - commonFunc.py - [line:16] - root - INFO - starting to execute the cmd: ping -w 5 10.239.183.130....
+2022-04-06 21:48:00 - commonFunc.py - [line:30] - root - INFO - PING 10.239.183.130 (10.239.183.130) 56(84) bytes of data.
+2022-04-06 21:48:00 - commonFunc.py - [line:30] - root - INFO - 
+2022-04-06 21:48:00 - commonFunc.py - [line:30] - root - INFO - --- 10.239.183.130 ping statistics ---
+2022-04-06 21:48:00 - commonFunc.py - [line:30] - root - INFO - 5 packets transmitted, 0 received, 100% packet loss, time 107ms
+2022-04-06 21:48:00 - commonFunc.py - [line:30] - root - INFO - 
+2022-04-06 21:48:00 - commonFunc.py - [line:30] - root - INFO - 
+2022-04-06 21:48:00 - commonFunc.py - [line:31] - root - INFO - finished exeucting the cmd: ping -w 5 10.239.183.130
+2022-04-06 21:48:05 - commonFunc.py - [line:16] - root - INFO - starting to execute the cmd: ping -w 5 10.239.183.130....
+2022-04-06 21:48:10 - commonFunc.py - [line:30] - root - INFO - PING 10.239.183.130 (10.239.183.130) 56(84) bytes of data.
+2022-04-06 21:48:10 - commonFunc.py - [line:30] - root - INFO - 
+2022-04-06 21:48:10 - commonFunc.py - [line:30] - root - INFO - --- 10.239.183.130 ping statistics ---
+2022-04-06 21:48:10 - commonFunc.py - [line:30] - root - INFO - 5 packets transmitted, 0 received, 100% packet loss, time 82ms
+2022-04-06 21:48:10 - commonFunc.py - [line:30] - root - INFO - 
+2022-04-06 21:48:10 - commonFunc.py - [line:30] - root - INFO - 
+2022-04-06 21:48:10 - commonFunc.py - [line:31] - root - INFO - finished exeucting the cmd: ping -w 5 10.239.183.130
+2022-04-06 21:48:15 - commonFunc.py - [line:16] - root - INFO - starting to execute the cmd: ping -w 5 10.239.183.130....
+2022-04-06 21:48:20 - commonFunc.py - [line:30] - root - INFO - PING 10.239.183.130 (10.239.183.130) 56(84) bytes of data.
+2022-04-06 21:48:20 - commonFunc.py - [line:30] - root - INFO - 
+2022-04-06 21:48:20 - commonFunc.py - [line:30] - root - INFO - --- 10.239.183.130 ping statistics ---
+2022-04-06 21:48:20 - commonFunc.py - [line:30] - root - INFO - 5 packets transmitted, 0 received, 100% packet loss, time 120ms
+2022-04-06 21:48:20 - commonFunc.py - [line:30] - root - INFO - 
+2022-04-06 21:48:20 - commonFunc.py - [line:30] - root - INFO - 
+2022-04-06 21:48:20 - commonFunc.py - [line:31] - root - INFO - finished exeucting the cmd: ping -w 5 10.239.183.130
+2022-04-06 21:48:25 - commonFunc.py - [line:16] - root - INFO - starting to execute the cmd: ping -w 5 10.239.183.130....
+2022-04-06 21:48:30 - commonFunc.py - [line:30] - root - INFO - PING 10.239.183.130 (10.239.183.130) 56(84) bytes of data.
+2022-04-06 21:48:30 - commonFunc.py - [line:30] - root - INFO - 
+2022-04-06 21:48:30 - commonFunc.py - [line:30] - root - INFO - --- 10.239.183.130 ping statistics ---
+2022-04-06 21:48:30 - commonFunc.py - [line:30] - root - INFO - 5 packets transmitted, 0 received, 100% packet loss, time 94ms
+2022-04-06 21:48:30 - commonFunc.py - [line:30] - root - INFO - 
+2022-04-06 21:48:30 - commonFunc.py - [line:30] - root - INFO - 
+2022-04-06 21:48:30 - commonFunc.py - [line:31] - root - INFO - finished exeucting the cmd: ping -w 5 10.239.183.130
+2022-04-06 21:48:35 - commonFunc.py - [line:16] - root - INFO - starting to execute the cmd: ping -w 5 10.239.183.130....
+2022-04-06 21:48:40 - commonFunc.py - [line:30] - root - INFO - PING 10.239.183.130 (10.239.183.130) 56(84) bytes of data.
+2022-04-06 21:48:40 - commonFunc.py - [line:30] - root - INFO - 
+2022-04-06 21:48:40 - commonFunc.py - [line:30] - root - INFO - --- 10.239.183.130 ping statistics ---
+2022-04-06 21:48:40 - commonFunc.py - [line:30] - root - INFO - 5 packets transmitted, 0 received, 100% packet loss, time 133ms
+2022-04-06 21:48:40 - commonFunc.py - [line:30] - root - INFO - 
+2022-04-06 21:48:40 - commonFunc.py - [line:30] - root - INFO - 
+2022-04-06 21:48:40 - commonFunc.py - [line:31] - root - INFO - finished exeucting the cmd: ping -w 5 10.239.183.130
+2022-04-06 21:48:45 - commonFunc.py - [line:16] - root - INFO - starting to execute the cmd: ping -w 5 10.239.183.130....
+2022-04-06 21:48:50 - commonFunc.py - [line:30] - root - INFO - PING 10.239.183.130 (10.239.183.130) 56(84) bytes of data.
+2022-04-06 21:48:50 - commonFunc.py - [line:30] - root - INFO - 
+2022-04-06 21:48:50 - commonFunc.py - [line:30] - root - INFO - --- 10.239.183.130 ping statistics ---
+2022-04-06 21:48:50 - commonFunc.py - [line:30] - root - INFO - 5 packets transmitted, 0 received, 100% packet loss, time 106ms
+2022-04-06 21:48:50 - commonFunc.py - [line:30] - root - INFO - 
+2022-04-06 21:48:50 - commonFunc.py - [line:30] - root - INFO - 
+2022-04-06 21:48:50 - commonFunc.py - [line:31] - root - INFO - finished exeucting the cmd: ping -w 5 10.239.183.130
+2022-04-06 21:48:55 - commonFunc.py - [line:16] - root - INFO - starting to execute the cmd: ping -w 5 10.239.183.130....
+2022-04-06 21:49:00 - commonFunc.py - [line:30] - root - INFO - PING 10.239.183.130 (10.239.183.130) 56(84) bytes of data.
+2022-04-06 21:49:00 - commonFunc.py - [line:30] - root - INFO - 
+2022-04-06 21:49:00 - commonFunc.py - [line:30] - root - INFO - --- 10.239.183.130 ping statistics ---
+2022-04-06 21:49:00 - commonFunc.py - [line:30] - root - INFO - 5 packets transmitted, 0 received, 100% packet loss, time 80ms
+2022-04-06 21:49:00 - commonFunc.py - [line:30] - root - INFO - 
+2022-04-06 21:49:00 - commonFunc.py - [line:30] - root - INFO - 
+2022-04-06 21:49:00 - commonFunc.py - [line:31] - root - INFO - finished exeucting the cmd: ping -w 5 10.239.183.130
+2022-04-06 21:49:05 - commonFunc.py - [line:16] - root - INFO - starting to execute the cmd: ping -w 5 10.239.183.130....
+2022-04-06 21:49:10 - commonFunc.py - [line:30] - root - INFO - PING 10.239.183.130 (10.239.183.130) 56(84) bytes of data.
+2022-04-06 21:49:10 - commonFunc.py - [line:30] - root - INFO - 
+2022-04-06 21:49:10 - commonFunc.py - [line:30] - root - INFO - --- 10.239.183.130 ping statistics ---
+2022-04-06 21:49:10 - commonFunc.py - [line:30] - root - INFO - 5 packets transmitted, 0 received, 100% packet loss, time 118ms
+2022-04-06 21:49:10 - commonFunc.py - [line:30] - root - INFO - 
+2022-04-06 21:49:10 - commonFunc.py - [line:30] - root - INFO - 
+2022-04-06 21:49:10 - commonFunc.py - [line:31] - root - INFO - finished exeucting the cmd: ping -w 5 10.239.183.130
+2022-04-06 21:49:15 - commonFunc.py - [line:16] - root - INFO - starting to execute the cmd: ping -w 5 10.239.183.130....
+2022-04-06 21:49:20 - commonFunc.py - [line:30] - root - INFO - PING 10.239.183.130 (10.239.183.130) 56(84) bytes of data.
+2022-04-06 21:49:20 - commonFunc.py - [line:30] - root - INFO - 
+2022-04-06 21:49:20 - commonFunc.py - [line:30] - root - INFO - --- 10.239.183.130 ping statistics ---
+2022-04-06 21:49:20 - commonFunc.py - [line:30] - root - INFO - 5 packets transmitted, 0 received, 100% packet loss, time 93ms
+2022-04-06 21:49:20 - commonFunc.py - [line:30] - root - INFO - 
+2022-04-06 21:49:20 - commonFunc.py - [line:30] - root - INFO - 
+2022-04-06 21:49:20 - commonFunc.py - [line:31] - root - INFO - finished exeucting the cmd: ping -w 5 10.239.183.130
+2022-04-06 21:49:25 - commonFunc.py - [line:16] - root - INFO - starting to execute the cmd: ping -w 5 10.239.183.130....
+2022-04-06 21:49:30 - commonFunc.py - [line:30] - root - INFO - PING 10.239.183.130 (10.239.183.130) 56(84) bytes of data.
+2022-04-06 21:49:30 - commonFunc.py - [line:30] - root - INFO - 
+2022-04-06 21:49:30 - commonFunc.py - [line:30] - root - INFO - --- 10.239.183.130 ping statistics ---
+2022-04-06 21:49:30 - commonFunc.py - [line:30] - root - INFO - 5 packets transmitted, 0 received, 100% packet loss, time 132ms
+2022-04-06 21:49:30 - commonFunc.py - [line:30] - root - INFO - 
+2022-04-06 21:49:30 - commonFunc.py - [line:30] - root - INFO - 
+2022-04-06 21:49:30 - commonFunc.py - [line:31] - root - INFO - finished exeucting the cmd: ping -w 5 10.239.183.130
+2022-04-06 21:49:35 - commonFunc.py - [line:16] - root - INFO - starting to execute the cmd: ping -w 5 10.239.183.130....
+2022-04-06 21:49:40 - commonFunc.py - [line:30] - root - INFO - PING 10.239.183.130 (10.239.183.130) 56(84) bytes of data.
+2022-04-06 21:49:40 - commonFunc.py - [line:30] - root - INFO - 64 bytes from 10.239.183.130: icmp_seq=5 ttl=61 time=1.28 ms
+2022-04-06 21:49:40 - commonFunc.py - [line:30] - root - INFO - 
+2022-04-06 21:49:40 - commonFunc.py - [line:30] - root - INFO - --- 10.239.183.130 ping statistics ---
+2022-04-06 21:49:40 - commonFunc.py - [line:30] - root - INFO - 5 packets transmitted, 1 received, 80% packet loss, time 106ms
+2022-04-06 21:49:40 - commonFunc.py - [line:30] - root - INFO - rtt min/avg/max/mdev = 1.282/1.282/1.282/0.000 ms
+2022-04-06 21:49:40 - commonFunc.py - [line:30] - root - INFO - 
+2022-04-06 21:49:40 - commonFunc.py - [line:31] - root - INFO - finished exeucting the cmd: ping -w 5 10.239.183.130
+2022-04-06 21:49:45 - commonFunc.py - [line:16] - root - INFO - starting to execute the cmd: ping -w 5 10.239.183.130....
+2022-04-06 21:49:50 - commonFunc.py - [line:30] - root - INFO - PING 10.239.183.130 (10.239.183.130) 56(84) bytes of data.
+2022-04-06 21:49:50 - commonFunc.py - [line:30] - root - INFO - 64 bytes from 10.239.183.130: icmp_seq=1 ttl=61 time=0.265 ms
+2022-04-06 21:49:50 - commonFunc.py - [line:30] - root - INFO - 64 bytes from 10.239.183.130: icmp_seq=2 ttl=61 time=0.268 ms
+2022-04-06 21:49:50 - commonFunc.py - [line:30] - root - INFO - 64 bytes from 10.239.183.130: icmp_seq=3 ttl=61 time=0.231 ms
+2022-04-06 21:49:50 - commonFunc.py - [line:30] - root - INFO - 64 bytes from 10.239.183.130: icmp_seq=4 ttl=61 time=0.267 ms
+2022-04-06 21:49:50 - commonFunc.py - [line:30] - root - INFO - 64 bytes from 10.239.183.130: icmp_seq=5 ttl=61 time=0.265 ms
+2022-04-06 21:49:50 - commonFunc.py - [line:30] - root - INFO - 
+2022-04-06 21:49:50 - commonFunc.py - [line:30] - root - INFO - --- 10.239.183.130 ping statistics ---
+2022-04-06 21:49:50 - commonFunc.py - [line:30] - root - INFO - 5 packets transmitted, 5 received, 0% packet loss, time 79ms
+2022-04-06 21:49:50 - commonFunc.py - [line:30] - root - INFO - rtt min/avg/max/mdev = 0.231/0.259/0.268/0.017 ms
+2022-04-06 21:49:50 - commonFunc.py - [line:30] - root - INFO - 
+2022-04-06 21:49:50 - commonFunc.py - [line:31] - root - INFO - finished exeucting the cmd: ping -w 5 10.239.183.130
+2022-04-06 21:49:50 - sshInstance.py - [line:43] - root - INFO - closing ssh client on SUT
+2022-04-06 21:52:50 - test_nics.py - [line:136] - root - INFO - -- reboot 2 times --
+2022-04-06 21:52:50 - transport.py - [line:1819] - paramiko.transport - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2022-04-06 21:52:50 - transport.py - [line:1819] - paramiko.transport - INFO - Authentication (password) successful!
+2022-04-06 21:52:51 - sshInstance.py - [line:28] - root - INFO - SSH on SUT: 10.239.183.130
+2022-04-06 21:52:54 - sshInstance.py - [line:50] - root - INFO - ifconfig ens4f0 up
+2022-04-06 21:52:54 - sshInstance.py - [line:54] - root - INFO - 
+2022-04-06 21:53:02 - sshInstance.py - [line:50] - root - INFO - ifconfig ens4f0 192.168.10.10
+2022-04-06 21:53:02 - sshInstance.py - [line:54] - root - INFO - 
+2022-04-06 21:53:11 - sshInstance.py - [line:75] - root - INFO - Welcome to Ubuntu Jammy Jellyfish (development branch) (GNU/Linux 5.15.0-1005-realtime x86_64)
+
+ * Documentation:  https://help.ubuntu.com
+ * Management:     https://landscape.canonical.com
+ * Support:        https://ubuntu.com/advantage
+
+  System information as of Wed Apr  6 02:03:51 PM UTC 2022
+
+  System load:  0.072265625         Processes:               1384
+  Usage of /:   63.8% of 297.87GB   Users logged in:         0
+  Memory usage: 53%                 IPv4 address for enp3s0: 10.239.183.130
+  Swap usage:   0%                  IPv4 address for virbr0: 192.168.122.1
+  Temperature:  38.0 C
+
+
+0 updates can be applied immediately.
+
+
+Last login: Wed Apr  6 13:56:50 2022 from 10.112.97.60
+RTNETLINK answers: File exists
+[?2004hroot@npx-SPR-automation:~# ping -c 5 192.168.10.11
+[?2004lPING 192.168.10.11 (192.168.10.11) 56(84) bytes of data.
+64 bytes from 192.168.10.11: icmp_seq=1 ttl=64 time=0.411 ms
+2022-04-06 21:53:12 - sshInstance.py - [line:75] - root - INFO - 64 bytes from 192.168.10.11: icmp_seq=2 ttl=64 time=0.160 ms
+2022-04-06 21:53:13 - sshInstance.py - [line:75] - root - INFO - 64 bytes from 192.168.10.11: icmp_seq=3 ttl=64 time=0.149 ms
+2022-04-06 21:53:14 - sshInstance.py - [line:75] - root - INFO - 64 bytes from 192.168.10.11: icmp_seq=4 ttl=64 time=0.151 ms
+2022-04-06 21:53:15 - sshInstance.py - [line:75] - root - INFO - 64 bytes from 192.168.10.11: icmp_seq=5 ttl=64 time=0.143 ms
+
+--- 192.168.10.11 ping statistics ---
+5 packets transmitted, 5 received, 0% packet loss, time 4093ms
+rtt min/avg/max/mdev = 0.143/0.202/0.411/0.104 ms
+[?2004hroot@npx-SPR-automation:~# 
+2022-04-06 21:53:22 - sshInstance.py - [line:75] - root - INFO - ping6 -c 5 -I ens4f0 fe80::b696:91ff:fea0:2170
+[?2004lping6: Warning: source address might be selected on device other than: ens4f0
+PING fe80::b696:91ff:fea0:2170(fe80::b696:91ff:fea0:2170) from :: ens4f0: 56 data bytes
+64 bytes from fe80::b696:91ff:fea0:2170%ens4f0: icmp_seq=1 ttl=64 time=0.704 ms
+2022-04-06 21:53:23 - sshInstance.py - [line:75] - root - INFO - 64 bytes from fe80::b696:91ff:fea0:2170%ens4f0: icmp_seq=2 ttl=64 time=0.159 ms
+2022-04-06 21:53:24 - sshInstance.py - [line:75] - root - INFO - 64 bytes from fe80::b696:91ff:fea0:2170%ens4f0: icmp_seq=3 ttl=64 time=0.147 ms
+2022-04-06 21:53:25 - sshInstance.py - [line:75] - root - INFO - 64 bytes from fe80::b696:91ff:fea0:2170%ens4f0: icmp_seq=4 ttl=64 time=0.142 ms
+2022-04-06 21:53:26 - sshInstance.py - [line:75] - root - INFO - 64 bytes from fe80::b696:91ff:fea0:2170%ens4f0: icmp_seq=5 ttl=64 time=0.148 ms
+
+--- fe80::b696:91ff:fea0:2170 ping statistics ---
+5 packets transmitted, 5 received, 0% packet loss, time 4083ms
+rtt min/avg/max/mdev = 0.142/0.260/0.704/0.222 ms
+[?2004hroot@npx-SPR-automation:~# 
+2022-04-06 21:53:35 - sshInstance.py - [line:99] - root - INFO - reboot
+[?2004l[?2004hroot@npx-SPR-automation:~# 
+2022-04-06 21:53:38 - sshInstance.py - [line:159] - root - INFO - sut server reboot, please wait ......
+2022-04-06 21:54:38 - commonFunc.py - [line:16] - root - INFO - starting to execute the cmd: ping -w 5 10.239.183.130....
+2022-04-06 21:54:43 - commonFunc.py - [line:30] - root - INFO - PING 10.239.183.130 (10.239.183.130) 56(84) bytes of data.
+2022-04-06 21:54:43 - commonFunc.py - [line:30] - root - INFO - 
+2022-04-06 21:54:43 - commonFunc.py - [line:30] - root - INFO - --- 10.239.183.130 ping statistics ---
+2022-04-06 21:54:43 - commonFunc.py - [line:30] - root - INFO - 5 packets transmitted, 0 received, 100% packet loss, time 116ms
+2022-04-06 21:54:43 - commonFunc.py - [line:30] - root - INFO - 
+2022-04-06 21:54:43 - commonFunc.py - [line:30] - root - INFO - 
+2022-04-06 21:54:43 - commonFunc.py - [line:31] - root - INFO - finished exeucting the cmd: ping -w 5 10.239.183.130
+2022-04-06 21:54:48 - commonFunc.py - [line:16] - root - INFO - starting to execute the cmd: ping -w 5 10.239.183.130....
+2022-04-06 21:54:53 - commonFunc.py - [line:30] - root - INFO - PING 10.239.183.130 (10.239.183.130) 56(84) bytes of data.
+2022-04-06 21:54:53 - commonFunc.py - [line:30] - root - INFO - 
+2022-04-06 21:54:53 - commonFunc.py - [line:30] - root - INFO - --- 10.239.183.130 ping statistics ---
+2022-04-06 21:54:53 - commonFunc.py - [line:30] - root - INFO - 5 packets transmitted, 0 received, 100% packet loss, time 89ms
+2022-04-06 21:54:53 - commonFunc.py - [line:30] - root - INFO - 
+2022-04-06 21:54:53 - commonFunc.py - [line:30] - root - INFO - 
+2022-04-06 21:54:53 - commonFunc.py - [line:31] - root - INFO - finished exeucting the cmd: ping -w 5 10.239.183.130
+2022-04-06 21:54:58 - commonFunc.py - [line:16] - root - INFO - starting to execute the cmd: ping -w 5 10.239.183.130....
+2022-04-06 21:55:03 - commonFunc.py - [line:30] - root - INFO - PING 10.239.183.130 (10.239.183.130) 56(84) bytes of data.
+2022-04-06 21:55:03 - commonFunc.py - [line:30] - root - INFO - 
+2022-04-06 21:55:03 - commonFunc.py - [line:30] - root - INFO - --- 10.239.183.130 ping statistics ---
+2022-04-06 21:55:03 - commonFunc.py - [line:30] - root - INFO - 5 packets transmitted, 0 received, 100% packet loss, time 128ms
+2022-04-06 21:55:03 - commonFunc.py - [line:30] - root - INFO - 
+2022-04-06 21:55:03 - commonFunc.py - [line:30] - root - INFO - 
+2022-04-06 21:55:03 - commonFunc.py - [line:31] - root - INFO - finished exeucting the cmd: ping -w 5 10.239.183.130
+2022-04-06 21:55:08 - commonFunc.py - [line:16] - root - INFO - starting to execute the cmd: ping -w 5 10.239.183.130....
+2022-04-06 21:55:13 - commonFunc.py - [line:30] - root - INFO - PING 10.239.183.130 (10.239.183.130) 56(84) bytes of data.
+2022-04-06 21:55:13 - commonFunc.py - [line:30] - root - INFO - 
+2022-04-06 21:55:13 - commonFunc.py - [line:30] - root - INFO - --- 10.239.183.130 ping statistics ---
+2022-04-06 21:55:13 - commonFunc.py - [line:30] - root - INFO - 5 packets transmitted, 0 received, 100% packet loss, time 103ms
+2022-04-06 21:55:13 - commonFunc.py - [line:30] - root - INFO - 
+2022-04-06 21:55:13 - commonFunc.py - [line:30] - root - INFO - 
+2022-04-06 21:55:13 - commonFunc.py - [line:31] - root - INFO - finished exeucting the cmd: ping -w 5 10.239.183.130
+2022-04-06 21:55:18 - commonFunc.py - [line:16] - root - INFO - starting to execute the cmd: ping -w 5 10.239.183.130....
+2022-04-06 21:55:23 - commonFunc.py - [line:30] - root - INFO - PING 10.239.183.130 (10.239.183.130) 56(84) bytes of data.
+2022-04-06 21:55:23 - commonFunc.py - [line:30] - root - INFO - 
+2022-04-06 21:55:23 - commonFunc.py - [line:30] - root - INFO - --- 10.239.183.130 ping statistics ---
+2022-04-06 21:55:23 - commonFunc.py - [line:30] - root - INFO - 5 packets transmitted, 0 received, 100% packet loss, time 77ms
+2022-04-06 21:55:23 - commonFunc.py - [line:30] - root - INFO - 
+2022-04-06 21:55:23 - commonFunc.py - [line:30] - root - INFO - 
+2022-04-06 21:55:23 - commonFunc.py - [line:31] - root - INFO - finished exeucting the cmd: ping -w 5 10.239.183.130
+2022-04-06 21:55:28 - commonFunc.py - [line:16] - root - INFO - starting to execute the cmd: ping -w 5 10.239.183.130....
+2022-04-06 21:55:33 - commonFunc.py - [line:30] - root - INFO - PING 10.239.183.130 (10.239.183.130) 56(84) bytes of data.
+2022-04-06 21:55:33 - commonFunc.py - [line:30] - root - INFO - 
+2022-04-06 21:55:33 - commonFunc.py - [line:30] - root - INFO - --- 10.239.183.130 ping statistics ---
+2022-04-06 21:55:33 - commonFunc.py - [line:30] - root - INFO - 5 packets transmitted, 0 received, 100% packet loss, time 116ms
+2022-04-06 21:55:33 - commonFunc.py - [line:30] - root - INFO - 
+2022-04-06 21:55:33 - commonFunc.py - [line:30] - root - INFO - 
+2022-04-06 21:55:33 - commonFunc.py - [line:31] - root - INFO - finished exeucting the cmd: ping -w 5 10.239.183.130
+2022-04-06 21:55:38 - commonFunc.py - [line:16] - root - INFO - starting to execute the cmd: ping -w 5 10.239.183.130....
+2022-04-06 21:55:43 - commonFunc.py - [line:30] - root - INFO - PING 10.239.183.130 (10.239.183.130) 56(84) bytes of data.
+2022-04-06 21:55:43 - commonFunc.py - [line:30] - root - INFO - 
+2022-04-06 21:55:43 - commonFunc.py - [line:30] - root - INFO - --- 10.239.183.130 ping statistics ---
+2022-04-06 21:55:43 - commonFunc.py - [line:30] - root - INFO - 5 packets transmitted, 0 received, 100% packet loss, time 90ms
+2022-04-06 21:55:43 - commonFunc.py - [line:30] - root - INFO - 
+2022-04-06 21:55:43 - commonFunc.py - [line:30] - root - INFO - 
+2022-04-06 21:55:43 - commonFunc.py - [line:31] - root - INFO - finished exeucting the cmd: ping -w 5 10.239.183.130
+2022-04-06 21:55:48 - commonFunc.py - [line:16] - root - INFO - starting to execute the cmd: ping -w 5 10.239.183.130....
+2022-04-06 21:55:53 - commonFunc.py - [line:30] - root - INFO - PING 10.239.183.130 (10.239.183.130) 56(84) bytes of data.
+2022-04-06 21:55:53 - commonFunc.py - [line:30] - root - INFO - 
+2022-04-06 21:55:53 - commonFunc.py - [line:30] - root - INFO - --- 10.239.183.130 ping statistics ---
+2022-04-06 21:55:53 - commonFunc.py - [line:30] - root - INFO - 5 packets transmitted, 0 received, 100% packet loss, time 128ms
+2022-04-06 21:55:53 - commonFunc.py - [line:30] - root - INFO - 
+2022-04-06 21:55:53 - commonFunc.py - [line:30] - root - INFO - 
+2022-04-06 21:55:53 - commonFunc.py - [line:31] - root - INFO - finished exeucting the cmd: ping -w 5 10.239.183.130
+2022-04-06 21:55:58 - commonFunc.py - [line:16] - root - INFO - starting to execute the cmd: ping -w 5 10.239.183.130....
+2022-04-06 21:56:03 - commonFunc.py - [line:30] - root - INFO - PING 10.239.183.130 (10.239.183.130) 56(84) bytes of data.
+2022-04-06 21:56:03 - commonFunc.py - [line:30] - root - INFO - 
+2022-04-06 21:56:03 - commonFunc.py - [line:30] - root - INFO - --- 10.239.183.130 ping statistics ---
+2022-04-06 21:56:03 - commonFunc.py - [line:30] - root - INFO - 5 packets transmitted, 0 received, 100% packet loss, time 103ms
+2022-04-06 21:56:03 - commonFunc.py - [line:30] - root - INFO - 
+2022-04-06 21:56:03 - commonFunc.py - [line:30] - root - INFO - 
+2022-04-06 21:56:03 - commonFunc.py - [line:31] - root - INFO - finished exeucting the cmd: ping -w 5 10.239.183.130
+2022-04-06 21:56:08 - commonFunc.py - [line:16] - root - INFO - starting to execute the cmd: ping -w 5 10.239.183.130....
+2022-04-06 21:56:13 - commonFunc.py - [line:30] - root - INFO - PING 10.239.183.130 (10.239.183.130) 56(84) bytes of data.
+2022-04-06 21:56:13 - commonFunc.py - [line:30] - root - INFO - 
+2022-04-06 21:56:13 - commonFunc.py - [line:30] - root - INFO - --- 10.239.183.130 ping statistics ---
+2022-04-06 21:56:13 - commonFunc.py - [line:30] - root - INFO - 5 packets transmitted, 0 received, 100% packet loss, time 77ms
+2022-04-06 21:56:13 - commonFunc.py - [line:30] - root - INFO - 
+2022-04-06 21:56:13 - commonFunc.py - [line:30] - root - INFO - 
+2022-04-06 21:56:13 - commonFunc.py - [line:31] - root - INFO - finished exeucting the cmd: ping -w 5 10.239.183.130
+2022-04-06 21:56:18 - commonFunc.py - [line:16] - root - INFO - starting to execute the cmd: ping -w 5 10.239.183.130....
+2022-04-06 21:56:23 - commonFunc.py - [line:30] - root - INFO - PING 10.239.183.130 (10.239.183.130) 56(84) bytes of data.
+2022-04-06 21:56:23 - commonFunc.py - [line:30] - root - INFO - 
+2022-04-06 21:56:23 - commonFunc.py - [line:30] - root - INFO - --- 10.239.183.130 ping statistics ---
+2022-04-06 21:56:23 - commonFunc.py - [line:30] - root - INFO - 5 packets transmitted, 0 received, 100% packet loss, time 115ms
+2022-04-06 21:56:23 - commonFunc.py - [line:30] - root - INFO - 
+2022-04-06 21:56:23 - commonFunc.py - [line:30] - root - INFO - 
+2022-04-06 21:56:23 - commonFunc.py - [line:31] - root - INFO - finished exeucting the cmd: ping -w 5 10.239.183.130
+2022-04-06 21:56:28 - commonFunc.py - [line:16] - root - INFO - starting to execute the cmd: ping -w 5 10.239.183.130....
+2022-04-06 21:56:33 - commonFunc.py - [line:30] - root - INFO - PING 10.239.183.130 (10.239.183.130) 56(84) bytes of data.
+2022-04-06 21:56:33 - commonFunc.py - [line:30] - root - INFO - 
+2022-04-06 21:56:33 - commonFunc.py - [line:30] - root - INFO - --- 10.239.183.130 ping statistics ---
+2022-04-06 21:56:33 - commonFunc.py - [line:30] - root - INFO - 5 packets transmitted, 0 received, 100% packet loss, time 89ms
+2022-04-06 21:56:33 - commonFunc.py - [line:30] - root - INFO - 
+2022-04-06 21:56:33 - commonFunc.py - [line:30] - root - INFO - 
+2022-04-06 21:56:33 - commonFunc.py - [line:31] - root - INFO - finished exeucting the cmd: ping -w 5 10.239.183.130
+2022-04-06 21:56:38 - commonFunc.py - [line:16] - root - INFO - starting to execute the cmd: ping -w 5 10.239.183.130....
+2022-04-06 21:56:43 - commonFunc.py - [line:30] - root - INFO - PING 10.239.183.130 (10.239.183.130) 56(84) bytes of data.
+2022-04-06 21:56:43 - commonFunc.py - [line:30] - root - INFO - 
+2022-04-06 21:56:43 - commonFunc.py - [line:30] - root - INFO - --- 10.239.183.130 ping statistics ---
+2022-04-06 21:56:43 - commonFunc.py - [line:30] - root - INFO - 5 packets transmitted, 0 received, 100% packet loss, time 127ms
+2022-04-06 21:56:43 - commonFunc.py - [line:30] - root - INFO - 
+2022-04-06 21:56:43 - commonFunc.py - [line:30] - root - INFO - 
+2022-04-06 21:56:43 - commonFunc.py - [line:31] - root - INFO - finished exeucting the cmd: ping -w 5 10.239.183.130
+2022-04-06 21:56:48 - commonFunc.py - [line:16] - root - INFO - starting to execute the cmd: ping -w 5 10.239.183.130....
+2022-04-06 21:56:53 - commonFunc.py - [line:30] - root - INFO - PING 10.239.183.130 (10.239.183.130) 56(84) bytes of data.
+2022-04-06 21:56:53 - commonFunc.py - [line:30] - root - INFO - 64 bytes from 10.239.183.130: icmp_seq=4 ttl=61 time=1.37 ms
+2022-04-06 21:56:53 - commonFunc.py - [line:30] - root - INFO - 64 bytes from 10.239.183.130: icmp_seq=5 ttl=61 time=0.260 ms
+2022-04-06 21:56:53 - commonFunc.py - [line:30] - root - INFO - 
+2022-04-06 21:56:53 - commonFunc.py - [line:30] - root - INFO - --- 10.239.183.130 ping statistics ---
+2022-04-06 21:56:53 - commonFunc.py - [line:30] - root - INFO - 5 packets transmitted, 2 received, 60% packet loss, time 78ms
+2022-04-06 21:56:53 - commonFunc.py - [line:30] - root - INFO - rtt min/avg/max/mdev = 0.260/0.814/1.369/0.555 ms
+2022-04-06 21:56:53 - commonFunc.py - [line:30] - root - INFO - 
+2022-04-06 21:56:53 - commonFunc.py - [line:31] - root - INFO - finished exeucting the cmd: ping -w 5 10.239.183.130
+2022-04-06 21:56:58 - commonFunc.py - [line:16] - root - INFO - starting to execute the cmd: ping -w 5 10.239.183.130....
+2022-04-06 21:57:03 - commonFunc.py - [line:30] - root - INFO - PING 10.239.183.130 (10.239.183.130) 56(84) bytes of data.
+2022-04-06 21:57:03 - commonFunc.py - [line:30] - root - INFO - 64 bytes from 10.239.183.130: icmp_seq=1 ttl=61 time=0.265 ms
+2022-04-06 21:57:03 - commonFunc.py - [line:30] - root - INFO - 64 bytes from 10.239.183.130: icmp_seq=2 ttl=61 time=0.229 ms
+2022-04-06 21:57:03 - commonFunc.py - [line:30] - root - INFO - 64 bytes from 10.239.183.130: icmp_seq=3 ttl=61 time=0.257 ms
+2022-04-06 21:57:03 - commonFunc.py - [line:30] - root - INFO - 64 bytes from 10.239.183.130: icmp_seq=4 ttl=61 time=0.261 ms
+2022-04-06 21:57:03 - commonFunc.py - [line:30] - root - INFO - 64 bytes from 10.239.183.130: icmp_seq=5 ttl=61 time=0.284 ms
+2022-04-06 21:57:03 - commonFunc.py - [line:30] - root - INFO - 
+2022-04-06 21:57:03 - commonFunc.py - [line:30] - root - INFO - --- 10.239.183.130 ping statistics ---
+2022-04-06 21:57:03 - commonFunc.py - [line:30] - root - INFO - 5 packets transmitted, 5 received, 0% packet loss, time 140ms
+2022-04-06 21:57:03 - commonFunc.py - [line:30] - root - INFO - rtt min/avg/max/mdev = 0.229/0.259/0.284/0.020 ms
+2022-04-06 21:57:03 - commonFunc.py - [line:30] - root - INFO - 
+2022-04-06 21:57:03 - commonFunc.py - [line:31] - root - INFO - finished exeucting the cmd: ping -w 5 10.239.183.130
+2022-04-06 21:57:03 - sshInstance.py - [line:43] - root - INFO - closing ssh client on SUT
+2022-04-06 22:00:03 - test_nics.py - [line:136] - root - INFO - -- reboot 3 times --
+2022-04-06 22:00:03 - transport.py - [line:1819] - paramiko.transport - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2022-04-06 22:00:03 - transport.py - [line:1819] - paramiko.transport - INFO - Authentication (password) successful!
+2022-04-06 22:00:04 - sshInstance.py - [line:28] - root - INFO - SSH on SUT: 10.239.183.130
+2022-04-06 22:00:07 - sshInstance.py - [line:50] - root - INFO - ifconfig ens4f0 up
+2022-04-06 22:00:07 - sshInstance.py - [line:54] - root - INFO - 
+2022-04-06 22:00:15 - sshInstance.py - [line:50] - root - INFO - ifconfig ens4f0 192.168.10.10
+2022-04-06 22:00:15 - sshInstance.py - [line:54] - root - INFO - 
+2022-04-06 22:00:24 - sshInstance.py - [line:75] - root - INFO - Welcome to Ubuntu Jammy Jellyfish (development branch) (GNU/Linux 5.15.0-1005-realtime x86_64)
+
+ * Documentation:  https://help.ubuntu.com
+ * Management:     https://landscape.canonical.com
+ * Support:        https://ubuntu.com/advantage
+
+  System information as of Wed Apr  6 02:11:05 PM UTC 2022
+
+  System load:  0.2333984375        Processes:               1362
+  Usage of /:   63.8% of 297.87GB   Users logged in:         0
+  Memory usage: 53%                 IPv4 address for enp3s0: 10.239.183.130
+  Swap usage:   0%                  IPv4 address for virbr0: 192.168.122.1
+  Temperature:  39.0 C
+
+
+0 updates can be applied immediately.
+
+
+Last login: Wed Apr  6 14:04:03 2022 from 10.112.97.60
+RTNETLINK answers: File exists
+[?2004hroot@npx-SPR-automation:~# ping -c 5 192.168.10.11
+[?2004lPING 192.168.10.11 (192.168.10.11) 56(84) bytes of data.
+64 bytes from 192.168.10.11: icmp_seq=1 ttl=64 time=0.404 ms
+2022-04-06 22:00:25 - sshInstance.py - [line:75] - root - INFO - 64 bytes from 192.168.10.11: icmp_seq=2 ttl=64 time=0.180 ms
+2022-04-06 22:00:26 - sshInstance.py - [line:75] - root - INFO - 64 bytes from 192.168.10.11: icmp_seq=3 ttl=64 time=0.165 ms
+2022-04-06 22:00:27 - sshInstance.py - [line:75] - root - INFO - 64 bytes from 192.168.10.11: icmp_seq=4 ttl=64 time=0.148 ms
+2022-04-06 22:00:28 - sshInstance.py - [line:75] - root - INFO - 64 bytes from 192.168.10.11: icmp_seq=5 ttl=64 time=0.172 ms
+
+--- 192.168.10.11 ping statistics ---
+5 packets transmitted, 5 received, 0% packet loss, time 4131ms
+rtt min/avg/max/mdev = 0.148/0.213/0.404/0.095 ms
+[?2004hroot@npx-SPR-automation:~# 
+2022-04-06 22:00:35 - sshInstance.py - [line:75] - root - INFO - ping6 -c 5 -I ens4f0 fe80::b696:91ff:fea0:2170
+[?2004lping6: Warning: source address might be selected on device other than: ens4f0
+PING fe80::b696:91ff:fea0:2170(fe80::b696:91ff:fea0:2170) from :: ens4f0: 56 data bytes
+64 bytes from fe80::b696:91ff:fea0:2170%ens4f0: icmp_seq=1 ttl=64 time=0.651 ms
+2022-04-06 22:00:36 - sshInstance.py - [line:75] - root - INFO - 64 bytes from fe80::b696:91ff:fea0:2170%ens4f0: icmp_seq=2 ttl=64 time=0.166 ms
+2022-04-06 22:00:37 - sshInstance.py - [line:75] - root - INFO - 64 bytes from fe80::b696:91ff:fea0:2170%ens4f0: icmp_seq=3 ttl=64 time=0.150 ms
+2022-04-06 22:00:38 - sshInstance.py - [line:75] - root - INFO - 64 bytes from fe80::b696:91ff:fea0:2170%ens4f0: icmp_seq=4 ttl=64 time=0.146 ms
+2022-04-06 22:00:39 - sshInstance.py - [line:75] - root - INFO - 64 bytes from fe80::b696:91ff:fea0:2170%ens4f0: icmp_seq=5 ttl=64 time=0.153 ms
+
+--- fe80::b696:91ff:fea0:2170 ping statistics ---
+5 packets transmitted, 5 received, 0% packet loss, time 4121ms
+rtt min/avg/max/mdev = 0.146/0.253/0.651/0.199 ms
+[?2004hroot@npx-SPR-automation:~# 
+2022-04-06 22:00:48 - sshInstance.py - [line:99] - root - INFO - reboot
+[?2004l
+2022-04-06 22:00:51 - sshInstance.py - [line:159] - root - INFO - sut server reboot, please wait ......
+2022-04-06 22:01:51 - commonFunc.py - [line:16] - root - INFO - starting to execute the cmd: ping -w 5 10.239.183.130....
+2022-04-06 22:01:56 - commonFunc.py - [line:30] - root - INFO - PING 10.239.183.130 (10.239.183.130) 56(84) bytes of data.
+2022-04-06 22:01:56 - commonFunc.py - [line:30] - root - INFO - 
+2022-04-06 22:01:56 - commonFunc.py - [line:30] - root - INFO - --- 10.239.183.130 ping statistics ---
+2022-04-06 22:01:56 - commonFunc.py - [line:30] - root - INFO - 5 packets transmitted, 0 received, 100% packet loss, time 86ms
+2022-04-06 22:01:56 - commonFunc.py - [line:30] - root - INFO - 
+2022-04-06 22:01:56 - commonFunc.py - [line:30] - root - INFO - 
+2022-04-06 22:01:56 - commonFunc.py - [line:31] - root - INFO - finished exeucting the cmd: ping -w 5 10.239.183.130
+2022-04-06 22:02:01 - commonFunc.py - [line:16] - root - INFO - starting to execute the cmd: ping -w 5 10.239.183.130....
+2022-04-06 22:02:06 - commonFunc.py - [line:30] - root - INFO - PING 10.239.183.130 (10.239.183.130) 56(84) bytes of data.
+2022-04-06 22:02:06 - commonFunc.py - [line:30] - root - INFO - 
+2022-04-06 22:02:06 - commonFunc.py - [line:30] - root - INFO - --- 10.239.183.130 ping statistics ---
+2022-04-06 22:02:06 - commonFunc.py - [line:30] - root - INFO - 5 packets transmitted, 0 received, 100% packet loss, time 123ms
+2022-04-06 22:02:06 - commonFunc.py - [line:30] - root - INFO - 
+2022-04-06 22:02:06 - commonFunc.py - [line:30] - root - INFO - 
+2022-04-06 22:02:06 - commonFunc.py - [line:31] - root - INFO - finished exeucting the cmd: ping -w 5 10.239.183.130
+2022-04-06 22:02:11 - commonFunc.py - [line:16] - root - INFO - starting to execute the cmd: ping -w 5 10.239.183.130....
+2022-04-06 22:02:16 - commonFunc.py - [line:30] - root - INFO - PING 10.239.183.130 (10.239.183.130) 56(84) bytes of data.
+2022-04-06 22:02:16 - commonFunc.py - [line:30] - root - INFO - 
+2022-04-06 22:02:16 - commonFunc.py - [line:30] - root - INFO - --- 10.239.183.130 ping statistics ---
+2022-04-06 22:02:16 - commonFunc.py - [line:30] - root - INFO - 5 packets transmitted, 0 received, 100% packet loss, time 98ms
+2022-04-06 22:02:16 - commonFunc.py - [line:30] - root - INFO - 
+2022-04-06 22:02:16 - commonFunc.py - [line:30] - root - INFO - 
+2022-04-06 22:02:16 - commonFunc.py - [line:31] - root - INFO - finished exeucting the cmd: ping -w 5 10.239.183.130
+2022-04-06 22:02:21 - commonFunc.py - [line:16] - root - INFO - starting to execute the cmd: ping -w 5 10.239.183.130....
+2022-04-06 22:02:26 - commonFunc.py - [line:30] - root - INFO - PING 10.239.183.130 (10.239.183.130) 56(84) bytes of data.
+2022-04-06 22:02:26 - commonFunc.py - [line:30] - root - INFO - 
+2022-04-06 22:02:26 - commonFunc.py - [line:30] - root - INFO - --- 10.239.183.130 ping statistics ---
+2022-04-06 22:02:26 - commonFunc.py - [line:30] - root - INFO - 5 packets transmitted, 0 received, 100% packet loss, time 136ms
+2022-04-06 22:02:26 - commonFunc.py - [line:30] - root - INFO - 
+2022-04-06 22:02:26 - commonFunc.py - [line:30] - root - INFO - 
+2022-04-06 22:02:26 - commonFunc.py - [line:31] - root - INFO - finished exeucting the cmd: ping -w 5 10.239.183.130
+2022-04-06 22:02:31 - commonFunc.py - [line:16] - root - INFO - starting to execute the cmd: ping -w 5 10.239.183.130....
+2022-04-06 22:02:36 - commonFunc.py - [line:30] - root - INFO - PING 10.239.183.130 (10.239.183.130) 56(84) bytes of data.
+2022-04-06 22:02:36 - commonFunc.py - [line:30] - root - INFO - 
+2022-04-06 22:02:36 - commonFunc.py - [line:30] - root - INFO - --- 10.239.183.130 ping statistics ---
+2022-04-06 22:02:36 - commonFunc.py - [line:30] - root - INFO - 5 packets transmitted, 0 received, 100% packet loss, time 111ms
+2022-04-06 22:02:36 - commonFunc.py - [line:30] - root - INFO - 
+2022-04-06 22:02:36 - commonFunc.py - [line:30] - root - INFO - 
+2022-04-06 22:02:36 - commonFunc.py - [line:31] - root - INFO - finished exeucting the cmd: ping -w 5 10.239.183.130
+2022-04-06 22:02:41 - commonFunc.py - [line:16] - root - INFO - starting to execute the cmd: ping -w 5 10.239.183.130....
+2022-04-06 22:02:46 - commonFunc.py - [line:30] - root - INFO - PING 10.239.183.130 (10.239.183.130) 56(84) bytes of data.
+2022-04-06 22:02:46 - commonFunc.py - [line:30] - root - INFO - 
+2022-04-06 22:02:46 - commonFunc.py - [line:30] - root - INFO - --- 10.239.183.130 ping statistics ---
+2022-04-06 22:02:46 - commonFunc.py - [line:30] - root - INFO - 5 packets transmitted, 0 received, 100% packet loss, time 85ms
+2022-04-06 22:02:46 - commonFunc.py - [line:30] - root - INFO - 
+2022-04-06 22:02:46 - commonFunc.py - [line:30] - root - INFO - 
+2022-04-06 22:02:46 - commonFunc.py - [line:31] - root - INFO - finished exeucting the cmd: ping -w 5 10.239.183.130
+2022-04-06 22:02:51 - commonFunc.py - [line:16] - root - INFO - starting to execute the cmd: ping -w 5 10.239.183.130....
+2022-04-06 22:02:56 - commonFunc.py - [line:30] - root - INFO - PING 10.239.183.130 (10.239.183.130) 56(84) bytes of data.
+2022-04-06 22:02:56 - commonFunc.py - [line:30] - root - INFO - 
+2022-04-06 22:02:56 - commonFunc.py - [line:30] - root - INFO - --- 10.239.183.130 ping statistics ---
+2022-04-06 22:02:56 - commonFunc.py - [line:30] - root - INFO - 5 packets transmitted, 0 received, 100% packet loss, time 124ms
+2022-04-06 22:02:56 - commonFunc.py - [line:30] - root - INFO - 
+2022-04-06 22:02:56 - commonFunc.py - [line:30] - root - INFO - 
+2022-04-06 22:02:56 - commonFunc.py - [line:31] - root - INFO - finished exeucting the cmd: ping -w 5 10.239.183.130
+2022-04-06 22:03:01 - commonFunc.py - [line:16] - root - INFO - starting to execute the cmd: ping -w 5 10.239.183.130....
+2022-04-06 22:03:06 - commonFunc.py - [line:30] - root - INFO - PING 10.239.183.130 (10.239.183.130) 56(84) bytes of data.
+2022-04-06 22:03:06 - commonFunc.py - [line:30] - root - INFO - 
+2022-04-06 22:03:06 - commonFunc.py - [line:30] - root - INFO - --- 10.239.183.130 ping statistics ---
+2022-04-06 22:03:06 - commonFunc.py - [line:30] - root - INFO - 5 packets transmitted, 0 received, 100% packet loss, time 98ms
+2022-04-06 22:03:06 - commonFunc.py - [line:30] - root - INFO - 
+2022-04-06 22:03:06 - commonFunc.py - [line:30] - root - INFO - 
+2022-04-06 22:03:06 - commonFunc.py - [line:31] - root - INFO - finished exeucting the cmd: ping -w 5 10.239.183.130
+2022-04-06 22:03:11 - commonFunc.py - [line:16] - root - INFO - starting to execute the cmd: ping -w 5 10.239.183.130....
+2022-04-06 22:03:16 - commonFunc.py - [line:30] - root - INFO - PING 10.239.183.130 (10.239.183.130) 56(84) bytes of data.
+2022-04-06 22:03:16 - commonFunc.py - [line:30] - root - INFO - 
+2022-04-06 22:03:16 - commonFunc.py - [line:30] - root - INFO - --- 10.239.183.130 ping statistics ---
+2022-04-06 22:03:16 - commonFunc.py - [line:30] - root - INFO - 5 packets transmitted, 0 received, 100% packet loss, time 137ms
+2022-04-06 22:03:16 - commonFunc.py - [line:30] - root - INFO - 
+2022-04-06 22:03:16 - commonFunc.py - [line:30] - root - INFO - 
+2022-04-06 22:03:16 - commonFunc.py - [line:31] - root - INFO - finished exeucting the cmd: ping -w 5 10.239.183.130
+2022-04-06 22:03:21 - commonFunc.py - [line:16] - root - INFO - starting to execute the cmd: ping -w 5 10.239.183.130....
+2022-04-06 22:03:26 - commonFunc.py - [line:30] - root - INFO - PING 10.239.183.130 (10.239.183.130) 56(84) bytes of data.
+2022-04-06 22:03:26 - commonFunc.py - [line:30] - root - INFO - 
+2022-04-06 22:03:26 - commonFunc.py - [line:30] - root - INFO - --- 10.239.183.130 ping statistics ---
+2022-04-06 22:03:26 - commonFunc.py - [line:30] - root - INFO - 5 packets transmitted, 0 received, 100% packet loss, time 111ms
+2022-04-06 22:03:26 - commonFunc.py - [line:30] - root - INFO - 
+2022-04-06 22:03:26 - commonFunc.py - [line:30] - root - INFO - 
+2022-04-06 22:03:26 - commonFunc.py - [line:31] - root - INFO - finished exeucting the cmd: ping -w 5 10.239.183.130
+2022-04-06 22:03:31 - commonFunc.py - [line:16] - root - INFO - starting to execute the cmd: ping -w 5 10.239.183.130....
+2022-04-06 22:03:36 - commonFunc.py - [line:30] - root - INFO - PING 10.239.183.130 (10.239.183.130) 56(84) bytes of data.
+2022-04-06 22:03:36 - commonFunc.py - [line:30] - root - INFO - 
+2022-04-06 22:03:36 - commonFunc.py - [line:30] - root - INFO - --- 10.239.183.130 ping statistics ---
+2022-04-06 22:03:36 - commonFunc.py - [line:30] - root - INFO - 5 packets transmitted, 0 received, 100% packet loss, time 85ms
+2022-04-06 22:03:36 - commonFunc.py - [line:30] - root - INFO - 
+2022-04-06 22:03:36 - commonFunc.py - [line:30] - root - INFO - 
+2022-04-06 22:03:36 - commonFunc.py - [line:31] - root - INFO - finished exeucting the cmd: ping -w 5 10.239.183.130
+2022-04-06 22:03:41 - commonFunc.py - [line:16] - root - INFO - starting to execute the cmd: ping -w 5 10.239.183.130....
+2022-04-06 22:03:46 - commonFunc.py - [line:30] - root - INFO - PING 10.239.183.130 (10.239.183.130) 56(84) bytes of data.
+2022-04-06 22:03:46 - commonFunc.py - [line:30] - root - INFO - 
+2022-04-06 22:03:46 - commonFunc.py - [line:30] - root - INFO - --- 10.239.183.130 ping statistics ---
+2022-04-06 22:03:46 - commonFunc.py - [line:30] - root - INFO - 5 packets transmitted, 0 received, 100% packet loss, time 124ms
+2022-04-06 22:03:46 - commonFunc.py - [line:30] - root - INFO - 
+2022-04-06 22:03:46 - commonFunc.py - [line:30] - root - INFO - 
+2022-04-06 22:03:46 - commonFunc.py - [line:31] - root - INFO - finished exeucting the cmd: ping -w 5 10.239.183.130
+2022-04-06 22:03:51 - commonFunc.py - [line:16] - root - INFO - starting to execute the cmd: ping -w 5 10.239.183.130....
+2022-04-06 22:03:56 - commonFunc.py - [line:30] - root - INFO - PING 10.239.183.130 (10.239.183.130) 56(84) bytes of data.
+2022-04-06 22:03:56 - commonFunc.py - [line:30] - root - INFO - 
+2022-04-06 22:03:56 - commonFunc.py - [line:30] - root - INFO - --- 10.239.183.130 ping statistics ---
+2022-04-06 22:03:56 - commonFunc.py - [line:30] - root - INFO - 5 packets transmitted, 0 received, 100% packet loss, time 98ms
+2022-04-06 22:03:56 - commonFunc.py - [line:30] - root - INFO - 
+2022-04-06 22:03:56 - commonFunc.py - [line:30] - root - INFO - 
+2022-04-06 22:03:56 - commonFunc.py - [line:31] - root - INFO - finished exeucting the cmd: ping -w 5 10.239.183.130
+2022-04-06 22:04:01 - commonFunc.py - [line:16] - root - INFO - starting to execute the cmd: ping -w 5 10.239.183.130....
+2022-04-06 22:04:06 - commonFunc.py - [line:30] - root - INFO - PING 10.239.183.130 (10.239.183.130) 56(84) bytes of data.
+2022-04-06 22:04:06 - commonFunc.py - [line:30] - root - INFO - 64 bytes from 10.239.183.130: icmp_seq=4 ttl=61 time=1.30 ms
+2022-04-06 22:04:06 - commonFunc.py - [line:30] - root - INFO - 64 bytes from 10.239.183.130: icmp_seq=5 ttl=61 time=0.402 ms
+2022-04-06 22:04:06 - commonFunc.py - [line:30] - root - INFO - 
+2022-04-06 22:04:06 - commonFunc.py - [line:30] - root - INFO - --- 10.239.183.130 ping statistics ---
+2022-04-06 22:04:06 - commonFunc.py - [line:30] - root - INFO - 5 packets transmitted, 2 received, 60% packet loss, time 113ms
+2022-04-06 22:04:06 - commonFunc.py - [line:30] - root - INFO - rtt min/avg/max/mdev = 0.402/0.851/1.301/0.450 ms
+2022-04-06 22:04:06 - commonFunc.py - [line:30] - root - INFO - 
+2022-04-06 22:04:06 - commonFunc.py - [line:31] - root - INFO - finished exeucting the cmd: ping -w 5 10.239.183.130
+2022-04-06 22:04:11 - commonFunc.py - [line:16] - root - INFO - starting to execute the cmd: ping -w 5 10.239.183.130....
+2022-04-06 22:04:16 - commonFunc.py - [line:30] - root - INFO - PING 10.239.183.130 (10.239.183.130) 56(84) bytes of data.
+2022-04-06 22:04:16 - commonFunc.py - [line:30] - root - INFO - 64 bytes from 10.239.183.130: icmp_seq=1 ttl=61 time=0.313 ms
+2022-04-06 22:04:16 - commonFunc.py - [line:30] - root - INFO - 64 bytes from 10.239.183.130: icmp_seq=2 ttl=61 time=0.290 ms
+2022-04-06 22:04:16 - commonFunc.py - [line:30] - root - INFO - 64 bytes from 10.239.183.130: icmp_seq=3 ttl=61 time=0.349 ms
+2022-04-06 22:04:16 - commonFunc.py - [line:30] - root - INFO - 64 bytes from 10.239.183.130: icmp_seq=4 ttl=61 time=0.296 ms
+2022-04-06 22:04:16 - commonFunc.py - [line:30] - root - INFO - 64 bytes from 10.239.183.130: icmp_seq=5 ttl=61 time=0.355 ms
+2022-04-06 22:04:16 - commonFunc.py - [line:30] - root - INFO - 
+2022-04-06 22:04:16 - commonFunc.py - [line:30] - root - INFO - --- 10.239.183.130 ping statistics ---
+2022-04-06 22:04:16 - commonFunc.py - [line:30] - root - INFO - 5 packets transmitted, 5 received, 0% packet loss, time 110ms
+2022-04-06 22:04:16 - commonFunc.py - [line:30] - root - INFO - rtt min/avg/max/mdev = 0.290/0.320/0.355/0.033 ms
+2022-04-06 22:04:16 - commonFunc.py - [line:30] - root - INFO - 
+2022-04-06 22:04:16 - commonFunc.py - [line:31] - root - INFO - finished exeucting the cmd: ping -w 5 10.239.183.130
+2022-04-06 22:04:16 - sshInstance.py - [line:43] - root - INFO - closing ssh client on SUT
+2022-04-06 22:07:16 - test_nics.py - [line:136] - root - INFO - -- reboot 4 times --
+2022-04-06 22:07:16 - transport.py - [line:1819] - paramiko.transport - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2022-04-06 22:07:17 - transport.py - [line:1819] - paramiko.transport - INFO - Authentication (password) successful!
+2022-04-06 22:07:17 - sshInstance.py - [line:28] - root - INFO - SSH on SUT: 10.239.183.130
+2022-04-06 22:07:20 - sshInstance.py - [line:50] - root - INFO - ifconfig ens4f0 up
+2022-04-06 22:07:20 - sshInstance.py - [line:54] - root - INFO - 
+2022-04-06 22:07:28 - sshInstance.py - [line:50] - root - INFO - ifconfig ens4f0 192.168.10.10
+2022-04-06 22:07:28 - sshInstance.py - [line:54] - root - INFO - 
+2022-04-06 22:07:37 - sshInstance.py - [line:75] - root - INFO - Welcome to Ubuntu Jammy Jellyfish (development branch) (GNU/Linux 5.15.0-1005-realtime x86_64)
+
+ * Documentation:  https://help.ubuntu.com
+ * Management:     https://landscape.canonical.com
+ * Support:        https://ubuntu.com/advantage
+
+  System information as of Wed Apr  6 02:18:18 PM UTC 2022
+
+  System load:  0.080078125         Processes:               1367
+  Usage of /:   63.8% of 297.87GB   Users logged in:         0
+  Memory usage: 53%                 IPv4 address for enp3s0: 10.239.183.130
+  Swap usage:   0%                  IPv4 address for virbr0: 192.168.122.1
+  Temperature:  40.0 C
+
+
+0 updates can be applied immediately.
+
+
+Last login: Wed Apr  6 14:11:17 2022 from 10.112.97.60
+RTNETLINK answers: File exists
+[?2004hroot@npx-SPR-automation:~# ping -c 5 192.168.10.11
+[?2004lPING 192.168.10.11 (192.168.10.11) 56(84) bytes of data.
+64 bytes from 192.168.10.11: icmp_seq=1 ttl=64 time=0.506 ms
+2022-04-06 22:07:38 - sshInstance.py - [line:75] - root - INFO - 64 bytes from 192.168.10.11: icmp_seq=2 ttl=64 time=0.156 ms
+2022-04-06 22:07:39 - sshInstance.py - [line:75] - root - INFO - 64 bytes from 192.168.10.11: icmp_seq=3 ttl=64 time=0.152 ms
+2022-04-06 22:07:40 - sshInstance.py - [line:75] - root - INFO - 64 bytes from 192.168.10.11: icmp_seq=4 ttl=64 time=0.146 ms
+2022-04-06 22:07:41 - sshInstance.py - [line:75] - root - INFO - 64 bytes from 192.168.10.11: icmp_seq=5 ttl=64 time=0.147 ms
+
+--- 192.168.10.11 ping statistics ---
+5 packets transmitted, 5 received, 0% packet loss, time 4100ms
+rtt min/avg/max/mdev = 0.146/0.221/0.506/0.142 ms
+[?2004hroot@npx-SPR-automation:~# 
+2022-04-06 22:07:48 - sshInstance.py - [line:75] - root - INFO - ping6 -c 5 -I ens4f0 fe80::b696:91ff:fea0:2170
+[?2004lping6: Warning: source address might be selected on device other than: ens4f0
+PING fe80::b696:91ff:fea0:2170(fe80::b696:91ff:fea0:2170) from :: ens4f0: 56 data bytes
+64 bytes from fe80::b696:91ff:fea0:2170%ens4f0: icmp_seq=1 ttl=64 time=0.621 ms
+2022-04-06 22:07:49 - sshInstance.py - [line:75] - root - INFO - 64 bytes from fe80::b696:91ff:fea0:2170%ens4f0: icmp_seq=2 ttl=64 time=0.150 ms
+2022-04-06 22:07:50 - sshInstance.py - [line:75] - root - INFO - 64 bytes from fe80::b696:91ff:fea0:2170%ens4f0: icmp_seq=3 ttl=64 time=0.146 ms
+2022-04-06 22:07:51 - sshInstance.py - [line:75] - root - INFO - 64 bytes from fe80::b696:91ff:fea0:2170%ens4f0: icmp_seq=4 ttl=64 time=0.141 ms
+2022-04-06 22:07:52 - sshInstance.py - [line:75] - root - INFO - 64 bytes from fe80::b696:91ff:fea0:2170%ens4f0: icmp_seq=5 ttl=64 time=0.141 ms
+
+--- fe80::b696:91ff:fea0:2170 ping statistics ---
+5 packets transmitted, 5 received, 0% packet loss, time 4090ms
+rtt min/avg/max/mdev = 0.141/0.239/0.621/0.190 ms
+[?2004hroot@npx-SPR-automation:~# 
+2022-04-06 22:08:01 - sshInstance.py - [line:99] - root - INFO - reboot
+[?2004l[?2004hroot@npx-SPR-automation:~# 
+2022-04-06 22:08:04 - sshInstance.py - [line:159] - root - INFO - sut server reboot, please wait ......
+2022-04-06 22:09:04 - commonFunc.py - [line:16] - root - INFO - starting to execute the cmd: ping -w 5 10.239.183.130....
+2022-04-06 22:09:09 - commonFunc.py - [line:30] - root - INFO - PING 10.239.183.130 (10.239.183.130) 56(84) bytes of data.
+2022-04-06 22:09:09 - commonFunc.py - [line:30] - root - INFO - 
+2022-04-06 22:09:09 - commonFunc.py - [line:30] - root - INFO - --- 10.239.183.130 ping statistics ---
+2022-04-06 22:09:09 - commonFunc.py - [line:30] - root - INFO - 5 packets transmitted, 0 received, 100% packet loss, time 106ms
+2022-04-06 22:09:09 - commonFunc.py - [line:30] - root - INFO - 
+2022-04-06 22:09:09 - commonFunc.py - [line:30] - root - INFO - 
+2022-04-06 22:09:09 - commonFunc.py - [line:31] - root - INFO - finished exeucting the cmd: ping -w 5 10.239.183.130
+2022-04-06 22:09:14 - commonFunc.py - [line:16] - root - INFO - starting to execute the cmd: ping -w 5 10.239.183.130....
+2022-04-06 22:09:19 - commonFunc.py - [line:30] - root - INFO - PING 10.239.183.130 (10.239.183.130) 56(84) bytes of data.
+2022-04-06 22:09:19 - commonFunc.py - [line:30] - root - INFO - 
+2022-04-06 22:09:19 - commonFunc.py - [line:30] - root - INFO - --- 10.239.183.130 ping statistics ---
+2022-04-06 22:09:19 - commonFunc.py - [line:30] - root - INFO - 5 packets transmitted, 0 received, 100% packet loss, time 79ms
+2022-04-06 22:09:19 - commonFunc.py - [line:30] - root - INFO - 
+2022-04-06 22:09:19 - commonFunc.py - [line:30] - root - INFO - 
+2022-04-06 22:09:19 - commonFunc.py - [line:31] - root - INFO - finished exeucting the cmd: ping -w 5 10.239.183.130
+2022-04-06 22:09:24 - commonFunc.py - [line:16] - root - INFO - starting to execute the cmd: ping -w 5 10.239.183.130....
+2022-04-06 22:09:29 - commonFunc.py - [line:30] - root - INFO - PING 10.239.183.130 (10.239.183.130) 56(84) bytes of data.
+2022-04-06 22:09:29 - commonFunc.py - [line:30] - root - INFO - 
+2022-04-06 22:09:29 - commonFunc.py - [line:30] - root - INFO - --- 10.239.183.130 ping statistics ---
+2022-04-06 22:09:29 - commonFunc.py - [line:30] - root - INFO - 5 packets transmitted, 0 received, 100% packet loss, time 117ms
+2022-04-06 22:09:29 - commonFunc.py - [line:30] - root - INFO - 
+2022-04-06 22:09:29 - commonFunc.py - [line:30] - root - INFO - 
+2022-04-06 22:09:29 - commonFunc.py - [line:31] - root - INFO - finished exeucting the cmd: ping -w 5 10.239.183.130
+2022-04-06 22:09:34 - commonFunc.py - [line:16] - root - INFO - starting to execute the cmd: ping -w 5 10.239.183.130....
+2022-04-06 22:09:39 - commonFunc.py - [line:30] - root - INFO - PING 10.239.183.130 (10.239.183.130) 56(84) bytes of data.
+2022-04-06 22:09:39 - commonFunc.py - [line:30] - root - INFO - 
+2022-04-06 22:09:39 - commonFunc.py - [line:30] - root - INFO - --- 10.239.183.130 ping statistics ---
+2022-04-06 22:09:39 - commonFunc.py - [line:30] - root - INFO - 5 packets transmitted, 0 received, 100% packet loss, time 92ms
+2022-04-06 22:09:39 - commonFunc.py - [line:30] - root - INFO - 
+2022-04-06 22:09:39 - commonFunc.py - [line:30] - root - INFO - 
+2022-04-06 22:09:39 - commonFunc.py - [line:31] - root - INFO - finished exeucting the cmd: ping -w 5 10.239.183.130
+2022-04-06 22:09:44 - commonFunc.py - [line:16] - root - INFO - starting to execute the cmd: ping -w 5 10.239.183.130....
+2022-04-06 22:09:49 - commonFunc.py - [line:30] - root - INFO - PING 10.239.183.130 (10.239.183.130) 56(84) bytes of data.
+2022-04-06 22:09:49 - commonFunc.py - [line:30] - root - INFO - 
+2022-04-06 22:09:49 - commonFunc.py - [line:30] - root - INFO - --- 10.239.183.130 ping statistics ---
+2022-04-06 22:09:49 - commonFunc.py - [line:30] - root - INFO - 5 packets transmitted, 0 received, 100% packet loss, time 130ms
+2022-04-06 22:09:49 - commonFunc.py - [line:30] - root - INFO - 
+2022-04-06 22:09:49 - commonFunc.py - [line:30] - root - INFO - 
+2022-04-06 22:09:49 - commonFunc.py - [line:31] - root - INFO - finished exeucting the cmd: ping -w 5 10.239.183.130
+2022-04-06 22:09:54 - commonFunc.py - [line:16] - root - INFO - starting to execute the cmd: ping -w 5 10.239.183.130....
+2022-04-06 22:09:59 - commonFunc.py - [line:30] - root - INFO - PING 10.239.183.130 (10.239.183.130) 56(84) bytes of data.
+2022-04-06 22:09:59 - commonFunc.py - [line:30] - root - INFO - 
+2022-04-06 22:09:59 - commonFunc.py - [line:30] - root - INFO - --- 10.239.183.130 ping statistics ---
+2022-04-06 22:09:59 - commonFunc.py - [line:30] - root - INFO - 5 packets transmitted, 0 received, 100% packet loss, time 104ms
+2022-04-06 22:09:59 - commonFunc.py - [line:30] - root - INFO - 
+2022-04-06 22:09:59 - commonFunc.py - [line:30] - root - INFO - 
+2022-04-06 22:09:59 - commonFunc.py - [line:31] - root - INFO - finished exeucting the cmd: ping -w 5 10.239.183.130
+2022-04-06 22:10:04 - commonFunc.py - [line:16] - root - INFO - starting to execute the cmd: ping -w 5 10.239.183.130....
+2022-04-06 22:10:09 - commonFunc.py - [line:30] - root - INFO - PING 10.239.183.130 (10.239.183.130) 56(84) bytes of data.
+2022-04-06 22:10:09 - commonFunc.py - [line:30] - root - INFO - 
+2022-04-06 22:10:09 - commonFunc.py - [line:30] - root - INFO - --- 10.239.183.130 ping statistics ---
+2022-04-06 22:10:09 - commonFunc.py - [line:30] - root - INFO - 5 packets transmitted, 0 received, 100% packet loss, time 78ms
+2022-04-06 22:10:09 - commonFunc.py - [line:30] - root - INFO - 
+2022-04-06 22:10:09 - commonFunc.py - [line:30] - root - INFO - 
+2022-04-06 22:10:09 - commonFunc.py - [line:31] - root - INFO - finished exeucting the cmd: ping -w 5 10.239.183.130
+2022-04-06 22:10:14 - commonFunc.py - [line:16] - root - INFO - starting to execute the cmd: ping -w 5 10.239.183.130....
+2022-04-06 22:10:19 - commonFunc.py - [line:30] - root - INFO - PING 10.239.183.130 (10.239.183.130) 56(84) bytes of data.
+2022-04-06 22:10:19 - commonFunc.py - [line:30] - root - INFO - 
+2022-04-06 22:10:19 - commonFunc.py - [line:30] - root - INFO - --- 10.239.183.130 ping statistics ---
+2022-04-06 22:10:19 - commonFunc.py - [line:30] - root - INFO - 5 packets transmitted, 0 received, 100% packet loss, time 117ms
+2022-04-06 22:10:19 - commonFunc.py - [line:30] - root - INFO - 
+2022-04-06 22:10:19 - commonFunc.py - [line:30] - root - INFO - 
+2022-04-06 22:10:19 - commonFunc.py - [line:31] - root - INFO - finished exeucting the cmd: ping -w 5 10.239.183.130
+2022-04-06 22:10:24 - commonFunc.py - [line:16] - root - INFO - starting to execute the cmd: ping -w 5 10.239.183.130....
+2022-04-06 22:10:29 - commonFunc.py - [line:30] - root - INFO - PING 10.239.183.130 (10.239.183.130) 56(84) bytes of data.
+2022-04-06 22:10:29 - commonFunc.py - [line:30] - root - INFO - 
+2022-04-06 22:10:29 - commonFunc.py - [line:30] - root - INFO - --- 10.239.183.130 ping statistics ---
+2022-04-06 22:10:29 - commonFunc.py - [line:30] - root - INFO - 5 packets transmitted, 0 received, 100% packet loss, time 91ms
+2022-04-06 22:10:29 - commonFunc.py - [line:30] - root - INFO - 
+2022-04-06 22:10:29 - commonFunc.py - [line:30] - root - INFO - 
+2022-04-06 22:10:29 - commonFunc.py - [line:31] - root - INFO - finished exeucting the cmd: ping -w 5 10.239.183.130
+2022-04-06 22:10:34 - commonFunc.py - [line:16] - root - INFO - starting to execute the cmd: ping -w 5 10.239.183.130....
+2022-04-06 22:10:39 - commonFunc.py - [line:30] - root - INFO - PING 10.239.183.130 (10.239.183.130) 56(84) bytes of data.
+2022-04-06 22:10:39 - commonFunc.py - [line:30] - root - INFO - 
+2022-04-06 22:10:39 - commonFunc.py - [line:30] - root - INFO - --- 10.239.183.130 ping statistics ---
+2022-04-06 22:10:39 - commonFunc.py - [line:30] - root - INFO - 5 packets transmitted, 0 received, 100% packet loss, time 130ms
+2022-04-06 22:10:39 - commonFunc.py - [line:30] - root - INFO - 
+2022-04-06 22:10:39 - commonFunc.py - [line:30] - root - INFO - 
+2022-04-06 22:10:39 - commonFunc.py - [line:31] - root - INFO - finished exeucting the cmd: ping -w 5 10.239.183.130
+2022-04-06 22:10:45 - commonFunc.py - [line:16] - root - INFO - starting to execute the cmd: ping -w 5 10.239.183.130....
+2022-04-06 22:10:50 - commonFunc.py - [line:30] - root - INFO - PING 10.239.183.130 (10.239.183.130) 56(84) bytes of data.
+2022-04-06 22:10:50 - commonFunc.py - [line:30] - root - INFO - 
+2022-04-06 22:10:50 - commonFunc.py - [line:30] - root - INFO - --- 10.239.183.130 ping statistics ---
+2022-04-06 22:10:50 - commonFunc.py - [line:30] - root - INFO - 5 packets transmitted, 0 received, 100% packet loss, time 104ms
+2022-04-06 22:10:50 - commonFunc.py - [line:30] - root - INFO - 
+2022-04-06 22:10:50 - commonFunc.py - [line:30] - root - INFO - 
+2022-04-06 22:10:50 - commonFunc.py - [line:31] - root - INFO - finished exeucting the cmd: ping -w 5 10.239.183.130
+2022-04-06 22:10:55 - commonFunc.py - [line:16] - root - INFO - starting to execute the cmd: ping -w 5 10.239.183.130....
+2022-04-06 22:11:00 - commonFunc.py - [line:30] - root - INFO - PING 10.239.183.130 (10.239.183.130) 56(84) bytes of data.
+2022-04-06 22:11:00 - commonFunc.py - [line:30] - root - INFO - 
+2022-04-06 22:11:00 - commonFunc.py - [line:30] - root - INFO - --- 10.239.183.130 ping statistics ---
+2022-04-06 22:11:00 - commonFunc.py - [line:30] - root - INFO - 5 packets transmitted, 0 received, 100% packet loss, time 78ms
+2022-04-06 22:11:00 - commonFunc.py - [line:30] - root - INFO - 
+2022-04-06 22:11:00 - commonFunc.py - [line:30] - root - INFO - 
+2022-04-06 22:11:00 - commonFunc.py - [line:31] - root - INFO - finished exeucting the cmd: ping -w 5 10.239.183.130
+2022-04-06 22:11:05 - commonFunc.py - [line:16] - root - INFO - starting to execute the cmd: ping -w 5 10.239.183.130....
+2022-04-06 22:11:10 - commonFunc.py - [line:30] - root - INFO - PING 10.239.183.130 (10.239.183.130) 56(84) bytes of data.
+2022-04-06 22:11:10 - commonFunc.py - [line:30] - root - INFO - 
+2022-04-06 22:11:10 - commonFunc.py - [line:30] - root - INFO - --- 10.239.183.130 ping statistics ---
+2022-04-06 22:11:10 - commonFunc.py - [line:30] - root - INFO - 5 packets transmitted, 0 received, 100% packet loss, time 117ms
+2022-04-06 22:11:10 - commonFunc.py - [line:30] - root - INFO - 
+2022-04-06 22:11:10 - commonFunc.py - [line:30] - root - INFO - 
+2022-04-06 22:11:10 - commonFunc.py - [line:31] - root - INFO - finished exeucting the cmd: ping -w 5 10.239.183.130
+2022-04-06 22:11:15 - commonFunc.py - [line:16] - root - INFO - starting to execute the cmd: ping -w 5 10.239.183.130....
+2022-04-06 22:11:20 - commonFunc.py - [line:30] - root - INFO - PING 10.239.183.130 (10.239.183.130) 56(84) bytes of data.
+2022-04-06 22:11:20 - commonFunc.py - [line:30] - root - INFO - 64 bytes from 10.239.183.130: icmp_seq=3 ttl=61 time=1.46 ms
+2022-04-06 22:11:20 - commonFunc.py - [line:30] - root - INFO - 64 bytes from 10.239.183.130: icmp_seq=4 ttl=61 time=0.375 ms
+2022-04-06 22:11:20 - commonFunc.py - [line:30] - root - INFO - 64 bytes from 10.239.183.130: icmp_seq=5 ttl=61 time=0.315 ms
+2022-04-06 22:11:20 - commonFunc.py - [line:30] - root - INFO - 
+2022-04-06 22:11:20 - commonFunc.py - [line:30] - root - INFO - --- 10.239.183.130 ping statistics ---
+2022-04-06 22:11:20 - commonFunc.py - [line:30] - root - INFO - 5 packets transmitted, 3 received, 40% packet loss, time 90ms
+2022-04-06 22:11:20 - commonFunc.py - [line:30] - root - INFO - rtt min/avg/max/mdev = 0.315/0.717/1.463/0.528 ms
+2022-04-06 22:11:20 - commonFunc.py - [line:30] - root - INFO - 
+2022-04-06 22:11:20 - commonFunc.py - [line:31] - root - INFO - finished exeucting the cmd: ping -w 5 10.239.183.130
+2022-04-06 22:11:25 - commonFunc.py - [line:16] - root - INFO - starting to execute the cmd: ping -w 5 10.239.183.130....
+2022-04-06 22:11:30 - commonFunc.py - [line:30] - root - INFO - PING 10.239.183.130 (10.239.183.130) 56(84) bytes of data.
+2022-04-06 22:11:30 - commonFunc.py - [line:30] - root - INFO - 64 bytes from 10.239.183.130: icmp_seq=1 ttl=61 time=0.292 ms
+2022-04-06 22:11:30 - commonFunc.py - [line:30] - root - INFO - 64 bytes from 10.239.183.130: icmp_seq=2 ttl=61 time=0.290 ms
+2022-04-06 22:11:30 - commonFunc.py - [line:30] - root - INFO - 64 bytes from 10.239.183.130: icmp_seq=3 ttl=61 time=0.336 ms
+2022-04-06 22:11:30 - commonFunc.py - [line:30] - root - INFO - 64 bytes from 10.239.183.130: icmp_seq=4 ttl=61 time=0.363 ms
+2022-04-06 22:11:30 - commonFunc.py - [line:30] - root - INFO - 64 bytes from 10.239.183.130: icmp_seq=5 ttl=61 time=0.337 ms
+2022-04-06 22:11:30 - commonFunc.py - [line:30] - root - INFO - 
+2022-04-06 22:11:30 - commonFunc.py - [line:30] - root - INFO - --- 10.239.183.130 ping statistics ---
+2022-04-06 22:11:30 - commonFunc.py - [line:30] - root - INFO - 5 packets transmitted, 5 received, 0% packet loss, time 129ms
+2022-04-06 22:11:30 - commonFunc.py - [line:30] - root - INFO - rtt min/avg/max/mdev = 0.290/0.323/0.363/0.034 ms
+2022-04-06 22:11:30 - commonFunc.py - [line:30] - root - INFO - 
+2022-04-06 22:11:30 - commonFunc.py - [line:31] - root - INFO - finished exeucting the cmd: ping -w 5 10.239.183.130
+2022-04-06 22:11:30 - sshInstance.py - [line:43] - root - INFO - closing ssh client on SUT
+2022-04-06 22:14:30 - test_nics.py - [line:136] - root - INFO - -- reboot 5 times --
+2022-04-06 22:14:30 - transport.py - [line:1819] - paramiko.transport - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2022-04-06 22:14:30 - transport.py - [line:1819] - paramiko.transport - INFO - Authentication (password) successful!
+2022-04-06 22:14:30 - sshInstance.py - [line:28] - root - INFO - SSH on SUT: 10.239.183.130
+2022-04-06 22:14:33 - sshInstance.py - [line:50] - root - INFO - ifconfig ens4f0 up
+2022-04-06 22:14:33 - sshInstance.py - [line:54] - root - INFO - 
+2022-04-06 22:14:41 - sshInstance.py - [line:50] - root - INFO - ifconfig ens4f0 192.168.10.10
+2022-04-06 22:14:41 - sshInstance.py - [line:54] - root - INFO - 
+2022-04-06 22:14:50 - sshInstance.py - [line:75] - root - INFO - Welcome to Ubuntu Jammy Jellyfish (development branch) (GNU/Linux 5.15.0-1005-realtime x86_64)
+
+ * Documentation:  https://help.ubuntu.com
+ * Management:     https://landscape.canonical.com
+ * Support:        https://ubuntu.com/advantage
+
+  System information as of Wed Apr  6 02:25:32 PM UTC 2022
+
+  System load:  0.1826171875        Processes:               1373
+  Usage of /:   63.8% of 297.87GB   Users logged in:         0
+  Memory usage: 53%                 IPv4 address for enp3s0: 10.239.183.130
+  Swap usage:   0%                  IPv4 address for virbr0: 192.168.122.1
+  Temperature:  40.0 C
+
+
+0 updates can be applied immediately.
+
+
+Last login: Wed Apr  6 14:18:29 2022 from 10.112.97.60
+RTNETLINK answers: File exists
+[?2004hroot@npx-SPR-automation:~# ping -c 5 192.168.10.11
+[?2004lPING 192.168.10.11 (192.168.10.11) 56(84) bytes of data.
+64 bytes from 192.168.10.11: icmp_seq=1 ttl=64 time=0.353 ms
+2022-04-06 22:14:51 - sshInstance.py - [line:75] - root - INFO - 64 bytes from 192.168.10.11: icmp_seq=2 ttl=64 time=0.153 ms
+2022-04-06 22:14:52 - sshInstance.py - [line:75] - root - INFO - 64 bytes from 192.168.10.11: icmp_seq=3 ttl=64 time=0.148 ms
+2022-04-06 22:14:53 - sshInstance.py - [line:75] - root - INFO - 64 bytes from 192.168.10.11: icmp_seq=4 ttl=64 time=0.145 ms
+2022-04-06 22:14:54 - sshInstance.py - [line:75] - root - INFO - 64 bytes from 192.168.10.11: icmp_seq=5 ttl=64 time=0.148 ms
+
+--- 192.168.10.11 ping statistics ---
+5 packets transmitted, 5 received, 0% packet loss, time 4084ms
+rtt min/avg/max/mdev = 0.145/0.189/0.353/0.081 ms
+[?2004hroot@npx-SPR-automation:~# 
+2022-04-06 22:15:01 - sshInstance.py - [line:75] - root - INFO - ping6 -c 5 -I ens4f0 fe80::b696:91ff:fea0:2170
+[?2004lping6: Warning: source address might be selected on device other than: ens4f0
+PING fe80::b696:91ff:fea0:2170(fe80::b696:91ff:fea0:2170) from :: ens4f0: 56 data bytes
+64 bytes from fe80::b696:91ff:fea0:2170%ens4f0: icmp_seq=1 ttl=64 time=0.706 ms
+2022-04-06 22:15:02 - sshInstance.py - [line:75] - root - INFO - 64 bytes from fe80::b696:91ff:fea0:2170%ens4f0: icmp_seq=2 ttl=64 time=0.154 ms
+2022-04-06 22:15:03 - sshInstance.py - [line:75] - root - INFO - 64 bytes from fe80::b696:91ff:fea0:2170%ens4f0: icmp_seq=3 ttl=64 time=0.146 ms
+2022-04-06 22:15:04 - sshInstance.py - [line:75] - root - INFO - 64 bytes from fe80::b696:91ff:fea0:2170%ens4f0: icmp_seq=4 ttl=64 time=0.143 ms
+2022-04-06 22:15:05 - sshInstance.py - [line:75] - root - INFO - 64 bytes from fe80::b696:91ff:fea0:2170%ens4f0: icmp_seq=5 ttl=64 time=0.140 ms
+
+--- fe80::b696:91ff:fea0:2170 ping statistics ---
+5 packets transmitted, 5 received, 0% packet loss, time 4074ms
+rtt min/avg/max/mdev = 0.140/0.257/0.706/0.224 ms
+[?2004hroot@npx-SPR-automation:~# 
+2022-04-06 22:15:14 - sshInstance.py - [line:99] - root - INFO - reboot
+[?2004l[?2004hroot@npx-SPR-automation:~# 
+2022-04-06 22:15:17 - sshInstance.py - [line:159] - root - INFO - sut server reboot, please wait ......
+2022-04-06 22:16:17 - commonFunc.py - [line:16] - root - INFO - starting to execute the cmd: ping -w 5 10.239.183.130....
+2022-04-06 22:16:23 - commonFunc.py - [line:30] - root - INFO - PING 10.239.183.130 (10.239.183.130) 56(84) bytes of data.
+2022-04-06 22:16:23 - commonFunc.py - [line:30] - root - INFO - 
+2022-04-06 22:16:23 - commonFunc.py - [line:30] - root - INFO - --- 10.239.183.130 ping statistics ---
+2022-04-06 22:16:23 - commonFunc.py - [line:30] - root - INFO - 5 packets transmitted, 0 received, 100% packet loss, time 98ms
+2022-04-06 22:16:23 - commonFunc.py - [line:30] - root - INFO - 
+2022-04-06 22:16:23 - commonFunc.py - [line:30] - root - INFO - 
+2022-04-06 22:16:23 - commonFunc.py - [line:31] - root - INFO - finished exeucting the cmd: ping -w 5 10.239.183.130
+2022-04-06 22:16:28 - commonFunc.py - [line:16] - root - INFO - starting to execute the cmd: ping -w 5 10.239.183.130....
+2022-04-06 22:16:33 - commonFunc.py - [line:30] - root - INFO - PING 10.239.183.130 (10.239.183.130) 56(84) bytes of data.
+2022-04-06 22:16:33 - commonFunc.py - [line:30] - root - INFO - 
+2022-04-06 22:16:33 - commonFunc.py - [line:30] - root - INFO - --- 10.239.183.130 ping statistics ---
+2022-04-06 22:16:33 - commonFunc.py - [line:30] - root - INFO - 5 packets transmitted, 0 received, 100% packet loss, time 136ms
+2022-04-06 22:16:33 - commonFunc.py - [line:30] - root - INFO - 
+2022-04-06 22:16:33 - commonFunc.py - [line:30] - root - INFO - 
+2022-04-06 22:16:33 - commonFunc.py - [line:31] - root - INFO - finished exeucting the cmd: ping -w 5 10.239.183.130
+2022-04-06 22:16:38 - commonFunc.py - [line:16] - root - INFO - starting to execute the cmd: ping -w 5 10.239.183.130....
+2022-04-06 22:16:43 - commonFunc.py - [line:30] - root - INFO - PING 10.239.183.130 (10.239.183.130) 56(84) bytes of data.
+2022-04-06 22:16:43 - commonFunc.py - [line:30] - root - INFO - 
+2022-04-06 22:16:43 - commonFunc.py - [line:30] - root - INFO - --- 10.239.183.130 ping statistics ---
+2022-04-06 22:16:43 - commonFunc.py - [line:30] - root - INFO - 5 packets transmitted, 0 received, 100% packet loss, time 111ms
+2022-04-06 22:16:43 - commonFunc.py - [line:30] - root - INFO - 
+2022-04-06 22:16:43 - commonFunc.py - [line:30] - root - INFO - 
+2022-04-06 22:16:43 - commonFunc.py - [line:31] - root - INFO - finished exeucting the cmd: ping -w 5 10.239.183.130
+2022-04-06 22:16:48 - commonFunc.py - [line:16] - root - INFO - starting to execute the cmd: ping -w 5 10.239.183.130....
+2022-04-06 22:16:53 - commonFunc.py - [line:30] - root - INFO - PING 10.239.183.130 (10.239.183.130) 56(84) bytes of data.
+2022-04-06 22:16:53 - commonFunc.py - [line:30] - root - INFO - 
+2022-04-06 22:16:53 - commonFunc.py - [line:30] - root - INFO - --- 10.239.183.130 ping statistics ---
+2022-04-06 22:16:53 - commonFunc.py - [line:30] - root - INFO - 5 packets transmitted, 0 received, 100% packet loss, time 85ms
+2022-04-06 22:16:53 - commonFunc.py - [line:30] - root - INFO - 
+2022-04-06 22:16:53 - commonFunc.py - [line:30] - root - INFO - 
+2022-04-06 22:16:53 - commonFunc.py - [line:31] - root - INFO - finished exeucting the cmd: ping -w 5 10.239.183.130
+2022-04-06 22:16:58 - commonFunc.py - [line:16] - root - INFO - starting to execute the cmd: ping -w 5 10.239.183.130....
+2022-04-06 22:17:03 - commonFunc.py - [line:30] - root - INFO - PING 10.239.183.130 (10.239.183.130) 56(84) bytes of data.
+2022-04-06 22:17:03 - commonFunc.py - [line:30] - root - INFO - 
+2022-04-06 22:17:03 - commonFunc.py - [line:30] - root - INFO - --- 10.239.183.130 ping statistics ---
+2022-04-06 22:17:03 - commonFunc.py - [line:30] - root - INFO - 5 packets transmitted, 0 received, 100% packet loss, time 123ms
+2022-04-06 22:17:03 - commonFunc.py - [line:30] - root - INFO - 
+2022-04-06 22:17:03 - commonFunc.py - [line:30] - root - INFO - 
+2022-04-06 22:17:03 - commonFunc.py - [line:31] - root - INFO - finished exeucting the cmd: ping -w 5 10.239.183.130
+2022-04-06 22:17:08 - commonFunc.py - [line:16] - root - INFO - starting to execute the cmd: ping -w 5 10.239.183.130....
+2022-04-06 22:17:13 - commonFunc.py - [line:30] - root - INFO - PING 10.239.183.130 (10.239.183.130) 56(84) bytes of data.
+2022-04-06 22:17:13 - commonFunc.py - [line:30] - root - INFO - 
+2022-04-06 22:17:13 - commonFunc.py - [line:30] - root - INFO - --- 10.239.183.130 ping statistics ---
+2022-04-06 22:17:13 - commonFunc.py - [line:30] - root - INFO - 5 packets transmitted, 0 received, 100% packet loss, time 97ms
+2022-04-06 22:17:13 - commonFunc.py - [line:30] - root - INFO - 
+2022-04-06 22:17:13 - commonFunc.py - [line:30] - root - INFO - 
+2022-04-06 22:17:13 - commonFunc.py - [line:31] - root - INFO - finished exeucting the cmd: ping -w 5 10.239.183.130
+2022-04-06 22:17:18 - commonFunc.py - [line:16] - root - INFO - starting to execute the cmd: ping -w 5 10.239.183.130....
+2022-04-06 22:17:23 - commonFunc.py - [line:30] - root - INFO - PING 10.239.183.130 (10.239.183.130) 56(84) bytes of data.
+2022-04-06 22:17:23 - commonFunc.py - [line:30] - root - INFO - 
+2022-04-06 22:17:23 - commonFunc.py - [line:30] - root - INFO - --- 10.239.183.130 ping statistics ---
+2022-04-06 22:17:23 - commonFunc.py - [line:30] - root - INFO - 5 packets transmitted, 0 received, 100% packet loss, time 136ms
+2022-04-06 22:17:23 - commonFunc.py - [line:30] - root - INFO - 
+2022-04-06 22:17:23 - commonFunc.py - [line:30] - root - INFO - 
+2022-04-06 22:17:23 - commonFunc.py - [line:31] - root - INFO - finished exeucting the cmd: ping -w 5 10.239.183.130
+2022-04-06 22:17:28 - commonFunc.py - [line:16] - root - INFO - starting to execute the cmd: ping -w 5 10.239.183.130....
+2022-04-06 22:17:33 - commonFunc.py - [line:30] - root - INFO - PING 10.239.183.130 (10.239.183.130) 56(84) bytes of data.
+2022-04-06 22:17:33 - commonFunc.py - [line:30] - root - INFO - 
+2022-04-06 22:17:33 - commonFunc.py - [line:30] - root - INFO - --- 10.239.183.130 ping statistics ---
+2022-04-06 22:17:33 - commonFunc.py - [line:30] - root - INFO - 5 packets transmitted, 0 received, 100% packet loss, time 110ms
+2022-04-06 22:17:33 - commonFunc.py - [line:30] - root - INFO - 
+2022-04-06 22:17:33 - commonFunc.py - [line:30] - root - INFO - 
+2022-04-06 22:17:33 - commonFunc.py - [line:31] - root - INFO - finished exeucting the cmd: ping -w 5 10.239.183.130
+2022-04-06 22:17:38 - commonFunc.py - [line:16] - root - INFO - starting to execute the cmd: ping -w 5 10.239.183.130....
+2022-04-06 22:17:43 - commonFunc.py - [line:30] - root - INFO - PING 10.239.183.130 (10.239.183.130) 56(84) bytes of data.
+2022-04-06 22:17:43 - commonFunc.py - [line:30] - root - INFO - 
+2022-04-06 22:17:43 - commonFunc.py - [line:30] - root - INFO - --- 10.239.183.130 ping statistics ---
+2022-04-06 22:17:43 - commonFunc.py - [line:30] - root - INFO - 5 packets transmitted, 0 received, 100% packet loss, time 84ms
+2022-04-06 22:17:43 - commonFunc.py - [line:30] - root - INFO - 
+2022-04-06 22:17:43 - commonFunc.py - [line:30] - root - INFO - 
+2022-04-06 22:17:43 - commonFunc.py - [line:31] - root - INFO - finished exeucting the cmd: ping -w 5 10.239.183.130
+2022-04-06 22:17:48 - commonFunc.py - [line:16] - root - INFO - starting to execute the cmd: ping -w 5 10.239.183.130....
+2022-04-06 22:17:53 - commonFunc.py - [line:30] - root - INFO - PING 10.239.183.130 (10.239.183.130) 56(84) bytes of data.
+2022-04-06 22:17:53 - commonFunc.py - [line:30] - root - INFO - 
+2022-04-06 22:17:53 - commonFunc.py - [line:30] - root - INFO - --- 10.239.183.130 ping statistics ---
+2022-04-06 22:17:53 - commonFunc.py - [line:30] - root - INFO - 5 packets transmitted, 0 received, 100% packet loss, time 122ms
+2022-04-06 22:17:53 - commonFunc.py - [line:30] - root - INFO - 
+2022-04-06 22:17:53 - commonFunc.py - [line:30] - root - INFO - 
+2022-04-06 22:17:53 - commonFunc.py - [line:31] - root - INFO - finished exeucting the cmd: ping -w 5 10.239.183.130
+2022-04-06 22:17:58 - commonFunc.py - [line:16] - root - INFO - starting to execute the cmd: ping -w 5 10.239.183.130....
+2022-04-06 22:18:03 - commonFunc.py - [line:30] - root - INFO - PING 10.239.183.130 (10.239.183.130) 56(84) bytes of data.
+2022-04-06 22:18:03 - commonFunc.py - [line:30] - root - INFO - 
+2022-04-06 22:18:03 - commonFunc.py - [line:30] - root - INFO - --- 10.239.183.130 ping statistics ---
+2022-04-06 22:18:03 - commonFunc.py - [line:30] - root - INFO - 5 packets transmitted, 0 received, 100% packet loss, time 97ms
+2022-04-06 22:18:03 - commonFunc.py - [line:30] - root - INFO - 
+2022-04-06 22:18:03 - commonFunc.py - [line:30] - root - INFO - 
+2022-04-06 22:18:03 - commonFunc.py - [line:31] - root - INFO - finished exeucting the cmd: ping -w 5 10.239.183.130
+2022-04-06 22:18:08 - commonFunc.py - [line:16] - root - INFO - starting to execute the cmd: ping -w 5 10.239.183.130....
+2022-04-06 22:18:13 - commonFunc.py - [line:30] - root - INFO - PING 10.239.183.130 (10.239.183.130) 56(84) bytes of data.
+2022-04-06 22:18:13 - commonFunc.py - [line:30] - root - INFO - 
+2022-04-06 22:18:13 - commonFunc.py - [line:30] - root - INFO - --- 10.239.183.130 ping statistics ---
+2022-04-06 22:18:13 - commonFunc.py - [line:30] - root - INFO - 5 packets transmitted, 0 received, 100% packet loss, time 135ms
+2022-04-06 22:18:13 - commonFunc.py - [line:30] - root - INFO - 
+2022-04-06 22:18:13 - commonFunc.py - [line:30] - root - INFO - 
+2022-04-06 22:18:13 - commonFunc.py - [line:31] - root - INFO - finished exeucting the cmd: ping -w 5 10.239.183.130
+2022-04-06 22:18:18 - commonFunc.py - [line:16] - root - INFO - starting to execute the cmd: ping -w 5 10.239.183.130....
+2022-04-06 22:18:23 - commonFunc.py - [line:30] - root - INFO - PING 10.239.183.130 (10.239.183.130) 56(84) bytes of data.
+2022-04-06 22:18:23 - commonFunc.py - [line:30] - root - INFO - 
+2022-04-06 22:18:23 - commonFunc.py - [line:30] - root - INFO - --- 10.239.183.130 ping statistics ---
+2022-04-06 22:18:23 - commonFunc.py - [line:30] - root - INFO - 5 packets transmitted, 0 received, 100% packet loss, time 109ms
+2022-04-06 22:18:23 - commonFunc.py - [line:30] - root - INFO - 
+2022-04-06 22:18:23 - commonFunc.py - [line:30] - root - INFO - 
+2022-04-06 22:18:23 - commonFunc.py - [line:31] - root - INFO - finished exeucting the cmd: ping -w 5 10.239.183.130
+2022-04-06 22:18:28 - commonFunc.py - [line:16] - root - INFO - starting to execute the cmd: ping -w 5 10.239.183.130....
+2022-04-06 22:18:33 - commonFunc.py - [line:30] - root - INFO - PING 10.239.183.130 (10.239.183.130) 56(84) bytes of data.
+2022-04-06 22:18:33 - commonFunc.py - [line:30] - root - INFO - 64 bytes from 10.239.183.130: icmp_seq=5 ttl=61 time=1.43 ms
+2022-04-06 22:18:33 - commonFunc.py - [line:30] - root - INFO - 
+2022-04-06 22:18:33 - commonFunc.py - [line:30] - root - INFO - --- 10.239.183.130 ping statistics ---
+2022-04-06 22:18:33 - commonFunc.py - [line:30] - root - INFO - 5 packets transmitted, 1 received, 80% packet loss, time 83ms
+2022-04-06 22:18:33 - commonFunc.py - [line:30] - root - INFO - rtt min/avg/max/mdev = 1.426/1.426/1.426/0.000 ms
+2022-04-06 22:18:33 - commonFunc.py - [line:30] - root - INFO - 
+2022-04-06 22:18:33 - commonFunc.py - [line:31] - root - INFO - finished exeucting the cmd: ping -w 5 10.239.183.130
+2022-04-06 22:18:38 - commonFunc.py - [line:16] - root - INFO - starting to execute the cmd: ping -w 5 10.239.183.130....
+2022-04-06 22:18:43 - commonFunc.py - [line:30] - root - INFO - PING 10.239.183.130 (10.239.183.130) 56(84) bytes of data.
+2022-04-06 22:18:43 - commonFunc.py - [line:30] - root - INFO - 64 bytes from 10.239.183.130: icmp_seq=1 ttl=61 time=0.348 ms
+2022-04-06 22:18:43 - commonFunc.py - [line:30] - root - INFO - 64 bytes from 10.239.183.130: icmp_seq=2 ttl=61 time=0.318 ms
+2022-04-06 22:18:43 - commonFunc.py - [line:30] - root - INFO - 64 bytes from 10.239.183.130: icmp_seq=3 ttl=61 time=0.345 ms
+2022-04-06 22:18:43 - commonFunc.py - [line:30] - root - INFO - 64 bytes from 10.239.183.130: icmp_seq=4 ttl=61 time=0.267 ms
+2022-04-06 22:18:43 - commonFunc.py - [line:30] - root - INFO - 64 bytes from 10.239.183.130: icmp_seq=5 ttl=61 time=0.228 ms
+2022-04-06 22:18:43 - commonFunc.py - [line:30] - root - INFO - 
+2022-04-06 22:18:43 - commonFunc.py - [line:30] - root - INFO - --- 10.239.183.130 ping statistics ---
+2022-04-06 22:18:43 - commonFunc.py - [line:30] - root - INFO - 5 packets transmitted, 5 received, 0% packet loss, time 121ms
+2022-04-06 22:18:43 - commonFunc.py - [line:30] - root - INFO - rtt min/avg/max/mdev = 0.228/0.301/0.348/0.048 ms
+2022-04-06 22:18:43 - commonFunc.py - [line:30] - root - INFO - 
+2022-04-06 22:18:43 - commonFunc.py - [line:31] - root - INFO - finished exeucting the cmd: ping -w 5 10.239.183.130
+2022-04-06 22:18:43 - sshInstance.py - [line:43] - root - INFO - closing ssh client on SUT
+.2022-04-06 22:21:46 - sshInstance.py - [line:50] - root - INFO - echo 0 > /sys/class/net/ens4f0/device/sriov_numvfs
+2022-04-06 22:21:46 - transport.py - [line:1819] - paramiko.transport - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2022-04-06 22:21:46 - transport.py - [line:1819] - paramiko.transport - INFO - Authentication (password) successful!
+2022-04-06 22:21:47 - sshInstance.py - [line:28] - root - INFO - SSH on SUT: 10.239.183.130
+2022-04-06 22:21:47 - sftp.py - [line:158] - paramiko.transport.sftp - INFO - [chan 1] Opened sftp connection (server version 3)
+2022-04-06 22:21:50 - sshInstance.py - [line:50] - root - INFO - echo 0 > /sys/class/net/ens4f0/device/sriov_numvfs
+2022-04-06 22:21:50 - sshInstance.py - [line:54] - root - INFO - 
+2022-04-06 22:21:58 - sshInstance.py - [line:50] - root - INFO - ifconfig ens4f0 0
+2022-04-06 22:21:58 - sshInstance.py - [line:54] - root - INFO - 
+2022-04-06 22:22:06 - sshInstance.py - [line:50] - root - INFO - ifconfig ens785f0 0
+2022-04-06 22:22:06 - sshInstance.py - [line:54] - root - INFO - 
+2022-04-06 22:22:14 - sshInstance.py - [line:50] - root - INFO - dmesg > /tmp/dmesg.log
+2022-04-06 22:22:14 - sshInstance.py - [line:54] - root - INFO - 
+2022-04-06 22:22:19 - test_nics.py - [line:87] - root - INFO - generate dmesg.log file on sut /tmp/dmesg.log
+2022-04-06 22:22:19 - test_nics.py - [line:89] - root - INFO - copy dmesg.log from sut1 /tmp dir to controller dir /root/testconfig/testlogs/2022-04-06/test_silver_ConnectivityReboot_21_42_38
+2022-04-06 22:22:22 - sshInstance.py - [line:50] - root - INFO - rm -f /tmp/dmesg.log
+2022-04-06 22:22:22 - sshInstance.py - [line:54] - root - INFO - 
+2022-04-06 22:22:27 - test_nics.py - [line:91] - root - INFO - rm dmesg.log on sut1 /tmp dir
+2022-04-06 22:22:27 - sshInstance.py - [line:43] - root - INFO - closing ssh client on SUT
+2022-04-06 22:22:27 - test_nics.py - [line:93] - root - INFO - this is Test_Nics teardown
+2022-04-06 22:22:27 - NicTestFixture.py - [line:35] - root - INFO - ============================ end of run test_silver_ConnectivityReboot case ============================
+2022-04-06 22:22:27 - NicTestFixture.py - [line:27] - root - INFO - case_logpath: /root/testconfig/testlogs/2022-04-06/test_gold_PI_Networking_SRIOV_CheckDevice_22_22_27/test_gold_PI_Networking_SRIOV_CheckDevice.log, case_logdir: /root/testconfig/testlogs/2022-04-06/test_gold_PI_Networking_SRIOV_CheckDevice_22_22_27
+2022-04-06 22:22:27 - NicTestFixture.py - [line:31] - root - INFO - ============================ Starting to run test_gold_PI_Networking_SRIOV_CheckDevice case ============================
+2022-04-06 22:22:27 - test_nics.py - [line:21] - root - INFO - this is Test_Nics setup.
+2022-04-06 22:22:27 - test_nics.py - [line:28] - root - INFO - ssh to the sut1
+2022-04-06 22:22:27 - transport.py - [line:1819] - paramiko.transport - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2022-04-06 22:22:27 - transport.py - [line:1819] - paramiko.transport - INFO - Authentication (password) successful!
+2022-04-06 22:22:27 - sshInstance.py - [line:28] - root - INFO - SSH on SUT: 10.239.183.130
+2022-04-06 22:22:27 - transport.py - [line:1819] - paramiko.transport - INFO - Connected (version 2.0, client OpenSSH_8.0)
+2022-04-06 22:22:27 - transport.py - [line:1819] - paramiko.transport - INFO - Authentication (password) successful!
+2022-04-06 22:22:27 - sshInstance.py - [line:28] - root - INFO - SSH on SUT: 10.239.182.88
+2022-04-06 22:22:27 - sftp.py - [line:158] - paramiko.transport.sftp - INFO - [chan 1] Opened sftp connection (server version 3)
+2022-04-06 22:22:27 - test_nics.py - [line:44] - root - INFO - --Start rmmod irdma --
+2022-04-06 22:22:30 - sshInstance.py - [line:50] - root - INFO - rmmod irdma
+2022-04-06 22:22:30 - sshInstance.py - [line:54] - root - INFO - 
+2022-04-06 22:22:35 - test_nics.py - [line:46] - root - INFO - --Finish rmmod irdma --
+2022-04-06 22:22:35 - test_nics.py - [line:47] - root - INFO - --Start rmmod ice --
+2022-04-06 22:22:38 - sshInstance.py - [line:50] - root - INFO - rmmod ice
+2022-04-06 22:22:44 - sshInstance.py - [line:54] - root - INFO - 
+2022-04-06 22:22:49 - test_nics.py - [line:49] - root - INFO - --Finish rmmod ice --
+2022-04-06 22:22:49 - test_nics.py - [line:50] - root - INFO - --Start modprobe ice --
+2022-04-06 22:22:52 - sshInstance.py - [line:50] - root - INFO - modprobe ice
+2022-04-06 22:23:27 - sshInstance.py - [line:54] - root - INFO - 
+2022-04-06 22:23:32 - test_nics.py - [line:52] - root - INFO - --Finish modprobe ice --
+2022-04-06 22:23:35 - sshInstance.py - [line:50] - root - INFO - ifconfig ens4f0 up
+2022-04-06 22:23:35 - sshInstance.py - [line:54] - root - INFO - 
+2022-04-06 22:23:43 - sshInstance.py - [line:50] - root - INFO - ethtool -i ens4f0 | grep ^version:
+2022-04-06 22:23:43 - sshInstance.py - [line:54] - root - INFO - version: 5.15.0-1005-realtime
+
+2022-04-06 22:23:48 - test_nics.py - [line:58] - root - INFO - Passed: driver version is what expected.
+2022-04-06 22:23:48 - sshInstance.py - [line:190] - root - INFO - start to rmmod irdma....
+2022-04-06 22:23:51 - sshInstance.py - [line:50] - root - INFO - rmmod irdma
+2022-04-06 22:23:51 - sshInstance.py - [line:54] - root - INFO - 
+2022-04-06 22:23:56 - sshInstance.py - [line:193] - root - INFO - finished rmmod irdma....
+2022-04-06 22:23:56 - sshInstance.py - [line:194] - root - INFO - start to rmmod ice....
+2022-04-06 22:23:59 - sshInstance.py - [line:50] - root - INFO - rmmod ice
+2022-04-06 22:24:04 - sshInstance.py - [line:54] - root - INFO - 
+2022-04-06 22:24:09 - sshInstance.py - [line:197] - root - INFO - finished rmmod ice....
+2022-04-06 22:24:09 - sshInstance.py - [line:199] - root - INFO - start to modprobe ice....
+2022-04-06 22:24:12 - sshInstance.py - [line:50] - root - INFO - modprobe ice
+2022-04-06 22:24:47 - sshInstance.py - [line:54] - root - INFO - 
+2022-04-06 22:24:52 - sshInstance.py - [line:201] - root - INFO - finished modprobe ice....
+2022-04-06 22:24:55 - sshInstance.py - [line:50] - root - INFO - ifconfig ens4f0 up
+2022-04-06 22:24:55 - sshInstance.py - [line:54] - root - INFO - 
+2022-04-06 22:25:03 - sshInstance.py - [line:50] - root - INFO - ethtool -i ens4f0
+2022-04-06 22:25:03 - sshInstance.py - [line:54] - root - INFO - driver: ice
+version: 5.15.0-1005-realtime
+firmware-version: 3.10 0x8000ad67 1.3106.0
+expansion-rom-version: 
+bus-info: 0000:6f:00.0
+supports-statistics: yes
+supports-test: yes
+supports-eeprom-access: yes
+supports-register-dump: yes
+supports-priv-flags: yes
+
+2022-04-06 22:25:11 - sshInstance.py - [line:50] - root - INFO - ifconfig ens4f0
+2022-04-06 22:25:11 - sshInstance.py - [line:54] - root - INFO - ens4f0: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        inet6 fe80::b696:91ff:fea0:2140  prefixlen 64  scopeid 0x20<link>
+        ether b4:96:91:a0:21:40  txqueuelen 1000  (Ethernet)
+        RX packets 0  bytes 0 (0.0 B)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 8  bytes 656 (656.0 B)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+
+2022-04-06 22:25:19 - sshInstance.py - [line:50] - root - INFO - ifconfig ens785f0
+2022-04-06 22:25:19 - sshInstance.py - [line:54] - root - INFO - ens785f0: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        inet6 fe80::b696:91ff:fea0:2170  prefixlen 64  scopeid 0x20<link>
+        ether b4:96:91:a0:21:70  txqueuelen 1000  (Ethernet)
+        RX packets 108037  bytes 36925018 (35.2 MiB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 1404  bytes 135159 (131.9 KiB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+
+2022-04-06 22:25:27 - sshInstance.py - [line:50] - root - INFO - echo 4 > /sys/class/net/ens4f0/device/sriov_numvfs
+2022-04-06 22:25:31 - sshInstance.py - [line:54] - root - INFO - 
+2022-04-06 22:25:39 - sshInstance.py - [line:50] - root - INFO - ifconfig ens785f0 192.168.10.11
+
+2022-04-06 22:25:39 - sshInstance.py - [line:54] - root - INFO - 
+2022-04-06 22:25:47 - sshInstance.py - [line:50] - root - INFO - ifconfig ens4f0v0 192.168.10.11
+2022-04-06 22:25:47 - sshInstance.py - [line:54] - root - INFO - 
+2022-04-06 22:25:55 - sshInstance.py - [line:50] - root - INFO - ifconfig ens4f0v1 192.168.10.12
+2022-04-06 22:25:55 - sshInstance.py - [line:54] - root - INFO - 
+2022-04-06 22:26:03 - sshInstance.py - [line:50] - root - INFO - ifconfig ens4f0v2 192.168.10.13
+2022-04-06 22:26:03 - sshInstance.py - [line:54] - root - INFO - 
+2022-04-06 22:26:11 - sshInstance.py - [line:50] - root - INFO - ifconfig ens4f0v3 192.168.10.14
+2022-04-06 22:26:11 - sshInstance.py - [line:54] - root - INFO - 
+2022-04-06 22:26:19 - sshInstance.py - [line:50] - root - INFO - ping -c 5 192.168.10.11
+2022-04-06 22:26:23 - sshInstance.py - [line:54] - root - INFO - PING 192.168.10.11 (192.168.10.11) 56(84) bytes of data.
+64 bytes from 192.168.10.11: icmp_seq=1 ttl=64 time=0.064 ms
+64 bytes from 192.168.10.11: icmp_seq=2 ttl=64 time=0.046 ms
+64 bytes from 192.168.10.11: icmp_seq=3 ttl=64 time=0.021 ms
+64 bytes from 192.168.10.11: icmp_seq=4 ttl=64 time=0.036 ms
+64 bytes from 192.168.10.11: icmp_seq=5 ttl=64 time=0.031 ms
+
+--- 192.168.10.11 ping statistics ---
+5 packets transmitted, 5 received, 0% packet loss, time 4106ms
+rtt min/avg/max/mdev = 0.021/0.039/0.064/0.014 ms
+
+2022-04-06 22:26:31 - sshInstance.py - [line:50] - root - INFO - ifconfig ens4f0v0 up
+2022-04-06 22:26:31 - sshInstance.py - [line:54] - root - INFO - 
+2022-04-06 22:26:39 - sshInstance.py - [line:50] - root - INFO - nmcli device connect ens4f0v0
+2022-04-06 22:26:39 - sshInstance.py - [line:54] - root - INFO - bash: line 1: nmcli: command not found
+
+2022-04-06 22:26:47 - sshInstance.py - [line:50] - root - INFO - ping6 -c 5 -I ens4f0v0 fe80::b696:91ff:fea0:2170
+2022-04-06 22:26:51 - sshInstance.py - [line:54] - root - INFO - ping6: Warning: source address might be selected on device other than: ens4f0v0
+PING fe80::b696:91ff:fea0:2170(fe80::b696:91ff:fea0:2170) from :: ens4f0v0: 56 data bytes
+64 bytes from fe80::b696:91ff:fea0:2170%ens4f0v0: icmp_seq=1 ttl=64 time=0.602 ms
+64 bytes from fe80::b696:91ff:fea0:2170%ens4f0v0: icmp_seq=2 ttl=64 time=0.180 ms
+64 bytes from fe80::b696:91ff:fea0:2170%ens4f0v0: icmp_seq=3 ttl=64 time=0.179 ms
+64 bytes from fe80::b696:91ff:fea0:2170%ens4f0v0: icmp_seq=4 ttl=64 time=0.169 ms
+64 bytes from fe80::b696:91ff:fea0:2170%ens4f0v0: icmp_seq=5 ttl=64 time=0.155 ms
+
+--- fe80::b696:91ff:fea0:2170 ping statistics ---
+5 packets transmitted, 5 received, 0% packet loss, time 4081ms
+rtt min/avg/max/mdev = 0.155/0.257/0.602/0.172 ms
+
+2022-04-06 22:26:59 - sshInstance.py - [line:50] - root - INFO - ping -c 5 192.168.10.11
+2022-04-06 22:27:03 - sshInstance.py - [line:54] - root - INFO - PING 192.168.10.11 (192.168.10.11) 56(84) bytes of data.
+64 bytes from 192.168.10.11: icmp_seq=1 ttl=64 time=0.062 ms
+64 bytes from 192.168.10.11: icmp_seq=2 ttl=64 time=0.056 ms
+64 bytes from 192.168.10.11: icmp_seq=3 ttl=64 time=0.015 ms
+64 bytes from 192.168.10.11: icmp_seq=4 ttl=64 time=0.043 ms
+64 bytes from 192.168.10.11: icmp_seq=5 ttl=64 time=0.015 ms
+
+--- 192.168.10.11 ping statistics ---
+5 packets transmitted, 5 received, 0% packet loss, time 4134ms
+rtt min/avg/max/mdev = 0.015/0.038/0.062/0.019 ms
+
+2022-04-06 22:27:11 - sshInstance.py - [line:50] - root - INFO - ifconfig ens4f0v1 up
+2022-04-06 22:27:11 - sshInstance.py - [line:54] - root - INFO - 
+2022-04-06 22:27:19 - sshInstance.py - [line:50] - root - INFO - nmcli device connect ens4f0v1
+2022-04-06 22:27:19 - sshInstance.py - [line:54] - root - INFO - bash: line 1: nmcli: command not found
+
+2022-04-06 22:27:27 - sshInstance.py - [line:50] - root - INFO - ping6 -c 5 -I ens4f0v1 fe80::b696:91ff:fea0:2170
+2022-04-06 22:27:31 - sshInstance.py - [line:54] - root - INFO - ping6: Warning: source address might be selected on device other than: ens4f0v1
+PING fe80::b696:91ff:fea0:2170(fe80::b696:91ff:fea0:2170) from :: ens4f0v1: 56 data bytes
+64 bytes from fe80::b696:91ff:fea0:2170%ens4f0v1: icmp_seq=1 ttl=64 time=0.545 ms
+64 bytes from fe80::b696:91ff:fea0:2170%ens4f0v1: icmp_seq=2 ttl=64 time=0.178 ms
+64 bytes from fe80::b696:91ff:fea0:2170%ens4f0v1: icmp_seq=3 ttl=64 time=0.191 ms
+64 bytes from fe80::b696:91ff:fea0:2170%ens4f0v1: icmp_seq=4 ttl=64 time=0.174 ms
+64 bytes from fe80::b696:91ff:fea0:2170%ens4f0v1: icmp_seq=5 ttl=64 time=0.160 ms
+
+--- fe80::b696:91ff:fea0:2170 ping statistics ---
+5 packets transmitted, 5 received, 0% packet loss, time 4081ms
+rtt min/avg/max/mdev = 0.160/0.249/0.545/0.148 ms
+
+2022-04-06 22:27:39 - sshInstance.py - [line:50] - root - INFO - ping -c 5 192.168.10.11
+2022-04-06 22:27:44 - sshInstance.py - [line:54] - root - INFO - PING 192.168.10.11 (192.168.10.11) 56(84) bytes of data.
+64 bytes from 192.168.10.11: icmp_seq=1 ttl=64 time=0.063 ms
+64 bytes from 192.168.10.11: icmp_seq=2 ttl=64 time=0.044 ms
+64 bytes from 192.168.10.11: icmp_seq=3 ttl=64 time=0.022 ms
+64 bytes from 192.168.10.11: icmp_seq=4 ttl=64 time=0.017 ms
+64 bytes from 192.168.10.11: icmp_seq=5 ttl=64 time=0.042 ms
+
+--- 192.168.10.11 ping statistics ---
+5 packets transmitted, 5 received, 0% packet loss, time 4133ms
+rtt min/avg/max/mdev = 0.017/0.037/0.063/0.016 ms
+
+2022-04-06 22:27:52 - sshInstance.py - [line:50] - root - INFO - ifconfig ens4f0v2 up
+2022-04-06 22:27:52 - sshInstance.py - [line:54] - root - INFO - 
+2022-04-06 22:28:00 - sshInstance.py - [line:50] - root - INFO - nmcli device connect ens4f0v2
+2022-04-06 22:28:00 - sshInstance.py - [line:54] - root - INFO - bash: line 1: nmcli: command not found
+
+2022-04-06 22:28:08 - sshInstance.py - [line:50] - root - INFO - ping6 -c 5 -I ens4f0v2 fe80::b696:91ff:fea0:2170
+2022-04-06 22:28:12 - sshInstance.py - [line:54] - root - INFO - ping6: Warning: source address might be selected on device other than: ens4f0v2
+PING fe80::b696:91ff:fea0:2170(fe80::b696:91ff:fea0:2170) from :: ens4f0v2: 56 data bytes
+64 bytes from fe80::b696:91ff:fea0:2170%ens4f0v2: icmp_seq=1 ttl=64 time=0.560 ms
+64 bytes from fe80::b696:91ff:fea0:2170%ens4f0v2: icmp_seq=2 ttl=64 time=0.176 ms
+64 bytes from fe80::b696:91ff:fea0:2170%ens4f0v2: icmp_seq=3 ttl=64 time=0.174 ms
+64 bytes from fe80::b696:91ff:fea0:2170%ens4f0v2: icmp_seq=4 ttl=64 time=0.148 ms
+64 bytes from fe80::b696:91ff:fea0:2170%ens4f0v2: icmp_seq=5 ttl=64 time=0.151 ms
+
+--- fe80::b696:91ff:fea0:2170 ping statistics ---
+5 packets transmitted, 5 received, 0% packet loss, time 4082ms
+rtt min/avg/max/mdev = 0.148/0.241/0.560/0.159 ms
+
+2022-04-06 22:28:20 - sshInstance.py - [line:50] - root - INFO - ping -c 5 192.168.10.11
+2022-04-06 22:28:24 - sshInstance.py - [line:54] - root - INFO - PING 192.168.10.11 (192.168.10.11) 56(84) bytes of data.
+64 bytes from 192.168.10.11: icmp_seq=1 ttl=64 time=0.061 ms
+64 bytes from 192.168.10.11: icmp_seq=2 ttl=64 time=0.043 ms
+64 bytes from 192.168.10.11: icmp_seq=3 ttl=64 time=0.031 ms
+64 bytes from 192.168.10.11: icmp_seq=4 ttl=64 time=0.018 ms
+64 bytes from 192.168.10.11: icmp_seq=5 ttl=64 time=0.034 ms
+
+--- 192.168.10.11 ping statistics ---
+5 packets transmitted, 5 received, 0% packet loss, time 4134ms
+rtt min/avg/max/mdev = 0.018/0.037/0.061/0.014 ms
+
+2022-04-06 22:28:32 - sshInstance.py - [line:50] - root - INFO - ifconfig ens4f0v3 up
+2022-04-06 22:28:32 - sshInstance.py - [line:54] - root - INFO - 
+2022-04-06 22:28:40 - sshInstance.py - [line:50] - root - INFO - nmcli device connect ens4f0v3
+2022-04-06 22:28:40 - sshInstance.py - [line:54] - root - INFO - bash: line 1: nmcli: command not found
+
+2022-04-06 22:28:48 - sshInstance.py - [line:50] - root - INFO - ping6 -c 5 -I ens4f0v3 fe80::b696:91ff:fea0:2170
+2022-04-06 22:28:52 - sshInstance.py - [line:54] - root - INFO - ping6: Warning: source address might be selected on device other than: ens4f0v3
+PING fe80::b696:91ff:fea0:2170(fe80::b696:91ff:fea0:2170) from :: ens4f0v3: 56 data bytes
+64 bytes from fe80::b696:91ff:fea0:2170%ens4f0v3: icmp_seq=1 ttl=64 time=0.632 ms
+64 bytes from fe80::b696:91ff:fea0:2170%ens4f0v3: icmp_seq=2 ttl=64 time=0.167 ms
+64 bytes from fe80::b696:91ff:fea0:2170%ens4f0v3: icmp_seq=3 ttl=64 time=0.165 ms
+64 bytes from fe80::b696:91ff:fea0:2170%ens4f0v3: icmp_seq=4 ttl=64 time=0.170 ms
+64 bytes from fe80::b696:91ff:fea0:2170%ens4f0v3: icmp_seq=5 ttl=64 time=0.169 ms
+
+--- fe80::b696:91ff:fea0:2170 ping statistics ---
+5 packets transmitted, 5 received, 0% packet loss, time 4084ms
+rtt min/avg/max/mdev = 0.165/0.260/0.632/0.185 ms
+
+.2022-04-06 22:29:00 - sshInstance.py - [line:50] - root - INFO - echo 0 > /sys/class/net/ens4f0/device/sriov_numvfs
+2022-04-06 22:29:08 - sshInstance.py - [line:54] - root - INFO - 
+2022-04-06 22:29:16 - sshInstance.py - [line:50] - root - INFO - echo 0 > /sys/class/net/ens4f0/device/sriov_numvfs
+2022-04-06 22:29:16 - sshInstance.py - [line:54] - root - INFO - 
+2022-04-06 22:29:24 - sshInstance.py - [line:50] - root - INFO - ifconfig ens4f0 0
+2022-04-06 22:29:24 - sshInstance.py - [line:54] - root - INFO - 
+2022-04-06 22:29:32 - sshInstance.py - [line:50] - root - INFO - ifconfig ens785f0 0
+2022-04-06 22:29:32 - sshInstance.py - [line:54] - root - INFO - 
+2022-04-06 22:29:40 - sshInstance.py - [line:50] - root - INFO - dmesg > /tmp/dmesg.log
+2022-04-06 22:29:40 - sshInstance.py - [line:54] - root - INFO - 
+2022-04-06 22:29:45 - test_nics.py - [line:87] - root - INFO - generate dmesg.log file on sut /tmp/dmesg.log
+2022-04-06 22:29:45 - test_nics.py - [line:89] - root - INFO - copy dmesg.log from sut1 /tmp dir to controller dir /root/testconfig/testlogs/2022-04-06/test_gold_PI_Networking_SRIOV_CheckDevice_22_22_27
+2022-04-06 22:29:48 - sshInstance.py - [line:50] - root - INFO - rm -f /tmp/dmesg.log
+2022-04-06 22:29:48 - sshInstance.py - [line:54] - root - INFO - 
+2022-04-06 22:29:53 - test_nics.py - [line:91] - root - INFO - rm dmesg.log on sut1 /tmp dir
+2022-04-06 22:29:53 - sshInstance.py - [line:43] - root - INFO - closing ssh client on SUT
+2022-04-06 22:29:53 - test_nics.py - [line:93] - root - INFO - this is Test_Nics teardown
+2022-04-06 22:29:53 - NicTestFixture.py - [line:35] - root - INFO - ============================ end of run test_gold_PI_Networking_SRIOV_CheckDevice case ============================
+2022-04-06 22:29:53 - NicTestFixture.py - [line:27] - root - INFO - case_logpath: /root/testconfig/testlogs/2022-04-06/test_PI_Networking_InternetProtocolv4v6_22_29_53/test_PI_Networking_InternetProtocolv4v6.log, case_logdir: /root/testconfig/testlogs/2022-04-06/test_PI_Networking_InternetProtocolv4v6_22_29_53
+2022-04-06 22:29:53 - NicTestFixture.py - [line:31] - root - INFO - ============================ Starting to run test_PI_Networking_InternetProtocolv4v6 case ============================
+2022-04-06 22:29:53 - test_nics.py - [line:21] - root - INFO - this is Test_Nics setup.
+2022-04-06 22:29:53 - test_nics.py - [line:28] - root - INFO - ssh to the sut1
+2022-04-06 22:29:53 - transport.py - [line:1819] - paramiko.transport - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2022-04-06 22:29:53 - transport.py - [line:1819] - paramiko.transport - INFO - Authentication (password) successful!
+2022-04-06 22:29:54 - sshInstance.py - [line:28] - root - INFO - SSH on SUT: 10.239.183.130
+2022-04-06 22:29:54 - transport.py - [line:1819] - paramiko.transport - INFO - Connected (version 2.0, client OpenSSH_8.0)
+2022-04-06 22:29:54 - transport.py - [line:1819] - paramiko.transport - INFO - Authentication (password) successful!
+2022-04-06 22:29:54 - sshInstance.py - [line:28] - root - INFO - SSH on SUT: 10.239.182.88
+2022-04-06 22:29:54 - sftp.py - [line:158] - paramiko.transport.sftp - INFO - [chan 1] Opened sftp connection (server version 3)
+2022-04-06 22:29:54 - test_nics.py - [line:44] - root - INFO - --Start rmmod irdma --
+2022-04-06 22:29:57 - sshInstance.py - [line:50] - root - INFO - rmmod irdma
+2022-04-06 22:29:57 - sshInstance.py - [line:54] - root - INFO - 
+2022-04-06 22:30:02 - test_nics.py - [line:46] - root - INFO - --Finish rmmod irdma --
+2022-04-06 22:30:02 - test_nics.py - [line:47] - root - INFO - --Start rmmod ice --
+2022-04-06 22:30:05 - sshInstance.py - [line:50] - root - INFO - rmmod ice
+2022-04-06 22:30:11 - sshInstance.py - [line:54] - root - INFO - 
+2022-04-06 22:30:16 - test_nics.py - [line:49] - root - INFO - --Finish rmmod ice --
+2022-04-06 22:30:16 - test_nics.py - [line:50] - root - INFO - --Start modprobe ice --
+2022-04-06 22:30:19 - sshInstance.py - [line:50] - root - INFO - modprobe ice
+2022-04-06 22:30:54 - sshInstance.py - [line:54] - root - INFO - 
+2022-04-06 22:30:59 - test_nics.py - [line:52] - root - INFO - --Finish modprobe ice --
+2022-04-06 22:31:02 - sshInstance.py - [line:50] - root - INFO - ifconfig ens4f0 up
+2022-04-06 22:31:02 - sshInstance.py - [line:54] - root - INFO - 
+2022-04-06 22:31:10 - sshInstance.py - [line:50] - root - INFO - ethtool -i ens4f0 | grep ^version:
+2022-04-06 22:31:10 - sshInstance.py - [line:54] - root - INFO - version: 5.15.0-1005-realtime
+
+2022-04-06 22:31:15 - test_nics.py - [line:58] - root - INFO - Passed: driver version is what expected.
+2022-04-06 22:31:15 - sshInstance.py - [line:190] - root - INFO - start to rmmod irdma....
+2022-04-06 22:31:18 - sshInstance.py - [line:50] - root - INFO - rmmod irdma
+2022-04-06 22:31:18 - sshInstance.py - [line:54] - root - INFO - 
+2022-04-06 22:31:23 - sshInstance.py - [line:193] - root - INFO - finished rmmod irdma....
+2022-04-06 22:31:23 - sshInstance.py - [line:194] - root - INFO - start to rmmod ice....
+2022-04-06 22:31:26 - sshInstance.py - [line:50] - root - INFO - rmmod ice
+2022-04-06 22:31:32 - sshInstance.py - [line:54] - root - INFO - 
+2022-04-06 22:31:37 - sshInstance.py - [line:197] - root - INFO - finished rmmod ice....
+2022-04-06 22:31:37 - sshInstance.py - [line:199] - root - INFO - start to modprobe ice....
+2022-04-06 22:31:40 - sshInstance.py - [line:50] - root - INFO - modprobe ice
+2022-04-06 22:32:14 - sshInstance.py - [line:54] - root - INFO - 
+2022-04-06 22:32:19 - sshInstance.py - [line:201] - root - INFO - finished modprobe ice....
+2022-04-06 22:32:22 - sshInstance.py - [line:50] - root - INFO - ifconfig ens4f0 up
+2022-04-06 22:32:22 - sshInstance.py - [line:54] - root - INFO - 
+2022-04-06 22:32:30 - sshInstance.py - [line:50] - root - INFO - ethtool -i ens4f0
+2022-04-06 22:32:30 - sshInstance.py - [line:54] - root - INFO - driver: ice
+version: 5.15.0-1005-realtime
+firmware-version: 3.10 0x8000ad67 1.3106.0
+expansion-rom-version: 
+bus-info: 0000:6f:00.0
+supports-statistics: yes
+supports-test: yes
+supports-eeprom-access: yes
+supports-register-dump: yes
+supports-priv-flags: yes
+
+2022-04-06 22:32:38 - sshInstance.py - [line:50] - root - INFO - ifconfig ens4f0
+2022-04-06 22:32:39 - sshInstance.py - [line:54] - root - INFO - ens4f0: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        inet6 fe80::b696:91ff:fea0:2140  prefixlen 64  scopeid 0x20<link>
+        ether b4:96:91:a0:21:40  txqueuelen 1000  (Ethernet)
+        RX packets 0  bytes 0 (0.0 B)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 8  bytes 656 (656.0 B)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+
+2022-04-06 22:32:47 - sshInstance.py - [line:50] - root - INFO - ifconfig ens785f0
+2022-04-06 22:32:47 - sshInstance.py - [line:54] - root - INFO - ens785f0: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        inet6 fe80::b696:91ff:fea0:2170  prefixlen 64  scopeid 0x20<link>
+        ether b4:96:91:a0:21:70  txqueuelen 1000  (Ethernet)
+        RX packets 108068  bytes 36929060 (35.2 MiB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 1445  bytes 140809 (137.5 KiB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+
+2022-04-06 22:32:55 - sshInstance.py - [line:50] - root - INFO - ifconfig ens4f0 192.168.10.10
+2022-04-06 22:32:55 - sshInstance.py - [line:54] - root - INFO - 
+2022-04-06 22:33:03 - sshInstance.py - [line:50] - root - INFO - ifconfig ens785f0 192.168.10.11
+2022-04-06 22:33:03 - sshInstance.py - [line:54] - root - INFO - 
+2022-04-06 22:33:11 - sshInstance.py - [line:50] - root - INFO - ping -w 5 192.168.10.11
+2022-04-06 22:33:16 - sshInstance.py - [line:54] - root - INFO - PING 192.168.10.11 (192.168.10.11) 56(84) bytes of data.
+64 bytes from 192.168.10.11: icmp_seq=1 ttl=64 time=0.390 ms
+64 bytes from 192.168.10.11: icmp_seq=2 ttl=64 time=0.161 ms
+64 bytes from 192.168.10.11: icmp_seq=3 ttl=64 time=0.150 ms
+64 bytes from 192.168.10.11: icmp_seq=4 ttl=64 time=0.147 ms
+64 bytes from 192.168.10.11: icmp_seq=5 ttl=64 time=0.146 ms
+
+--- 192.168.10.11 ping statistics ---
+5 packets transmitted, 5 received, 0% packet loss, time 4124ms
+rtt min/avg/max/mdev = 0.146/0.198/0.390/0.095 ms
+
+2022-04-06 22:33:24 - sshInstance.py - [line:50] - root - INFO - ping6 -c 5 -I ens4f0 fe80::b696:91ff:fea0:2170
+2022-04-06 22:33:28 - sshInstance.py - [line:54] - root - INFO - ping6: Warning: source address might be selected on device other than: ens4f0
+PING fe80::b696:91ff:fea0:2170(fe80::b696:91ff:fea0:2170) from :: ens4f0: 56 data bytes
+64 bytes from fe80::b696:91ff:fea0:2170%ens4f0: icmp_seq=1 ttl=64 time=0.644 ms
+64 bytes from fe80::b696:91ff:fea0:2170%ens4f0: icmp_seq=2 ttl=64 time=0.172 ms
+64 bytes from fe80::b696:91ff:fea0:2170%ens4f0: icmp_seq=3 ttl=64 time=0.168 ms
+64 bytes from fe80::b696:91ff:fea0:2170%ens4f0: icmp_seq=4 ttl=64 time=0.153 ms
+64 bytes from fe80::b696:91ff:fea0:2170%ens4f0: icmp_seq=5 ttl=64 time=0.153 ms
+
+--- fe80::b696:91ff:fea0:2170 ping statistics ---
+5 packets transmitted, 5 received, 0% packet loss, time 4089ms
+rtt min/avg/max/mdev = 0.153/0.258/0.644/0.193 ms
+
+.2022-04-06 22:33:36 - sshInstance.py - [line:50] - root - INFO - echo 0 > /sys/class/net/ens4f0/device/sriov_numvfs
+2022-04-06 22:33:36 - sshInstance.py - [line:54] - root - INFO - 
+2022-04-06 22:33:44 - sshInstance.py - [line:50] - root - INFO - echo 0 > /sys/class/net/ens4f0/device/sriov_numvfs
+2022-04-06 22:33:44 - sshInstance.py - [line:54] - root - INFO - 
+2022-04-06 22:33:52 - sshInstance.py - [line:50] - root - INFO - ifconfig ens4f0 0
+2022-04-06 22:33:52 - sshInstance.py - [line:54] - root - INFO - 
+2022-04-06 22:34:00 - sshInstance.py - [line:50] - root - INFO - ifconfig ens785f0 0
+2022-04-06 22:34:00 - sshInstance.py - [line:54] - root - INFO - 
+2022-04-06 22:34:08 - sshInstance.py - [line:50] - root - INFO - dmesg > /tmp/dmesg.log
+2022-04-06 22:34:08 - sshInstance.py - [line:54] - root - INFO - 
+2022-04-06 22:34:13 - test_nics.py - [line:87] - root - INFO - generate dmesg.log file on sut /tmp/dmesg.log
+2022-04-06 22:34:13 - test_nics.py - [line:89] - root - INFO - copy dmesg.log from sut1 /tmp dir to controller dir /root/testconfig/testlogs/2022-04-06/test_PI_Networking_InternetProtocolv4v6_22_29_53
+2022-04-06 22:34:16 - sshInstance.py - [line:50] - root - INFO - rm -f /tmp/dmesg.log
+2022-04-06 22:34:16 - sshInstance.py - [line:54] - root - INFO - 
+2022-04-06 22:34:21 - test_nics.py - [line:91] - root - INFO - rm dmesg.log on sut1 /tmp dir
+2022-04-06 22:34:21 - sshInstance.py - [line:43] - root - INFO - closing ssh client on SUT
+2022-04-06 22:34:21 - test_nics.py - [line:93] - root - INFO - this is Test_Nics teardown
+2022-04-06 22:34:21 - NicTestFixture.py - [line:35] - root - INFO - ============================ end of run test_PI_Networking_InternetProtocolv4v6 case ============================
+2022-04-06 22:34:21 - NicTestFixture.py - [line:27] - root - INFO - case_logpath: /root/testconfig/testlogs/2022-04-06/test_PI_Networking_Link_State_Check_22_34_21/test_PI_Networking_Link_State_Check.log, case_logdir: /root/testconfig/testlogs/2022-04-06/test_PI_Networking_Link_State_Check_22_34_21
+2022-04-06 22:34:21 - NicTestFixture.py - [line:31] - root - INFO - ============================ Starting to run test_PI_Networking_Link_State_Check case ============================
+2022-04-06 22:34:21 - test_nics.py - [line:21] - root - INFO - this is Test_Nics setup.
+2022-04-06 22:34:21 - test_nics.py - [line:28] - root - INFO - ssh to the sut1
+2022-04-06 22:34:21 - transport.py - [line:1819] - paramiko.transport - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2022-04-06 22:34:21 - transport.py - [line:1819] - paramiko.transport - INFO - Authentication (password) successful!
+2022-04-06 22:34:22 - sshInstance.py - [line:28] - root - INFO - SSH on SUT: 10.239.183.130
+2022-04-06 22:34:22 - transport.py - [line:1819] - paramiko.transport - INFO - Connected (version 2.0, client OpenSSH_8.0)
+2022-04-06 22:34:22 - transport.py - [line:1819] - paramiko.transport - INFO - Authentication (password) successful!
+2022-04-06 22:34:22 - sshInstance.py - [line:28] - root - INFO - SSH on SUT: 10.239.182.88
+2022-04-06 22:34:22 - sftp.py - [line:158] - paramiko.transport.sftp - INFO - [chan 1] Opened sftp connection (server version 3)
+2022-04-06 22:34:22 - test_nics.py - [line:44] - root - INFO - --Start rmmod irdma --
+2022-04-06 22:34:25 - sshInstance.py - [line:50] - root - INFO - rmmod irdma
+2022-04-06 22:34:25 - sshInstance.py - [line:54] - root - INFO - 
+2022-04-06 22:34:30 - test_nics.py - [line:46] - root - INFO - --Finish rmmod irdma --
+2022-04-06 22:34:30 - test_nics.py - [line:47] - root - INFO - --Start rmmod ice --
+2022-04-06 22:34:33 - sshInstance.py - [line:50] - root - INFO - rmmod ice
+2022-04-06 22:34:39 - sshInstance.py - [line:54] - root - INFO - 
+2022-04-06 22:34:44 - test_nics.py - [line:49] - root - INFO - --Finish rmmod ice --
+2022-04-06 22:34:44 - test_nics.py - [line:50] - root - INFO - --Start modprobe ice --
+2022-04-06 22:34:47 - sshInstance.py - [line:50] - root - INFO - modprobe ice
+2022-04-06 22:35:21 - sshInstance.py - [line:54] - root - INFO - 
+2022-04-06 22:35:26 - test_nics.py - [line:52] - root - INFO - --Finish modprobe ice --
+2022-04-06 22:35:29 - sshInstance.py - [line:50] - root - INFO - ifconfig ens4f0 up
+2022-04-06 22:35:29 - sshInstance.py - [line:54] - root - INFO - 
+2022-04-06 22:35:37 - sshInstance.py - [line:50] - root - INFO - ethtool -i ens4f0 | grep ^version:
+2022-04-06 22:35:37 - sshInstance.py - [line:54] - root - INFO - version: 5.15.0-1005-realtime
+
+2022-04-06 22:35:42 - test_nics.py - [line:58] - root - INFO - Passed: driver version is what expected.
+2022-04-06 22:35:42 - sshInstance.py - [line:190] - root - INFO - start to rmmod irdma....
+2022-04-06 22:35:45 - sshInstance.py - [line:50] - root - INFO - rmmod irdma
+2022-04-06 22:35:45 - sshInstance.py - [line:54] - root - INFO - 
+2022-04-06 22:35:50 - sshInstance.py - [line:193] - root - INFO - finished rmmod irdma....
+2022-04-06 22:35:50 - sshInstance.py - [line:194] - root - INFO - start to rmmod ice....
+2022-04-06 22:35:53 - sshInstance.py - [line:50] - root - INFO - rmmod ice
+2022-04-06 22:35:59 - sshInstance.py - [line:54] - root - INFO - 
+2022-04-06 22:36:04 - sshInstance.py - [line:197] - root - INFO - finished rmmod ice....
+2022-04-06 22:36:04 - sshInstance.py - [line:199] - root - INFO - start to modprobe ice....
+2022-04-06 22:36:07 - sshInstance.py - [line:50] - root - INFO - modprobe ice
+2022-04-06 22:36:41 - sshInstance.py - [line:54] - root - INFO - 
+2022-04-06 22:36:46 - sshInstance.py - [line:201] - root - INFO - finished modprobe ice....
+2022-04-06 22:36:49 - sshInstance.py - [line:50] - root - INFO - ifconfig ens4f0 up
+2022-04-06 22:36:49 - sshInstance.py - [line:54] - root - INFO - 
+2022-04-06 22:36:57 - sshInstance.py - [line:50] - root - INFO - ethtool -i ens4f0
+2022-04-06 22:36:57 - sshInstance.py - [line:54] - root - INFO - driver: ice
+version: 5.15.0-1005-realtime
+firmware-version: 3.10 0x8000ad67 1.3106.0
+expansion-rom-version: 
+bus-info: 0000:6f:00.0
+supports-statistics: yes
+supports-test: yes
+supports-eeprom-access: yes
+supports-register-dump: yes
+supports-priv-flags: yes
+
+2022-04-06 22:37:05 - sshInstance.py - [line:50] - root - INFO - ifconfig ens4f0
+2022-04-06 22:37:05 - sshInstance.py - [line:54] - root - INFO - ens4f0: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        inet6 fe80::b696:91ff:fea0:2140  prefixlen 64  scopeid 0x20<link>
+        ether b4:96:91:a0:21:40  txqueuelen 1000  (Ethernet)
+        RX packets 0  bytes 0 (0.0 B)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 8  bytes 656 (656.0 B)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+
+2022-04-06 22:37:13 - sshInstance.py - [line:50] - root - INFO - ifconfig ens785f0
+2022-04-06 22:37:13 - sshInstance.py - [line:54] - root - INFO - ens785f0: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        inet6 fe80::b696:91ff:fea0:2170  prefixlen 64  scopeid 0x20<link>
+        ether b4:96:91:a0:21:70  txqueuelen 1000  (Ethernet)
+        RX packets 108085  bytes 36931450 (35.2 MiB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 1472  bytes 144868 (141.4 KiB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+
+2022-04-06 22:37:21 - sshInstance.py - [line:50] - root - INFO - /root/dpdk-stable-20.11.3/usertools/dpdk-devbind.py -s | grep ens4f0 | awk '{print $1;}'
+2022-04-06 22:37:22 - sshInstance.py - [line:54] - root - INFO - 0000:6f:00.0
+
+2022-04-06 22:37:30 - sshInstance.py - [line:50] - root - INFO - lspci -vvs 00:6f:00.0 | grep LnkCap:
+2022-04-06 22:37:30 - sshInstance.py - [line:54] - root - INFO - 		LnkCap:	Port #0, Speed 16GT/s, Width x16, ASPM not supported
+
+2022-04-06 22:37:38 - sshInstance.py - [line:50] - root - INFO - lspci -vvs 00:6f:00.0 | grep LnkSta:
+2022-04-06 22:37:38 - sshInstance.py - [line:54] - root - INFO - 		LnkSta:	Speed 16GT/s (ok), Width x16 (ok)
+
+2022-04-06 22:37:43 - test_nics.py - [line:266] - root - INFO - --check the speed and width of the ethernet ens4f0
+2022-04-06 22:37:43 - test_nics.py - [line:270] - root - INFO - the linkCap and LnkSta value are matched. The speed and width value are: 16GT/s and Width x16.
+.2022-04-06 22:37:46 - sshInstance.py - [line:50] - root - INFO - echo 0 > /sys/class/net/ens4f0/device/sriov_numvfs
+2022-04-06 22:37:46 - sshInstance.py - [line:54] - root - INFO - 
+2022-04-06 22:37:54 - sshInstance.py - [line:50] - root - INFO - echo 0 > /sys/class/net/ens4f0/device/sriov_numvfs
+2022-04-06 22:37:54 - sshInstance.py - [line:54] - root - INFO - 
+2022-04-06 22:38:02 - sshInstance.py - [line:50] - root - INFO - ifconfig ens4f0 0
+2022-04-06 22:38:02 - sshInstance.py - [line:54] - root - INFO - 
+2022-04-06 22:38:10 - sshInstance.py - [line:50] - root - INFO - ifconfig ens785f0 0
+2022-04-06 22:38:10 - sshInstance.py - [line:54] - root - INFO - 
+2022-04-06 22:38:18 - sshInstance.py - [line:50] - root - INFO - dmesg > /tmp/dmesg.log
+2022-04-06 22:38:18 - sshInstance.py - [line:54] - root - INFO - 
+2022-04-06 22:38:23 - test_nics.py - [line:87] - root - INFO - generate dmesg.log file on sut /tmp/dmesg.log
+2022-04-06 22:38:23 - test_nics.py - [line:89] - root - INFO - copy dmesg.log from sut1 /tmp dir to controller dir /root/testconfig/testlogs/2022-04-06/test_PI_Networking_Link_State_Check_22_34_21
+2022-04-06 22:38:26 - sshInstance.py - [line:50] - root - INFO - rm -f /tmp/dmesg.log
+2022-04-06 22:38:26 - sshInstance.py - [line:54] - root - INFO - 
+2022-04-06 22:38:31 - test_nics.py - [line:91] - root - INFO - rm dmesg.log on sut1 /tmp dir
+2022-04-06 22:38:31 - sshInstance.py - [line:43] - root - INFO - closing ssh client on SUT
+2022-04-06 22:38:31 - test_nics.py - [line:93] - root - INFO - this is Test_Nics teardown
+2022-04-06 22:38:31 - NicTestFixture.py - [line:35] - root - INFO - ============================ end of run test_PI_Networking_Link_State_Check case ============================
+                              [100%]
+
+=============================== warnings summary ===============================
+npxtester/Tests/testNics/test_iperf_client_4hour.py:88
+  /root/.jenkins/workspace/spr-test-nicSilver/npxtester/Tests/testNics/test_iperf_client_4hour.py:88: PytestUnknownMarkWarning: Unknown pytest.mark.iperf_tcp - is this a typo?  You can register custom marks to avoid this warning - for details, see https://docs.pytest.org/en/stable/mark.html
+    @pytest.mark.iperf_tcp
+
+npxtester/Tests/testNics/test_iperf_client_4hour.py:137
+  /root/.jenkins/workspace/spr-test-nicSilver/npxtester/Tests/testNics/test_iperf_client_4hour.py:137: PytestUnknownMarkWarning: Unknown pytest.mark.iperf_udp - is this a typo?  You can register custom marks to avoid this warning - for details, see https://docs.pytest.org/en/stable/mark.html
+    @pytest.mark.iperf_udp
+
+npxtester/Tests/testNics/test_mtu.py:69
+  /root/.jenkins/workspace/spr-test-nicSilver/npxtester/Tests/testNics/test_mtu.py:69: PytestUnknownMarkWarning: Unknown pytest.mark.two_sut_CVL - is this a typo?  You can register custom marks to avoid this warning - for details, see https://docs.pytest.org/en/stable/mark.html
+    @pytest.mark.two_sut_CVL
+
+npxtester/Tests/testNics/test_mtu.py:70
+  /root/.jenkins/workspace/spr-test-nicSilver/npxtester/Tests/testNics/test_mtu.py:70: PytestUnknownMarkWarning: Unknown pytest.mark.nicSimple - is this a typo?  You can register custom marks to avoid this warning - for details, see https://docs.pytest.org/en/stable/mark.html
+    @pytest.mark.nicSimple
+
+npxtester/Tests/testNics/test_mtu.py:109
+  /root/.jenkins/workspace/spr-test-nicSilver/npxtester/Tests/testNics/test_mtu.py:109: PytestUnknownMarkWarning: Unknown pytest.mark.two_sut_CVL - is this a typo?  You can register custom marks to avoid this warning - for details, see https://docs.pytest.org/en/stable/mark.html
+    @pytest.mark.two_sut_CVL
+
+npxtester/Tests/testNics/test_mtu.py:110
+  /root/.jenkins/workspace/spr-test-nicSilver/npxtester/Tests/testNics/test_mtu.py:110: PytestUnknownMarkWarning: Unknown pytest.mark.nicSimple - is this a typo?  You can register custom marks to avoid this warning - for details, see https://docs.pytest.org/en/stable/mark.html
+    @pytest.mark.nicSimple
+
+npxtester/Tests/testNics/test_network_sriov_stress.py:565
+  /root/.jenkins/workspace/spr-test-nicSilver/npxtester/Tests/testNics/test_network_sriov_stress.py:565: PytestUnknownMarkWarning: Unknown pytest.mark.nicSriov5times - is this a typo?  You can register custom marks to avoid this warning - for details, see https://docs.pytest.org/en/stable/mark.html
+    @pytest.mark.nicSriov5times
+
+npxtester/Tests/testNics/test_network_sriov_stress.py:691
+  /root/.jenkins/workspace/spr-test-nicSilver/npxtester/Tests/testNics/test_network_sriov_stress.py:691: PytestUnknownMarkWarning: Unknown pytest.mark.nicSriov2hours - is this a typo?  You can register custom marks to avoid this warning - for details, see https://docs.pytest.org/en/stable/mark.html
+    @pytest.mark.nicSriov2hours
+
+npxtester/Tests/testNics/test_network_sriov_stress.py:931
+  /root/.jenkins/workspace/spr-test-nicSilver/npxtester/Tests/testNics/test_network_sriov_stress.py:931: PytestUnknownMarkWarning: Unknown pytest.mark.SriovVfIperf - is this a typo?  You can register custom marks to avoid this warning - for details, see https://docs.pytest.org/en/stable/mark.html
+    @pytest.mark.SriovVfIperf
+
+npxtester/Tests/testNics/test_network_sriov_stress.py:1067
+  /root/.jenkins/workspace/spr-test-nicSilver/npxtester/Tests/testNics/test_network_sriov_stress.py:1067: PytestUnknownMarkWarning: Unknown pytest.mark.nicIperfTcpSUTGuestStress - is this a typo?  You can register custom marks to avoid this warning - for details, see https://docs.pytest.org/en/stable/mark.html
+    @pytest.mark.nicIperfTcpSUTGuestStress
+
+npxtester/Tests/testNics/test_network_sriov_stress.py:1068
+  /root/.jenkins/workspace/spr-test-nicSilver/npxtester/Tests/testNics/test_network_sriov_stress.py:1068: PytestUnknownMarkWarning: Unknown pytest.mark.SriovVfIperf - is this a typo?  You can register custom marks to avoid this warning - for details, see https://docs.pytest.org/en/stable/mark.html
+    @pytest.mark.SriovVfIperf
+
+npxtester/Tests/testNics/test_nics.py:100
+  /root/.jenkins/workspace/spr-test-nicSilver/npxtester/Tests/testNics/test_nics.py:100: PytestUnknownMarkWarning: Unknown pytest.mark.nicSimple - is this a typo?  You can register custom marks to avoid this warning - for details, see https://docs.pytest.org/en/stable/mark.html
+    @pytest.mark.nicSimple
+
+npxtester/Tests/testNics/test_nics.py:126
+  /root/.jenkins/workspace/spr-test-nicSilver/npxtester/Tests/testNics/test_nics.py:126: PytestUnknownMarkWarning: Unknown pytest.mark.nicSimple - is this a typo?  You can register custom marks to avoid this warning - for details, see https://docs.pytest.org/en/stable/mark.html
+    @pytest.mark.nicSimple
+
+npxtester/Tests/testNics/test_nics.py:156
+  /root/.jenkins/workspace/spr-test-nicSilver/npxtester/Tests/testNics/test_nics.py:156: PytestUnknownMarkWarning: Unknown pytest.mark.nicSimple - is this a typo?  You can register custom marks to avoid this warning - for details, see https://docs.pytest.org/en/stable/mark.html
+    @pytest.mark.nicSimple
+
+npxtester/Tests/testNics/test_nics.py:227
+  /root/.jenkins/workspace/spr-test-nicSilver/npxtester/Tests/testNics/test_nics.py:227: PytestUnknownMarkWarning: Unknown pytest.mark.nicSimple - is this a typo?  You can register custom marks to avoid this warning - for details, see https://docs.pytest.org/en/stable/mark.html
+    @pytest.mark.nicSimple
+
+npxtester/Tests/testNics/test_nics.py:253
+  /root/.jenkins/workspace/spr-test-nicSilver/npxtester/Tests/testNics/test_nics.py:253: PytestUnknownMarkWarning: Unknown pytest.mark.nicSimple - is this a typo?  You can register custom marks to avoid this warning - for details, see https://docs.pytest.org/en/stable/mark.html
+    @pytest.mark.nicSimple
+
+npxtester/Tests/testNics/test_nics.py:296
+  /root/.jenkins/workspace/spr-test-nicSilver/npxtester/Tests/testNics/test_nics.py:296: PytestUnknownMarkWarning: Unknown pytest.mark.nicSimple - is this a typo?  You can register custom marks to avoid this warning - for details, see https://docs.pytest.org/en/stable/mark.html
+    @pytest.mark.nicSimple
+
+-- Docs: https://docs.pytest.org/en/stable/warnings.html
+- generated html file: file:///root/testconfig/testlogs/HtmlReport/nicSilver_report.html -
+========== 5 passed, 14 deselected, 17 warnings in 3798.40s (1:03:18) ==========
+[8mha:////4DDaF6xD1n97fCJC17HEPtC4MvFSxjBMoUPdpyGs71EZAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIioEIoFa3lhheYxBgn1l2wHZyKF/E1/oBFJCq2WO1sM683LIOHmr3BTlNvKTQWBzeavDCx76+OE3Z8wYYpsNModZLc6tOMkqOGOUUJCwErTY3jYMlEWItOPVTlFJnqHH3+jgJK297hCYXI5qh8/MLkYXMb28D08/wVwDREKHeHXPvt8AGMzKKgvgAAAA==[0m[Pipeline] echo
+0
+[8mha:////4JdwCG2vyNU1vR63Cq0h1I9fweuZdBzoUYFbNZMa07ZpAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIihQohqrRWGl5gYmOcWHfGdkgqXsTX+AMWkajYYrWzzbzesI4BThwM9poGS7Gz6N1o8sKJw3B1PGHPF+yYIjuNrZ5aVrpZsOWkYUlRwkrARlPnOFoyCbailw9ZOUmmOqeQv6OA0qo7PKEQ2ZxkSF+YA+xuo4pMP89fAcw+QVkfcu1r/wFPn4+LvgAAAA==[0m[Pipeline] sh
++ sed -i $'s/\r//g' /root/.jenkins/workspace/spr-test-nicSilver/npxtester/log_analyzer/log_analyzer.sh
+[8mha:////4J0lAWMm8HuBR5s3oE3lokuIt9KB2+AHQUkjEiJ+aQGpAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPMKRSIUQVVorDS8w8WGcWHfGdkgqXsTX+AMWkajYYrWzzbzesI4BThyM6JEGS7GzwrvR5CUmDsPV8SR6voiOKbJD0eLUssZmwZYTwpKihJWEDVLnOFoyCbayVw9VOUWmOqeQv6OE0uo7PKGQ2ZxUSF+YA+xuo45MP89fAcw+Qbk/5Kpr/wEOrpSSvgAAAA==[0m[Pipeline] sh
++ chmod a+x /root/.jenkins/workspace/spr-test-nicSilver/npxtester/log_analyzer/log_analyzer.sh
+[8mha:////4Mt0DSsxkJzZfVcF7hGhEOllvDy/ttdaA/Rf0YiZvcahAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiAQ1CqWgtN7zAJMY4se6C7eBUvIiv8QcsIlGxxWpnm3m9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKYhQrk95Nrthw/JONXdvgAAAA==[0m[Pipeline] sh
++ sh /root/.jenkins/workspace/spr-test-nicSilver/npxtester/log_analyzer/log_analyzer.sh
+[8mha:////4BJ3niM699yfMaO4XlYckMNVxHBxF/A/6tXrT01aXGOTAAAAph+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIigSgQSkVrueEFJjHGiXUXbAen4kV8jT9gEYmKLVY728zrDcvgoWZvsNPUWwqNxcGNJi9M7Pur44QdX7BhCuw0Sp0kt/o0o+SoYU5RwkLASlPjOFgyEdaiUw9VOUWmOkefv6OA0rZ3eEIhsjkqH78wedjcxjYw/Tx/BTANQ4Ryt8+1PXwARMxJg74AAAA=[0m[Pipeline] }
+[8mha:////4KLOGR+83vgrLFidGueNeEu4h+87+yS5qW1q0kigPKEkAAAAph+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIigYSQUCpayw0vMIkxTqy7YDs4FS/ia/wBi0hUbLHa2WZeb1gGDzV7g52m3lJoLA5uNHlhYt9fHSfs+IINU2CnUeokudWnGSVHDXOKEhYCVpoax8GSibAWnXqoyiky1Tn6/B0FlLa9wxMKkc1R+fiFycPmNraB6ef5K4BpGCKUu32u7eEDfI7acr4AAAA=[0m[Pipeline] // script
+[8mha:////4B/bjeg5xruNbbx3kITLupXWvVAJcKllvbrOrw34K5MTAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiQZECUaW10vACExvjxLoztkNS8SK+xh+wiETFFqudbeb1hnUMcOJgsNc0WIqdRe9GkxdOHIar4wl7vmDHFNlpbPXUstLNgi0nDUuKElYCNpo6x9GSSbAVvXzIykky1TmF/B0FlFbd4QmFyOYkQ/rCHGB3G1Vk+nn+CmD2PkF5qHPt6w9IQDkpvgAAAA==[0m[Pipeline] }
+[8mha:////4Pysn2p6Cuaw38A5WKCzX3hZbaQrVsudvseeZZRTcVjBAAAAph+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIigYSQUCpayw0vMIkxTqy7YDs4FS/ia/wBi0hUbLHa2WZeb1gGDzV7g52m3lJoLA5uNHlhYt9fHSfs+IINU2CnUeokudWnGSVHDXOKEhYCVpoax8GSibAWnXqoyiky1Tn6/B0FlLa9wxMKkc1R+fiFycPmNraB6ef5K4BpGCKUu0Ou7f4DC8Jor74AAAA=[0m[Pipeline] // stage
+[8mha:////4AtNwyaW/AZqBd3OKxZrkWfAC6zB3HxngMFQ9sJmqFs1AAAAox+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIpoEGIitZKwwtMYowT6y7YF5KKF/E1/kBEJCq22plmXm8sU8SRo1ONpdZTqrzqQu+mpwaO7TXwoBq+qIopcbCqtEPJtT3NWLJYzMtyLDRWlqrAyZMTrHVjHqYIhlxxlji5g0bu6zueyPRUFhPlC2PE5tbXienX+RvA2HWCfLsXZLsP/+idkr0AAAA=[0m[Pipeline] }
+[8mha:////4I5dJP3UyABwbWbQZBRGWAtgfXC/GfHsQ3SW1rlV0+rIAAAAox+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMJBgg5R0VppeIFJjHFi3QX7QlLxIr7GH4iIRMVWO9PM641lijhydKqx1HpKlVdd6N301MCxvQYeVMMXVTElDlaVdii5tqcZSxaLeVmOhcbKUhU4eXKCtW7MwxTBkCvOEid30Mh9fccTmZ7KYqJ8YYzY3Po6Mf06fwMYu06Q77eCbPcBlS/sHL0AAAA=[0m[Pipeline] // node
+[8mha:////4OCxxHdXTRYePL6pNSOSjI/nVmiKF6Ardumg4UkWHzykAAAAox+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIRiA5R0VppeIFJjHFi3QX7QlLxIr7GH4iIRMVWO9PM641lijhydKqx1HpKlVdd6N301MCxvQYeVMMXVTElDlaVdii5tqcZSxaLeVmOhcbKUhU4eXKCtW7MwxTBkCvOEid30Mh9fccTmZ7KYqJ8YYzY3Po6Mf06fwMYu06Q77eCbPcBszaLVr0AAAA=[0m[Pipeline] End of Pipeline
+Finished: SUCCESS
