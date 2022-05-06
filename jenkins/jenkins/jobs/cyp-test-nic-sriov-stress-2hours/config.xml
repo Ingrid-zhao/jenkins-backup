@@ -41,12 +41,19 @@
       <permission>hudson.model.Run.Delete:exec-admin</permission>
       <permission>hudson.model.Run.Update:exec-admin</permission>
     </hudson.security.AuthorizationMatrixProperty>
+    <org.jenkinsci.plugins.workflow.job.properties.PipelineTriggersJobProperty>
+      <triggers>
+        <hudson.triggers.TimerTrigger>
+          <spec>H 20 * * *</spec>
+        </hudson.triggers.TimerTrigger>
+      </triggers>
+    </org.jenkinsci.plugins.workflow.job.properties.PipelineTriggersJobProperty>
     <hudson.model.ParametersDefinitionProperty>
       <parameterDefinitions>
         <hudson.model.StringParameterDefinition>
           <name>token</name>
           <description>测试机IP</description>
-          <defaultValue>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</defaultValue>
+          <defaultValue>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</defaultValue>
           <trim>false</trim>
         </hudson.model.StringParameterDefinition>
         <hudson.model.StringParameterDefinition>
@@ -135,13 +142,6 @@
         </hudson.model.StringParameterDefinition>
       </parameterDefinitions>
     </hudson.model.ParametersDefinitionProperty>
-    <org.jenkinsci.plugins.workflow.job.properties.PipelineTriggersJobProperty>
-      <triggers>
-        <hudson.triggers.TimerTrigger>
-          <spec>H 23 * * *</spec>
-        </hudson.triggers.TimerTrigger>
-      </triggers>
-    </org.jenkinsci.plugins.workflow.job.properties.PipelineTriggersJobProperty>
   </properties>
   <definition class="org.jenkinsci.plugins.workflow.cps.CpsFlowDefinition" plugin="workflow-cps@2.94">
     <script>pipeline {
@@ -149,7 +149,7 @@
         label &apos;controller-j&apos;
     }
     parameters {
-    	string defaultValue: &apos;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&apos;, description: &apos;测试机IP&apos;, name: &apos;token&apos;, trim: false
+    	string defaultValue: &apos;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&apos;, description: &apos;测试机IP&apos;, name: &apos;token&apos;, trim: false
     	string defaultValue: &apos;github.com/intel-innersource/applications.validation.network-platform.npxtester.git&apos;, description: &apos;github repo url&apos;, name: &apos;git_repo_url&apos;, trim: false
         string defaultValue: &apos;10.239.182.209&apos;, description: &apos;测试机IP&apos;, name: &apos;sut1_ip&apos;, trim: false
 	    string defaultValue: &apos;ens785f2&apos;, description: &apos;sut1 pf1 name&apos;, name: &apos;pf1&apos;, trim: false

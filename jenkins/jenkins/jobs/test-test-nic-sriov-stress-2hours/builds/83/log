@@ -1,0 +1,622 @@
+Started by user [8mha:////4C8zTO/v0UlG+vQ5Fjm5jTf9kR93yL5yxTMP2X04T9v8AAAAlh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyWEgYu/dLi1CL9ovz8EgDKVWzSvwAAAA==[0mroot
+Running in Durability level: MAX_SURVIVABILITY
+[8mha:////4DOlrZhma2TKYqx8mtRBwGXVE8Xt4z3OJyo/zi+ICDdzAAAAoh+LCAAAAAAAAP9tjTEOwjAQBM8BClpKHuFItIiK1krDC0x8GCfWnbEdkooX8TX+gCESFVvtrLSa5wtWKcKBo5UdUu8otU4GP9jS5Mixv3geZcdn2TIl9igbHBs2eJyx4YwwR1SwULBGaj0nRzbDRnX6rmuvydanHMu2V1A5c4MHCFXMWcf8hSnC9jqYxPTz/BXAFEIGsfuclm8zQVqFvQAAAA==[0m[Pipeline] Start of Pipeline
+[8mha:////4B4K7nOhvaaLmbeE3w0NEhE1GAALwLDjakw9plXgkY6XAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycohUghExsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jduZBmjwAAAAA==[0m[Pipeline] node
+Running on [8mha:////4C8PgMHPegRpCg8+HpIiIHK02uxvuQktJylkqRHkJagNAAAAox+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzeEgYJ/eT83ILSktQiICOvpCg/Jye1SNfSUh8ABjlyb80AAAA=[0mcontroller-99 in /root/.jenkins/workspace/test-test-nic-sriov-stress-2hours
+[8mha:////4NUxBMzN6CtFAbQ4pdo7pH8ZuwVHigLf0SdP3FcjQTwyAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gA0xsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jfoP95RwAAAAA==[0m[Pipeline] {
+[8mha:////4OCB1+Up79PmV3LnMeomKr9r+JFCKkFjAfTpr2UorbLOAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gQkxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jc09154wAAAAA==[0m[Pipeline] stage
+[8mha:////4N6KQN35K8CT/Pcr9a+R4oOEu4uEh3phvpB1t67zd2hmAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0ggUxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jek7ggRwAAAAA==[0m[Pipeline] { (rm project dir)
+[8mha:////4EWjgIQS1R18e39T6LdOu3ZpSMSXMburmKwxJHd8e163AAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gwExsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jcChmMxwAAAAA==[0m[Pipeline] script
+[8mha:////4NOJ/YVWDlnnBpjDdLKlLZkF5LrR387vblsx7fWhZkPlAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0BAkxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jfpX/cvwAAAAA==[0m[Pipeline] {
+[8mha:////4MAm0moKTc8Eo2PcB0LgkHNHI7Xtf5Poej2Mf/l8xh/lAAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQTbaoyVLaHxBMgiwpL/WWDdrTyRV/MOEjexcpJJ5k3zXm9Y5wQnSpZ7g73DrB2PYbR18YlSfws0cU9XrgkzBcOlmSR15rygpGJgCWtgJWBjUAfKDm2BrfDqodqg0LaXkup3FNC4boAnMFHNRaXyhTnB7j52mfDn+SuAORZg+9pD/AAeoCAqvAAAAA==[0m[Pipeline] sh
++ ls /root/.jenkins/workspace/test-test-nic-sriov-stress-2hours/npxtester
+1.0.0.0001.version
+conf
+installation
+libs
+log_analyzer
+README.md
+testconf
+testLibs
+Tests
+[8mha:////4F3BY6hez6Yn9lSF4dYULOlz4RwK0Fdsp1OYWtj0vxDtAAAAox+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMKBDglR0VppeIFJjHFi3QX7QlLxIr7GH4iIRMVWO9PM641lijhydKqx1HpKlVdd6N301MCxvQYeVMMXVTElDlaVdii5tqcZSxaLeVmOhcbKUhU4eXKCtW7MwxTBkCvOEid30Mh9fccTmZ7KYqJ8YYzY3Po6Mf06fwMYO0G2F+S7bfcBITL9lL0AAAA=[0m[Pipeline] echo
+dir is exists and rm dir
+[8mha:////4KL1cTFlC/t8/0LRf71hJwxXIUFLIMviWtcIHXR2W8epAAAAox+LCAAAAAAAAP9tjbEOgjAURS8YB1dHP6KEzcQ4uTYsfkGFWgvNe9g+hMkv8tf8B4kkTt7pnrOc1xvrFHHk6FRrqfOUaq/6MLj5qZFjdw08qpYvqmZKHKyq7FhxY08LViwWy7IcK42NpTpw8uQEW92ahymCIVecJc7uoJH75o4nMj2XxUT5whSxuw1NYvp1/gYw9YJsL8jLsv8AYAPmjb0AAAA=[0m[Pipeline] sh
++ rm -rf /root/.jenkins/workspace/test-test-nic-sriov-stress-2hours/npxtester
+[8mha:////4GzJynz9IX3CLl34e/1JpYOeLz7FDsqMtIihCtFGqNpZAAAAox+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIRVEiIitZKwwtMYowT6y7YF5KKF/E1/kBEJCq22plmXm8sU8SRo1ONpdZTqrzqQu+mpwaO7TXwoBq+qIopcbCqtEPJtT3NWLJYzMtyLDRWlqrAyZMTrHVjHqYIhlxxlji5g0bu6zueyPRUFhPlC2PE5tbXienX+RvA2HWCfLsTZPsPzjQzob0AAAA=[0m[Pipeline] }
+[8mha:////4MvApYhNLg1xEFG2iXyHCog7Z9h4MbdAsNSDoK4wJnDgAAAApB+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIRoqBAVLRWGl5gEmOcWHfBvpBUvIiv8QciIlGx1c4083pjmSKOHJ1qLLWeUuVVF3o3PTVwbK+BB9XwRVVMiYNVpR1Kru1pxpLFYl6WY6GxslQFTp6cYK0b8zBFMOSKs8TJHTRyX9/xRKanspgoXxgjNre+Tky/zt8Axq4T5NudINt/AO8A7Ay9AAAA[0m[Pipeline] // script
+[8mha:////4P1g47DHQeYIMdAQPrqVFJW5XTEYSJkMqP0k+p1upCWxAAAApB+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIREqJBVLRWGl5gEmOcWHfBvpBUvIiv8QciIlGx1c4083pjmSKOHJ1qLLWeUuVVF3o3PTVwbK+BB9XwRVVMiYNVpR1Kru1pxpLFYl6WY6GxslQFTp6cYK0b8zBFMOSKs8TJHTRyX9/xRKanspgoXxgjNre+Tky/zt8Axq4T5NudINt/AGnsy8m9AAAA[0m[Pipeline] }
+[8mha:////4Lc6WrLYEiiAC7rTWY8q4RQPGu1FD+hrgClvEqpzcg2sAAAAox+LCAAAAAAAAP9tjTESgjAQRT84FraWHiKMBZVjZZuh8QQRYgxkdjFZhMoTeTXvICMzVv7qv9e81xvrFHHk6FRrqfOUaq/6MLj5qZFjdw08qpYvqmZKHKyq7FhxY08LViwWy7IcK42NpTpw8uQEW92ahymCIVecJc7uoJH75o4nMj2XxUT5whSxuw1NYvp1/gYw9b0g35eCrPwAY5Sibb0AAAA=[0m[Pipeline] // stage
+[8mha:////4LPzYIRsJlP9vBl87WR2FbvV5590n9jZkqHCRBijPEs5AAAApx+LCAAAAAAAAP9tjTEOwjAQBM9BKWgpeYQjJESDqGgtN7zAxMY4se6CfSGpeBFf4w8EIlGx1c5Kq3m+oMwJDpS8bBy2AXMdZBd7PzU5UGovkQbZ0FnWhJmik9oNmqw7zqiJHcwRBSwULB3WkXJAz7BSjbmbKhr01YnTtO0VFMHe4AFCTWY2ib8wJlhfe5sJf56/Ahg7BrFlKDa7z7F8A6sHc4fBAAAA[0m[Pipeline] stage
+[8mha:////4P0yjWfQiEwQxZO7i9obwDXrYwQclNR3i//1CTGbFwBFAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohULDAgpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD1+IXOLCAAAA[0m[Pipeline] { (clone)
+[8mha:////4I3tKNYAz7At397ZkNOs6SFwEn2bzn3ZBhsoegW1dhRwAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiKpAQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGPIUG53n9qHNxXfVKy+AAAA[0m[Pipeline] sh
++ git clone -b develop https://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@github.com/intel-innersource/applications.validation.network-platform.npxtester.git npxtester
+Cloning into 'npxtester'...
+[8mha:////4CRWXV91kUhqh2bTVXI+2n5U32cQ89nJ7yub5blKQ29bAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiKoQQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGMIGcrt/lO7N9Jjga++AAAA[0m[Pipeline] }
+[8mha:////4I4ZVrOFMvh2sVfxnfT9s6+paGHoH9OzkxEwdR4h+nRDAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOICFDQoFa3lhheYxBgn1l2wHZyKF/E1/oBFJCq2WO1sM683LIOHmr3BTlNvKTQWBzeavDCx76+OE3Z8wYYpsNModZLc6tOMkqOGOUUJCwErTY3jYMlEWItOPVTlFJnqHH3+jgJK297hCYXI5qh8/MLkYXMb28D08/wVwDQMEcr9Ntfu8AERGGHOvgAAAA==[0m[Pipeline] // stage
+[8mha:////4J4BpfnRrLE6odVrNZGgZ11wIRy0HYHBalvcHAcD12j/AAAAph+LCAAAAAAAAP9tjTEOwjAQBM9BKWgpeYQjEB2iorXc8AITG+PEugv2haTiRXyNPxCIRMVWOyut5vmCMic4UPKycdgGzHWQXez91ORAqb1EGmRDZ1kTZopOajdosu44oyZ2MEcUsFCwdFhHygE9w0o15m6qaNBXJ07TtldQBHuDBwg1mdkk/sKYYH3tbSb8ef4KYOwYxI6h2G4+x/INji2eq8EAAAA=[0m[Pipeline] stage
+[8mha:////4AgPhGmio4pMNzq5gItmuDxswb3P5dwyIofUIBdMXBTmAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+DOrAycohUdEVMrFEXThCaEJJG/7dJSjpxIq7GHWipxIQHy7ZkvdcbyhjgRMFwp7GzGFvLez+aOfFMobt5ytzRlbeEkbzmjc4NKX1ea0NJw6qCwUbAVmPrKVo0CXbCyYesvERTXVKYt6MAZtUATyjETE4ypG+ZAuzvo4qEP85fAEx9AlYfFquXZ/kBAsTc3cIAAAA=[0m[Pipeline] { (set args)
+[8mha:////4G9dxluK5ut2lxdfo2JVi6OIov1ZH/881VUFzuPzanonAAAAox+LCAAAAAAAAP9tjTESwiAURH/iWNhaeggyE0vHypah8QSYIEKY/wkQSeWJvJp3EM2MlVvs7NvmPV+wjgGOFDSzCgeDsTPMu0mXxTKF4eooM0sX1hFGcooJlQX16rSgoKRgSVXDisNGYecoGtQJttzKu2ycRN2cUyjfgUNt+hEeUPFiTjKkL8wBdrepj4Q/z18BzD5B3baf2vs3w5BRkb4AAAA=[0m[Pipeline] sh
++ python /root/.jenkins/workspace/test-test-nic-sriov-stress-2hours/npxtester/conf/change_args.py '{"drive_info":{"drive_version":"1.6.4"},"dpdk_dir":"/opt/APP/utility/DPDK_install/dpdk-stable-20.11.1/","vm_image_conf":{"image1":"rhel.img","image2":"rhel2.img","image3":"rhel84rt.img","image4":"rhel84rt2.img","image_dir":"/home/image"},"sut_conf":{"host":"10.112.97.62","run_time":"60","pf1":"ens2f0","os":"RHEL"},"pkg_generator":{"host":"10.112.97.60","pf1":"ens2f1"}}'
+[8mha:////4FhUQONKPXFSeOjFO92QKbtxv93cUzSuhB7hx3xoWX6KAAAApB+LCAAAAAAAAP9tjbEOwiAURV9rHFwd/QiaNG7GyZWw+AXYIkLJexSodPKL/DX/QbSJk3e4uecu5/mCdQxwpKCZVTgYjJ1h3k26LJYpDFdHmVm6sI4wklNMqCyoV6cFBSUFS6oaVhw2CjtH0aBOsOVW3mXjJOrmnEL5Dhxq04/wgIoXc5IhfWEOsLtNfST8ef4KYPY+Qd3uP9W+Ad3NsHm+AAAA[0m[Pipeline] }
+[8mha:////4EpM1Tihe33kOTBucrClpdwMCq1FF6wGwTU/AEOZmYaNAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIikKgQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGMIGcrd/lPbN8JP5Su+AAAA[0m[Pipeline] // stage
+[8mha:////4JJk4NQMkVX21N+ktknOqKLQw+FD2VU/fvD8dhBPuambAAAApx+LCAAAAAAAAP9tjTEOwjAQBM9BKWgpeYQjIUSDqGgtN7zAxMY4se6CfSGpeBFf4w8EIlGx1c5Kq3m+oMwJDpS8bBy2AXMdZBd7PzU5UGovkQbZ0FnWhJmik9oNmqw7zqiJHcwRBSwULB3WkXJAz7BSjbmbKhr01YnTtO0VFMHe4AFCTWY2ib8wJlhfe5sJf56/Ahg7BrFlKDa7z7F8AzYdm7bBAAAA[0m[Pipeline] stage
+[8mha:////4GToWcz1lEtttcc1F67+obVKf97ChyGWoNBgdNb8ln6iAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUYoABMXWNsnCC0ISQNvq//KS0EyfiatyBlkpMeLBsS9Z7vaGIDCdiJxqLrcdYe9GF3k1JDMTtNdAgGrqImjBSsELZQZGx1VIVJQuLshxWEtYW60DRo0uwkY1+6DJodOU58bQdJeTe3OEJmZzISXP6lpFhe+tNJPxx/gJg7BLku/1sh/lZfAAyQCqkwgAAAA==[0m[Pipeline] { (run nic case)
+[8mha:////4M/BBJOrvLliK1a64sS7A0hf4H4seiclg8D1IX9OqKAVAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIi0YCEqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDhnK7+9Q+vAGvZp0gvgAAAA==[0m[Pipeline] sh
++ pytest /root/.jenkins/workspace/test-test-nic-sriov-stress-2hours/npxtester/Tests/testNics -s -m nicSriov2hours --capture=tee-sys --html=/root/testconfig/testlogs/HtmlReport/nic_sriov2hours_case_report.html --self-contained-html
+============================= test session starts ==============================
+platform linux -- Python 3.6.8, pytest-6.2.4, py-1.11.0, pluggy-0.13.1
+rootdir: /root/.jenkins/workspace/test-test-nic-sriov-stress-2hours/npxtester/Tests/testNics, configfile: pytest.ini
+plugins: metadata-1.11.0, html-2.1.1
+collected 19 items / 18 deselected / 1 selected
+
+npxtester/Tests/testNics/test_network_sriov_stress.py 2022-04-24 09:24:45 - NicTestFixture.py - [line:27] - root - INFO - case_logpath: /root/testconfig/testlogs/2022-04-24/test_PI_Networking_SRIOV_StressTrafficBetweenPFVFAndTestClientFor2Hours_VM_Guest[rhel2.img-rhel.img]_09_24_45/test_PI_Networking_SRIOV_StressTrafficBetweenPFVFAndTestClientFor2Hours_VM_Guest[rhel2.img-rhel.img].log, case_logdir: /root/testconfig/testlogs/2022-04-24/test_PI_Networking_SRIOV_StressTrafficBetweenPFVFAndTestClientFor2Hours_VM_Guest[rhel2.img-rhel.img]_09_24_45
+2022-04-24 09:24:45 - NicTestFixture.py - [line:31] - root - INFO - ============================ Starting to run test_PI_Networking_SRIOV_StressTrafficBetweenPFVFAndTestClientFor2Hours_VM_Guest[rhel2.img-rhel.img] case ============================
+2022-04-24 09:24:45 - test_network_sriov_stress.py - [line:32] - root - INFO - SSH SUT and setup configurations in the setup function.
+2022-04-24 09:24:45 - test_network_sriov_stress.py - [line:50] - root - INFO - ssh to the sut1
+2022-04-24 09:24:45 - transport.py - [line:1819] - paramiko.transport - INFO - Connected (version 2.0, client OpenSSH_8.0)
+2022-04-24 09:24:45 - transport.py - [line:1819] - paramiko.transport - INFO - Authentication (password) successful!
+2022-04-24 09:24:45 - sshInstance.py - [line:28] - root - INFO - SSH on SUT: 10.112.97.62
+2022-04-24 09:24:45 - transport.py - [line:1819] - paramiko.transport - INFO - Connected (version 2.0, client OpenSSH_8.0)
+2022-04-24 09:24:45 - transport.py - [line:1819] - paramiko.transport - INFO - Authentication (password) successful!
+2022-04-24 09:24:45 - sshInstance.py - [line:28] - root - INFO - SSH on SUT: 10.112.97.60
+2022-04-24 09:24:45 - test_network_sriov_stress.py - [line:64] - root - INFO - clean up iperf and taskset process...
+2022-04-24 09:24:48 - sshInstance.py - [line:50] - root - INFO - pkill -9 iperf
+2022-04-24 09:24:48 - sshInstance.py - [line:54] - root - INFO - 
+2022-04-24 09:24:56 - sshInstance.py - [line:50] - root - INFO - pkill -9 taskset
+2022-04-24 09:24:56 - sshInstance.py - [line:54] - root - INFO - 
+2022-04-24 09:25:04 - sshInstance.py - [line:50] - root - INFO - pkill -9 iperf
+2022-04-24 09:25:05 - sshInstance.py - [line:54] - root - INFO - 
+2022-04-24 09:25:13 - sshInstance.py - [line:50] - root - INFO - pkill -9 taskset
+2022-04-24 09:25:13 - sshInstance.py - [line:54] - root - INFO - 
+2022-04-24 09:25:18 - sftp.py - [line:158] - paramiko.transport.sftp - INFO - [chan 3] Opened sftp connection (server version 3)
+2022-04-24 09:25:18 - sshInstance.py - [line:199] - root - INFO - start to rmmod irdma....
+2022-04-24 09:25:21 - sshInstance.py - [line:50] - root - INFO - rmmod irdma
+2022-04-24 09:25:21 - sshInstance.py - [line:54] - root - INFO - rmmod: ERROR: Module irdma is not currently loaded
+
+2022-04-24 09:25:26 - sshInstance.py - [line:202] - root - INFO - finished rmmod irdma....
+2022-04-24 09:25:26 - sshInstance.py - [line:203] - root - INFO - start to rmmod ice....
+2022-04-24 09:25:29 - sshInstance.py - [line:50] - root - INFO - rmmod ice
+2022-04-24 09:25:33 - sshInstance.py - [line:54] - root - INFO - 
+2022-04-24 09:25:38 - sshInstance.py - [line:206] - root - INFO - finished rmmod ice....
+2022-04-24 09:25:38 - sshInstance.py - [line:208] - root - INFO - start to modprobe ice....
+2022-04-24 09:25:41 - sshInstance.py - [line:50] - root - INFO - modprobe ice
+2022-04-24 09:25:46 - sshInstance.py - [line:54] - root - INFO - 
+2022-04-24 09:25:51 - sshInstance.py - [line:210] - root - INFO - finished modprobe ice....
+2022-04-24 09:25:54 - sshInstance.py - [line:50] - root - INFO - ethtool -i ens2f0
+2022-04-24 09:25:54 - sshInstance.py - [line:54] - root - INFO - driver: ice
+version: 1.6.4
+firmware-version: 2.50 0x80006a16 1.2852.0
+expansion-rom-version: 
+bus-info: 0000:4b:00.0
+supports-statistics: yes
+supports-test: yes
+supports-eeprom-access: yes
+supports-register-dump: yes
+supports-priv-flags: yes
+
+2022-04-24 09:25:59 - test_network_sriov_stress.py - [line:72] - root - INFO - try to get ipv6 of pf for redhat...
+2022-04-24 09:25:59 - sshInstance.py - [line:187] - root - INFO - starting to delete network of ens2f0:
+2022-04-24 09:26:05 - sshInstance.py - [line:99] - root - INFO - Activate the web console with: systemctl enable --now cockpit.socket
+This system is not registered to Red Hat Insights. See https://cloud.redhat.com/
+To register this system, run: insights-client --register
+Last login: Sun Apr 24 09:25:43 2022 from 10.239.182.99
+[root@WW25ICX2 ~]# nmcli connection delete ens2f0
+Connection 'ens2f0' (d6ebc036-809f-40ca-8c3c-699ca655134f) successfully deleted.
+[root@WW25ICX2 ~]# 
+2022-04-24 09:26:08 - sshInstance.py - [line:189] - root - INFO - restart networkManager to make setting valid
+2022-04-24 09:26:14 - sshInstance.py - [line:99] - root - INFO - systemctl restart NetworkManager
+[root@WW25ICX2 ~]# 
+2022-04-24 09:26:17 - sshInstance.py - [line:192] - root - INFO - starting to add network of ens2f0:
+2022-04-24 09:26:23 - sshInstance.py - [line:99] - root - INFO - nmcli connection add type ethernet con-name ens2f0 ifname ens22f0
+Connection 'ens2f0' (728a0160-0fa4-4920-9503-24bbb7ac570b) successfully added.
+[root@WW25ICX2 ~]# 
+2022-04-24 09:26:26 - sshInstance.py - [line:195] - root - INFO - restart networkManager to make setting valid
+2022-04-24 09:26:32 - sshInstance.py - [line:99] - root - INFO - systemctl restart NetworkManager
+[root@WW25ICX2 ~]# 
+2022-04-24 09:26:35 - test_network_sriov_stress.py - [line:79] - root - INFO - trying to get ipv6 addr for pf1
+2022-04-24 09:26:38 - sshInstance.py - [line:50] - root - INFO - ifconfig ens2f0
+2022-04-24 09:26:38 - sshInstance.py - [line:54] - root - INFO - ens2f0: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        inet6 fe80::9e30:c40e:6ab0:c40b  prefixlen 64  scopeid 0x20<link>
+        ether b4:96:91:9c:f7:a4  txqueuelen 1000  (Ethernet)
+        RX packets 0  bytes 0 (0.0 B)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 44  bytes 7433 (7.2 KiB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+
+2022-04-24 09:26:46 - sshInstance.py - [line:50] - root - INFO - ifconfig ens2f1
+2022-04-24 09:26:46 - sshInstance.py - [line:54] - root - INFO - ens2f1: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        inet6 fe80::b696:91ff:fea5:9b45  prefixlen 64  scopeid 0x20<link>
+        ether b4:96:91:a5:9b:45  txqueuelen 1000  (Ethernet)
+        RX packets 95221541979  bytes 144161160877191 (131.1 TiB)
+        RX errors 0  dropped 327  overruns 0  frame 0
+        TX packets 4204229751  bytes 314012534833 (292.4 GiB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+
+2022-04-24 09:26:54 - sshInstance.py - [line:50] - root - INFO - /opt/APP/utility/DPDK_install/dpdk-stable-20.11.1/usertools/dpdk-devbind.py -s | grep ens2f0 | awk '{print $1;}'
+2022-04-24 09:26:55 - sshInstance.py - [line:54] - root - INFO - 0000:4b:00.0
+
+2022-04-24 09:27:00 - test_network_sriov_stress.py - [line:130] - root - INFO - pf_id was found: 0000:4b:00.0
+
+2022-04-24 09:27:00 - test_network_sriov_stress.py - [line:730] - root - INFO - format_pf_id is 0000\:4b\:00.0
+
+2022-04-24 09:27:00 - test_network_sriov_stress.py - [line:733] - root - INFO - pf_id_key: 4b
+2022-04-24 09:27:00 - test_network_sriov_stress.py - [line:737] - root - INFO - Start assgin sut1 192.168.10.10 ip
+2022-04-24 09:27:06 - sshInstance.py - [line:99] - root - INFO - ifconfig ens2f0 192.168.10.10
+[root@WW25ICX2 ~]# 
+2022-04-24 09:27:09 - test_network_sriov_stress.py - [line:339] - root - INFO - Successfully assigned ip to ethernet: ens2f0
+2022-04-24 09:27:09 - test_network_sriov_stress.py - [line:739] - root - INFO - Start assgin sut2 192.168.10.11 ip
+2022-04-24 09:27:15 - sshInstance.py - [line:99] - root - INFO - Activate the web console with: systemctl enable --now cockpit.socket
+This system is not registered to Red Hat Insights. See https://cloud.redhat.com/
+To register this system, run: insights-client --register
+Last login: Sun Apr 24 09:13:56 2022 from 10.239.182.99
+[root@localhost ~]# ifconfig ens2f1 192.168.10.11
+[root@localhost ~]# 
+2022-04-24 09:27:18 - test_network_sriov_stress.py - [line:339] - root - INFO - Successfully assigned ip to ethernet: ens2f1
+2022-04-24 09:27:18 - test_network_sriov_stress.py - [line:136] - root - INFO - virtulize sut1 pf to 4 vfs
+2022-04-24 09:27:21 - sshInstance.py - [line:50] - root - INFO - echo 4 > /sys/class/net/ens2f0/device/sriov_numvfs
+2022-04-24 09:27:21 - sshInstance.py - [line:54] - root - INFO - 
+2022-04-24 09:27:26 - test_network_sriov_stress.py - [line:145] - root - INFO - Successfully Virtualized PF to VFs.
+2022-04-24 09:27:29 - sshInstance.py - [line:50] - root - INFO - lspci | grep "Virtual" |grep 4b | awk '{print $1;}'list
+2022-04-24 09:27:29 - sshInstance.py - [line:54] - root - INFO - 4b:01.0
+4b:01.1
+4b:01.2
+4b:01.3
+
+2022-04-24 09:27:34 - test_network_sriov_stress.py - [line:159] - root - INFO - Succssfully Gotten vf_id list:
+
+2022-04-24 09:27:37 - sshInstance.py - [line:50] - root - INFO - modprobe vfio-pci
+
+2022-04-24 09:27:37 - sshInstance.py - [line:54] - root - INFO - 
+2022-04-24 09:27:42 - test_network_sriov_stress.py - [line:179] - root - INFO - start to bind drive in sut1
+2022-04-24 09:27:45 - sshInstance.py - [line:50] - root - INFO - /opt/APP/utility/DPDK_install/dpdk-stable-20.11.1/usertools/dpdk-devbind.py -b vfio-pci 4b:01.0
+2022-04-24 09:27:46 - sshInstance.py - [line:54] - root - INFO - 
+2022-04-24 09:27:51 - test_network_sriov_stress.py - [line:193] - root - INFO - Successfuly bound VF to vfio-pci
+2022-04-24 09:27:54 - sshInstance.py - [line:50] - root - INFO - /opt/APP/utility/DPDK_install/dpdk-stable-20.11.1/usertools/dpdk-devbind.py -b vfio-pci 4b:01.1
+2022-04-24 09:27:55 - sshInstance.py - [line:54] - root - INFO - 
+2022-04-24 09:28:00 - test_network_sriov_stress.py - [line:193] - root - INFO - Successfuly bound VF to vfio-pci
+2022-04-24 09:28:00 - test_network_sriov_stress.py - [line:758] - root - INFO - lspci -Dnn | grep 4b:01.1
+2022-04-24 09:28:03 - sshInstance.py - [line:50] - root - INFO - lspci -Dnn | grep 4b:01.1
+2022-04-24 09:28:03 - sshInstance.py - [line:54] - root - INFO - 0000:4b:01.1 Ethernet controller [0200]: Intel Corporation Ethernet Adaptive Virtual Function [8086:1889] (rev 02)
+
+2022-04-24 09:28:08 - test_network_sriov_stress.py - [line:770] - root - INFO - Successfully get vf device id: 8086:1889
+2022-04-24 09:28:08 - test_network_sriov_stress.py - [line:216] - root - INFO - get default network info: virsh net-info default | grep "Active" | awk '{print $2;}'
+2022-04-24 09:28:11 - sshInstance.py - [line:50] - root - INFO - virsh net-info default | grep "Active" | awk '{print $2;}'
+2022-04-24 09:28:11 - sshInstance.py - [line:54] - root - INFO - yes
+
+2022-04-24 09:28:16 - test_network_sriov_stress.py - [line:219] - root - INFO - Default network is active? yes
+
+2022-04-24 09:28:16 - test_network_sriov_stress.py - [line:780] - root - INFO - start to create VMs....
+2022-04-24 09:28:16 - test_network_sriov_stress.py - [line:249] - root - INFO - try to create VM with the cmd1: virt-install --name VMtest1 --ram 4096 --cpu host --vcpus=5 --network network=default --hostdev pci_0000_4b_01_0 --boot hd --disk path=/home/image/rhel2.img,size=50,format=qcow2 --osinfo rhel8.2 --graphics vnc,listen=0.0.0.0,port=5900 --noautoconsole
+
+2022-04-24 09:28:20 - sshInstance.py - [line:75] - root - INFO - virt-install --name VMtest1 --ram 4096 --cpu host --vcpus=5 ---network network=default --hostdev pci_0000_4b_01_0 --boot hd --disk path=/home/iimage/rhel2.img,size=50,format=qcow2 --osinfo rhel8.2 --graphics vnc,listen=0.0.00.0,port=5900 --noautoconsole
+usage: virt-install --name NAME --memory MB STORAGE INSTALL [options]
+virt-install: error: unrecognized arguments: --osinfo rhel8.2
+[root@WW25ICX2 ~]# 
+2022-04-24 09:28:23 - test_network_sriov_stress.py - [line:252] - root - INFO - cmd1 is not working, try to create VM with the cmd2: virt-install --name VMtest1 --ram 4096 --cpu host --vcpus=5 --network network=default --hostdev pci_0000_4b_01_0 --boot hd --disk path=/home/image/rhel2.img,size=50,format=qcow2 --graphics vnc,listen=0.0.0.0,port=5900 --noautoconsole
+
+2022-04-24 09:28:27 - sshInstance.py - [line:75] - root - INFO - virt-install --name VMtest1 --ram 4096 --cpu host --vcpus=5 ---network network=default --hostdev pci_0000_4b_01_0 --boot hd --disk path=/home/iimage/rhel2.img,size=50,format=qcow2 --graphics vnc,listen=0.0.0.0,port=5900 --nooautoconsole
+2022-04-24 09:28:28 - sshInstance.py - [line:75] - root - INFO - 
+** (process:96445): [1;33mWARNING[0m **: [34m09:29:39.313[0m: Entity http://pcisig.com/pci/1B36/0100 referenced but not defined
+WARNING  No operating system detected, VM performance may suffer. Specify an OS with --os-variant for optimal results.
+
+Starting install...
+2022-04-24 09:28:29 - sshInstance.py - [line:75] - root - INFO - Domain creation completed.
+[root@WW25ICX2 ~]# 
+2022-04-24 09:28:32 - test_network_sriov_stress.py - [line:266] - root - INFO - Successfully created a VM: VMtest1
+2022-04-24 09:28:32 - test_network_sriov_stress.py - [line:249] - root - INFO - try to create VM with the cmd1: virt-install --name VMtest2 --ram 4096 --cpu host --vcpus=5 --network network=default --hostdev pci_0000_4b_01_1 --boot hd --disk path=/home/image/rhel.img,size=50,format=qcow2 --osinfo rhel8.2 --graphics vnc,listen=0.0.0.0,port=5901 --noautoconsole
+
+2022-04-24 09:28:36 - sshInstance.py - [line:75] - root - INFO - virt-install --name VMtest2 --ram 4096 --cpu host --vcpus=5 ---network network=default --hostdev pci_0000_4b_01_1 --boot hd --disk path=/home/iimage/rhel.img,size=50,format=qcow2 --osinfo rhel8.2 --graphics vnc,listen=0.0.0..0,port=5901 --noautoconsole
+usage: virt-install --name NAME --memory MB STORAGE INSTALL [options]
+virt-install: error: unrecognized arguments: --osinfo rhel8.2
+[root@WW25ICX2 ~]# 
+2022-04-24 09:28:39 - test_network_sriov_stress.py - [line:252] - root - INFO - cmd1 is not working, try to create VM with the cmd2: virt-install --name VMtest2 --ram 4096 --cpu host --vcpus=5 --network network=default --hostdev pci_0000_4b_01_1 --boot hd --disk path=/home/image/rhel.img,size=50,format=qcow2 --graphics vnc,listen=0.0.0.0,port=5901 --noautoconsole
+
+2022-04-24 09:28:43 - sshInstance.py - [line:75] - root - INFO - virt-install --name VMtest2 --ram 4096 --cpu host --vcpus=5 ---network network=default --hostdev pci_0000_4b_01_1 --boot hd --disk path=/home/iimage/rhel.img,size=50,format=qcow2 --graphics vnc,listen=0.0.0.0,port=5901 --noaautoconsole
+
+** (process:96518): [1;33mWARNING[0m **: [34m09:29:55.164[0m: Entity http://pcisig.com/pci/1B36/0100 referenced but not defined
+WARNING  No operating system detected, VM performance may suffer. Specify an OS with --os-variant for optimal results.
+
+Starting install...
+2022-04-24 09:28:45 - sshInstance.py - [line:75] - root - INFO - Domain creation completed.
+[root@WW25ICX2 ~]# 
+2022-04-24 09:28:48 - test_network_sriov_stress.py - [line:266] - root - INFO - Successfully created a VM: VMtest2
+2022-04-24 09:28:51 - sshInstance.py - [line:50] - root - INFO - virsh domifaddr VMtest1 | grep '192.168' | awk '{print $4;}'
+2022-04-24 09:28:51 - sshInstance.py - [line:54] - root - INFO - 
+2022-04-24 09:28:56 - test_network_sriov_stress.py - [line:287] - root - ERROR - not found IP of VMtest1
+2022-04-24 09:30:00 - sshInstance.py - [line:50] - root - INFO - virsh domifaddr VMtest1 | grep '192.168' | awk '{print $4;}'
+2022-04-24 09:30:00 - sshInstance.py - [line:54] - root - INFO - 192.168.122.170/24
+
+2022-04-24 09:30:05 - test_network_sriov_stress.py - [line:282] - root - INFO - Successfully got VMtest1 IP: 192.168.122.170/24
+
+2022-04-24 09:30:08 - sshInstance.py - [line:50] - root - INFO - virsh domifaddr VMtest2 | grep '192.168' | awk '{print $4;}'
+2022-04-24 09:30:08 - sshInstance.py - [line:54] - root - INFO - 192.168.122.103/24
+
+2022-04-24 09:30:13 - test_network_sriov_stress.py - [line:282] - root - INFO - Successfully got VMtest2 IP: 192.168.122.103/24
+
+2022-04-24 09:30:13 - test_network_sriov_stress.py - [line:799] - root - INFO - Start ssh vm1 and conf VM
+2022-04-24 09:30:19 - sshInstance.py - [line:99] - root - INFO - ssh-key -R 192.168.122.170
+bash: ssh-key: command not found...
+[root@WW25ICX2 ~]# 
+2022-04-24 09:30:26 - sshInstance.py - [line:75] - root - INFO - ping -c 5 192.168.122.170
+PING 192.168.122.170 (192.168.122.170) 56(84) bytes of data.
+64 bytes from 192.168.122.170: icmp_seq=1 ttl=64 time=0.323 ms
+2022-04-24 09:30:27 - sshInstance.py - [line:75] - root - INFO - 64 bytes from 192.168.122.170: icmp_seq=2 ttl=64 time=0.237 ms
+2022-04-24 09:30:28 - sshInstance.py - [line:75] - root - INFO - 64 bytes from 192.168.122.170: icmp_seq=3 ttl=64 time=0.239 ms
+2022-04-24 09:30:29 - sshInstance.py - [line:75] - root - INFO - 64 bytes from 192.168.122.170: icmp_seq=4 ttl=64 time=0.205 ms
+2022-04-24 09:30:30 - sshInstance.py - [line:75] - root - INFO - 64 bytes from 192.168.122.170: icmp_seq=5 ttl=64 time=0.330 ms
+
+--- 192.168.122.170 ping statistics ---
+5 packets transmitted, 5 received, 0% packet loss, time 4112ms
+rtt min/avg/max/mdev = 0.205/0.266/0.330/0.054 ms
+[root@WW25ICX2 ~]# 
+2022-04-24 09:30:39 - sshInstance.py - [line:99] - root - INFO - ssh root@192.168.122.170
+The authenticity of host '192.168.122.170 (192.168.122.170)' can't be established.
+ECDSA key fingerprint is SHA256:vvHK6I/jHGy2fzdl/G6T0UNy5lxm9JF6HMSp3puyNSE.
+Are you sure you want to continue connecting (yes/no/[fingerprint])? 
+2022-04-24 09:30:48 - sshInstance.py - [line:99] - root - INFO - yes
+Warning: Permanently added '192.168.122.170' (ECDSA) to the list of known hosts.
+root@192.168.122.170's password: 
+2022-04-24 09:30:57 - sshInstance.py - [line:99] - root - INFO - 
+Activate the web console with: systemctl enable --now cockpit.socket
+This system is not registered to Red Hat Insights. See https://cloud.redhat.com/
+To register this system, run: insights-client --register
+Last login: Sat Apr 23 21:20:58 2022 from 192.168.122.1
+[root@localhost ~]# 
+2022-04-24 09:31:00 - test_network_sriov_stress.py - [line:366] - root - INFO - Successfully ssh VM.
+2022-04-24 09:31:06 - sshInstance.py - [line:99] - root - INFO - lspci -Dnn | grep "8086:1889" --color=never| awk '{print $1;}}'
+0000:00:05.0
+[root@localhost ~]# 
+2022-04-24 09:31:15 - test_network_sriov_stress.py - [line:388] - root - INFO - successfully got vf pci id of vm1: 0000:00:05.0
+2022-04-24 09:31:21 - sshInstance.py - [line:99] - root - INFO - ls /sys/bus/pci/devices/0000\:00\:05.0/net/ --color=never
+ens5
+[root@localhost ~]# 
+2022-04-24 09:31:26 - test_network_sriov_stress.py - [line:402] - root - INFO - Successfully got vf device name of vm1: ens5
+2022-04-24 09:31:26 - test_network_sriov_stress.py - [line:414] - root - INFO - try to get ipv6 for ens5
+2022-04-24 09:31:26 - test_network_sriov_stress.py - [line:416] - root - INFO - try to get ipv6 in redhat
+2022-04-24 09:31:26 - sshInstance.py - [line:187] - root - INFO - starting to delete network of ens5:
+2022-04-24 09:31:32 - sshInstance.py - [line:99] - root - INFO - nmcli connection delete ens5
+Connection 'ens5' (1aa6e434-0204-471e-b752-4607fc8303a4) successfully deleted.
+[root@localhost ~]# 
+2022-04-24 09:31:35 - sshInstance.py - [line:189] - root - INFO - restart networkManager to make setting valid
+2022-04-24 09:31:41 - sshInstance.py - [line:99] - root - INFO - systemctl restart NetworkManager
+[root@localhost ~]# 
+2022-04-24 09:31:44 - sshInstance.py - [line:192] - root - INFO - starting to add network of ens5:
+2022-04-24 09:31:50 - sshInstance.py - [line:99] - root - INFO - nmcli connection add type ethernet con-name ens5 ifname ens5 [A        [C        [C        [C        [C        [C        [C        [C        [C        [C        [C        [C        [C        [C        [C        [C        [C        [C        [C        [C        [C        [C        [C        [C        [C        [C        [C        [C        [C        [C        [C        [C        [C        [C        [C        [C        [C        [C        [C        [C        [C        [C        [C        [C        [C        [C        [C        [C        [C        [C        [C        [C        [C        [C        [C        [C        [C        [C        [C        [C        [C        [C        [C        [C        [C        [C        [C        [C        [C        [C        [C        [C        [C        [C        [C        [C        [C        [C        [C        [C        [K            5
+Connection 'ens5' (83d0813e-d5f4-453d-848f-aebedf28cf86) successfully added.
+[root@localhost ~]# 
+2022-04-24 09:31:53 - sshInstance.py - [line:195] - root - INFO - restart networkManager to make setting valid
+2022-04-24 09:31:59 - sshInstance.py - [line:99] - root - INFO - systemctl restart NetworkManager
+[root@localhost ~]# 
+2022-04-24 09:32:08 - sshInstance.py - [line:99] - root - INFO - ifconfig ens5
+ens5: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        inet6 fe80::6a39:b1d7:6768:f3bf  prefixlen 64  scopeid 0x20<link>
+        ether 8a:53:cd:e7:68:3a  txqueuelen 1000  (Ethernet)
+        RX packets 40  bytes 9214 (8.9 KiB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 58  bytes 9351 (9.1 KiB)
+        TX errors 1  dropped 0 overruns 0  carrier 0  collisions 0
+[root@localhost ~]# 
+2022-04-24 09:32:17 - sshInstance.py - [line:99] - root - INFO - ifconfig ens5 192.168.10.12
+[root@localhost ~]# 
+2022-04-24 09:32:20 - test_network_sriov_stress.py - [line:339] - root - INFO - Successfully assigned ip to ethernet: ens5
+2022-04-24 09:32:26 - sshInstance.py - [line:99] - root - INFO - exit
+logout
+Connection to 192.168.122.170 closed.
+[root@WW25ICX2 ~]# 
+2022-04-24 09:32:29 - test_network_sriov_stress.py - [line:805] - root - INFO - Start ssh vm2 and conf VM
+2022-04-24 09:32:35 - sshInstance.py - [line:99] - root - INFO - ssh-key -R 192.168.122.103
+bash: ssh-key: command not found...
+[root@WW25ICX2 ~]# 
+2022-04-24 09:32:42 - sshInstance.py - [line:75] - root - INFO - ping -c 5 192.168.122.103
+PING 192.168.122.103 (192.168.122.103) 56(84) bytes of data.
+64 bytes from 192.168.122.103: icmp_seq=1 ttl=64 time=0.413 ms
+2022-04-24 09:32:43 - sshInstance.py - [line:75] - root - INFO - 64 bytes from 192.168.122.103: icmp_seq=2 ttl=64 time=0.325 ms
+2022-04-24 09:32:44 - sshInstance.py - [line:75] - root - INFO - 64 bytes from 192.168.122.103: icmp_seq=3 ttl=64 time=0.296 ms
+2022-04-24 09:32:45 - sshInstance.py - [line:75] - root - INFO - 64 bytes from 192.168.122.103: icmp_seq=4 ttl=64 time=0.289 ms
+2022-04-24 09:32:46 - sshInstance.py - [line:75] - root - INFO - 64 bytes from 192.168.122.103: icmp_seq=5 ttl=64 time=0.197 ms
+
+--- 192.168.122.103 ping statistics ---
+5 packets transmitted, 5 received, 0% packet loss, time 4083ms
+rtt min/avg/max/mdev = 0.197/0.304/0.413/0.069 ms
+[root@WW25ICX2 ~]# 
+2022-04-24 09:32:55 - sshInstance.py - [line:99] - root - INFO - ssh root@192.168.122.103
+The authenticity of host '192.168.122.103 (192.168.122.103)' can't be established.
+ECDSA key fingerprint is SHA256:vvHK6I/jHGy2fzdl/G6T0UNy5lxm9JF6HMSp3puyNSE.
+Are you sure you want to continue connecting (yes/no/[fingerprint])? 
+2022-04-24 09:33:04 - sshInstance.py - [line:99] - root - INFO - yes
+Warning: Permanently added '192.168.122.103' (ECDSA) to the list of known hosts.
+root@192.168.122.103's password: 
+2022-04-24 09:33:13 - sshInstance.py - [line:99] - root - INFO - 
+Activate the web console with: systemctl enable --now cockpit.socket
+This system is not registered to Red Hat Insights. See https://cloud.redhat.com/
+To register this system, run: insights-client --register
+Last login: Sat Apr 23 21:18:29 2022 from 192.168.122.1
+[root@f223-217-07-v21 ~]# 
+2022-04-24 09:33:16 - test_network_sriov_stress.py - [line:366] - root - INFO - Successfully ssh VM.
+2022-04-24 09:33:22 - sshInstance.py - [line:99] - root - INFO - lspci -Dnn | grep "8086:1889" --color=never| awk '{prinnt $1;}'
+0000:00:05.0
+[root@f223-217-07-v21 ~]# 
+2022-04-24 09:33:31 - test_network_sriov_stress.py - [line:388] - root - INFO - successfully got vf pci id of vm1: 0000:00:05.0
+2022-04-24 09:33:37 - sshInstance.py - [line:99] - root - INFO - ls /sys/bus/pci/devices/0000\:00\:05.0/net/ --color=nevver
+ens5
+[root@f223-217-07-v21 ~]# 
+2022-04-24 09:33:42 - test_network_sriov_stress.py - [line:402] - root - INFO - Successfully got vf device name of vm1: ens5
+2022-04-24 09:33:42 - test_network_sriov_stress.py - [line:414] - root - INFO - try to get ipv6 for ens5
+2022-04-24 09:33:42 - test_network_sriov_stress.py - [line:416] - root - INFO - try to get ipv6 in redhat
+2022-04-24 09:33:42 - sshInstance.py - [line:187] - root - INFO - starting to delete network of ens5:
+2022-04-24 09:33:48 - sshInstance.py - [line:99] - root - INFO - nmcli connection delete ens5
+Connection 'ens5' (e6674c39-6809-4660-a2f0-e0a5e70337a0) successfully deleted.
+[root@f223-217-07-v21 ~]# 
+2022-04-24 09:33:51 - sshInstance.py - [line:189] - root - INFO - restart networkManager to make setting valid
+2022-04-24 09:33:57 - sshInstance.py - [line:99] - root - INFO - systemctl restart NetworkManager
+[root@f223-217-07-v21 ~]# 
+2022-04-24 09:34:00 - sshInstance.py - [line:192] - root - INFO - starting to add network of ens5:
+2022-04-24 09:34:06 - sshInstance.py - [line:99] - root - INFO - nmcli connection add type ethernet con-name ens5 ifnamee ens5
+Connection 'ens5' (8d14d02e-dd11-498d-837c-d0e84c556a9e) successfully added.
+[root@f223-217-07-v21 ~]# 
+2022-04-24 09:34:09 - sshInstance.py - [line:195] - root - INFO - restart networkManager to make setting valid
+2022-04-24 09:34:15 - sshInstance.py - [line:99] - root - INFO - systemctl restart NetworkManager
+[root@f223-217-07-v21 ~]# 
+2022-04-24 09:34:24 - sshInstance.py - [line:99] - root - INFO - ifconfig ens5
+ens5: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        inet6 fe80::3db4:2520:5cb:e2b7  prefixlen 64  scopeid 0x20<link>
+        ether b6:80:ab:8e:24:11  txqueuelen 1000  (Ethernet)
+        RX packets 36  bytes 9515 (9.2 KiB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 62  bytes 10726 (10.4 KiB)
+        TX errors 2  dropped 0 overruns 0  carrier 0  collisions 0
+[root@f223-217-07-v21 ~]# 
+2022-04-24 09:34:33 - sshInstance.py - [line:99] - root - INFO - ifconfig ens5 192.168.10.13
+[root@f223-217-07-v21 ~]# 
+2022-04-24 09:34:36 - test_network_sriov_stress.py - [line:339] - root - INFO - Successfully assigned ip to ethernet: ens5
+2022-04-24 09:34:42 - sshInstance.py - [line:99] - root - INFO - exit
+logout
+Connection to 192.168.122.103 closed.
+[root@WW25ICX2 ~]# 
+2022-04-24 09:34:45 - test_network_sriov_stress.py - [line:899] - root - INFO - Start ssh vm1 and exec ping sut2 ipv4/ipv6,ping vm2 ipv4/ipv6,ping sut1 ipv4/ipv6
+2022-04-24 09:34:51 - sshInstance.py - [line:99] - root - INFO - ssh-key -R 192.168.122.170
+bash: ssh-key: command not found...
+[root@WW25ICX2 ~]# 
+2022-04-24 09:34:58 - sshInstance.py - [line:75] - root - INFO - ping -c 5 192.168.122.170
+PING 192.168.122.170 (192.168.122.170) 56(84) bytes of data.
+64 bytes from 192.168.122.170: icmp_seq=1 ttl=64 time=0.396 ms
+2022-04-24 09:34:59 - sshInstance.py - [line:75] - root - INFO - 64 bytes from 192.168.122.170: icmp_seq=2 ttl=64 time=0.254 ms
+2022-04-24 09:35:00 - sshInstance.py - [line:75] - root - INFO - 64 bytes from 192.168.122.170: icmp_seq=3 ttl=64 time=0.228 ms
+2022-04-24 09:35:01 - sshInstance.py - [line:75] - root - INFO - 64 bytes from 192.168.122.170: icmp_seq=4 ttl=64 time=0.235 ms
+2022-04-24 09:35:02 - sshInstance.py - [line:75] - root - INFO - 64 bytes from 192.168.122.170: icmp_seq=5 ttl=64 time=0.164 ms
+
+--- 192.168.122.170 ping statistics ---
+5 packets transmitted, 5 received, 0% packet loss, time 4115ms
+rtt min/avg/max/mdev = 0.164/0.255/0.396/0.077 ms
+[root@WW25ICX2 ~]# 
+2022-04-24 09:35:11 - sshInstance.py - [line:99] - root - INFO - ssh root@192.168.122.170
+root@192.168.122.170's password: 
+2022-04-24 09:35:20 - sshInstance.py - [line:99] - root - INFO - 
+Activate the web console with: systemctl enable --now cockpit.socket
+This system is not registered to Red Hat Insights. See https://cloud.redhat.com/
+To register this system, run: insights-client --register
+Last login: Sat Apr 23 21:32:05 2022 from 192.168.122.1
+[root@localhost ~]# 
+2022-04-24 09:35:23 - test_network_sriov_stress.py - [line:366] - root - INFO - Successfully ssh VM.
+2022-04-24 09:35:29 - sshInstance.py - [line:99] - root - INFO - nohup ping -w 60 192.168.10.10 > ping_sut1_2hours.txt &
+[1] 5754
+[root@localhost ~]# 
+[root@localhost ~]# nohup: ignoring input and redirecting stderr to stdout
+
+2022-04-24 09:35:38 - sshInstance.py - [line:99] - root - INFO - nohup ping6 -I ens5 -w 60 fe80::9e30:c40e:6ab0:c40b >ping6_suut1_2hours.txt &
+[2] 5851
+[root@localhost ~]# 
+[root@localhost ~]# nohup: ignoring input and redirecting stderr to stdout
+
+2022-04-24 09:35:47 - sshInstance.py - [line:99] - root - INFO - nohup ping -w 60 192.168.10.13 > ping_vm2_2hours.txt &
+[3] 5852
+[root@localhost ~]# 
+[root@localhost ~]# nohup: ignoring input and redirecting stderr to stdout
+
+2022-04-24 09:35:56 - sshInstance.py - [line:99] - root - INFO - nohup ping6 -I ens5 -w 60 fe80::3db4:2520:5cb:e2b7 >ping6_vm22_2hours.txt &
+[4] 5853
+[root@localhost ~]# 
+[root@localhost ~]# nohup: ignoring input and redirecting stderr to stdout
+
+2022-04-24 09:36:05 - sshInstance.py - [line:99] - root - INFO - nohup ping -w 60 192.168.10.11 > ping_sut2_2hours.txt &
+[5] 5862
+[root@localhost ~]# 
+[root@localhost ~]# nohup: ignoring input and redirecting stderr to stdout
+
+2022-04-24 09:36:14 - sshInstance.py - [line:99] - root - INFO - nohup ping6 -I ens5 -w 60 fe80::b696:91ff:fea5:9b45 >ping6_suut2_2hours.txt &
+[6] 5863
+[root@localhost ~]# 
+[root@localhost ~]# nohup: ignoring input and redirecting stderr to stdout
+
+2022-04-24 09:36:17 - test_network_sriov_stress.py - [line:855] - root - INFO - ---ping end -----
+2022-04-24 09:37:23 - sshInstance.py - [line:99] - root - INFO - tail -n 3 /root/ping_sut1_2hours.txt
+--- 192.168.10.10 ping statistics ---
+59 packets transmitted, 59 received, 0% packet loss, time 444ms
+rtt min/avg/max/mdev = 0.029/0.041/0.245/0.029 ms
+[1]   Done                    nohup ping -w 60 192.168.10.10 > ping_sut1_2hours.txt
+[2]   Done                    nohup ping6 -I ens5 -w 60 fe80::9e30:c40e:6ab0:c40b > ping6_sut1_2hours.txt
+[3]   Done                    nohup ping -w 60 192.168.10.13 > ping_vm2_2hours.txt
+[4]   Done                    nohup ping6 -I ens5 -w 60 fe80::3db4:2520:5cb:e2b7 > ping6_vm2_2hours.txt
+[5]-  Done                    nohup ping -w 60 192.168.10.11 > ping_sut2_2hours.txt
+[6]+  Done                    nohup ping6 -I ens5 -w 60 fe80::b696:91ff:fea5:9b45 > ping6_sut2_2hours.txt
+[root@localhost ~]# 
+2022-04-24 09:37:32 - sshInstance.py - [line:99] - root - INFO - tail -n 3 /root/ping6_sut1_2hours.txt
+--- fe80::9e30:c40e:6ab0:c40b ping statistics ---
+59 packets transmitted, 59 received, 0% packet loss, time 461ms
+rtt min/avg/max/mdev = 0.112/0.122/0.331/0.030 ms
+[root@localhost ~]# 
+2022-04-24 09:37:41 - sshInstance.py - [line:99] - root - INFO - tail -n 3 /root/ping_vm2_2hours.txt
+--- 192.168.10.13 ping statistics ---
+59 packets transmitted, 59 received, 0% packet loss, time 410ms
+rtt min/avg/max/mdev = 0.037/0.049/0.185/0.020 ms
+[root@localhost ~]# 
+2022-04-24 09:37:50 - sshInstance.py - [line:99] - root - INFO - tail -n 3 /root/ping6_vm2_2hours.txt
+--- fe80::3db4:2520:5cb:e2b7 ping statistics ---
+59 packets transmitted, 59 received, 0% packet loss, time 423ms
+rtt min/avg/max/mdev = 0.044/0.056/0.268/0.030 ms
+[root@localhost ~]# 
+2022-04-24 09:37:59 - sshInstance.py - [line:99] - root - INFO - tail -n 3 /root/ping_sut2_2hours.txt
+--- 192.168.10.11 ping statistics ---
+59 packets transmitted, 59 received, 0% packet loss, time 440ms
+rtt min/avg/max/mdev = 0.034/0.105/0.262/0.031 ms
+[root@localhost ~]# 
+2022-04-24 09:38:08 - sshInstance.py - [line:99] - root - INFO - tail -n 3 /root/ping6_sut2_2hours.txt
+--- fe80::b696:91ff:fea5:9b45 ping statistics ---
+59 packets transmitted, 59 received, 0% packet loss, time 452ms
+rtt min/avg/max/mdev = 0.039/0.101/0.281/0.035 ms
+[root@localhost ~]# 
+2022-04-24 09:38:11 - test_network_sriov_stress.py - [line:896] - root - INFO - Successfully ping sut1 2hours
+2022-04-24 09:38:11 - test_network_sriov_stress.py - [line:896] - root - INFO - Successfully ping6 sut1 2hours
+2022-04-24 09:38:11 - test_network_sriov_stress.py - [line:896] - root - INFO - Successfully ping vm2 2hours
+2022-04-24 09:38:11 - test_network_sriov_stress.py - [line:896] - root - INFO - Successfully ping6 vm2 2hours
+2022-04-24 09:38:11 - test_network_sriov_stress.py - [line:896] - root - INFO - Successfully ping sut2 2hours
+2022-04-24 09:38:11 - test_network_sriov_stress.py - [line:896] - root - INFO - Successfully ping6 sut2 2hours
+2022-04-24 09:38:17 - sshInstance.py - [line:99] - root - INFO - exit
+logout
+Connection to 192.168.122.170 closed.
+[root@WW25ICX2 ~]# 
+2022-04-24 09:38:20 - test_network_sriov_stress.py - [line:912] - root - INFO - copy ping logs from VM to Sut
+2022-04-24 09:38:26 - sshInstance.py - [line:99] - root - INFO - scp root@192.168.122.170:/root/ping*.txt /tmp/
+root@192.168.122.170's password: 
+2022-04-24 09:38:35 - sshInstance.py - [line:99] - root - INFO - 
+ping6_sut1_2hours.txt                           0%    0     0.0KB/s   --:-- ETAping6_sut1_2hours.txt                         100% 4979     7.4MB/s   00:00    
+ping6_sut2_2hours.txt                           0%    0     0.0KB/s   --:-- ETAping6_sut2_2hours.txt                         100% 4979    23.7MB/s   00:00    
+ping6_vm2_2hours.txt                            0%    0     0.0KB/s   --:-- ETAping6_vm2_2hours.txt                          100% 4917    14.9MB/s   00:00    
+ping_sut1_2hours.txt                            0%    0     0.0KB/s   --:-- ETAping_sut1_2hours.txt                          100% 3859    10.0MB/s   00:00    
+ping_sut2_2hours.txt                            0%    0     0.0KB/s   --:-- ETAping_sut2_2hours.txt                          100% 3859    18.1MB/s   00:00    
+ping_vm2_2hours.txt                             0%    0     0.0KB/s   --:-- ETAping_vm2_2hours.txt                           100% 3859    12.4MB/s   00:00    
+[root@WW25ICX2 ~]# 
+2022-04-24 09:38:38 - test_network_sriov_stress.py - [line:914] - root - INFO - copy ping logs from SUT to the log directory
+2022-04-24 09:38:38 - test_network_sriov_stress.py - [line:918] - root - INFO - copy /tmp/ping_sut1_2hours.txt from sut1 to controller server /root/testconfig/testlogs/2022-04-24/test_PI_Networking_SRIOV_StressTrafficBetweenPFVFAndTestClientFor2Hours_VM_Guest[rhel2.img-rhel.img]_09_24_45/ping_sut1_2hours.txt
+2022-04-24 09:38:38 - test_network_sriov_stress.py - [line:918] - root - INFO - copy /tmp/ping6_sut1_2hours.txt from sut1 to controller server /root/testconfig/testlogs/2022-04-24/test_PI_Networking_SRIOV_StressTrafficBetweenPFVFAndTestClientFor2Hours_VM_Guest[rhel2.img-rhel.img]_09_24_45/ping6_sut1_2hours.txt
+2022-04-24 09:38:38 - test_network_sriov_stress.py - [line:918] - root - INFO - copy /tmp/ping_vm2_2hours.txt from sut1 to controller server /root/testconfig/testlogs/2022-04-24/test_PI_Networking_SRIOV_StressTrafficBetweenPFVFAndTestClientFor2Hours_VM_Guest[rhel2.img-rhel.img]_09_24_45/ping_vm2_2hours.txt
+2022-04-24 09:38:38 - test_network_sriov_stress.py - [line:918] - root - INFO - copy /tmp/ping6_vm2_2hours.txt from sut1 to controller server /root/testconfig/testlogs/2022-04-24/test_PI_Networking_SRIOV_StressTrafficBetweenPFVFAndTestClientFor2Hours_VM_Guest[rhel2.img-rhel.img]_09_24_45/ping6_vm2_2hours.txt
+2022-04-24 09:38:38 - test_network_sriov_stress.py - [line:918] - root - INFO - copy /tmp/ping_sut2_2hours.txt from sut1 to controller server /root/testconfig/testlogs/2022-04-24/test_PI_Networking_SRIOV_StressTrafficBetweenPFVFAndTestClientFor2Hours_VM_Guest[rhel2.img-rhel.img]_09_24_45/ping_sut2_2hours.txt
+2022-04-24 09:38:38 - test_network_sriov_stress.py - [line:918] - root - INFO - copy /tmp/ping6_sut2_2hours.txt from sut1 to controller server /root/testconfig/testlogs/2022-04-24/test_PI_Networking_SRIOV_StressTrafficBetweenPFVFAndTestClientFor2Hours_VM_Guest[rhel2.img-rhel.img]_09_24_45/ping6_sut2_2hours.txt
+.2022-04-24 09:38:38 - test_network_sriov_stress.py - [line:91] - root - INFO - removing VMs: VMtest1, VMtest2
+2022-04-24 09:38:41 - sshInstance.py - [line:50] - root - INFO - virsh destroy VMtest2
+2022-04-24 09:38:42 - sshInstance.py - [line:54] - root - INFO - Domain VMtest2 destroyed
+
+
+2022-04-24 09:38:47 - test_network_sriov_stress.py - [line:314] - root - INFO - Successfully shut down the VM: VMtest2
+2022-04-24 09:38:50 - sshInstance.py - [line:50] - root - INFO - virsh undefine VMtest2
+2022-04-24 09:38:50 - sshInstance.py - [line:54] - root - INFO - Domain VMtest2 has been undefined
+
+
+2022-04-24 09:38:55 - test_network_sriov_stress.py - [line:324] - root - INFO - Successfully removed the VM: VMtest2
+2022-04-24 09:38:58 - sshInstance.py - [line:50] - root - INFO - virsh destroy VMtest1
+2022-04-24 09:38:58 - sshInstance.py - [line:54] - root - INFO - Domain VMtest1 destroyed
+
+
+2022-04-24 09:39:03 - test_network_sriov_stress.py - [line:314] - root - INFO - Successfully shut down the VM: VMtest1
+2022-04-24 09:39:06 - sshInstance.py - [line:50] - root - INFO - virsh undefine VMtest1
+2022-04-24 09:39:07 - sshInstance.py - [line:54] - root - INFO - Domain VMtest1 has been undefined
+
+
+2022-04-24 09:39:12 - test_network_sriov_stress.py - [line:324] - root - INFO - Successfully removed the VM: VMtest1
+2022-04-24 09:39:15 - sshInstance.py - [line:50] - root - INFO - echo 0 > /sys/class/net/ens2f0/device/sriov_numvfs
+2022-04-24 09:39:16 - sshInstance.py - [line:54] - root - INFO - 
+2022-04-24 09:39:24 - sshInstance.py - [line:50] - root - INFO - ifconfig ens2f0 0
+2022-04-24 09:39:24 - sshInstance.py - [line:54] - root - INFO - 
+2022-04-24 09:39:32 - sshInstance.py - [line:50] - root - INFO - ifconfig ens2f1 0
+2022-04-24 09:39:32 - sshInstance.py - [line:54] - root - INFO - 
+2022-04-24 09:39:40 - sshInstance.py - [line:50] - root - INFO - dmesg > /tmp/dmesg.log
+2022-04-24 09:39:40 - sshInstance.py - [line:54] - root - INFO - 
+2022-04-24 09:39:45 - test_network_sriov_stress.py - [line:100] - root - INFO - generate dmesg.log file on sut /tmp/dmesg.log
+2022-04-24 09:39:45 - test_network_sriov_stress.py - [line:102] - root - INFO - copy dmesg.log from sut1 /tmp dir to controller dir /root/testconfig/testlogs/2022-04-24/test_PI_Networking_SRIOV_StressTrafficBetweenPFVFAndTestClientFor2Hours_VM_Guest[rhel2.img-rhel.img]_09_24_45
+2022-04-24 09:39:48 - sshInstance.py - [line:50] - root - INFO - rm -f /tmp/dmesg.log
+2022-04-24 09:39:48 - sshInstance.py - [line:54] - root - INFO - 
+2022-04-24 09:39:53 - test_network_sriov_stress.py - [line:104] - root - INFO - rm dmesg.log on sut1 /tmp dir
+2022-04-24 09:39:56 - sshInstance.py - [line:50] - root - INFO - rm -f /tmp/*.txt
+2022-04-24 09:39:56 - sshInstance.py - [line:54] - root - INFO - 
+2022-04-24 09:40:01 - sshInstance.py - [line:43] - root - INFO - closing ssh client on SUT
+2022-04-24 09:40:01 - NicTestFixture.py - [line:35] - root - INFO - ============================ end of run test_PI_Networking_SRIOV_StressTrafficBetweenPFVFAndTestClientFor2Hours_VM_Guest[rhel2.img-rhel.img] case ============================
+                  [100%]
+
+=============================== warnings summary ===============================
+npxtester/Tests/testNics/test_iperf_client_4hour.py:90
+  /root/.jenkins/workspace/test-test-nic-sriov-stress-2hours/npxtester/Tests/testNics/test_iperf_client_4hour.py:90: PytestUnknownMarkWarning: Unknown pytest.mark.iperf_tcp - is this a typo?  You can register custom marks to avoid this warning - for details, see https://docs.pytest.org/en/stable/mark.html
+    @pytest.mark.iperf_tcp
+
+npxtester/Tests/testNics/test_iperf_client_4hour.py:143
+  /root/.jenkins/workspace/test-test-nic-sriov-stress-2hours/npxtester/Tests/testNics/test_iperf_client_4hour.py:143: PytestUnknownMarkWarning: Unknown pytest.mark.iperf_udp - is this a typo?  You can register custom marks to avoid this warning - for details, see https://docs.pytest.org/en/stable/mark.html
+    @pytest.mark.iperf_udp
+
+npxtester/Tests/testNics/test_mtu.py:69
+  /root/.jenkins/workspace/test-test-nic-sriov-stress-2hours/npxtester/Tests/testNics/test_mtu.py:69: PytestUnknownMarkWarning: Unknown pytest.mark.nicSimple - is this a typo?  You can register custom marks to avoid this warning - for details, see https://docs.pytest.org/en/stable/mark.html
+    @pytest.mark.nicSimple
+
+npxtester/Tests/testNics/test_mtu.py:108
+  /root/.jenkins/workspace/test-test-nic-sriov-stress-2hours/npxtester/Tests/testNics/test_mtu.py:108: PytestUnknownMarkWarning: Unknown pytest.mark.nicSimple - is this a typo?  You can register custom marks to avoid this warning - for details, see https://docs.pytest.org/en/stable/mark.html
+    @pytest.mark.nicSimple
+
+npxtester/Tests/testNics/test_network_sriov_stress.py:593
+  /root/.jenkins/workspace/test-test-nic-sriov-stress-2hours/npxtester/Tests/testNics/test_network_sriov_stress.py:593: PytestUnknownMarkWarning: Unknown pytest.mark.nicSriov5times - is this a typo?  You can register custom marks to avoid this warning - for details, see https://docs.pytest.org/en/stable/mark.html
+    @pytest.mark.nicSriov5times
+
+npxtester/Tests/testNics/test_network_sriov_stress.py:720
+  /root/.jenkins/workspace/test-test-nic-sriov-stress-2hours/npxtester/Tests/testNics/test_network_sriov_stress.py:720: PytestUnknownMarkWarning: Unknown pytest.mark.nicSriov2hours - is this a typo?  You can register custom marks to avoid this warning - for details, see https://docs.pytest.org/en/stable/mark.html
+    @pytest.mark.nicSriov2hours
+
+npxtester/Tests/testNics/test_network_sriov_stress.py:960
+  /root/.jenkins/workspace/test-test-nic-sriov-stress-2hours/npxtester/Tests/testNics/test_network_sriov_stress.py:960: PytestUnknownMarkWarning: Unknown pytest.mark.SriovVfIperf - is this a typo?  You can register custom marks to avoid this warning - for details, see https://docs.pytest.org/en/stable/mark.html
+    @pytest.mark.SriovVfIperf
+
+npxtester/Tests/testNics/test_network_sriov_stress.py:1096
+  /root/.jenkins/workspace/test-test-nic-sriov-stress-2hours/npxtester/Tests/testNics/test_network_sriov_stress.py:1096: PytestUnknownMarkWarning: Unknown pytest.mark.nicIperfTcpSUTGuestStress - is this a typo?  You can register custom marks to avoid this warning - for details, see https://docs.pytest.org/en/stable/mark.html
+    @pytest.mark.nicIperfTcpSUTGuestStress
+
+npxtester/Tests/testNics/test_network_sriov_stress.py:1097
+  /root/.jenkins/workspace/test-test-nic-sriov-stress-2hours/npxtester/Tests/testNics/test_network_sriov_stress.py:1097: PytestUnknownMarkWarning: Unknown pytest.mark.SriovVfIperf - is this a typo?  You can register custom marks to avoid this warning - for details, see https://docs.pytest.org/en/stable/mark.html
+    @pytest.mark.SriovVfIperf
+
+npxtester/Tests/testNics/test_nics.py:93
+  /root/.jenkins/workspace/test-test-nic-sriov-stress-2hours/npxtester/Tests/testNics/test_nics.py:93: PytestUnknownMarkWarning: Unknown pytest.mark.nicSimple - is this a typo?  You can register custom marks to avoid this warning - for details, see https://docs.pytest.org/en/stable/mark.html
+    @pytest.mark.nicSimple
+
+npxtester/Tests/testNics/test_nics.py:132
+  /root/.jenkins/workspace/test-test-nic-sriov-stress-2hours/npxtester/Tests/testNics/test_nics.py:132: PytestUnknownMarkWarning: Unknown pytest.mark.nicSimple - is this a typo?  You can register custom marks to avoid this warning - for details, see https://docs.pytest.org/en/stable/mark.html
+    @pytest.mark.nicSimple
+
+npxtester/Tests/testNics/test_nics.py:167
+  /root/.jenkins/workspace/test-test-nic-sriov-stress-2hours/npxtester/Tests/testNics/test_nics.py:167: PytestUnknownMarkWarning: Unknown pytest.mark.nicSimple - is this a typo?  You can register custom marks to avoid this warning - for details, see https://docs.pytest.org/en/stable/mark.html
+    @pytest.mark.nicSimple
+
+npxtester/Tests/testNics/test_nics.py:168
+  /root/.jenkins/workspace/test-test-nic-sriov-stress-2hours/npxtester/Tests/testNics/test_nics.py:168: PytestUnknownMarkWarning: Unknown pytest.mark.test - is this a typo?  You can register custom marks to avoid this warning - for details, see https://docs.pytest.org/en/stable/mark.html
+    @pytest.mark.test
+
+npxtester/Tests/testNics/test_nics.py:256
+  /root/.jenkins/workspace/test-test-nic-sriov-stress-2hours/npxtester/Tests/testNics/test_nics.py:256: PytestUnknownMarkWarning: Unknown pytest.mark.nicSimple - is this a typo?  You can register custom marks to avoid this warning - for details, see https://docs.pytest.org/en/stable/mark.html
+    @pytest.mark.nicSimple
+
+npxtester/Tests/testNics/test_nics.py:282
+  /root/.jenkins/workspace/test-test-nic-sriov-stress-2hours/npxtester/Tests/testNics/test_nics.py:282: PytestUnknownMarkWarning: Unknown pytest.mark.nicSimple - is this a typo?  You can register custom marks to avoid this warning - for details, see https://docs.pytest.org/en/stable/mark.html
+    @pytest.mark.nicSimple
+
+npxtester/Tests/testNics/test_nics.py:325
+  /root/.jenkins/workspace/test-test-nic-sriov-stress-2hours/npxtester/Tests/testNics/test_nics.py:325: PytestUnknownMarkWarning: Unknown pytest.mark.nicSimple - is this a typo?  You can register custom marks to avoid this warning - for details, see https://docs.pytest.org/en/stable/mark.html
+    @pytest.mark.nicSimple
+
+-- Docs: https://docs.pytest.org/en/stable/warnings.html
+- generated html file: file:///root/testconfig/testlogs/HtmlReport/nic_sriov2hours_case_report.html -
+========== 1 passed, 18 deselected, 16 warnings in 933.15s (0:15:33) ===========
+[8mha:////4LeiMYyvaTAszhIQ10pdIeDepJ20hGjpoNTSDQ54vTlOAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIi0SCEqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDyFBu95/avQGMKkS1vgAAAA==[0m[Pipeline] }
+[8mha:////4I/tRoD/KV6lJ76TTEJ8vusLD5mbZiDJ1z7tZBIwhHThAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKCQKJBqWgtN7zAJMY4se6C7eBUvIiv8QcsIlGxxWpnm3m9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKZhiFDut7l2hw9mQDtDvgAAAA==[0m[Pipeline] // stage
+[8mha:////4CAP7WQdC2FMpNczqgZSKdPjM+Zu6Lz59I8VEE3/AlUOAAAAph+LCAAAAAAAAP9tjTEOwjAQBM9BKWgpeYQjBB2iorXc8AITG+PEugv2haTiRXyNPxCIRMVWOyut5vmCMic4UPKycdgGzHWQXez91ORAqb1EGmRDZ1kTZopOajdosu44oyZ2MEcUsFCwdFhHygE9w0o15m6qaNBXJ07TtldQBHuDBwg1mdkk/sKYYH3tbSb8ef4KYOwYxI6h2G4+x/INOibpDcEAAAA=[0m[Pipeline] stage
+[8mha:////4Db8sOlSRxZnVxb7xJBDSAteoF0PgC9lkQldzKIJFwYiAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUwIiYukZZOEFoQkgb/V9+UtqJE3E17kBLJSY8WLYl673eUESGE7ETjcXWY6y96ELvpiQG4vYaaBANXURNGClYoeygyNhqqYqShUVZDisJa4t1oOjRJdjIRj90GTS68px42o4Scm/u8IRMTuSkOX3LyLC99SYS/jh/ATB2CfLDbrb9/Cw+2YMO4MIAAAA=[0m[Pipeline] { (collect logs)
+[8mha:////4LN/0LMxu1hyybTBeE6CHwDx82bv/lkvxFk3cdgHTSuWAAAAox+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIikRJR0VppeIFJjLFj3Tm2g1PxIr7GHwhEomKL1c4283zBOgY4ctBoFfWGYmvQu1HPCzOH/uo4o+ULtkyRncJG5YY7dVqw4aRgSVHCSsBGUes4GtIJtsLKu6ycJF2dU5i/g4DSdAM8oBCzOcmQvjAF2N3GLjL9PH8FMPkEZb3/VO3favo5XL4AAAA=[0m[Pipeline] sh
++ sed -i $'s/\r//g' /root/.jenkins/workspace/test-test-nic-sriov-stress-2hours/npxtester/log_analyzer/log_analyzer.sh
+[8mha:////4FgvIflgycWoJq7MsZycbV9d7HENRG2WSX14oF+Me/GuAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiAR2iSmu54QUmNsaJdWdsh6TiRXyNPxCIRMUWq51t5vmCZYpw5GixNdQ5So3D4Hs7LRw4dhfPA7Z8xoYpsTcozSBZm3pGydnAnKKEhYCVocZzcmQzrEWr7qryimx1ynH6DgJKp2/wgEJM5qxi/sIYYXPtdWL6ef4KYAwZyt32U/vwBq1seBO+AAAA[0m[Pipeline] sh
++ chmod a+x /root/.jenkins/workspace/test-test-nic-sriov-stress-2hours/npxtester/log_analyzer/log_analyzer.sh
+[8mha:////4P37N80+NRbzyFlga2j1WDon6H/4VmnQwrRysqQpQX/3AAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIigagQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGPIUO62n9qHN+xdYwq+AAAA[0m[Pipeline] sh
++ sh /root/.jenkins/workspace/test-test-nic-sriov-stress-2hours/npxtester/log_analyzer/log_analyzer.sh
+[8mha:////4P3ih/vRXCzaXCkS1CQDBQXrb3I4EZcCr0NGGH+tKlR4AAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIigUSDqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDyFDu9p/avgEjVhSLvgAAAA==[0m[Pipeline] }
+[8mha:////4ISV0Ptmba0km8a80Gq+UClogdZnPDxCJXroOoeI5sULAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiREGBqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDyFDu9p/avgE81EHZvgAAAA==[0m[Pipeline] // stage
+[8mha:////4LmA5LOJ1yGOO5YQ6RYn+/szIsYEkfxAArsUKSFs0Xa0AAAApB+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIpoEBCVLRWGl5gEmOcWHfBvpBUvIiv8QciIlGx1c4083pjmSKOHJ1qLLWeUuVVF3o3PTVwbK+BB9XwRVVMiYNVpR1Kru1pxpLFYl6WY6GxslQFTp6cYK0b8zBFMOSKs8TJHTRyX9/xRKanspgoXxgjNre+Tky/zt8Axq4T5Nu9INt9AE/B/a+9AAAA[0m[Pipeline] }
+[8mha:////4KVKO0UZMawo8C9tjXN4L1+ryWbU4zmvD2sDlsKoyYtXAAAAox+LCAAAAAAAAP9tjTESgjAQRT84FraWHiIUVI5jZZuh8QQRYgxkdjFZhMoTeTXvICMzVv7qv9e81xvrFHHk6FRrqfOUaq/6MLj5qZFjdw08qpYvqmZKHKyq7FhxY08LViwWy7IcK42NpTpw8uQEW92ahymCIVecJc7uoJH75o4nMj2XxUT5whSxuw1NYvp1/gYw9b0gL/eCrPwAXH35DL0AAAA=[0m[Pipeline] // node
+[8mha:////4A8vvhfR6oegt+2XAbvn3Z0Fx6j3lb1QUh2abilCs+OGAAAAox+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMJBiA5R0VppeIFJjHFi3QX7QlLxIr7GH4iIRMVWO9PM641lijhydKqx1HpKlVdd6N301MCxvQYeVMMXVTElDlaVdii5tqcZSxaLeVmOhcbKUhU4eXKCtW7MwxTBkCvOEid30Mh9fccTmZ7KYqJ8YYzY3Po6Mf06fwMYu06Q77eCbPcBAx/ra70AAAA=[0m[Pipeline] End of Pipeline
+Finished: SUCCESS

@@ -29,7 +29,7 @@
         <hudson.model.StringParameterDefinition>
           <name>token</name>
           <description>git token</description>
-          <defaultValue>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</defaultValue>
+          <defaultValue>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</defaultValue>
           <trim>false</trim>
         </hudson.model.StringParameterDefinition>
         <hudson.model.StringParameterDefinition>
@@ -97,7 +97,7 @@
     <org.jenkinsci.plugins.workflow.job.properties.PipelineTriggersJobProperty>
       <triggers>
         <hudson.triggers.TimerTrigger>
-          <spec>H 17 * * *</spec>
+          <spec>H 13 * * *</spec>
         </hudson.triggers.TimerTrigger>
       </triggers>
     </org.jenkinsci.plugins.workflow.job.properties.PipelineTriggersJobProperty>
@@ -105,10 +105,10 @@
   <definition class="org.jenkinsci.plugins.workflow.cps.CpsFlowDefinition" plugin="workflow-cps@2.94">
     <script>pipeline {
     agent {
-        label &apos;controller-j&apos;
+        label &apos;controller-99&apos;
     }
     parameters {
-        string defaultValue: &apos;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&apos;, description: &apos;git token&apos;, name: &apos;token&apos;, trim: false
+        string defaultValue: &apos;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&apos;, description: &apos;git token&apos;, name: &apos;token&apos;, trim: false
         string defaultValue: &apos;github.com/intel-innersource/applications.validation.network-platform.npxtester.git&apos;, description: &apos;github repo url&apos;, name: &apos;git_repo_url&apos;, trim: false
         string defaultValue: &apos;10.112.97.62&apos;, description: &apos;测试机IP&apos;, name: &apos;sut1_ip&apos;, trim: false
         string defaultValue: &apos;commercial&apos;, description: &apos;board_type of SUT1&apos;, name: &apos;board_type&apos;, trim: false
@@ -142,11 +142,11 @@
                 sh &quot;python $WORKSPACE/npxtester/conf/change_args.py  &apos;{\&quot;dpdk_dir\&quot;:\&quot;$dpdk_dir\&quot;,\&quot;sut_conf\&quot;:{\&quot;board_type\&quot;:\&quot;$board_type\&quot;,\&quot;host\&quot;:\&quot;$sut1_ip\&quot;,\&quot;pf1\&quot;:\&quot;$sut1_pf1\&quot;,\&quot;os\&quot;:\&quot;$os\&quot;,\&quot;PF1_NIC_type\&quot;:\&quot;$PF1_NIC_type\&quot;},\&quot;pkg_generator\&quot;:{\&quot;host\&quot;:\&quot;$sut2_ip\&quot;,\&quot;pf1\&quot;:\&quot;$sut2_pf1\&quot;},\&quot;drive_info\&quot;:{\&quot;drive_version\&quot;:\&quot;$drive_version\&quot;}}&apos;&quot;
             }
         }
-        stage(&apos;restore bios&apos;){
-            steps{
-                sh &quot;pytest $WORKSPACE/npxtester/Tests/testBios/testBiosSetting.py -s -m restoreBios --capture=tee-sys --html=/root/testconfig/testlogs/HtmlReport/restore_bios_report.html --self-contained-html&quot;
-            }
-        }
+        //stage(&apos;restore bios&apos;){
+        //    steps{
+        //        sh &quot;pytest $WORKSPACE/npxtester/Tests/testBios/testBiosSetting.py -s -m restoreBios --capture=tee-sys --html=/root/testconfig/testlogs/HtmlReport/restore_bios_report.html --self-contained-html&quot;
+        //    }
+        //}
         stage(&apos;run nic case&apos;){
             steps{
                 script{

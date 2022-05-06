@@ -1,0 +1,167 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<flow-definition plugin="workflow-job@2.41">
+  <actions>
+    <org.jenkinsci.plugins.pipeline.modeldefinition.actions.DeclarativeJobAction plugin="pipeline-model-definition@1.9.2"/>
+    <org.jenkinsci.plugins.pipeline.modeldefinition.actions.DeclarativeJobPropertyTrackerAction plugin="pipeline-model-definition@1.9.2">
+      <jobProperties/>
+      <triggers/>
+      <parameters>
+        <string>sut2_pf1</string>
+        <string>board_type</string>
+        <string>os</string>
+        <string>dpdk_dir</string>
+        <string>bmc_ip</string>
+        <string>sut2_ip</string>
+        <string>bmc_user</string>
+        <string>sut1_ip</string>
+        <string>sut1_pf1</string>
+        <string>token</string>
+        <string>drive_version</string>
+        <string>bmc_password</string>
+        <string>git_repo_url</string>
+        <string>PF1_NIC_type</string>
+      </parameters>
+      <options/>
+    </org.jenkinsci.plugins.pipeline.modeldefinition.actions.DeclarativeJobPropertyTrackerAction>
+  </actions>
+  <description></description>
+  <keepDependencies>false</keepDependencies>
+  <properties>
+    <hudson.security.AuthorizationMatrixProperty>
+      <inheritanceStrategy class="org.jenkinsci.plugins.matrixauth.inheritance.InheritParentStrategy"/>
+      <permission>hudson.model.Item.Build:authenticated</permission>
+      <permission>hudson.model.Item.Cancel:authenticated</permission>
+      <permission>hudson.model.Item.Configure:authenticated</permission>
+      <permission>hudson.model.Item.Delete:authenticated</permission>
+      <permission>hudson.model.Item.Discover:authenticated</permission>
+      <permission>hudson.model.Item.Move:authenticated</permission>
+      <permission>hudson.model.Item.Read:authenticated</permission>
+      <permission>hudson.model.Item.Workspace:authenticated</permission>
+      <permission>hudson.model.Run.Delete:authenticated</permission>
+      <permission>hudson.model.Run.Update:authenticated</permission>
+    </hudson.security.AuthorizationMatrixProperty>
+    <hudson.model.ParametersDefinitionProperty>
+      <parameterDefinitions>
+        <hudson.model.StringParameterDefinition>
+          <name>token</name>
+          <description>git token</description>
+          <defaultValue>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</defaultValue>
+          <trim>false</trim>
+        </hudson.model.StringParameterDefinition>
+        <hudson.model.StringParameterDefinition>
+          <name>git_repo_url</name>
+          <description>github repo url</description>
+          <defaultValue>github.com/intel-innersource/applications.validation.network-platform.npxtester.git</defaultValue>
+          <trim>false</trim>
+        </hudson.model.StringParameterDefinition>
+        <hudson.model.StringParameterDefinition>
+          <name>sut1_ip</name>
+          <description>测试机IP</description>
+          <defaultValue>10.239.115.71</defaultValue>
+          <trim>false</trim>
+        </hudson.model.StringParameterDefinition>
+        <hudson.model.StringParameterDefinition>
+          <name>board_type</name>
+          <description>board_type of SUT1</description>
+          <defaultValue>rp</defaultValue>
+          <trim>false</trim>
+        </hudson.model.StringParameterDefinition>
+        <hudson.model.StringParameterDefinition>
+          <name>os</name>
+          <description>测试机器系统:RHEL or UBUNTU</description>
+          <defaultValue>UBUNTU</defaultValue>
+          <trim>false</trim>
+        </hudson.model.StringParameterDefinition>
+        <hudson.model.StringParameterDefinition>
+          <name>sut1_pf1</name>
+          <description>sut1 pf</description>
+          <defaultValue>enp137s0f0</defaultValue>
+          <trim>false</trim>
+        </hudson.model.StringParameterDefinition>
+        <hudson.model.StringParameterDefinition>
+          <name>dpdk_dir</name>
+          <description>dpdk路径</description>
+          <defaultValue>/opt/APP/utility/DPDK/dpdk-21.11/</defaultValue>
+          <trim>false</trim>
+        </hudson.model.StringParameterDefinition>
+        <hudson.model.StringParameterDefinition>
+          <name>sut2_ip</name>
+          <description>发报机IP</description>
+          <defaultValue>10.239.115.16</defaultValue>
+          <trim>false</trim>
+        </hudson.model.StringParameterDefinition>
+        <hudson.model.StringParameterDefinition>
+          <name>sut2_pf1</name>
+          <description>发报机网口名称</description>
+          <defaultValue>ens801f0</defaultValue>
+          <trim>false</trim>
+        </hudson.model.StringParameterDefinition>
+      </parameterDefinitions>
+    </hudson.model.ParametersDefinitionProperty>
+    <org.jenkinsci.plugins.workflow.job.properties.PipelineTriggersJobProperty>
+      <triggers/>
+    </org.jenkinsci.plugins.workflow.job.properties.PipelineTriggersJobProperty>
+  </properties>
+  <definition class="org.jenkinsci.plugins.workflow.cps.CpsFlowDefinition" plugin="workflow-cps@2.94">
+    <script>pipeline {
+    agent {
+        label &apos;controller-99&apos;
+    }
+    parameters {
+        string defaultValue: &apos;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&apos;, description: &apos;git token&apos;, name: &apos;token&apos;, trim: false
+        string defaultValue: &apos;github.com/intel-innersource/applications.validation.network-platform.npxtester.git&apos;, description: &apos;github repo url&apos;, name: &apos;git_repo_url&apos;, trim: false
+        string defaultValue: &apos;10.239.115.71&apos;, description: &apos;测试机IP&apos;, name: &apos;sut1_ip&apos;, trim: false
+        string defaultValue: &apos;rp&apos;, description: &apos;board_type of SUT1&apos;, name: &apos;board_type&apos;, trim: false
+	    string defaultValue: &apos;UBUNTU&apos;, description: &apos;测试机器系统:RHEL or UBUNTU&apos;, name: &apos;os&apos;, trim: false
+	    string defaultValue: &apos;enp137s0f0&apos;, description: &apos;sut1 pf&apos;, name: &apos;sut1_pf1&apos;, trim: false
+        string defaultValue: &apos;/opt/APP/utility/DPDK/dpdk-21.11/&apos;, description: &apos;dpdk路径&apos;, name: &apos;dpdk_dir&apos;, trim: false
+        string defaultValue: &apos;10.239.115.16&apos;, description: &apos;发报机IP&apos;, name: &apos;sut2_ip&apos;, trim: false
+        string defaultValue: &apos;ens801f0&apos;, description: &apos;发报机网口名称&apos;, name: &apos;sut2_pf1&apos;, trim: false
+        
+    }
+    stages{
+        stage(&apos;rm project dir&apos;){
+            steps{
+                script{
+                    out=sh(script:&quot;ls $WORKSPACE/npxtester&quot;,returnStatus:true)
+                    if(out == 0){
+                        println &quot;dir is exists and rm dir&quot;
+                        sh &quot;rm -rf $WORKSPACE/npxtester&quot;
+                    }
+                }
+            }
+        }
+        stage(&apos;clone&apos;){
+            steps{
+                sh &quot;git clone -b develop https://$token@$git_repo_url npxtester&quot;
+            }
+        }
+        stage(&apos;set args&apos;){
+            steps{
+                sh &quot;python $WORKSPACE/npxtester/conf/change_args.py  &apos;{\&quot;dpdk_dir\&quot;:\&quot;$dpdk_dir\&quot;,\&quot;sut_conf\&quot;:{\&quot;host\&quot;:\&quot;$sut1_ip\&quot;,\&quot;pf1\&quot;:\&quot;$sut1_pf1\&quot;,\&quot;os\&quot;:\&quot;$os\&quot;},\&quot;pkg_generator\&quot;:{\&quot;host\&quot;:\&quot;$sut2_ip\&quot;,\&quot;pf1\&quot;:\&quot;$sut2_pf1\&quot;}}&apos;&quot;
+            }
+        }
+        //stage(&apos;restore bios&apos;){
+        //    steps{
+        //        sh &quot;pytest $WORKSPACE/npxtester/Tests/testBios/testBiosSetting.py -s -m restoreBios --capture=tee-sys --html=/root/testconfig/testlogs/HtmlReport/restore_bios_report.html --self-contained-html&quot;
+        //    }
+        //}
+        stage(&apos;run nic case&apos;){
+            steps{
+                sh &quot;pytest $WORKSPACE/npxtester/Tests/testNics -s -m nicSimple --capture=tee-sys --html=/root/testconfig/testlogs/HtmlReport/nic_simple_report.html --self-contained-html&quot;
+            }
+        }
+        stage(&apos;collect logs&apos;){
+            steps{
+                sh &quot;sed -i &apos;s/\r//g&apos; $WORKSPACE/npxtester/log_analyzer/log_analyzer.sh&quot;
+                sh &quot;chmod a+x $WORKSPACE/npxtester/log_analyzer/log_analyzer.sh&quot;
+                sh &quot;sh $WORKSPACE/npxtester/log_analyzer/log_analyzer.sh&quot;
+            }
+        }
+    }
+}</script>
+    <sandbox>true</sandbox>
+  </definition>
+  <triggers/>
+  <disabled>false</disabled>
+</flow-definition>

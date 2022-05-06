@@ -1,0 +1,119 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<flow-build plugin="workflow-job@2.41">
+  <actions>
+    <hudson.model.CauseAction>
+      <causeBag class="linked-hash-map">
+        <entry>
+          <hudson.triggers.TimerTrigger_-TimerTriggerCause/>
+          <int>1</int>
+        </entry>
+      </causeBag>
+    </hudson.model.CauseAction>
+    <hudson.model.ParametersAction>
+      <safeParameters class="sorted-set"/>
+      <parameters>
+        <hudson.model.StringParameterValue>
+          <name>token</name>
+          <description>测试机IP</description>
+          <value>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</value>
+        </hudson.model.StringParameterValue>
+        <hudson.model.StringParameterValue>
+          <name>git_repo_url</name>
+          <description>github repo url</description>
+          <value>github.com/intel-innersource/applications.validation.network-platform.npxtester.git</value>
+        </hudson.model.StringParameterValue>
+        <hudson.model.StringParameterValue>
+          <name>sut1_ip</name>
+          <description>测试机IP</description>
+          <value>10.239.115.71</value>
+        </hudson.model.StringParameterValue>
+        <hudson.model.StringParameterValue>
+          <name>pf1</name>
+          <description>sut1 pf1</description>
+          <value>enp137s0f0</value>
+        </hudson.model.StringParameterValue>
+        <hudson.model.StringParameterValue>
+          <name>sut2_ip</name>
+          <description>sut2 IP</description>
+          <value>10.239.115.16</value>
+        </hudson.model.StringParameterValue>
+        <hudson.model.StringParameterValue>
+          <name>sut2_pf1</name>
+          <description>sut2 pf1 name</description>
+          <value>ens801f0</value>
+        </hudson.model.StringParameterValue>
+        <hudson.model.StringParameterValue>
+          <name>os</name>
+          <description>测试机器系统:RHEL or UBUNTU</description>
+          <value>UBUNTU</value>
+        </hudson.model.StringParameterValue>
+        <hudson.model.StringParameterValue>
+          <name>image1</name>
+          <description>镜像1名字</description>
+          <value>uvm1.img</value>
+        </hudson.model.StringParameterValue>
+        <hudson.model.StringParameterValue>
+          <name>image2</name>
+          <description>镜像2名字</description>
+          <value>uvm2.img</value>
+        </hudson.model.StringParameterValue>
+        <hudson.model.StringParameterValue>
+          <name>image3</name>
+          <description>镜像3名字</description>
+          <value>rhel84rt.img</value>
+        </hudson.model.StringParameterValue>
+        <hudson.model.StringParameterValue>
+          <name>image4</name>
+          <description>镜像4名字</description>
+          <value>rhel84rt2.img</value>
+        </hudson.model.StringParameterValue>
+        <hudson.model.StringParameterValue>
+          <name>image_dir</name>
+          <description>镜像路径</description>
+          <value>/home/image</value>
+        </hudson.model.StringParameterValue>
+        <hudson.model.StringParameterValue>
+          <name>dpdk_dir</name>
+          <description>dpdk路径</description>
+          <value>/opt/APP/utility/DPDK/dpdk-21.11/</value>
+        </hudson.model.StringParameterValue>
+        <hudson.model.StringParameterValue>
+          <name>drive_version</name>
+          <description>driver version</description>
+          <value>1.7.19</value>
+        </hudson.model.StringParameterValue>
+      </parameters>
+      <parameterDefinitionNames>
+        <string>token</string>
+        <string>git_repo_url</string>
+        <string>sut1_ip</string>
+        <string>pf1</string>
+        <string>sut2_ip</string>
+        <string>sut2_pf1</string>
+        <string>os</string>
+        <string>image1</string>
+        <string>image2</string>
+        <string>image3</string>
+        <string>image4</string>
+        <string>image_dir</string>
+        <string>dpdk_dir</string>
+        <string>drive_version</string>
+      </parameterDefinitionNames>
+    </hudson.model.ParametersAction>
+    <jenkins.metrics.impl.TimeInQueueAction plugin="metrics@4.0.2.8">
+      <queuingDurationMillis>29373</queuingDurationMillis>
+      <blockedDurationMillis>0</blockedDurationMillis>
+      <buildableDurationMillis>0</buildableDurationMillis>
+      <waitingDurationMillis>2452</waitingDurationMillis>
+    </jenkins.metrics.impl.TimeInQueueAction>
+  </actions>
+  <queueId>4211</queueId>
+  <timestamp>1650480032260</timestamp>
+  <startTime>1650480084588</startTime>
+  <result>FAILURE</result>
+  <duration>0</duration>
+  <charset>UTF-8</charset>
+  <keepLog>false</keepLog>
+  <completed>true</completed>
+  <checkouts class="hudson.util.PersistedList"/>
+</flow-build>

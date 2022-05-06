@@ -1,6 +1,10 @@
 <?xml version='1.1' encoding='UTF-8'?>
 <hudson>
-  <disabledAdministrativeMonitors/>
+  <disabledAdministrativeMonitors>
+    <string>jenkins.security.QueueItemAuthenticatorMonitor</string>
+    <string>jenkins.diagnostics.ControllerExecutorsAgents</string>
+    <string>hudson.diagnosis.ReverseProxySetupMonitor</string>
+  </disabledAdministrativeMonitors>
   <version>2.303.1</version>
   <numExecutors>2</numExecutors>
   <mode>NORMAL</mode>
@@ -10,8 +14,6 @@
     <permission>hudson.model.Computer.Connect:exec-admin</permission>
     <permission>hudson.model.Hudson.Administer:root</permission>
     <permission>hudson.model.Hudson.Read:exec-admin</permission>
-    <permission>hudson.model.Item.Configure:exec-admin</permission>
-    <permission>hudson.model.Item.Create:exec-admin</permission>
   </authorizationStrategy>
   <securityRealm class="hudson.security.HudsonPrivateSecurityRealm">
     <disableSignup>true</disableSignup>
@@ -154,8 +156,7 @@
         <comparator class="hudson.util.CaseInsensitiveComparator"/>
         <string>test-test-iperf-4hours-tcp</string>
         <string>test-test-iperf-4hours-udp</string>
-        <string>test-test-iperf-SRIOV-ipv4-stress-2hours</string>
-        <string>test-test-iperf-SRIOV-ipv6-stress-2hours</string>
+        <string>test-test-iperf-SRIOV-stress-2hours</string>
         <string>test-test-nic-driveinstalluninstall</string>
         <string>test-test-nic-simple</string>
         <string>test-test-nic-sriov-5times</string>
@@ -279,6 +280,7 @@
       <properties class="hudson.model.View$PropertyList"/>
       <jobNames>
         <comparator class="hudson.util.CaseInsensitiveComparator" reference="../../../listView/jobNames/comparator"/>
+        <string>icx-d-setup-test-env</string>
         <string>icx-d-test-iperf-Guests-stress-2hours</string>
         <string>icx-d-test-iperf-SUT-Guest-stress-2hours</string>
         <string>icx-d-test-iperf-tcp-stress-4hours</string>

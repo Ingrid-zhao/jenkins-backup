@@ -1,0 +1,2140 @@
+Started by timer
+Running in Durability level: MAX_SURVIVABILITY
+[8mha:////4DOlrZhma2TKYqx8mtRBwGXVE8Xt4z3OJyo/zi+ICDdzAAAAoh+LCAAAAAAAAP9tjTEOwjAQBM8BClpKHuFItIiK1krDC0x8GCfWnbEdkooX8TX+gCESFVvtrLSa5wtWKcKBo5UdUu8otU4GP9jS5Mixv3geZcdn2TIl9igbHBs2eJyx4YwwR1SwULBGaj0nRzbDRnX6rmuvydanHMu2V1A5c4MHCFXMWcf8hSnC9jqYxPTz/BXAFEIGsfuclm8zQVqFvQAAAA==[0m[Pipeline] Start of Pipeline
+[8mha:////4B4K7nOhvaaLmbeE3w0NEhE1GAALwLDjakw9plXgkY6XAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycohUghExsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jduZBmjwAAAAA==[0m[Pipeline] node
+Running on [8mha:////4EheNQ7D4c27QswDGPiDpGtf9rfQF1HauEmyd+/REsZ/AAAAoh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyeEgZx/eT83ILSktQiICOvpCg/Jye1SDdLHwCRPP8lzAAAAA==[0mcontroller-j in /root/.jenkins/workspace/cyp-test-nic-simple
+[8mha:////4NUxBMzN6CtFAbQ4pdo7pH8ZuwVHigLf0SdP3FcjQTwyAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gA0xsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jfoP95RwAAAAA==[0m[Pipeline] {
+[8mha:////4OCB1+Up79PmV3LnMeomKr9r+JFCKkFjAfTpr2UorbLOAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gQkxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jc09154wAAAAA==[0m[Pipeline] stage
+[8mha:////4N6KQN35K8CT/Pcr9a+R4oOEu4uEh3phvpB1t67zd2hmAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0ggUxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jek7ggRwAAAAA==[0m[Pipeline] { (rm project dir)
+[8mha:////4EWjgIQS1R18e39T6LdOu3ZpSMSXMburmKwxJHd8e163AAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gwExsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jcChmMxwAAAAA==[0m[Pipeline] script
+[8mha:////4NOJ/YVWDlnnBpjDdLKlLZkF5LrR387vblsx7fWhZkPlAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0BAkxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jfpX/cvwAAAAA==[0m[Pipeline] {
+[8mha:////4MAm0moKTc8Eo2PcB0LgkHNHI7Xtf5Poej2Mf/l8xh/lAAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQTbaoyVLaHxBMgiwpL/WWDdrTyRV/MOEjexcpJJ5k3zXm9Y5wQnSpZ7g73DrB2PYbR18YlSfws0cU9XrgkzBcOlmSR15rygpGJgCWtgJWBjUAfKDm2BrfDqodqg0LaXkup3FNC4boAnMFHNRaXyhTnB7j52mfDn+SuAORZg+9pD/AAeoCAqvAAAAA==[0m[Pipeline] sh
++ ls /root/.jenkins/workspace/cyp-test-nic-simple/npxtester
+1.0.0.0001.version
+conf
+installation
+libs
+log_analyzer
+README.md
+testconf
+testLibs
+Tests
+[8mha:////4F3BY6hez6Yn9lSF4dYULOlz4RwK0Fdsp1OYWtj0vxDtAAAAox+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMKBDglR0VppeIFJjHFi3QX7QlLxIr7GH4iIRMVWO9PM641lijhydKqx1HpKlVdd6N301MCxvQYeVMMXVTElDlaVdii5tqcZSxaLeVmOhcbKUhU4eXKCtW7MwxTBkCvOEid30Mh9fccTmZ7KYqJ8YYzY3Po6Mf06fwMYO0G2F+S7bfcBITL9lL0AAAA=[0m[Pipeline] echo
+dir is exists and rm dir
+[8mha:////4KL1cTFlC/t8/0LRf71hJwxXIUFLIMviWtcIHXR2W8epAAAAox+LCAAAAAAAAP9tjbEOgjAURS8YB1dHP6KEzcQ4uTYsfkGFWgvNe9g+hMkv8tf8B4kkTt7pnrOc1xvrFHHk6FRrqfOUaq/6MLj5qZFjdw08qpYvqmZKHKyq7FhxY08LViwWy7IcK42NpTpw8uQEW92ahymCIVecJc7uoJH75o4nMj2XxUT5whSxuw1NYvp1/gYw9YJsL8jLsv8AYAPmjb0AAAA=[0m[Pipeline] sh
++ rm -rf /root/.jenkins/workspace/cyp-test-nic-simple/npxtester
+[8mha:////4GzJynz9IX3CLl34e/1JpYOeLz7FDsqMtIihCtFGqNpZAAAAox+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIRVEiIitZKwwtMYowT6y7YF5KKF/E1/kBEJCq22plmXm8sU8SRo1ONpdZTqrzqQu+mpwaO7TXwoBq+qIopcbCqtEPJtT3NWLJYzMtyLDRWlqrAyZMTrHVjHqYIhlxxlji5g0bu6zueyPRUFhPlC2PE5tbXienX+RvA2HWCfLsTZPsPzjQzob0AAAA=[0m[Pipeline] }
+[8mha:////4MvApYhNLg1xEFG2iXyHCog7Z9h4MbdAsNSDoK4wJnDgAAAApB+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIRoqBAVLRWGl5gEmOcWHfBvpBUvIiv8QciIlGx1c4083pjmSKOHJ1qLLWeUuVVF3o3PTVwbK+BB9XwRVVMiYNVpR1Kru1pxpLFYl6WY6GxslQFTp6cYK0b8zBFMOSKs8TJHTRyX9/xRKanspgoXxgjNre+Tky/zt8Axq4T5NudINt/AO8A7Ay9AAAA[0m[Pipeline] // script
+[8mha:////4P1g47DHQeYIMdAQPrqVFJW5XTEYSJkMqP0k+p1upCWxAAAApB+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIREqJBVLRWGl5gEmOcWHfBvpBUvIiv8QciIlGx1c4083pjmSKOHJ1qLLWeUuVVF3o3PTVwbK+BB9XwRVVMiYNVpR1Kru1pxpLFYl6WY6GxslQFTp6cYK0b8zBFMOSKs8TJHTRyX9/xRKanspgoXxgjNre+Tky/zt8Axq4T5NudINt/AGnsy8m9AAAA[0m[Pipeline] }
+[8mha:////4Lc6WrLYEiiAC7rTWY8q4RQPGu1FD+hrgClvEqpzcg2sAAAAox+LCAAAAAAAAP9tjTESgjAQRT84FraWHiKMBZVjZZuh8QQRYgxkdjFZhMoTeTXvICMzVv7qv9e81xvrFHHk6FRrqfOUaq/6MLj5qZFjdw08qpYvqmZKHKyq7FhxY08LViwWy7IcK42NpTpw8uQEW92ahymCIVecJc7uoJH75o4nMj2XxUT5whSxuw1NYvp1/gYw9b0g35eCrPwAY5Sibb0AAAA=[0m[Pipeline] // stage
+[8mha:////4LPzYIRsJlP9vBl87WR2FbvV5590n9jZkqHCRBijPEs5AAAApx+LCAAAAAAAAP9tjTEOwjAQBM9BKWgpeYQjJESDqGgtN7zAxMY4se6CfSGpeBFf4w8EIlGx1c5Kq3m+oMwJDpS8bBy2AXMdZBd7PzU5UGovkQbZ0FnWhJmik9oNmqw7zqiJHcwRBSwULB3WkXJAz7BSjbmbKhr01YnTtO0VFMHe4AFCTWY2ib8wJlhfe5sJf56/Ahg7BrFlKDa7z7F8A6sHc4fBAAAA[0m[Pipeline] stage
+[8mha:////4P0yjWfQiEwQxZO7i9obwDXrYwQclNR3i//1CTGbFwBFAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohULDAgpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD1+IXOLCAAAA[0m[Pipeline] { (clone)
+[8mha:////4I3tKNYAz7At397ZkNOs6SFwEn2bzn3ZBhsoegW1dhRwAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiKpAQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGPIUG53n9qHNxXfVKy+AAAA[0m[Pipeline] sh
++ git clone -b develop https://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@github.com/intel-innersource/applications.validation.network-platform.npxtester.git npxtester
+Cloning into 'npxtester'...
+[8mha:////4CRWXV91kUhqh2bTVXI+2n5U32cQ89nJ7yub5blKQ29bAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiKoQQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGMIGcrt/lO7N9Jjga++AAAA[0m[Pipeline] }
+[8mha:////4I4ZVrOFMvh2sVfxnfT9s6+paGHoH9OzkxEwdR4h+nRDAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOICFDQoFa3lhheYxBgn1l2wHZyKF/E1/oBFJCq2WO1sM683LIOHmr3BTlNvKTQWBzeavDCx76+OE3Z8wYYpsNModZLc6tOMkqOGOUUJCwErTY3jYMlEWItOPVTlFJnqHH3+jgJK297hCYXI5qh8/MLkYXMb28D08/wVwDQMEcr9Ntfu8AERGGHOvgAAAA==[0m[Pipeline] // stage
+[8mha:////4J4BpfnRrLE6odVrNZGgZ11wIRy0HYHBalvcHAcD12j/AAAAph+LCAAAAAAAAP9tjTEOwjAQBM9BKWgpeYQjEB2iorXc8AITG+PEugv2haTiRXyNPxCIRMVWOyut5vmCMic4UPKycdgGzHWQXez91ORAqb1EGmRDZ1kTZopOajdosu44oyZ2MEcUsFCwdFhHygE9w0o15m6qaNBXJ07TtldQBHuDBwg1mdkk/sKYYH3tbSb8ef4KYOwYxI6h2G4+x/INji2eq8EAAAA=[0m[Pipeline] stage
+[8mha:////4AgPhGmio4pMNzq5gItmuDxswb3P5dwyIofUIBdMXBTmAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+DOrAycohUdEVMrFEXThCaEJJG/7dJSjpxIq7GHWipxIQHy7ZkvdcbyhjgRMFwp7GzGFvLez+aOfFMobt5ytzRlbeEkbzmjc4NKX1ea0NJw6qCwUbAVmPrKVo0CXbCyYesvERTXVKYt6MAZtUATyjETE4ypG+ZAuzvo4qEP85fAEx9AlYfFquXZ/kBAsTc3cIAAAA=[0m[Pipeline] { (set args)
+[8mha:////4G9dxluK5ut2lxdfo2JVi6OIov1ZH/881VUFzuPzanonAAAAox+LCAAAAAAAAP9tjTESwiAURH/iWNhaeggyE0vHypah8QSYIEKY/wkQSeWJvJp3EM2MlVvs7NvmPV+wjgGOFDSzCgeDsTPMu0mXxTKF4eooM0sX1hFGcooJlQX16rSgoKRgSVXDisNGYecoGtQJttzKu2ycRN2cUyjfgUNt+hEeUPFiTjKkL8wBdrepj4Q/z18BzD5B3baf2vs3w5BRkb4AAAA=[0m[Pipeline] sh
++ python /root/.jenkins/workspace/cyp-test-nic-simple/npxtester/conf/change_args.py '{"bmc_conf":{"user":"debuguser","password":"0penBmc1"},"dpdk_dir":"/opt/APP/utility/DPDK_install/dpdk-21.02/","sut_conf":{"bmc_ip":"10.239.183.128","board_type":"commercial","host":"10.239.182.209","pf1":"ens785f2","os":"RHEL","PF1_NIC_type":"4*25"},"pkg_generator":{"host":"10.239.182.79","pf1":"ens787f2"},"drive_info":{"drive_version":"1.6.4"}}'
+[8mha:////4FhUQONKPXFSeOjFO92QKbtxv93cUzSuhB7hx3xoWX6KAAAApB+LCAAAAAAAAP9tjbEOwiAURV9rHFwd/QiaNG7GyZWw+AXYIkLJexSodPKL/DX/QbSJk3e4uecu5/mCdQxwpKCZVTgYjJ1h3k26LJYpDFdHmVm6sI4wklNMqCyoV6cFBSUFS6oaVhw2CjtH0aBOsOVW3mXjJOrmnEL5Dhxq04/wgIoXc5IhfWEOsLtNfST8ef4KYPY+Qd3uP9W+Ad3NsHm+AAAA[0m[Pipeline] }
+[8mha:////4EpM1Tihe33kOTBucrClpdwMCq1FF6wGwTU/AEOZmYaNAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIikKgQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGMIGcrd/lPbN8JP5Su+AAAA[0m[Pipeline] // stage
+[8mha:////4JJk4NQMkVX21N+ktknOqKLQw+FD2VU/fvD8dhBPuambAAAApx+LCAAAAAAAAP9tjTEOwjAQBM9BKWgpeYQjIUSDqGgtN7zAxMY4se6CfSGpeBFf4w8EIlGx1c5Kq3m+oMwJDpS8bBy2AXMdZBd7PzU5UGovkQbZ0FnWhJmik9oNmqw7zqiJHcwRBSwULB3WkXJAz7BSjbmbKhr01YnTtO0VFMHe4AFCTWY2ib8wJlhfe5sJf56/Ahg7BrFlKDa7z7F8AzYdm7bBAAAA[0m[Pipeline] stage
+[8mha:////4GToWcz1lEtttcc1F67+obVKf97ChyGWoNBgdNb8ln6iAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUYoABMXWNsnCC0ISQNvq//KS0EyfiatyBlkpMeLBsS9Z7vaGIDCdiJxqLrcdYe9GF3k1JDMTtNdAgGrqImjBSsELZQZGx1VIVJQuLshxWEtYW60DRo0uwkY1+6DJodOU58bQdJeTe3OEJmZzISXP6lpFhe+tNJPxx/gJg7BLku/1sh/lZfAAyQCqkwgAAAA==[0m[Pipeline] { (run nic case)
+[8mha:////4M/BBJOrvLliK1a64sS7A0hf4H4seiclg8D1IX9OqKAVAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIi0YCEqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDhnK7+9Q+vAGvZp0gvgAAAA==[0m[Pipeline] sh
++ pytest /root/.jenkins/workspace/cyp-test-nic-simple/npxtester/Tests/testNics -s -m nicSimple --capture=tee-sys --html=/root/testconfig/testlogs/HtmlReport/nic_simple_report.html --self-contained-html
+============================= test session starts ==============================
+platform linux -- Python 3.6.8, pytest-6.2.4, py-1.11.0, pluggy-0.13.1
+rootdir: /root/.jenkins/workspace/cyp-test-nic-simple/npxtester/Tests/testNics, configfile: pytest.ini
+plugins: metadata-1.11.0, html-3.1.1
+collected 19 items / 11 deselected / 8 selected
+
+npxtester/Tests/testNics/test_mtu.py 2022-04-19 00:25:59 - NicTestFixture.py - [line:27] - root - INFO - case_logpath: /root/testconfig/testlogs/2022-04-19/test_PI_Networking_Jumbo_Packet_CVL_00_25_59/test_PI_Networking_Jumbo_Packet_CVL.log, case_logdir: /root/testconfig/testlogs/2022-04-19/test_PI_Networking_Jumbo_Packet_CVL_00_25_59
+2022-04-19 00:25:59 - NicTestFixture.py - [line:31] - root - INFO - ============================ Starting to run test_PI_Networking_Jumbo_Packet_CVL case ============================
+2022-04-19 00:25:59 - test_mtu.py - [line:16] - root - INFO - this is Test_mtu setup.
+2022-04-19 00:25:59 - test_mtu.py - [line:22] - root - INFO - ssh to the sut1
+2022-04-19 00:25:59 - test_mtu.py - [line:24] - root - INFO - ssh to the sut1
+2022-04-19 00:25:59 - transport.py - [line:1819] - paramiko.transport - INFO - Connected (version 2.0, client OpenSSH_8.0)
+2022-04-19 00:25:59 - transport.py - [line:1819] - paramiko.transport - INFO - Authentication (password) successful!
+2022-04-19 00:25:59 - sshInstance.py - [line:28] - root - INFO - SSH on SUT: 10.239.182.209
+2022-04-19 00:26:29 - test_mtu.py - [line:37] - root - INFO - Case Failed:ssh to sut2 failed,please check
+E2022-04-19 00:26:29 - NicTestFixture.py - [line:35] - root - INFO - ============================ end of run test_PI_Networking_Jumbo_Packet_CVL case ============================
+2022-04-19 00:26:29 - NicTestFixture.py - [line:27] - root - INFO - case_logpath: /root/testconfig/testlogs/2022-04-19/test_PI_Networking_MTU_set_CVL_00_26_29/test_PI_Networking_MTU_set_CVL.log, case_logdir: /root/testconfig/testlogs/2022-04-19/test_PI_Networking_MTU_set_CVL_00_26_29
+2022-04-19 00:26:29 - NicTestFixture.py - [line:31] - root - INFO - ============================ Starting to run test_PI_Networking_MTU_set_CVL case ============================
+2022-04-19 00:26:29 - test_mtu.py - [line:16] - root - INFO - this is Test_mtu setup.
+2022-04-19 00:26:29 - test_mtu.py - [line:22] - root - INFO - ssh to the sut1
+2022-04-19 00:26:29 - test_mtu.py - [line:24] - root - INFO - ssh to the sut1
+2022-04-19 00:26:29 - transport.py - [line:1819] - paramiko.transport - INFO - Connected (version 2.0, client OpenSSH_8.0)
+2022-04-19 00:26:29 - transport.py - [line:1819] - paramiko.transport - INFO - Authentication (password) successful!
+2022-04-19 00:26:29 - sshInstance.py - [line:28] - root - INFO - SSH on SUT: 10.239.182.209
+2022-04-19 00:26:59 - test_mtu.py - [line:37] - root - INFO - Case Failed:ssh to sut2 failed,please check
+E2022-04-19 00:26:59 - NicTestFixture.py - [line:35] - root - INFO - ============================ end of run test_PI_Networking_MTU_set_CVL case ============================
+                                  [ 25%]
+npxtester/Tests/testNics/test_nics.py 2022-04-19 00:26:59 - NicTestFixture.py - [line:20] - root - INFO - test -------
+2022-04-19 00:26:59 - NicTestFixture.py - [line:27] - root - INFO - case_logpath: /root/testconfig/testlogs/2022-04-19/test_silver_Networking_ConnectivityEnableDisable_00_26_59/test_silver_Networking_ConnectivityEnableDisable.log, case_logdir: /root/testconfig/testlogs/2022-04-19/test_silver_Networking_ConnectivityEnableDisable_00_26_59
+2022-04-19 00:26:59 - NicTestFixture.py - [line:31] - root - INFO - ============================ Starting to run test_silver_Networking_ConnectivityEnableDisable case ============================
+2022-04-19 00:26:59 - test_nics.py - [line:21] - root - INFO - this is Test_Nics setup.
+2022-04-19 00:26:59 - test_nics.py - [line:28] - root - INFO - ssh to the sut1
+2022-04-19 00:26:59 - transport.py - [line:1819] - paramiko.transport - INFO - Connected (version 2.0, client OpenSSH_8.0)
+2022-04-19 00:26:59 - transport.py - [line:1819] - paramiko.transport - INFO - Authentication (password) successful!
+2022-04-19 00:26:59 - sshInstance.py - [line:28] - root - INFO - SSH on SUT: 10.239.182.209
+2022-04-19 00:27:29 - test_nics.py - [line:40] - root - INFO - Case Failed:ssh to sut2 failed,please check
+E2022-04-19 00:27:30 - NicTestFixture.py - [line:35] - root - INFO - ============================ end of run test_silver_Networking_ConnectivityEnableDisable case ============================
+2022-04-19 00:27:30 - NicTestFixture.py - [line:27] - root - INFO - case_logpath: /root/testconfig/testlogs/2022-04-19/test_silver_ConnectivityReboot_00_27_30/test_silver_ConnectivityReboot.log, case_logdir: /root/testconfig/testlogs/2022-04-19/test_silver_ConnectivityReboot_00_27_30
+2022-04-19 00:27:30 - NicTestFixture.py - [line:31] - root - INFO - ============================ Starting to run test_silver_ConnectivityReboot case ============================
+2022-04-19 00:27:30 - test_nics.py - [line:21] - root - INFO - this is Test_Nics setup.
+2022-04-19 00:27:30 - test_nics.py - [line:28] - root - INFO - ssh to the sut1
+2022-04-19 00:27:30 - transport.py - [line:1819] - paramiko.transport - INFO - Connected (version 2.0, client OpenSSH_8.0)
+2022-04-19 00:27:30 - transport.py - [line:1819] - paramiko.transport - INFO - Authentication (password) successful!
+2022-04-19 00:27:30 - sshInstance.py - [line:28] - root - INFO - SSH on SUT: 10.239.182.209
+2022-04-19 00:28:00 - test_nics.py - [line:40] - root - INFO - Case Failed:ssh to sut2 failed,please check
+E2022-04-19 00:28:00 - NicTestFixture.py - [line:35] - root - INFO - ============================ end of run test_silver_ConnectivityReboot case ============================
+2022-04-19 00:28:00 - NicTestFixture.py - [line:27] - root - INFO - case_logpath: /root/testconfig/testlogs/2022-04-19/test_gold_PI_Networking_SRIOV_CheckDevice_00_28_00/test_gold_PI_Networking_SRIOV_CheckDevice.log, case_logdir: /root/testconfig/testlogs/2022-04-19/test_gold_PI_Networking_SRIOV_CheckDevice_00_28_00
+2022-04-19 00:28:00 - NicTestFixture.py - [line:31] - root - INFO - ============================ Starting to run test_gold_PI_Networking_SRIOV_CheckDevice case ============================
+2022-04-19 00:28:00 - test_nics.py - [line:21] - root - INFO - this is Test_Nics setup.
+2022-04-19 00:28:00 - test_nics.py - [line:28] - root - INFO - ssh to the sut1
+2022-04-19 00:28:00 - transport.py - [line:1819] - paramiko.transport - INFO - Connected (version 2.0, client OpenSSH_8.0)
+2022-04-19 00:28:00 - transport.py - [line:1819] - paramiko.transport - INFO - Authentication (password) successful!
+2022-04-19 00:28:00 - sshInstance.py - [line:28] - root - INFO - SSH on SUT: 10.239.182.209
+2022-04-19 00:28:30 - test_nics.py - [line:40] - root - INFO - Case Failed:ssh to sut2 failed,please check
+E2022-04-19 00:28:30 - NicTestFixture.py - [line:35] - root - INFO - ============================ end of run test_gold_PI_Networking_SRIOV_CheckDevice case ============================
+2022-04-19 00:28:30 - NicTestFixture.py - [line:27] - root - INFO - case_logpath: /root/testconfig/testlogs/2022-04-19/test_PI_Networking_InternetProtocolv4v6_00_28_30/test_PI_Networking_InternetProtocolv4v6.log, case_logdir: /root/testconfig/testlogs/2022-04-19/test_PI_Networking_InternetProtocolv4v6_00_28_30
+2022-04-19 00:28:30 - NicTestFixture.py - [line:31] - root - INFO - ============================ Starting to run test_PI_Networking_InternetProtocolv4v6 case ============================
+2022-04-19 00:28:30 - test_nics.py - [line:21] - root - INFO - this is Test_Nics setup.
+2022-04-19 00:28:30 - test_nics.py - [line:28] - root - INFO - ssh to the sut1
+2022-04-19 00:28:30 - transport.py - [line:1819] - paramiko.transport - INFO - Connected (version 2.0, client OpenSSH_8.0)
+2022-04-19 00:28:30 - transport.py - [line:1819] - paramiko.transport - INFO - Authentication (password) successful!
+2022-04-19 00:28:30 - sshInstance.py - [line:28] - root - INFO - SSH on SUT: 10.239.182.209
+2022-04-19 00:29:00 - test_nics.py - [line:40] - root - INFO - Case Failed:ssh to sut2 failed,please check
+E2022-04-19 00:29:00 - NicTestFixture.py - [line:35] - root - INFO - ============================ end of run test_PI_Networking_InternetProtocolv4v6 case ============================
+2022-04-19 00:29:00 - NicTestFixture.py - [line:27] - root - INFO - case_logpath: /root/testconfig/testlogs/2022-04-19/test_PI_Networking_Link_State_Check_00_29_00/test_PI_Networking_Link_State_Check.log, case_logdir: /root/testconfig/testlogs/2022-04-19/test_PI_Networking_Link_State_Check_00_29_00
+2022-04-19 00:29:00 - NicTestFixture.py - [line:31] - root - INFO - ============================ Starting to run test_PI_Networking_Link_State_Check case ============================
+2022-04-19 00:29:00 - test_nics.py - [line:21] - root - INFO - this is Test_Nics setup.
+2022-04-19 00:29:00 - test_nics.py - [line:28] - root - INFO - ssh to the sut1
+2022-04-19 00:29:00 - transport.py - [line:1819] - paramiko.transport - INFO - Connected (version 2.0, client OpenSSH_8.0)
+2022-04-19 00:29:00 - transport.py - [line:1819] - paramiko.transport - INFO - Authentication (password) successful!
+2022-04-19 00:29:00 - sshInstance.py - [line:28] - root - INFO - SSH on SUT: 10.239.182.209
+2022-04-19 00:29:30 - test_nics.py - [line:40] - root - INFO - Case Failed:ssh to sut2 failed,please check
+E2022-04-19 00:29:30 - NicTestFixture.py - [line:35] - root - INFO - ============================ end of run test_PI_Networking_Link_State_Check case ============================
+2022-04-19 00:29:30 - NicTestFixture.py - [line:27] - root - INFO - case_logpath: /root/testconfig/testlogs/2022-04-19/test_PI_Networking_ConnectivityShutdown_00_29_30/test_PI_Networking_ConnectivityShutdown.log, case_logdir: /root/testconfig/testlogs/2022-04-19/test_PI_Networking_ConnectivityShutdown_00_29_30
+2022-04-19 00:29:30 - NicTestFixture.py - [line:31] - root - INFO - ============================ Starting to run test_PI_Networking_ConnectivityShutdown case ============================
+2022-04-19 00:29:30 - test_nics.py - [line:21] - root - INFO - this is Test_Nics setup.
+2022-04-19 00:29:30 - test_nics.py - [line:28] - root - INFO - ssh to the sut1
+2022-04-19 00:29:30 - transport.py - [line:1819] - paramiko.transport - INFO - Connected (version 2.0, client OpenSSH_8.0)
+2022-04-19 00:29:30 - transport.py - [line:1819] - paramiko.transport - INFO - Authentication (password) successful!
+2022-04-19 00:29:30 - sshInstance.py - [line:28] - root - INFO - SSH on SUT: 10.239.182.209
+2022-04-19 00:30:00 - test_nics.py - [line:40] - root - INFO - Case Failed:ssh to sut2 failed,please check
+E2022-04-19 00:30:00 - NicTestFixture.py - [line:35] - root - INFO - ============================ end of run test_PI_Networking_ConnectivityShutdown case ============================
+                             [100%]
+
+==================================== ERRORS ====================================
+________ ERROR at setup of Test_mtu.test_PI_Networking_Jumbo_Packet_CVL ________
+
+self = <Tests.testNics.test_mtu.Test_mtu object at 0x7f8173540550>
+
+    def setup(self):
+        logging.info("this is Test_mtu setup.")
+        self.sut_conf = settings.__getattribute__("sut_conf")
+        self.pkg_generator = settings.__getattribute__("pkg_generator")
+        self.check_str = settings.__getattribute__("check_str")
+        self.drive_info = settings.__getattribute__("drive_info")
+        self.cn_test_sut = sshInstance()
+        logging.info("ssh to the sut1")
+        self.cn_test_sut = sshInstance()
+        logging.info("ssh to the sut1")
+    
+        try:
+            self.sut1_cli, self.sut1_session = self.cn_test_sut.get_ssh_instance(self.sut_conf["host"], self.sut_conf["user"],
+                                                        self.sut_conf["password"],self.sut_conf["port"])
+        except:
+            logging.info("Case Failed:ssh to sut failed,please check")
+            assert 200 == 400, "Case Failed:ssh to sut failed,please check"
+    
+        try:
+            self.sut2_cli, self.sut2_session = self.cn_test_sut.get_ssh_instance(self.pkg_generator["host"], self.pkg_generator["user"],
+>                                                       self.pkg_generator["password"],self.pkg_generator["port"])
+
+npxtester/Tests/testNics/test_mtu.py:35: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+self = <libs.commons.sshInstance.sshInstance object at 0x7f8173540588>
+hostname = '10.239.182.79', username = 'root', password = 'password', port = 22
+
+    def get_ssh_instance(self, hostname, username, password, port):
+        client = paramiko.SSHClient()
+        client.set_missing_host_key_policy(paramiko.AutoAddPolicy())
+>       client.connect(hostname=hostname, port=port, username=username, password=password, timeout=30)
+
+npxtester/libs/commons/sshInstance.py:25: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+self = <paramiko.client.SSHClient object at 0x7f81737bab38>
+hostname = '10.239.182.79', port = 22, username = 'root', password = 'password'
+pkey = None, key_filename = None, timeout = 30, allow_agent = True
+look_for_keys = True, compress = False
+sock = <socket.socket fd=10, family=AddressFamily.AF_INET, type=2049, proto=0, laddr=('10.112.97.60', 60520)>
+gss_auth = False, gss_kex = False, gss_deleg_creds = True, gss_host = None
+banner_timeout = None, auth_timeout = None, gss_trust_dns = True
+passphrase = None, disabled_algorithms = None
+
+    def connect(
+        self,
+        hostname,
+        port=SSH_PORT,
+        username=None,
+        password=None,
+        pkey=None,
+        key_filename=None,
+        timeout=None,
+        allow_agent=True,
+        look_for_keys=True,
+        compress=False,
+        sock=None,
+        gss_auth=False,
+        gss_kex=False,
+        gss_deleg_creds=True,
+        gss_host=None,
+        banner_timeout=None,
+        auth_timeout=None,
+        gss_trust_dns=True,
+        passphrase=None,
+        disabled_algorithms=None,
+    ):
+        """
+        Connect to an SSH server and authenticate to it.  The server's host key
+        is checked against the system host keys (see `load_system_host_keys`)
+        and any local host keys (`load_host_keys`).  If the server's hostname
+        is not found in either set of host keys, the missing host key policy
+        is used (see `set_missing_host_key_policy`).  The default policy is
+        to reject the key and raise an `.SSHException`.
+    
+        Authentication is attempted in the following order of priority:
+    
+            - The ``pkey`` or ``key_filename`` passed in (if any)
+    
+              - ``key_filename`` may contain OpenSSH public certificate paths
+                as well as regular private-key paths; when files ending in
+                ``-cert.pub`` are found, they are assumed to match a private
+                key, and both components will be loaded. (The private key
+                itself does *not* need to be listed in ``key_filename`` for
+                this to occur - *just* the certificate.)
+    
+            - Any key we can find through an SSH agent
+            - Any "id_rsa", "id_dsa" or "id_ecdsa" key discoverable in
+              ``~/.ssh/``
+    
+              - When OpenSSH-style public certificates exist that match an
+                existing such private key (so e.g. one has ``id_rsa`` and
+                ``id_rsa-cert.pub``) the certificate will be loaded alongside
+                the private key and used for authentication.
+    
+            - Plain username/password auth, if a password was given
+    
+        If a private key requires a password to unlock it, and a password is
+        passed in, that password will be used to attempt to unlock the key.
+    
+        :param str hostname: the server to connect to
+        :param int port: the server port to connect to
+        :param str username:
+            the username to authenticate as (defaults to the current local
+            username)
+        :param str password:
+            Used for password authentication; is also used for private key
+            decryption if ``passphrase`` is not given.
+        :param str passphrase:
+            Used for decrypting private keys.
+        :param .PKey pkey: an optional private key to use for authentication
+        :param str key_filename:
+            the filename, or list of filenames, of optional private key(s)
+            and/or certs to try for authentication
+        :param float timeout:
+            an optional timeout (in seconds) for the TCP connect
+        :param bool allow_agent:
+            set to False to disable connecting to the SSH agent
+        :param bool look_for_keys:
+            set to False to disable searching for discoverable private key
+            files in ``~/.ssh/``
+        :param bool compress: set to True to turn on compression
+        :param socket sock:
+            an open socket or socket-like object (such as a `.Channel`) to use
+            for communication to the target host
+        :param bool gss_auth:
+            ``True`` if you want to use GSS-API authentication
+        :param bool gss_kex:
+            Perform GSS-API Key Exchange and user authentication
+        :param bool gss_deleg_creds: Delegate GSS-API client credentials or not
+        :param str gss_host:
+            The targets name in the kerberos database. default: hostname
+        :param bool gss_trust_dns:
+            Indicates whether or not the DNS is trusted to securely
+            canonicalize the name of the host being connected to (default
+            ``True``).
+        :param float banner_timeout: an optional timeout (in seconds) to wait
+            for the SSH banner to be presented.
+        :param float auth_timeout: an optional timeout (in seconds) to wait for
+            an authentication response.
+        :param dict disabled_algorithms:
+            an optional dict passed directly to `.Transport` and its keyword
+            argument of the same name.
+    
+        :raises:
+            `.BadHostKeyException` -- if the server's host key could not be
+            verified
+        :raises: `.AuthenticationException` -- if authentication failed
+        :raises:
+            `.SSHException` -- if there was any other error connecting or
+            establishing an SSH session
+        :raises socket.error: if a socket error occurred while connecting
+    
+        .. versionchanged:: 1.15
+            Added the ``banner_timeout``, ``gss_auth``, ``gss_kex``,
+            ``gss_deleg_creds`` and ``gss_host`` arguments.
+        .. versionchanged:: 2.3
+            Added the ``gss_trust_dns`` argument.
+        .. versionchanged:: 2.4
+            Added the ``passphrase`` argument.
+        .. versionchanged:: 2.6
+            Added the ``disabled_algorithms`` argument.
+        """
+        if not sock:
+            errors = {}
+            # Try multiple possible address families (e.g. IPv4 vs IPv6)
+            to_try = list(self._families_and_addresses(hostname, port))
+            for af, addr in to_try:
+                try:
+                    sock = socket.socket(af, socket.SOCK_STREAM)
+                    if timeout is not None:
+                        try:
+                            sock.settimeout(timeout)
+                        except:
+                            pass
+>                   retry_on_signal(lambda: sock.connect(addr))
+
+/usr/local/lib/python3.6/site-packages/paramiko/client.py:349: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+function = <function SSHClient.connect.<locals>.<lambda> at 0x7f81759b39d8>
+
+    def retry_on_signal(function):
+        """Retries function until it doesn't raise an EINTR error"""
+        while True:
+            try:
+>               return function()
+
+/usr/local/lib/python3.6/site-packages/paramiko/util.py:283: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+>   retry_on_signal(lambda: sock.connect(addr))
+E   socket.timeout: timed out
+
+/usr/local/lib/python3.6/site-packages/paramiko/client.py:349: timeout
+
+During handling of the above exception, another exception occurred:
+
+self = <Tests.testNics.test_mtu.Test_mtu object at 0x7f8173540550>
+
+    def setup(self):
+        logging.info("this is Test_mtu setup.")
+        self.sut_conf = settings.__getattribute__("sut_conf")
+        self.pkg_generator = settings.__getattribute__("pkg_generator")
+        self.check_str = settings.__getattribute__("check_str")
+        self.drive_info = settings.__getattribute__("drive_info")
+        self.cn_test_sut = sshInstance()
+        logging.info("ssh to the sut1")
+        self.cn_test_sut = sshInstance()
+        logging.info("ssh to the sut1")
+    
+        try:
+            self.sut1_cli, self.sut1_session = self.cn_test_sut.get_ssh_instance(self.sut_conf["host"], self.sut_conf["user"],
+                                                        self.sut_conf["password"],self.sut_conf["port"])
+        except:
+            logging.info("Case Failed:ssh to sut failed,please check")
+            assert 200 == 400, "Case Failed:ssh to sut failed,please check"
+    
+        try:
+            self.sut2_cli, self.sut2_session = self.cn_test_sut.get_ssh_instance(self.pkg_generator["host"], self.pkg_generator["user"],
+                                                        self.pkg_generator["password"],self.pkg_generator["port"])
+        except:
+            logging.info("Case Failed:ssh to sut2 failed,please check")
+>           assert 200 == 400, "Case Failed:ssh to sut2 failed,please check"
+E           AssertionError: Case Failed:ssh to sut2 failed,please check
+E           assert 200 == 400
+
+npxtester/Tests/testNics/test_mtu.py:38: AssertionError
+---------------------------- Captured stdout setup -----------------------------
+2022-04-19 00:25:59 - NicTestFixture.py - [line:27] - root - INFO - case_logpath: /root/testconfig/testlogs/2022-04-19/test_PI_Networking_Jumbo_Packet_CVL_00_25_59/test_PI_Networking_Jumbo_Packet_CVL.log, case_logdir: /root/testconfig/testlogs/2022-04-19/test_PI_Networking_Jumbo_Packet_CVL_00_25_59
+2022-04-19 00:25:59 - NicTestFixture.py - [line:31] - root - INFO - ============================ Starting to run test_PI_Networking_Jumbo_Packet_CVL case ============================
+2022-04-19 00:25:59 - test_mtu.py - [line:16] - root - INFO - this is Test_mtu setup.
+2022-04-19 00:25:59 - test_mtu.py - [line:22] - root - INFO - ssh to the sut1
+2022-04-19 00:25:59 - test_mtu.py - [line:24] - root - INFO - ssh to the sut1
+2022-04-19 00:25:59 - transport.py - [line:1819] - paramiko.transport - INFO - Connected (version 2.0, client OpenSSH_8.0)
+2022-04-19 00:25:59 - transport.py - [line:1819] - paramiko.transport - INFO - Authentication (password) successful!
+2022-04-19 00:25:59 - sshInstance.py - [line:28] - root - INFO - SSH on SUT: 10.239.182.209
+2022-04-19 00:26:29 - test_mtu.py - [line:37] - root - INFO - Case Failed:ssh to sut2 failed,please check
+__________ ERROR at setup of Test_mtu.test_PI_Networking_MTU_set_CVL ___________
+
+self = <Tests.testNics.test_mtu.Test_mtu object at 0x7f81737e4fd0>
+
+    def setup(self):
+        logging.info("this is Test_mtu setup.")
+        self.sut_conf = settings.__getattribute__("sut_conf")
+        self.pkg_generator = settings.__getattribute__("pkg_generator")
+        self.check_str = settings.__getattribute__("check_str")
+        self.drive_info = settings.__getattribute__("drive_info")
+        self.cn_test_sut = sshInstance()
+        logging.info("ssh to the sut1")
+        self.cn_test_sut = sshInstance()
+        logging.info("ssh to the sut1")
+    
+        try:
+            self.sut1_cli, self.sut1_session = self.cn_test_sut.get_ssh_instance(self.sut_conf["host"], self.sut_conf["user"],
+                                                        self.sut_conf["password"],self.sut_conf["port"])
+        except:
+            logging.info("Case Failed:ssh to sut failed,please check")
+            assert 200 == 400, "Case Failed:ssh to sut failed,please check"
+    
+        try:
+            self.sut2_cli, self.sut2_session = self.cn_test_sut.get_ssh_instance(self.pkg_generator["host"], self.pkg_generator["user"],
+>                                                       self.pkg_generator["password"],self.pkg_generator["port"])
+
+npxtester/Tests/testNics/test_mtu.py:35: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+self = <libs.commons.sshInstance.sshInstance object at 0x7f81737e4f98>
+hostname = '10.239.182.79', username = 'root', password = 'password', port = 22
+
+    def get_ssh_instance(self, hostname, username, password, port):
+        client = paramiko.SSHClient()
+        client.set_missing_host_key_policy(paramiko.AutoAddPolicy())
+>       client.connect(hostname=hostname, port=port, username=username, password=password, timeout=30)
+
+npxtester/libs/commons/sshInstance.py:25: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+self = <paramiko.client.SSHClient object at 0x7f81737ed780>
+hostname = '10.239.182.79', port = 22, username = 'root', password = 'password'
+pkey = None, key_filename = None, timeout = 30, allow_agent = True
+look_for_keys = True, compress = False
+sock = <socket.socket fd=12, family=AddressFamily.AF_INET, type=2049, proto=0, laddr=('10.112.97.60', 60524)>
+gss_auth = False, gss_kex = False, gss_deleg_creds = True, gss_host = None
+banner_timeout = None, auth_timeout = None, gss_trust_dns = True
+passphrase = None, disabled_algorithms = None
+
+    def connect(
+        self,
+        hostname,
+        port=SSH_PORT,
+        username=None,
+        password=None,
+        pkey=None,
+        key_filename=None,
+        timeout=None,
+        allow_agent=True,
+        look_for_keys=True,
+        compress=False,
+        sock=None,
+        gss_auth=False,
+        gss_kex=False,
+        gss_deleg_creds=True,
+        gss_host=None,
+        banner_timeout=None,
+        auth_timeout=None,
+        gss_trust_dns=True,
+        passphrase=None,
+        disabled_algorithms=None,
+    ):
+        """
+        Connect to an SSH server and authenticate to it.  The server's host key
+        is checked against the system host keys (see `load_system_host_keys`)
+        and any local host keys (`load_host_keys`).  If the server's hostname
+        is not found in either set of host keys, the missing host key policy
+        is used (see `set_missing_host_key_policy`).  The default policy is
+        to reject the key and raise an `.SSHException`.
+    
+        Authentication is attempted in the following order of priority:
+    
+            - The ``pkey`` or ``key_filename`` passed in (if any)
+    
+              - ``key_filename`` may contain OpenSSH public certificate paths
+                as well as regular private-key paths; when files ending in
+                ``-cert.pub`` are found, they are assumed to match a private
+                key, and both components will be loaded. (The private key
+                itself does *not* need to be listed in ``key_filename`` for
+                this to occur - *just* the certificate.)
+    
+            - Any key we can find through an SSH agent
+            - Any "id_rsa", "id_dsa" or "id_ecdsa" key discoverable in
+              ``~/.ssh/``
+    
+              - When OpenSSH-style public certificates exist that match an
+                existing such private key (so e.g. one has ``id_rsa`` and
+                ``id_rsa-cert.pub``) the certificate will be loaded alongside
+                the private key and used for authentication.
+    
+            - Plain username/password auth, if a password was given
+    
+        If a private key requires a password to unlock it, and a password is
+        passed in, that password will be used to attempt to unlock the key.
+    
+        :param str hostname: the server to connect to
+        :param int port: the server port to connect to
+        :param str username:
+            the username to authenticate as (defaults to the current local
+            username)
+        :param str password:
+            Used for password authentication; is also used for private key
+            decryption if ``passphrase`` is not given.
+        :param str passphrase:
+            Used for decrypting private keys.
+        :param .PKey pkey: an optional private key to use for authentication
+        :param str key_filename:
+            the filename, or list of filenames, of optional private key(s)
+            and/or certs to try for authentication
+        :param float timeout:
+            an optional timeout (in seconds) for the TCP connect
+        :param bool allow_agent:
+            set to False to disable connecting to the SSH agent
+        :param bool look_for_keys:
+            set to False to disable searching for discoverable private key
+            files in ``~/.ssh/``
+        :param bool compress: set to True to turn on compression
+        :param socket sock:
+            an open socket or socket-like object (such as a `.Channel`) to use
+            for communication to the target host
+        :param bool gss_auth:
+            ``True`` if you want to use GSS-API authentication
+        :param bool gss_kex:
+            Perform GSS-API Key Exchange and user authentication
+        :param bool gss_deleg_creds: Delegate GSS-API client credentials or not
+        :param str gss_host:
+            The targets name in the kerberos database. default: hostname
+        :param bool gss_trust_dns:
+            Indicates whether or not the DNS is trusted to securely
+            canonicalize the name of the host being connected to (default
+            ``True``).
+        :param float banner_timeout: an optional timeout (in seconds) to wait
+            for the SSH banner to be presented.
+        :param float auth_timeout: an optional timeout (in seconds) to wait for
+            an authentication response.
+        :param dict disabled_algorithms:
+            an optional dict passed directly to `.Transport` and its keyword
+            argument of the same name.
+    
+        :raises:
+            `.BadHostKeyException` -- if the server's host key could not be
+            verified
+        :raises: `.AuthenticationException` -- if authentication failed
+        :raises:
+            `.SSHException` -- if there was any other error connecting or
+            establishing an SSH session
+        :raises socket.error: if a socket error occurred while connecting
+    
+        .. versionchanged:: 1.15
+            Added the ``banner_timeout``, ``gss_auth``, ``gss_kex``,
+            ``gss_deleg_creds`` and ``gss_host`` arguments.
+        .. versionchanged:: 2.3
+            Added the ``gss_trust_dns`` argument.
+        .. versionchanged:: 2.4
+            Added the ``passphrase`` argument.
+        .. versionchanged:: 2.6
+            Added the ``disabled_algorithms`` argument.
+        """
+        if not sock:
+            errors = {}
+            # Try multiple possible address families (e.g. IPv4 vs IPv6)
+            to_try = list(self._families_and_addresses(hostname, port))
+            for af, addr in to_try:
+                try:
+                    sock = socket.socket(af, socket.SOCK_STREAM)
+                    if timeout is not None:
+                        try:
+                            sock.settimeout(timeout)
+                        except:
+                            pass
+>                   retry_on_signal(lambda: sock.connect(addr))
+
+/usr/local/lib/python3.6/site-packages/paramiko/client.py:349: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+function = <function SSHClient.connect.<locals>.<lambda> at 0x7f81734d48c8>
+
+    def retry_on_signal(function):
+        """Retries function until it doesn't raise an EINTR error"""
+        while True:
+            try:
+>               return function()
+
+/usr/local/lib/python3.6/site-packages/paramiko/util.py:283: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+>   retry_on_signal(lambda: sock.connect(addr))
+E   socket.timeout: timed out
+
+/usr/local/lib/python3.6/site-packages/paramiko/client.py:349: timeout
+
+During handling of the above exception, another exception occurred:
+
+self = <Tests.testNics.test_mtu.Test_mtu object at 0x7f81737e4fd0>
+
+    def setup(self):
+        logging.info("this is Test_mtu setup.")
+        self.sut_conf = settings.__getattribute__("sut_conf")
+        self.pkg_generator = settings.__getattribute__("pkg_generator")
+        self.check_str = settings.__getattribute__("check_str")
+        self.drive_info = settings.__getattribute__("drive_info")
+        self.cn_test_sut = sshInstance()
+        logging.info("ssh to the sut1")
+        self.cn_test_sut = sshInstance()
+        logging.info("ssh to the sut1")
+    
+        try:
+            self.sut1_cli, self.sut1_session = self.cn_test_sut.get_ssh_instance(self.sut_conf["host"], self.sut_conf["user"],
+                                                        self.sut_conf["password"],self.sut_conf["port"])
+        except:
+            logging.info("Case Failed:ssh to sut failed,please check")
+            assert 200 == 400, "Case Failed:ssh to sut failed,please check"
+    
+        try:
+            self.sut2_cli, self.sut2_session = self.cn_test_sut.get_ssh_instance(self.pkg_generator["host"], self.pkg_generator["user"],
+                                                        self.pkg_generator["password"],self.pkg_generator["port"])
+        except:
+            logging.info("Case Failed:ssh to sut2 failed,please check")
+>           assert 200 == 400, "Case Failed:ssh to sut2 failed,please check"
+E           AssertionError: Case Failed:ssh to sut2 failed,please check
+E           assert 200 == 400
+
+npxtester/Tests/testNics/test_mtu.py:38: AssertionError
+---------------------------- Captured stdout setup -----------------------------
+2022-04-19 00:26:29 - NicTestFixture.py - [line:27] - root - INFO - case_logpath: /root/testconfig/testlogs/2022-04-19/test_PI_Networking_MTU_set_CVL_00_26_29/test_PI_Networking_MTU_set_CVL.log, case_logdir: /root/testconfig/testlogs/2022-04-19/test_PI_Networking_MTU_set_CVL_00_26_29
+2022-04-19 00:26:29 - NicTestFixture.py - [line:31] - root - INFO - ============================ Starting to run test_PI_Networking_MTU_set_CVL case ============================
+2022-04-19 00:26:29 - test_mtu.py - [line:16] - root - INFO - this is Test_mtu setup.
+2022-04-19 00:26:29 - test_mtu.py - [line:22] - root - INFO - ssh to the sut1
+2022-04-19 00:26:29 - test_mtu.py - [line:24] - root - INFO - ssh to the sut1
+2022-04-19 00:26:29 - transport.py - [line:1819] - paramiko.transport - INFO - Connected (version 2.0, client OpenSSH_8.0)
+2022-04-19 00:26:29 - transport.py - [line:1819] - paramiko.transport - INFO - Authentication (password) successful!
+2022-04-19 00:26:29 - sshInstance.py - [line:28] - root - INFO - SSH on SUT: 10.239.182.209
+2022-04-19 00:26:59 - test_mtu.py - [line:37] - root - INFO - Case Failed:ssh to sut2 failed,please check
+_ ERROR at setup of Test_Nics.test_silver_Networking_ConnectivityEnableDisable _
+
+self = <Tests.testNics.test_nics.Test_Nics object at 0x7f81737b4a58>
+
+    def setup(self):
+        logging.info("this is Test_Nics setup.")
+        self.sut_conf = settings.__getattribute__("sut_conf")
+        self.pkg_generator = settings.__getattribute__("pkg_generator")
+        self.drive_info = settings.__getattribute__("drive_info")
+        self.check_str = settings.__getattribute__("check_str")
+        self.dpdk_dir = settings.__getattribute__("dpdk_dir")
+        self.cn_test_sut = sshInstance()
+        logging.info("ssh to the sut1")
+        try:
+            self.client, self.session = self.cn_test_sut.get_ssh_instance(self.sut_conf["host"], self.sut_conf["user"],
+                                                        self.sut_conf["password"], self.sut_conf["port"])
+        except:
+            logging.info("Case Failed:ssh to sut failed,please check")
+            assert 200 == 400, "Case Failed:ssh to sut failed,please check"
+    
+        try:
+            self.client2, self.session2 = self.cn_test_sut.get_ssh_instance(self.pkg_generator["host"], self.pkg_generator["user"],
+>                                                       self.pkg_generator["password"], self.pkg_generator["port"])
+
+npxtester/Tests/testNics/test_nics.py:38: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+self = <libs.commons.sshInstance.sshInstance object at 0x7f81737b4ac8>
+hostname = '10.239.182.79', username = 'root', password = 'password', port = 22
+
+    def get_ssh_instance(self, hostname, username, password, port):
+        client = paramiko.SSHClient()
+        client.set_missing_host_key_policy(paramiko.AutoAddPolicy())
+>       client.connect(hostname=hostname, port=port, username=username, password=password, timeout=30)
+
+npxtester/libs/commons/sshInstance.py:25: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+self = <paramiko.client.SSHClient object at 0x7f8173483c50>
+hostname = '10.239.182.79', port = 22, username = 'root', password = 'password'
+pkey = None, key_filename = None, timeout = 30, allow_agent = True
+look_for_keys = True, compress = False
+sock = <socket.socket fd=14, family=AddressFamily.AF_INET, type=2049, proto=0, laddr=('10.112.97.60', 60528)>
+gss_auth = False, gss_kex = False, gss_deleg_creds = True, gss_host = None
+banner_timeout = None, auth_timeout = None, gss_trust_dns = True
+passphrase = None, disabled_algorithms = None
+
+    def connect(
+        self,
+        hostname,
+        port=SSH_PORT,
+        username=None,
+        password=None,
+        pkey=None,
+        key_filename=None,
+        timeout=None,
+        allow_agent=True,
+        look_for_keys=True,
+        compress=False,
+        sock=None,
+        gss_auth=False,
+        gss_kex=False,
+        gss_deleg_creds=True,
+        gss_host=None,
+        banner_timeout=None,
+        auth_timeout=None,
+        gss_trust_dns=True,
+        passphrase=None,
+        disabled_algorithms=None,
+    ):
+        """
+        Connect to an SSH server and authenticate to it.  The server's host key
+        is checked against the system host keys (see `load_system_host_keys`)
+        and any local host keys (`load_host_keys`).  If the server's hostname
+        is not found in either set of host keys, the missing host key policy
+        is used (see `set_missing_host_key_policy`).  The default policy is
+        to reject the key and raise an `.SSHException`.
+    
+        Authentication is attempted in the following order of priority:
+    
+            - The ``pkey`` or ``key_filename`` passed in (if any)
+    
+              - ``key_filename`` may contain OpenSSH public certificate paths
+                as well as regular private-key paths; when files ending in
+                ``-cert.pub`` are found, they are assumed to match a private
+                key, and both components will be loaded. (The private key
+                itself does *not* need to be listed in ``key_filename`` for
+                this to occur - *just* the certificate.)
+    
+            - Any key we can find through an SSH agent
+            - Any "id_rsa", "id_dsa" or "id_ecdsa" key discoverable in
+              ``~/.ssh/``
+    
+              - When OpenSSH-style public certificates exist that match an
+                existing such private key (so e.g. one has ``id_rsa`` and
+                ``id_rsa-cert.pub``) the certificate will be loaded alongside
+                the private key and used for authentication.
+    
+            - Plain username/password auth, if a password was given
+    
+        If a private key requires a password to unlock it, and a password is
+        passed in, that password will be used to attempt to unlock the key.
+    
+        :param str hostname: the server to connect to
+        :param int port: the server port to connect to
+        :param str username:
+            the username to authenticate as (defaults to the current local
+            username)
+        :param str password:
+            Used for password authentication; is also used for private key
+            decryption if ``passphrase`` is not given.
+        :param str passphrase:
+            Used for decrypting private keys.
+        :param .PKey pkey: an optional private key to use for authentication
+        :param str key_filename:
+            the filename, or list of filenames, of optional private key(s)
+            and/or certs to try for authentication
+        :param float timeout:
+            an optional timeout (in seconds) for the TCP connect
+        :param bool allow_agent:
+            set to False to disable connecting to the SSH agent
+        :param bool look_for_keys:
+            set to False to disable searching for discoverable private key
+            files in ``~/.ssh/``
+        :param bool compress: set to True to turn on compression
+        :param socket sock:
+            an open socket or socket-like object (such as a `.Channel`) to use
+            for communication to the target host
+        :param bool gss_auth:
+            ``True`` if you want to use GSS-API authentication
+        :param bool gss_kex:
+            Perform GSS-API Key Exchange and user authentication
+        :param bool gss_deleg_creds: Delegate GSS-API client credentials or not
+        :param str gss_host:
+            The targets name in the kerberos database. default: hostname
+        :param bool gss_trust_dns:
+            Indicates whether or not the DNS is trusted to securely
+            canonicalize the name of the host being connected to (default
+            ``True``).
+        :param float banner_timeout: an optional timeout (in seconds) to wait
+            for the SSH banner to be presented.
+        :param float auth_timeout: an optional timeout (in seconds) to wait for
+            an authentication response.
+        :param dict disabled_algorithms:
+            an optional dict passed directly to `.Transport` and its keyword
+            argument of the same name.
+    
+        :raises:
+            `.BadHostKeyException` -- if the server's host key could not be
+            verified
+        :raises: `.AuthenticationException` -- if authentication failed
+        :raises:
+            `.SSHException` -- if there was any other error connecting or
+            establishing an SSH session
+        :raises socket.error: if a socket error occurred while connecting
+    
+        .. versionchanged:: 1.15
+            Added the ``banner_timeout``, ``gss_auth``, ``gss_kex``,
+            ``gss_deleg_creds`` and ``gss_host`` arguments.
+        .. versionchanged:: 2.3
+            Added the ``gss_trust_dns`` argument.
+        .. versionchanged:: 2.4
+            Added the ``passphrase`` argument.
+        .. versionchanged:: 2.6
+            Added the ``disabled_algorithms`` argument.
+        """
+        if not sock:
+            errors = {}
+            # Try multiple possible address families (e.g. IPv4 vs IPv6)
+            to_try = list(self._families_and_addresses(hostname, port))
+            for af, addr in to_try:
+                try:
+                    sock = socket.socket(af, socket.SOCK_STREAM)
+                    if timeout is not None:
+                        try:
+                            sock.settimeout(timeout)
+                        except:
+                            pass
+>                   retry_on_signal(lambda: sock.connect(addr))
+
+/usr/local/lib/python3.6/site-packages/paramiko/client.py:349: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+function = <function SSHClient.connect.<locals>.<lambda> at 0x7f8173497ae8>
+
+    def retry_on_signal(function):
+        """Retries function until it doesn't raise an EINTR error"""
+        while True:
+            try:
+>               return function()
+
+/usr/local/lib/python3.6/site-packages/paramiko/util.py:283: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+>   retry_on_signal(lambda: sock.connect(addr))
+E   socket.timeout: timed out
+
+/usr/local/lib/python3.6/site-packages/paramiko/client.py:349: timeout
+
+During handling of the above exception, another exception occurred:
+
+self = <Tests.testNics.test_nics.Test_Nics object at 0x7f81737b4a58>
+
+    def setup(self):
+        logging.info("this is Test_Nics setup.")
+        self.sut_conf = settings.__getattribute__("sut_conf")
+        self.pkg_generator = settings.__getattribute__("pkg_generator")
+        self.drive_info = settings.__getattribute__("drive_info")
+        self.check_str = settings.__getattribute__("check_str")
+        self.dpdk_dir = settings.__getattribute__("dpdk_dir")
+        self.cn_test_sut = sshInstance()
+        logging.info("ssh to the sut1")
+        try:
+            self.client, self.session = self.cn_test_sut.get_ssh_instance(self.sut_conf["host"], self.sut_conf["user"],
+                                                        self.sut_conf["password"], self.sut_conf["port"])
+        except:
+            logging.info("Case Failed:ssh to sut failed,please check")
+            assert 200 == 400, "Case Failed:ssh to sut failed,please check"
+    
+        try:
+            self.client2, self.session2 = self.cn_test_sut.get_ssh_instance(self.pkg_generator["host"], self.pkg_generator["user"],
+                                                        self.pkg_generator["password"], self.pkg_generator["port"])
+        except:
+            logging.info("Case Failed:ssh to sut2 failed,please check")
+>           assert 200 == 400, "Case Failed:ssh to sut2 failed,please check"
+E           AssertionError: Case Failed:ssh to sut2 failed,please check
+E           assert 200 == 400
+
+npxtester/Tests/testNics/test_nics.py:41: AssertionError
+---------------------------- Captured stdout setup -----------------------------
+2022-04-19 00:26:59 - NicTestFixture.py - [line:20] - root - INFO - test -------
+2022-04-19 00:26:59 - NicTestFixture.py - [line:27] - root - INFO - case_logpath: /root/testconfig/testlogs/2022-04-19/test_silver_Networking_ConnectivityEnableDisable_00_26_59/test_silver_Networking_ConnectivityEnableDisable.log, case_logdir: /root/testconfig/testlogs/2022-04-19/test_silver_Networking_ConnectivityEnableDisable_00_26_59
+2022-04-19 00:26:59 - NicTestFixture.py - [line:31] - root - INFO - ============================ Starting to run test_silver_Networking_ConnectivityEnableDisable case ============================
+2022-04-19 00:26:59 - test_nics.py - [line:21] - root - INFO - this is Test_Nics setup.
+2022-04-19 00:26:59 - test_nics.py - [line:28] - root - INFO - ssh to the sut1
+2022-04-19 00:26:59 - transport.py - [line:1819] - paramiko.transport - INFO - Connected (version 2.0, client OpenSSH_8.0)
+2022-04-19 00:26:59 - transport.py - [line:1819] - paramiko.transport - INFO - Authentication (password) successful!
+2022-04-19 00:26:59 - sshInstance.py - [line:28] - root - INFO - SSH on SUT: 10.239.182.209
+2022-04-19 00:27:29 - test_nics.py - [line:40] - root - INFO - Case Failed:ssh to sut2 failed,please check
+------------------------------ Captured log setup ------------------------------
+INFO     root:NicTestFixture.py:20 test -------
+__________ ERROR at setup of Test_Nics.test_silver_ConnectivityReboot __________
+
+self = <Tests.testNics.test_nics.Test_Nics object at 0x7f81736d8e80>
+
+    def setup(self):
+        logging.info("this is Test_Nics setup.")
+        self.sut_conf = settings.__getattribute__("sut_conf")
+        self.pkg_generator = settings.__getattribute__("pkg_generator")
+        self.drive_info = settings.__getattribute__("drive_info")
+        self.check_str = settings.__getattribute__("check_str")
+        self.dpdk_dir = settings.__getattribute__("dpdk_dir")
+        self.cn_test_sut = sshInstance()
+        logging.info("ssh to the sut1")
+        try:
+            self.client, self.session = self.cn_test_sut.get_ssh_instance(self.sut_conf["host"], self.sut_conf["user"],
+                                                        self.sut_conf["password"], self.sut_conf["port"])
+        except:
+            logging.info("Case Failed:ssh to sut failed,please check")
+            assert 200 == 400, "Case Failed:ssh to sut failed,please check"
+    
+        try:
+            self.client2, self.session2 = self.cn_test_sut.get_ssh_instance(self.pkg_generator["host"], self.pkg_generator["user"],
+>                                                       self.pkg_generator["password"], self.pkg_generator["port"])
+
+npxtester/Tests/testNics/test_nics.py:38: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+self = <libs.commons.sshInstance.sshInstance object at 0x7f81736d8cf8>
+hostname = '10.239.182.79', username = 'root', password = 'password', port = 22
+
+    def get_ssh_instance(self, hostname, username, password, port):
+        client = paramiko.SSHClient()
+        client.set_missing_host_key_policy(paramiko.AutoAddPolicy())
+>       client.connect(hostname=hostname, port=port, username=username, password=password, timeout=30)
+
+npxtester/libs/commons/sshInstance.py:25: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+self = <paramiko.client.SSHClient object at 0x7f81737ff160>
+hostname = '10.239.182.79', port = 22, username = 'root', password = 'password'
+pkey = None, key_filename = None, timeout = 30, allow_agent = True
+look_for_keys = True, compress = False
+sock = <socket.socket fd=13, family=AddressFamily.AF_INET, type=2049, proto=0, laddr=('10.112.97.60', 60532)>
+gss_auth = False, gss_kex = False, gss_deleg_creds = True, gss_host = None
+banner_timeout = None, auth_timeout = None, gss_trust_dns = True
+passphrase = None, disabled_algorithms = None
+
+    def connect(
+        self,
+        hostname,
+        port=SSH_PORT,
+        username=None,
+        password=None,
+        pkey=None,
+        key_filename=None,
+        timeout=None,
+        allow_agent=True,
+        look_for_keys=True,
+        compress=False,
+        sock=None,
+        gss_auth=False,
+        gss_kex=False,
+        gss_deleg_creds=True,
+        gss_host=None,
+        banner_timeout=None,
+        auth_timeout=None,
+        gss_trust_dns=True,
+        passphrase=None,
+        disabled_algorithms=None,
+    ):
+        """
+        Connect to an SSH server and authenticate to it.  The server's host key
+        is checked against the system host keys (see `load_system_host_keys`)
+        and any local host keys (`load_host_keys`).  If the server's hostname
+        is not found in either set of host keys, the missing host key policy
+        is used (see `set_missing_host_key_policy`).  The default policy is
+        to reject the key and raise an `.SSHException`.
+    
+        Authentication is attempted in the following order of priority:
+    
+            - The ``pkey`` or ``key_filename`` passed in (if any)
+    
+              - ``key_filename`` may contain OpenSSH public certificate paths
+                as well as regular private-key paths; when files ending in
+                ``-cert.pub`` are found, they are assumed to match a private
+                key, and both components will be loaded. (The private key
+                itself does *not* need to be listed in ``key_filename`` for
+                this to occur - *just* the certificate.)
+    
+            - Any key we can find through an SSH agent
+            - Any "id_rsa", "id_dsa" or "id_ecdsa" key discoverable in
+              ``~/.ssh/``
+    
+              - When OpenSSH-style public certificates exist that match an
+                existing such private key (so e.g. one has ``id_rsa`` and
+                ``id_rsa-cert.pub``) the certificate will be loaded alongside
+                the private key and used for authentication.
+    
+            - Plain username/password auth, if a password was given
+    
+        If a private key requires a password to unlock it, and a password is
+        passed in, that password will be used to attempt to unlock the key.
+    
+        :param str hostname: the server to connect to
+        :param int port: the server port to connect to
+        :param str username:
+            the username to authenticate as (defaults to the current local
+            username)
+        :param str password:
+            Used for password authentication; is also used for private key
+            decryption if ``passphrase`` is not given.
+        :param str passphrase:
+            Used for decrypting private keys.
+        :param .PKey pkey: an optional private key to use for authentication
+        :param str key_filename:
+            the filename, or list of filenames, of optional private key(s)
+            and/or certs to try for authentication
+        :param float timeout:
+            an optional timeout (in seconds) for the TCP connect
+        :param bool allow_agent:
+            set to False to disable connecting to the SSH agent
+        :param bool look_for_keys:
+            set to False to disable searching for discoverable private key
+            files in ``~/.ssh/``
+        :param bool compress: set to True to turn on compression
+        :param socket sock:
+            an open socket or socket-like object (such as a `.Channel`) to use
+            for communication to the target host
+        :param bool gss_auth:
+            ``True`` if you want to use GSS-API authentication
+        :param bool gss_kex:
+            Perform GSS-API Key Exchange and user authentication
+        :param bool gss_deleg_creds: Delegate GSS-API client credentials or not
+        :param str gss_host:
+            The targets name in the kerberos database. default: hostname
+        :param bool gss_trust_dns:
+            Indicates whether or not the DNS is trusted to securely
+            canonicalize the name of the host being connected to (default
+            ``True``).
+        :param float banner_timeout: an optional timeout (in seconds) to wait
+            for the SSH banner to be presented.
+        :param float auth_timeout: an optional timeout (in seconds) to wait for
+            an authentication response.
+        :param dict disabled_algorithms:
+            an optional dict passed directly to `.Transport` and its keyword
+            argument of the same name.
+    
+        :raises:
+            `.BadHostKeyException` -- if the server's host key could not be
+            verified
+        :raises: `.AuthenticationException` -- if authentication failed
+        :raises:
+            `.SSHException` -- if there was any other error connecting or
+            establishing an SSH session
+        :raises socket.error: if a socket error occurred while connecting
+    
+        .. versionchanged:: 1.15
+            Added the ``banner_timeout``, ``gss_auth``, ``gss_kex``,
+            ``gss_deleg_creds`` and ``gss_host`` arguments.
+        .. versionchanged:: 2.3
+            Added the ``gss_trust_dns`` argument.
+        .. versionchanged:: 2.4
+            Added the ``passphrase`` argument.
+        .. versionchanged:: 2.6
+            Added the ``disabled_algorithms`` argument.
+        """
+        if not sock:
+            errors = {}
+            # Try multiple possible address families (e.g. IPv4 vs IPv6)
+            to_try = list(self._families_and_addresses(hostname, port))
+            for af, addr in to_try:
+                try:
+                    sock = socket.socket(af, socket.SOCK_STREAM)
+                    if timeout is not None:
+                        try:
+                            sock.settimeout(timeout)
+                        except:
+                            pass
+>                   retry_on_signal(lambda: sock.connect(addr))
+
+/usr/local/lib/python3.6/site-packages/paramiko/client.py:349: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+function = <function SSHClient.connect.<locals>.<lambda> at 0x7f817381ef28>
+
+    def retry_on_signal(function):
+        """Retries function until it doesn't raise an EINTR error"""
+        while True:
+            try:
+>               return function()
+
+/usr/local/lib/python3.6/site-packages/paramiko/util.py:283: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+>   retry_on_signal(lambda: sock.connect(addr))
+E   socket.timeout: timed out
+
+/usr/local/lib/python3.6/site-packages/paramiko/client.py:349: timeout
+
+During handling of the above exception, another exception occurred:
+
+self = <Tests.testNics.test_nics.Test_Nics object at 0x7f81736d8e80>
+
+    def setup(self):
+        logging.info("this is Test_Nics setup.")
+        self.sut_conf = settings.__getattribute__("sut_conf")
+        self.pkg_generator = settings.__getattribute__("pkg_generator")
+        self.drive_info = settings.__getattribute__("drive_info")
+        self.check_str = settings.__getattribute__("check_str")
+        self.dpdk_dir = settings.__getattribute__("dpdk_dir")
+        self.cn_test_sut = sshInstance()
+        logging.info("ssh to the sut1")
+        try:
+            self.client, self.session = self.cn_test_sut.get_ssh_instance(self.sut_conf["host"], self.sut_conf["user"],
+                                                        self.sut_conf["password"], self.sut_conf["port"])
+        except:
+            logging.info("Case Failed:ssh to sut failed,please check")
+            assert 200 == 400, "Case Failed:ssh to sut failed,please check"
+    
+        try:
+            self.client2, self.session2 = self.cn_test_sut.get_ssh_instance(self.pkg_generator["host"], self.pkg_generator["user"],
+                                                        self.pkg_generator["password"], self.pkg_generator["port"])
+        except:
+            logging.info("Case Failed:ssh to sut2 failed,please check")
+>           assert 200 == 400, "Case Failed:ssh to sut2 failed,please check"
+E           AssertionError: Case Failed:ssh to sut2 failed,please check
+E           assert 200 == 400
+
+npxtester/Tests/testNics/test_nics.py:41: AssertionError
+---------------------------- Captured stdout setup -----------------------------
+2022-04-19 00:27:30 - NicTestFixture.py - [line:27] - root - INFO - case_logpath: /root/testconfig/testlogs/2022-04-19/test_silver_ConnectivityReboot_00_27_30/test_silver_ConnectivityReboot.log, case_logdir: /root/testconfig/testlogs/2022-04-19/test_silver_ConnectivityReboot_00_27_30
+2022-04-19 00:27:30 - NicTestFixture.py - [line:31] - root - INFO - ============================ Starting to run test_silver_ConnectivityReboot case ============================
+2022-04-19 00:27:30 - test_nics.py - [line:21] - root - INFO - this is Test_Nics setup.
+2022-04-19 00:27:30 - test_nics.py - [line:28] - root - INFO - ssh to the sut1
+2022-04-19 00:27:30 - transport.py - [line:1819] - paramiko.transport - INFO - Connected (version 2.0, client OpenSSH_8.0)
+2022-04-19 00:27:30 - transport.py - [line:1819] - paramiko.transport - INFO - Authentication (password) successful!
+2022-04-19 00:27:30 - sshInstance.py - [line:28] - root - INFO - SSH on SUT: 10.239.182.209
+2022-04-19 00:28:00 - test_nics.py - [line:40] - root - INFO - Case Failed:ssh to sut2 failed,please check
+____ ERROR at setup of Test_Nics.test_gold_PI_Networking_SRIOV_CheckDevice _____
+
+self = <Tests.testNics.test_nics.Test_Nics object at 0x7f81736b5a90>
+
+    def setup(self):
+        logging.info("this is Test_Nics setup.")
+        self.sut_conf = settings.__getattribute__("sut_conf")
+        self.pkg_generator = settings.__getattribute__("pkg_generator")
+        self.drive_info = settings.__getattribute__("drive_info")
+        self.check_str = settings.__getattribute__("check_str")
+        self.dpdk_dir = settings.__getattribute__("dpdk_dir")
+        self.cn_test_sut = sshInstance()
+        logging.info("ssh to the sut1")
+        try:
+            self.client, self.session = self.cn_test_sut.get_ssh_instance(self.sut_conf["host"], self.sut_conf["user"],
+                                                        self.sut_conf["password"], self.sut_conf["port"])
+        except:
+            logging.info("Case Failed:ssh to sut failed,please check")
+            assert 200 == 400, "Case Failed:ssh to sut failed,please check"
+    
+        try:
+            self.client2, self.session2 = self.cn_test_sut.get_ssh_instance(self.pkg_generator["host"], self.pkg_generator["user"],
+>                                                       self.pkg_generator["password"], self.pkg_generator["port"])
+
+npxtester/Tests/testNics/test_nics.py:38: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+self = <libs.commons.sshInstance.sshInstance object at 0x7f81736b59e8>
+hostname = '10.239.182.79', username = 'root', password = 'password', port = 22
+
+    def get_ssh_instance(self, hostname, username, password, port):
+        client = paramiko.SSHClient()
+        client.set_missing_host_key_policy(paramiko.AutoAddPolicy())
+>       client.connect(hostname=hostname, port=port, username=username, password=password, timeout=30)
+
+npxtester/libs/commons/sshInstance.py:25: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+self = <paramiko.client.SSHClient object at 0x7f81734a4080>
+hostname = '10.239.182.79', port = 22, username = 'root', password = 'password'
+pkey = None, key_filename = None, timeout = 30, allow_agent = True
+look_for_keys = True, compress = False
+sock = <socket.socket fd=16, family=AddressFamily.AF_INET, type=2049, proto=0, laddr=('10.112.97.60', 60536)>
+gss_auth = False, gss_kex = False, gss_deleg_creds = True, gss_host = None
+banner_timeout = None, auth_timeout = None, gss_trust_dns = True
+passphrase = None, disabled_algorithms = None
+
+    def connect(
+        self,
+        hostname,
+        port=SSH_PORT,
+        username=None,
+        password=None,
+        pkey=None,
+        key_filename=None,
+        timeout=None,
+        allow_agent=True,
+        look_for_keys=True,
+        compress=False,
+        sock=None,
+        gss_auth=False,
+        gss_kex=False,
+        gss_deleg_creds=True,
+        gss_host=None,
+        banner_timeout=None,
+        auth_timeout=None,
+        gss_trust_dns=True,
+        passphrase=None,
+        disabled_algorithms=None,
+    ):
+        """
+        Connect to an SSH server and authenticate to it.  The server's host key
+        is checked against the system host keys (see `load_system_host_keys`)
+        and any local host keys (`load_host_keys`).  If the server's hostname
+        is not found in either set of host keys, the missing host key policy
+        is used (see `set_missing_host_key_policy`).  The default policy is
+        to reject the key and raise an `.SSHException`.
+    
+        Authentication is attempted in the following order of priority:
+    
+            - The ``pkey`` or ``key_filename`` passed in (if any)
+    
+              - ``key_filename`` may contain OpenSSH public certificate paths
+                as well as regular private-key paths; when files ending in
+                ``-cert.pub`` are found, they are assumed to match a private
+                key, and both components will be loaded. (The private key
+                itself does *not* need to be listed in ``key_filename`` for
+                this to occur - *just* the certificate.)
+    
+            - Any key we can find through an SSH agent
+            - Any "id_rsa", "id_dsa" or "id_ecdsa" key discoverable in
+              ``~/.ssh/``
+    
+              - When OpenSSH-style public certificates exist that match an
+                existing such private key (so e.g. one has ``id_rsa`` and
+                ``id_rsa-cert.pub``) the certificate will be loaded alongside
+                the private key and used for authentication.
+    
+            - Plain username/password auth, if a password was given
+    
+        If a private key requires a password to unlock it, and a password is
+        passed in, that password will be used to attempt to unlock the key.
+    
+        :param str hostname: the server to connect to
+        :param int port: the server port to connect to
+        :param str username:
+            the username to authenticate as (defaults to the current local
+            username)
+        :param str password:
+            Used for password authentication; is also used for private key
+            decryption if ``passphrase`` is not given.
+        :param str passphrase:
+            Used for decrypting private keys.
+        :param .PKey pkey: an optional private key to use for authentication
+        :param str key_filename:
+            the filename, or list of filenames, of optional private key(s)
+            and/or certs to try for authentication
+        :param float timeout:
+            an optional timeout (in seconds) for the TCP connect
+        :param bool allow_agent:
+            set to False to disable connecting to the SSH agent
+        :param bool look_for_keys:
+            set to False to disable searching for discoverable private key
+            files in ``~/.ssh/``
+        :param bool compress: set to True to turn on compression
+        :param socket sock:
+            an open socket or socket-like object (such as a `.Channel`) to use
+            for communication to the target host
+        :param bool gss_auth:
+            ``True`` if you want to use GSS-API authentication
+        :param bool gss_kex:
+            Perform GSS-API Key Exchange and user authentication
+        :param bool gss_deleg_creds: Delegate GSS-API client credentials or not
+        :param str gss_host:
+            The targets name in the kerberos database. default: hostname
+        :param bool gss_trust_dns:
+            Indicates whether or not the DNS is trusted to securely
+            canonicalize the name of the host being connected to (default
+            ``True``).
+        :param float banner_timeout: an optional timeout (in seconds) to wait
+            for the SSH banner to be presented.
+        :param float auth_timeout: an optional timeout (in seconds) to wait for
+            an authentication response.
+        :param dict disabled_algorithms:
+            an optional dict passed directly to `.Transport` and its keyword
+            argument of the same name.
+    
+        :raises:
+            `.BadHostKeyException` -- if the server's host key could not be
+            verified
+        :raises: `.AuthenticationException` -- if authentication failed
+        :raises:
+            `.SSHException` -- if there was any other error connecting or
+            establishing an SSH session
+        :raises socket.error: if a socket error occurred while connecting
+    
+        .. versionchanged:: 1.15
+            Added the ``banner_timeout``, ``gss_auth``, ``gss_kex``,
+            ``gss_deleg_creds`` and ``gss_host`` arguments.
+        .. versionchanged:: 2.3
+            Added the ``gss_trust_dns`` argument.
+        .. versionchanged:: 2.4
+            Added the ``passphrase`` argument.
+        .. versionchanged:: 2.6
+            Added the ``disabled_algorithms`` argument.
+        """
+        if not sock:
+            errors = {}
+            # Try multiple possible address families (e.g. IPv4 vs IPv6)
+            to_try = list(self._families_and_addresses(hostname, port))
+            for af, addr in to_try:
+                try:
+                    sock = socket.socket(af, socket.SOCK_STREAM)
+                    if timeout is not None:
+                        try:
+                            sock.settimeout(timeout)
+                        except:
+                            pass
+>                   retry_on_signal(lambda: sock.connect(addr))
+
+/usr/local/lib/python3.6/site-packages/paramiko/client.py:349: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+function = <function SSHClient.connect.<locals>.<lambda> at 0x7f8173497e18>
+
+    def retry_on_signal(function):
+        """Retries function until it doesn't raise an EINTR error"""
+        while True:
+            try:
+>               return function()
+
+/usr/local/lib/python3.6/site-packages/paramiko/util.py:283: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+>   retry_on_signal(lambda: sock.connect(addr))
+E   socket.timeout: timed out
+
+/usr/local/lib/python3.6/site-packages/paramiko/client.py:349: timeout
+
+During handling of the above exception, another exception occurred:
+
+self = <Tests.testNics.test_nics.Test_Nics object at 0x7f81736b5a90>
+
+    def setup(self):
+        logging.info("this is Test_Nics setup.")
+        self.sut_conf = settings.__getattribute__("sut_conf")
+        self.pkg_generator = settings.__getattribute__("pkg_generator")
+        self.drive_info = settings.__getattribute__("drive_info")
+        self.check_str = settings.__getattribute__("check_str")
+        self.dpdk_dir = settings.__getattribute__("dpdk_dir")
+        self.cn_test_sut = sshInstance()
+        logging.info("ssh to the sut1")
+        try:
+            self.client, self.session = self.cn_test_sut.get_ssh_instance(self.sut_conf["host"], self.sut_conf["user"],
+                                                        self.sut_conf["password"], self.sut_conf["port"])
+        except:
+            logging.info("Case Failed:ssh to sut failed,please check")
+            assert 200 == 400, "Case Failed:ssh to sut failed,please check"
+    
+        try:
+            self.client2, self.session2 = self.cn_test_sut.get_ssh_instance(self.pkg_generator["host"], self.pkg_generator["user"],
+                                                        self.pkg_generator["password"], self.pkg_generator["port"])
+        except:
+            logging.info("Case Failed:ssh to sut2 failed,please check")
+>           assert 200 == 400, "Case Failed:ssh to sut2 failed,please check"
+E           AssertionError: Case Failed:ssh to sut2 failed,please check
+E           assert 200 == 400
+
+npxtester/Tests/testNics/test_nics.py:41: AssertionError
+---------------------------- Captured stdout setup -----------------------------
+2022-04-19 00:28:00 - NicTestFixture.py - [line:27] - root - INFO - case_logpath: /root/testconfig/testlogs/2022-04-19/test_gold_PI_Networking_SRIOV_CheckDevice_00_28_00/test_gold_PI_Networking_SRIOV_CheckDevice.log, case_logdir: /root/testconfig/testlogs/2022-04-19/test_gold_PI_Networking_SRIOV_CheckDevice_00_28_00
+2022-04-19 00:28:00 - NicTestFixture.py - [line:31] - root - INFO - ============================ Starting to run test_gold_PI_Networking_SRIOV_CheckDevice case ============================
+2022-04-19 00:28:00 - test_nics.py - [line:21] - root - INFO - this is Test_Nics setup.
+2022-04-19 00:28:00 - test_nics.py - [line:28] - root - INFO - ssh to the sut1
+2022-04-19 00:28:00 - transport.py - [line:1819] - paramiko.transport - INFO - Connected (version 2.0, client OpenSSH_8.0)
+2022-04-19 00:28:00 - transport.py - [line:1819] - paramiko.transport - INFO - Authentication (password) successful!
+2022-04-19 00:28:00 - sshInstance.py - [line:28] - root - INFO - SSH on SUT: 10.239.182.209
+2022-04-19 00:28:30 - test_nics.py - [line:40] - root - INFO - Case Failed:ssh to sut2 failed,please check
+_____ ERROR at setup of Test_Nics.test_PI_Networking_InternetProtocolv4v6 ______
+
+self = <Tests.testNics.test_nics.Test_Nics object at 0x7f81736be080>
+
+    def setup(self):
+        logging.info("this is Test_Nics setup.")
+        self.sut_conf = settings.__getattribute__("sut_conf")
+        self.pkg_generator = settings.__getattribute__("pkg_generator")
+        self.drive_info = settings.__getattribute__("drive_info")
+        self.check_str = settings.__getattribute__("check_str")
+        self.dpdk_dir = settings.__getattribute__("dpdk_dir")
+        self.cn_test_sut = sshInstance()
+        logging.info("ssh to the sut1")
+        try:
+            self.client, self.session = self.cn_test_sut.get_ssh_instance(self.sut_conf["host"], self.sut_conf["user"],
+                                                        self.sut_conf["password"], self.sut_conf["port"])
+        except:
+            logging.info("Case Failed:ssh to sut failed,please check")
+            assert 200 == 400, "Case Failed:ssh to sut failed,please check"
+    
+        try:
+            self.client2, self.session2 = self.cn_test_sut.get_ssh_instance(self.pkg_generator["host"], self.pkg_generator["user"],
+>                                                       self.pkg_generator["password"], self.pkg_generator["port"])
+
+npxtester/Tests/testNics/test_nics.py:38: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+self = <libs.commons.sshInstance.sshInstance object at 0x7f81736bef60>
+hostname = '10.239.182.79', username = 'root', password = 'password', port = 22
+
+    def get_ssh_instance(self, hostname, username, password, port):
+        client = paramiko.SSHClient()
+        client.set_missing_host_key_policy(paramiko.AutoAddPolicy())
+>       client.connect(hostname=hostname, port=port, username=username, password=password, timeout=30)
+
+npxtester/libs/commons/sshInstance.py:25: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+self = <paramiko.client.SSHClient object at 0x7f8175cdb780>
+hostname = '10.239.182.79', port = 22, username = 'root', password = 'password'
+pkey = None, key_filename = None, timeout = 30, allow_agent = True
+look_for_keys = True, compress = False
+sock = <socket.socket fd=18, family=AddressFamily.AF_INET, type=2049, proto=0, laddr=('10.112.97.60', 60540)>
+gss_auth = False, gss_kex = False, gss_deleg_creds = True, gss_host = None
+banner_timeout = None, auth_timeout = None, gss_trust_dns = True
+passphrase = None, disabled_algorithms = None
+
+    def connect(
+        self,
+        hostname,
+        port=SSH_PORT,
+        username=None,
+        password=None,
+        pkey=None,
+        key_filename=None,
+        timeout=None,
+        allow_agent=True,
+        look_for_keys=True,
+        compress=False,
+        sock=None,
+        gss_auth=False,
+        gss_kex=False,
+        gss_deleg_creds=True,
+        gss_host=None,
+        banner_timeout=None,
+        auth_timeout=None,
+        gss_trust_dns=True,
+        passphrase=None,
+        disabled_algorithms=None,
+    ):
+        """
+        Connect to an SSH server and authenticate to it.  The server's host key
+        is checked against the system host keys (see `load_system_host_keys`)
+        and any local host keys (`load_host_keys`).  If the server's hostname
+        is not found in either set of host keys, the missing host key policy
+        is used (see `set_missing_host_key_policy`).  The default policy is
+        to reject the key and raise an `.SSHException`.
+    
+        Authentication is attempted in the following order of priority:
+    
+            - The ``pkey`` or ``key_filename`` passed in (if any)
+    
+              - ``key_filename`` may contain OpenSSH public certificate paths
+                as well as regular private-key paths; when files ending in
+                ``-cert.pub`` are found, they are assumed to match a private
+                key, and both components will be loaded. (The private key
+                itself does *not* need to be listed in ``key_filename`` for
+                this to occur - *just* the certificate.)
+    
+            - Any key we can find through an SSH agent
+            - Any "id_rsa", "id_dsa" or "id_ecdsa" key discoverable in
+              ``~/.ssh/``
+    
+              - When OpenSSH-style public certificates exist that match an
+                existing such private key (so e.g. one has ``id_rsa`` and
+                ``id_rsa-cert.pub``) the certificate will be loaded alongside
+                the private key and used for authentication.
+    
+            - Plain username/password auth, if a password was given
+    
+        If a private key requires a password to unlock it, and a password is
+        passed in, that password will be used to attempt to unlock the key.
+    
+        :param str hostname: the server to connect to
+        :param int port: the server port to connect to
+        :param str username:
+            the username to authenticate as (defaults to the current local
+            username)
+        :param str password:
+            Used for password authentication; is also used for private key
+            decryption if ``passphrase`` is not given.
+        :param str passphrase:
+            Used for decrypting private keys.
+        :param .PKey pkey: an optional private key to use for authentication
+        :param str key_filename:
+            the filename, or list of filenames, of optional private key(s)
+            and/or certs to try for authentication
+        :param float timeout:
+            an optional timeout (in seconds) for the TCP connect
+        :param bool allow_agent:
+            set to False to disable connecting to the SSH agent
+        :param bool look_for_keys:
+            set to False to disable searching for discoverable private key
+            files in ``~/.ssh/``
+        :param bool compress: set to True to turn on compression
+        :param socket sock:
+            an open socket or socket-like object (such as a `.Channel`) to use
+            for communication to the target host
+        :param bool gss_auth:
+            ``True`` if you want to use GSS-API authentication
+        :param bool gss_kex:
+            Perform GSS-API Key Exchange and user authentication
+        :param bool gss_deleg_creds: Delegate GSS-API client credentials or not
+        :param str gss_host:
+            The targets name in the kerberos database. default: hostname
+        :param bool gss_trust_dns:
+            Indicates whether or not the DNS is trusted to securely
+            canonicalize the name of the host being connected to (default
+            ``True``).
+        :param float banner_timeout: an optional timeout (in seconds) to wait
+            for the SSH banner to be presented.
+        :param float auth_timeout: an optional timeout (in seconds) to wait for
+            an authentication response.
+        :param dict disabled_algorithms:
+            an optional dict passed directly to `.Transport` and its keyword
+            argument of the same name.
+    
+        :raises:
+            `.BadHostKeyException` -- if the server's host key could not be
+            verified
+        :raises: `.AuthenticationException` -- if authentication failed
+        :raises:
+            `.SSHException` -- if there was any other error connecting or
+            establishing an SSH session
+        :raises socket.error: if a socket error occurred while connecting
+    
+        .. versionchanged:: 1.15
+            Added the ``banner_timeout``, ``gss_auth``, ``gss_kex``,
+            ``gss_deleg_creds`` and ``gss_host`` arguments.
+        .. versionchanged:: 2.3
+            Added the ``gss_trust_dns`` argument.
+        .. versionchanged:: 2.4
+            Added the ``passphrase`` argument.
+        .. versionchanged:: 2.6
+            Added the ``disabled_algorithms`` argument.
+        """
+        if not sock:
+            errors = {}
+            # Try multiple possible address families (e.g. IPv4 vs IPv6)
+            to_try = list(self._families_and_addresses(hostname, port))
+            for af, addr in to_try:
+                try:
+                    sock = socket.socket(af, socket.SOCK_STREAM)
+                    if timeout is not None:
+                        try:
+                            sock.settimeout(timeout)
+                        except:
+                            pass
+>                   retry_on_signal(lambda: sock.connect(addr))
+
+/usr/local/lib/python3.6/site-packages/paramiko/client.py:349: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+function = <function SSHClient.connect.<locals>.<lambda> at 0x7f81734971e0>
+
+    def retry_on_signal(function):
+        """Retries function until it doesn't raise an EINTR error"""
+        while True:
+            try:
+>               return function()
+
+/usr/local/lib/python3.6/site-packages/paramiko/util.py:283: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+>   retry_on_signal(lambda: sock.connect(addr))
+E   socket.timeout: timed out
+
+/usr/local/lib/python3.6/site-packages/paramiko/client.py:349: timeout
+
+During handling of the above exception, another exception occurred:
+
+self = <Tests.testNics.test_nics.Test_Nics object at 0x7f81736be080>
+
+    def setup(self):
+        logging.info("this is Test_Nics setup.")
+        self.sut_conf = settings.__getattribute__("sut_conf")
+        self.pkg_generator = settings.__getattribute__("pkg_generator")
+        self.drive_info = settings.__getattribute__("drive_info")
+        self.check_str = settings.__getattribute__("check_str")
+        self.dpdk_dir = settings.__getattribute__("dpdk_dir")
+        self.cn_test_sut = sshInstance()
+        logging.info("ssh to the sut1")
+        try:
+            self.client, self.session = self.cn_test_sut.get_ssh_instance(self.sut_conf["host"], self.sut_conf["user"],
+                                                        self.sut_conf["password"], self.sut_conf["port"])
+        except:
+            logging.info("Case Failed:ssh to sut failed,please check")
+            assert 200 == 400, "Case Failed:ssh to sut failed,please check"
+    
+        try:
+            self.client2, self.session2 = self.cn_test_sut.get_ssh_instance(self.pkg_generator["host"], self.pkg_generator["user"],
+                                                        self.pkg_generator["password"], self.pkg_generator["port"])
+        except:
+            logging.info("Case Failed:ssh to sut2 failed,please check")
+>           assert 200 == 400, "Case Failed:ssh to sut2 failed,please check"
+E           AssertionError: Case Failed:ssh to sut2 failed,please check
+E           assert 200 == 400
+
+npxtester/Tests/testNics/test_nics.py:41: AssertionError
+---------------------------- Captured stdout setup -----------------------------
+2022-04-19 00:28:30 - NicTestFixture.py - [line:27] - root - INFO - case_logpath: /root/testconfig/testlogs/2022-04-19/test_PI_Networking_InternetProtocolv4v6_00_28_30/test_PI_Networking_InternetProtocolv4v6.log, case_logdir: /root/testconfig/testlogs/2022-04-19/test_PI_Networking_InternetProtocolv4v6_00_28_30
+2022-04-19 00:28:30 - NicTestFixture.py - [line:31] - root - INFO - ============================ Starting to run test_PI_Networking_InternetProtocolv4v6 case ============================
+2022-04-19 00:28:30 - test_nics.py - [line:21] - root - INFO - this is Test_Nics setup.
+2022-04-19 00:28:30 - test_nics.py - [line:28] - root - INFO - ssh to the sut1
+2022-04-19 00:28:30 - transport.py - [line:1819] - paramiko.transport - INFO - Connected (version 2.0, client OpenSSH_8.0)
+2022-04-19 00:28:30 - transport.py - [line:1819] - paramiko.transport - INFO - Authentication (password) successful!
+2022-04-19 00:28:30 - sshInstance.py - [line:28] - root - INFO - SSH on SUT: 10.239.182.209
+2022-04-19 00:29:00 - test_nics.py - [line:40] - root - INFO - Case Failed:ssh to sut2 failed,please check
+_______ ERROR at setup of Test_Nics.test_PI_Networking_Link_State_Check ________
+
+self = <Tests.testNics.test_nics.Test_Nics object at 0x7f817371c240>
+
+    def setup(self):
+        logging.info("this is Test_Nics setup.")
+        self.sut_conf = settings.__getattribute__("sut_conf")
+        self.pkg_generator = settings.__getattribute__("pkg_generator")
+        self.drive_info = settings.__getattribute__("drive_info")
+        self.check_str = settings.__getattribute__("check_str")
+        self.dpdk_dir = settings.__getattribute__("dpdk_dir")
+        self.cn_test_sut = sshInstance()
+        logging.info("ssh to the sut1")
+        try:
+            self.client, self.session = self.cn_test_sut.get_ssh_instance(self.sut_conf["host"], self.sut_conf["user"],
+                                                        self.sut_conf["password"], self.sut_conf["port"])
+        except:
+            logging.info("Case Failed:ssh to sut failed,please check")
+            assert 200 == 400, "Case Failed:ssh to sut failed,please check"
+    
+        try:
+            self.client2, self.session2 = self.cn_test_sut.get_ssh_instance(self.pkg_generator["host"], self.pkg_generator["user"],
+>                                                       self.pkg_generator["password"], self.pkg_generator["port"])
+
+npxtester/Tests/testNics/test_nics.py:38: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+self = <libs.commons.sshInstance.sshInstance object at 0x7f81737e42b0>
+hostname = '10.239.182.79', username = 'root', password = 'password', port = 22
+
+    def get_ssh_instance(self, hostname, username, password, port):
+        client = paramiko.SSHClient()
+        client.set_missing_host_key_policy(paramiko.AutoAddPolicy())
+>       client.connect(hostname=hostname, port=port, username=username, password=password, timeout=30)
+
+npxtester/libs/commons/sshInstance.py:25: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+self = <paramiko.client.SSHClient object at 0x7f817371cd68>
+hostname = '10.239.182.79', port = 22, username = 'root', password = 'password'
+pkey = None, key_filename = None, timeout = 30, allow_agent = True
+look_for_keys = True, compress = False
+sock = <socket.socket fd=20, family=AddressFamily.AF_INET, type=2049, proto=0, laddr=('10.112.97.60', 60544)>
+gss_auth = False, gss_kex = False, gss_deleg_creds = True, gss_host = None
+banner_timeout = None, auth_timeout = None, gss_trust_dns = True
+passphrase = None, disabled_algorithms = None
+
+    def connect(
+        self,
+        hostname,
+        port=SSH_PORT,
+        username=None,
+        password=None,
+        pkey=None,
+        key_filename=None,
+        timeout=None,
+        allow_agent=True,
+        look_for_keys=True,
+        compress=False,
+        sock=None,
+        gss_auth=False,
+        gss_kex=False,
+        gss_deleg_creds=True,
+        gss_host=None,
+        banner_timeout=None,
+        auth_timeout=None,
+        gss_trust_dns=True,
+        passphrase=None,
+        disabled_algorithms=None,
+    ):
+        """
+        Connect to an SSH server and authenticate to it.  The server's host key
+        is checked against the system host keys (see `load_system_host_keys`)
+        and any local host keys (`load_host_keys`).  If the server's hostname
+        is not found in either set of host keys, the missing host key policy
+        is used (see `set_missing_host_key_policy`).  The default policy is
+        to reject the key and raise an `.SSHException`.
+    
+        Authentication is attempted in the following order of priority:
+    
+            - The ``pkey`` or ``key_filename`` passed in (if any)
+    
+              - ``key_filename`` may contain OpenSSH public certificate paths
+                as well as regular private-key paths; when files ending in
+                ``-cert.pub`` are found, they are assumed to match a private
+                key, and both components will be loaded. (The private key
+                itself does *not* need to be listed in ``key_filename`` for
+                this to occur - *just* the certificate.)
+    
+            - Any key we can find through an SSH agent
+            - Any "id_rsa", "id_dsa" or "id_ecdsa" key discoverable in
+              ``~/.ssh/``
+    
+              - When OpenSSH-style public certificates exist that match an
+                existing such private key (so e.g. one has ``id_rsa`` and
+                ``id_rsa-cert.pub``) the certificate will be loaded alongside
+                the private key and used for authentication.
+    
+            - Plain username/password auth, if a password was given
+    
+        If a private key requires a password to unlock it, and a password is
+        passed in, that password will be used to attempt to unlock the key.
+    
+        :param str hostname: the server to connect to
+        :param int port: the server port to connect to
+        :param str username:
+            the username to authenticate as (defaults to the current local
+            username)
+        :param str password:
+            Used for password authentication; is also used for private key
+            decryption if ``passphrase`` is not given.
+        :param str passphrase:
+            Used for decrypting private keys.
+        :param .PKey pkey: an optional private key to use for authentication
+        :param str key_filename:
+            the filename, or list of filenames, of optional private key(s)
+            and/or certs to try for authentication
+        :param float timeout:
+            an optional timeout (in seconds) for the TCP connect
+        :param bool allow_agent:
+            set to False to disable connecting to the SSH agent
+        :param bool look_for_keys:
+            set to False to disable searching for discoverable private key
+            files in ``~/.ssh/``
+        :param bool compress: set to True to turn on compression
+        :param socket sock:
+            an open socket or socket-like object (such as a `.Channel`) to use
+            for communication to the target host
+        :param bool gss_auth:
+            ``True`` if you want to use GSS-API authentication
+        :param bool gss_kex:
+            Perform GSS-API Key Exchange and user authentication
+        :param bool gss_deleg_creds: Delegate GSS-API client credentials or not
+        :param str gss_host:
+            The targets name in the kerberos database. default: hostname
+        :param bool gss_trust_dns:
+            Indicates whether or not the DNS is trusted to securely
+            canonicalize the name of the host being connected to (default
+            ``True``).
+        :param float banner_timeout: an optional timeout (in seconds) to wait
+            for the SSH banner to be presented.
+        :param float auth_timeout: an optional timeout (in seconds) to wait for
+            an authentication response.
+        :param dict disabled_algorithms:
+            an optional dict passed directly to `.Transport` and its keyword
+            argument of the same name.
+    
+        :raises:
+            `.BadHostKeyException` -- if the server's host key could not be
+            verified
+        :raises: `.AuthenticationException` -- if authentication failed
+        :raises:
+            `.SSHException` -- if there was any other error connecting or
+            establishing an SSH session
+        :raises socket.error: if a socket error occurred while connecting
+    
+        .. versionchanged:: 1.15
+            Added the ``banner_timeout``, ``gss_auth``, ``gss_kex``,
+            ``gss_deleg_creds`` and ``gss_host`` arguments.
+        .. versionchanged:: 2.3
+            Added the ``gss_trust_dns`` argument.
+        .. versionchanged:: 2.4
+            Added the ``passphrase`` argument.
+        .. versionchanged:: 2.6
+            Added the ``disabled_algorithms`` argument.
+        """
+        if not sock:
+            errors = {}
+            # Try multiple possible address families (e.g. IPv4 vs IPv6)
+            to_try = list(self._families_and_addresses(hostname, port))
+            for af, addr in to_try:
+                try:
+                    sock = socket.socket(af, socket.SOCK_STREAM)
+                    if timeout is not None:
+                        try:
+                            sock.settimeout(timeout)
+                        except:
+                            pass
+>                   retry_on_signal(lambda: sock.connect(addr))
+
+/usr/local/lib/python3.6/site-packages/paramiko/client.py:349: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+function = <function SSHClient.connect.<locals>.<lambda> at 0x7f81734970d0>
+
+    def retry_on_signal(function):
+        """Retries function until it doesn't raise an EINTR error"""
+        while True:
+            try:
+>               return function()
+
+/usr/local/lib/python3.6/site-packages/paramiko/util.py:283: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+>   retry_on_signal(lambda: sock.connect(addr))
+E   socket.timeout: timed out
+
+/usr/local/lib/python3.6/site-packages/paramiko/client.py:349: timeout
+
+During handling of the above exception, another exception occurred:
+
+self = <Tests.testNics.test_nics.Test_Nics object at 0x7f817371c240>
+
+    def setup(self):
+        logging.info("this is Test_Nics setup.")
+        self.sut_conf = settings.__getattribute__("sut_conf")
+        self.pkg_generator = settings.__getattribute__("pkg_generator")
+        self.drive_info = settings.__getattribute__("drive_info")
+        self.check_str = settings.__getattribute__("check_str")
+        self.dpdk_dir = settings.__getattribute__("dpdk_dir")
+        self.cn_test_sut = sshInstance()
+        logging.info("ssh to the sut1")
+        try:
+            self.client, self.session = self.cn_test_sut.get_ssh_instance(self.sut_conf["host"], self.sut_conf["user"],
+                                                        self.sut_conf["password"], self.sut_conf["port"])
+        except:
+            logging.info("Case Failed:ssh to sut failed,please check")
+            assert 200 == 400, "Case Failed:ssh to sut failed,please check"
+    
+        try:
+            self.client2, self.session2 = self.cn_test_sut.get_ssh_instance(self.pkg_generator["host"], self.pkg_generator["user"],
+                                                        self.pkg_generator["password"], self.pkg_generator["port"])
+        except:
+            logging.info("Case Failed:ssh to sut2 failed,please check")
+>           assert 200 == 400, "Case Failed:ssh to sut2 failed,please check"
+E           AssertionError: Case Failed:ssh to sut2 failed,please check
+E           assert 200 == 400
+
+npxtester/Tests/testNics/test_nics.py:41: AssertionError
+---------------------------- Captured stdout setup -----------------------------
+2022-04-19 00:29:00 - NicTestFixture.py - [line:27] - root - INFO - case_logpath: /root/testconfig/testlogs/2022-04-19/test_PI_Networking_Link_State_Check_00_29_00/test_PI_Networking_Link_State_Check.log, case_logdir: /root/testconfig/testlogs/2022-04-19/test_PI_Networking_Link_State_Check_00_29_00
+2022-04-19 00:29:00 - NicTestFixture.py - [line:31] - root - INFO - ============================ Starting to run test_PI_Networking_Link_State_Check case ============================
+2022-04-19 00:29:00 - test_nics.py - [line:21] - root - INFO - this is Test_Nics setup.
+2022-04-19 00:29:00 - test_nics.py - [line:28] - root - INFO - ssh to the sut1
+2022-04-19 00:29:00 - transport.py - [line:1819] - paramiko.transport - INFO - Connected (version 2.0, client OpenSSH_8.0)
+2022-04-19 00:29:00 - transport.py - [line:1819] - paramiko.transport - INFO - Authentication (password) successful!
+2022-04-19 00:29:00 - sshInstance.py - [line:28] - root - INFO - SSH on SUT: 10.239.182.209
+2022-04-19 00:29:30 - test_nics.py - [line:40] - root - INFO - Case Failed:ssh to sut2 failed,please check
+_____ ERROR at setup of Test_Nics.test_PI_Networking_ConnectivityShutdown ______
+
+self = <Tests.testNics.test_nics.Test_Nics object at 0x7f817366ae80>
+
+    def setup(self):
+        logging.info("this is Test_Nics setup.")
+        self.sut_conf = settings.__getattribute__("sut_conf")
+        self.pkg_generator = settings.__getattribute__("pkg_generator")
+        self.drive_info = settings.__getattribute__("drive_info")
+        self.check_str = settings.__getattribute__("check_str")
+        self.dpdk_dir = settings.__getattribute__("dpdk_dir")
+        self.cn_test_sut = sshInstance()
+        logging.info("ssh to the sut1")
+        try:
+            self.client, self.session = self.cn_test_sut.get_ssh_instance(self.sut_conf["host"], self.sut_conf["user"],
+                                                        self.sut_conf["password"], self.sut_conf["port"])
+        except:
+            logging.info("Case Failed:ssh to sut failed,please check")
+            assert 200 == 400, "Case Failed:ssh to sut failed,please check"
+    
+        try:
+            self.client2, self.session2 = self.cn_test_sut.get_ssh_instance(self.pkg_generator["host"], self.pkg_generator["user"],
+>                                                       self.pkg_generator["password"], self.pkg_generator["port"])
+
+npxtester/Tests/testNics/test_nics.py:38: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+self = <libs.commons.sshInstance.sshInstance object at 0x7f817366af28>
+hostname = '10.239.182.79', username = 'root', password = 'password', port = 22
+
+    def get_ssh_instance(self, hostname, username, password, port):
+        client = paramiko.SSHClient()
+        client.set_missing_host_key_policy(paramiko.AutoAddPolicy())
+>       client.connect(hostname=hostname, port=port, username=username, password=password, timeout=30)
+
+npxtester/libs/commons/sshInstance.py:25: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+self = <paramiko.client.SSHClient object at 0x7f81736ce2b0>
+hostname = '10.239.182.79', port = 22, username = 'root', password = 'password'
+pkey = None, key_filename = None, timeout = 30, allow_agent = True
+look_for_keys = True, compress = False
+sock = <socket.socket fd=22, family=AddressFamily.AF_INET, type=2049, proto=0, laddr=('10.112.97.60', 60548)>
+gss_auth = False, gss_kex = False, gss_deleg_creds = True, gss_host = None
+banner_timeout = None, auth_timeout = None, gss_trust_dns = True
+passphrase = None, disabled_algorithms = None
+
+    def connect(
+        self,
+        hostname,
+        port=SSH_PORT,
+        username=None,
+        password=None,
+        pkey=None,
+        key_filename=None,
+        timeout=None,
+        allow_agent=True,
+        look_for_keys=True,
+        compress=False,
+        sock=None,
+        gss_auth=False,
+        gss_kex=False,
+        gss_deleg_creds=True,
+        gss_host=None,
+        banner_timeout=None,
+        auth_timeout=None,
+        gss_trust_dns=True,
+        passphrase=None,
+        disabled_algorithms=None,
+    ):
+        """
+        Connect to an SSH server and authenticate to it.  The server's host key
+        is checked against the system host keys (see `load_system_host_keys`)
+        and any local host keys (`load_host_keys`).  If the server's hostname
+        is not found in either set of host keys, the missing host key policy
+        is used (see `set_missing_host_key_policy`).  The default policy is
+        to reject the key and raise an `.SSHException`.
+    
+        Authentication is attempted in the following order of priority:
+    
+            - The ``pkey`` or ``key_filename`` passed in (if any)
+    
+              - ``key_filename`` may contain OpenSSH public certificate paths
+                as well as regular private-key paths; when files ending in
+                ``-cert.pub`` are found, they are assumed to match a private
+                key, and both components will be loaded. (The private key
+                itself does *not* need to be listed in ``key_filename`` for
+                this to occur - *just* the certificate.)
+    
+            - Any key we can find through an SSH agent
+            - Any "id_rsa", "id_dsa" or "id_ecdsa" key discoverable in
+              ``~/.ssh/``
+    
+              - When OpenSSH-style public certificates exist that match an
+                existing such private key (so e.g. one has ``id_rsa`` and
+                ``id_rsa-cert.pub``) the certificate will be loaded alongside
+                the private key and used for authentication.
+    
+            - Plain username/password auth, if a password was given
+    
+        If a private key requires a password to unlock it, and a password is
+        passed in, that password will be used to attempt to unlock the key.
+    
+        :param str hostname: the server to connect to
+        :param int port: the server port to connect to
+        :param str username:
+            the username to authenticate as (defaults to the current local
+            username)
+        :param str password:
+            Used for password authentication; is also used for private key
+            decryption if ``passphrase`` is not given.
+        :param str passphrase:
+            Used for decrypting private keys.
+        :param .PKey pkey: an optional private key to use for authentication
+        :param str key_filename:
+            the filename, or list of filenames, of optional private key(s)
+            and/or certs to try for authentication
+        :param float timeout:
+            an optional timeout (in seconds) for the TCP connect
+        :param bool allow_agent:
+            set to False to disable connecting to the SSH agent
+        :param bool look_for_keys:
+            set to False to disable searching for discoverable private key
+            files in ``~/.ssh/``
+        :param bool compress: set to True to turn on compression
+        :param socket sock:
+            an open socket or socket-like object (such as a `.Channel`) to use
+            for communication to the target host
+        :param bool gss_auth:
+            ``True`` if you want to use GSS-API authentication
+        :param bool gss_kex:
+            Perform GSS-API Key Exchange and user authentication
+        :param bool gss_deleg_creds: Delegate GSS-API client credentials or not
+        :param str gss_host:
+            The targets name in the kerberos database. default: hostname
+        :param bool gss_trust_dns:
+            Indicates whether or not the DNS is trusted to securely
+            canonicalize the name of the host being connected to (default
+            ``True``).
+        :param float banner_timeout: an optional timeout (in seconds) to wait
+            for the SSH banner to be presented.
+        :param float auth_timeout: an optional timeout (in seconds) to wait for
+            an authentication response.
+        :param dict disabled_algorithms:
+            an optional dict passed directly to `.Transport` and its keyword
+            argument of the same name.
+    
+        :raises:
+            `.BadHostKeyException` -- if the server's host key could not be
+            verified
+        :raises: `.AuthenticationException` -- if authentication failed
+        :raises:
+            `.SSHException` -- if there was any other error connecting or
+            establishing an SSH session
+        :raises socket.error: if a socket error occurred while connecting
+    
+        .. versionchanged:: 1.15
+            Added the ``banner_timeout``, ``gss_auth``, ``gss_kex``,
+            ``gss_deleg_creds`` and ``gss_host`` arguments.
+        .. versionchanged:: 2.3
+            Added the ``gss_trust_dns`` argument.
+        .. versionchanged:: 2.4
+            Added the ``passphrase`` argument.
+        .. versionchanged:: 2.6
+            Added the ``disabled_algorithms`` argument.
+        """
+        if not sock:
+            errors = {}
+            # Try multiple possible address families (e.g. IPv4 vs IPv6)
+            to_try = list(self._families_and_addresses(hostname, port))
+            for af, addr in to_try:
+                try:
+                    sock = socket.socket(af, socket.SOCK_STREAM)
+                    if timeout is not None:
+                        try:
+                            sock.settimeout(timeout)
+                        except:
+                            pass
+>                   retry_on_signal(lambda: sock.connect(addr))
+
+/usr/local/lib/python3.6/site-packages/paramiko/client.py:349: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+function = <function SSHClient.connect.<locals>.<lambda> at 0x7f8173497598>
+
+    def retry_on_signal(function):
+        """Retries function until it doesn't raise an EINTR error"""
+        while True:
+            try:
+>               return function()
+
+/usr/local/lib/python3.6/site-packages/paramiko/util.py:283: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+>   retry_on_signal(lambda: sock.connect(addr))
+E   socket.timeout: timed out
+
+/usr/local/lib/python3.6/site-packages/paramiko/client.py:349: timeout
+
+During handling of the above exception, another exception occurred:
+
+self = <Tests.testNics.test_nics.Test_Nics object at 0x7f817366ae80>
+
+    def setup(self):
+        logging.info("this is Test_Nics setup.")
+        self.sut_conf = settings.__getattribute__("sut_conf")
+        self.pkg_generator = settings.__getattribute__("pkg_generator")
+        self.drive_info = settings.__getattribute__("drive_info")
+        self.check_str = settings.__getattribute__("check_str")
+        self.dpdk_dir = settings.__getattribute__("dpdk_dir")
+        self.cn_test_sut = sshInstance()
+        logging.info("ssh to the sut1")
+        try:
+            self.client, self.session = self.cn_test_sut.get_ssh_instance(self.sut_conf["host"], self.sut_conf["user"],
+                                                        self.sut_conf["password"], self.sut_conf["port"])
+        except:
+            logging.info("Case Failed:ssh to sut failed,please check")
+            assert 200 == 400, "Case Failed:ssh to sut failed,please check"
+    
+        try:
+            self.client2, self.session2 = self.cn_test_sut.get_ssh_instance(self.pkg_generator["host"], self.pkg_generator["user"],
+                                                        self.pkg_generator["password"], self.pkg_generator["port"])
+        except:
+            logging.info("Case Failed:ssh to sut2 failed,please check")
+>           assert 200 == 400, "Case Failed:ssh to sut2 failed,please check"
+E           AssertionError: Case Failed:ssh to sut2 failed,please check
+E           assert 200 == 400
+
+npxtester/Tests/testNics/test_nics.py:41: AssertionError
+---------------------------- Captured stdout setup -----------------------------
+2022-04-19 00:29:30 - NicTestFixture.py - [line:27] - root - INFO - case_logpath: /root/testconfig/testlogs/2022-04-19/test_PI_Networking_ConnectivityShutdown_00_29_30/test_PI_Networking_ConnectivityShutdown.log, case_logdir: /root/testconfig/testlogs/2022-04-19/test_PI_Networking_ConnectivityShutdown_00_29_30
+2022-04-19 00:29:30 - NicTestFixture.py - [line:31] - root - INFO - ============================ Starting to run test_PI_Networking_ConnectivityShutdown case ============================
+2022-04-19 00:29:30 - test_nics.py - [line:21] - root - INFO - this is Test_Nics setup.
+2022-04-19 00:29:30 - test_nics.py - [line:28] - root - INFO - ssh to the sut1
+2022-04-19 00:29:30 - transport.py - [line:1819] - paramiko.transport - INFO - Connected (version 2.0, client OpenSSH_8.0)
+2022-04-19 00:29:30 - transport.py - [line:1819] - paramiko.transport - INFO - Authentication (password) successful!
+2022-04-19 00:29:30 - sshInstance.py - [line:28] - root - INFO - SSH on SUT: 10.239.182.209
+2022-04-19 00:30:00 - test_nics.py - [line:40] - root - INFO - Case Failed:ssh to sut2 failed,please check
+=============================== warnings summary ===============================
+npxtester/Tests/testNics/test_iperf_client_4hour.py:95
+  /root/.jenkins/workspace/cyp-test-nic-simple/npxtester/Tests/testNics/test_iperf_client_4hour.py:95: PytestUnknownMarkWarning: Unknown pytest.mark.iperf_tcp - is this a typo?  You can register custom marks to avoid this warning - for details, see https://docs.pytest.org/en/stable/mark.html
+    @pytest.mark.iperf_tcp
+
+npxtester/Tests/testNics/test_iperf_client_4hour.py:144
+  /root/.jenkins/workspace/cyp-test-nic-simple/npxtester/Tests/testNics/test_iperf_client_4hour.py:144: PytestUnknownMarkWarning: Unknown pytest.mark.iperf_udp - is this a typo?  You can register custom marks to avoid this warning - for details, see https://docs.pytest.org/en/stable/mark.html
+    @pytest.mark.iperf_udp
+
+npxtester/Tests/testNics/test_mtu.py:69
+  /root/.jenkins/workspace/cyp-test-nic-simple/npxtester/Tests/testNics/test_mtu.py:69: PytestUnknownMarkWarning: Unknown pytest.mark.two_sut_CVL - is this a typo?  You can register custom marks to avoid this warning - for details, see https://docs.pytest.org/en/stable/mark.html
+    @pytest.mark.two_sut_CVL
+
+npxtester/Tests/testNics/test_mtu.py:70
+  /root/.jenkins/workspace/cyp-test-nic-simple/npxtester/Tests/testNics/test_mtu.py:70: PytestUnknownMarkWarning: Unknown pytest.mark.nicSimple - is this a typo?  You can register custom marks to avoid this warning - for details, see https://docs.pytest.org/en/stable/mark.html
+    @pytest.mark.nicSimple
+
+npxtester/Tests/testNics/test_mtu.py:109
+  /root/.jenkins/workspace/cyp-test-nic-simple/npxtester/Tests/testNics/test_mtu.py:109: PytestUnknownMarkWarning: Unknown pytest.mark.two_sut_CVL - is this a typo?  You can register custom marks to avoid this warning - for details, see https://docs.pytest.org/en/stable/mark.html
+    @pytest.mark.two_sut_CVL
+
+npxtester/Tests/testNics/test_mtu.py:110
+  /root/.jenkins/workspace/cyp-test-nic-simple/npxtester/Tests/testNics/test_mtu.py:110: PytestUnknownMarkWarning: Unknown pytest.mark.nicSimple - is this a typo?  You can register custom marks to avoid this warning - for details, see https://docs.pytest.org/en/stable/mark.html
+    @pytest.mark.nicSimple
+
+npxtester/Tests/testNics/test_network_sriov_stress.py:590
+  /root/.jenkins/workspace/cyp-test-nic-simple/npxtester/Tests/testNics/test_network_sriov_stress.py:590: PytestUnknownMarkWarning: Unknown pytest.mark.nicSriov5times - is this a typo?  You can register custom marks to avoid this warning - for details, see https://docs.pytest.org/en/stable/mark.html
+    @pytest.mark.nicSriov5times
+
+npxtester/Tests/testNics/test_network_sriov_stress.py:716
+  /root/.jenkins/workspace/cyp-test-nic-simple/npxtester/Tests/testNics/test_network_sriov_stress.py:716: PytestUnknownMarkWarning: Unknown pytest.mark.nicSriov2hours - is this a typo?  You can register custom marks to avoid this warning - for details, see https://docs.pytest.org/en/stable/mark.html
+    @pytest.mark.nicSriov2hours
+
+npxtester/Tests/testNics/test_network_sriov_stress.py:956
+  /root/.jenkins/workspace/cyp-test-nic-simple/npxtester/Tests/testNics/test_network_sriov_stress.py:956: PytestUnknownMarkWarning: Unknown pytest.mark.SriovVfIperf - is this a typo?  You can register custom marks to avoid this warning - for details, see https://docs.pytest.org/en/stable/mark.html
+    @pytest.mark.SriovVfIperf
+
+npxtester/Tests/testNics/test_network_sriov_stress.py:1092
+  /root/.jenkins/workspace/cyp-test-nic-simple/npxtester/Tests/testNics/test_network_sriov_stress.py:1092: PytestUnknownMarkWarning: Unknown pytest.mark.nicIperfTcpSUTGuestStress - is this a typo?  You can register custom marks to avoid this warning - for details, see https://docs.pytest.org/en/stable/mark.html
+    @pytest.mark.nicIperfTcpSUTGuestStress
+
+npxtester/Tests/testNics/test_network_sriov_stress.py:1093
+  /root/.jenkins/workspace/cyp-test-nic-simple/npxtester/Tests/testNics/test_network_sriov_stress.py:1093: PytestUnknownMarkWarning: Unknown pytest.mark.SriovVfIperf - is this a typo?  You can register custom marks to avoid this warning - for details, see https://docs.pytest.org/en/stable/mark.html
+    @pytest.mark.SriovVfIperf
+
+npxtester/Tests/testNics/test_nics.py:93
+  /root/.jenkins/workspace/cyp-test-nic-simple/npxtester/Tests/testNics/test_nics.py:93: PytestUnknownMarkWarning: Unknown pytest.mark.nicSimple - is this a typo?  You can register custom marks to avoid this warning - for details, see https://docs.pytest.org/en/stable/mark.html
+    @pytest.mark.nicSimple
+
+npxtester/Tests/testNics/test_nics.py:132
+  /root/.jenkins/workspace/cyp-test-nic-simple/npxtester/Tests/testNics/test_nics.py:132: PytestUnknownMarkWarning: Unknown pytest.mark.nicSimple - is this a typo?  You can register custom marks to avoid this warning - for details, see https://docs.pytest.org/en/stable/mark.html
+    @pytest.mark.nicSimple
+
+npxtester/Tests/testNics/test_nics.py:167
+  /root/.jenkins/workspace/cyp-test-nic-simple/npxtester/Tests/testNics/test_nics.py:167: PytestUnknownMarkWarning: Unknown pytest.mark.nicSimple - is this a typo?  You can register custom marks to avoid this warning - for details, see https://docs.pytest.org/en/stable/mark.html
+    @pytest.mark.nicSimple
+
+npxtester/Tests/testNics/test_nics.py:168
+  /root/.jenkins/workspace/cyp-test-nic-simple/npxtester/Tests/testNics/test_nics.py:168: PytestUnknownMarkWarning: Unknown pytest.mark.test - is this a typo?  You can register custom marks to avoid this warning - for details, see https://docs.pytest.org/en/stable/mark.html
+    @pytest.mark.test
+
+npxtester/Tests/testNics/test_nics.py:256
+  /root/.jenkins/workspace/cyp-test-nic-simple/npxtester/Tests/testNics/test_nics.py:256: PytestUnknownMarkWarning: Unknown pytest.mark.nicSimple - is this a typo?  You can register custom marks to avoid this warning - for details, see https://docs.pytest.org/en/stable/mark.html
+    @pytest.mark.nicSimple
+
+npxtester/Tests/testNics/test_nics.py:282
+  /root/.jenkins/workspace/cyp-test-nic-simple/npxtester/Tests/testNics/test_nics.py:282: PytestUnknownMarkWarning: Unknown pytest.mark.nicSimple - is this a typo?  You can register custom marks to avoid this warning - for details, see https://docs.pytest.org/en/stable/mark.html
+    @pytest.mark.nicSimple
+
+npxtester/Tests/testNics/test_nics.py:325
+  /root/.jenkins/workspace/cyp-test-nic-simple/npxtester/Tests/testNics/test_nics.py:325: PytestUnknownMarkWarning: Unknown pytest.mark.nicSimple - is this a typo?  You can register custom marks to avoid this warning - for details, see https://docs.pytest.org/en/stable/mark.html
+    @pytest.mark.nicSimple
+
+-- Docs: https://docs.pytest.org/en/stable/warnings.html
+- generated html file: file:///root/testconfig/testlogs/HtmlReport/nic_simple_report.html -
+=========================== short test summary info ============================
+ERROR npxtester/Tests/testNics/test_mtu.py::Test_mtu::test_PI_Networking_Jumbo_Packet_CVL
+ERROR npxtester/Tests/testNics/test_mtu.py::Test_mtu::test_PI_Networking_MTU_set_CVL
+ERROR npxtester/Tests/testNics/test_nics.py::Test_Nics::test_silver_Networking_ConnectivityEnableDisable
+ERROR npxtester/Tests/testNics/test_nics.py::Test_Nics::test_silver_ConnectivityReboot
+ERROR npxtester/Tests/testNics/test_nics.py::Test_Nics::test_gold_PI_Networking_SRIOV_CheckDevice
+ERROR npxtester/Tests/testNics/test_nics.py::Test_Nics::test_PI_Networking_InternetProtocolv4v6
+ERROR npxtester/Tests/testNics/test_nics.py::Test_Nics::test_PI_Networking_Link_State_Check
+ERROR npxtester/Tests/testNics/test_nics.py::Test_Nics::test_PI_Networking_ConnectivityShutdown
+========== 11 deselected, 18 warnings, 8 errors in 241.79s (0:04:01) ===========
+[8mha:////4LeiMYyvaTAszhIQ10pdIeDepJ20hGjpoNTSDQ54vTlOAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIi0SCEqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDyFBu95/avQGMKkS1vgAAAA==[0m[Pipeline] }
+[8mha:////4I/tRoD/KV6lJ76TTEJ8vusLD5mbZiDJ1z7tZBIwhHThAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKCQKJBqWgtN7zAJMY4se6C7eBUvIiv8QcsIlGxxWpnm3m9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKZhiFDut7l2hw9mQDtDvgAAAA==[0m[Pipeline] // stage
+[8mha:////4Ix6O+hSs/J+WYhicXoVNFsq2LY7NwaGm8aSejP8W5cDAAAAox+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIRgg5R0VppeIFJjHFi3QX7QlLxIr7GH4iIRMVWO9PM641lijhydKqx1HpKlVdd6N301MCxvQYeVMMXVTElDlaVdii5tqcZSxaLeVmOhcbKUhU4eXKCtW7MwxTBkCvOEid30Mh9fccTmZ7KYqJ8YYzY3Po6Mf06fwMYu06Q77aCbP8BPqPtor0AAAA=[0m[Pipeline] }
+[8mha:////4GHchb786wl688erDJjASqsmJ9Hr4hPtHO8ytwYHX0MzAAAAoh+LCAAAAAAAAP9tjbEOgjAURS8YB1dHP6IkMhon14bFL6hQa6F5D9uHMPlF/pr/IJHEyTvdc5bzemOdIo4cnWotdZ5S7VUfBjc/NXLsroFH1fJF1UyJg1WVHStu7GnBisViWZZjpbGxVAdOnpxgq1vzMEUw5IqzxNkdNHLf3PFEpueymChfmCJ2t6FJTL/O3wCmvhfk5V6QlR9NTCl7vQAAAA==[0m[Pipeline] // node
+[8mha:////4N3Zwv+i78+NyT5x5Iut/zlc/vu2cqXlCZqUPy9nGyYaAAAAoh+LCAAAAAAAAP9tjbEOgjAURS8YB1dHP6IkMhon14bFL6hQa6F5D9uHMPlF/pr/IJHEyTvdc5bzemOdIo4cnWotdZ5S7VUfBjc/NXLsroFH1fJF1UyJg1WVHStu7GnBisViWZZjpbGxVAdOnpxgq1vzMEUw5IqzxNkdNHLf3PFEpueymChfmCJ2t6FJTL/O3wCmvhfkZSnI9h9rVU4xvQAAAA==[0m[Pipeline] End of Pipeline
+ERROR: script returned exit code 1
+Finished: FAILURE

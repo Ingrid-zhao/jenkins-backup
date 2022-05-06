@@ -1,0 +1,1497 @@
+Started by timer
+Running in Durability level: MAX_SURVIVABILITY
+[8mha:////4DOlrZhma2TKYqx8mtRBwGXVE8Xt4z3OJyo/zi+ICDdzAAAAoh+LCAAAAAAAAP9tjTEOwjAQBM8BClpKHuFItIiK1krDC0x8GCfWnbEdkooX8TX+gCESFVvtrLSa5wtWKcKBo5UdUu8otU4GP9jS5Mixv3geZcdn2TIl9igbHBs2eJyx4YwwR1SwULBGaj0nRzbDRnX6rmuvydanHMu2V1A5c4MHCFXMWcf8hSnC9jqYxPTz/BXAFEIGsfuclm8zQVqFvQAAAA==[0m[Pipeline] Start of Pipeline
+[8mha:////4B4K7nOhvaaLmbeE3w0NEhE1GAALwLDjakw9plXgkY6XAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycohUghExsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jduZBmjwAAAAA==[0m[Pipeline] node
+Running on [8mha:////4EheNQ7D4c27QswDGPiDpGtf9rfQF1HauEmyd+/REsZ/AAAAoh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyeEgZx/eT83ILSktQiICOvpCg/Jye1SDdLHwCRPP8lzAAAAA==[0mcontroller-j in /root/.jenkins/workspace/spr-test-nicGold
+[8mha:////4NUxBMzN6CtFAbQ4pdo7pH8ZuwVHigLf0SdP3FcjQTwyAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gA0xsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jfoP95RwAAAAA==[0m[Pipeline] {
+[8mha:////4OCB1+Up79PmV3LnMeomKr9r+JFCKkFjAfTpr2UorbLOAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gQkxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jc09154wAAAAA==[0m[Pipeline] stage
+[8mha:////4N6KQN35K8CT/Pcr9a+R4oOEu4uEh3phvpB1t67zd2hmAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0ggUxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jek7ggRwAAAAA==[0m[Pipeline] { (rm project dir)
+[8mha:////4EWjgIQS1R18e39T6LdOu3ZpSMSXMburmKwxJHd8e163AAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gwExsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jcChmMxwAAAAA==[0m[Pipeline] script
+[8mha:////4NOJ/YVWDlnnBpjDdLKlLZkF5LrR387vblsx7fWhZkPlAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0BAkxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jfpX/cvwAAAAA==[0m[Pipeline] {
+[8mha:////4MAm0moKTc8Eo2PcB0LgkHNHI7Xtf5Poej2Mf/l8xh/lAAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQTbaoyVLaHxBMgiwpL/WWDdrTyRV/MOEjexcpJJ5k3zXm9Y5wQnSpZ7g73DrB2PYbR18YlSfws0cU9XrgkzBcOlmSR15rygpGJgCWtgJWBjUAfKDm2BrfDqodqg0LaXkup3FNC4boAnMFHNRaXyhTnB7j52mfDn+SuAORZg+9pD/AAeoCAqvAAAAA==[0m[Pipeline] sh
++ ls /root/.jenkins/workspace/spr-test-nicGold/npxtester
+1.0.0.0001.version
+conf
+installation
+libs
+log_analyzer
+README.md
+testconf
+testLibs
+Tests
+[8mha:////4F3BY6hez6Yn9lSF4dYULOlz4RwK0Fdsp1OYWtj0vxDtAAAAox+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMKBDglR0VppeIFJjHFi3QX7QlLxIr7GH4iIRMVWO9PM641lijhydKqx1HpKlVdd6N301MCxvQYeVMMXVTElDlaVdii5tqcZSxaLeVmOhcbKUhU4eXKCtW7MwxTBkCvOEid30Mh9fccTmZ7KYqJ8YYzY3Po6Mf06fwMYO0G2F+S7bfcBITL9lL0AAAA=[0m[Pipeline] echo
+dir is exists and rm dir
+[8mha:////4KL1cTFlC/t8/0LRf71hJwxXIUFLIMviWtcIHXR2W8epAAAAox+LCAAAAAAAAP9tjbEOgjAURS8YB1dHP6KEzcQ4uTYsfkGFWgvNe9g+hMkv8tf8B4kkTt7pnrOc1xvrFHHk6FRrqfOUaq/6MLj5qZFjdw08qpYvqmZKHKyq7FhxY08LViwWy7IcK42NpTpw8uQEW92ahymCIVecJc7uoJH75o4nMj2XxUT5whSxuw1NYvp1/gYw9YJsL8jLsv8AYAPmjb0AAAA=[0m[Pipeline] sh
++ rm -rf /root/.jenkins/workspace/spr-test-nicGold/npxtester
+[8mha:////4GzJynz9IX3CLl34e/1JpYOeLz7FDsqMtIihCtFGqNpZAAAAox+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIRVEiIitZKwwtMYowT6y7YF5KKF/E1/kBEJCq22plmXm8sU8SRo1ONpdZTqrzqQu+mpwaO7TXwoBq+qIopcbCqtEPJtT3NWLJYzMtyLDRWlqrAyZMTrHVjHqYIhlxxlji5g0bu6zueyPRUFhPlC2PE5tbXienX+RvA2HWCfLsTZPsPzjQzob0AAAA=[0m[Pipeline] }
+[8mha:////4MvApYhNLg1xEFG2iXyHCog7Z9h4MbdAsNSDoK4wJnDgAAAApB+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIRoqBAVLRWGl5gEmOcWHfBvpBUvIiv8QciIlGx1c4083pjmSKOHJ1qLLWeUuVVF3o3PTVwbK+BB9XwRVVMiYNVpR1Kru1pxpLFYl6WY6GxslQFTp6cYK0b8zBFMOSKs8TJHTRyX9/xRKanspgoXxgjNre+Tky/zt8Axq4T5NudINt/AO8A7Ay9AAAA[0m[Pipeline] // script
+[8mha:////4P1g47DHQeYIMdAQPrqVFJW5XTEYSJkMqP0k+p1upCWxAAAApB+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIREqJBVLRWGl5gEmOcWHfBvpBUvIiv8QciIlGx1c4083pjmSKOHJ1qLLWeUuVVF3o3PTVwbK+BB9XwRVVMiYNVpR1Kru1pxpLFYl6WY6GxslQFTp6cYK0b8zBFMOSKs8TJHTRyX9/xRKanspgoXxgjNre+Tky/zt8Axq4T5NudINt/AGnsy8m9AAAA[0m[Pipeline] }
+[8mha:////4Lc6WrLYEiiAC7rTWY8q4RQPGu1FD+hrgClvEqpzcg2sAAAAox+LCAAAAAAAAP9tjTESgjAQRT84FraWHiKMBZVjZZuh8QQRYgxkdjFZhMoTeTXvICMzVv7qv9e81xvrFHHk6FRrqfOUaq/6MLj5qZFjdw08qpYvqmZKHKyq7FhxY08LViwWy7IcK42NpTpw8uQEW92ahymCIVecJc7uoJH75o4nMj2XxUT5whSxuw1NYvp1/gYw9b0g35eCrPwAY5Sibb0AAAA=[0m[Pipeline] // stage
+[8mha:////4LPzYIRsJlP9vBl87WR2FbvV5590n9jZkqHCRBijPEs5AAAApx+LCAAAAAAAAP9tjTEOwjAQBM9BKWgpeYQjJESDqGgtN7zAxMY4se6CfSGpeBFf4w8EIlGx1c5Kq3m+oMwJDpS8bBy2AXMdZBd7PzU5UGovkQbZ0FnWhJmik9oNmqw7zqiJHcwRBSwULB3WkXJAz7BSjbmbKhr01YnTtO0VFMHe4AFCTWY2ib8wJlhfe5sJf56/Ahg7BrFlKDa7z7F8A6sHc4fBAAAA[0m[Pipeline] stage
+[8mha:////4P0yjWfQiEwQxZO7i9obwDXrYwQclNR3i//1CTGbFwBFAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohULDAgpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD1+IXOLCAAAA[0m[Pipeline] { (git clone)
+[8mha:////4I3tKNYAz7At397ZkNOs6SFwEn2bzn3ZBhsoegW1dhRwAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiKpAQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGPIUG53n9qHNxXfVKy+AAAA[0m[Pipeline] sh
++ git clone -b develop https://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@github.com/intel-innersource/applications.validation.network-platform.npxtester.git npxtester
+Cloning into 'npxtester'...
+[8mha:////4CRWXV91kUhqh2bTVXI+2n5U32cQ89nJ7yub5blKQ29bAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiKoQQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGMIGcrt/lO7N9Jjga++AAAA[0m[Pipeline] }
+[8mha:////4I4ZVrOFMvh2sVfxnfT9s6+paGHoH9OzkxEwdR4h+nRDAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOICFDQoFa3lhheYxBgn1l2wHZyKF/E1/oBFJCq2WO1sM683LIOHmr3BTlNvKTQWBzeavDCx76+OE3Z8wYYpsNModZLc6tOMkqOGOUUJCwErTY3jYMlEWItOPVTlFJnqHH3+jgJK297hCYXI5qh8/MLkYXMb28D08/wVwDQMEcr9Ntfu8AERGGHOvgAAAA==[0m[Pipeline] // stage
+[8mha:////4J4BpfnRrLE6odVrNZGgZ11wIRy0HYHBalvcHAcD12j/AAAAph+LCAAAAAAAAP9tjTEOwjAQBM9BKWgpeYQjEB2iorXc8AITG+PEugv2haTiRXyNPxCIRMVWOyut5vmCMic4UPKycdgGzHWQXez91ORAqb1EGmRDZ1kTZopOajdosu44oyZ2MEcUsFCwdFhHygE9w0o15m6qaNBXJ07TtldQBHuDBwg1mdkk/sKYYH3tbSb8ef4KYOwYxI6h2G4+x/INji2eq8EAAAA=[0m[Pipeline] stage
+[8mha:////4AgPhGmio4pMNzq5gItmuDxswb3P5dwyIofUIBdMXBTmAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+DOrAycohUdEVMrFEXThCaEJJG/7dJSjpxIq7GHWipxIQHy7ZkvdcbyhjgRMFwp7GzGFvLez+aOfFMobt5ytzRlbeEkbzmjc4NKX1ea0NJw6qCwUbAVmPrKVo0CXbCyYesvERTXVKYt6MAZtUATyjETE4ypG+ZAuzvo4qEP85fAEx9AlYfFquXZ/kBAsTc3cIAAAA=[0m[Pipeline] { (pre-exec-set-args)
+[8mha:////4G9dxluK5ut2lxdfo2JVi6OIov1ZH/881VUFzuPzanonAAAAox+LCAAAAAAAAP9tjTESwiAURH/iWNhaeggyE0vHypah8QSYIEKY/wkQSeWJvJp3EM2MlVvs7NvmPV+wjgGOFDSzCgeDsTPMu0mXxTKF4eooM0sX1hFGcooJlQX16rSgoKRgSVXDisNGYecoGtQJttzKu2ycRN2cUyjfgUNt+hEeUPFiTjKkL8wBdrepj4Q/z18BzD5B3baf2vs3w5BRkb4AAAA=[0m[Pipeline] sh
++ python /root/.jenkins/workspace/spr-test-nicGold/npxtester/conf/change_args.py '{"drive_info":{"drive_version":"4.18.0-369.el8.x86_64"},"dpdk_dir":"/opt/APP/utility/DPDK_install/dpdk-22.03","vm_image_conf":{"image1":"rhel86.img","image2":"rhel862.img","image3":"rhel84rt.img","image4":"rhel84rt2.img","image_dir":"/home/image"},"sut_conf":{"host":"10.239.182.80","pf1":"ens43f0","os":"RHEL"},"pkg_generator":{"host":"10.239.182.88","pf1":"ens785f0"}}'
+[8mha:////4FhUQONKPXFSeOjFO92QKbtxv93cUzSuhB7hx3xoWX6KAAAApB+LCAAAAAAAAP9tjbEOwiAURV9rHFwd/QiaNG7GyZWw+AXYIkLJexSodPKL/DX/QbSJk3e4uecu5/mCdQxwpKCZVTgYjJ1h3k26LJYpDFdHmVm6sI4wklNMqCyoV6cFBSUFS6oaVhw2CjtH0aBOsOVW3mXjJOrmnEL5Dhxq04/wgIoXc5IhfWEOsLtNfST8ef4KYPY+Qd3uP9W+Ad3NsHm+AAAA[0m[Pipeline] }
+[8mha:////4EpM1Tihe33kOTBucrClpdwMCq1FF6wGwTU/AEOZmYaNAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIikKgQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGMIGcrd/lPbN8JP5Su+AAAA[0m[Pipeline] // stage
+[8mha:////4JJk4NQMkVX21N+ktknOqKLQw+FD2VU/fvD8dhBPuambAAAApx+LCAAAAAAAAP9tjTEOwjAQBM9BKWgpeYQjIUSDqGgtN7zAxMY4se6CfSGpeBFf4w8EIlGx1c5Kq3m+oMwJDpS8bBy2AXMdZBd7PzU5UGovkQbZ0FnWhJmik9oNmqw7zqiJHcwRBSwULB3WkXJAz7BSjbmbKhr01YnTtO0VFMHe4AFCTWY2ib8wJlhfe5sJf56/Ahg7BrFlKDa7z7F8AzYdm7bBAAAA[0m[Pipeline] stage
+[8mha:////4GToWcz1lEtttcc1F67+obVKf97ChyGWoNBgdNb8ln6iAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUYoABMXWNsnCC0ISQNvq//KS0EyfiatyBlkpMeLBsS9Z7vaGIDCdiJxqLrcdYe9GF3k1JDMTtNdAgGrqImjBSsELZQZGx1VIVJQuLshxWEtYW60DRo0uwkY1+6DJodOU58bQdJeTe3OEJmZzISXP6lpFhe+tNJPxx/gJg7BLku/1sh/lZfAAyQCqkwgAAAA==[0m[Pipeline] { (run nic case)
+[8mha:////4Dqouna/UALz1cds/DYDIib12lRO4R4U9QQgmUx/wyv5AAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUYgEJMXWNsnCC0ISQNvq//KS0EyfiatyBlkpMeLBsS9Z7vaGIDCdiJxqLrcdYe9GF3k1JDMTtNdAgGrqImjBSsELZQZGx1VIVJQuLshxWEtYW60DRo0uwkY1+6DJodOU58bQdJeTe3OEJmZzISXP6lpFhe+tNJPxx/gJg7BLku/1sh/lZfAAnLfKUwgAAAA==[0m[Pipeline] script
+[8mha:////4JUhH4fIWh5icAEY6zBr3HRHHu0lnMalVyM2fPsu3/3sAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUYgIhpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD0QKVszCAAAA[0m[Pipeline] {
+[8mha:////4PJRxj8hD/CuSHgtWDRwAQ67XTdBRcldvWih24U4ysBWAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKCoEIoFa3lhheYxBgn1l2wHZyKF/E1/oBFJCq2WO1sM683LIOHmr3BTlNvKTQWBzeavDCx76+OE3Z8wYYpsNModZLc6tOMkqOGOUUJCwErTY3jYMlEWItOPVTlFJnqHH3+jgJK297hCYXI5qh8/MLkYXMb28D08/wVwDREKHeHXPvt8AHN/bm5vgAAAA==[0m[Pipeline] sh
++ pytest /root/.jenkins/workspace/spr-test-nicGold/npxtester/Tests/testNics -s -m nicGold --capture=tee-sys --html=/root/testconfig/testlogs/HtmlReport/nicGold_report.html --self-contained-html
+============================= test session starts ==============================
+platform linux -- Python 3.6.8, pytest-6.2.4, py-1.11.0, pluggy-0.13.1
+rootdir: /root/.jenkins/workspace/spr-test-nicGold/npxtester/Tests/testNics, configfile: pytest.ini
+plugins: metadata-1.11.0, html-3.1.1
+collected 20 items / 16 deselected / 4 selected
+
+npxtester/Tests/testNics/test_mtu.py 2022-04-27 19:57:28 - NicTestFixture.py - [line:27] - root - INFO - case_logpath: /root/testconfig/testlogs/2022-04-27/test_PI_Networking_Jumbo_Packet_CVL_19_57_28/test_PI_Networking_Jumbo_Packet_CVL.log, case_logdir: /root/testconfig/testlogs/2022-04-27/test_PI_Networking_Jumbo_Packet_CVL_19_57_28
+2022-04-27 19:57:28 - NicTestFixture.py - [line:31] - root - INFO - ============================ Starting to run test_PI_Networking_Jumbo_Packet_CVL case ============================
+2022-04-27 19:57:28 - test_mtu.py - [line:16] - root - INFO - this is Test_mtu setup.
+2022-04-27 19:57:28 - test_mtu.py - [line:22] - root - INFO - ssh to the sut1
+2022-04-27 19:57:28 - test_mtu.py - [line:24] - root - INFO - ssh to the sut1
+2022-04-27 19:57:28 - transport.py - [line:1819] - paramiko.transport - INFO - Connected (version 2.0, client OpenSSH_8.0)
+2022-04-27 19:57:28 - transport.py - [line:1819] - paramiko.transport - INFO - Authentication (password) successful!
+2022-04-27 19:57:28 - sshInstance.py - [line:28] - root - INFO - SSH on SUT: 10.239.182.80
+2022-04-27 19:57:28 - transport.py - [line:1819] - paramiko.transport - INFO - Connected (version 2.0, client OpenSSH_8.0)
+2022-04-27 19:57:29 - transport.py - [line:1819] - paramiko.transport - INFO - Authentication (password) successful!
+2022-04-27 19:57:29 - sshInstance.py - [line:28] - root - INFO - SSH on SUT: 10.239.182.88
+2022-04-27 19:57:29 - sftp.py - [line:158] - paramiko.transport.sftp - INFO - [chan 1] Opened sftp connection (server version 3)
+2022-04-27 19:57:29 - sshInstance.py - [line:201] - root - INFO - start to rmmod irdma....
+2022-04-27 19:57:32 - sshInstance.py - [line:50] - root - INFO - rmmod irdma
+2022-04-27 19:57:32 - sshInstance.py - [line:54] - root - INFO - 
+2022-04-27 19:57:37 - sshInstance.py - [line:204] - root - INFO - finished rmmod irdma....
+2022-04-27 19:57:37 - sshInstance.py - [line:205] - root - INFO - start to rmmod ice....
+2022-04-27 19:57:40 - sshInstance.py - [line:50] - root - INFO - rmmod ice
+2022-04-27 19:57:51 - sshInstance.py - [line:54] - root - INFO - 
+2022-04-27 19:57:56 - sshInstance.py - [line:208] - root - INFO - finished rmmod ice....
+2022-04-27 19:57:56 - sshInstance.py - [line:210] - root - INFO - start to modprobe ice....
+2022-04-27 19:57:59 - sshInstance.py - [line:50] - root - INFO - modprobe ice
+2022-04-27 19:58:36 - sshInstance.py - [line:54] - root - INFO - 
+2022-04-27 19:58:41 - sshInstance.py - [line:212] - root - INFO - finished modprobe ice....
+2022-04-27 19:58:44 - sshInstance.py - [line:50] - root - INFO - ethtool -i ens43f0
+2022-04-27 19:58:44 - sshInstance.py - [line:54] - root - INFO - driver: ice
+version: 4.18.0-369.el8.x86_64
+firmware-version: 3.10 0x8000ad67 1.3106.0
+expansion-rom-version: 
+bus-info: 0000:98:00.0
+supports-statistics: yes
+supports-test: yes
+supports-eeprom-access: yes
+supports-register-dump: yes
+supports-priv-flags: yes
+
+2022-04-27 19:58:49 - test_mtu.py - [line:41] - root - INFO - try to get ipv6 for ens43f0
+2022-04-27 19:58:49 - sshInstance.py - [line:188] - root - INFO - starting to delete network of ens43f0:
+2022-04-27 19:58:55 - sshInstance.py - [line:99] - root - INFO - Activate the web console with: systemctl enable --now cockpit.socket
+Register this system with Red Hat Insights: insights-client --register
+Create an account or view all your systems at https://red.ht/insights-dashboard
+Last login: Wed Apr 27 20:08:04 2022 from 10.112.97.60
+[root@npx-auto-SPR-quanta ~]# nmcli connection delete ens43f0
+Connection 'ens43f0' (de072ea3-e29c-46fc-8e70-df848072d1da) successfully deleted.
+[root@npx-auto-SPR-quanta ~]# 
+[root@npx-auto-SPR-quanta ~]# 
+2022-04-27 19:58:58 - sshInstance.py - [line:190] - root - INFO - restart networkManager to make setting valid
+2022-04-27 19:59:04 - sshInstance.py - [line:99] - root - INFO - systemctl restart NetworkManager
+[root@npx-auto-SPR-quanta ~]# 
+[root@npx-auto-SPR-quanta ~]# 
+2022-04-27 19:59:07 - sshInstance.py - [line:194] - root - INFO - starting to add network of ens43f0:
+2022-04-27 19:59:13 - sshInstance.py - [line:99] - root - INFO - nmcli connection add type ethernet con-name ens43f00 ifname ens43f0
+Connection 'ens43f0' (85f810f5-a13a-46bc-a150-c9ab139c60e2) successfully added.
+[root@npx-auto-SPR-quanta ~]# 
+[root@npx-auto-SPR-quanta ~]# 
+2022-04-27 19:59:16 - sshInstance.py - [line:197] - root - INFO - restart networkManager to make setting valid
+2022-04-27 19:59:22 - sshInstance.py - [line:99] - root - INFO - systemctl restart NetworkManager
+[root@npx-auto-SPR-quanta ~]# 
+[root@npx-auto-SPR-quanta ~]# 
+2022-04-27 19:59:25 - test_mtu.py - [line:49] - root - INFO - try to get ipv6 for ens785f0
+2022-04-27 19:59:25 - test_mtu.py - [line:51] - root - INFO - getting ipv6 in redhat.
+2022-04-27 19:59:25 - sshInstance.py - [line:188] - root - INFO - starting to delete network of ens785f0:
+2022-04-27 19:59:31 - sshInstance.py - [line:99] - root - INFO - Activate the web console with: systemctl enable --now cockpit.socket
+This system is not registered to Red Hat Insights. See https://cloud.redhat.com/
+To register this system, run: insights-client --register
+Last login: Wed Apr 27 20:08:44 2022 from 10.112.97.60
+xhost:  unable to open display ""
+[root@CYP10RT ~]# nmcli connection delete ens785f0
+Connection 'ens785f0' (775214a1-4cf7-4e84-a7a6-56611b59c92e) successfully deleted.
+[root@CYP10RT ~]# 
+[root@CYP10RT ~]# 
+2022-04-27 19:59:34 - sshInstance.py - [line:190] - root - INFO - restart networkManager to make setting valid
+2022-04-27 19:59:40 - sshInstance.py - [line:99] - root - INFO - systemctl restart NetworkManager
+[root@CYP10RT ~]# 
+[root@CYP10RT ~]# 
+2022-04-27 19:59:43 - sshInstance.py - [line:194] - root - INFO - starting to add network of ens785f0:
+2022-04-27 19:59:49 - sshInstance.py - [line:99] - root - INFO - nmcli connection add type ethernet con-name ens785f0 ifname enss785f0
+Connection 'ens785f0' (61b99ef7-308b-42e9-837a-e23cd9bac5c6) successfully added.
+[root@CYP10RT ~]# 
+[root@CYP10RT ~]# 
+2022-04-27 19:59:52 - sshInstance.py - [line:197] - root - INFO - restart networkManager to make setting valid
+2022-04-27 19:59:58 - sshInstance.py - [line:99] - root - INFO - systemctl restart NetworkManager
+[root@CYP10RT ~]# 
+[root@CYP10RT ~]# 
+2022-04-27 20:00:04 - sshInstance.py - [line:50] - root - INFO - ifconfig ens43f0 mtu 1500
+2022-04-27 20:00:04 - sshInstance.py - [line:54] - root - INFO - 
+2022-04-27 20:00:12 - sshInstance.py - [line:50] - root - INFO - ifconfig ens785f0 mtu 1500
+2022-04-27 20:00:12 - sshInstance.py - [line:54] - root - INFO - 
+2022-04-27 20:00:20 - sshInstance.py - [line:50] - root - INFO - ifconfig ens43f0
+2022-04-27 20:00:20 - sshInstance.py - [line:54] - root - INFO - ens43f0: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        inet6 fe80::c2d1:2700:4dc5:7e93  prefixlen 64  scopeid 0x20<link>
+        ether b4:96:91:a0:20:d8  txqueuelen 1000  (Ethernet)
+        RX packets 12  bytes 3606 (3.5 KiB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 39  bytes 6819 (6.6 KiB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+
+2022-04-27 20:00:29 - sshInstance.py - [line:75] - root - INFO - scapy
+[39mINFO: Can't import matplotlib. Won't be able to plot.[0m
+[39mINFO: Can't import PyX. Won't be able to use psdump() or pdfdump().[0m
+[39mINFO: Can't import python-cryptography v1.7+. Disabled WEP decryption/encryption. (Dot11)[0m
+[39mINFO: Can't import python-cryptography v1.7+. Disabled IPsec encryption/authentication.[0m
+[33m[1mWARNING: IPython not available. Using standard Python shell instead.
+AutoCompletion, History are disabled.[0m[0m
+[32m[1m                                      [0m[34m[1m[0m
+[32m[1m                     aSPY//YASa       [0m[34m[1m[0m
+[32m[1m             apyyyyCY//////////YCa    [0m[34m[1m   |[0m
+[32m[1m            sY//////YSpcs  scpCY//Pp  [0m[34m[1m   | Welcome to Scapy[0m
+[32m[1m ayp ayyyyyyySCP//Pp           syY//C [0m[34m[1m   | Version 2.4.5[0m
+[32m[1m AYAsAYYYYYYYY///Ps              cY//S[0m[34m[1m   |[0m
+[32m[1m         pCCCCY//p          cSSps y//Y[0m[34m[1m   | https://github.com/secdev/scapy[0m
+[32m[1m         SPPPP///a          pP///AC//Y[0m[34m[1m   |[0m
+[32m[1m              A//A            cyP////C[0m[34m[1m   | Have fun![0m
+[32m[1m              p///Ac            sC///a[0m[34m[1m   |[0m
+[32m[1m              P////YCpc           A//A[0m[34m[1m   | To craft a packet, you have to be a[0m
+[32m[1m       scccccp///pSP///p          p//Y[0m[34m[1m   | packet, and learn how to swim in[0m
+[32m[1m      sY/////////y  caa           S//P[0m[34m[1m   | the wires and in the waves.[0m
+[32m[1m       cayCyayP//Ya              pY/Ya[0m[34m[1m   |        -- Jean-Claude Van Damme[0m
+[32m[1m        sY/PsY////YCc          aC//Yp [0m[34m[1m   |[0m
+[32m[1m         sc  sccaCY//PCypaapyCP//YSs  [0m
+[32m[1m                  spCPY//////YPSps    [0m
+[32m[1m                       ccaacs         [0m
+[32m[1m                                      [0m
+[34m[1m>>> [0m
+2022-04-27 20:00:36 - sshInstance.py - [line:75] - root - INFO - sendp([Ether(dst="b4:96:91:a0:20:d8")/IP(len=46)/Raw(load='X'*14480)],iface="ens785f0")
+.
+Sent 1 packets.
+[34m[1m>>> [0m
+2022-04-27 20:00:39 - test_mtu.py - [line:124] - root - INFO - success to send package to network
+2022-04-27 20:00:43 - sshInstance.py - [line:75] - root - INFO - sendp([Ether(dst="b4:96:91:a0:20:d8")/IP(len=46)/Raw(load='X'*15500)],iface="ens785f0")
+Traceback (most recent call last):
+  File "/usr/lib64/python3.6/code.py", line 91, in runcode
+    exec(code, self.locals)
+  File "<console>", line 1, in <module>
+  File "/usr/local/lib/python3.6/site-packages/scapy/sendrecv.py", line 463, in sendp
+    **kargs
+  File "/usr/local/lib/python3.6/site-packages/scapy/sendrecv.py", line 397, in _send
+    realtime=realtime, return_packets=return_packets)
+  File "/usr/local/lib/python3.6/site-packages/scapy/sendrecv.py", line 360, in __gen_send
+    s.send(p)
+  File "/usr/local/lib/python3.6/site-packages/scapy/arch/linux.py", line 569, in send
+    return SuperSocket.send(self, x)
+  File "/usr/local/lib/python3.6/site-packages/scapy/supersocket.py", line 108, in send
+    return self.outs.send(sx)
+OSError: [Errno 90] Message too long
+[34m[1m>>> [0m
+2022-04-27 20:00:46 - test_mtu.py - [line:134] - root - INFO - result is right
+.2022-04-27 20:00:49 - sshInstance.py - [line:50] - root - INFO - ifconfig ens43f0 mtu 1500
+2022-04-27 20:00:49 - sshInstance.py - [line:54] - root - INFO - 
+2022-04-27 20:00:58 - sshInstance.py - [line:50] - root - INFO - ifconfig ens785f0 mtu 1500
+2022-04-27 20:00:58 - sshInstance.py - [line:54] - root - INFO - 
+2022-04-27 20:01:06 - sshInstance.py - [line:50] - root - INFO - echo 0 > /sys/class/net/ens43f0/device/sriov_numvfs
+2022-04-27 20:01:06 - sshInstance.py - [line:54] - root - INFO - 
+2022-04-27 20:01:11 - test_mtu.py - [line:66] - root - INFO - try to reset network for ens43f0
+2022-04-27 20:01:11 - sshInstance.py - [line:188] - root - INFO - starting to delete network of ens43f0:
+2022-04-27 20:01:17 - sshInstance.py - [line:99] - root - INFO - nmcli connection delete ens43f0
+Connection 'ens43f0' (85f810f5-a13a-46bc-a150-c9ab139c60e2) successfully deleted.
+[root@npx-auto-SPR-quanta ~]# 
+[root@npx-auto-SPR-quanta ~]# 
+2022-04-27 20:01:20 - sshInstance.py - [line:190] - root - INFO - restart networkManager to make setting valid
+2022-04-27 20:01:26 - sshInstance.py - [line:99] - root - INFO - systemctl restart NetworkManager
+[root@npx-auto-SPR-quanta ~]# 
+[root@npx-auto-SPR-quanta ~]# 
+2022-04-27 20:01:29 - sshInstance.py - [line:194] - root - INFO - starting to add network of ens43f0:
+2022-04-27 20:01:35 - sshInstance.py - [line:99] - root - INFO - nmcli connection add type ethernet con-name ens43f00 ifname ens43f0
+Connection 'ens43f0' (02dd1169-d520-43eb-916c-acd0f05f0bc1) successfully added.
+[root@npx-auto-SPR-quanta ~]# 
+[root@npx-auto-SPR-quanta ~]# 
+2022-04-27 20:01:38 - sshInstance.py - [line:197] - root - INFO - restart networkManager to make setting valid
+2022-04-27 20:01:44 - sshInstance.py - [line:99] - root - INFO - systemctl restart NetworkManager
+[root@npx-auto-SPR-quanta ~]# 
+[root@npx-auto-SPR-quanta ~]# 
+2022-04-27 20:01:47 - test_mtu.py - [line:73] - root - INFO - try to reset network for ens785f0
+2022-04-27 20:01:47 - test_mtu.py - [line:75] - root - INFO - resetting network in redhat.
+2022-04-27 20:01:47 - sshInstance.py - [line:188] - root - INFO - starting to delete network of ens785f0:
+2022-04-27 20:01:53 - sshInstance.py - [line:99] - root - INFO - nmcli connection delete ens785f0
+  File "<console>", line 1
+    nmcli connection delete ens785f0
+                   ^
+SyntaxError: invalid syntax
+[34m[1m>>> [0m
+[34m[1m>>> [0m
+2022-04-27 20:01:56 - sshInstance.py - [line:190] - root - INFO - restart networkManager to make setting valid
+2022-04-27 20:02:02 - sshInstance.py - [line:99] - root - INFO - systemctl restart NetworkManager
+  File "<console>", line 1
+    systemctl restart NetworkManager
+                    ^
+SyntaxError: invalid syntax
+[34m[1m>>> [0m
+[34m[1m>>> [0m
+2022-04-27 20:02:05 - sshInstance.py - [line:194] - root - INFO - starting to add network of ens785f0:
+2022-04-27 20:02:11 - sshInstance.py - [line:99] - root - INFO - nmcli connection add type ethernet con-name ens785f0 ifname ens7785f0
+  File "<console>", line 1
+    nmcli connection add type ethernet con-name ens785f0 ifname ens785f0
+                   ^
+SyntaxError: invalid syntax
+[34m[1m>>> [0m
+[34m[1m>>> [0m
+2022-04-27 20:02:14 - sshInstance.py - [line:197] - root - INFO - restart networkManager to make setting valid
+2022-04-27 20:02:20 - sshInstance.py - [line:99] - root - INFO - systemctl restart NetworkManager
+  File "<console>", line 1
+    systemctl restart NetworkManager
+                    ^
+SyntaxError: invalid syntax
+[34m[1m>>> [0m
+[34m[1m>>> [0m
+2022-04-27 20:02:26 - sshInstance.py - [line:50] - root - INFO - dmesg > /tmp/dmesg.log
+2022-04-27 20:02:26 - sshInstance.py - [line:54] - root - INFO - 
+2022-04-27 20:02:31 - test_mtu.py - [line:84] - root - INFO - generate dmesg.log file on sut /tmp/dmesg.log
+2022-04-27 20:02:31 - test_mtu.py - [line:86] - root - INFO - copy dmesg.log from sut1 /tmp dir to controller dir /root/testconfig/testlogs/2022-04-27/test_PI_Networking_Jumbo_Packet_CVL_19_57_28
+2022-04-27 20:02:34 - sshInstance.py - [line:50] - root - INFO - rm -f /tmp/dmesg.log
+2022-04-27 20:02:34 - sshInstance.py - [line:54] - root - INFO - 
+2022-04-27 20:02:39 - test_mtu.py - [line:88] - root - INFO - rm dmesg.log on sut1 /tmp dir
+2022-04-27 20:02:39 - test_mtu.py - [line:89] - root - INFO - this is Test_Nics teardown
+2022-04-27 20:02:39 - NicTestFixture.py - [line:35] - root - INFO - ============================ end of run test_PI_Networking_Jumbo_Packet_CVL case ============================
+2022-04-27 20:02:39 - NicTestFixture.py - [line:27] - root - INFO - case_logpath: /root/testconfig/testlogs/2022-04-27/test_PI_Networking_MTU_set_CVL_20_02_39/test_PI_Networking_MTU_set_CVL.log, case_logdir: /root/testconfig/testlogs/2022-04-27/test_PI_Networking_MTU_set_CVL_20_02_39
+2022-04-27 20:02:39 - NicTestFixture.py - [line:31] - root - INFO - ============================ Starting to run test_PI_Networking_MTU_set_CVL case ============================
+2022-04-27 20:02:39 - test_mtu.py - [line:16] - root - INFO - this is Test_mtu setup.
+2022-04-27 20:02:39 - test_mtu.py - [line:22] - root - INFO - ssh to the sut1
+2022-04-27 20:02:39 - test_mtu.py - [line:24] - root - INFO - ssh to the sut1
+2022-04-27 20:02:39 - transport.py - [line:1819] - paramiko.transport - INFO - Connected (version 2.0, client OpenSSH_8.0)
+2022-04-27 20:02:39 - transport.py - [line:1819] - paramiko.transport - INFO - Authentication (password) successful!
+2022-04-27 20:02:39 - sshInstance.py - [line:28] - root - INFO - SSH on SUT: 10.239.182.80
+2022-04-27 20:02:39 - transport.py - [line:1819] - paramiko.transport - INFO - Connected (version 2.0, client OpenSSH_8.0)
+2022-04-27 20:02:39 - transport.py - [line:1819] - paramiko.transport - INFO - Authentication (password) successful!
+2022-04-27 20:02:39 - sshInstance.py - [line:28] - root - INFO - SSH on SUT: 10.239.182.88
+2022-04-27 20:02:39 - sftp.py - [line:158] - paramiko.transport.sftp - INFO - [chan 1] Opened sftp connection (server version 3)
+2022-04-27 20:02:39 - sshInstance.py - [line:201] - root - INFO - start to rmmod irdma....
+2022-04-27 20:02:42 - sshInstance.py - [line:50] - root - INFO - rmmod irdma
+2022-04-27 20:02:42 - sshInstance.py - [line:54] - root - INFO - 
+2022-04-27 20:02:47 - sshInstance.py - [line:204] - root - INFO - finished rmmod irdma....
+2022-04-27 20:02:47 - sshInstance.py - [line:205] - root - INFO - start to rmmod ice....
+2022-04-27 20:02:50 - sshInstance.py - [line:50] - root - INFO - rmmod ice
+2022-04-27 20:03:01 - sshInstance.py - [line:54] - root - INFO - 
+2022-04-27 20:03:06 - sshInstance.py - [line:208] - root - INFO - finished rmmod ice....
+2022-04-27 20:03:06 - sshInstance.py - [line:210] - root - INFO - start to modprobe ice....
+2022-04-27 20:03:09 - sshInstance.py - [line:50] - root - INFO - modprobe ice
+2022-04-27 20:03:47 - sshInstance.py - [line:54] - root - INFO - 
+2022-04-27 20:03:52 - sshInstance.py - [line:212] - root - INFO - finished modprobe ice....
+2022-04-27 20:03:55 - sshInstance.py - [line:50] - root - INFO - ethtool -i ens43f0
+2022-04-27 20:03:55 - sshInstance.py - [line:54] - root - INFO - driver: ice
+version: 4.18.0-369.el8.x86_64
+firmware-version: 3.10 0x8000ad67 1.3106.0
+expansion-rom-version: 
+bus-info: 0000:98:00.0
+supports-statistics: yes
+supports-test: yes
+supports-eeprom-access: yes
+supports-register-dump: yes
+supports-priv-flags: yes
+
+2022-04-27 20:04:00 - test_mtu.py - [line:41] - root - INFO - try to get ipv6 for ens43f0
+2022-04-27 20:04:00 - sshInstance.py - [line:188] - root - INFO - starting to delete network of ens43f0:
+2022-04-27 20:04:06 - sshInstance.py - [line:99] - root - INFO - Activate the web console with: systemctl enable --now cockpit.socket
+Register this system with Red Hat Insights: insights-client --register
+Create an account or view all your systems at https://red.ht/insights-dashboard
+Last login: Wed Apr 27 20:13:23 2022 from 10.112.97.60
+[root@npx-auto-SPR-quanta ~]# nmcli connection delete ens43f0
+Connection 'ens43f0' (02dd1169-d520-43eb-916c-acd0f05f0bc1) successfully deleted.
+[root@npx-auto-SPR-quanta ~]# 
+[root@npx-auto-SPR-quanta ~]# 
+2022-04-27 20:04:09 - sshInstance.py - [line:190] - root - INFO - restart networkManager to make setting valid
+2022-04-27 20:04:15 - sshInstance.py - [line:99] - root - INFO - systemctl restart NetworkManager
+[root@npx-auto-SPR-quanta ~]# 
+[root@npx-auto-SPR-quanta ~]# 
+2022-04-27 20:04:18 - sshInstance.py - [line:194] - root - INFO - starting to add network of ens43f0:
+2022-04-27 20:04:24 - sshInstance.py - [line:99] - root - INFO - nmcli connection add type ethernet con-name ens43f00 ifname ens43f0
+Connection 'ens43f0' (1a650e16-b803-4452-9794-63c619693fd7) successfully added.
+[root@npx-auto-SPR-quanta ~]# 
+[root@npx-auto-SPR-quanta ~]# 
+2022-04-27 20:04:27 - sshInstance.py - [line:197] - root - INFO - restart networkManager to make setting valid
+2022-04-27 20:04:33 - sshInstance.py - [line:99] - root - INFO - systemctl restart NetworkManager
+[root@npx-auto-SPR-quanta ~]# 
+[root@npx-auto-SPR-quanta ~]# 
+2022-04-27 20:04:36 - test_mtu.py - [line:49] - root - INFO - try to get ipv6 for ens785f0
+2022-04-27 20:04:36 - test_mtu.py - [line:51] - root - INFO - getting ipv6 in redhat.
+2022-04-27 20:04:36 - sshInstance.py - [line:188] - root - INFO - starting to delete network of ens785f0:
+2022-04-27 20:04:42 - sshInstance.py - [line:99] - root - INFO - Activate the web console with: systemctl enable --now cockpit.socket
+This system is not registered to Red Hat Insights. See https://cloud.redhat.com/
+To register this system, run: insights-client --register
+Last login: Wed Apr 27 20:12:19 2022 from 10.112.97.60
+xhost:  unable to open display ""
+[root@CYP10RT ~]# nmcli connection delete ens785f0
+Connection 'ens785f0' (61b99ef7-308b-42e9-837a-e23cd9bac5c6) successfully deleted.
+[root@CYP10RT ~]# 
+[root@CYP10RT ~]# 
+2022-04-27 20:04:45 - sshInstance.py - [line:190] - root - INFO - restart networkManager to make setting valid
+2022-04-27 20:04:51 - sshInstance.py - [line:99] - root - INFO - systemctl restart NetworkManager
+[root@CYP10RT ~]# 
+[root@CYP10RT ~]# 
+2022-04-27 20:04:54 - sshInstance.py - [line:194] - root - INFO - starting to add network of ens785f0:
+2022-04-27 20:05:00 - sshInstance.py - [line:99] - root - INFO - nmcli connection add type ethernet con-name ens785f0 ifname enss785f0
+Connection 'ens785f0' (23491583-337f-4ab6-b0f9-b63b257d9125) successfully added.
+[root@CYP10RT ~]# 
+[root@CYP10RT ~]# 
+2022-04-27 20:05:03 - sshInstance.py - [line:197] - root - INFO - restart networkManager to make setting valid
+2022-04-27 20:05:09 - sshInstance.py - [line:99] - root - INFO - systemctl restart NetworkManager
+[root@CYP10RT ~]# 
+[root@CYP10RT ~]# 
+2022-04-27 20:05:15 - sshInstance.py - [line:50] - root - INFO - ifconfig ens43f0 mtu 1500
+2022-04-27 20:05:15 - sshInstance.py - [line:54] - root - INFO - 
+2022-04-27 20:05:23 - sshInstance.py - [line:50] - root - INFO - ifconfig ens785f0 mtu 2000
+2022-04-27 20:05:26 - sshInstance.py - [line:54] - root - INFO - 
+2022-04-27 20:05:34 - sshInstance.py - [line:50] - root - INFO - ifconfig ens43f0
+2022-04-27 20:05:34 - sshInstance.py - [line:54] - root - INFO - ens43f0: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        inet6 fe80::9f5e:6939:d0ce:153a  prefixlen 64  scopeid 0x20<link>
+        ether b4:96:91:a0:20:d8  txqueuelen 1000  (Ethernet)
+        RX packets 12  bytes 3537 (3.4 KiB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 42  bytes 7441 (7.2 KiB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+
+2022-04-27 20:05:43 - sshInstance.py - [line:75] - root - INFO - scapy
+[39mINFO: Can't import matplotlib. Won't be able to plot.[0m
+[39mINFO: Can't import PyX. Won't be able to use psdump() or pdfdump().[0m
+[39mINFO: Can't import python-cryptography v1.7+. Disabled WEP decryption/encryption. (Dot11)[0m
+[39mINFO: Can't import python-cryptography v1.7+. Disabled IPsec encryption/authentication.[0m
+[33m[1mWARNING: IPython not available. Using standard Python shell instead.
+AutoCompletion, History are disabled.[0m[0m
+[32m[1m                                      [0m[34m[1m[0m
+[32m[1m                     aSPY//YASa       [0m[34m[1m[0m
+[32m[1m             apyyyyCY//////////YCa    [0m[34m[1m   |[0m
+[32m[1m            sY//////YSpcs  scpCY//Pp  [0m[34m[1m   | Welcome to Scapy[0m
+[32m[1m ayp ayyyyyyySCP//Pp           syY//C [0m[34m[1m   | Version 2.4.5[0m
+[32m[1m AYAsAYYYYYYYY///Ps              cY//S[0m[34m[1m   |[0m
+[32m[1m         pCCCCY//p          cSSps y//Y[0m[34m[1m   | https://github.com/secdev/scapy[0m
+[32m[1m         SPPPP///a          pP///AC//Y[0m[34m[1m   |[0m
+[32m[1m              A//A            cyP////C[0m[34m[1m   | Have fun![0m
+[32m[1m              p///Ac            sC///a[0m[34m[1m   |[0m
+[32m[1m              P////YCpc           A//A[0m[34m[1m   | What is dead may never die![0m
+[32m[1m       scccccp///pSP///p          p//Y[0m[34m[1m   |                     -- Python 2[0m
+[32m[1m      sY/////////y  caa           S//P[0m[34m[1m   |[0m
+[32m[1m       cayCyayP//Ya              pY/Ya[0m
+[32m[1m        sY/PsY////YCc          aC//Yp [0m
+[32m[1m         sc  sccaCY//PCypaapyCP//YSs  [0m
+[32m[1m                  spCPY//////YPSps    [0m
+[32m[1m                       ccaacs         [0m
+[32m[1m                                      [0m
+[34m[1m>>> [0m
+2022-04-27 20:05:50 - sshInstance.py - [line:75] - root - INFO - sendp([Ether(dst="b4:96:91:a0:20:d8")/IP(len=46)/Raw(load='X'*18890)],iface="ens785f0")
+.
+Sent 1 packets.
+[34m[1m>>> [0m
+2022-04-27 20:05:53 - test_mtu.py - [line:163] - root - INFO - success to send package to network
+2022-04-27 20:05:57 - sshInstance.py - [line:75] - root - INFO - sendp([Ether(dst="b4:96:91:a0:20:d8")/IP(len=46)/Raw(load='X'*20010)],iface="ens785f0")
+Traceback (most recent call last):
+  File "/usr/lib64/python3.6/code.py", line 91, in runcode
+    exec(code, self.locals)
+  File "<console>", line 1, in <module>
+  File "/usr/local/lib/python3.6/site-packages/scapy/sendrecv.py", line 463, in sendp
+    **kargs
+  File "/usr/local/lib/python3.6/site-packages/scapy/sendrecv.py", line 397, in _send
+    realtime=realtime, return_packets=return_packets)
+  File "/usr/local/lib/python3.6/site-packages/scapy/sendrecv.py", line 360, in __gen_send
+    s.send(p)
+  File "/usr/local/lib/python3.6/site-packages/scapy/arch/linux.py", line 569, in send
+    return SuperSocket.send(self, x)
+  File "/usr/local/lib/python3.6/site-packages/scapy/supersocket.py", line 108, in send
+    return self.outs.send(sx)
+OSError: [Errno 90] Message too long
+[34m[1m>>> [0m
+2022-04-27 20:06:00 - test_mtu.py - [line:173] - root - INFO - result is right
+.2022-04-27 20:06:03 - sshInstance.py - [line:50] - root - INFO - ifconfig ens43f0 mtu 1500
+2022-04-27 20:06:03 - sshInstance.py - [line:54] - root - INFO - 
+2022-04-27 20:06:11 - sshInstance.py - [line:50] - root - INFO - ifconfig ens785f0 mtu 1500
+2022-04-27 20:06:15 - sshInstance.py - [line:54] - root - INFO - 
+2022-04-27 20:06:23 - sshInstance.py - [line:50] - root - INFO - echo 0 > /sys/class/net/ens43f0/device/sriov_numvfs
+2022-04-27 20:06:23 - sshInstance.py - [line:54] - root - INFO - 
+2022-04-27 20:06:28 - test_mtu.py - [line:66] - root - INFO - try to reset network for ens43f0
+2022-04-27 20:06:28 - sshInstance.py - [line:188] - root - INFO - starting to delete network of ens43f0:
+2022-04-27 20:06:34 - sshInstance.py - [line:99] - root - INFO - nmcli connection delete ens43f0
+Connection 'ens43f0' (1a650e16-b803-4452-9794-63c619693fd7) successfully deleted.
+[root@npx-auto-SPR-quanta ~]# 
+[root@npx-auto-SPR-quanta ~]# 
+2022-04-27 20:06:37 - sshInstance.py - [line:190] - root - INFO - restart networkManager to make setting valid
+2022-04-27 20:06:43 - sshInstance.py - [line:99] - root - INFO - systemctl restart NetworkManager
+[root@npx-auto-SPR-quanta ~]# 
+[root@npx-auto-SPR-quanta ~]# 
+2022-04-27 20:06:46 - sshInstance.py - [line:194] - root - INFO - starting to add network of ens43f0:
+2022-04-27 20:06:52 - sshInstance.py - [line:99] - root - INFO - nmcli connection add type ethernet con-name ens43f00 ifname ens43f0
+Connection 'ens43f0' (4355a422-28ee-40a1-a270-6dbdfd57bd45) successfully added.
+[root@npx-auto-SPR-quanta ~]# 
+[root@npx-auto-SPR-quanta ~]# 
+2022-04-27 20:06:55 - sshInstance.py - [line:197] - root - INFO - restart networkManager to make setting valid
+2022-04-27 20:07:01 - sshInstance.py - [line:99] - root - INFO - systemctl restart NetworkManager
+[root@npx-auto-SPR-quanta ~]# 
+[root@npx-auto-SPR-quanta ~]# 
+2022-04-27 20:07:04 - test_mtu.py - [line:73] - root - INFO - try to reset network for ens785f0
+2022-04-27 20:07:04 - test_mtu.py - [line:75] - root - INFO - resetting network in redhat.
+2022-04-27 20:07:04 - sshInstance.py - [line:188] - root - INFO - starting to delete network of ens785f0:
+2022-04-27 20:07:10 - sshInstance.py - [line:99] - root - INFO - nmcli connection delete ens785f0
+  File "<console>", line 1
+    nmcli connection delete ens785f0
+                   ^
+SyntaxError: invalid syntax
+[34m[1m>>> [0m
+[34m[1m>>> [0m
+2022-04-27 20:07:13 - sshInstance.py - [line:190] - root - INFO - restart networkManager to make setting valid
+2022-04-27 20:07:19 - sshInstance.py - [line:99] - root - INFO - systemctl restart NetworkManager
+  File "<console>", line 1
+    systemctl restart NetworkManager
+                    ^
+SyntaxError: invalid syntax
+[34m[1m>>> [0m
+[34m[1m>>> [0m
+2022-04-27 20:07:22 - sshInstance.py - [line:194] - root - INFO - starting to add network of ens785f0:
+2022-04-27 20:07:28 - sshInstance.py - [line:99] - root - INFO - nmcli connection add type ethernet con-name ens785f0 ifname ens7785f0
+  File "<console>", line 1
+    nmcli connection add type ethernet con-name ens785f0 ifname ens785f0
+                   ^
+SyntaxError: invalid syntax
+[34m[1m>>> [0m
+[34m[1m>>> [0m
+2022-04-27 20:07:31 - sshInstance.py - [line:197] - root - INFO - restart networkManager to make setting valid
+2022-04-27 20:07:37 - sshInstance.py - [line:99] - root - INFO - systemctl restart NetworkManager
+  File "<console>", line 1
+    systemctl restart NetworkManager
+                    ^
+SyntaxError: invalid syntax
+[34m[1m>>> [0m
+[34m[1m>>> [0m
+2022-04-27 20:07:43 - sshInstance.py - [line:50] - root - INFO - dmesg > /tmp/dmesg.log
+2022-04-27 20:07:43 - sshInstance.py - [line:54] - root - INFO - 
+2022-04-27 20:07:48 - test_mtu.py - [line:84] - root - INFO - generate dmesg.log file on sut /tmp/dmesg.log
+2022-04-27 20:07:48 - test_mtu.py - [line:86] - root - INFO - copy dmesg.log from sut1 /tmp dir to controller dir /root/testconfig/testlogs/2022-04-27/test_PI_Networking_MTU_set_CVL_20_02_39
+2022-04-27 20:07:51 - sshInstance.py - [line:50] - root - INFO - rm -f /tmp/dmesg.log
+2022-04-27 20:07:51 - sshInstance.py - [line:54] - root - INFO - 
+2022-04-27 20:07:56 - test_mtu.py - [line:88] - root - INFO - rm dmesg.log on sut1 /tmp dir
+2022-04-27 20:07:56 - test_mtu.py - [line:89] - root - INFO - this is Test_Nics teardown
+2022-04-27 20:07:56 - NicTestFixture.py - [line:35] - root - INFO - ============================ end of run test_PI_Networking_MTU_set_CVL case ============================
+                                  [ 50%]
+npxtester/Tests/testNics/test_network_sriov_stress.py 2022-04-27 20:07:56 - NicTestFixture.py - [line:20] - root - INFO - test -------
+2022-04-27 20:07:56 - NicTestFixture.py - [line:27] - root - INFO - case_logpath: /root/testconfig/testlogs/2022-04-27/test_PI_Networking_SRIOV_StressDisableEnableFor5TimesWhenVFIsAssigned_VM_Guest[rhel862.img-rhel86.img]_20_07_56/test_PI_Networking_SRIOV_StressDisableEnableFor5TimesWhenVFIsAssigned_VM_Guest[rhel862.img-rhel86.img].log, case_logdir: /root/testconfig/testlogs/2022-04-27/test_PI_Networking_SRIOV_StressDisableEnableFor5TimesWhenVFIsAssigned_VM_Guest[rhel862.img-rhel86.img]_20_07_56
+2022-04-27 20:07:56 - NicTestFixture.py - [line:31] - root - INFO - ============================ Starting to run test_PI_Networking_SRIOV_StressDisableEnableFor5TimesWhenVFIsAssigned_VM_Guest[rhel862.img-rhel86.img] case ============================
+2022-04-27 20:07:56 - test_network_sriov_stress.py - [line:32] - root - INFO - SSH SUT and setup configurations in the setup function.
+2022-04-27 20:07:56 - test_network_sriov_stress.py - [line:50] - root - INFO - ssh to the sut1
+2022-04-27 20:07:56 - transport.py - [line:1819] - paramiko.transport - INFO - Connected (version 2.0, client OpenSSH_8.0)
+2022-04-27 20:07:56 - transport.py - [line:1819] - paramiko.transport - INFO - Authentication (password) successful!
+2022-04-27 20:07:56 - sshInstance.py - [line:28] - root - INFO - SSH on SUT: 10.239.182.80
+2022-04-27 20:07:56 - transport.py - [line:1819] - paramiko.transport - INFO - Connected (version 2.0, client OpenSSH_8.0)
+2022-04-27 20:07:56 - transport.py - [line:1819] - paramiko.transport - INFO - Authentication (password) successful!
+2022-04-27 20:07:56 - sshInstance.py - [line:28] - root - INFO - SSH on SUT: 10.239.182.88
+2022-04-27 20:07:56 - test_network_sriov_stress.py - [line:64] - root - INFO - clean up iperf and taskset process...
+2022-04-27 20:07:59 - sshInstance.py - [line:50] - root - INFO - pkill -9 iperf
+2022-04-27 20:08:00 - sshInstance.py - [line:54] - root - INFO - 
+2022-04-27 20:08:08 - sshInstance.py - [line:50] - root - INFO - pkill -9 taskset
+2022-04-27 20:08:08 - sshInstance.py - [line:54] - root - INFO - 
+2022-04-27 20:08:16 - sshInstance.py - [line:50] - root - INFO - pkill -9 iperf
+2022-04-27 20:08:16 - sshInstance.py - [line:54] - root - INFO - 
+2022-04-27 20:08:24 - sshInstance.py - [line:50] - root - INFO - pkill -9 taskset
+2022-04-27 20:08:24 - sshInstance.py - [line:54] - root - INFO - 
+2022-04-27 20:08:29 - sftp.py - [line:158] - paramiko.transport.sftp - INFO - [chan 3] Opened sftp connection (server version 3)
+2022-04-27 20:08:29 - sshInstance.py - [line:201] - root - INFO - start to rmmod irdma....
+2022-04-27 20:08:32 - sshInstance.py - [line:50] - root - INFO - rmmod irdma
+2022-04-27 20:08:32 - sshInstance.py - [line:54] - root - INFO - 
+2022-04-27 20:08:37 - sshInstance.py - [line:204] - root - INFO - finished rmmod irdma....
+2022-04-27 20:08:37 - sshInstance.py - [line:205] - root - INFO - start to rmmod ice....
+2022-04-27 20:08:40 - sshInstance.py - [line:50] - root - INFO - rmmod ice
+2022-04-27 20:08:50 - sshInstance.py - [line:54] - root - INFO - 
+2022-04-27 20:08:55 - sshInstance.py - [line:208] - root - INFO - finished rmmod ice....
+2022-04-27 20:08:55 - sshInstance.py - [line:210] - root - INFO - start to modprobe ice....
+2022-04-27 20:08:58 - sshInstance.py - [line:50] - root - INFO - modprobe ice
+2022-04-27 20:09:36 - sshInstance.py - [line:54] - root - INFO - 
+2022-04-27 20:09:41 - sshInstance.py - [line:212] - root - INFO - finished modprobe ice....
+2022-04-27 20:09:44 - sshInstance.py - [line:50] - root - INFO - ethtool -i ens43f0
+2022-04-27 20:09:44 - sshInstance.py - [line:54] - root - INFO - driver: ice
+version: 4.18.0-369.el8.x86_64
+firmware-version: 3.10 0x8000ad67 1.3106.0
+expansion-rom-version: 
+bus-info: 0000:98:00.0
+supports-statistics: yes
+supports-test: yes
+supports-eeprom-access: yes
+supports-register-dump: yes
+supports-priv-flags: yes
+
+2022-04-27 20:09:49 - test_network_sriov_stress.py - [line:71] - root - INFO - try to get ipv6 for ens43f0
+2022-04-27 20:09:49 - test_network_sriov_stress.py - [line:73] - root - INFO - try to get ipv6 of pf for redhat...
+2022-04-27 20:09:49 - sshInstance.py - [line:188] - root - INFO - starting to delete network of ens43f0:
+2022-04-27 20:09:55 - sshInstance.py - [line:99] - root - INFO - Activate the web console with: systemctl enable --now cockpit.socket
+Register this system with Red Hat Insights: insights-client --register
+Create an account or view all your systems at https://red.ht/insights-dashboard
+Last login: Wed Apr 27 20:18:40 2022 from 10.112.97.60
+[root@npx-auto-SPR-quanta ~]# nmcli connection delete ens43f0
+Connection 'ens43f0' (4355a422-28ee-40a1-a270-6dbdfd57bd45) successfully deleted.
+[root@npx-auto-SPR-quanta ~]# 
+[root@npx-auto-SPR-quanta ~]# 
+2022-04-27 20:09:58 - sshInstance.py - [line:190] - root - INFO - restart networkManager to make setting valid
+2022-04-27 20:10:04 - sshInstance.py - [line:99] - root - INFO - systemctl restart NetworkManager
+[root@npx-auto-SPR-quanta ~]# 
+[root@npx-auto-SPR-quanta ~]# 
+2022-04-27 20:10:07 - sshInstance.py - [line:194] - root - INFO - starting to add network of ens43f0:
+2022-04-27 20:10:13 - sshInstance.py - [line:99] - root - INFO - nmcli connection add type ethernet con-name ens43f00 ifname ens43f0
+Connection 'ens43f0' (b17abd79-0c37-4568-832e-1c5e63cdf7f4) successfully added.
+[root@npx-auto-SPR-quanta ~]# 
+[root@npx-auto-SPR-quanta ~]# 
+2022-04-27 20:10:16 - sshInstance.py - [line:197] - root - INFO - restart networkManager to make setting valid
+2022-04-27 20:10:22 - sshInstance.py - [line:99] - root - INFO - systemctl restart NetworkManager
+[root@npx-auto-SPR-quanta ~]# 
+[root@npx-auto-SPR-quanta ~]# 
+2022-04-27 20:10:25 - test_network_sriov_stress.py - [line:80] - root - INFO - try to get ipv6 for ens785f0
+2022-04-27 20:10:25 - test_network_sriov_stress.py - [line:82] - root - INFO - getting ipv6 in redhat.
+2022-04-27 20:10:25 - sshInstance.py - [line:188] - root - INFO - starting to delete network of ens785f0:
+2022-04-27 20:10:31 - sshInstance.py - [line:99] - root - INFO - Activate the web console with: systemctl enable --now cockpit.socket
+This system is not registered to Red Hat Insights. See https://cloud.redhat.com/
+To register this system, run: insights-client --register
+Last login: Wed Apr 27 20:17:33 2022 from 10.112.97.60
+xhost:  unable to open display ""
+[root@CYP10RT ~]# nmcli connection delete ens785f0
+Connection 'ens785f0' (23491583-337f-4ab6-b0f9-b63b257d9125) successfully deleted.
+[root@CYP10RT ~]# 
+[root@CYP10RT ~]# 
+2022-04-27 20:10:34 - sshInstance.py - [line:190] - root - INFO - restart networkManager to make setting valid
+2022-04-27 20:10:40 - sshInstance.py - [line:99] - root - INFO - systemctl restart NetworkManager
+[root@CYP10RT ~]# 
+[root@CYP10RT ~]# 
+2022-04-27 20:10:43 - sshInstance.py - [line:194] - root - INFO - starting to add network of ens785f0:
+2022-04-27 20:10:49 - sshInstance.py - [line:99] - root - INFO - nmcli connection add type ethernet con-name ens785f0 ifname enss785f0
+Connection 'ens785f0' (2c20493e-bc94-4bab-920b-4e04133640b2) successfully added.
+[root@CYP10RT ~]# 
+[root@CYP10RT ~]# 
+2022-04-27 20:10:52 - sshInstance.py - [line:197] - root - INFO - restart networkManager to make setting valid
+2022-04-27 20:10:58 - sshInstance.py - [line:99] - root - INFO - systemctl restart NetworkManager
+[root@CYP10RT ~]# 
+[root@CYP10RT ~]# 
+2022-04-27 20:11:01 - test_network_sriov_stress.py - [line:90] - root - INFO - trying to get ipv6 addr for pf1
+2022-04-27 20:11:04 - sshInstance.py - [line:50] - root - INFO - ifconfig ens43f0
+2022-04-27 20:11:04 - sshInstance.py - [line:54] - root - INFO - ens43f0: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        inet6 fe80::b96c:7dd6:ef3c:a1ee  prefixlen 64  scopeid 0x20<link>
+        ether b4:96:91:a0:20:d8  txqueuelen 1000  (Ethernet)
+        RX packets 11  bytes 3406 (3.3 KiB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 39  bytes 6970 (6.8 KiB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+
+2022-04-27 20:11:12 - sshInstance.py - [line:50] - root - INFO - ifconfig ens785f0
+2022-04-27 20:11:12 - sshInstance.py - [line:54] - root - INFO - ens785f0: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        inet6 fe80::8c0:dd08:263f:8594  prefixlen 64  scopeid 0x20<link>
+        ether b4:96:91:a0:21:70  txqueuelen 1000  (Ethernet)
+        RX packets 49153027747  bytes 74330832006679 (67.6 TiB)
+        RX errors 0  dropped 13905  overruns 0  frame 0
+        TX packets 1327728077  bytes 94030055285 (87.5 GiB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+
+2022-04-27 20:11:17 - test_network_sriov_stress.py - [line:621] - root - INFO - 
+Stress Disable and Enable for 1 time when VF is Assigned VM guest.
+
+2022-04-27 20:11:20 - sshInstance.py - [line:50] - root - INFO - /opt/APP/utility/DPDK_install/dpdk-22.03/usertools/dpdk-devbind.py -s | grep ens43f0 | awk '{print $1;}'
+2022-04-27 20:11:20 - sshInstance.py - [line:54] - root - INFO - 0000:98:00.0
+
+2022-04-27 20:11:25 - test_network_sriov_stress.py - [line:156] - root - INFO - pf_id was found: 0000:98:00.0
+
+2022-04-27 20:11:25 - test_network_sriov_stress.py - [line:629] - root - INFO - format_pf_id is 0000\:98\:00.0
+
+2022-04-27 20:11:25 - test_network_sriov_stress.py - [line:632] - root - INFO - pf_id_key: 98
+2022-04-27 20:11:25 - test_network_sriov_stress.py - [line:636] - root - INFO - start to assign ip for ens43f0 of SUT1: 192.168.10.10
+2022-04-27 20:11:31 - sshInstance.py - [line:99] - root - INFO - ifconfig ens43f0 192.168.10.10
+[root@npx-auto-SPR-quanta ~]# 
+2022-04-27 20:11:34 - test_network_sriov_stress.py - [line:365] - root - INFO - Successfully assigned ip to ethernet: ens43f0
+2022-04-27 20:11:34 - test_network_sriov_stress.py - [line:638] - root - INFO - start to assign ip for ens785f0 of SUT2: 192.168.10.11
+2022-04-27 20:11:40 - sshInstance.py - [line:99] - root - INFO - ifconfig ens785f0 192.168.10.11
+[root@CYP10RT ~]# 
+2022-04-27 20:11:43 - test_network_sriov_stress.py - [line:365] - root - INFO - Successfully assigned ip to ethernet: ens785f0
+2022-04-27 20:11:43 - test_network_sriov_stress.py - [line:162] - root - INFO - virtulize sut1 pf to 4 vfs
+2022-04-27 20:11:46 - sshInstance.py - [line:50] - root - INFO - echo 4 > /sys/class/net/ens43f0/device/sriov_numvfs
+2022-04-27 20:11:51 - sshInstance.py - [line:54] - root - INFO - 
+2022-04-27 20:11:56 - test_network_sriov_stress.py - [line:171] - root - INFO - Successfully Virtualized PF to VFs.
+2022-04-27 20:11:59 - sshInstance.py - [line:50] - root - INFO - lspci | grep "Virtual" |grep 98 | awk '{print $1;}'list
+2022-04-27 20:11:59 - sshInstance.py - [line:54] - root - INFO - 98:01.0
+98:01.1
+98:01.2
+98:01.3
+
+2022-04-27 20:12:04 - test_network_sriov_stress.py - [line:185] - root - INFO - Succssfully Gotten vf_id list:
+
+2022-04-27 20:12:07 - sshInstance.py - [line:50] - root - INFO - modprobe vfio-pci
+
+2022-04-27 20:12:07 - sshInstance.py - [line:54] - root - INFO - 
+2022-04-27 20:12:12 - test_network_sriov_stress.py - [line:205] - root - INFO - start to bind drive in sut1
+2022-04-27 20:12:15 - sshInstance.py - [line:50] - root - INFO - /opt/APP/utility/DPDK_install/dpdk-22.03/usertools/dpdk-devbind.py -b vfio-pci 98:01.0
+2022-04-27 20:12:17 - sshInstance.py - [line:54] - root - INFO - 
+2022-04-27 20:12:22 - test_network_sriov_stress.py - [line:219] - root - INFO - Successfuly bound VF to vfio-pci
+2022-04-27 20:12:25 - sshInstance.py - [line:50] - root - INFO - /opt/APP/utility/DPDK_install/dpdk-22.03/usertools/dpdk-devbind.py -b vfio-pci 98:01.1
+2022-04-27 20:12:28 - sshInstance.py - [line:54] - root - INFO - 
+2022-04-27 20:12:33 - test_network_sriov_stress.py - [line:219] - root - INFO - Successfuly bound VF to vfio-pci
+2022-04-27 20:12:33 - test_network_sriov_stress.py - [line:656] - root - INFO - lspci -Dnn | grep 98:01.1
+2022-04-27 20:12:36 - sshInstance.py - [line:50] - root - INFO - lspci -Dnn | grep 98:01.1
+2022-04-27 20:12:36 - sshInstance.py - [line:54] - root - INFO - 0000:98:01.1 Ethernet controller [0200]: Intel Corporation Ethernet Adaptive Virtual Function [8086:1889] (rev 02)
+
+2022-04-27 20:12:41 - test_network_sriov_stress.py - [line:668] - root - INFO - Successfully get vf device id: 8086:1889
+2022-04-27 20:12:41 - test_network_sriov_stress.py - [line:242] - root - INFO - get default network info: virsh net-info default | grep "Active" | awk '{print $2;}'
+2022-04-27 20:12:44 - sshInstance.py - [line:50] - root - INFO - virsh net-info default | grep "Active" | awk '{print $2;}'
+2022-04-27 20:12:44 - sshInstance.py - [line:54] - root - INFO - yes
+
+2022-04-27 20:12:49 - test_network_sriov_stress.py - [line:245] - root - INFO - Default network is active? yes
+
+2022-04-27 20:12:49 - test_network_sriov_stress.py - [line:681] - root - INFO - start to create VMs....
+2022-04-27 20:12:49 - test_network_sriov_stress.py - [line:275] - root - INFO - try to create VM with the cmd1: virt-install --name VMtest1 --ram 4096 --cpu host --vcpus=5 --network network=default --hostdev pci_0000_98_01_0 --boot hd --disk path=/home/image/rhel862.img,size=50,format=qcow2 --osinfo rhel8.2 --graphics vnc,listen=0.0.0.0,port=5900 --noautoconsole
+
+2022-04-27 20:12:53 - sshInstance.py - [line:75] - root - INFO - virt-install --name VMtest1 --ram 4096 --cpu host ---vcpus=5 --network network=default --hostdev pci_0000_98_01_0 --boot hd --disk ppath=/home/image/rhel862.img,size=50,format=qcow2 --osinfo rhel8.2 --graphics vncc,listen=0.0.0.0,port=5900 --noautoconsole
+2022-04-27 20:12:56 - sshInstance.py - [line:75] - root - INFO - 
+Starting install...
+2022-04-27 20:12:58 - sshInstance.py - [line:75] - root - INFO - Domain creation completed.
+[root@npx-auto-SPR-quanta ~]# 
+2022-04-27 20:13:01 - test_network_sriov_stress.py - [line:292] - root - INFO - Successfully created a VM: VMtest1
+2022-04-27 20:13:01 - test_network_sriov_stress.py - [line:275] - root - INFO - try to create VM with the cmd1: virt-install --name VMtest2 --ram 4096 --cpu host --vcpus=5 --network network=default --hostdev pci_0000_98_01_1 --boot hd --disk path=/home/image/rhel86.img,size=50,format=qcow2 --osinfo rhel8.2 --graphics vnc,listen=0.0.0.0,port=5901 --noautoconsole
+
+2022-04-27 20:13:05 - sshInstance.py - [line:75] - root - INFO - virt-install --name VMtest2 --ram 4096 --cpu host ---vcpus=5 --network network=default --hostdev pci_0000_98_01_1 --boot hd --disk ppath=/home/image/rhel86.img,size=50,format=qcow2 --osinfo rhel8.2 --graphics vnc,,listen=0.0.0.0,port=5901 --noautoconsole
+2022-04-27 20:13:08 - sshInstance.py - [line:75] - root - INFO - 
+Starting install...
+2022-04-27 20:13:10 - sshInstance.py - [line:75] - root - INFO - Domain creation completed.
+[root@npx-auto-SPR-quanta ~]# 
+2022-04-27 20:13:13 - test_network_sriov_stress.py - [line:292] - root - INFO - Successfully created a VM: VMtest2
+2022-04-27 20:13:46 - sshInstance.py - [line:50] - root - INFO - virsh domifaddr VMtest1 | grep '192.168' | awk '{print $4;}'
+2022-04-27 20:13:47 - sshInstance.py - [line:54] - root - INFO - 192.168.122.9/24
+
+2022-04-27 20:13:52 - test_network_sriov_stress.py - [line:308] - root - INFO - Successfully got VMtest1 IP: 192.168.122.9/24
+
+2022-04-27 20:13:55 - sshInstance.py - [line:50] - root - INFO - virsh domifaddr VMtest2 | grep '192.168' | awk '{print $4;}'
+2022-04-27 20:13:55 - sshInstance.py - [line:54] - root - INFO - 192.168.122.162/24
+
+2022-04-27 20:14:00 - test_network_sriov_stress.py - [line:308] - root - INFO - Successfully got VMtest2 IP: 192.168.122.162/24
+
+2022-04-27 20:14:00 - test_network_sriov_stress.py - [line:692] - root - INFO - ip of VM1: 192.168.122.9
+2022-04-27 20:14:00 - test_network_sriov_stress.py - [line:693] - root - INFO - ip of VM1: 192.168.122.162
+2022-04-27 20:14:00 - test_network_sriov_stress.py - [line:698] - root - INFO - Start ssh VM1 and conf VM1
+2022-04-27 20:14:06 - sshInstance.py - [line:99] - root - INFO - ssh-key -R 192.168.122.9
+bash: ssh-key: command not found...
+[root@npx-auto-SPR-quanta ~]# 
+2022-04-27 20:14:13 - sshInstance.py - [line:75] - root - INFO - ping -c 5 192.168.122.9
+PING 192.168.122.9 (192.168.122.9) 56(84) bytes of data.
+64 bytes from 192.168.122.9: icmp_seq=1 ttl=64 time=0.530 ms
+2022-04-27 20:14:14 - sshInstance.py - [line:75] - root - INFO - 64 bytes from 192.168.122.9: icmp_seq=2 ttl=64 time=0.406 ms
+2022-04-27 20:14:15 - sshInstance.py - [line:75] - root - INFO - 64 bytes from 192.168.122.9: icmp_seq=3 ttl=64 time=0.586 ms
+2022-04-27 20:14:16 - sshInstance.py - [line:75] - root - INFO - 64 bytes from 192.168.122.9: icmp_seq=4 ttl=64 time=0.344 ms
+2022-04-27 20:14:17 - sshInstance.py - [line:75] - root - INFO - 64 bytes from 192.168.122.9: icmp_seq=5 ttl=64 time=0.534 ms
+
+--- 192.168.122.9 ping statistics ---
+5 packets transmitted, 5 received, 0% packet loss, time 4122ms
+rtt min/avg/max/mdev = 0.344/0.480/0.586/0.090 ms
+[root@npx-auto-SPR-quanta ~]# 
+2022-04-27 20:14:26 - sshInstance.py - [line:99] - root - INFO - ssh root@192.168.122.9
+root@192.168.122.9's password: 
+2022-04-27 20:14:35 - sshInstance.py - [line:99] - root - INFO - 
+Activate the web console with: systemctl enable --now cockpit.socket
+Register this system with Red Hat Insights: insights-client --register
+Create an account or view all your systems at https://red.ht/insights-dashboard
+Last login: Tue Apr 26 23:02:55 2022 from 192.168.122.1
+[root@localhost ~]# 
+2022-04-27 20:14:38 - test_network_sriov_stress.py - [line:392] - root - INFO - Successfully ssh VM.
+2022-04-27 20:14:44 - sshInstance.py - [line:99] - root - INFO - lspci -Dnn | grep "8086:1889" --color=never| awk '{print $1;}}'
+0000:05:00.0
+[root@localhost ~]# 
+2022-04-27 20:14:53 - test_network_sriov_stress.py - [line:414] - root - INFO - successfully got vf pci id of vm: 0000:05:00.0
+2022-04-27 20:14:59 - sshInstance.py - [line:99] - root - INFO - ls /sys/bus/pci/devices/0000\:05\:00.0/net/ --color=never
+enp5s0
+[root@localhost ~]# 
+2022-04-27 20:15:04 - test_network_sriov_stress.py - [line:428] - root - INFO - Successfully got vf device name of vm: enp5s0
+2022-04-27 20:15:04 - test_network_sriov_stress.py - [line:440] - root - INFO - try to get ipv6 for enp5s0
+2022-04-27 20:15:04 - test_network_sriov_stress.py - [line:442] - root - INFO - try to get ipv6 in redhat
+2022-04-27 20:15:04 - sshInstance.py - [line:188] - root - INFO - starting to delete network of enp5s0:
+2022-04-27 20:15:10 - sshInstance.py - [line:99] - root - INFO - nmcli connection delete enp5s0
+Connection 'enp5s0' (dceef6b0-7457-465d-852d-86da7f9aee33) successfully deleted.
+[root@localhost ~]# 
+[root@localhost ~]# 
+2022-04-27 20:15:13 - sshInstance.py - [line:190] - root - INFO - restart networkManager to make setting valid
+2022-04-27 20:15:19 - sshInstance.py - [line:99] - root - INFO - systemctl restart NetworkManager
+[root@localhost ~]# 
+[root@localhost ~]# 
+2022-04-27 20:15:22 - sshInstance.py - [line:194] - root - INFO - starting to add network of enp5s0:
+2022-04-27 20:15:28 - sshInstance.py - [line:99] - root - INFO - nmcli connection add type ethernet con-name enp5s0 ifname enpp5s0
+Connection 'enp5s0' (d8e593cd-3fa0-4a88-ab55-fe0a8404ccfe) successfully added.
+[root@localhost ~]# 
+[root@localhost ~]# 
+2022-04-27 20:15:31 - sshInstance.py - [line:197] - root - INFO - restart networkManager to make setting valid
+2022-04-27 20:15:37 - sshInstance.py - [line:99] - root - INFO - systemctl restart NetworkManager
+[root@localhost ~]# 
+[root@localhost ~]# 
+2022-04-27 20:15:46 - sshInstance.py - [line:99] - root - INFO - ifconfig enp5s0
+enp5s0: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        inet6 fe80::937d:e66c:b85:a58c  prefixlen 64  scopeid 0x20<link>
+        ether c6:78:16:1e:e9:02  txqueuelen 1000  (Ethernet)
+        RX packets 45  bytes 11697 (11.4 KiB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 76  bytes 12136 (11.8 KiB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+[root@localhost ~]# 
+2022-04-27 20:15:49 - test_network_sriov_stress.py - [line:455] - root - INFO - assign ip address for VM...
+2022-04-27 20:15:55 - sshInstance.py - [line:99] - root - INFO - ifconfig enp5s0 192.168.10.12
+[root@localhost ~]# 
+2022-04-27 20:15:58 - test_network_sriov_stress.py - [line:365] - root - INFO - Successfully assigned ip to ethernet: enp5s0
+2022-04-27 20:16:04 - sshInstance.py - [line:99] - root - INFO - exit
+logout
+Connection to 192.168.122.9 closed.
+[root@npx-auto-SPR-quanta ~]# 
+2022-04-27 20:16:07 - test_network_sriov_stress.py - [line:704] - root - INFO - Start ssh VM2 and conf VM2
+2022-04-27 20:16:13 - sshInstance.py - [line:99] - root - INFO - ssh-key -R 192.168.122.162
+bash: ssh-key: command not found...
+[root@npx-auto-SPR-quanta ~]# 
+2022-04-27 20:16:20 - sshInstance.py - [line:75] - root - INFO - ping -c 5 192.168.122.162
+PING 192.168.122.162 (192.168.122.162) 56(84) bytes of data.
+64 bytes from 192.168.122.162: icmp_seq=1 ttl=64 time=0.512 ms
+2022-04-27 20:16:21 - sshInstance.py - [line:75] - root - INFO - 64 bytes from 192.168.122.162: icmp_seq=2 ttl=64 time=0.471 ms
+2022-04-27 20:16:22 - sshInstance.py - [line:75] - root - INFO - 64 bytes from 192.168.122.162: icmp_seq=3 ttl=64 time=0.416 ms
+2022-04-27 20:16:23 - sshInstance.py - [line:75] - root - INFO - 64 bytes from 192.168.122.162: icmp_seq=4 ttl=64 time=0.412 ms
+2022-04-27 20:16:24 - sshInstance.py - [line:75] - root - INFO - 64 bytes from 192.168.122.162: icmp_seq=5 ttl=64 time=0.403 ms
+
+--- 192.168.122.162 ping statistics ---
+5 packets transmitted, 5 received, 0% packet loss, time 4135ms
+rtt min/avg/max/mdev = 0.403/0.442/0.512/0.049 ms
+[root@npx-auto-SPR-quanta ~]# 
+2022-04-27 20:16:33 - sshInstance.py - [line:99] - root - INFO - ssh root@192.168.122.162
+root@192.168.122.162's password: 
+2022-04-27 20:16:42 - sshInstance.py - [line:99] - root - INFO - 
+Activate the web console with: systemctl enable --now cockpit.socket
+Register this system with Red Hat Insights: insights-client --register
+Create an account or view all your systems at https://red.ht/insights-dashboard
+Last login: Tue Apr 26 23:00:25 2022 from 192.168.122.1
+[root@localhost ~]# 
+2022-04-27 20:16:45 - test_network_sriov_stress.py - [line:392] - root - INFO - Successfully ssh VM.
+2022-04-27 20:16:51 - sshInstance.py - [line:99] - root - INFO - lspci -Dnn | grep "8086:1889" --color=never| awk '{print $1;}}'
+0000:05:00.0
+[root@localhost ~]# 
+2022-04-27 20:17:00 - test_network_sriov_stress.py - [line:414] - root - INFO - successfully got vf pci id of vm: 0000:05:00.0
+2022-04-27 20:17:06 - sshInstance.py - [line:99] - root - INFO - ls /sys/bus/pci/devices/0000\:05\:00.0/net/ --color=never
+enp5s0
+[root@localhost ~]# 
+2022-04-27 20:17:11 - test_network_sriov_stress.py - [line:428] - root - INFO - Successfully got vf device name of vm: enp5s0
+2022-04-27 20:17:11 - test_network_sriov_stress.py - [line:440] - root - INFO - try to get ipv6 for enp5s0
+2022-04-27 20:17:11 - test_network_sriov_stress.py - [line:442] - root - INFO - try to get ipv6 in redhat
+2022-04-27 20:17:11 - sshInstance.py - [line:188] - root - INFO - starting to delete network of enp5s0:
+2022-04-27 20:17:17 - sshInstance.py - [line:99] - root - INFO - nmcli connection delete enp5s0
+Connection 'enp5s0' (0476b17a-4cd3-4357-b314-905ce38fe2ea) successfully deleted.
+[root@localhost ~]# 
+[root@localhost ~]# 
+2022-04-27 20:17:20 - sshInstance.py - [line:190] - root - INFO - restart networkManager to make setting valid
+2022-04-27 20:17:26 - sshInstance.py - [line:99] - root - INFO - systemctl restart NetworkManager
+[root@localhost ~]# 
+[root@localhost ~]# 
+2022-04-27 20:17:29 - sshInstance.py - [line:194] - root - INFO - starting to add network of enp5s0:
+2022-04-27 20:17:35 - sshInstance.py - [line:99] - root - INFO - nmcli connection add type ethernet con-name enp5s0 ifname enpp5s0
+Connection 'enp5s0' (bfd6133a-abb9-4dde-ab63-14ad3a564820) successfully added.
+[root@localhost ~]# 
+[root@localhost ~]# 
+2022-04-27 20:17:38 - sshInstance.py - [line:197] - root - INFO - restart networkManager to make setting valid
+2022-04-27 20:17:44 - sshInstance.py - [line:99] - root - INFO - systemctl restart NetworkManager
+[root@localhost ~]# 
+[root@localhost ~]# 
+2022-04-27 20:17:53 - sshInstance.py - [line:99] - root - INFO - ifconfig enp5s0
+enp5s0: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        inet6 fe80::ba8d:2eb4:95fd:488f  prefixlen 64  scopeid 0x20<link>
+        ether 3e:73:24:e4:af:34  txqueuelen 1000  (Ethernet)
+        RX packets 49  bytes 13436 (13.1 KiB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 88  bytes 14402 (14.0 KiB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+[root@localhost ~]# 
+2022-04-27 20:17:56 - test_network_sriov_stress.py - [line:455] - root - INFO - assign ip address for VM...
+2022-04-27 20:18:02 - sshInstance.py - [line:99] - root - INFO - ifconfig enp5s0 192.168.10.13
+[root@localhost ~]# 
+2022-04-27 20:18:05 - test_network_sriov_stress.py - [line:365] - root - INFO - Successfully assigned ip to ethernet: enp5s0
+2022-04-27 20:18:11 - sshInstance.py - [line:99] - root - INFO - exit
+logout
+Connection to 192.168.122.162 closed.
+[root@npx-auto-SPR-quanta ~]# 
+2022-04-27 20:18:14 - test_network_sriov_stress.py - [line:712] - root - INFO - Ping two vms IP from SUT:
+2022-04-27 20:18:18 - sshInstance.py - [line:75] - root - INFO - ping -c 5 192.168.10.12
+PING 192.168.10.12 (192.168.10.12) 56(84) bytes of data.
+64 bytes from 192.168.10.12: icmp_seq=1 ttl=64 time=0.562 ms
+2022-04-27 20:18:19 - sshInstance.py - [line:75] - root - INFO - 64 bytes from 192.168.10.12: icmp_seq=2 ttl=64 time=0.318 ms
+2022-04-27 20:18:20 - sshInstance.py - [line:75] - root - INFO - 64 bytes from 192.168.10.12: icmp_seq=3 ttl=64 time=0.374 ms
+2022-04-27 20:18:21 - sshInstance.py - [line:75] - root - INFO - 64 bytes from 192.168.10.12: icmp_seq=4 ttl=64 time=0.337 ms
+2022-04-27 20:18:22 - sshInstance.py - [line:75] - root - INFO - 64 bytes from 192.168.10.12: icmp_seq=5 ttl=64 time=0.304 ms
+
+--- 192.168.10.12 ping statistics ---
+5 packets transmitted, 5 received, 0% packet loss, time 4132ms
+rtt min/avg/max/mdev = 0.304/0.379/0.562/0.094 ms
+[root@npx-auto-SPR-quanta ~]# 
+2022-04-27 20:18:29 - sshInstance.py - [line:75] - root - INFO - ping -c 5 192.168.10.13
+PING 192.168.10.13 (192.168.10.13) 56(84) bytes of data.
+64 bytes from 192.168.10.13: icmp_seq=1 ttl=64 time=0.712 ms
+2022-04-27 20:18:30 - sshInstance.py - [line:75] - root - INFO - 64 bytes from 192.168.10.13: icmp_seq=2 ttl=64 time=0.198 ms
+2022-04-27 20:18:31 - sshInstance.py - [line:75] - root - INFO - 64 bytes from 192.168.10.13: icmp_seq=3 ttl=64 time=0.342 ms
+2022-04-27 20:18:32 - sshInstance.py - [line:75] - root - INFO - 64 bytes from 192.168.10.13: icmp_seq=4 ttl=64 time=0.342 ms
+2022-04-27 20:18:33 - sshInstance.py - [line:75] - root - INFO - 64 bytes from 192.168.10.13: icmp_seq=5 ttl=64 time=0.288 ms
+
+--- 192.168.10.13 ping statistics ---
+5 packets transmitted, 5 received, 0% packet loss, time 4125ms
+rtt min/avg/max/mdev = 0.198/0.376/0.712/0.176 ms
+[root@npx-auto-SPR-quanta ~]# 
+2022-04-27 20:18:36 - test_network_sriov_stress.py - [line:720] - root - INFO - ping VMtest2 IP from VMtest1
+2022-04-27 20:18:42 - sshInstance.py - [line:99] - root - INFO - ssh-key -R 192.168.122.9
+bash: ssh-key: command not found...
+[root@npx-auto-SPR-quanta ~]# 
+2022-04-27 20:18:49 - sshInstance.py - [line:75] - root - INFO - ping -c 5 192.168.122.9
+PING 192.168.122.9 (192.168.122.9) 56(84) bytes of data.
+64 bytes from 192.168.122.9: icmp_seq=1 ttl=64 time=0.500 ms
+2022-04-27 20:18:50 - sshInstance.py - [line:75] - root - INFO - 64 bytes from 192.168.122.9: icmp_seq=2 ttl=64 time=0.464 ms
+2022-04-27 20:18:51 - sshInstance.py - [line:75] - root - INFO - 64 bytes from 192.168.122.9: icmp_seq=3 ttl=64 time=0.453 ms
+2022-04-27 20:18:52 - sshInstance.py - [line:75] - root - INFO - 64 bytes from 192.168.122.9: icmp_seq=4 ttl=64 time=0.391 ms
+2022-04-27 20:18:53 - sshInstance.py - [line:75] - root - INFO - 64 bytes from 192.168.122.9: icmp_seq=5 ttl=64 time=0.404 ms
+
+--- 192.168.122.9 ping statistics ---
+5 packets transmitted, 5 received, 0% packet loss, time 4133ms
+rtt min/avg/max/mdev = 0.391/0.442/0.500/0.044 ms
+[root@npx-auto-SPR-quanta ~]# 
+2022-04-27 20:19:02 - sshInstance.py - [line:99] - root - INFO - ssh root@192.168.122.9
+root@192.168.122.9's password: 
+2022-04-27 20:19:11 - sshInstance.py - [line:99] - root - INFO - 
+Activate the web console with: systemctl enable --now cockpit.socket
+Register this system with Red Hat Insights: insights-client --register
+Create an account or view all your systems at https://red.ht/insights-dashboard
+Last login: Wed Apr 27 08:25:21 2022 from 192.168.122.1
+[root@azure05 ~]# 
+2022-04-27 20:19:14 - test_network_sriov_stress.py - [line:392] - root - INFO - Successfully ssh VM.
+2022-04-27 20:19:18 - sshInstance.py - [line:75] - root - INFO - ping -c 5 192.168.10.13
+PING 192.168.10.13 (192.168.10.13) 56(84) bytes of data.
+64 bytes from 192.168.10.13: icmp_seq=1 ttl=64 time=0.563 ms
+2022-04-27 20:19:19 - sshInstance.py - [line:75] - root - INFO - 64 bytes from 192.168.10.13: icmp_seq=2 ttl=64 time=0.379 ms
+2022-04-27 20:19:20 - sshInstance.py - [line:75] - root - INFO - 64 bytes from 192.168.10.13: icmp_seq=3 ttl=64 time=0.305 ms
+2022-04-27 20:19:21 - sshInstance.py - [line:75] - root - INFO - 64 bytes from 192.168.10.13: icmp_seq=4 ttl=64 time=0.313 ms
+2022-04-27 20:19:22 - sshInstance.py - [line:75] - root - INFO - 64 bytes from 192.168.10.13: icmp_seq=5 ttl=64 time=0.302 ms
+
+--- 192.168.10.13 ping statistics ---
+5 packets transmitted, 5 received, 0% packet loss, time 4133ms
+rtt min/avg/max/mdev = 0.302/0.372/0.563/0.100 ms
+[root@azure05 ~]# 
+2022-04-27 20:19:31 - sshInstance.py - [line:99] - root - INFO - exit
+logout
+Connection to 192.168.122.9 closed.
+[root@npx-auto-SPR-quanta ~]# 
+2022-04-27 20:19:34 - test_network_sriov_stress.py - [line:728] - root - INFO - ping VMtest2 IP from VMtest1
+2022-04-27 20:19:38 - sshInstance.py - [line:75] - root - INFO - ping -c 5 -I 192.168.10.10 192.168.10.11
+PING 192.168.10.11 (192.168.10.11) from 192.168.10.10 : 56(84) bytes of data.
+64 bytes from 192.168.10.11: icmp_seq=1 ttl=64 time=0.473 ms
+2022-04-27 20:19:39 - sshInstance.py - [line:75] - root - INFO - 64 bytes from 192.168.10.11: icmp_seq=2 ttl=64 time=0.250 ms
+2022-04-27 20:19:40 - sshInstance.py - [line:75] - root - INFO - 64 bytes from 192.168.10.11: icmp_seq=3 ttl=64 time=0.299 ms
+2022-04-27 20:19:41 - sshInstance.py - [line:75] - root - INFO - 64 bytes from 192.168.10.11: icmp_seq=4 ttl=64 time=0.252 ms
+2022-04-27 20:19:42 - sshInstance.py - [line:75] - root - INFO - 64 bytes from 192.168.10.11: icmp_seq=5 ttl=64 time=0.242 ms
+
+--- 192.168.10.11 ping statistics ---
+5 packets transmitted, 5 received, 0% packet loss, time 4095ms
+rtt min/avg/max/mdev = 0.242/0.303/0.473/0.087 ms
+[root@npx-auto-SPR-quanta ~]# 
+2022-04-27 20:19:48 - sshInstance.py - [line:50] - root - INFO - echo 0 > /sys/class/net/ens43f0/device/sriov_numvfs
+2022-04-27 20:19:56 - sshInstance.py - [line:54] - root - INFO - 
+2022-04-27 20:20:01 - test_network_sriov_stress.py - [line:327] - root - INFO - Successfully removed VFs from PF.
+2022-04-27 20:20:04 - sshInstance.py - [line:50] - root - INFO - virsh destroy VMtest1
+2022-04-27 20:20:04 - sshInstance.py - [line:54] - root - INFO - Domain 'VMtest1' destroyed
+
+
+2022-04-27 20:20:09 - test_network_sriov_stress.py - [line:340] - root - INFO - Successfully shut down the VM: VMtest1
+2022-04-27 20:20:12 - sshInstance.py - [line:50] - root - INFO - virsh undefine VMtest1
+2022-04-27 20:20:12 - sshInstance.py - [line:54] - root - INFO - Domain 'VMtest1' has been undefined
+
+
+2022-04-27 20:20:17 - test_network_sriov_stress.py - [line:350] - root - INFO - Successfully removed the VM: VMtest1
+2022-04-27 20:20:20 - sshInstance.py - [line:50] - root - INFO - virsh destroy VMtest2
+2022-04-27 20:20:20 - sshInstance.py - [line:54] - root - INFO - Domain 'VMtest2' destroyed
+
+
+2022-04-27 20:20:25 - test_network_sriov_stress.py - [line:340] - root - INFO - Successfully shut down the VM: VMtest2
+2022-04-27 20:20:28 - sshInstance.py - [line:50] - root - INFO - virsh undefine VMtest2
+2022-04-27 20:20:28 - sshInstance.py - [line:54] - root - INFO - Domain 'VMtest2' has been undefined
+
+
+2022-04-27 20:20:33 - test_network_sriov_stress.py - [line:350] - root - INFO - Successfully removed the VM: VMtest2
+.2022-04-27 20:20:33 - test_network_sriov_stress.py - [line:102] - root - INFO - removing VMs: VMtest1, VMtest2
+2022-04-27 20:20:36 - sshInstance.py - [line:50] - root - INFO - virsh destroy VMtest2
+2022-04-27 20:20:37 - sshInstance.py - [line:54] - root - INFO - error: failed to get domain 'VMtest2'
+
+
+2022-04-27 20:20:42 - test_network_sriov_stress.py - [line:340] - root - INFO - Successfully shut down the VM: VMtest2
+2022-04-27 20:20:45 - sshInstance.py - [line:50] - root - INFO - virsh undefine VMtest2
+2022-04-27 20:20:45 - sshInstance.py - [line:54] - root - INFO - error: failed to get domain 'VMtest2'
+
+
+2022-04-27 20:20:50 - test_network_sriov_stress.py - [line:353] - root - ERROR - Failed to removed the VM VMtest2
+2022-04-27 20:20:53 - sshInstance.py - [line:50] - root - INFO - virsh destroy VMtest1
+2022-04-27 20:20:53 - sshInstance.py - [line:54] - root - INFO - error: failed to get domain 'VMtest1'
+
+
+2022-04-27 20:20:58 - test_network_sriov_stress.py - [line:340] - root - INFO - Successfully shut down the VM: VMtest1
+2022-04-27 20:21:01 - sshInstance.py - [line:50] - root - INFO - virsh undefine VMtest1
+2022-04-27 20:21:01 - sshInstance.py - [line:54] - root - INFO - error: failed to get domain 'VMtest1'
+
+
+2022-04-27 20:21:06 - test_network_sriov_stress.py - [line:353] - root - ERROR - Failed to removed the VM VMtest1
+2022-04-27 20:21:09 - sshInstance.py - [line:50] - root - INFO - echo 0 > /sys/class/net/ens43f0/device/sriov_numvfs
+2022-04-27 20:21:09 - sshInstance.py - [line:54] - root - INFO - 
+2022-04-27 20:21:14 - test_network_sriov_stress.py - [line:107] - root - INFO - try to reset network for ens43f0
+2022-04-27 20:21:14 - test_network_sriov_stress.py - [line:109] - root - INFO - try to reset network for redhat...
+2022-04-27 20:21:14 - sshInstance.py - [line:188] - root - INFO - starting to delete network of ens43f0:
+2022-04-27 20:21:20 - sshInstance.py - [line:99] - root - INFO - nmcli connection delete ens43f0
+Connection 'ens43f0' (b17abd79-0c37-4568-832e-1c5e63cdf7f4) successfully deleted.
+[root@npx-auto-SPR-quanta ~]# 
+[root@npx-auto-SPR-quanta ~]# 
+2022-04-27 20:21:23 - sshInstance.py - [line:190] - root - INFO - restart networkManager to make setting valid
+2022-04-27 20:21:29 - sshInstance.py - [line:99] - root - INFO - systemctl restart NetworkManager
+[root@npx-auto-SPR-quanta ~]# 
+[root@npx-auto-SPR-quanta ~]# 
+2022-04-27 20:21:32 - sshInstance.py - [line:194] - root - INFO - starting to add network of ens43f0:
+2022-04-27 20:21:38 - sshInstance.py - [line:99] - root - INFO - nmcli connection add type ethernet con-name ens43f00 ifname ens43f0
+Connection 'ens43f0' (436aa57f-c5bc-464b-a812-0a2ebdfde681) successfully added.
+[root@npx-auto-SPR-quanta ~]# 
+[root@npx-auto-SPR-quanta ~]# 
+2022-04-27 20:21:41 - sshInstance.py - [line:197] - root - INFO - restart networkManager to make setting valid
+2022-04-27 20:21:47 - sshInstance.py - [line:99] - root - INFO - systemctl restart NetworkManager
+[root@npx-auto-SPR-quanta ~]# 
+[root@npx-auto-SPR-quanta ~]# 
+2022-04-27 20:21:50 - test_network_sriov_stress.py - [line:116] - root - INFO - try to reset network for ens785f0
+2022-04-27 20:21:50 - test_network_sriov_stress.py - [line:118] - root - INFO - try to reset network for redhat
+2022-04-27 20:21:50 - sshInstance.py - [line:188] - root - INFO - starting to delete network of ens785f0:
+2022-04-27 20:21:56 - sshInstance.py - [line:99] - root - INFO - nmcli connection delete ens785f0
+Connection 'ens785f0' (2c20493e-bc94-4bab-920b-4e04133640b2) successfully deleted.
+[root@CYP10RT ~]# 
+[root@CYP10RT ~]# 
+2022-04-27 20:21:59 - sshInstance.py - [line:190] - root - INFO - restart networkManager to make setting valid
+2022-04-27 20:22:05 - sshInstance.py - [line:99] - root - INFO - systemctl restart NetworkManager
+[root@CYP10RT ~]# 
+[root@CYP10RT ~]# 
+2022-04-27 20:22:08 - sshInstance.py - [line:194] - root - INFO - starting to add network of ens785f0:
+2022-04-27 20:22:14 - sshInstance.py - [line:99] - root - INFO - nmcli connection add type ethernet con-name ens785f0 ifname enss785f0
+Connection 'ens785f0' (7067019f-7a8d-41c2-a7c0-61eb977fb313) successfully added.
+[root@CYP10RT ~]# 
+[root@CYP10RT ~]# 
+2022-04-27 20:22:17 - sshInstance.py - [line:197] - root - INFO - restart networkManager to make setting valid
+2022-04-27 20:22:23 - sshInstance.py - [line:99] - root - INFO - systemctl restart NetworkManager
+[root@CYP10RT ~]# 
+[root@CYP10RT ~]# 
+2022-04-27 20:22:29 - sshInstance.py - [line:50] - root - INFO - dmesg > /tmp/dmesg.log
+2022-04-27 20:22:29 - sshInstance.py - [line:54] - root - INFO - 
+2022-04-27 20:22:34 - test_network_sriov_stress.py - [line:126] - root - INFO - generate dmesg.log file on sut /tmp/dmesg.log
+2022-04-27 20:22:34 - test_network_sriov_stress.py - [line:128] - root - INFO - copy dmesg.log from sut1 /tmp dir to controller dir /root/testconfig/testlogs/2022-04-27/test_PI_Networking_SRIOV_StressDisableEnableFor5TimesWhenVFIsAssigned_VM_Guest[rhel862.img-rhel86.img]_20_07_56
+2022-04-27 20:22:37 - sshInstance.py - [line:50] - root - INFO - rm -f /tmp/dmesg.log
+2022-04-27 20:22:37 - sshInstance.py - [line:54] - root - INFO - 
+2022-04-27 20:22:42 - test_network_sriov_stress.py - [line:130] - root - INFO - rm dmesg.log on sut1 /tmp dir
+2022-04-27 20:22:45 - sshInstance.py - [line:50] - root - INFO - rm -f /tmp/*.txt
+2022-04-27 20:22:45 - sshInstance.py - [line:54] - root - INFO - 
+2022-04-27 20:22:50 - sshInstance.py - [line:43] - root - INFO - closing ssh client on SUT
+2022-04-27 20:22:50 - NicTestFixture.py - [line:35] - root - INFO - ============================ end of run test_PI_Networking_SRIOV_StressDisableEnableFor5TimesWhenVFIsAssigned_VM_Guest[rhel862.img-rhel86.img] case ============================
+                  [ 75%]
+npxtester/Tests/testNics/test_nics.py 2022-04-27 20:22:50 - NicTestFixture.py - [line:20] - root - INFO - test -------
+2022-04-27 20:22:50 - NicTestFixture.py - [line:27] - root - INFO - case_logpath: /root/testconfig/testlogs/2022-04-27/test_gold_PI_Networking_SRIOV_CheckDevice_20_22_50/test_gold_PI_Networking_SRIOV_CheckDevice.log, case_logdir: /root/testconfig/testlogs/2022-04-27/test_gold_PI_Networking_SRIOV_CheckDevice_20_22_50
+2022-04-27 20:22:50 - NicTestFixture.py - [line:31] - root - INFO - ============================ Starting to run test_gold_PI_Networking_SRIOV_CheckDevice case ============================
+2022-04-27 20:22:50 - test_nics.py - [line:20] - root - INFO - this is Test_Nics setup.
+2022-04-27 20:22:50 - test_nics.py - [line:28] - root - INFO - ssh to the sut1 and pkg generator
+2022-04-27 20:22:50 - transport.py - [line:1819] - paramiko.transport - INFO - Connected (version 2.0, client OpenSSH_8.0)
+2022-04-27 20:22:50 - transport.py - [line:1819] - paramiko.transport - INFO - Authentication (password) successful!
+2022-04-27 20:22:50 - sshInstance.py - [line:28] - root - INFO - SSH on SUT: 10.239.182.80
+2022-04-27 20:22:50 - transport.py - [line:1819] - paramiko.transport - INFO - Connected (version 2.0, client OpenSSH_8.0)
+2022-04-27 20:22:50 - transport.py - [line:1819] - paramiko.transport - INFO - Authentication (password) successful!
+2022-04-27 20:22:50 - sshInstance.py - [line:28] - root - INFO - SSH on SUT: 10.239.182.88
+2022-04-27 20:22:51 - sftp.py - [line:158] - paramiko.transport.sftp - INFO - [chan 1] Opened sftp connection (server version 3)
+2022-04-27 20:22:51 - sshInstance.py - [line:201] - root - INFO - start to rmmod irdma....
+2022-04-27 20:22:54 - sshInstance.py - [line:50] - root - INFO - rmmod irdma
+2022-04-27 20:22:54 - sshInstance.py - [line:54] - root - INFO - 
+2022-04-27 20:22:59 - sshInstance.py - [line:204] - root - INFO - finished rmmod irdma....
+2022-04-27 20:22:59 - sshInstance.py - [line:205] - root - INFO - start to rmmod ice....
+2022-04-27 20:23:02 - sshInstance.py - [line:50] - root - INFO - rmmod ice
+2022-04-27 20:23:15 - sshInstance.py - [line:54] - root - INFO - 
+2022-04-27 20:23:20 - sshInstance.py - [line:208] - root - INFO - finished rmmod ice....
+2022-04-27 20:23:20 - sshInstance.py - [line:210] - root - INFO - start to modprobe ice....
+2022-04-27 20:23:23 - sshInstance.py - [line:50] - root - INFO - modprobe ice
+2022-04-27 20:24:01 - sshInstance.py - [line:54] - root - INFO - 
+2022-04-27 20:24:06 - sshInstance.py - [line:212] - root - INFO - finished modprobe ice....
+2022-04-27 20:24:09 - sshInstance.py - [line:50] - root - INFO - ethtool -i ens43f0
+2022-04-27 20:24:09 - sshInstance.py - [line:54] - root - INFO - driver: ice
+version: 4.18.0-369.el8.x86_64
+firmware-version: 3.10 0x8000ad67 1.3106.0
+expansion-rom-version: 
+bus-info: 0000:98:00.0
+supports-statistics: yes
+supports-test: yes
+supports-eeprom-access: yes
+supports-register-dump: yes
+supports-priv-flags: yes
+
+2022-04-27 20:24:14 - test_nics.py - [line:48] - root - INFO - try to add pf of SUT for redhat...
+2022-04-27 20:24:14 - sshInstance.py - [line:188] - root - INFO - starting to delete network of ens43f0:
+2022-04-27 20:24:20 - sshInstance.py - [line:99] - root - INFO - Activate the web console with: systemctl enable --now cockpit.socket
+Register this system with Red Hat Insights: insights-client --register
+Create an account or view all your systems at https://red.ht/insights-dashboard
+Last login: Wed Apr 27 20:33:34 2022 from 10.112.97.60
+[root@npx-auto-SPR-quanta ~]# nmcli connection delete ens43f0
+Connection 'ens43f0' (436aa57f-c5bc-464b-a812-0a2ebdfde681) successfully deleted.
+[root@npx-auto-SPR-quanta ~]# 
+[root@npx-auto-SPR-quanta ~]# 
+2022-04-27 20:24:23 - sshInstance.py - [line:190] - root - INFO - restart networkManager to make setting valid
+2022-04-27 20:24:29 - sshInstance.py - [line:99] - root - INFO - systemctl restart NetworkManager
+[root@npx-auto-SPR-quanta ~]# 
+[root@npx-auto-SPR-quanta ~]# 
+2022-04-27 20:24:32 - sshInstance.py - [line:194] - root - INFO - starting to add network of ens43f0:
+2022-04-27 20:24:38 - sshInstance.py - [line:99] - root - INFO - nmcli connection add type ethernet con-name ens43f00 ifname ens43f0
+Connection 'ens43f0' (14592600-3e00-43bb-b1b5-f91e1b56c911) successfully added.
+[root@npx-auto-SPR-quanta ~]# 
+[root@npx-auto-SPR-quanta ~]# 
+2022-04-27 20:24:41 - sshInstance.py - [line:197] - root - INFO - restart networkManager to make setting valid
+2022-04-27 20:24:47 - sshInstance.py - [line:99] - root - INFO - systemctl restart NetworkManager
+[root@npx-auto-SPR-quanta ~]# 
+[root@npx-auto-SPR-quanta ~]# 
+2022-04-27 20:24:50 - test_nics.py - [line:58] - root - INFO - try to add pf of pkg generator for redhat...
+2022-04-27 20:24:50 - sshInstance.py - [line:188] - root - INFO - starting to delete network of ens785f0:
+2022-04-27 20:24:56 - sshInstance.py - [line:99] - root - INFO - Activate the web console with: systemctl enable --now cockpit.socket
+This system is not registered to Red Hat Insights. See https://cloud.redhat.com/
+To register this system, run: insights-client --register
+Last login: Wed Apr 27 20:22:33 2022 from 10.112.97.60
+xhost:  unable to open display ""
+[root@CYP10RT ~]# nmcli connection delete ens785f0
+Connection 'ens785f0' (7067019f-7a8d-41c2-a7c0-61eb977fb313) successfully deleted.
+[root@CYP10RT ~]# 
+[root@CYP10RT ~]# 
+2022-04-27 20:24:59 - sshInstance.py - [line:190] - root - INFO - restart networkManager to make setting valid
+2022-04-27 20:25:05 - sshInstance.py - [line:99] - root - INFO - systemctl restart NetworkManager
+[root@CYP10RT ~]# 
+[root@CYP10RT ~]# 
+2022-04-27 20:25:08 - sshInstance.py - [line:194] - root - INFO - starting to add network of ens785f0:
+2022-04-27 20:25:14 - sshInstance.py - [line:99] - root - INFO - nmcli connection add type ethernet con-name ens785f0 ifname enss785f0
+Connection 'ens785f0' (79618db1-87bf-4fa7-a386-2f9151d05d97) successfully added.
+[root@CYP10RT ~]# 
+[root@CYP10RT ~]# 
+2022-04-27 20:25:17 - sshInstance.py - [line:197] - root - INFO - restart networkManager to make setting valid
+2022-04-27 20:25:23 - sshInstance.py - [line:99] - root - INFO - systemctl restart NetworkManager
+[root@CYP10RT ~]# 
+[root@CYP10RT ~]# 
+2022-04-27 20:25:29 - sshInstance.py - [line:50] - root - INFO - ifconfig ens43f0
+2022-04-27 20:25:29 - sshInstance.py - [line:54] - root - INFO - ens43f0: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        inet6 fe80::226d:85f1:77d:d01d  prefixlen 64  scopeid 0x20<link>
+        ether b4:96:91:a0:20:d8  txqueuelen 1000  (Ethernet)
+        RX packets 10  bytes 3049 (2.9 KiB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 40  bytes 7040 (6.8 KiB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+
+2022-04-27 20:25:37 - sshInstance.py - [line:50] - root - INFO - ifconfig ens785f0
+2022-04-27 20:25:37 - sshInstance.py - [line:54] - root - INFO - ens785f0: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        inet6 fe80::108:3008:65c4:a30e  prefixlen 64  scopeid 0x20<link>
+        ether b4:96:91:a0:21:70  txqueuelen 1000  (Ethernet)
+        RX packets 49153027900  bytes 74330832045672 (67.6 TiB)
+        RX errors 0  dropped 13905  overruns 0  frame 0
+        TX packets 1327728185  bytes 94030077288 (87.5 GiB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+
+2022-04-27 20:25:45 - sshInstance.py - [line:50] - root - INFO - echo 4 > /sys/class/net/ens43f0/device/sriov_numvfs
+2022-04-27 20:25:49 - sshInstance.py - [line:54] - root - INFO - 
+2022-04-27 20:26:02 - sshInstance.py - [line:50] - root - INFO - ifconfig ens785f0 192.168.10.11
+
+2022-04-27 20:26:02 - sshInstance.py - [line:54] - root - INFO - 
+2022-04-27 20:26:07 - sshInstance.py - [line:188] - root - INFO - starting to delete network of ens43f0v0:
+2022-04-27 20:26:13 - sshInstance.py - [line:99] - root - INFO - nmcli connection delete ens43f0v0
+Error: unknown connection 'ens43f0v0'.
+Error: cannot delete unknown connection(s): 'ens43f0v0'.
+[root@npx-auto-SPR-quanta ~]# 
+[root@npx-auto-SPR-quanta ~]# 
+2022-04-27 20:26:16 - sshInstance.py - [line:190] - root - INFO - restart networkManager to make setting valid
+2022-04-27 20:26:22 - sshInstance.py - [line:99] - root - INFO - systemctl restart NetworkManager
+[root@npx-auto-SPR-quanta ~]# 
+[root@npx-auto-SPR-quanta ~]# 
+2022-04-27 20:26:25 - sshInstance.py - [line:194] - root - INFO - starting to add network of ens43f0v0:
+2022-04-27 20:26:31 - sshInstance.py - [line:99] - root - INFO - nmcli connection add type ethernet con-name ens43f00v0 ifname ens43f0v0
+Connection 'ens43f0v0' (3bc968bd-034f-4986-9ad9-1d0d3a19a352) successfully added.
+[root@npx-auto-SPR-quanta ~]# 
+[root@npx-auto-SPR-quanta ~]# 
+2022-04-27 20:26:34 - sshInstance.py - [line:197] - root - INFO - restart networkManager to make setting valid
+2022-04-27 20:26:40 - sshInstance.py - [line:99] - root - INFO - systemctl restart NetworkManager
+[root@npx-auto-SPR-quanta ~]# 
+[root@npx-auto-SPR-quanta ~]# 
+2022-04-27 20:26:46 - sshInstance.py - [line:50] - root - INFO - ifconfig ens43f0v0 192.168.10.12
+2022-04-27 20:26:46 - sshInstance.py - [line:54] - root - INFO - 
+2022-04-27 20:26:57 - sshInstance.py - [line:50] - root - INFO - ping -c 5 192.168.10.12
+2022-04-27 20:27:01 - sshInstance.py - [line:54] - root - INFO - PING 192.168.10.12 (192.168.10.12) 56(84) bytes of data.
+64 bytes from 192.168.10.12: icmp_seq=1 ttl=64 time=0.616 ms
+64 bytes from 192.168.10.12: icmp_seq=2 ttl=64 time=0.239 ms
+64 bytes from 192.168.10.12: icmp_seq=3 ttl=64 time=0.252 ms
+64 bytes from 192.168.10.12: icmp_seq=4 ttl=64 time=0.258 ms
+64 bytes from 192.168.10.12: icmp_seq=5 ttl=64 time=0.229 ms
+
+--- 192.168.10.12 ping statistics ---
+5 packets transmitted, 5 received, 0% packet loss, time 4074ms
+rtt min/avg/max/mdev = 0.229/0.318/0.616/0.150 ms
+
+2022-04-27 20:27:09 - sshInstance.py - [line:50] - root - INFO - ifconfig ens43f0v0 | grep inet6
+2022-04-27 20:27:09 - sshInstance.py - [line:54] - root - INFO -         inet6 fe80::cfea:bf74:ff03:f25e  prefixlen 64  scopeid 0x20<link>
+
+2022-04-27 20:27:17 - sshInstance.py - [line:50] - root - INFO - ping6 -c 5 -I ens43f0v0 fe80::108:3008:65c4:a30e
+2022-04-27 20:27:22 - sshInstance.py - [line:54] - root - INFO - ping6: Warning: source address might be selected on device other than ens43f0v0.
+PING fe80::108:3008:65c4:a30e(fe80::108:3008:65c4:a30e) from :: ens43f0v0: 56 data bytes
+64 bytes from fe80::108:3008:65c4:a30e%ens43f0v0: icmp_seq=1 ttl=64 time=0.585 ms
+64 bytes from fe80::108:3008:65c4:a30e%ens43f0v0: icmp_seq=2 ttl=64 time=0.295 ms
+64 bytes from fe80::108:3008:65c4:a30e%ens43f0v0: icmp_seq=3 ttl=64 time=0.289 ms
+64 bytes from fe80::108:3008:65c4:a30e%ens43f0v0: icmp_seq=4 ttl=64 time=0.284 ms
+64 bytes from fe80::108:3008:65c4:a30e%ens43f0v0: icmp_seq=5 ttl=64 time=0.288 ms
+
+--- fe80::108:3008:65c4:a30e ping statistics ---
+5 packets transmitted, 5 received, 0% packet loss, time 4127ms
+rtt min/avg/max/mdev = 0.284/0.348/0.585/0.119 ms
+
+2022-04-27 20:27:27 - sshInstance.py - [line:188] - root - INFO - starting to delete network of ens43f0v1:
+2022-04-27 20:27:33 - sshInstance.py - [line:99] - root - INFO - nmcli connection delete ens43f0v1
+Error: unknown connection 'ens43f0v1'.
+Error: cannot delete unknown connection(s): 'ens43f0v1'.
+[root@npx-auto-SPR-quanta ~]# 
+[root@npx-auto-SPR-quanta ~]# 
+2022-04-27 20:27:36 - sshInstance.py - [line:190] - root - INFO - restart networkManager to make setting valid
+2022-04-27 20:27:42 - sshInstance.py - [line:99] - root - INFO - systemctl restart NetworkManager
+[root@npx-auto-SPR-quanta ~]# 
+[root@npx-auto-SPR-quanta ~]# 
+2022-04-27 20:27:45 - sshInstance.py - [line:194] - root - INFO - starting to add network of ens43f0v1:
+2022-04-27 20:27:51 - sshInstance.py - [line:99] - root - INFO - nmcli connection add type ethernet con-name ens43f00v1 ifname ens43f0v1
+Connection 'ens43f0v1' (8fdd7a98-a8e1-4a37-8a5d-7645e372d47c) successfully added.
+[root@npx-auto-SPR-quanta ~]# 
+[root@npx-auto-SPR-quanta ~]# 
+2022-04-27 20:27:54 - sshInstance.py - [line:197] - root - INFO - restart networkManager to make setting valid
+2022-04-27 20:28:00 - sshInstance.py - [line:99] - root - INFO - systemctl restart NetworkManager
+[root@npx-auto-SPR-quanta ~]# 
+[root@npx-auto-SPR-quanta ~]# 
+2022-04-27 20:28:06 - sshInstance.py - [line:50] - root - INFO - ifconfig ens43f0v1 192.168.10.13
+2022-04-27 20:28:06 - sshInstance.py - [line:54] - root - INFO - 
+2022-04-27 20:28:17 - sshInstance.py - [line:50] - root - INFO - ping -c 5 192.168.10.13
+2022-04-27 20:28:21 - sshInstance.py - [line:54] - root - INFO - PING 192.168.10.13 (192.168.10.13) 56(84) bytes of data.
+64 bytes from 192.168.10.13: icmp_seq=1 ttl=64 time=0.475 ms
+64 bytes from 192.168.10.13: icmp_seq=2 ttl=64 time=0.258 ms
+64 bytes from 192.168.10.13: icmp_seq=3 ttl=64 time=0.236 ms
+64 bytes from 192.168.10.13: icmp_seq=4 ttl=64 time=0.218 ms
+64 bytes from 192.168.10.13: icmp_seq=5 ttl=64 time=0.232 ms
+
+--- 192.168.10.13 ping statistics ---
+5 packets transmitted, 5 received, 0% packet loss, time 4079ms
+rtt min/avg/max/mdev = 0.218/0.283/0.475/0.098 ms
+
+2022-04-27 20:28:29 - sshInstance.py - [line:50] - root - INFO - ifconfig ens43f0v1 | grep inet6
+2022-04-27 20:28:29 - sshInstance.py - [line:54] - root - INFO -         inet6 fe80::2e05:29aa:5707:4f1d  prefixlen 64  scopeid 0x20<link>
+
+2022-04-27 20:28:37 - sshInstance.py - [line:50] - root - INFO - ping6 -c 5 -I ens43f0v1 fe80::108:3008:65c4:a30e
+2022-04-27 20:28:41 - sshInstance.py - [line:54] - root - INFO - ping6: Warning: source address might be selected on device other than ens43f0v1.
+PING fe80::108:3008:65c4:a30e(fe80::108:3008:65c4:a30e) from :: ens43f0v1: 56 data bytes
+64 bytes from fe80::108:3008:65c4:a30e%ens43f0v1: icmp_seq=1 ttl=64 time=0.635 ms
+64 bytes from fe80::108:3008:65c4:a30e%ens43f0v1: icmp_seq=2 ttl=64 time=0.281 ms
+64 bytes from fe80::108:3008:65c4:a30e%ens43f0v1: icmp_seq=3 ttl=64 time=0.289 ms
+64 bytes from fe80::108:3008:65c4:a30e%ens43f0v1: icmp_seq=4 ttl=64 time=0.282 ms
+64 bytes from fe80::108:3008:65c4:a30e%ens43f0v1: icmp_seq=5 ttl=64 time=0.242 ms
+
+--- fe80::108:3008:65c4:a30e ping statistics ---
+5 packets transmitted, 5 received, 0% packet loss, time 4126ms
+rtt min/avg/max/mdev = 0.242/0.345/0.635/0.147 ms
+
+2022-04-27 20:28:46 - sshInstance.py - [line:188] - root - INFO - starting to delete network of ens43f0v2:
+2022-04-27 20:28:52 - sshInstance.py - [line:99] - root - INFO - nmcli connection delete ens43f0v2
+Error: unknown connection 'ens43f0v2'.
+Error: cannot delete unknown connection(s): 'ens43f0v2'.
+[root@npx-auto-SPR-quanta ~]# 
+[root@npx-auto-SPR-quanta ~]# 
+2022-04-27 20:28:55 - sshInstance.py - [line:190] - root - INFO - restart networkManager to make setting valid
+2022-04-27 20:29:01 - sshInstance.py - [line:99] - root - INFO - systemctl restart NetworkManager
+[root@npx-auto-SPR-quanta ~]# 
+[root@npx-auto-SPR-quanta ~]# 
+2022-04-27 20:29:04 - sshInstance.py - [line:194] - root - INFO - starting to add network of ens43f0v2:
+2022-04-27 20:29:10 - sshInstance.py - [line:99] - root - INFO - nmcli connection add type ethernet con-name ens43f00v2 ifname ens43f0v2
+Connection 'ens43f0v2' (452b4b22-201a-4636-9cbe-b040f147c915) successfully added.
+[root@npx-auto-SPR-quanta ~]# 
+[root@npx-auto-SPR-quanta ~]# 
+2022-04-27 20:29:13 - sshInstance.py - [line:197] - root - INFO - restart networkManager to make setting valid
+2022-04-27 20:29:19 - sshInstance.py - [line:99] - root - INFO - systemctl restart NetworkManager
+[root@npx-auto-SPR-quanta ~]# 
+[root@npx-auto-SPR-quanta ~]# 
+2022-04-27 20:29:25 - sshInstance.py - [line:50] - root - INFO - ifconfig ens43f0v2 192.168.10.14
+2022-04-27 20:29:25 - sshInstance.py - [line:54] - root - INFO - 
+2022-04-27 20:29:36 - sshInstance.py - [line:50] - root - INFO - ping -c 5 192.168.10.14
+2022-04-27 20:29:40 - sshInstance.py - [line:54] - root - INFO - PING 192.168.10.14 (192.168.10.14) 56(84) bytes of data.
+64 bytes from 192.168.10.14: icmp_seq=1 ttl=64 time=0.451 ms
+64 bytes from 192.168.10.14: icmp_seq=2 ttl=64 time=0.218 ms
+64 bytes from 192.168.10.14: icmp_seq=3 ttl=64 time=0.257 ms
+64 bytes from 192.168.10.14: icmp_seq=4 ttl=64 time=0.246 ms
+64 bytes from 192.168.10.14: icmp_seq=5 ttl=64 time=0.265 ms
+
+--- 192.168.10.14 ping statistics ---
+5 packets transmitted, 5 received, 0% packet loss, time 4084ms
+rtt min/avg/max/mdev = 0.218/0.287/0.451/0.084 ms
+
+2022-04-27 20:29:48 - sshInstance.py - [line:50] - root - INFO - ifconfig ens43f0v2 | grep inet6
+2022-04-27 20:29:48 - sshInstance.py - [line:54] - root - INFO -         inet6 fe80::328a:9789:b95f:4070  prefixlen 64  scopeid 0x20<link>
+
+2022-04-27 20:29:56 - sshInstance.py - [line:50] - root - INFO - ping6 -c 5 -I ens43f0v2 fe80::108:3008:65c4:a30e
+2022-04-27 20:30:01 - sshInstance.py - [line:54] - root - INFO - ping6: Warning: source address might be selected on device other than ens43f0v2.
+PING fe80::108:3008:65c4:a30e(fe80::108:3008:65c4:a30e) from :: ens43f0v2: 56 data bytes
+64 bytes from fe80::108:3008:65c4:a30e%ens43f0v2: icmp_seq=1 ttl=64 time=0.584 ms
+64 bytes from fe80::108:3008:65c4:a30e%ens43f0v2: icmp_seq=2 ttl=64 time=0.278 ms
+64 bytes from fe80::108:3008:65c4:a30e%ens43f0v2: icmp_seq=3 ttl=64 time=0.267 ms
+64 bytes from fe80::108:3008:65c4:a30e%ens43f0v2: icmp_seq=4 ttl=64 time=0.244 ms
+64 bytes from fe80::108:3008:65c4:a30e%ens43f0v2: icmp_seq=5 ttl=64 time=0.287 ms
+
+--- fe80::108:3008:65c4:a30e ping statistics ---
+5 packets transmitted, 5 received, 0% packet loss, time 4125ms
+rtt min/avg/max/mdev = 0.244/0.332/0.584/0.126 ms
+
+2022-04-27 20:30:06 - sshInstance.py - [line:188] - root - INFO - starting to delete network of ens43f0v3:
+2022-04-27 20:30:12 - sshInstance.py - [line:99] - root - INFO - nmcli connection delete ens43f0v3
+Error: unknown connection 'ens43f0v3'.
+Error: cannot delete unknown connection(s): 'ens43f0v3'.
+[root@npx-auto-SPR-quanta ~]# 
+[root@npx-auto-SPR-quanta ~]# 
+2022-04-27 20:30:15 - sshInstance.py - [line:190] - root - INFO - restart networkManager to make setting valid
+2022-04-27 20:30:21 - sshInstance.py - [line:99] - root - INFO - systemctl restart NetworkManager
+[root@npx-auto-SPR-quanta ~]# 
+[root@npx-auto-SPR-quanta ~]# 
+2022-04-27 20:30:24 - sshInstance.py - [line:194] - root - INFO - starting to add network of ens43f0v3:
+2022-04-27 20:30:30 - sshInstance.py - [line:99] - root - INFO - nmcli connection add type ethernet con-name ens43f00v3 ifname ens43f0v3
+Connection 'ens43f0v3' (f7631a8a-70ee-400f-9ad9-eeb161d425d5) successfully added.
+[root@npx-auto-SPR-quanta ~]# 
+[root@npx-auto-SPR-quanta ~]# 
+2022-04-27 20:30:33 - sshInstance.py - [line:197] - root - INFO - restart networkManager to make setting valid
+2022-04-27 20:30:39 - sshInstance.py - [line:99] - root - INFO - systemctl restart NetworkManager
+[root@npx-auto-SPR-quanta ~]# 
+[root@npx-auto-SPR-quanta ~]# 
+2022-04-27 20:30:45 - sshInstance.py - [line:50] - root - INFO - ifconfig ens43f0v3 192.168.10.15
+2022-04-27 20:30:45 - sshInstance.py - [line:54] - root - INFO - 
+2022-04-27 20:30:56 - sshInstance.py - [line:50] - root - INFO - ping -c 5 192.168.10.15
+2022-04-27 20:31:00 - sshInstance.py - [line:54] - root - INFO - PING 192.168.10.15 (192.168.10.15) 56(84) bytes of data.
+64 bytes from 192.168.10.15: icmp_seq=1 ttl=64 time=0.472 ms
+64 bytes from 192.168.10.15: icmp_seq=2 ttl=64 time=0.226 ms
+64 bytes from 192.168.10.15: icmp_seq=3 ttl=64 time=0.227 ms
+64 bytes from 192.168.10.15: icmp_seq=4 ttl=64 time=0.228 ms
+64 bytes from 192.168.10.15: icmp_seq=5 ttl=64 time=0.243 ms
+
+--- 192.168.10.15 ping statistics ---
+5 packets transmitted, 5 received, 0% packet loss, time 4081ms
+rtt min/avg/max/mdev = 0.226/0.279/0.472/0.097 ms
+
+2022-04-27 20:31:08 - sshInstance.py - [line:50] - root - INFO - ifconfig ens43f0v3 | grep inet6
+2022-04-27 20:31:08 - sshInstance.py - [line:54] - root - INFO -         inet6 fe80::9757:5c96:3a7f:841b  prefixlen 64  scopeid 0x20<link>
+
+2022-04-27 20:31:16 - sshInstance.py - [line:50] - root - INFO - ping6 -c 5 -I ens43f0v3 fe80::108:3008:65c4:a30e
+2022-04-27 20:31:20 - sshInstance.py - [line:54] - root - INFO - ping6: Warning: source address might be selected on device other than ens43f0v3.
+PING fe80::108:3008:65c4:a30e(fe80::108:3008:65c4:a30e) from :: ens43f0v3: 56 data bytes
+64 bytes from fe80::108:3008:65c4:a30e%ens43f0v3: icmp_seq=1 ttl=64 time=0.653 ms
+64 bytes from fe80::108:3008:65c4:a30e%ens43f0v3: icmp_seq=2 ttl=64 time=0.294 ms
+64 bytes from fe80::108:3008:65c4:a30e%ens43f0v3: icmp_seq=3 ttl=64 time=0.294 ms
+64 bytes from fe80::108:3008:65c4:a30e%ens43f0v3: icmp_seq=4 ttl=64 time=0.309 ms
+64 bytes from fe80::108:3008:65c4:a30e%ens43f0v3: icmp_seq=5 ttl=64 time=0.286 ms
+
+--- fe80::108:3008:65c4:a30e ping statistics ---
+5 packets transmitted, 5 received, 0% packet loss, time 4125ms
+rtt min/avg/max/mdev = 0.286/0.367/0.653/0.143 ms
+
+2022-04-27 20:31:25 - test_nics.py - [line:262] - root - INFO - deleting vf network for redhat.
+2022-04-27 20:31:25 - sshInstance.py - [line:188] - root - INFO - starting to delete network of ens43f0v0:
+2022-04-27 20:31:31 - sshInstance.py - [line:99] - root - INFO - nmcli connection delete ens43f0v0
+Connection 'ens43f0v0' (3bc968bd-034f-4986-9ad9-1d0d3a19a352) successfully deleted.
+[root@npx-auto-SPR-quanta ~]# 
+[root@npx-auto-SPR-quanta ~]# 
+2022-04-27 20:31:34 - sshInstance.py - [line:190] - root - INFO - restart networkManager to make setting valid
+2022-04-27 20:31:40 - sshInstance.py - [line:99] - root - INFO - systemctl restart NetworkManager
+[root@npx-auto-SPR-quanta ~]# 
+[root@npx-auto-SPR-quanta ~]# 
+2022-04-27 20:31:43 - test_nics.py - [line:262] - root - INFO - deleting vf network for redhat.
+2022-04-27 20:31:43 - sshInstance.py - [line:188] - root - INFO - starting to delete network of ens43f0v1:
+2022-04-27 20:31:49 - sshInstance.py - [line:99] - root - INFO - nmcli connection delete ens43f0v1
+Connection 'ens43f0v1' (8fdd7a98-a8e1-4a37-8a5d-7645e372d47c) successfully deleted.
+[root@npx-auto-SPR-quanta ~]# 
+[root@npx-auto-SPR-quanta ~]# 
+2022-04-27 20:31:52 - sshInstance.py - [line:190] - root - INFO - restart networkManager to make setting valid
+2022-04-27 20:31:58 - sshInstance.py - [line:99] - root - INFO - systemctl restart NetworkManager
+[root@npx-auto-SPR-quanta ~]# 
+[root@npx-auto-SPR-quanta ~]# 
+2022-04-27 20:32:01 - test_nics.py - [line:262] - root - INFO - deleting vf network for redhat.
+2022-04-27 20:32:01 - sshInstance.py - [line:188] - root - INFO - starting to delete network of ens43f0v2:
+2022-04-27 20:32:07 - sshInstance.py - [line:99] - root - INFO - nmcli connection delete ens43f0v2
+Connection 'ens43f0v2' (452b4b22-201a-4636-9cbe-b040f147c915) successfully deleted.
+[root@npx-auto-SPR-quanta ~]# 
+[root@npx-auto-SPR-quanta ~]# 
+2022-04-27 20:32:10 - sshInstance.py - [line:190] - root - INFO - restart networkManager to make setting valid
+2022-04-27 20:32:16 - sshInstance.py - [line:99] - root - INFO - systemctl restart NetworkManager
+[root@npx-auto-SPR-quanta ~]# 
+[root@npx-auto-SPR-quanta ~]# 
+2022-04-27 20:32:19 - test_nics.py - [line:262] - root - INFO - deleting vf network for redhat.
+2022-04-27 20:32:19 - sshInstance.py - [line:188] - root - INFO - starting to delete network of ens43f0v3:
+2022-04-27 20:32:25 - sshInstance.py - [line:99] - root - INFO - nmcli connection delete ens43f0v3
+Connection 'ens43f0v3' (f7631a8a-70ee-400f-9ad9-eeb161d425d5) successfully deleted.
+[root@npx-auto-SPR-quanta ~]# 
+[root@npx-auto-SPR-quanta ~]# 
+2022-04-27 20:32:28 - sshInstance.py - [line:190] - root - INFO - restart networkManager to make setting valid
+2022-04-27 20:32:34 - sshInstance.py - [line:99] - root - INFO - systemctl restart NetworkManager
+[root@npx-auto-SPR-quanta ~]# 
+[root@npx-auto-SPR-quanta ~]# 
+.2022-04-27 20:32:37 - test_nics.py - [line:73] - root - INFO - this is Test_Nics teardown
+2022-04-27 20:32:37 - test_nics.py - [line:75] - root - INFO - removing VF
+2022-04-27 20:32:40 - sshInstance.py - [line:50] - root - INFO - echo 0 > /sys/class/net/ens43f0/device/sriov_numvfs
+2022-04-27 20:32:48 - sshInstance.py - [line:54] - root - INFO - 
+2022-04-27 20:32:53 - test_nics.py - [line:83] - root - INFO - removing VF
+2022-04-27 20:32:56 - sshInstance.py - [line:50] - root - INFO - echo 0 > /sys/class/net/ens43f0/device/sriov_numvfs
+2022-04-27 20:32:56 - sshInstance.py - [line:54] - root - INFO - 
+2022-04-27 20:33:01 - test_nics.py - [line:86] - root - INFO - clean up network setting...
+2022-04-27 20:33:01 - test_nics.py - [line:88] - root - INFO - resetting pf of SUT for redhat...
+2022-04-27 20:33:01 - sshInstance.py - [line:188] - root - INFO - starting to delete network of ens43f0:
+2022-04-27 20:33:07 - sshInstance.py - [line:99] - root - INFO - nmcli connection delete ens43f0
+Connection 'ens43f0' (14592600-3e00-43bb-b1b5-f91e1b56c911) successfully deleted.
+[root@npx-auto-SPR-quanta ~]# 
+[root@npx-auto-SPR-quanta ~]# 
+2022-04-27 20:33:10 - sshInstance.py - [line:190] - root - INFO - restart networkManager to make setting valid
+2022-04-27 20:33:16 - sshInstance.py - [line:99] - root - INFO - systemctl restart NetworkManager
+[root@npx-auto-SPR-quanta ~]# 
+[root@npx-auto-SPR-quanta ~]# 
+2022-04-27 20:33:19 - sshInstance.py - [line:194] - root - INFO - starting to add network of ens43f0:
+2022-04-27 20:33:25 - sshInstance.py - [line:99] - root - INFO - nmcli connection add type ethernet con-name ens43f00 ifname ens43f0
+Connection 'ens43f0' (69f6ee1d-3a1e-4351-afd8-b564ae739a67) successfully added.
+[root@npx-auto-SPR-quanta ~]# 
+[root@npx-auto-SPR-quanta ~]# 
+2022-04-27 20:33:28 - sshInstance.py - [line:197] - root - INFO - restart networkManager to make setting valid
+2022-04-27 20:33:34 - sshInstance.py - [line:99] - root - INFO - systemctl restart NetworkManager
+[root@npx-auto-SPR-quanta ~]# 
+[root@npx-auto-SPR-quanta ~]# 
+2022-04-27 20:33:37 - test_nics.py - [line:97] - root - INFO - resetting pf of pkg generator for redhat...
+2022-04-27 20:33:37 - sshInstance.py - [line:188] - root - INFO - starting to delete network of ens785f0:
+2022-04-27 20:33:43 - sshInstance.py - [line:99] - root - INFO - nmcli connection delete ens785f0
+Connection 'ens785f0' (79618db1-87bf-4fa7-a386-2f9151d05d97) successfully deleted.
+[root@CYP10RT ~]# 
+[root@CYP10RT ~]# 
+2022-04-27 20:33:46 - sshInstance.py - [line:190] - root - INFO - restart networkManager to make setting valid
+2022-04-27 20:33:52 - sshInstance.py - [line:99] - root - INFO - systemctl restart NetworkManager
+[root@CYP10RT ~]# 
+[root@CYP10RT ~]# 
+2022-04-27 20:33:55 - sshInstance.py - [line:194] - root - INFO - starting to add network of ens785f0:
+2022-04-27 20:34:01 - sshInstance.py - [line:99] - root - INFO - nmcli connection add type ethernet con-name ens785f0 ifname enss785f0
+Connection 'ens785f0' (fe5d8b04-fff9-4da0-aa43-130a0f5afa32) successfully added.
+[root@CYP10RT ~]# 
+[root@CYP10RT ~]# 
+2022-04-27 20:34:04 - sshInstance.py - [line:197] - root - INFO - restart networkManager to make setting valid
+2022-04-27 20:34:10 - sshInstance.py - [line:99] - root - INFO - systemctl restart NetworkManager
+[root@CYP10RT ~]# 
+[root@CYP10RT ~]# 
+2022-04-27 20:34:13 - test_nics.py - [line:105] - root - INFO - dumping demsg.log to a file...
+2022-04-27 20:34:16 - sshInstance.py - [line:50] - root - INFO - dmesg > /tmp/dmesg.log
+2022-04-27 20:34:16 - sshInstance.py - [line:54] - root - INFO - 
+2022-04-27 20:34:21 - test_nics.py - [line:108] - root - INFO - copy dmesg.log from sut1 /tmp dir to controller dir /root/testconfig/testlogs/2022-04-27/test_gold_PI_Networking_SRIOV_CheckDevice_20_22_50
+2022-04-27 20:34:24 - sshInstance.py - [line:50] - root - INFO - rm -f /tmp/dmesg.log
+2022-04-27 20:34:24 - sshInstance.py - [line:54] - root - INFO - 
+2022-04-27 20:34:29 - test_nics.py - [line:110] - root - INFO - rm dmesg.log on sut1 /tmp dir
+2022-04-27 20:34:29 - sshInstance.py - [line:43] - root - INFO - closing ssh client on SUT
+2022-04-27 20:34:29 - NicTestFixture.py - [line:35] - root - INFO - ============================ end of run test_gold_PI_Networking_SRIOV_CheckDevice case ============================
+                                  [100%]
+
+=============================== warnings summary ===============================
+npxtester/Tests/testNics/test_iperf_client_4hour.py:116
+  /root/.jenkins/workspace/spr-test-nicGold/npxtester/Tests/testNics/test_iperf_client_4hour.py:116: PytestUnknownMarkWarning: Unknown pytest.mark.iperf_tcp - is this a typo?  You can register custom marks to avoid this warning - for details, see https://docs.pytest.org/en/stable/mark.html
+    @pytest.mark.iperf_tcp
+
+npxtester/Tests/testNics/test_iperf_client_4hour.py:169
+  /root/.jenkins/workspace/spr-test-nicGold/npxtester/Tests/testNics/test_iperf_client_4hour.py:169: PytestUnknownMarkWarning: Unknown pytest.mark.iperf_udp - is this a typo?  You can register custom marks to avoid this warning - for details, see https://docs.pytest.org/en/stable/mark.html
+    @pytest.mark.iperf_udp
+
+npxtester/Tests/testNics/test_mtu.py:102
+  /root/.jenkins/workspace/spr-test-nicGold/npxtester/Tests/testNics/test_mtu.py:102: PytestUnknownMarkWarning: Unknown pytest.mark.nicSimple - is this a typo?  You can register custom marks to avoid this warning - for details, see https://docs.pytest.org/en/stable/mark.html
+    @pytest.mark.nicSimple
+
+npxtester/Tests/testNics/test_mtu.py:141
+  /root/.jenkins/workspace/spr-test-nicGold/npxtester/Tests/testNics/test_mtu.py:141: PytestUnknownMarkWarning: Unknown pytest.mark.nicSimple - is this a typo?  You can register custom marks to avoid this warning - for details, see https://docs.pytest.org/en/stable/mark.html
+    @pytest.mark.nicSimple
+
+npxtester/Tests/testNics/test_network_sriov_stress.py:617
+  /root/.jenkins/workspace/spr-test-nicGold/npxtester/Tests/testNics/test_network_sriov_stress.py:617: PytestUnknownMarkWarning: Unknown pytest.mark.nicSriov5times - is this a typo?  You can register custom marks to avoid this warning - for details, see https://docs.pytest.org/en/stable/mark.html
+    @pytest.mark.nicSriov5times
+
+npxtester/Tests/testNics/test_network_sriov_stress.py:744
+  /root/.jenkins/workspace/spr-test-nicGold/npxtester/Tests/testNics/test_network_sriov_stress.py:744: PytestUnknownMarkWarning: Unknown pytest.mark.nicSriov2hours - is this a typo?  You can register custom marks to avoid this warning - for details, see https://docs.pytest.org/en/stable/mark.html
+    @pytest.mark.nicSriov2hours
+
+npxtester/Tests/testNics/test_network_sriov_stress.py:984
+  /root/.jenkins/workspace/spr-test-nicGold/npxtester/Tests/testNics/test_network_sriov_stress.py:984: PytestUnknownMarkWarning: Unknown pytest.mark.SriovVfIperf - is this a typo?  You can register custom marks to avoid this warning - for details, see https://docs.pytest.org/en/stable/mark.html
+    @pytest.mark.SriovVfIperf
+
+npxtester/Tests/testNics/test_network_sriov_stress.py:1123
+  /root/.jenkins/workspace/spr-test-nicGold/npxtester/Tests/testNics/test_network_sriov_stress.py:1123: PytestUnknownMarkWarning: Unknown pytest.mark.nicIperfTcpSUTGuestStress - is this a typo?  You can register custom marks to avoid this warning - for details, see https://docs.pytest.org/en/stable/mark.html
+    @pytest.mark.nicIperfTcpSUTGuestStress
+
+npxtester/Tests/testNics/test_network_sriov_stress.py:1124
+  /root/.jenkins/workspace/spr-test-nicGold/npxtester/Tests/testNics/test_network_sriov_stress.py:1124: PytestUnknownMarkWarning: Unknown pytest.mark.SriovVfIperf - is this a typo?  You can register custom marks to avoid this warning - for details, see https://docs.pytest.org/en/stable/mark.html
+    @pytest.mark.SriovVfIperf
+
+npxtester/Tests/testNics/test_nics.py:119
+  /root/.jenkins/workspace/spr-test-nicGold/npxtester/Tests/testNics/test_nics.py:119: PytestUnknownMarkWarning: Unknown pytest.mark.nicSimple - is this a typo?  You can register custom marks to avoid this warning - for details, see https://docs.pytest.org/en/stable/mark.html
+    @pytest.mark.nicSimple
+
+npxtester/Tests/testNics/test_nics.py:156
+  /root/.jenkins/workspace/spr-test-nicGold/npxtester/Tests/testNics/test_nics.py:156: PytestUnknownMarkWarning: Unknown pytest.mark.nicSimple - is this a typo?  You can register custom marks to avoid this warning - for details, see https://docs.pytest.org/en/stable/mark.html
+    @pytest.mark.nicSimple
+
+npxtester/Tests/testNics/test_nics.py:157
+  /root/.jenkins/workspace/spr-test-nicGold/npxtester/Tests/testNics/test_nics.py:157: PytestUnknownMarkWarning: Unknown pytest.mark.connect - is this a typo?  You can register custom marks to avoid this warning - for details, see https://docs.pytest.org/en/stable/mark.html
+    @pytest.mark.connect
+
+npxtester/Tests/testNics/test_nics.py:189
+  /root/.jenkins/workspace/spr-test-nicGold/npxtester/Tests/testNics/test_nics.py:189: PytestUnknownMarkWarning: Unknown pytest.mark.nicSimple - is this a typo?  You can register custom marks to avoid this warning - for details, see https://docs.pytest.org/en/stable/mark.html
+    @pytest.mark.nicSimple
+
+npxtester/Tests/testNics/test_nics.py:190
+  /root/.jenkins/workspace/spr-test-nicGold/npxtester/Tests/testNics/test_nics.py:190: PytestUnknownMarkWarning: Unknown pytest.mark.static_ip - is this a typo?  You can register custom marks to avoid this warning - for details, see https://docs.pytest.org/en/stable/mark.html
+    @pytest.mark.static_ip
+
+npxtester/Tests/testNics/test_nics.py:221
+  /root/.jenkins/workspace/spr-test-nicGold/npxtester/Tests/testNics/test_nics.py:221: PytestUnknownMarkWarning: Unknown pytest.mark.nicSimple - is this a typo?  You can register custom marks to avoid this warning - for details, see https://docs.pytest.org/en/stable/mark.html
+    @pytest.mark.nicSimple
+
+npxtester/Tests/testNics/test_nics.py:222
+  /root/.jenkins/workspace/spr-test-nicGold/npxtester/Tests/testNics/test_nics.py:222: PytestUnknownMarkWarning: Unknown pytest.mark.test - is this a typo?  You can register custom marks to avoid this warning - for details, see https://docs.pytest.org/en/stable/mark.html
+    @pytest.mark.test
+
+npxtester/Tests/testNics/test_nics.py:308
+  /root/.jenkins/workspace/spr-test-nicGold/npxtester/Tests/testNics/test_nics.py:308: PytestUnknownMarkWarning: Unknown pytest.mark.nicSimple - is this a typo?  You can register custom marks to avoid this warning - for details, see https://docs.pytest.org/en/stable/mark.html
+    @pytest.mark.nicSimple
+
+npxtester/Tests/testNics/test_nics.py:334
+  /root/.jenkins/workspace/spr-test-nicGold/npxtester/Tests/testNics/test_nics.py:334: PytestUnknownMarkWarning: Unknown pytest.mark.nicSimple - is this a typo?  You can register custom marks to avoid this warning - for details, see https://docs.pytest.org/en/stable/mark.html
+    @pytest.mark.nicSimple
+
+npxtester/Tests/testNics/test_nics.py:377
+  /root/.jenkins/workspace/spr-test-nicGold/npxtester/Tests/testNics/test_nics.py:377: PytestUnknownMarkWarning: Unknown pytest.mark.nicSimple - is this a typo?  You can register custom marks to avoid this warning - for details, see https://docs.pytest.org/en/stable/mark.html
+    @pytest.mark.nicSimple
+
+-- Docs: https://docs.pytest.org/en/stable/warnings.html
+- generated html file: file:///root/testconfig/testlogs/HtmlReport/nicGold_report.html -
+========== 4 passed, 16 deselected, 19 warnings in 2237.18s (0:37:17) ==========
+[8mha:////4DDaF6xD1n97fCJC17HEPtC4MvFSxjBMoUPdpyGs71EZAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIioEIoFa3lhheYxBgn1l2wHZyKF/E1/oBFJCq2WO1sM683LIOHmr3BTlNvKTQWBzeavDCx76+OE3Z8wYYpsNModZLc6tOMkqOGOUUJCwErTY3jYMlEWItOPVTlFJnqHH3+jgJK297hCYXI5qh8/MLkYXMb28D08/wVwDREKHeHXPvt8AGMzKKgvgAAAA==[0m[Pipeline] echo
+0
+[8mha:////4JdwCG2vyNU1vR63Cq0h1I9fweuZdBzoUYFbNZMa07ZpAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIihQohqrRWGl5gYmOcWHfGdkgqXsTX+AMWkajYYrWzzbzesI4BThwM9poGS7Gz6N1o8sKJw3B1PGHPF+yYIjuNrZ5aVrpZsOWkYUlRwkrARlPnOFoyCbailw9ZOUmmOqeQv6OA0qo7PKEQ2ZxkSF+YA+xuo4pMP89fAcw+QVkfcu1r/wFPn4+LvgAAAA==[0m[Pipeline] sh
++ sed -i $'s/\r//g' /root/.jenkins/workspace/spr-test-nicGold/npxtester/log_analyzer/log_analyzer.sh
+[8mha:////4J0lAWMm8HuBR5s3oE3lokuIt9KB2+AHQUkjEiJ+aQGpAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPMKRSIUQVVorDS8w8WGcWHfGdkgqXsTX+AMWkajYYrWzzbzesI4BThyM6JEGS7GzwrvR5CUmDsPV8SR6voiOKbJD0eLUssZmwZYTwpKihJWEDVLnOFoyCbayVw9VOUWmOqeQv6OE0uo7PKGQ2ZxUSF+YA+xuo45MP89fAcw+Qbk/5Kpr/wEOrpSSvgAAAA==[0m[Pipeline] sh
++ chmod a+x /root/.jenkins/workspace/spr-test-nicGold/npxtester/log_analyzer/log_analyzer.sh
+[8mha:////4Mt0DSsxkJzZfVcF7hGhEOllvDy/ttdaA/Rf0YiZvcahAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiAQ1CqWgtN7zAJMY4se6C7eBUvIiv8QcsIlGxxWpnm3m9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKYhQrk95Nrthw/JONXdvgAAAA==[0m[Pipeline] sh
++ sh /root/.jenkins/workspace/spr-test-nicGold/npxtester/log_analyzer/log_analyzer.sh
+[8mha:////4BJ3niM699yfMaO4XlYckMNVxHBxF/A/6tXrT01aXGOTAAAAph+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIigSgQSkVrueEFJjHGiXUXbAen4kV8jT9gEYmKLVY728zrDcvgoWZvsNPUWwqNxcGNJi9M7Pur44QdX7BhCuw0Sp0kt/o0o+SoYU5RwkLASlPjOFgyEdaiUw9VOUWmOkefv6OA0rZ3eEIhsjkqH78wedjcxjYw/Tx/BTANQ4Ryt8+1PXwARMxJg74AAAA=[0m[Pipeline] }
+[8mha:////4KLOGR+83vgrLFidGueNeEu4h+87+yS5qW1q0kigPKEkAAAAph+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIigYSQUCpayw0vMIkxTqy7YDs4FS/ia/wBi0hUbLHa2WZeb1gGDzV7g52m3lJoLA5uNHlhYt9fHSfs+IINU2CnUeokudWnGSVHDXOKEhYCVpoax8GSibAWnXqoyiky1Tn6/B0FlLa9wxMKkc1R+fiFycPmNraB6ef5K4BpGCKUu32u7eEDfI7acr4AAAA=[0m[Pipeline] // script
+[8mha:////4B/bjeg5xruNbbx3kITLupXWvVAJcKllvbrOrw34K5MTAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiQZECUaW10vACExvjxLoztkNS8SK+xh+wiETFFqudbeb1hnUMcOJgsNc0WIqdRe9GkxdOHIar4wl7vmDHFNlpbPXUstLNgi0nDUuKElYCNpo6x9GSSbAVvXzIykky1TmF/B0FlFbd4QmFyOYkQ/rCHGB3G1Vk+nn+CmD2PkF5qHPt6w9IQDkpvgAAAA==[0m[Pipeline] }
+[8mha:////4Pysn2p6Cuaw38A5WKCzX3hZbaQrVsudvseeZZRTcVjBAAAAph+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIigYSQUCpayw0vMIkxTqy7YDs4FS/ia/wBi0hUbLHa2WZeb1gGDzV7g52m3lJoLA5uNHlhYt9fHSfs+IINU2CnUeokudWnGSVHDXOKEhYCVpoax8GSibAWnXqoyiky1Tn6/B0FlLa9wxMKkc1R+fiFycPmNraB6ef5K4BpGCKUu0Ou7f4DC8Jor74AAAA=[0m[Pipeline] // stage
+[8mha:////4AtNwyaW/AZqBd3OKxZrkWfAC6zB3HxngMFQ9sJmqFs1AAAAox+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIpoEGIitZKwwtMYowT6y7YF5KKF/E1/kBEJCq22plmXm8sU8SRo1ONpdZTqrzqQu+mpwaO7TXwoBq+qIopcbCqtEPJtT3NWLJYzMtyLDRWlqrAyZMTrHVjHqYIhlxxlji5g0bu6zueyPRUFhPlC2PE5tbXienX+RvA2HWCfLsXZLsP/+idkr0AAAA=[0m[Pipeline] }
+[8mha:////4I5dJP3UyABwbWbQZBRGWAtgfXC/GfHsQ3SW1rlV0+rIAAAAox+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMJBgg5R0VppeIFJjHFi3QX7QlLxIr7GH4iIRMVWO9PM641lijhydKqx1HpKlVdd6N301MCxvQYeVMMXVTElDlaVdii5tqcZSxaLeVmOhcbKUhU4eXKCtW7MwxTBkCvOEid30Mh9fccTmZ7KYqJ8YYzY3Po6Mf06fwMYu06Q77eCbPcBlS/sHL0AAAA=[0m[Pipeline] // node
+[8mha:////4OCxxHdXTRYePL6pNSOSjI/nVmiKF6Ardumg4UkWHzykAAAAox+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIRiA5R0VppeIFJjHFi3QX7QlLxIr7GH4iIRMVWO9PM641lijhydKqx1HpKlVdd6N301MCxvQYeVMMXVTElDlaVdii5tqcZSxaLeVmOhcbKUhU4eXKCtW7MwxTBkCvOEid30Mh9fccTmZ7KYqJ8YYzY3Po6Mf06fwMYu06Q77eCbPcBszaLVr0AAAA=[0m[Pipeline] End of Pipeline
+Finished: SUCCESS

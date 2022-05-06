@@ -24,12 +24,23 @@
   <description></description>
   <keepDependencies>false</keepDependencies>
   <properties>
+    <hudson.security.AuthorizationMatrixProperty>
+      <inheritanceStrategy class="org.jenkinsci.plugins.matrixauth.inheritance.InheritParentStrategy"/>
+      <permission>hudson.model.Item.Build:authenticated</permission>
+      <permission>hudson.model.Item.Cancel:authenticated</permission>
+      <permission>hudson.model.Item.Configure:authenticated</permission>
+      <permission>hudson.model.Item.Discover:authenticated</permission>
+      <permission>hudson.model.Item.Move:authenticated</permission>
+      <permission>hudson.model.Item.Read:authenticated</permission>
+      <permission>hudson.model.Item.Workspace:authenticated</permission>
+      <permission>hudson.model.Run.Update:authenticated</permission>
+    </hudson.security.AuthorizationMatrixProperty>
     <hudson.model.ParametersDefinitionProperty>
       <parameterDefinitions>
         <hudson.model.StringParameterDefinition>
           <name>token</name>
           <description>git token</description>
-          <defaultValue>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</defaultValue>
+          <defaultValue>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</defaultValue>
           <trim>false</trim>
         </hudson.model.StringParameterDefinition>
         <hudson.model.StringParameterDefinition>
@@ -41,7 +52,7 @@
         <hudson.model.StringParameterDefinition>
           <name>sut1_ip</name>
           <description>测试机IP</description>
-          <defaultValue>10.239.183.130</defaultValue>
+          <defaultValue>10.239.182.80</defaultValue>
           <trim>false</trim>
         </hudson.model.StringParameterDefinition>
         <hudson.model.StringParameterDefinition>
@@ -53,19 +64,13 @@
         <hudson.model.StringParameterDefinition>
           <name>os</name>
           <description>测试机器系统:RHEL or UBUNTU</description>
-          <defaultValue>UBUNTU</defaultValue>
+          <defaultValue>RHEL</defaultValue>
           <trim>false</trim>
         </hudson.model.StringParameterDefinition>
         <hudson.model.StringParameterDefinition>
           <name>sut1_pf1</name>
           <description>sut1 pf</description>
-          <defaultValue>ens4f0</defaultValue>
-          <trim>false</trim>
-        </hudson.model.StringParameterDefinition>
-        <hudson.model.StringParameterDefinition>
-          <name>dpdk_dir</name>
-          <description>dpdk路径</description>
-          <defaultValue>/root/dpdk-stable-20.11.3/</defaultValue>
+          <defaultValue>ens43f0</defaultValue>
           <trim>false</trim>
         </hudson.model.StringParameterDefinition>
         <hudson.model.StringParameterDefinition>
@@ -81,9 +86,9 @@
           <trim>false</trim>
         </hudson.model.StringParameterDefinition>
         <hudson.model.StringParameterDefinition>
-          <name>drive_version</name>
-          <description>drive 版本号</description>
-          <defaultValue>5.15.0-1005-realtime</defaultValue>
+          <name>dpdk_dir</name>
+          <description>dpdk路径</description>
+          <defaultValue>/opt/APP/utility/DPDK_install/dpdk-22.03</defaultValue>
           <trim>false</trim>
         </hudson.model.StringParameterDefinition>
         <hudson.model.StringParameterDefinition>
@@ -92,12 +97,18 @@
           <defaultValue>100</defaultValue>
           <trim>false</trim>
         </hudson.model.StringParameterDefinition>
+        <hudson.model.StringParameterDefinition>
+          <name>drive_version</name>
+          <description>drive 版本号</description>
+          <defaultValue>4.18.0-369.el8.x86_64</defaultValue>
+          <trim>false</trim>
+        </hudson.model.StringParameterDefinition>
       </parameterDefinitions>
     </hudson.model.ParametersDefinitionProperty>
     <org.jenkinsci.plugins.workflow.job.properties.PipelineTriggersJobProperty>
       <triggers>
         <hudson.triggers.TimerTrigger>
-          <spec>H 21 * * *</spec>
+          <spec>H 10 * * *</spec>
         </hudson.triggers.TimerTrigger>
       </triggers>
     </org.jenkinsci.plugins.workflow.job.properties.PipelineTriggersJobProperty>
@@ -108,16 +119,16 @@
         label &apos;controller-j&apos;
     }
     parameters {
-        string defaultValue: &apos;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&apos;, description: &apos;git token&apos;, name: &apos;token&apos;, trim: false
+        string defaultValue: &apos;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&apos;, description: &apos;git token&apos;, name: &apos;token&apos;, trim: false
         string defaultValue: &apos;github.com/intel-innersource/applications.validation.network-platform.npxtester.git&apos;, description: &apos;github repo url&apos;, name: &apos;git_repo_url&apos;, trim: false
-        string defaultValue: &apos;10.239.183.130&apos;, description: &apos;测试机IP&apos;, name: &apos;sut1_ip&apos;, trim: false
+        string defaultValue: &apos;10.239.182.80&apos;, description: &apos;测试机IP&apos;, name: &apos;sut1_ip&apos;, trim: false
         string defaultValue: &apos;rp&apos;, description: &apos;board_type of SUT1&apos;, name: &apos;board_type&apos;, trim: false
-	    string defaultValue: &apos;UBUNTU&apos;, description: &apos;测试机器系统:RHEL or UBUNTU&apos;, name: &apos;os&apos;, trim: false
-	    string defaultValue: &apos;ens4f0&apos;, description: &apos;sut1 pf&apos;, name: &apos;sut1_pf1&apos;, trim: false
-        string defaultValue: &apos;/root/dpdk-stable-20.11.3/&apos;, description: &apos;dpdk路径&apos;, name: &apos;dpdk_dir&apos;, trim: false
+	    string defaultValue: &apos;RHEL&apos;, description: &apos;测试机器系统:RHEL or UBUNTU&apos;, name: &apos;os&apos;, trim: false
+	    string defaultValue: &apos;ens43f0&apos;, description: &apos;sut1 pf&apos;, name: &apos;sut1_pf1&apos;, trim: false
+        string defaultValue: &apos;/opt/APP/utility/DPDK_install/dpdk-22.03&apos;, description: &apos;dpdk路径&apos;, name: &apos;dpdk_dir&apos;, trim: false
         string defaultValue: &apos;10.239.182.88&apos;, description: &apos;发报机IP&apos;, name: &apos;sut2_ip&apos;, trim: false
         string defaultValue: &apos;ens785f0&apos;, description: &apos;发报机网口名称&apos;, name: &apos;sut2_pf1&apos;, trim: false
-        string defaultValue: &apos;5.15.0-1005-realtime&apos;, description: &apos;drive 版本号&apos;, name: &apos;drive_version&apos;, trim: false
+        string defaultValue: &apos;4.18.0-369.el8.x86_64&apos;, description: &apos;drive 版本号&apos;, name: &apos;drive_version&apos;, trim: false
         string defaultValue: &apos;100&apos;, description: &apos;4*25 or 100 or 2*100&apos;, name: &apos;PF1_NIC_type&apos;, trim: false
     }
     stages{

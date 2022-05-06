@@ -1,0 +1,566 @@
+Started by timer
+Running in Durability level: MAX_SURVIVABILITY
+[8mha:////4DOlrZhma2TKYqx8mtRBwGXVE8Xt4z3OJyo/zi+ICDdzAAAAoh+LCAAAAAAAAP9tjTEOwjAQBM8BClpKHuFItIiK1krDC0x8GCfWnbEdkooX8TX+gCESFVvtrLSa5wtWKcKBo5UdUu8otU4GP9jS5Mixv3geZcdn2TIl9igbHBs2eJyx4YwwR1SwULBGaj0nRzbDRnX6rmuvydanHMu2V1A5c4MHCFXMWcf8hSnC9jqYxPTz/BXAFEIGsfuclm8zQVqFvQAAAA==[0m[Pipeline] Start of Pipeline
+[8mha:////4B4K7nOhvaaLmbeE3w0NEhE1GAALwLDjakw9plXgkY6XAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycohUghExsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jduZBmjwAAAAA==[0m[Pipeline] node
+Still waiting to schedule task
+Waiting for next available executor on ‘[8mha:////4C8PgMHPegRpCg8+HpIiIHK02uxvuQktJylkqRHkJagNAAAAox+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzeEgYJ/eT83ILSktQiICOvpCg/Jye1SNfSUh8ABjlyb80AAAA=[0mcontroller-99’
+Running on [8mha:////4C8PgMHPegRpCg8+HpIiIHK02uxvuQktJylkqRHkJagNAAAAox+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzeEgYJ/eT83ILSktQiICOvpCg/Jye1SNfSUh8ABjlyb80AAAA=[0mcontroller-99 in /root/.jenkins/workspace/icx-d-test-nic-driveinstalluninstall
+[8mha:////4NUxBMzN6CtFAbQ4pdo7pH8ZuwVHigLf0SdP3FcjQTwyAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gA0xsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jfoP95RwAAAAA==[0m[Pipeline] {
+[8mha:////4OCB1+Up79PmV3LnMeomKr9r+JFCKkFjAfTpr2UorbLOAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gQkxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jc09154wAAAAA==[0m[Pipeline] stage
+[8mha:////4N6KQN35K8CT/Pcr9a+R4oOEu4uEh3phvpB1t67zd2hmAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0ggUxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jek7ggRwAAAAA==[0m[Pipeline] { (rm project dir)
+[8mha:////4EWjgIQS1R18e39T6LdOu3ZpSMSXMburmKwxJHd8e163AAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gwExsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jcChmMxwAAAAA==[0m[Pipeline] script
+[8mha:////4NOJ/YVWDlnnBpjDdLKlLZkF5LrR387vblsx7fWhZkPlAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0BAkxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jfpX/cvwAAAAA==[0m[Pipeline] {
+[8mha:////4MAm0moKTc8Eo2PcB0LgkHNHI7Xtf5Poej2Mf/l8xh/lAAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQTbaoyVLaHxBMgiwpL/WWDdrTyRV/MOEjexcpJJ5k3zXm9Y5wQnSpZ7g73DrB2PYbR18YlSfws0cU9XrgkzBcOlmSR15rygpGJgCWtgJWBjUAfKDm2BrfDqodqg0LaXkup3FNC4boAnMFHNRaXyhTnB7j52mfDn+SuAORZg+9pD/AAeoCAqvAAAAA==[0m[Pipeline] sh
++ ls /root/.jenkins/workspace/icx-d-test-nic-driveinstalluninstall/npxtester
+1.0.0.0001.version
+conf
+installation
+libs
+log_analyzer
+README.md
+testconf
+testLibs
+Tests
+[8mha:////4F3BY6hez6Yn9lSF4dYULOlz4RwK0Fdsp1OYWtj0vxDtAAAAox+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMKBDglR0VppeIFJjHFi3QX7QlLxIr7GH4iIRMVWO9PM641lijhydKqx1HpKlVdd6N301MCxvQYeVMMXVTElDlaVdii5tqcZSxaLeVmOhcbKUhU4eXKCtW7MwxTBkCvOEid30Mh9fccTmZ7KYqJ8YYzY3Po6Mf06fwMYO0G2F+S7bfcBITL9lL0AAAA=[0m[Pipeline] echo
+dir is exists and rm dir
+[8mha:////4KL1cTFlC/t8/0LRf71hJwxXIUFLIMviWtcIHXR2W8epAAAAox+LCAAAAAAAAP9tjbEOgjAURS8YB1dHP6KEzcQ4uTYsfkGFWgvNe9g+hMkv8tf8B4kkTt7pnrOc1xvrFHHk6FRrqfOUaq/6MLj5qZFjdw08qpYvqmZKHKyq7FhxY08LViwWy7IcK42NpTpw8uQEW92ahymCIVecJc7uoJH75o4nMj2XxUT5whSxuw1NYvp1/gYw9YJsL8jLsv8AYAPmjb0AAAA=[0m[Pipeline] sh
++ rm -rf /root/.jenkins/workspace/icx-d-test-nic-driveinstalluninstall/npxtester
+[8mha:////4GzJynz9IX3CLl34e/1JpYOeLz7FDsqMtIihCtFGqNpZAAAAox+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIRVEiIitZKwwtMYowT6y7YF5KKF/E1/kBEJCq22plmXm8sU8SRo1ONpdZTqrzqQu+mpwaO7TXwoBq+qIopcbCqtEPJtT3NWLJYzMtyLDRWlqrAyZMTrHVjHqYIhlxxlji5g0bu6zueyPRUFhPlC2PE5tbXienX+RvA2HWCfLsTZPsPzjQzob0AAAA=[0m[Pipeline] }
+[8mha:////4MvApYhNLg1xEFG2iXyHCog7Z9h4MbdAsNSDoK4wJnDgAAAApB+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIRoqBAVLRWGl5gEmOcWHfBvpBUvIiv8QciIlGx1c4083pjmSKOHJ1qLLWeUuVVF3o3PTVwbK+BB9XwRVVMiYNVpR1Kru1pxpLFYl6WY6GxslQFTp6cYK0b8zBFMOSKs8TJHTRyX9/xRKanspgoXxgjNre+Tky/zt8Axq4T5NudINt/AO8A7Ay9AAAA[0m[Pipeline] // script
+[8mha:////4P1g47DHQeYIMdAQPrqVFJW5XTEYSJkMqP0k+p1upCWxAAAApB+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIREqJBVLRWGl5gEmOcWHfBvpBUvIiv8QciIlGx1c4083pjmSKOHJ1qLLWeUuVVF3o3PTVwbK+BB9XwRVVMiYNVpR1Kru1pxpLFYl6WY6GxslQFTp6cYK0b8zBFMOSKs8TJHTRyX9/xRKanspgoXxgjNre+Tky/zt8Axq4T5NudINt/AGnsy8m9AAAA[0m[Pipeline] }
+[8mha:////4Lc6WrLYEiiAC7rTWY8q4RQPGu1FD+hrgClvEqpzcg2sAAAAox+LCAAAAAAAAP9tjTESgjAQRT84FraWHiKMBZVjZZuh8QQRYgxkdjFZhMoTeTXvICMzVv7qv9e81xvrFHHk6FRrqfOUaq/6MLj5qZFjdw08qpYvqmZKHKyq7FhxY08LViwWy7IcK42NpTpw8uQEW92ahymCIVecJc7uoJH75o4nMj2XxUT5whSxuw1NYvp1/gYw9b0g35eCrPwAY5Sibb0AAAA=[0m[Pipeline] // stage
+[8mha:////4LPzYIRsJlP9vBl87WR2FbvV5590n9jZkqHCRBijPEs5AAAApx+LCAAAAAAAAP9tjTEOwjAQBM9BKWgpeYQjJESDqGgtN7zAxMY4se6CfSGpeBFf4w8EIlGx1c5Kq3m+oMwJDpS8bBy2AXMdZBd7PzU5UGovkQbZ0FnWhJmik9oNmqw7zqiJHcwRBSwULB3WkXJAz7BSjbmbKhr01YnTtO0VFMHe4AFCTWY2ib8wJlhfe5sJf56/Ahg7BrFlKDa7z7F8A6sHc4fBAAAA[0m[Pipeline] stage
+[8mha:////4P0yjWfQiEwQxZO7i9obwDXrYwQclNR3i//1CTGbFwBFAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohULDAgpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD1+IXOLCAAAA[0m[Pipeline] { (clone)
+[8mha:////4I3tKNYAz7At397ZkNOs6SFwEn2bzn3ZBhsoegW1dhRwAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiKpAQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGPIUG53n9qHNxXfVKy+AAAA[0m[Pipeline] sh
++ git clone -b develop https://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@github.com/intel-innersource/applications.validation.network-platform.npxtester.git npxtester
+Cloning into 'npxtester'...
+[8mha:////4CRWXV91kUhqh2bTVXI+2n5U32cQ89nJ7yub5blKQ29bAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiKoQQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGMIGcrt/lO7N9Jjga++AAAA[0m[Pipeline] }
+[8mha:////4I4ZVrOFMvh2sVfxnfT9s6+paGHoH9OzkxEwdR4h+nRDAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOICFDQoFa3lhheYxBgn1l2wHZyKF/E1/oBFJCq2WO1sM683LIOHmr3BTlNvKTQWBzeavDCx76+OE3Z8wYYpsNModZLc6tOMkqOGOUUJCwErTY3jYMlEWItOPVTlFJnqHH3+jgJK297hCYXI5qh8/MLkYXMb28D08/wVwDQMEcr9Ntfu8AERGGHOvgAAAA==[0m[Pipeline] // stage
+[8mha:////4J4BpfnRrLE6odVrNZGgZ11wIRy0HYHBalvcHAcD12j/AAAAph+LCAAAAAAAAP9tjTEOwjAQBM9BKWgpeYQjEB2iorXc8AITG+PEugv2haTiRXyNPxCIRMVWOyut5vmCMic4UPKycdgGzHWQXez91ORAqb1EGmRDZ1kTZopOajdosu44oyZ2MEcUsFCwdFhHygE9w0o15m6qaNBXJ07TtldQBHuDBwg1mdkk/sKYYH3tbSb8ef4KYOwYxI6h2G4+x/INji2eq8EAAAA=[0m[Pipeline] stage
+[8mha:////4AgPhGmio4pMNzq5gItmuDxswb3P5dwyIofUIBdMXBTmAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+DOrAycohUdEVMrFEXThCaEJJG/7dJSjpxIq7GHWipxIQHy7ZkvdcbyhjgRMFwp7GzGFvLez+aOfFMobt5ytzRlbeEkbzmjc4NKX1ea0NJw6qCwUbAVmPrKVo0CXbCyYesvERTXVKYt6MAZtUATyjETE4ypG+ZAuzvo4qEP85fAEx9AlYfFquXZ/kBAsTc3cIAAAA=[0m[Pipeline] { (set args)
+[8mha:////4G9dxluK5ut2lxdfo2JVi6OIov1ZH/881VUFzuPzanonAAAAox+LCAAAAAAAAP9tjTESwiAURH/iWNhaeggyE0vHypah8QSYIEKY/wkQSeWJvJp3EM2MlVvs7NvmPV+wjgGOFDSzCgeDsTPMu0mXxTKF4eooM0sX1hFGcooJlQX16rSgoKRgSVXDisNGYecoGtQJttzKu2ycRN2cUyjfgUNt+hEeUPFiTjKkL8wBdrepj4Q/z18BzD5B3baf2vs3w5BRkb4AAAA=[0m[Pipeline] sh
++ python /root/.jenkins/workspace/icx-d-test-nic-driveinstalluninstall/npxtester/conf/change_args.py '{"sut_conf":{"host":"10.239.115.71","pf1":"enp137s0f0"},"drive_info":{"drive_tar_path":"/opt/APP/driver/ice/ice-1.7.19.tar.gz","drive_name":"ice","drive_version":"1.7.19"}}'
+[8mha:////4FhUQONKPXFSeOjFO92QKbtxv93cUzSuhB7hx3xoWX6KAAAApB+LCAAAAAAAAP9tjbEOwiAURV9rHFwd/QiaNG7GyZWw+AXYIkLJexSodPKL/DX/QbSJk3e4uecu5/mCdQxwpKCZVTgYjJ1h3k26LJYpDFdHmVm6sI4wklNMqCyoV6cFBSUFS6oaVhw2CjtH0aBOsOVW3mXjJOrmnEL5Dhxq04/wgIoXc5IhfWEOsLtNfST8ef4KYPY+Qd3uP9W+Ad3NsHm+AAAA[0m[Pipeline] }
+[8mha:////4EpM1Tihe33kOTBucrClpdwMCq1FF6wGwTU/AEOZmYaNAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIikKgQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGMIGcrd/lPbN8JP5Su+AAAA[0m[Pipeline] // stage
+[8mha:////4JJk4NQMkVX21N+ktknOqKLQw+FD2VU/fvD8dhBPuambAAAApx+LCAAAAAAAAP9tjTEOwjAQBM9BKWgpeYQjIUSDqGgtN7zAxMY4se6CfSGpeBFf4w8EIlGx1c5Kq3m+oMwJDpS8bBy2AXMdZBd7PzU5UGovkQbZ0FnWhJmik9oNmqw7zqiJHcwRBSwULB3WkXJAz7BSjbmbKhr01YnTtO0VFMHe4AFCTWY2ib8wJlhfe5sJf56/Ahg7BrFlKDa7z7F8AzYdm7bBAAAA[0m[Pipeline] stage
+[8mha:////4GToWcz1lEtttcc1F67+obVKf97ChyGWoNBgdNb8ln6iAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUYoABMXWNsnCC0ISQNvq//KS0EyfiatyBlkpMeLBsS9Z7vaGIDCdiJxqLrcdYe9GF3k1JDMTtNdAgGrqImjBSsELZQZGx1VIVJQuLshxWEtYW60DRo0uwkY1+6DJodOU58bQdJeTe3OEJmZzISXP6lpFhe+tNJPxx/gJg7BLku/1sh/lZfAAyQCqkwgAAAA==[0m[Pipeline] { (run drive install uninstall)
+[8mha:////4M/BBJOrvLliK1a64sS7A0hf4H4seiclg8D1IX9OqKAVAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIi0YCEqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDhnK7+9Q+vAGvZp0gvgAAAA==[0m[Pipeline] sh
++ pytest /root/.jenkins/workspace/icx-d-test-nic-driveinstalluninstall/npxtester/Tests/testNics -s -m driveInstall --capture=tee-sys --html=/root/testconfig/testlogs/HtmlReport/drive_installuninstall_report.html --self-contained-html
+============================= test session starts ==============================
+platform linux -- Python 3.6.8, pytest-6.2.4, py-1.11.0, pluggy-0.13.1
+rootdir: /root/.jenkins/workspace/icx-d-test-nic-driveinstalluninstall/npxtester/Tests/testNics, configfile: pytest.ini
+plugins: metadata-1.11.0, html-2.1.1
+collected 19 items / 18 deselected / 1 selected
+
+npxtester/Tests/testNics/test_nics.py 2022-04-23 02:31:59 - NicTestFixture.py - [line:27] - root - INFO - case_logpath: /root/testconfig/testlogs/2022-04-23/test_PI_Networking_DriverInstallationUninstall_02_31_59/test_PI_Networking_DriverInstallationUninstall.log, case_logdir: /root/testconfig/testlogs/2022-04-23/test_PI_Networking_DriverInstallationUninstall_02_31_59
+2022-04-23 02:31:59 - NicTestFixture.py - [line:31] - root - INFO - ============================ Starting to run test_PI_Networking_DriverInstallationUninstall case ============================
+2022-04-23 02:31:59 - test_nics.py - [line:21] - root - INFO - this is Test_Nics setup.
+2022-04-23 02:31:59 - test_nics.py - [line:28] - root - INFO - ssh to the sut1
+2022-04-23 02:31:59 - transport.py - [line:1819] - paramiko.transport - INFO - Connected (version 2.0, client OpenSSH_8.2p1)
+2022-04-23 02:31:59 - transport.py - [line:1819] - paramiko.transport - INFO - Authentication (password) successful!
+2022-04-23 02:31:59 - sshInstance.py - [line:28] - root - INFO - SSH on SUT: 10.239.115.71
+2022-04-23 02:31:59 - transport.py - [line:1819] - paramiko.transport - INFO - Connected (version 2.0, client OpenSSH_8.0)
+2022-04-23 02:31:59 - transport.py - [line:1819] - paramiko.transport - INFO - Authentication (password) successful!
+2022-04-23 02:31:59 - sshInstance.py - [line:28] - root - INFO - SSH on SUT: 10.112.97.60
+2022-04-23 02:31:59 - sftp.py - [line:158] - paramiko.transport.sftp - INFO - [chan 1] Opened sftp connection (server version 3)
+2022-04-23 02:31:59 - test_nics.py - [line:43] - root - INFO - --Start rmmod irdma --
+2022-04-23 02:31:59 - sshInstance.py - [line:199] - root - INFO - start to rmmod irdma....
+2022-04-23 02:32:02 - sshInstance.py - [line:50] - root - INFO - rmmod irdma
+2022-04-23 02:32:02 - sshInstance.py - [line:54] - root - INFO - rmmod: ERROR: Module irdma is not currently loaded
+
+2022-04-23 02:32:07 - sshInstance.py - [line:202] - root - INFO - finished rmmod irdma....
+2022-04-23 02:32:07 - sshInstance.py - [line:203] - root - INFO - start to rmmod ice....
+2022-04-23 02:32:10 - sshInstance.py - [line:50] - root - INFO - rmmod ice
+2022-04-23 02:32:13 - sshInstance.py - [line:54] - root - INFO - 
+2022-04-23 02:32:18 - sshInstance.py - [line:206] - root - INFO - finished rmmod ice....
+2022-04-23 02:32:18 - sshInstance.py - [line:208] - root - INFO - start to modprobe ice....
+2022-04-23 02:32:21 - sshInstance.py - [line:50] - root - INFO - modprobe ice
+2022-04-23 02:32:25 - sshInstance.py - [line:54] - root - INFO - 
+2022-04-23 02:32:30 - sshInstance.py - [line:210] - root - INFO - finished modprobe ice....
+2022-04-23 02:32:33 - sshInstance.py - [line:50] - root - INFO - ethtool -i enp137s0f0
+2022-04-23 02:32:33 - sshInstance.py - [line:54] - root - INFO - driver: ice
+version: 1.7.19
+firmware-version: 2.19 0x8000bafe 1.3083.0
+expansion-rom-version: 
+bus-info: 0000:89:00.0
+supports-statistics: yes
+supports-test: yes
+supports-eeprom-access: yes
+supports-register-dump: yes
+supports-priv-flags: yes
+
+2022-04-23 02:32:38 - test_nics.py - [line:51] - root - INFO - try to get ipv6 of pf for ubuntu...
+2022-04-23 02:32:41 - sshInstance.py - [line:50] - root - INFO - ifconfig enp137s0f0 up
+2022-04-23 02:32:41 - sshInstance.py - [line:54] - root - INFO - 
+2022-04-23 02:32:46 - test_nics.py - [line:53] - root - INFO - --Finish modprobe iavf --
+2022-04-23 02:32:49 - sshInstance.py - [line:50] - root - INFO - ifconfig enp137s0f0
+2022-04-23 02:32:49 - sshInstance.py - [line:54] - root - INFO - enp137s0f0: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        inet6 fe80::200:ff:fe00:3300  prefixlen 64  scopeid 0x20<link>
+        ether 00:00:00:00:33:00  txqueuelen 1000  (Ethernet)
+        RX packets 0  bytes 0 (0.0 B)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 12  bytes 2036 (2.0 KB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+
+2022-04-23 02:32:57 - sshInstance.py - [line:50] - root - INFO - ifconfig ens2f0
+2022-04-23 02:32:57 - sshInstance.py - [line:54] - root - INFO - ens2f0: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        inet6 fe80::b696:91ff:fea5:9b44  prefixlen 64  scopeid 0x20<link>
+        ether b4:96:91:a5:9b:44  txqueuelen 1000  (Ethernet)
+        RX packets 11726  bytes 3932792 (3.7 MiB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 901  bytes 69861 (68.2 KiB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+
+2022-04-23 02:33:05 - sshInstance.py - [line:50] - root - INFO - tar -zxvf /opt/APP/driver/ice/ice-1.7.19.tar.gz -C /opt/APP/driver/ice
+2022-04-23 02:33:05 - sshInstance.py - [line:54] - root - INFO - ice-1.7.19/
+ice-1.7.19/COPYING
+ice-1.7.19/ddp/
+ice-1.7.19/ddp/ice-1.3.26.0.pkg
+ice-1.7.19/ddp/LICENSE
+ice-1.7.19/ddp/README
+ice-1.7.19/ice.7
+ice-1.7.19/ice.spec
+ice-1.7.19/pci.updates
+ice-1.7.19/README
+ice-1.7.19/results/
+ice-1.7.19/results/CPK5-PC-PlatfBKC-32-BDBA.pdf
+ice-1.7.19/results/CPK5-PC-PlatfBKC-32-KW.pdf
+ice-1.7.19/results/CPK5-PC-PlatfBKC-32-Protex.pdf
+ice-1.7.19/scripts/
+ice-1.7.19/scripts/check_aux_bus
+ice-1.7.19/scripts/set_arfs
+ice-1.7.19/scripts/set_irq_affinity
+ice-1.7.19/scripts/set_xps_rxqs
+ice-1.7.19/src/
+ice-1.7.19/src/auxiliary.c
+ice-1.7.19/src/auxiliary_compat.h
+ice-1.7.19/src/common.mk
+ice-1.7.19/src/ice.h
+ice-1.7.19/src/ice_acl.c
+ice-1.7.19/src/ice_acl.h
+ice-1.7.19/src/ice_acl_ctrl.c
+ice-1.7.19/src/ice_acl_main.c
+ice-1.7.19/src/ice_adminq_cmd.h
+ice-1.7.19/src/ice_arfs.c
+ice-1.7.19/src/ice_arfs.h
+ice-1.7.19/src/ice_base.c
+ice-1.7.19/src/ice_base.h
+ice-1.7.19/src/ice_cgu_regs.h
+ice-1.7.19/src/ice_common.c
+ice-1.7.19/src/ice_common.h
+ice-1.7.19/src/ice_controlq.c
+ice-1.7.19/src/ice_controlq.h
+ice-1.7.19/src/ice_dcb.c
+ice-1.7.19/src/ice_dcb.h
+ice-1.7.19/src/ice_dcb_lib.c
+ice-1.7.19/src/ice_dcb_lib.h
+ice-1.7.19/src/ice_dcb_nl.c
+ice-1.7.19/src/ice_dcb_nl.h
+ice-1.7.19/src/ice_dcf.c
+ice-1.7.19/src/ice_dcf.h
+ice-1.7.19/src/ice_debugfs.c
+ice-1.7.19/src/ice_devids.h
+ice-1.7.19/src/ice_devlink.c
+ice-1.7.19/src/ice_devlink.h
+ice-1.7.19/src/ice_eswitch.c
+ice-1.7.19/src/ice_eswitch.h
+ice-1.7.19/src/ice_ethtool.c
+ice-1.7.19/src/ice_ethtool.h
+ice-1.7.19/src/ice_ethtool_fdir.c
+ice-1.7.19/src/ice_fdir.c
+ice-1.7.19/src/ice_fdir.h
+ice-1.7.19/src/ice_flex_pipe.c
+ice-1.7.19/src/ice_flex_pipe.h
+ice-1.7.19/src/ice_flex_type.h
+ice-1.7.19/src/ice_flow.c
+ice-1.7.19/src/ice_flow.h
+ice-1.7.19/src/ice_fltr.c
+ice-1.7.19/src/ice_fltr.h
+ice-1.7.19/src/ice_fwlog.c
+ice-1.7.19/src/ice_fwlog.h
+ice-1.7.19/src/ice_fw_update.c
+ice-1.7.19/src/ice_fw_update.h
+ice-1.7.19/src/ice_gnss.c
+ice-1.7.19/src/ice_gnss.h
+ice-1.7.19/src/ice_hw_autogen.h
+ice-1.7.19/src/ice_idc.c
+ice-1.7.19/src/ice_idc_int.h
+ice-1.7.19/src/ice_ieps.c
+ice-1.7.19/src/ice_ieps.h
+ice-1.7.19/src/ice_lag.c
+ice-1.7.19/src/ice_lag.h
+ice-1.7.19/src/ice_lan_tx_rx.h
+ice-1.7.19/src/ice_lib.c
+ice-1.7.19/src/ice_lib.h
+ice-1.7.19/src/ice_main.c
+ice-1.7.19/src/ice_nvm.c
+ice-1.7.19/src/ice_nvm.h
+ice-1.7.19/src/ice_osdep.h
+ice-1.7.19/src/ice_pf_vsi_vlan_ops.c
+ice-1.7.19/src/ice_pf_vsi_vlan_ops.h
+ice-1.7.19/src/ice_protocol_type.h
+ice-1.7.19/src/ice_ptp.c
+ice-1.7.19/src/ice_ptp.h
+ice-1.7.19/src/ice_ptp_consts.h
+ice-1.7.19/src/ice_ptp_hw.c
+ice-1.7.19/src/ice_ptp_hw.h
+ice-1.7.19/src/ice_repr.c
+ice-1.7.19/src/ice_repr.h
+ice-1.7.19/src/ice_sbq_cmd.h
+ice-1.7.19/src/ice_sched.c
+ice-1.7.19/src/ice_sched.h
+ice-1.7.19/src/ice_status.h
+ice-1.7.19/src/ice_switch.c
+ice-1.7.19/src/ice_switch.h
+ice-1.7.19/src/ice_tc_lib.c
+ice-1.7.19/src/ice_tc_lib.h
+ice-1.7.19/src/ice_trace.h
+ice-1.7.19/src/ice_txrx.c
+ice-1.7.19/src/ice_txrx.h
+ice-1.7.19/src/ice_txrx_lib.c
+ice-1.7.19/src/ice_txrx_lib.h
+ice-1.7.19/src/ice_type.h
+ice-1.7.19/src/ice_vf_mbx.c
+ice-1.7.19/src/ice_vf_mbx.h
+ice-1.7.19/src/ice_vf_vsi_vlan_ops.c
+ice-1.7.19/src/ice_vf_vsi_vlan_ops.h
+ice-1.7.19/src/ice_virtchnl_allowlist.c
+ice-1.7.19/src/ice_virtchnl_allowlist.h
+ice-1.7.19/src/ice_virtchnl_fdir.c
+ice-1.7.19/src/ice_virtchnl_fdir.h
+ice-1.7.19/src/ice_virtchnl_pf.c
+ice-1.7.19/src/ice_virtchnl_pf.h
+ice-1.7.19/src/ice_vlan.h
+ice-1.7.19/src/ice_vlan_mode.c
+ice-1.7.19/src/ice_vlan_mode.h
+ice-1.7.19/src/ice_vsi_vlan_lib.c
+ice-1.7.19/src/ice_vsi_vlan_lib.h
+ice-1.7.19/src/ice_vsi_vlan_ops.c
+ice-1.7.19/src/ice_vsi_vlan_ops.h
+ice-1.7.19/src/ice_xsk.c
+ice-1.7.19/src/ice_xsk.h
+ice-1.7.19/src/idc_generic.h
+ice-1.7.19/src/ieps_peer.h
+ice-1.7.19/src/iidc.h
+ice-1.7.19/src/kcompat.c
+ice-1.7.19/src/kcompat.h
+ice-1.7.19/src/kcompat_defs.h
+ice-1.7.19/src/kcompat_dim.c
+ice-1.7.19/src/kcompat_dim.h
+ice-1.7.19/src/kcompat_gcc.h
+ice-1.7.19/src/kcompat_impl.h
+ice-1.7.19/src/kcompat_kthread.h
+ice-1.7.19/src/kcompat_net_dim.c
+ice-1.7.19/src/kcompat_overflow.h
+ice-1.7.19/src/kcompat_pldmfw.c
+ice-1.7.19/src/kcompat_pldmfw.h
+ice-1.7.19/src/kcompat_rhel_defs.h
+ice-1.7.19/src/kcompat_sles_defs.h
+ice-1.7.19/src/kcompat_std_defs.h
+ice-1.7.19/src/kcompat_ubuntu_defs.h
+ice-1.7.19/src/linux/
+ice-1.7.19/src/linux/auxiliary_bus.h
+ice-1.7.19/src/Makefile
+ice-1.7.19/src/Module.supported
+ice-1.7.19/src/virtchnl.h
+ice-1.7.19/SUMS
+
+2022-04-23 02:36:06 - sshInstance.py - [line:99] - root - INFO - Welcome to Ubuntu 20.04 LTS (GNU/Linux 5.4.0-26-generic x86_64)
+ * Documentation:  https://help.ubuntu.com
+ * Management:     https://landscape.canonical.com
+ * Support:        https://ubuntu.com/advantage
+Last login: Sat Apr 23 02:35:00 2022 from 10.239.182.99
+root@npx-sut3-ice-d-auto:~# cd /opt/APP/driver/ice/ice-1.7.19/src && make && makee install
+echo "*** The target kernel has CONFIG_MODULE_SIG_ALL enabled, but" ; echo "*** the signing key cannot be found. Module signing has been" ; echo "*** disabled for this build." ; make  ccflags-y="" -C "/lib/modules/5.4.0-26-generic/build" CONFIG_ICE=m CONFIG_MODULE_SIG=n CONFIG_MODULE_SIG_ALL= M="/opt/APP/driver/ice/ice-1.7.19/src"   NEED_AUX_BUS="2"  modules
+*** The target kernel has CONFIG_MODULE_SIG_ALL enabled, but
+*** the signing key cannot be found. Module signing has been
+*** disabled for this build.
+make[1]: Entering directory '/usr/src/linux-headers-5.4.0-26-generic'
+  CC [M]  /opt/APP/driver/ice/ice-1.7.19/src/ice_main.o
+  CC [M]  /opt/APP/driver/ice/ice-1.7.19/src/ice_controlq.o
+  CC [M]  /opt/APP/driver/ice/ice-1.7.19/src/ice_common.o
+  CC [M]  /opt/APP/driver/ice/ice-1.7.19/src/ice_nvm.o
+  CC [M]  /opt/APP/driver/ice/ice-1.7.19/src/ice_switch.o
+  CC [M]  /opt/APP/driver/ice/ice-1.7.19/src/ice_sched.o
+  CC [M]  /opt/APP/driver/ice/ice-1.7.19/src/ice_base.o
+  CC [M]  /opt/APP/driver/ice/ice-1.7.19/src/ice_lib.o
+  CC [M]  /opt/APP/driver/ice/ice-1.7.19/src/ice_txrx_lib.o
+  CC [M]  /opt/APP/driver/ice/ice-1.7.19/src/ice_txrx.o
+  CC [M]  /opt/APP/driver/ice/ice-1.7.19/src/ice_fltr.o
+  CC [M]  /opt/APP/driver/ice/ice-1.7.19/src/ice_pf_vsi_vlan_ops.o
+  CC [M]  /opt/APP/driver/ice/ice-1.7.19/src/ice_vsi_vlan_ops.o
+  CC [M]  /opt/APP/driver/ice/ice-1.7.19/src/ice_vsi_vlan_lib.o
+  CC [M]  /opt/APP/driver/ice/ice-1.7.19/src/ice_gnss.o
+  CC [M]  /opt/APP/driver/ice/ice-1.7.19/src/ice_tc_lib.o
+  CC [M]  /opt/APP/driver/ice/ice-1.7.19/src/ice_fdir.o
+  CC [M]  /opt/APP/driver/ice/ice-1.7.19/src/ice_ethtool_fdir.o
+  CC [M]  /opt/APP/driver/ice/ice-1.7.19/src/ice_acl_main.o
+  CC [M]  /opt/APP/driver/ice/ice-1.7.19/src/ice_acl.o
+  CC [M]  /opt/APP/driver/ice/ice-1.7.19/src/ice_acl_ctrl.o
+  CC [M]  /opt/APP/driver/ice/ice-1.7.19/src/ice_vlan_mode.o
+  CC [M]  /opt/APP/driver/ice/ice-1.7.19/src/ice_flex_pipe.o
+  CC [M]  /opt/APP/driver/ice/ice-1.7.19/src/ice_flow.o
+  CC [M]  /opt/APP/driver/ice/ice-1.7.19/src/ice_lag.o
+  CC [M]  /opt/APP/driver/ice/ice-1.7.19/src/ice_fwlog.o
+  CC [M]  /opt/APP/driver/ice/ice-1.7.19/src/ice_ieps.o
+  CC [M]  /opt/APP/driver/ice/ice-1.7.19/src/ice_ethtool.o
+  CC [M]  /opt/APP/driver/ice/ice-1.7.19/src/ice_devlink.o
+  CC [M]  /opt/APP/driver/ice/ice-1.7.19/src/ice_fw_update.o
+  CC [M]  /opt/APP/driver/ice/ice-1.7.19/src/ice_eswitch.o
+  CC [M]  /opt/APP/driver/ice/ice-1.7.19/src/ice_repr.o
+  CC [M]  /opt/APP/driver/ice/ice-1.7.19/src/ice_idc.o
+  CC [M]  /opt/APP/driver/ice/ice-1.7.19/src/ice_debugfs.o
+  CC [M]  /opt/APP/driver/ice/ice-1.7.19/src/ice_virtchnl_allowlist.o
+  CC [M]  /opt/APP/driver/ice/ice-1.7.19/src/ice_dcf.o
+  CC [M]  /opt/APP/driver/ice/ice-1.7.19/src/ice_virtchnl_fdir.o
+  CC [M]  /opt/APP/driver/ice/ice-1.7.19/src/ice_virtchnl_pf.o
+  CC [M]  /opt/APP/driver/ice/ice-1.7.19/src/ice_vf_mbx.o
+  CC [M]  /opt/APP/driver/ice/ice-1.7.19/src/ice_vf_vsi_vlan_ops.o
+  CC [M]  /opt/APP/driver/ice/ice-1.7.19/src/ice_ptp.o
+  CC [M]  /opt/APP/driver/ice/ice-1.7.19/src/ice_ptp_hw.o
+  CC [M]  /opt/APP/driver/ice/ice-1.7.19/src/ice_dcb.o
+  CC [M]  /opt/APP/driver/ice/ice-1.7.19/src/ice_dcb_nl.o
+  CC [M]  /opt/APP/driver/ice/ice-1.7.19/src/ice_dcb_lib.o
+  CC [M]  /opt/APP/driver/ice/ice-1.7.19/src/ice_arfs.o
+  CC [M]  /opt/APP/driver/ice/ice-1.7.19/src/ice_xsk.o
+  LD [M]  /opt/APP/driver/ice/ice-1.7.19/src/ice.o
+  Building modules, stage 2.
+  MODPOST 2 modules
+  LD [M]  /opt/APP/driver/ice/ice-1.7.19/src/ice.ko
+make[1]: Leaving directory '/usr/src/linux-headers-5.4.0-26-generic'
+echo "*** The target kernel has CONFIG_MODULE_SIG_ALL enabled, but" ; echo "*** the signing key cannot be found. Module signing has been" ; echo "*** disabled for this build." ; make  ccflags-y="" -C "/lib/modules/5.4.0-26-generic/build" CONFIG_ICE=m CONFIG_MODULE_SIG=n CONFIG_MODULE_SIG_ALL= M="/opt/APP/driver/ice/ice-1.7.19/src"   NEED_AUX_BUS="2"  modules
+*** The target kernel has CONFIG_MODULE_SIG_ALL enabled, but
+*** the signing key cannot be found. Module signing has been
+*** disabled for this build.
+make[1]: Entering directory '/usr/src/linux-headers-5.4.0-26-generic'
+  Building modules, stage 2.
+  MODPOST 2 modules
+make[1]: Leaving directory '/usr/src/linux-headers-5.4.0-26-generic'
+echo "*** The target kernel has CONFIG_MODULE_SIG_ALL enabled, but" ; echo "*** the signing key cannot be found. Module signing has been" ; echo "*** disabled for this build." ; make  ccflags-y="" -C "/lib/modules/5.4.0-26-generic/build" CONFIG_ICE=m CONFIG_MODULE_SIG=n CONFIG_MODULE_SIG_ALL= M="/opt/APP/driver/ice/ice-1.7.19/src"   NEED_AUX_BUS="2"  modules_install
+*** The target kernel has CONFIG_MODULE_SIG_ALL enabled, but
+*** the signing key cannot be found. Module signing has been
+*** disabled for this build.
+make[1]: Entering directory '/usr/src/linux-headers-5.4.0-26-generic'
+  INSTALL /opt/APP/driver/ice/ice-1.7.19/src/auxiliary.ko
+  INSTALL /opt/APP/driver/ice/ice-1.7.19/src/ice.ko
+  DEPMOD  5.4.0-26-generic
+Warning: modules_install: missing 'System.map' file. Skipping depmod.
+make[1]: Leaving directory '/usr/src/linux-headers-5.4.0-26-generic'
+install -D -m 644 Module.symvers /lib/modules/5.4.0-26-generic/extern-symvers/auxiliary.symvers
+install -d /lib/modules/5.4.0-26-generic/updates/drivers/net/ethernet/intel/auxiliary
+mv -f /lib/modules/5.4.0-26-generic/updates/drivers/net/ethernet/intel/ice/auxiliary.ko /lib/modules/5.4.0-26-generic/updates/drivers/net/ethernet/intel/auxiliary/auxiliary.ko
+install -D -m 644 linux/auxiliary_bus.h //lib/modules/5.4.0-26-generic/build/include/linux/auxiliary_bus.h
+install -D -m 644 ../ddp/ice-1.3.26.0.pkg /lib/firmware/updates/intel/ice/ddp/ice-1.3.26.0.pkg
+(cd /lib/firmware/updates/intel/ice/ddp && ln -sf ice-1.3.26.0.pkg ice.pkg)
+install -D -m 644 ../ddp/LICENSE /lib/firmware/updates/intel/ice/ddp/LICENSE \
+	2>/dev/null || true
+install -D -m 644 ice.7.gz //usr/share/man/man7/ice.7.gz
+/sbin/depmod -e -F /boot/System.map-5.4.0-26-generic  -a 5.4.0-26-generic
+depmod: WARNING: /lib/modules/5.4.0-26-generic/kernel/drivers/infiniband/hw/i40iw/i40iw.ko needs unknown symbol i40e_unregister_client
+depmod: WARNING: /lib/modules/5.4.0-26-generic/kernel/drivers/infiniband/hw/i40iw/i40iw.ko needs unknown symbol i40e_register_client
+Updating initramfs...
+dracut --force
+dracut: Executing: /usr/bin/dracut --force
+dracut: dracut module 'bootchart' will not be installed, because command '/sbin/bootchartd' could not be found!
+dracut: dracut module 'modsign' will not be installed, because command 'keyctl' could not be found!
+dracut: dracut module 'plymouth' will not be installed, because command 'plymouth-set-default-theme' could not be found!
+dracut: dracut module 'btrfs' will not be installed, because command 'btrfs' could not be found!
+dracut: dracut module 'dmraid' will not be installed, because command 'dmraid' could not be found!
+dracut: dracut module 'biosdevname' will not be installed, because command 'biosdevname' could not be found!
+dracut: dracut module 'masterkey' will not be installed, because command 'keyctl' could not be found!
+dracut: dracut module 'modsign' will not be installed, because command 'keyctl' could not be found!
+dracut: dracut module 'btrfs' will not be installed, because command 'btrfs' could not be found!
+dracut: dracut module 'dmraid' will not be installed, because command 'dmraid' could not be found!
+dracut: dracut module 'masterkey' will not be installed, because command 'keyctl' could not be found!
+dracut: *** Including module: bash ***
+dracut: *** Including module: dash ***
+dracut: *** Including module: systemd ***
+dracut: *** Including module: systemd-initrd ***
+dracut: *** Including module: console-setup ***
+dracut: *** Including module: aufs ***
+dracut: *** Including module: kernel-modules ***
+dracut: *** Including module: overlay-root ***
+dracut: *** Including module: rootfs-block ***
+dracut: *** Including module: terminfo ***
+dracut: *** Including module: udev-rules ***
+dracut: Skipping udev rule: 40-redhat.rules
+dracut: Skipping udev rule: 91-permissions.rules
+dracut: Skipping udev rule: 80-drivers-modprobe.rules
+dracut: *** Including module: dracut-systemd ***
+dracut: *** Including module: usrmount ***
+dracut: *** Including module: base ***
+dracut: *** Including module: fs-lib ***
+dracut: *** Including module: shutdown ***
+dracut: *** Including modules done ***
+dracut: *** Installing kernel module dependencies ***
+dracut: *** Installing kernel module dependencies done ***
+dracut: *** Resolving executable dependencies ***
+dracut: *** Resolving executable dependencies done***
+dracut: *** Stripping files ***
+dracut: *** Stripping files done ***
+dracut: *** Generating early-microcode cpio image ***
+dracut: *** Constructing GenuineIntel.bin ****
+dracut: *** Store current command line parameters ***
+dracut: Stored kernel commandline:
+dracut:  root=UUID=3e42b3e6-e492-427c-9b93-1a8ae369134a rootfstype=ext4 rootflags=rw,relatime,errors=remount-ro
+dracut: *** Creating image file '/boot/initramfs-5.4.0-26-generic.img' ***
+dracut: *** Creating initramfs image file '/boot/initramfs-5.4.0-26-generic.img' done ***
+root@npx-sut3-ice-d-auto:/opt/APP/driver/ice/ice-1.7.19/src# 
+2022-04-23 02:36:12 - sshInstance.py - [line:50] - root - INFO - lsmod |grep ice
+2022-04-23 02:36:12 - sshInstance.py - [line:54] - root - INFO - ice                   995328  0
+auxiliary              16384  1 ice
+
+2022-04-23 02:36:20 - sshInstance.py - [line:50] - root - INFO - rmmod ice
+2022-04-23 02:36:23 - sshInstance.py - [line:54] - root - INFO - 
+2022-04-23 02:36:31 - sshInstance.py - [line:50] - root - INFO - modprobe ice
+2022-04-23 02:36:35 - sshInstance.py - [line:54] - root - INFO - 
+2022-04-23 02:36:43 - sshInstance.py - [line:50] - root - INFO - modinfo ice
+2022-04-23 02:36:43 - sshInstance.py - [line:54] - root - INFO - filename:       /lib/modules/5.4.0-26-generic/updates/drivers/net/ethernet/intel/ice/ice.ko
+firmware:       updates/intel/ice/ddp/ice.pkg
+version:        1.7.19
+license:        GPL v2
+description:    Intel(R) Ethernet Connection E800 Series Linux Driver
+author:         Intel Corporation, <linux.nics@intel.com>
+srcversion:     24B39F67002570BEF7063AE
+alias:          pci:v00008086d00001888sv*sd*bc*sc*i*
+alias:          pci:v00008086d0000151Dsv*sd*bc*sc*i*
+alias:          pci:v00008086d0000124Fsv*sd*bc*sc*i*
+alias:          pci:v00008086d0000124Esv*sd*bc*sc*i*
+alias:          pci:v00008086d0000124Dsv*sd*bc*sc*i*
+alias:          pci:v00008086d0000124Csv*sd*bc*sc*i*
+alias:          pci:v00008086d0000189Asv*sd*bc*sc*i*
+alias:          pci:v00008086d00001899sv*sd*bc*sc*i*
+alias:          pci:v00008086d00001898sv*sd*bc*sc*i*
+alias:          pci:v00008086d00001897sv*sd*bc*sc*i*
+alias:          pci:v00008086d00001894sv*sd*bc*sc*i*
+alias:          pci:v00008086d00001893sv*sd*bc*sc*i*
+alias:          pci:v00008086d00001892sv*sd*bc*sc*i*
+alias:          pci:v00008086d00001891sv*sd*bc*sc*i*
+alias:          pci:v00008086d00001890sv*sd*bc*sc*i*
+alias:          pci:v00008086d0000188Esv*sd*bc*sc*i*
+alias:          pci:v00008086d0000188Dsv*sd*bc*sc*i*
+alias:          pci:v00008086d0000188Csv*sd*bc*sc*i*
+alias:          pci:v00008086d0000188Bsv*sd*bc*sc*i*
+alias:          pci:v00008086d0000188Asv*sd*bc*sc*i*
+alias:          pci:v00008086d0000159Bsv*sd*bc*sc*i*
+alias:          pci:v00008086d0000159Asv*sd*bc*sc*i*
+alias:          pci:v00008086d00001599sv*sd*bc*sc*i*
+alias:          pci:v00008086d00001593sv*sd*bc*sc*i*
+alias:          pci:v00008086d00001592sv*sd*bc*sc*i*
+alias:          pci:v00008086d00001591sv*sd*bc*sc*i*
+depends:        auxiliary
+retpoline:      Y
+name:           ice
+vermagic:       5.4.0-26-generic SMP mod_unload 
+parm:           debug:netif level (0=none,...,16=all) (int)
+parm:           fwlog_level:FW event level to log. All levels <= to the specified value are enabled. Values: 0=none, 1=error, 2=warning, 3=normal, 4=verbose. Invalid values: >=5
+ (ushort)
+parm:           fwlog_events:FW events to log (32-bit mask)
+ (ulong)
+
+.2022-04-23 02:36:51 - sshInstance.py - [line:50] - root - INFO - echo 0 > /sys/class/net/enp137s0f0/device/sriov_numvfs
+2022-04-23 02:36:51 - sshInstance.py - [line:54] - root - INFO - 
+2022-04-23 02:36:59 - sshInstance.py - [line:50] - root - INFO - echo 0 > /sys/class/net/enp137s0f0/device/sriov_numvfs
+2022-04-23 02:36:59 - sshInstance.py - [line:54] - root - INFO - 
+2022-04-23 02:37:07 - sshInstance.py - [line:50] - root - INFO - ifconfig enp137s0f0 0
+2022-04-23 02:37:07 - sshInstance.py - [line:54] - root - INFO - 
+2022-04-23 02:37:16 - sshInstance.py - [line:50] - root - INFO - ifconfig ens2f0 0
+2022-04-23 02:37:16 - sshInstance.py - [line:54] - root - INFO - 
+2022-04-23 02:37:24 - sshInstance.py - [line:50] - root - INFO - dmesg > /tmp/dmesg.log
+2022-04-23 02:37:24 - sshInstance.py - [line:54] - root - INFO - 
+2022-04-23 02:37:29 - test_nics.py - [line:80] - root - INFO - generate dmesg.log file on sut /tmp/dmesg.log
+2022-04-23 02:37:29 - test_nics.py - [line:82] - root - INFO - copy dmesg.log from sut1 /tmp dir to controller dir /root/testconfig/testlogs/2022-04-23/test_PI_Networking_DriverInstallationUninstall_02_31_59
+2022-04-23 02:37:32 - sshInstance.py - [line:50] - root - INFO - rm -f /tmp/dmesg.log
+2022-04-23 02:37:32 - sshInstance.py - [line:54] - root - INFO - 
+2022-04-23 02:37:37 - test_nics.py - [line:84] - root - INFO - rm dmesg.log on sut1 /tmp dir
+2022-04-23 02:37:37 - sshInstance.py - [line:43] - root - INFO - closing ssh client on SUT
+2022-04-23 02:37:37 - test_nics.py - [line:86] - root - INFO - this is Test_Nics teardown
+2022-04-23 02:37:37 - NicTestFixture.py - [line:35] - root - INFO - ============================ end of run test_PI_Networking_DriverInstallationUninstall case ============================
+                                  [100%]
+
+=============================== warnings summary ===============================
+npxtester/Tests/testNics/test_iperf_client_4hour.py:90
+  /root/.jenkins/workspace/icx-d-test-nic-driveinstalluninstall/npxtester/Tests/testNics/test_iperf_client_4hour.py:90: PytestUnknownMarkWarning: Unknown pytest.mark.iperf_tcp - is this a typo?  You can register custom marks to avoid this warning - for details, see https://docs.pytest.org/en/stable/mark.html
+    @pytest.mark.iperf_tcp
+
+npxtester/Tests/testNics/test_iperf_client_4hour.py:143
+  /root/.jenkins/workspace/icx-d-test-nic-driveinstalluninstall/npxtester/Tests/testNics/test_iperf_client_4hour.py:143: PytestUnknownMarkWarning: Unknown pytest.mark.iperf_udp - is this a typo?  You can register custom marks to avoid this warning - for details, see https://docs.pytest.org/en/stable/mark.html
+    @pytest.mark.iperf_udp
+
+npxtester/Tests/testNics/test_mtu.py:69
+  /root/.jenkins/workspace/icx-d-test-nic-driveinstalluninstall/npxtester/Tests/testNics/test_mtu.py:69: PytestUnknownMarkWarning: Unknown pytest.mark.nicSimple - is this a typo?  You can register custom marks to avoid this warning - for details, see https://docs.pytest.org/en/stable/mark.html
+    @pytest.mark.nicSimple
+
+npxtester/Tests/testNics/test_mtu.py:108
+  /root/.jenkins/workspace/icx-d-test-nic-driveinstalluninstall/npxtester/Tests/testNics/test_mtu.py:108: PytestUnknownMarkWarning: Unknown pytest.mark.nicSimple - is this a typo?  You can register custom marks to avoid this warning - for details, see https://docs.pytest.org/en/stable/mark.html
+    @pytest.mark.nicSimple
+
+npxtester/Tests/testNics/test_network_sriov_stress.py:593
+  /root/.jenkins/workspace/icx-d-test-nic-driveinstalluninstall/npxtester/Tests/testNics/test_network_sriov_stress.py:593: PytestUnknownMarkWarning: Unknown pytest.mark.nicSriov5times - is this a typo?  You can register custom marks to avoid this warning - for details, see https://docs.pytest.org/en/stable/mark.html
+    @pytest.mark.nicSriov5times
+
+npxtester/Tests/testNics/test_network_sriov_stress.py:720
+  /root/.jenkins/workspace/icx-d-test-nic-driveinstalluninstall/npxtester/Tests/testNics/test_network_sriov_stress.py:720: PytestUnknownMarkWarning: Unknown pytest.mark.nicSriov2hours - is this a typo?  You can register custom marks to avoid this warning - for details, see https://docs.pytest.org/en/stable/mark.html
+    @pytest.mark.nicSriov2hours
+
+npxtester/Tests/testNics/test_network_sriov_stress.py:960
+  /root/.jenkins/workspace/icx-d-test-nic-driveinstalluninstall/npxtester/Tests/testNics/test_network_sriov_stress.py:960: PytestUnknownMarkWarning: Unknown pytest.mark.SriovVfIperf - is this a typo?  You can register custom marks to avoid this warning - for details, see https://docs.pytest.org/en/stable/mark.html
+    @pytest.mark.SriovVfIperf
+
+npxtester/Tests/testNics/test_network_sriov_stress.py:1096
+  /root/.jenkins/workspace/icx-d-test-nic-driveinstalluninstall/npxtester/Tests/testNics/test_network_sriov_stress.py:1096: PytestUnknownMarkWarning: Unknown pytest.mark.nicIperfTcpSUTGuestStress - is this a typo?  You can register custom marks to avoid this warning - for details, see https://docs.pytest.org/en/stable/mark.html
+    @pytest.mark.nicIperfTcpSUTGuestStress
+
+npxtester/Tests/testNics/test_network_sriov_stress.py:1097
+  /root/.jenkins/workspace/icx-d-test-nic-driveinstalluninstall/npxtester/Tests/testNics/test_network_sriov_stress.py:1097: PytestUnknownMarkWarning: Unknown pytest.mark.SriovVfIperf - is this a typo?  You can register custom marks to avoid this warning - for details, see https://docs.pytest.org/en/stable/mark.html
+    @pytest.mark.SriovVfIperf
+
+npxtester/Tests/testNics/test_nics.py:93
+  /root/.jenkins/workspace/icx-d-test-nic-driveinstalluninstall/npxtester/Tests/testNics/test_nics.py:93: PytestUnknownMarkWarning: Unknown pytest.mark.nicSimple - is this a typo?  You can register custom marks to avoid this warning - for details, see https://docs.pytest.org/en/stable/mark.html
+    @pytest.mark.nicSimple
+
+npxtester/Tests/testNics/test_nics.py:132
+  /root/.jenkins/workspace/icx-d-test-nic-driveinstalluninstall/npxtester/Tests/testNics/test_nics.py:132: PytestUnknownMarkWarning: Unknown pytest.mark.nicSimple - is this a typo?  You can register custom marks to avoid this warning - for details, see https://docs.pytest.org/en/stable/mark.html
+    @pytest.mark.nicSimple
+
+npxtester/Tests/testNics/test_nics.py:167
+  /root/.jenkins/workspace/icx-d-test-nic-driveinstalluninstall/npxtester/Tests/testNics/test_nics.py:167: PytestUnknownMarkWarning: Unknown pytest.mark.nicSimple - is this a typo?  You can register custom marks to avoid this warning - for details, see https://docs.pytest.org/en/stable/mark.html
+    @pytest.mark.nicSimple
+
+npxtester/Tests/testNics/test_nics.py:168
+  /root/.jenkins/workspace/icx-d-test-nic-driveinstalluninstall/npxtester/Tests/testNics/test_nics.py:168: PytestUnknownMarkWarning: Unknown pytest.mark.test - is this a typo?  You can register custom marks to avoid this warning - for details, see https://docs.pytest.org/en/stable/mark.html
+    @pytest.mark.test
+
+npxtester/Tests/testNics/test_nics.py:256
+  /root/.jenkins/workspace/icx-d-test-nic-driveinstalluninstall/npxtester/Tests/testNics/test_nics.py:256: PytestUnknownMarkWarning: Unknown pytest.mark.nicSimple - is this a typo?  You can register custom marks to avoid this warning - for details, see https://docs.pytest.org/en/stable/mark.html
+    @pytest.mark.nicSimple
+
+npxtester/Tests/testNics/test_nics.py:282
+  /root/.jenkins/workspace/icx-d-test-nic-driveinstalluninstall/npxtester/Tests/testNics/test_nics.py:282: PytestUnknownMarkWarning: Unknown pytest.mark.nicSimple - is this a typo?  You can register custom marks to avoid this warning - for details, see https://docs.pytest.org/en/stable/mark.html
+    @pytest.mark.nicSimple
+
+npxtester/Tests/testNics/test_nics.py:325
+  /root/.jenkins/workspace/icx-d-test-nic-driveinstalluninstall/npxtester/Tests/testNics/test_nics.py:325: PytestUnknownMarkWarning: Unknown pytest.mark.nicSimple - is this a typo?  You can register custom marks to avoid this warning - for details, see https://docs.pytest.org/en/stable/mark.html
+    @pytest.mark.nicSimple
+
+-- Docs: https://docs.pytest.org/en/stable/warnings.html
+- generated html file: file:///root/testconfig/testlogs/HtmlReport/drive_installuninstall_report.html -
+========== 1 passed, 18 deselected, 16 warnings in 354.80s (0:05:54) ===========
+[8mha:////4LeiMYyvaTAszhIQ10pdIeDepJ20hGjpoNTSDQ54vTlOAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIi0SCEqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDyFBu95/avQGMKkS1vgAAAA==[0m[Pipeline] }
+[8mha:////4I/tRoD/KV6lJ76TTEJ8vusLD5mbZiDJ1z7tZBIwhHThAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKCQKJBqWgtN7zAJMY4se6C7eBUvIiv8QcsIlGxxWpnm3m9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKZhiFDut7l2hw9mQDtDvgAAAA==[0m[Pipeline] // stage
+[8mha:////4CAP7WQdC2FMpNczqgZSKdPjM+Zu6Lz59I8VEE3/AlUOAAAAph+LCAAAAAAAAP9tjTEOwjAQBM9BKWgpeYQjBB2iorXc8AITG+PEugv2haTiRXyNPxCIRMVWOyut5vmCMic4UPKycdgGzHWQXez91ORAqb1EGmRDZ1kTZopOajdosu44oyZ2MEcUsFCwdFhHygE9w0o15m6qaNBXJ07TtldQBHuDBwg1mdkk/sKYYH3tbSb8ef4KYOwYxI6h2G4+x/INOibpDcEAAAA=[0m[Pipeline] stage
+[8mha:////4Db8sOlSRxZnVxb7xJBDSAteoF0PgC9lkQldzKIJFwYiAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUwIiYukZZOEFoQkgb/V9+UtqJE3E17kBLJSY8WLYl673eUESGE7ETjcXWY6y96ELvpiQG4vYaaBANXURNGClYoeygyNhqqYqShUVZDisJa4t1oOjRJdjIRj90GTS68px42o4Scm/u8IRMTuSkOX3LyLC99SYS/jh/ATB2CfLDbrb9/Cw+2YMO4MIAAAA=[0m[Pipeline] { (collect logs)
+[8mha:////4LN/0LMxu1hyybTBeE6CHwDx82bv/lkvxFk3cdgHTSuWAAAAox+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIikRJR0VppeIFJjLFj3Tm2g1PxIr7GHwhEomKL1c4283zBOgY4ctBoFfWGYmvQu1HPCzOH/uo4o+ULtkyRncJG5YY7dVqw4aRgSVHCSsBGUes4GtIJtsLKu6ycJF2dU5i/g4DSdAM8oBCzOcmQvjAF2N3GLjL9PH8FMPkEZb3/VO3favo5XL4AAAA=[0m[Pipeline] sh
++ sed -i $'s/\r//g' /root/.jenkins/workspace/icx-d-test-nic-driveinstalluninstall/npxtester/log_analyzer/log_analyzer.sh
+[8mha:////4FgvIflgycWoJq7MsZycbV9d7HENRG2WSX14oF+Me/GuAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiAR2iSmu54QUmNsaJdWdsh6TiRXyNPxCIRMUWq51t5vmCZYpw5GixNdQ5So3D4Hs7LRw4dhfPA7Z8xoYpsTcozSBZm3pGydnAnKKEhYCVocZzcmQzrEWr7qryimx1ynH6DgJKp2/wgEJM5qxi/sIYYXPtdWL6ef4KYAwZyt32U/vwBq1seBO+AAAA[0m[Pipeline] sh
++ chmod a+x /root/.jenkins/workspace/icx-d-test-nic-driveinstalluninstall/npxtester/log_analyzer/log_analyzer.sh
+[8mha:////4P37N80+NRbzyFlga2j1WDon6H/4VmnQwrRysqQpQX/3AAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIigagQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGPIUO62n9qHN+xdYwq+AAAA[0m[Pipeline] sh
++ sh /root/.jenkins/workspace/icx-d-test-nic-driveinstalluninstall/npxtester/log_analyzer/log_analyzer.sh
+[8mha:////4P3ih/vRXCzaXCkS1CQDBQXrb3I4EZcCr0NGGH+tKlR4AAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIigUSDqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDyFDu9p/avgEjVhSLvgAAAA==[0m[Pipeline] }
+[8mha:////4ISV0Ptmba0km8a80Gq+UClogdZnPDxCJXroOoeI5sULAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiREGBqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDyFDu9p/avgE81EHZvgAAAA==[0m[Pipeline] // stage
+[8mha:////4LmA5LOJ1yGOO5YQ6RYn+/szIsYEkfxAArsUKSFs0Xa0AAAApB+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIpoEBCVLRWGl5gEmOcWHfBvpBUvIiv8QciIlGx1c4083pjmSKOHJ1qLLWeUuVVF3o3PTVwbK+BB9XwRVVMiYNVpR1Kru1pxpLFYl6WY6GxslQFTp6cYK0b8zBFMOSKs8TJHTRyX9/xRKanspgoXxgjNre+Tky/zt8Axq4T5Nu9INt9AE/B/a+9AAAA[0m[Pipeline] }
+[8mha:////4KVKO0UZMawo8C9tjXN4L1+ryWbU4zmvD2sDlsKoyYtXAAAAox+LCAAAAAAAAP9tjTESgjAQRT84FraWHiIUVI5jZZuh8QQRYgxkdjFZhMoTeTXvICMzVv7qv9e81xvrFHHk6FRrqfOUaq/6MLj5qZFjdw08qpYvqmZKHKyq7FhxY08LViwWy7IcK42NpTpw8uQEW92ahymCIVecJc7uoJH75o4nMj2XxUT5whSxuw1NYvp1/gYw9b0gL/eCrPwAXH35DL0AAAA=[0m[Pipeline] // node
+[8mha:////4A8vvhfR6oegt+2XAbvn3Z0Fx6j3lb1QUh2abilCs+OGAAAAox+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMJBiA5R0VppeIFJjHFi3QX7QlLxIr7GH4iIRMVWO9PM641lijhydKqx1HpKlVdd6N301MCxvQYeVMMXVTElDlaVdii5tqcZSxaLeVmOhcbKUhU4eXKCtW7MwxTBkCvOEid30Mh9fccTmZ7KYqJ8YYzY3Po6Mf06fwMYu06Q77eCbPcBAx/ra70AAAA=[0m[Pipeline] End of Pipeline
+Finished: SUCCESS

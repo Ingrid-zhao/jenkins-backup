@@ -1,17 +1,18 @@
 <?xml version='1.1' encoding='UTF-8'?>
-<hudson.plugins.emailext.ExtendedEmailPublisherDescriptor plugin="email-ext@2.83">
+<hudson.plugins.emailext.ExtendedEmailPublisherDescriptor plugin="email-ext@2.87">
+  <defaultSuffix>@intel.com</defaultSuffix>
   <mailAccount>
     <smtpHost>smtp.intel.com</smtpHost>
     <smtpPort>25</smtpPort>
-    <smtpPassword>{AQAAABAAAAAQFu6bOxoreqVntb7B5egqNIJN0m6p6BFChJf69aQ79rw=}</smtpPassword>
-    <useSsl>true</useSsl>
+    <credentialsId>e14097fe-15d6-4eb1-bf00-c88e02724790</credentialsId>
+    <useSsl>false</useSsl>
     <useTls>false</useTls>
     <advProperties></advProperties>
     <defaultAccount>true</defaultAccount>
   </mailAccount>
   <addAccounts/>
   <charset>UTF-8</charset>
-  <defaultContentType>text/plain</defaultContentType>
+  <defaultContentType>text/html</defaultContentType>
   <defaultSubject>$PROJECT_NAME - Build # $BUILD_NUMBER - $BUILD_STATUS!</defaultSubject>
   <defaultBody>$PROJECT_NAME - Build # $BUILD_NUMBER - $BUILD_STATUS:
 
@@ -20,18 +21,19 @@ Check console output at $BUILD_URL to view the results.</defaultBody>
   <defaultPostsendScript></defaultPostsendScript>
   <defaultClasspath/>
   <defaultTriggerIds>
+    <string>hudson.plugins.emailext.plugins.trigger.AlwaysTrigger</string>
     <string>hudson.plugins.emailext.plugins.trigger.FailureTrigger</string>
   </defaultTriggerIds>
   <emergencyReroute></emergencyReroute>
   <maxAttachmentSize>-1</maxAttachmentSize>
   <recipientList>ying.zhao@intel.com</recipientList>
-  <defaultReplyTo></defaultReplyTo>
+  <defaultReplyTo>ying.zhao@intel.com</defaultReplyTo>
   <allowedDomains></allowedDomains>
   <excludedCommitters></excludedCommitters>
   <listId></listId>
   <precedenceBulk>false</precedenceBulk>
-  <debugMode>false</debugMode>
+  <debugMode>true</debugMode>
   <requireAdminForTemplateTesting>false</requireAdminForTemplateTesting>
   <enableWatching>false</enableWatching>
-  <enableAllowUnregistered>false</enableAllowUnregistered>
+  <enableAllowUnregistered>true</enableAllowUnregistered>
 </hudson.plugins.emailext.ExtendedEmailPublisherDescriptor>

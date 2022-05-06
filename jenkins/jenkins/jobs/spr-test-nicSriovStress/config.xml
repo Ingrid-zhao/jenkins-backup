@@ -28,12 +28,23 @@
   <description>PI_Networking_SRIOV_StressDisableEnableFor5TimesWhenVFIsAssigned_VM_Guest</description>
   <keepDependencies>false</keepDependencies>
   <properties>
+    <hudson.security.AuthorizationMatrixProperty>
+      <inheritanceStrategy class="org.jenkinsci.plugins.matrixauth.inheritance.InheritParentStrategy"/>
+      <permission>hudson.model.Item.Build:exec-admin</permission>
+      <permission>hudson.model.Item.Cancel:exec-admin</permission>
+      <permission>hudson.model.Item.Configure:exec-admin</permission>
+      <permission>hudson.model.Item.Discover:exec-admin</permission>
+      <permission>hudson.model.Item.Move:exec-admin</permission>
+      <permission>hudson.model.Item.Read:exec-admin</permission>
+      <permission>hudson.model.Item.Workspace:exec-admin</permission>
+      <permission>hudson.model.Run.Update:exec-admin</permission>
+    </hudson.security.AuthorizationMatrixProperty>
     <hudson.model.ParametersDefinitionProperty>
       <parameterDefinitions>
         <hudson.model.StringParameterDefinition>
           <name>token</name>
           <description>测试机IP</description>
-          <defaultValue>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</defaultValue>
+          <defaultValue>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</defaultValue>
           <trim>false</trim>
         </hudson.model.StringParameterDefinition>
         <hudson.model.StringParameterDefinition>
@@ -45,13 +56,13 @@
         <hudson.model.StringParameterDefinition>
           <name>sut1_ip</name>
           <description>测试机IP</description>
-          <defaultValue>10.239.183.130</defaultValue>
+          <defaultValue>10.239.182.80</defaultValue>
           <trim>false</trim>
         </hudson.model.StringParameterDefinition>
         <hudson.model.StringParameterDefinition>
           <name>pf1</name>
           <description>sut1 pf1 name</description>
-          <defaultValue>ens4f0</defaultValue>
+          <defaultValue>ens43f0</defaultValue>
           <trim>false</trim>
         </hudson.model.StringParameterDefinition>
         <hudson.model.StringParameterDefinition>
@@ -75,13 +86,13 @@
         <hudson.model.StringParameterDefinition>
           <name>image1</name>
           <description>镜像1名字</description>
-          <defaultValue>uvm1.img</defaultValue>
+          <defaultValue>rhel86.img</defaultValue>
           <trim>false</trim>
         </hudson.model.StringParameterDefinition>
         <hudson.model.StringParameterDefinition>
           <name>image2</name>
           <description>镜像2名字</description>
-          <defaultValue>uvm2.img</defaultValue>
+          <defaultValue>rhel862.img</defaultValue>
           <trim>false</trim>
         </hudson.model.StringParameterDefinition>
         <hudson.model.StringParameterDefinition>
@@ -105,7 +116,7 @@
         <hudson.model.StringParameterDefinition>
           <name>dpdk_dir</name>
           <description>dpdk路径</description>
-          <defaultValue>/root/dpdk-stable-20.11.3/</defaultValue>
+          <defaultValue>/opt/APP/utility/DPDK_install/dpdk-22.03</defaultValue>
           <trim>false</trim>
         </hudson.model.StringParameterDefinition>
         <hudson.model.StringParameterDefinition>
@@ -117,7 +128,7 @@
         <hudson.model.StringParameterDefinition>
           <name>drive_version</name>
           <description>driver version</description>
-          <defaultValue>5.15.0-1005-realtime</defaultValue>
+          <defaultValue>4.18.0-369.el8.x86_64</defaultValue>
           <trim>false</trim>
         </hudson.model.StringParameterDefinition>
       </parameterDefinitions>
@@ -125,7 +136,7 @@
     <org.jenkinsci.plugins.workflow.job.properties.PipelineTriggersJobProperty>
       <triggers>
         <hudson.triggers.TimerTrigger>
-          <spec>H 21 * * *</spec>
+          <spec>H 12 * * *</spec>
         </hudson.triggers.TimerTrigger>
       </triggers>
     </org.jenkinsci.plugins.workflow.job.properties.PipelineTriggersJobProperty>
@@ -136,21 +147,21 @@
         label &apos;controller-j&apos;
     }
     parameters {
-    	string defaultValue: &apos;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&apos;, description: &apos;测试机IP&apos;, name: &apos;token&apos;, trim: false
+    	string defaultValue: &apos;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&apos;, description: &apos;测试机IP&apos;, name: &apos;token&apos;, trim: false
     	string defaultValue: &apos;github.com/intel-innersource/applications.validation.network-platform.npxtester.git&apos;, description: &apos;github repo url&apos;, name: &apos;git_repo_url&apos;, trim: false
-        string defaultValue: &apos;10.239.183.130&apos;, description: &apos;测试机IP&apos;, name: &apos;sut1_ip&apos;, trim: false
-	    string defaultValue: &apos;ens4f0&apos;, description: &apos;sut1 pf1 name&apos;, name: &apos;pf1&apos;, trim: false
+        string defaultValue: &apos;10.239.182.80&apos;, description: &apos;测试机IP&apos;, name: &apos;sut1_ip&apos;, trim: false
+	    string defaultValue: &apos;ens43f0&apos;, description: &apos;sut1 pf1 name&apos;, name: &apos;pf1&apos;, trim: false
 	    string defaultValue: &apos;RHEL&apos;, description: &apos;测试机器系统:RHEL or UBUNTU&apos;, name: &apos;os&apos;, trim: false
 	    string defaultValue: &apos;10.239.182.88&apos;, description: &apos;sut2 IP&apos;, name: &apos;sut2_ip&apos;, trim: false
         string defaultValue: &apos;ens785f0&apos;, description: &apos;sut2 pf1 name&apos;, name: &apos;sut2_pf1&apos;, trim: false
-        string defaultValue: &apos;uvm1.img&apos;, description: &apos;镜像1名字&apos;, name: &apos;image1&apos;, trim: false
-        string defaultValue: &apos;uvm2.img&apos;, description: &apos;镜像2名字&apos;, name: &apos;image2&apos;, trim: false
+        string defaultValue: &apos;rhel86.img&apos;, description: &apos;镜像1名字&apos;, name: &apos;image1&apos;, trim: false
+        string defaultValue: &apos;rhel862.img&apos;, description: &apos;镜像2名字&apos;, name: &apos;image2&apos;, trim: false
         string defaultValue: &apos;rhel84rt.img&apos;, description: &apos;镜像3名字&apos;, name: &apos;image3&apos;, trim: false
         string defaultValue: &apos;rhel84rt2.img&apos;, description: &apos;镜像4名字&apos;, name: &apos;image4&apos;, trim: false
         string defaultValue: &apos;/home/image&apos;, description: &apos;镜像路径&apos;, name: &apos;image_dir&apos;, trim: false
-        string defaultValue: &apos;/root/dpdk-stable-20.11.3/&apos;, description: &apos;dpdk路径&apos;, name: &apos;dpdk_dir&apos;, trim: false
+        string defaultValue: &apos;/opt/APP/utility/DPDK_install/dpdk-22.03&apos;, description: &apos;dpdk路径&apos;, name: &apos;dpdk_dir&apos;, trim: false
         string defaultValue: &apos;600&apos;, description: &apos;运行时间&apos;, name: &apos;run_time&apos;, trim: false
-        string defaultValue: &apos;5.15.0-1005-realtime&apos;, description: &apos;driver version&apos;, name: &apos;drive_version&apos;, trim: false
+        string defaultValue: &apos;4.18.0-369.el8.x86_64&apos;, description: &apos;driver version&apos;, name: &apos;drive_version&apos;, trim: false
     }
     stages{
         stage(&apos;rm project dir&apos;){

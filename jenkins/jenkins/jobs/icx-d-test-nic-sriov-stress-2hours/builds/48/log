@@ -1,0 +1,1326 @@
+Started by timer
+Running in Durability level: MAX_SURVIVABILITY
+[8mha:////4DOlrZhma2TKYqx8mtRBwGXVE8Xt4z3OJyo/zi+ICDdzAAAAoh+LCAAAAAAAAP9tjTEOwjAQBM8BClpKHuFItIiK1krDC0x8GCfWnbEdkooX8TX+gCESFVvtrLSa5wtWKcKBo5UdUu8otU4GP9jS5Mixv3geZcdn2TIl9igbHBs2eJyx4YwwR1SwULBGaj0nRzbDRnX6rmuvydanHMu2V1A5c4MHCFXMWcf8hSnC9jqYxPTz/BXAFEIGsfuclm8zQVqFvQAAAA==[0m[Pipeline] Start of Pipeline
+[8mha:////4B4K7nOhvaaLmbeE3w0NEhE1GAALwLDjakw9plXgkY6XAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycohUghExsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jduZBmjwAAAAA==[0m[Pipeline] node
+Running on [8mha:////4C8PgMHPegRpCg8+HpIiIHK02uxvuQktJylkqRHkJagNAAAAox+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzeEgYJ/eT83ILSktQiICOvpCg/Jye1SNfSUh8ABjlyb80AAAA=[0mcontroller-99 in /root/.jenkins/workspace/icx-d-test-nic-sriov-stress-2hours
+[8mha:////4NUxBMzN6CtFAbQ4pdo7pH8ZuwVHigLf0SdP3FcjQTwyAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gA0xsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jfoP95RwAAAAA==[0m[Pipeline] {
+[8mha:////4OCB1+Up79PmV3LnMeomKr9r+JFCKkFjAfTpr2UorbLOAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gQkxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jc09154wAAAAA==[0m[Pipeline] stage
+[8mha:////4N6KQN35K8CT/Pcr9a+R4oOEu4uEh3phvpB1t67zd2hmAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0ggUxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jek7ggRwAAAAA==[0m[Pipeline] { (rm project dir)
+[8mha:////4EWjgIQS1R18e39T6LdOu3ZpSMSXMburmKwxJHd8e163AAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gwExsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jcChmMxwAAAAA==[0m[Pipeline] script
+[8mha:////4NOJ/YVWDlnnBpjDdLKlLZkF5LrR387vblsx7fWhZkPlAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0BAkxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jfpX/cvwAAAAA==[0m[Pipeline] {
+[8mha:////4MAm0moKTc8Eo2PcB0LgkHNHI7Xtf5Poej2Mf/l8xh/lAAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQTbaoyVLaHxBMgiwpL/WWDdrTyRV/MOEjexcpJJ5k3zXm9Y5wQnSpZ7g73DrB2PYbR18YlSfws0cU9XrgkzBcOlmSR15rygpGJgCWtgJWBjUAfKDm2BrfDqodqg0LaXkup3FNC4boAnMFHNRaXyhTnB7j52mfDn+SuAORZg+9pD/AAeoCAqvAAAAA==[0m[Pipeline] sh
++ ls /root/.jenkins/workspace/icx-d-test-nic-sriov-stress-2hours/npxtester
+1.0.0.0001.version
+conf
+installation
+libs
+log_analyzer
+README.md
+testconf
+testLibs
+Tests
+[8mha:////4F3BY6hez6Yn9lSF4dYULOlz4RwK0Fdsp1OYWtj0vxDtAAAAox+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMKBDglR0VppeIFJjHFi3QX7QlLxIr7GH4iIRMVWO9PM641lijhydKqx1HpKlVdd6N301MCxvQYeVMMXVTElDlaVdii5tqcZSxaLeVmOhcbKUhU4eXKCtW7MwxTBkCvOEid30Mh9fccTmZ7KYqJ8YYzY3Po6Mf06fwMYO0G2F+S7bfcBITL9lL0AAAA=[0m[Pipeline] echo
+dir is exists and rm dir
+[8mha:////4KL1cTFlC/t8/0LRf71hJwxXIUFLIMviWtcIHXR2W8epAAAAox+LCAAAAAAAAP9tjbEOgjAURS8YB1dHP6KEzcQ4uTYsfkGFWgvNe9g+hMkv8tf8B4kkTt7pnrOc1xvrFHHk6FRrqfOUaq/6MLj5qZFjdw08qpYvqmZKHKyq7FhxY08LViwWy7IcK42NpTpw8uQEW92ahymCIVecJc7uoJH75o4nMj2XxUT5whSxuw1NYvp1/gYw9YJsL8jLsv8AYAPmjb0AAAA=[0m[Pipeline] sh
++ rm -rf /root/.jenkins/workspace/icx-d-test-nic-sriov-stress-2hours/npxtester
+[8mha:////4GzJynz9IX3CLl34e/1JpYOeLz7FDsqMtIihCtFGqNpZAAAAox+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIRVEiIitZKwwtMYowT6y7YF5KKF/E1/kBEJCq22plmXm8sU8SRo1ONpdZTqrzqQu+mpwaO7TXwoBq+qIopcbCqtEPJtT3NWLJYzMtyLDRWlqrAyZMTrHVjHqYIhlxxlji5g0bu6zueyPRUFhPlC2PE5tbXienX+RvA2HWCfLsTZPsPzjQzob0AAAA=[0m[Pipeline] }
+[8mha:////4MvApYhNLg1xEFG2iXyHCog7Z9h4MbdAsNSDoK4wJnDgAAAApB+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIRoqBAVLRWGl5gEmOcWHfBvpBUvIiv8QciIlGx1c4083pjmSKOHJ1qLLWeUuVVF3o3PTVwbK+BB9XwRVVMiYNVpR1Kru1pxpLFYl6WY6GxslQFTp6cYK0b8zBFMOSKs8TJHTRyX9/xRKanspgoXxgjNre+Tky/zt8Axq4T5NudINt/AO8A7Ay9AAAA[0m[Pipeline] // script
+[8mha:////4P1g47DHQeYIMdAQPrqVFJW5XTEYSJkMqP0k+p1upCWxAAAApB+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIREqJBVLRWGl5gEmOcWHfBvpBUvIiv8QciIlGx1c4083pjmSKOHJ1qLLWeUuVVF3o3PTVwbK+BB9XwRVVMiYNVpR1Kru1pxpLFYl6WY6GxslQFTp6cYK0b8zBFMOSKs8TJHTRyX9/xRKanspgoXxgjNre+Tky/zt8Axq4T5NudINt/AGnsy8m9AAAA[0m[Pipeline] }
+[8mha:////4Lc6WrLYEiiAC7rTWY8q4RQPGu1FD+hrgClvEqpzcg2sAAAAox+LCAAAAAAAAP9tjTESgjAQRT84FraWHiKMBZVjZZuh8QQRYgxkdjFZhMoTeTXvICMzVv7qv9e81xvrFHHk6FRrqfOUaq/6MLj5qZFjdw08qpYvqmZKHKyq7FhxY08LViwWy7IcK42NpTpw8uQEW92ahymCIVecJc7uoJH75o4nMj2XxUT5whSxuw1NYvp1/gYw9b0g35eCrPwAY5Sibb0AAAA=[0m[Pipeline] // stage
+[8mha:////4LPzYIRsJlP9vBl87WR2FbvV5590n9jZkqHCRBijPEs5AAAApx+LCAAAAAAAAP9tjTEOwjAQBM9BKWgpeYQjJESDqGgtN7zAxMY4se6CfSGpeBFf4w8EIlGx1c5Kq3m+oMwJDpS8bBy2AXMdZBd7PzU5UGovkQbZ0FnWhJmik9oNmqw7zqiJHcwRBSwULB3WkXJAz7BSjbmbKhr01YnTtO0VFMHe4AFCTWY2ib8wJlhfe5sJf56/Ahg7BrFlKDa7z7F8A6sHc4fBAAAA[0m[Pipeline] stage
+[8mha:////4P0yjWfQiEwQxZO7i9obwDXrYwQclNR3i//1CTGbFwBFAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohULDAgpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD1+IXOLCAAAA[0m[Pipeline] { (clone)
+[8mha:////4I3tKNYAz7At397ZkNOs6SFwEn2bzn3ZBhsoegW1dhRwAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiKpAQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGPIUG53n9qHNxXfVKy+AAAA[0m[Pipeline] sh
++ git clone -b develop https://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@github.com/intel-innersource/applications.validation.network-platform.npxtester.git npxtester
+Cloning into 'npxtester'...
+[8mha:////4CRWXV91kUhqh2bTVXI+2n5U32cQ89nJ7yub5blKQ29bAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiKoQQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGMIGcrt/lO7N9Jjga++AAAA[0m[Pipeline] }
+[8mha:////4I4ZVrOFMvh2sVfxnfT9s6+paGHoH9OzkxEwdR4h+nRDAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOICFDQoFa3lhheYxBgn1l2wHZyKF/E1/oBFJCq2WO1sM683LIOHmr3BTlNvKTQWBzeavDCx76+OE3Z8wYYpsNModZLc6tOMkqOGOUUJCwErTY3jYMlEWItOPVTlFJnqHH3+jgJK297hCYXI5qh8/MLkYXMb28D08/wVwDQMEcr9Ntfu8AERGGHOvgAAAA==[0m[Pipeline] // stage
+[8mha:////4J4BpfnRrLE6odVrNZGgZ11wIRy0HYHBalvcHAcD12j/AAAAph+LCAAAAAAAAP9tjTEOwjAQBM9BKWgpeYQjEB2iorXc8AITG+PEugv2haTiRXyNPxCIRMVWOyut5vmCMic4UPKycdgGzHWQXez91ORAqb1EGmRDZ1kTZopOajdosu44oyZ2MEcUsFCwdFhHygE9w0o15m6qaNBXJ07TtldQBHuDBwg1mdkk/sKYYH3tbSb8ef4KYOwYxI6h2G4+x/INji2eq8EAAAA=[0m[Pipeline] stage
+[8mha:////4AgPhGmio4pMNzq5gItmuDxswb3P5dwyIofUIBdMXBTmAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+DOrAycohUdEVMrFEXThCaEJJG/7dJSjpxIq7GHWipxIQHy7ZkvdcbyhjgRMFwp7GzGFvLez+aOfFMobt5ytzRlbeEkbzmjc4NKX1ea0NJw6qCwUbAVmPrKVo0CXbCyYesvERTXVKYt6MAZtUATyjETE4ypG+ZAuzvo4qEP85fAEx9AlYfFquXZ/kBAsTc3cIAAAA=[0m[Pipeline] { (set args)
+[8mha:////4G9dxluK5ut2lxdfo2JVi6OIov1ZH/881VUFzuPzanonAAAAox+LCAAAAAAAAP9tjTESwiAURH/iWNhaeggyE0vHypah8QSYIEKY/wkQSeWJvJp3EM2MlVvs7NvmPV+wjgGOFDSzCgeDsTPMu0mXxTKF4eooM0sX1hFGcooJlQX16rSgoKRgSVXDisNGYecoGtQJttzKu2ycRN2cUyjfgUNt+hEeUPFiTjKkL8wBdrepj4Q/z18BzD5B3baf2vs3w5BRkb4AAAA=[0m[Pipeline] sh
++ python /root/.jenkins/workspace/icx-d-test-nic-sriov-stress-2hours/npxtester/conf/change_args.py '{"drive_info":{"drive_version":"1.7.19"},"dpdk_dir":"/opt/APP/utility/DPDK/dpdk-21.11/","vm_image_conf":{"image1":"uvm1.img","image2":"uvm2.img","image3":"rhel84rt.img","image4":"rhel84rt2.img","image_dir":"/home/image"},"sut_conf":{"host":"10.239.115.71","run_time":"600","connect_switch_sut_pf":"enp137s0f0","pf1":"enp137s0f0","os":"UBUNTU"},"pkg_generator":{"host":"10.239.115.16","pf1":"ens801f0"}}'
+[8mha:////4FhUQONKPXFSeOjFO92QKbtxv93cUzSuhB7hx3xoWX6KAAAApB+LCAAAAAAAAP9tjbEOwiAURV9rHFwd/QiaNG7GyZWw+AXYIkLJexSodPKL/DX/QbSJk3e4uecu5/mCdQxwpKCZVTgYjJ1h3k26LJYpDFdHmVm6sI4wklNMqCyoV6cFBSUFS6oaVhw2CjtH0aBOsOVW3mXjJOrmnEL5Dhxq04/wgIoXc5IhfWEOsLtNfST8ef4KYPY+Qd3uP9W+Ad3NsHm+AAAA[0m[Pipeline] }
+[8mha:////4EpM1Tihe33kOTBucrClpdwMCq1FF6wGwTU/AEOZmYaNAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIikKgQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGMIGcrd/lPbN8JP5Su+AAAA[0m[Pipeline] // stage
+[8mha:////4JJk4NQMkVX21N+ktknOqKLQw+FD2VU/fvD8dhBPuambAAAApx+LCAAAAAAAAP9tjTEOwjAQBM9BKWgpeYQjIUSDqGgtN7zAxMY4se6CfSGpeBFf4w8EIlGx1c5Kq3m+oMwJDpS8bBy2AXMdZBd7PzU5UGovkQbZ0FnWhJmik9oNmqw7zqiJHcwRBSwULB3WkXJAz7BSjbmbKhr01YnTtO0VFMHe4AFCTWY2ib8wJlhfe5sJf56/Ahg7BrFlKDa7z7F8AzYdm7bBAAAA[0m[Pipeline] stage
+[8mha:////4GToWcz1lEtttcc1F67+obVKf97ChyGWoNBgdNb8ln6iAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUYoABMXWNsnCC0ISQNvq//KS0EyfiatyBlkpMeLBsS9Z7vaGIDCdiJxqLrcdYe9GF3k1JDMTtNdAgGrqImjBSsELZQZGx1VIVJQuLshxWEtYW60DRo0uwkY1+6DJodOU58bQdJeTe3OEJmZzISXP6lpFhe+tNJPxx/gJg7BLku/1sh/lZfAAyQCqkwgAAAA==[0m[Pipeline] { (run nic case)
+[8mha:////4M/BBJOrvLliK1a64sS7A0hf4H4seiclg8D1IX9OqKAVAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIi0YCEqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDhnK7+9Q+vAGvZp0gvgAAAA==[0m[Pipeline] sh
++ pytest /root/.jenkins/workspace/icx-d-test-nic-sriov-stress-2hours/npxtester/Tests/testNics -s -m nicSriov2hours --capture=tee-sys --html=/root/testconfig/testlogs/HtmlReport/nic_sriov2hours_case_report.html --self-contained-html
+============================= test session starts ==============================
+platform linux -- Python 3.6.8, pytest-6.2.4, py-1.11.0, pluggy-0.13.1
+rootdir: /root/.jenkins/workspace/icx-d-test-nic-sriov-stress-2hours/npxtester/Tests/testNics, configfile: pytest.ini
+plugins: metadata-1.11.0, html-3.1.1
+collected 19 items / 18 deselected / 1 selected
+
+npxtester/Tests/testNics/test_network_sriov_stress.py 2022-04-15 07:30:06 - NicTestFixture.py - [line:27] - root - INFO - case_logpath: /root/testconfig/testlogs/2022-04-15/test_PI_Networking_SRIOV_StressTrafficBetweenPFVFAndTestClientFor2Hours_VM_Guest[uvm2.img-uvm1.img]_07_30_06/test_PI_Networking_SRIOV_StressTrafficBetweenPFVFAndTestClientFor2Hours_VM_Guest[uvm2.img-uvm1.img].log, case_logdir: /root/testconfig/testlogs/2022-04-15/test_PI_Networking_SRIOV_StressTrafficBetweenPFVFAndTestClientFor2Hours_VM_Guest[uvm2.img-uvm1.img]_07_30_06
+2022-04-15 07:30:06 - NicTestFixture.py - [line:31] - root - INFO - ============================ Starting to run test_PI_Networking_SRIOV_StressTrafficBetweenPFVFAndTestClientFor2Hours_VM_Guest[uvm2.img-uvm1.img] case ============================
+2022-04-15 07:30:06 - test_network_sriov_stress.py - [line:32] - root - INFO - SSH SUT and setup configurations in the setup function.
+2022-04-15 07:30:06 - test_network_sriov_stress.py - [line:50] - root - INFO - ssh to the sut1
+2022-04-15 07:30:06 - transport.py - [line:1819] - paramiko.transport - INFO - Connected (version 2.0, client OpenSSH_8.2p1)
+2022-04-15 07:30:06 - transport.py - [line:1819] - paramiko.transport - INFO - Authentication (password) successful!
+2022-04-15 07:30:06 - sshInstance.py - [line:28] - root - INFO - SSH on SUT: 10.239.115.71
+2022-04-15 07:30:06 - transport.py - [line:1819] - paramiko.transport - INFO - Connected (version 2.0, client OpenSSH_8.0)
+2022-04-15 07:30:06 - transport.py - [line:1819] - paramiko.transport - INFO - Authentication (password) successful!
+2022-04-15 07:30:06 - sshInstance.py - [line:28] - root - INFO - SSH on SUT: 10.239.115.16
+2022-04-15 07:30:06 - test_network_sriov_stress.py - [line:64] - root - INFO - clean up iperf and taskset process...
+2022-04-15 07:30:09 - sshInstance.py - [line:50] - root - INFO - pkill -9 iperf
+2022-04-15 07:30:09 - sshInstance.py - [line:54] - root - INFO - 
+2022-04-15 07:30:17 - sshInstance.py - [line:50] - root - INFO - pkill -9 taskset
+2022-04-15 07:30:17 - sshInstance.py - [line:54] - root - INFO - 
+2022-04-15 07:30:25 - sshInstance.py - [line:50] - root - INFO - pkill -9 iperf
+2022-04-15 07:30:25 - sshInstance.py - [line:54] - root - INFO - 
+2022-04-15 07:30:33 - sshInstance.py - [line:50] - root - INFO - pkill -9 taskset
+2022-04-15 07:30:34 - sshInstance.py - [line:54] - root - INFO - 
+2022-04-15 07:30:39 - sftp.py - [line:158] - paramiko.transport.sftp - INFO - [chan 3] Opened sftp connection (server version 3)
+2022-04-15 07:30:39 - sshInstance.py - [line:190] - root - INFO - start to rmmod irdma....
+2022-04-15 07:30:42 - sshInstance.py - [line:50] - root - INFO - rmmod irdma
+2022-04-15 07:30:42 - sshInstance.py - [line:54] - root - INFO - rmmod: ERROR: Module irdma is not currently loaded
+
+2022-04-15 07:30:47 - sshInstance.py - [line:193] - root - INFO - finished rmmod irdma....
+2022-04-15 07:30:47 - sshInstance.py - [line:194] - root - INFO - start to rmmod ice....
+2022-04-15 07:30:50 - sshInstance.py - [line:50] - root - INFO - rmmod ice
+2022-04-15 07:30:52 - sshInstance.py - [line:54] - root - INFO - 
+2022-04-15 07:30:57 - sshInstance.py - [line:197] - root - INFO - finished rmmod ice....
+2022-04-15 07:30:57 - sshInstance.py - [line:199] - root - INFO - start to modprobe ice....
+2022-04-15 07:31:00 - sshInstance.py - [line:50] - root - INFO - modprobe ice
+2022-04-15 07:31:05 - sshInstance.py - [line:54] - root - INFO - 
+2022-04-15 07:31:10 - sshInstance.py - [line:201] - root - INFO - finished modprobe ice....
+2022-04-15 07:31:13 - sshInstance.py - [line:50] - root - INFO - ifconfig enp137s0f0 up
+2022-04-15 07:31:13 - sshInstance.py - [line:54] - root - INFO - 
+2022-04-15 07:31:21 - sshInstance.py - [line:50] - root - INFO - ethtool -i enp137s0f0
+2022-04-15 07:31:21 - sshInstance.py - [line:54] - root - INFO - driver: ice
+version: 1.7.19
+firmware-version: 2.19 0x8000bafe 1.3083.0
+expansion-rom-version: 
+bus-info: 0000:89:00.0
+supports-statistics: yes
+supports-test: yes
+supports-eeprom-access: yes
+supports-register-dump: yes
+supports-priv-flags: yes
+
+2022-04-15 07:31:26 - test_network_sriov_stress.py - [line:72] - root - INFO - trying to get ipv6 addr for pf1
+2022-04-15 07:31:29 - sshInstance.py - [line:50] - root - INFO - ifconfig enp137s0f0
+2022-04-15 07:31:29 - sshInstance.py - [line:54] - root - INFO - enp137s0f0: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        inet6 fe80::200:ff:fe00:3300  prefixlen 64  scopeid 0x20<link>
+        ether 00:00:00:00:33:00  txqueuelen 1000  (Ethernet)
+        RX packets 0  bytes 0 (0.0 B)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 12  bytes 2036 (2.0 KB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+
+2022-04-15 07:31:37 - sshInstance.py - [line:50] - root - INFO - ifconfig ens801f0
+2022-04-15 07:31:37 - sshInstance.py - [line:54] - root - INFO - ens801f0: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        inet6 fe80::3efd:feff:fed2:73e0  prefixlen 64  scopeid 0x20<link>
+        ether 3c:fd:fe:d2:73:e0  txqueuelen 1000  (Ethernet)
+        RX packets 133123523645  bytes 201534044836097 (183.2 TiB)
+        RX errors 0  dropped 717967  overruns 0  frame 0
+        TX packets 7239781631  bytes 530578430848 (494.1 GiB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+
+2022-04-15 07:31:45 - sshInstance.py - [line:50] - root - INFO - /opt/APP/utility/DPDK/dpdk-21.11/usertools/dpdk-devbind.py -s | grep enp137s0f0 | awk '{print $1;}'
+2022-04-15 07:31:45 - sshInstance.py - [line:54] - root - INFO - 0000:89:00.0
+
+2022-04-15 07:31:50 - test_network_sriov_stress.py - [line:123] - root - INFO - pf_id was found: 0000:89:00.0
+
+2022-04-15 07:31:50 - test_network_sriov_stress.py - [line:701] - root - INFO - format_pf_id is 0000\:89\:00.0
+
+2022-04-15 07:31:50 - test_network_sriov_stress.py - [line:704] - root - INFO - pf_id_key: 89
+2022-04-15 07:31:50 - test_network_sriov_stress.py - [line:708] - root - INFO - Start assgin sut1 192.168.10.10 ip
+2022-04-15 07:31:56 - sshInstance.py - [line:99] - root - INFO - Welcome to Ubuntu 20.04 LTS (GNU/Linux 5.4.0-26-generic x86_64)
+ * Documentation:  https://help.ubuntu.com
+ * Management:     https://landscape.canonical.com
+ * Support:        https://ubuntu.com/advantage
+Last login: Fri Apr 15 07:27:39 2022 from 10.239.182.99
+root@npx-sut3-ice-d-auto:~# ifconfig enp137s0f0 192.168.10.10
+root@npx-sut3-ice-d-auto:~# 
+2022-04-15 07:31:59 - test_network_sriov_stress.py - [line:326] - root - INFO - Successfully assigned ip to ethernet: enp137s0f0
+2022-04-15 07:31:59 - test_network_sriov_stress.py - [line:710] - root - INFO - Start assgin sut2 192.168.10.11 ip
+2022-04-15 07:32:05 - sshInstance.py - [line:99] - root - INFO - Activate the web console with: systemctl enable --now cockpit.socket
+This system is not registered to Red Hat Insights. See https://cloud.redhat.com/
+To register this system, run: insights-client --register
+Last login: Fri Apr 15 07:10:17 2022 from 10.239.182.99
+[root@redhat8 ~]# ifconfig ens801f0 192.168.10.11
+[root@redhat8 ~]# 
+2022-04-15 07:32:08 - test_network_sriov_stress.py - [line:326] - root - INFO - Successfully assigned ip to ethernet: ens801f0
+2022-04-15 07:32:08 - test_network_sriov_stress.py - [line:129] - root - INFO - virtulize sut1 pf to 4 vfs
+2022-04-15 07:32:11 - sshInstance.py - [line:50] - root - INFO - echo 4 > /sys/class/net/enp137s0f0/device/sriov_numvfs
+2022-04-15 07:32:12 - sshInstance.py - [line:54] - root - INFO - 
+2022-04-15 07:32:17 - test_network_sriov_stress.py - [line:138] - root - INFO - Successfully Virtualized PF to VFs.
+2022-04-15 07:32:20 - sshInstance.py - [line:50] - root - INFO -  lspci | grep "Virtual" | awk '{print $1;}'list
+2022-04-15 07:32:20 - sshInstance.py - [line:54] - root - INFO - 81:00.1
+81:00.2
+81:00.3
+81:00.4
+81:00.5
+81:00.6
+81:00.7
+81:01.0
+81:01.1
+81:01.2
+81:01.3
+81:01.4
+81:01.5
+81:01.6
+81:01.7
+81:02.0
+81:02.1
+81:02.2
+81:02.3
+81:02.4
+81:02.5
+81:02.6
+81:02.7
+81:03.0
+81:03.1
+81:03.2
+81:03.3
+81:03.4
+81:03.5
+81:03.6
+81:03.7
+81:04.0
+81:04.1
+81:04.2
+81:04.3
+81:04.4
+81:04.5
+81:04.6
+81:04.7
+81:05.0
+81:05.1
+81:05.2
+81:05.3
+81:05.4
+81:05.5
+81:05.6
+81:05.7
+81:06.0
+81:06.1
+81:06.2
+81:06.3
+81:06.4
+81:06.5
+81:06.6
+81:06.7
+81:07.0
+81:07.1
+81:07.2
+81:07.3
+81:07.4
+81:07.5
+81:07.6
+81:07.7
+81:08.0
+81:08.1
+81:08.2
+81:08.3
+81:08.4
+81:08.5
+81:08.6
+81:08.7
+81:09.0
+81:09.1
+81:09.2
+81:09.3
+81:09.4
+81:09.5
+81:09.6
+81:09.7
+81:0a.0
+81:0a.1
+81:0a.2
+81:0a.3
+81:0a.4
+81:0a.5
+81:0a.6
+81:0a.7
+81:0b.0
+81:0b.1
+81:0b.2
+81:0b.3
+81:0b.4
+81:0b.5
+81:0b.6
+81:0b.7
+81:0c.0
+81:0c.1
+81:0c.2
+81:0c.3
+81:0c.4
+81:0c.5
+81:0c.6
+81:0c.7
+81:0d.0
+81:0d.1
+81:0d.2
+81:0d.3
+81:0d.4
+81:0d.5
+81:0d.6
+81:0d.7
+81:0e.0
+81:0e.1
+81:0e.2
+81:0e.3
+81:0e.4
+81:0e.5
+81:0e.6
+81:0e.7
+81:0f.0
+81:0f.1
+81:0f.2
+81:0f.3
+81:0f.4
+81:0f.5
+81:0f.6
+81:0f.7
+81:10.0
+89:01.0
+89:01.1
+89:01.2
+89:01.3
+
+2022-04-15 07:32:25 - test_network_sriov_stress.py - [line:152] - root - INFO - Succssfully Gotten vf_id list:
+
+2022-04-15 07:32:28 - sshInstance.py - [line:50] - root - INFO - modprobe vfio-pci
+
+2022-04-15 07:32:28 - sshInstance.py - [line:54] - root - INFO - 
+2022-04-15 07:32:33 - test_network_sriov_stress.py - [line:172] - root - INFO - start to bind drive in sut1
+2022-04-15 07:32:36 - sshInstance.py - [line:50] - root - INFO - /opt/APP/utility/DPDK/dpdk-21.11/usertools/dpdk-devbind.py -b vfio-pci 81:00.1
+2022-04-15 07:32:36 - sshInstance.py - [line:54] - root - INFO - Notice: 0000:81:00.1 already bound to driver vfio-pci, skipping
+
+2022-04-15 07:32:41 - test_network_sriov_stress.py - [line:186] - root - INFO - Successfuly bound VF to vfio-pci
+2022-04-15 07:32:44 - sshInstance.py - [line:50] - root - INFO - /opt/APP/utility/DPDK/dpdk-21.11/usertools/dpdk-devbind.py -b vfio-pci 81:00.2
+2022-04-15 07:32:45 - sshInstance.py - [line:54] - root - INFO - Notice: 0000:81:00.2 already bound to driver vfio-pci, skipping
+
+2022-04-15 07:32:50 - test_network_sriov_stress.py - [line:186] - root - INFO - Successfuly bound VF to vfio-pci
+2022-04-15 07:32:50 - test_network_sriov_stress.py - [line:729] - root - INFO - lspci -Dnn | grep 81:00.2
+2022-04-15 07:32:53 - sshInstance.py - [line:50] - root - INFO - lspci -Dnn | grep 81:00.2
+2022-04-15 07:32:53 - sshInstance.py - [line:54] - root - INFO - 0000:81:00.2 Co-processor [0b40]: Intel Corporation C4XXX Series QAT Virtual Function [8086:18a1]
+
+2022-04-15 07:32:58 - test_network_sriov_stress.py - [line:741] - root - INFO - Successfully get vf device id: 8086:18a1
+2022-04-15 07:32:58 - test_network_sriov_stress.py - [line:209] - root - INFO - get default network info: virsh net-info default | grep "Active" | awk '{print $2;}'
+2022-04-15 07:33:01 - sshInstance.py - [line:50] - root - INFO - virsh net-info default | grep "Active" | awk '{print $2;}'
+2022-04-15 07:33:01 - sshInstance.py - [line:54] - root - INFO - yes
+
+2022-04-15 07:33:06 - test_network_sriov_stress.py - [line:212] - root - INFO - Default network is active? yes
+
+2022-04-15 07:33:06 - test_network_sriov_stress.py - [line:751] - root - INFO - start to create VMs....
+2022-04-15 07:33:06 - test_network_sriov_stress.py - [line:242] - root - INFO - try to create VM with the cmd1: virt-install --name VMtest1 --ram 4096 --cpu host --vcpus=5 --network network=default --hostdev pci_0000_81_00_1 --boot hd --disk path=/home/image/uvm2.img,size=50,format=qcow2 --osinfo ubuntu20.04 --graphics vnc,listen=0.0.0.0,port=5900 --noautoconsole
+
+2022-04-15 07:33:10 - sshInstance.py - [line:75] - root - INFO - virt-install --name VMtest1 --ram 4096 --cpu host --vvcpus=5 --network network=default --hostdev pci_0000_81_00_1 --boot hd --disk patth=/home/image/uvm2.img,size=50,format=qcow2 --osinfo ubuntu20.04 --graphics vnc,,listen=0.0.0.0,port=5900 --noautoconsole
+usage: virt-install --name NAME --memory MB STORAGE INSTALL [options]
+virt-install: error: unrecognized arguments: --osinfo ubuntu20.04
+root@npx-sut3-ice-d-auto:~# 
+2022-04-15 07:33:13 - test_network_sriov_stress.py - [line:245] - root - INFO - cmd1 is not working, try to create VM with the cmd2: virt-install --name VMtest1 --ram 4096 --cpu host --vcpus=5 --network network=default --hostdev pci_0000_81_00_1 --boot hd --disk path=/home/image/uvm2.img,size=50,format=qcow2 --graphics vnc,listen=0.0.0.0,port=5900 --noautoconsole
+
+2022-04-15 07:33:17 - sshInstance.py - [line:75] - root - INFO - virt-install --name VMtest1 --ram 4096 --cpu host --vvcpus=5 --network network=default --hostdev pci_0000_81_00_1 --boot hd --disk patth=/home/image/uvm2.img,size=50,format=qcow2 --graphics vnc,listen=0.0.0.0,port=55900 --noautoconsole
+WARNING  No operating system detected, VM performance may suffer. Specify an OS with --os-variant for optimal results.
+
+Starting install...
+2022-04-15 07:33:19 - sshInstance.py - [line:75] - root - INFO - Domain creation completed.
+2022-04-15 07:33:20 - sshInstance.py - [line:75] - root - INFO - root@npx-sut3-ice-d-auto:~# 
+2022-04-15 07:33:23 - test_network_sriov_stress.py - [line:253] - root - INFO - Successfully created a VM: VMtest1
+2022-04-15 07:33:23 - test_network_sriov_stress.py - [line:242] - root - INFO - try to create VM with the cmd1: virt-install --name VMtest2 --ram 4096 --cpu host --vcpus=5 --network network=default --hostdev pci_0000_81_00_2 --boot hd --disk path=/home/image/uvm1.img,size=50,format=qcow2 --osinfo ubuntu20.04 --graphics vnc,listen=0.0.0.0,port=5901 --noautoconsole
+
+2022-04-15 07:33:27 - sshInstance.py - [line:75] - root - INFO - virt-install --name VMtest2 --ram 4096 --cpu host --vvcpus=5 --network network=default --hostdev pci_0000_81_00_2 --boot hd --disk patth=/home/image/uvm1.img,size=50,format=qcow2 --osinfo ubuntu20.04 --graphics vnc,,listen=0.0.0.0,port=5901 --noautoconsole
+usage: virt-install --name NAME --memory MB STORAGE INSTALL [options]
+virt-install: error: unrecognized arguments: --osinfo ubuntu20.04
+root@npx-sut3-ice-d-auto:~# 
+2022-04-15 07:33:30 - test_network_sriov_stress.py - [line:245] - root - INFO - cmd1 is not working, try to create VM with the cmd2: virt-install --name VMtest2 --ram 4096 --cpu host --vcpus=5 --network network=default --hostdev pci_0000_81_00_2 --boot hd --disk path=/home/image/uvm1.img,size=50,format=qcow2 --graphics vnc,listen=0.0.0.0,port=5901 --noautoconsole
+
+2022-04-15 07:33:34 - sshInstance.py - [line:75] - root - INFO - virt-install --name VMtest2 --ram 4096 --cpu host --vvcpus=5 --network network=default --hostdev pci_0000_81_00_2 --boot hd --disk patth=/home/image/uvm1.img,size=50,format=qcow2 --graphics vnc,listen=0.0.0.0,port=55901 --noautoconsole
+WARNING  No operating system detected, VM performance may suffer. Specify an OS with --os-variant for optimal results.
+
+Starting install...
+2022-04-15 07:33:37 - sshInstance.py - [line:75] - root - INFO - Domain creation completed.
+root@npx-sut3-ice-d-auto:~# 
+2022-04-15 07:33:40 - test_network_sriov_stress.py - [line:253] - root - INFO - Successfully created a VM: VMtest2
+2022-04-15 07:33:43 - sshInstance.py - [line:50] - root - INFO - virsh domifaddr VMtest1 | grep '192.168' | awk '{print $4;}'
+2022-04-15 07:33:43 - sshInstance.py - [line:54] - root - INFO - 192.168.122.241/24
+
+2022-04-15 07:33:48 - test_network_sriov_stress.py - [line:269] - root - INFO - Successfully got VMtest1 IP: 192.168.122.241/24
+
+2022-04-15 07:33:51 - sshInstance.py - [line:50] - root - INFO - virsh domifaddr VMtest2 | grep '192.168' | awk '{print $4;}'
+2022-04-15 07:33:51 - sshInstance.py - [line:54] - root - INFO - 
+2022-04-15 07:33:56 - test_network_sriov_stress.py - [line:274] - root - ERROR - not found IP of VMtest2
+2022-04-15 07:34:59 - sshInstance.py - [line:50] - root - INFO - virsh domifaddr VMtest2 | grep '192.168' | awk '{print $4;}'
+2022-04-15 07:34:59 - sshInstance.py - [line:54] - root - INFO - 192.168.122.254/24
+
+2022-04-15 07:35:04 - test_network_sriov_stress.py - [line:269] - root - INFO - Successfully got VMtest2 IP: 192.168.122.254/24
+
+2022-04-15 07:35:04 - test_network_sriov_stress.py - [line:770] - root - INFO - Start ssh vm1 and conf VM
+2022-04-15 07:35:08 - sshInstance.py - [line:75] - root - INFO - ping -c 5 192.168.122.241
+PING 192.168.122.241 (192.168.122.241) 56(84) bytes of data.
+64 bytes from 192.168.122.241: icmp_seq=1 ttl=64 time=0.107 ms
+2022-04-15 07:35:09 - sshInstance.py - [line:75] - root - INFO - 64 bytes from 192.168.122.241: icmp_seq=2 ttl=64 time=0.072 ms
+2022-04-15 07:35:10 - sshInstance.py - [line:75] - root - INFO - 64 bytes from 192.168.122.241: icmp_seq=3 ttl=64 time=0.075 ms
+2022-04-15 07:35:11 - sshInstance.py - [line:75] - root - INFO - 64 bytes from 192.168.122.241: icmp_seq=4 ttl=64 time=0.071 ms
+2022-04-15 07:35:12 - sshInstance.py - [line:75] - root - INFO - 64 bytes from 192.168.122.241: icmp_seq=5 ttl=64 time=0.074 ms
+
+--- 192.168.122.241 ping statistics ---
+5 packets transmitted, 5 received, 0% packet loss, time 4086ms
+rtt min/avg/max/mdev = 0.071/0.079/0.107/0.013 ms
+root@npx-sut3-ice-d-auto:~# 
+2022-04-15 07:35:21 - sshInstance.py - [line:99] - root - INFO - ssh root@192.168.122.241
+root@192.168.122.241's password: 
+2022-04-15 07:35:30 - sshInstance.py - [line:99] - root - INFO - 
+Welcome to Ubuntu 20.04 LTS (GNU/Linux 5.4.0-26-generic x86_64)
+ * Documentation:  https://help.ubuntu.com
+ * Management:     https://landscape.canonical.com
+ * Support:        https://ubuntu.com/advantage
+  System information as of Thu 14 Apr 2022 07:38:21 PM EDT
+  System load:  0.41               Processes:             141
+  Usage of /:   40.3% of 19.07GB   Users logged in:       0
+  Memory usage: 4%                 IPv4 address for ens3: 192.168.122.241
+  Swap usage:   0%
+
+383 updates can be installed immediately.
+261 of these updates are security updates.
+To see these additional updates run: apt list --upgradable
+
+Last login: Thu Apr 14 19:24:49 2022 from 192.168.122.1
+root@localhost:~# 
+2022-04-15 07:35:33 - test_network_sriov_stress.py - [line:352] - root - INFO - Successfully ssh VM.
+2022-04-15 07:35:39 - sshInstance.py - [line:99] - root - INFO - lspci -Dnn | grep "8086:18a1" --color=never| awk '{print $1;}' [A        [C        [C        [C        [C        [C        [C        [C        [C        [C        [C        [C        [C        [C        [C        [C        [C        [C        [C        [C        [C        [C        [C        [C        [C        [C        [C        [C        [C        [C        [C        [C        [C        [C        [C        [C        [C        [C        [C        [C        [C        [C        [C        [C        [C        [C        [C        [C        [C        [C        [C        [C        [C        [C        [C        [C        [C        [C        [C        [C        [C        [C        [C        [C        [C        [C        [C        [C        [C        [C        [C        [C        [C        [C        [C        [C        [C        [C        [C        [C        [K            '
+0000:00:05.0
+root@localhost:~# 
+2022-04-15 07:35:45 - test_network_sriov_stress.py - [line:369] - root - INFO - successfully got vf pci id of vm1: 0000:00:05.0
+2022-04-15 07:35:51 - sshInstance.py - [line:99] - root - INFO - ls /sys/bus/pci/devices/0000\:00\:05.0/net/ --color=never
+ls: cannot access '/sys/bus/pci/devices/0000:00:05.0/net/': No such file or directory
+root@localhost:~# 
+2022-04-15 07:35:56 - test_network_sriov_stress.py - [line:383] - root - INFO - Successfully got vf device name of vm1: ls: cannot access '/sys/bus/pci/devices/0000:00:05.0/net/': No such file or directory
+2022-04-15 07:36:02 - sshInstance.py - [line:99] - root - INFO - ifconfig ls: cannot access '/sys/bus/pci/devices/0000:00:05.0/net/': No such file or directory 192.168.10.12
+cannot: Host name lookup failure
+ifconfig: `--help' gives usage information.
+root@localhost:~# 
+2022-04-15 07:36:05 - test_network_sriov_stress.py - [line:326] - root - INFO - Successfully assigned ip to ethernet: ls: cannot access '/sys/bus/pci/devices/0000:00:05.0/net/': No such file or directory
+2022-04-15 07:36:11 - sshInstance.py - [line:99] - root - INFO - ifconfig ls: cannot access '/sys/bus/pci/devices/0000:00:05.0/net/': No such file or directory down
+cannot: Host name lookup failure
+ifconfig: `--help' gives usage information.
+root@localhost:~# 
+2022-04-15 07:36:20 - sshInstance.py - [line:99] - root - INFO - ifconfig ls: cannot access '/sys/bus/pci/devices/0000:00:05.0/net/': No such file or directory hw ether 1234567890ac
+cannot: Host name lookup failure
+ifconfig: `--help' gives usage information.
+root@localhost:~# 
+2022-04-15 07:36:29 - sshInstance.py - [line:99] - root - INFO - ifconfig ls: cannot access '/sys/bus/pci/devices/0000:00:05.0/net/': No such file or directory up
+cannot: Host name lookup failure
+ifconfig: `--help' gives usage information.
+root@localhost:~# 
+2022-04-15 07:36:38 - sshInstance.py - [line:99] - root - INFO - nmcli device connect ls: cannot access '/sys/bus/pci/devices/0000:00:05.0/net/': No such file or directory
+Command 'nmcli' not found, but can be installed with:
+apt install network-manager
+root@localhost:~# 
+2022-04-15 07:36:47 - sshInstance.py - [line:99] - root - INFO - ifconfig ls: cannot access '/sys/bus/pci/devices/0000:00:05.0/net/': No such file or directory
+cannot: Host name lookup failure
+ifconfig: `--help' gives usage information.
+root@localhost:~# 
+2022-04-15 07:36:56 - sshInstance.py - [line:99] - root - INFO - exit
+logout
+Connection to 192.168.122.241 closed.
+root@npx-sut3-ice-d-auto:~# 
+F2022-04-15 07:36:59 - test_network_sriov_stress.py - [line:84] - root - INFO - removing VMs: VMtest1, VMtest2
+2022-04-15 07:37:02 - sshInstance.py - [line:50] - root - INFO - virsh destroy VMtest2
+2022-04-15 07:37:03 - sshInstance.py - [line:54] - root - INFO - Domain VMtest2 destroyed
+
+
+2022-04-15 07:37:08 - test_network_sriov_stress.py - [line:301] - root - INFO - Successfully shut down the VM: VMtest2
+2022-04-15 07:37:11 - sshInstance.py - [line:50] - root - INFO - virsh undefine VMtest2
+2022-04-15 07:37:11 - sshInstance.py - [line:54] - root - INFO - Domain VMtest2 has been undefined
+
+
+2022-04-15 07:37:16 - test_network_sriov_stress.py - [line:311] - root - INFO - Successfully removed the VM: VMtest2
+2022-04-15 07:37:19 - sshInstance.py - [line:50] - root - INFO - virsh destroy VMtest1
+2022-04-15 07:37:19 - sshInstance.py - [line:54] - root - INFO - Domain VMtest1 destroyed
+
+
+2022-04-15 07:37:24 - test_network_sriov_stress.py - [line:301] - root - INFO - Successfully shut down the VM: VMtest1
+2022-04-15 07:37:27 - sshInstance.py - [line:50] - root - INFO - virsh undefine VMtest1
+2022-04-15 07:37:27 - sshInstance.py - [line:54] - root - INFO - Domain VMtest1 has been undefined
+
+
+2022-04-15 07:37:32 - test_network_sriov_stress.py - [line:311] - root - INFO - Successfully removed the VM: VMtest1
+2022-04-15 07:37:35 - sshInstance.py - [line:50] - root - INFO - echo 0 > /sys/class/net/enp137s0f0/device/sriov_numvfs
+2022-04-15 07:37:38 - sshInstance.py - [line:54] - root - INFO - 
+2022-04-15 07:37:46 - sshInstance.py - [line:50] - root - INFO - ifconfig enp137s0f0 0
+2022-04-15 07:37:46 - sshInstance.py - [line:54] - root - INFO - 
+2022-04-15 07:37:54 - sshInstance.py - [line:50] - root - INFO - ifconfig ens801f0 0
+2022-04-15 07:37:54 - sshInstance.py - [line:54] - root - INFO - 
+2022-04-15 07:38:02 - sshInstance.py - [line:50] - root - INFO - dmesg > /tmp/dmesg.log
+2022-04-15 07:38:02 - sshInstance.py - [line:54] - root - INFO - 
+2022-04-15 07:38:07 - test_network_sriov_stress.py - [line:93] - root - INFO - generate dmesg.log file on sut /tmp/dmesg.log
+2022-04-15 07:38:07 - test_network_sriov_stress.py - [line:95] - root - INFO - copy dmesg.log from sut1 /tmp dir to controller dir /root/testconfig/testlogs/2022-04-15/test_PI_Networking_SRIOV_StressTrafficBetweenPFVFAndTestClientFor2Hours_VM_Guest[uvm2.img-uvm1.img]_07_30_06
+2022-04-15 07:38:10 - sshInstance.py - [line:50] - root - INFO - rm -f /tmp/dmesg.log
+2022-04-15 07:38:10 - sshInstance.py - [line:54] - root - INFO - 
+2022-04-15 07:38:15 - test_network_sriov_stress.py - [line:97] - root - INFO - rm dmesg.log on sut1 /tmp dir
+2022-04-15 07:38:18 - sshInstance.py - [line:50] - root - INFO - rm -f /tmp/*.txt
+2022-04-15 07:38:18 - sshInstance.py - [line:54] - root - INFO - 
+2022-04-15 07:38:23 - sshInstance.py - [line:43] - root - INFO - closing ssh client on SUT
+2022-04-15 07:38:23 - NicTestFixture.py - [line:35] - root - INFO - ============================ end of run test_PI_Networking_SRIOV_StressTrafficBetweenPFVFAndTestClientFor2Hours_VM_Guest[uvm2.img-uvm1.img] case ============================
+                  [100%]
+
+=================================== FAILURES ===================================
+_ Test_Network_SRIOV_Stress.test_PI_Networking_SRIOV_StressTrafficBetweenPFVFAndTestClientFor2Hours_VM_Guest[uvm2.img-uvm1.img] _
+
+self = <Tests.testNics.test_network_sriov_stress.Test_Network_SRIOV_Stress object at 0x7fe50d4043c8>
+vm1_image = 'uvm2.img', vm2_image = 'uvm1.img'
+
+    @pytest.mark.usefixtures("fbefore")
+    @pytest.mark.nicAll
+    @pytest.mark.nicStress
+    @pytest.mark.nicSriovStress
+    @pytest.mark.nicSriov2hours
+    @pytest.mark.parametrize('vm1_image, vm2_image', vm_image)
+    def test_PI_Networking_SRIOV_StressTrafficBetweenPFVFAndTestClientFor2Hours_VM_Guest(self, vm1_image, vm2_image):
+        pf_id, status = self.get_pf_id(self.client, self.pf_name)
+        # transfer pf_id to 0000\:00\:00.0 format
+    
+        if not pf_id:
+            assert 200 == status
+        else:
+            pf_id_format = pf_id.replace(":", "\\:", 2)
+            logging.info("format_pf_id is {}".format(pf_id_format))
+            # get the number key of pf_id
+            pf_id_key = pf_id.split(":")[1]
+            logging.info("pf_id_key: {}".format(pf_id_key))
+            # assign IP to PF in SUT and sut2
+            pf_ip = "192.168.10.10"
+            sut2_ip = "192.168.10.11"
+            logging.info("Start assgin sut1 {} ip".format(pf_ip))
+            assert 200 == self.assign_ip_ehternet(self.session, pf_ip, self.pf_name)
+            logging.info("Start assgin sut2 {} ip".format(sut2_ip))
+            assert 200 == self.assign_ip_ehternet(self.session2, sut2_ip, self.sut2_info["pf1"])
+            # virtulize the pf to vfs
+            assert 200 == self.virtualize_pf_to_vfs(self.pf_name)
+            # get vf ids
+            vf_id_list, status = self.get_vf_ids(self.client, pf_id_key)
+            vf_id_list = [i.strip() for i in vf_id_list]
+    
+            if status == 200:
+                # modprobe vfio-pci
+                assert 200 == self.modprobe("vfio-pci")
+                # bind vf with vfio-pci
+                host_dev_id_list, status = self.bind_vf_to_vfio_pci(self.client, vf_id_list)
+                assert 200 == status
+            else:
+                assert 200 == status
+    
+            # get vF device id
+            cmd = "lspci -Dnn | grep %s" % (vf_id_list[1])
+            logging.info(cmd)
+            vf_device_id = ""
+            vf_device_id_rs, error = self.ssh_sut.ssh_exec_cmd(self.client, cmd)
+            vf_device_id_rs = vf_device_id_rs.strip()
+            if vf_device_id_rs:
+                st = False
+                vf_device_id = None
+                for one in vf_device_id_rs.split(" "):
+                    one = " " + one + " "
+                    if one.find(" [") > -1 and one.find("] ") > -1 and one.find(":") > -1:
+                        vf_device_id = one.replace("[", "").replace("]", "").strip()
+                if not vf_device_id: assert 200 == 400, "vf_device_id is not found"
+                logging.info("Successfully get vf device id: {}".format(vf_device_id))
+                assert 200 == 200
+            else:
+                logging.error("Fail to get vf device id.")
+                assert 200 == 400
+            # set network
+            status = self.default_network_isActive(self.client, self.defult_network)
+            if status == "no":
+                assert 200 == self.start_default_network(self.defult_network)
+    
+            logging.info("start to create VMs....")
+            if self.sut_info["os"] == "UBUNTU":
+                assert 200 == self.create_vm(vm1_image, host_dev_id_list[0], self.vm1_name, "ubuntu20.04", "5900")
+                assert 200 == self.create_vm(vm2_image, host_dev_id_list[1], self.vm2_name, "ubuntu20.04", "5901")
+            else:
+                assert 200 == self.create_vm(vm1_image, host_dev_id_list[0], self.vm1_name, "rhel8.2", "5900")
+                assert 200 == self.create_vm(vm2_image, host_dev_id_list[1], self.vm2_name, "rhel8.2", "5901")
+    
+            # start VMs
+            # assert 200 == self.create_vm(vm1_image, host_dev_id_list[0], self.vm1_name, "5900")
+            # assert 200 == self.create_vm(vm2_image, host_dev_id_list[1], self.vm2_name, "5901")
+            # get VM ssh IP
+            vm1_ip, status1 = self.get_vm_ip(self.vm1_name)
+            vm2_ip, status2 = self.get_vm_ip(self.vm2_name)
+    
+            # ssh VM1 to set VF
+            # ssh VM1 to set VF
+            vm1_vf_ip = "192.168.10.12"
+            vm2_vf_ip = "192.168.10.13"
+            logging.info("Start ssh vm1 and conf VM")
+            assert 200 == self.on_session_ssh(self.ssh_sut, self.session,
+                                              vm1_ip), "ssh vm failed,the reason may be is password is error,vm ip isimpassability"
+            vm1_vf_name, vm1_ipv6, status = self.ssh_vm_set_VF(vm1_ip, vf_device_id, vm1_vf_ip, "1234567890ac")
+            self.ssh_sut.run_ssh_cmd(self.session, "exit\n")
+>           assert 200 == status, "vm1 vf related settings failed"
+E           AssertionError: vm1 vf related settings failed
+E           assert 200 == 400
+
+npxtester/Tests/testNics/test_network_sriov_stress.py:775: AssertionError
+---------------------------- Captured stdout setup -----------------------------
+2022-04-15 07:30:06 - NicTestFixture.py - [line:27] - root - INFO - case_logpath: /root/testconfig/testlogs/2022-04-15/test_PI_Networking_SRIOV_StressTrafficBetweenPFVFAndTestClientFor2Hours_VM_Guest[uvm2.img-uvm1.img]_07_30_06/test_PI_Networking_SRIOV_StressTrafficBetweenPFVFAndTestClientFor2Hours_VM_Guest[uvm2.img-uvm1.img].log, case_logdir: /root/testconfig/testlogs/2022-04-15/test_PI_Networking_SRIOV_StressTrafficBetweenPFVFAndTestClientFor2Hours_VM_Guest[uvm2.img-uvm1.img]_07_30_06
+2022-04-15 07:30:06 - NicTestFixture.py - [line:31] - root - INFO - ============================ Starting to run test_PI_Networking_SRIOV_StressTrafficBetweenPFVFAndTestClientFor2Hours_VM_Guest[uvm2.img-uvm1.img] case ============================
+2022-04-15 07:30:06 - test_network_sriov_stress.py - [line:32] - root - INFO - SSH SUT and setup configurations in the setup function.
+2022-04-15 07:30:06 - test_network_sriov_stress.py - [line:50] - root - INFO - ssh to the sut1
+2022-04-15 07:30:06 - transport.py - [line:1819] - paramiko.transport - INFO - Connected (version 2.0, client OpenSSH_8.2p1)
+2022-04-15 07:30:06 - transport.py - [line:1819] - paramiko.transport - INFO - Authentication (password) successful!
+2022-04-15 07:30:06 - sshInstance.py - [line:28] - root - INFO - SSH on SUT: 10.239.115.71
+2022-04-15 07:30:06 - transport.py - [line:1819] - paramiko.transport - INFO - Connected (version 2.0, client OpenSSH_8.0)
+2022-04-15 07:30:06 - transport.py - [line:1819] - paramiko.transport - INFO - Authentication (password) successful!
+2022-04-15 07:30:06 - sshInstance.py - [line:28] - root - INFO - SSH on SUT: 10.239.115.16
+2022-04-15 07:30:06 - test_network_sriov_stress.py - [line:64] - root - INFO - clean up iperf and taskset process...
+2022-04-15 07:30:09 - sshInstance.py - [line:50] - root - INFO - pkill -9 iperf
+2022-04-15 07:30:09 - sshInstance.py - [line:54] - root - INFO - 
+2022-04-15 07:30:17 - sshInstance.py - [line:50] - root - INFO - pkill -9 taskset
+2022-04-15 07:30:17 - sshInstance.py - [line:54] - root - INFO - 
+2022-04-15 07:30:25 - sshInstance.py - [line:50] - root - INFO - pkill -9 iperf
+2022-04-15 07:30:25 - sshInstance.py - [line:54] - root - INFO - 
+2022-04-15 07:30:33 - sshInstance.py - [line:50] - root - INFO - pkill -9 taskset
+2022-04-15 07:30:34 - sshInstance.py - [line:54] - root - INFO - 
+2022-04-15 07:30:39 - sftp.py - [line:158] - paramiko.transport.sftp - INFO - [chan 3] Opened sftp connection (server version 3)
+2022-04-15 07:30:39 - sshInstance.py - [line:190] - root - INFO - start to rmmod irdma....
+2022-04-15 07:30:42 - sshInstance.py - [line:50] - root - INFO - rmmod irdma
+2022-04-15 07:30:42 - sshInstance.py - [line:54] - root - INFO - rmmod: ERROR: Module irdma is not currently loaded
+
+2022-04-15 07:30:47 - sshInstance.py - [line:193] - root - INFO - finished rmmod irdma....
+2022-04-15 07:30:47 - sshInstance.py - [line:194] - root - INFO - start to rmmod ice....
+2022-04-15 07:30:50 - sshInstance.py - [line:50] - root - INFO - rmmod ice
+2022-04-15 07:30:52 - sshInstance.py - [line:54] - root - INFO - 
+2022-04-15 07:30:57 - sshInstance.py - [line:197] - root - INFO - finished rmmod ice....
+2022-04-15 07:30:57 - sshInstance.py - [line:199] - root - INFO - start to modprobe ice....
+2022-04-15 07:31:00 - sshInstance.py - [line:50] - root - INFO - modprobe ice
+2022-04-15 07:31:05 - sshInstance.py - [line:54] - root - INFO - 
+2022-04-15 07:31:10 - sshInstance.py - [line:201] - root - INFO - finished modprobe ice....
+2022-04-15 07:31:13 - sshInstance.py - [line:50] - root - INFO - ifconfig enp137s0f0 up
+2022-04-15 07:31:13 - sshInstance.py - [line:54] - root - INFO - 
+2022-04-15 07:31:21 - sshInstance.py - [line:50] - root - INFO - ethtool -i enp137s0f0
+2022-04-15 07:31:21 - sshInstance.py - [line:54] - root - INFO - driver: ice
+version: 1.7.19
+firmware-version: 2.19 0x8000bafe 1.3083.0
+expansion-rom-version: 
+bus-info: 0000:89:00.0
+supports-statistics: yes
+supports-test: yes
+supports-eeprom-access: yes
+supports-register-dump: yes
+supports-priv-flags: yes
+
+2022-04-15 07:31:26 - test_network_sriov_stress.py - [line:72] - root - INFO - trying to get ipv6 addr for pf1
+2022-04-15 07:31:29 - sshInstance.py - [line:50] - root - INFO - ifconfig enp137s0f0
+2022-04-15 07:31:29 - sshInstance.py - [line:54] - root - INFO - enp137s0f0: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        inet6 fe80::200:ff:fe00:3300  prefixlen 64  scopeid 0x20<link>
+        ether 00:00:00:00:33:00  txqueuelen 1000  (Ethernet)
+        RX packets 0  bytes 0 (0.0 B)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 12  bytes 2036 (2.0 KB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+
+2022-04-15 07:31:37 - sshInstance.py - [line:50] - root - INFO - ifconfig ens801f0
+2022-04-15 07:31:37 - sshInstance.py - [line:54] - root - INFO - ens801f0: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        inet6 fe80::3efd:feff:fed2:73e0  prefixlen 64  scopeid 0x20<link>
+        ether 3c:fd:fe:d2:73:e0  txqueuelen 1000  (Ethernet)
+        RX packets 133123523645  bytes 201534044836097 (183.2 TiB)
+        RX errors 0  dropped 717967  overruns 0  frame 0
+        TX packets 7239781631  bytes 530578430848 (494.1 GiB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+
+----------------------------- Captured stdout call -----------------------------
+2022-04-15 07:31:45 - sshInstance.py - [line:50] - root - INFO - /opt/APP/utility/DPDK/dpdk-21.11/usertools/dpdk-devbind.py -s | grep enp137s0f0 | awk '{print $1;}'
+2022-04-15 07:31:45 - sshInstance.py - [line:54] - root - INFO - 0000:89:00.0
+
+2022-04-15 07:31:50 - test_network_sriov_stress.py - [line:123] - root - INFO - pf_id was found: 0000:89:00.0
+
+2022-04-15 07:31:50 - test_network_sriov_stress.py - [line:701] - root - INFO - format_pf_id is 0000\:89\:00.0
+
+2022-04-15 07:31:50 - test_network_sriov_stress.py - [line:704] - root - INFO - pf_id_key: 89
+2022-04-15 07:31:50 - test_network_sriov_stress.py - [line:708] - root - INFO - Start assgin sut1 192.168.10.10 ip
+2022-04-15 07:31:56 - sshInstance.py - [line:99] - root - INFO - Welcome to Ubuntu 20.04 LTS (GNU/Linux 5.4.0-26-generic x86_64)
+ * Documentation:  https://help.ubuntu.com
+ * Management:     https://landscape.canonical.com
+ * Support:        https://ubuntu.com/advantage
+Last login: Fri Apr 15 07:27:39 2022 from 10.239.182.99
+root@npx-sut3-ice-d-auto:~# ifconfig enp137s0f0 192.168.10.10
+root@npx-sut3-ice-d-auto:~# 
+2022-04-15 07:31:59 - test_network_sriov_stress.py - [line:326] - root - INFO - Successfully assigned ip to ethernet: enp137s0f0
+2022-04-15 07:31:59 - test_network_sriov_stress.py - [line:710] - root - INFO - Start assgin sut2 192.168.10.11 ip
+2022-04-15 07:32:05 - sshInstance.py - [line:99] - root - INFO - Activate the web console with: systemctl enable --now cockpit.socket
+This system is not registered to Red Hat Insights. See https://cloud.redhat.com/
+To register this system, run: insights-client --register
+Last login: Fri Apr 15 07:10:17 2022 from 10.239.182.99
+[root@redhat8 ~]# ifconfig ens801f0 192.168.10.11
+[root@redhat8 ~]# 
+2022-04-15 07:32:08 - test_network_sriov_stress.py - [line:326] - root - INFO - Successfully assigned ip to ethernet: ens801f0
+2022-04-15 07:32:08 - test_network_sriov_stress.py - [line:129] - root - INFO - virtulize sut1 pf to 4 vfs
+2022-04-15 07:32:11 - sshInstance.py - [line:50] - root - INFO - echo 4 > /sys/class/net/enp137s0f0/device/sriov_numvfs
+2022-04-15 07:32:12 - sshInstance.py - [line:54] - root - INFO - 
+2022-04-15 07:32:17 - test_network_sriov_stress.py - [line:138] - root - INFO - Successfully Virtualized PF to VFs.
+2022-04-15 07:32:20 - sshInstance.py - [line:50] - root - INFO -  lspci | grep "Virtual" | awk '{print $1;}'list
+2022-04-15 07:32:20 - sshInstance.py - [line:54] - root - INFO - 81:00.1
+81:00.2
+81:00.3
+81:00.4
+81:00.5
+81:00.6
+81:00.7
+81:01.0
+81:01.1
+81:01.2
+81:01.3
+81:01.4
+81:01.5
+81:01.6
+81:01.7
+81:02.0
+81:02.1
+81:02.2
+81:02.3
+81:02.4
+81:02.5
+81:02.6
+81:02.7
+81:03.0
+81:03.1
+81:03.2
+81:03.3
+81:03.4
+81:03.5
+81:03.6
+81:03.7
+81:04.0
+81:04.1
+81:04.2
+81:04.3
+81:04.4
+81:04.5
+81:04.6
+81:04.7
+81:05.0
+81:05.1
+81:05.2
+81:05.3
+81:05.4
+81:05.5
+81:05.6
+81:05.7
+81:06.0
+81:06.1
+81:06.2
+81:06.3
+81:06.4
+81:06.5
+81:06.6
+81:06.7
+81:07.0
+81:07.1
+81:07.2
+81:07.3
+81:07.4
+81:07.5
+81:07.6
+81:07.7
+81:08.0
+81:08.1
+81:08.2
+81:08.3
+81:08.4
+81:08.5
+81:08.6
+81:08.7
+81:09.0
+81:09.1
+81:09.2
+81:09.3
+81:09.4
+81:09.5
+81:09.6
+81:09.7
+81:0a.0
+81:0a.1
+81:0a.2
+81:0a.3
+81:0a.4
+81:0a.5
+81:0a.6
+81:0a.7
+81:0b.0
+81:0b.1
+81:0b.2
+81:0b.3
+81:0b.4
+81:0b.5
+81:0b.6
+81:0b.7
+81:0c.0
+81:0c.1
+81:0c.2
+81:0c.3
+81:0c.4
+81:0c.5
+81:0c.6
+81:0c.7
+81:0d.0
+81:0d.1
+81:0d.2
+81:0d.3
+81:0d.4
+81:0d.5
+81:0d.6
+81:0d.7
+81:0e.0
+81:0e.1
+81:0e.2
+81:0e.3
+81:0e.4
+81:0e.5
+81:0e.6
+81:0e.7
+81:0f.0
+81:0f.1
+81:0f.2
+81:0f.3
+81:0f.4
+81:0f.5
+81:0f.6
+81:0f.7
+81:10.0
+89:01.0
+89:01.1
+89:01.2
+89:01.3
+
+2022-04-15 07:32:25 - test_network_sriov_stress.py - [line:152] - root - INFO - Succssfully Gotten vf_id list:
+
+2022-04-15 07:32:28 - sshInstance.py - [line:50] - root - INFO - modprobe vfio-pci
+
+2022-04-15 07:32:28 - sshInstance.py - [line:54] - root - INFO - 
+2022-04-15 07:32:33 - test_network_sriov_stress.py - [line:172] - root - INFO - start to bind drive in sut1
+2022-04-15 07:32:36 - sshInstance.py - [line:50] - root - INFO - /opt/APP/utility/DPDK/dpdk-21.11/usertools/dpdk-devbind.py -b vfio-pci 81:00.1
+2022-04-15 07:32:36 - sshInstance.py - [line:54] - root - INFO - Notice: 0000:81:00.1 already bound to driver vfio-pci, skipping
+
+2022-04-15 07:32:41 - test_network_sriov_stress.py - [line:186] - root - INFO - Successfuly bound VF to vfio-pci
+2022-04-15 07:32:44 - sshInstance.py - [line:50] - root - INFO - /opt/APP/utility/DPDK/dpdk-21.11/usertools/dpdk-devbind.py -b vfio-pci 81:00.2
+2022-04-15 07:32:45 - sshInstance.py - [line:54] - root - INFO - Notice: 0000:81:00.2 already bound to driver vfio-pci, skipping
+
+2022-04-15 07:32:50 - test_network_sriov_stress.py - [line:186] - root - INFO - Successfuly bound VF to vfio-pci
+2022-04-15 07:32:50 - test_network_sriov_stress.py - [line:729] - root - INFO - lspci -Dnn | grep 81:00.2
+2022-04-15 07:32:53 - sshInstance.py - [line:50] - root - INFO - lspci -Dnn | grep 81:00.2
+2022-04-15 07:32:53 - sshInstance.py - [line:54] - root - INFO - 0000:81:00.2 Co-processor [0b40]: Intel Corporation C4XXX Series QAT Virtual Function [8086:18a1]
+
+2022-04-15 07:32:58 - test_network_sriov_stress.py - [line:741] - root - INFO - Successfully get vf device id: 8086:18a1
+2022-04-15 07:32:58 - test_network_sriov_stress.py - [line:209] - root - INFO - get default network info: virsh net-info default | grep "Active" | awk '{print $2;}'
+2022-04-15 07:33:01 - sshInstance.py - [line:50] - root - INFO - virsh net-info default | grep "Active" | awk '{print $2;}'
+2022-04-15 07:33:01 - sshInstance.py - [line:54] - root - INFO - yes
+
+2022-04-15 07:33:06 - test_network_sriov_stress.py - [line:212] - root - INFO - Default network is active? yes
+
+2022-04-15 07:33:06 - test_network_sriov_stress.py - [line:751] - root - INFO - start to create VMs....
+2022-04-15 07:33:06 - test_network_sriov_stress.py - [line:242] - root - INFO - try to create VM with the cmd1: virt-install --name VMtest1 --ram 4096 --cpu host --vcpus=5 --network network=default --hostdev pci_0000_81_00_1 --boot hd --disk path=/home/image/uvm2.img,size=50,format=qcow2 --osinfo ubuntu20.04 --graphics vnc,listen=0.0.0.0,port=5900 --noautoconsole
+
+2022-04-15 07:33:10 - sshInstance.py - [line:75] - root - INFO - virt-install --name VMtest1 --ram 4096 --cpu host --vvcpus=5 --network network=default --hostdev pci_0000_81_00_1 --boot hd --disk patth=/home/image/uvm2.img,size=50,format=qcow2 --osinfo ubuntu20.04 --graphics vnc,,listen=0.0.0.0,port=5900 --noautoconsole
+usage: virt-install --name NAME --memory MB STORAGE INSTALL [options]
+virt-install: error: unrecognized arguments: --osinfo ubuntu20.04
+root@npx-sut3-ice-d-auto:~# 
+2022-04-15 07:33:13 - test_network_sriov_stress.py - [line:245] - root - INFO - cmd1 is not working, try to create VM with the cmd2: virt-install --name VMtest1 --ram 4096 --cpu host --vcpus=5 --network network=default --hostdev pci_0000_81_00_1 --boot hd --disk path=/home/image/uvm2.img,size=50,format=qcow2 --graphics vnc,listen=0.0.0.0,port=5900 --noautoconsole
+
+2022-04-15 07:33:17 - sshInstance.py - [line:75] - root - INFO - virt-install --name VMtest1 --ram 4096 --cpu host --vvcpus=5 --network network=default --hostdev pci_0000_81_00_1 --boot hd --disk patth=/home/image/uvm2.img,size=50,format=qcow2 --graphics vnc,listen=0.0.0.0,port=55900 --noautoconsole
+WARNING  No operating system detected, VM performance may suffer. Specify an OS with --os-variant for optimal results.
+
+Starting install...
+2022-04-15 07:33:19 - sshInstance.py - [line:75] - root - INFO - Domain creation completed.
+2022-04-15 07:33:20 - sshInstance.py - [line:75] - root - INFO - root@npx-sut3-ice-d-auto:~# 
+2022-04-15 07:33:23 - test_network_sriov_stress.py - [line:253] - root - INFO - Successfully created a VM: VMtest1
+2022-04-15 07:33:23 - test_network_sriov_stress.py - [line:242] - root - INFO - try to create VM with the cmd1: virt-install --name VMtest2 --ram 4096 --cpu host --vcpus=5 --network network=default --hostdev pci_0000_81_00_2 --boot hd --disk path=/home/image/uvm1.img,size=50,format=qcow2 --osinfo ubuntu20.04 --graphics vnc,listen=0.0.0.0,port=5901 --noautoconsole
+
+2022-04-15 07:33:27 - sshInstance.py - [line:75] - root - INFO - virt-install --name VMtest2 --ram 4096 --cpu host --vvcpus=5 --network network=default --hostdev pci_0000_81_00_2 --boot hd --disk patth=/home/image/uvm1.img,size=50,format=qcow2 --osinfo ubuntu20.04 --graphics vnc,,listen=0.0.0.0,port=5901 --noautoconsole
+usage: virt-install --name NAME --memory MB STORAGE INSTALL [options]
+virt-install: error: unrecognized arguments: --osinfo ubuntu20.04
+root@npx-sut3-ice-d-auto:~# 
+2022-04-15 07:33:30 - test_network_sriov_stress.py - [line:245] - root - INFO - cmd1 is not working, try to create VM with the cmd2: virt-install --name VMtest2 --ram 4096 --cpu host --vcpus=5 --network network=default --hostdev pci_0000_81_00_2 --boot hd --disk path=/home/image/uvm1.img,size=50,format=qcow2 --graphics vnc,listen=0.0.0.0,port=5901 --noautoconsole
+
+2022-04-15 07:33:34 - sshInstance.py - [line:75] - root - INFO - virt-install --name VMtest2 --ram 4096 --cpu host --vvcpus=5 --network network=default --hostdev pci_0000_81_00_2 --boot hd --disk patth=/home/image/uvm1.img,size=50,format=qcow2 --graphics vnc,listen=0.0.0.0,port=55901 --noautoconsole
+WARNING  No operating system detected, VM performance may suffer. Specify an OS with --os-variant for optimal results.
+
+Starting install...
+2022-04-15 07:33:37 - sshInstance.py - [line:75] - root - INFO - Domain creation completed.
+root@npx-sut3-ice-d-auto:~# 
+2022-04-15 07:33:40 - test_network_sriov_stress.py - [line:253] - root - INFO - Successfully created a VM: VMtest2
+2022-04-15 07:33:43 - sshInstance.py - [line:50] - root - INFO - virsh domifaddr VMtest1 | grep '192.168' | awk '{print $4;}'
+2022-04-15 07:33:43 - sshInstance.py - [line:54] - root - INFO - 192.168.122.241/24
+
+2022-04-15 07:33:48 - test_network_sriov_stress.py - [line:269] - root - INFO - Successfully got VMtest1 IP: 192.168.122.241/24
+
+2022-04-15 07:33:51 - sshInstance.py - [line:50] - root - INFO - virsh domifaddr VMtest2 | grep '192.168' | awk '{print $4;}'
+2022-04-15 07:33:51 - sshInstance.py - [line:54] - root - INFO - 
+2022-04-15 07:33:56 - test_network_sriov_stress.py - [line:274] - root - ERROR - not found IP of VMtest2
+2022-04-15 07:34:59 - sshInstance.py - [line:50] - root - INFO - virsh domifaddr VMtest2 | grep '192.168' | awk '{print $4;}'
+2022-04-15 07:34:59 - sshInstance.py - [line:54] - root - INFO - 192.168.122.254/24
+
+2022-04-15 07:35:04 - test_network_sriov_stress.py - [line:269] - root - INFO - Successfully got VMtest2 IP: 192.168.122.254/24
+
+2022-04-15 07:35:04 - test_network_sriov_stress.py - [line:770] - root - INFO - Start ssh vm1 and conf VM
+2022-04-15 07:35:08 - sshInstance.py - [line:75] - root - INFO - ping -c 5 192.168.122.241
+PING 192.168.122.241 (192.168.122.241) 56(84) bytes of data.
+64 bytes from 192.168.122.241: icmp_seq=1 ttl=64 time=0.107 ms
+2022-04-15 07:35:09 - sshInstance.py - [line:75] - root - INFO - 64 bytes from 192.168.122.241: icmp_seq=2 ttl=64 time=0.072 ms
+2022-04-15 07:35:10 - sshInstance.py - [line:75] - root - INFO - 64 bytes from 192.168.122.241: icmp_seq=3 ttl=64 time=0.075 ms
+2022-04-15 07:35:11 - sshInstance.py - [line:75] - root - INFO - 64 bytes from 192.168.122.241: icmp_seq=4 ttl=64 time=0.071 ms
+2022-04-15 07:35:12 - sshInstance.py - [line:75] - root - INFO - 64 bytes from 192.168.122.241: icmp_seq=5 ttl=64 time=0.074 ms
+
+--- 192.168.122.241 ping statistics ---
+5 packets transmitted, 5 received, 0% packet loss, time 4086ms
+rtt min/avg/max/mdev = 0.071/0.079/0.107/0.013 ms
+root@npx-sut3-ice-d-auto:~# 
+2022-04-15 07:35:21 - sshInstance.py - [line:99] - root - INFO - ssh root@192.168.122.241
+root@192.168.122.241's password: 
+2022-04-15 07:35:30 - sshInstance.py - [line:99] - root - INFO - 
+Welcome to Ubuntu 20.04 LTS (GNU/Linux 5.4.0-26-generic x86_64)
+ * Documentation:  https://help.ubuntu.com
+ * Management:     https://landscape.canonical.com
+ * Support:        https://ubuntu.com/advantage
+  System information as of Thu 14 Apr 2022 07:38:21 PM EDT
+  System load:  0.41               Processes:             141
+  Usage of /:   40.3% of 19.07GB   Users logged in:       0
+  Memory usage: 4%                 IPv4 address for ens3: 192.168.122.241
+  Swap usage:   0%
+
+383 updates can be installed immediately.
+261 of these updates are security updates.
+To see these additional updates run: apt list --upgradable
+
+Last login: Thu Apr 14 19:24:49 2022 from 192.168.122.1
+root@localhost:~# 
+2022-04-15 07:35:33 - test_network_sriov_stress.py - [line:352] - root - INFO - Successfully ssh VM.
+2022-04-15 07:35:39 - sshInstance.py - [line:99] - root - INFO - lspci -Dnn | grep "8086:18a1" --color=never| awk '{print $1;}' [A        [C        [C        [C        [C        [C        [C        [C        [C        [C        [C        [C        [C        [C        [C        [C        [C        [C        [C        [C        [C        [C        [C        [C        [C        [C        [C        [C        [C        [C        [C        [C        [C        [C        [C        [C        [C        [C        [C        [C        [C        [C        [C        [C        [C        [C        [C        [C        [C        [C        [C        [C        [C        [C        [C        [C        [C        [C        [C        [C        [C        [C        [C        [C        [C        [C        [C        [C        [C        [C        [C        [C        [C        [C        [C        [C        [C        [C        [C        [C        [K            '
+0000:00:05.0
+root@localhost:~# 
+2022-04-15 07:35:45 - test_network_sriov_stress.py - [line:369] - root - INFO - successfully got vf pci id of vm1: 0000:00:05.0
+2022-04-15 07:35:51 - sshInstance.py - [line:99] - root - INFO - ls /sys/bus/pci/devices/0000\:00\:05.0/net/ --color=never
+ls: cannot access '/sys/bus/pci/devices/0000:00:05.0/net/': No such file or directory
+root@localhost:~# 
+2022-04-15 07:35:56 - test_network_sriov_stress.py - [line:383] - root - INFO - Successfully got vf device name of vm1: ls: cannot access '/sys/bus/pci/devices/0000:00:05.0/net/': No such file or directory
+2022-04-15 07:36:02 - sshInstance.py - [line:99] - root - INFO - ifconfig ls: cannot access '/sys/bus/pci/devices/0000:00:05.0/net/': No such file or directory 192.168.10.12
+cannot: Host name lookup failure
+ifconfig: `--help' gives usage information.
+root@localhost:~# 
+2022-04-15 07:36:05 - test_network_sriov_stress.py - [line:326] - root - INFO - Successfully assigned ip to ethernet: ls: cannot access '/sys/bus/pci/devices/0000:00:05.0/net/': No such file or directory
+2022-04-15 07:36:11 - sshInstance.py - [line:99] - root - INFO - ifconfig ls: cannot access '/sys/bus/pci/devices/0000:00:05.0/net/': No such file or directory down
+cannot: Host name lookup failure
+ifconfig: `--help' gives usage information.
+root@localhost:~# 
+2022-04-15 07:36:20 - sshInstance.py - [line:99] - root - INFO - ifconfig ls: cannot access '/sys/bus/pci/devices/0000:00:05.0/net/': No such file or directory hw ether 1234567890ac
+cannot: Host name lookup failure
+ifconfig: `--help' gives usage information.
+root@localhost:~# 
+2022-04-15 07:36:29 - sshInstance.py - [line:99] - root - INFO - ifconfig ls: cannot access '/sys/bus/pci/devices/0000:00:05.0/net/': No such file or directory up
+cannot: Host name lookup failure
+ifconfig: `--help' gives usage information.
+root@localhost:~# 
+2022-04-15 07:36:38 - sshInstance.py - [line:99] - root - INFO - nmcli device connect ls: cannot access '/sys/bus/pci/devices/0000:00:05.0/net/': No such file or directory
+Command 'nmcli' not found, but can be installed with:
+apt install network-manager
+root@localhost:~# 
+2022-04-15 07:36:47 - sshInstance.py - [line:99] - root - INFO - ifconfig ls: cannot access '/sys/bus/pci/devices/0000:00:05.0/net/': No such file or directory
+cannot: Host name lookup failure
+ifconfig: `--help' gives usage information.
+root@localhost:~# 
+2022-04-15 07:36:56 - sshInstance.py - [line:99] - root - INFO - exit
+logout
+Connection to 192.168.122.241 closed.
+root@npx-sut3-ice-d-auto:~# 
+------------------------------ Captured log call -------------------------------
+INFO     root:sshInstance.py:50 /opt/APP/utility/DPDK/dpdk-21.11/usertools/dpdk-devbind.py -s | grep enp137s0f0 | awk '{print $1;}'
+INFO     root:sshInstance.py:54 0000:89:00.0
+
+INFO     root:test_network_sriov_stress.py:123 pf_id was found: 0000:89:00.0
+
+INFO     root:test_network_sriov_stress.py:701 format_pf_id is 0000\:89\:00.0
+
+INFO     root:test_network_sriov_stress.py:704 pf_id_key: 89
+INFO     root:test_network_sriov_stress.py:708 Start assgin sut1 192.168.10.10 ip
+INFO     root:sshInstance.py:99 Welcome to Ubuntu 20.04 LTS (GNU/Linux 5.4.0-26-generic x86_64)
+ * Documentation:  https://help.ubuntu.com
+ * Management:     https://landscape.canonical.com
+ * Support:        https://ubuntu.com/advantage
+Last login: Fri Apr 15 07:27:39 2022 from 10.239.182.99
+root@npx-sut3-ice-d-auto:~# ifconfig enp137s0f0 192.168.10.10
+root@npx-sut3-ice-d-auto:~# 
+INFO     root:test_network_sriov_stress.py:326 Successfully assigned ip to ethernet: enp137s0f0
+INFO     root:test_network_sriov_stress.py:710 Start assgin sut2 192.168.10.11 ip
+INFO     root:sshInstance.py:99 Activate the web console with: systemctl enable --now cockpit.socket
+This system is not registered to Red Hat Insights. See https://cloud.redhat.com/
+To register this system, run: insights-client --register
+Last login: Fri Apr 15 07:10:17 2022 from 10.239.182.99
+[root@redhat8 ~]# ifconfig ens801f0 192.168.10.11
+[root@redhat8 ~]# 
+INFO     root:test_network_sriov_stress.py:326 Successfully assigned ip to ethernet: ens801f0
+INFO     root:test_network_sriov_stress.py:129 virtulize sut1 pf to 4 vfs
+INFO     root:sshInstance.py:50 echo 4 > /sys/class/net/enp137s0f0/device/sriov_numvfs
+INFO     root:sshInstance.py:54 
+INFO     root:test_network_sriov_stress.py:138 Successfully Virtualized PF to VFs.
+INFO     root:sshInstance.py:50  lspci | grep "Virtual" | awk '{print $1;}'list
+INFO     root:sshInstance.py:54 81:00.1
+81:00.2
+81:00.3
+81:00.4
+81:00.5
+81:00.6
+81:00.7
+81:01.0
+81:01.1
+81:01.2
+81:01.3
+81:01.4
+81:01.5
+81:01.6
+81:01.7
+81:02.0
+81:02.1
+81:02.2
+81:02.3
+81:02.4
+81:02.5
+81:02.6
+81:02.7
+81:03.0
+81:03.1
+81:03.2
+81:03.3
+81:03.4
+81:03.5
+81:03.6
+81:03.7
+81:04.0
+81:04.1
+81:04.2
+81:04.3
+81:04.4
+81:04.5
+81:04.6
+81:04.7
+81:05.0
+81:05.1
+81:05.2
+81:05.3
+81:05.4
+81:05.5
+81:05.6
+81:05.7
+81:06.0
+81:06.1
+81:06.2
+81:06.3
+81:06.4
+81:06.5
+81:06.6
+81:06.7
+81:07.0
+81:07.1
+81:07.2
+81:07.3
+81:07.4
+81:07.5
+81:07.6
+81:07.7
+81:08.0
+81:08.1
+81:08.2
+81:08.3
+81:08.4
+81:08.5
+81:08.6
+81:08.7
+81:09.0
+81:09.1
+81:09.2
+81:09.3
+81:09.4
+81:09.5
+81:09.6
+81:09.7
+81:0a.0
+81:0a.1
+81:0a.2
+81:0a.3
+81:0a.4
+81:0a.5
+81:0a.6
+81:0a.7
+81:0b.0
+81:0b.1
+81:0b.2
+81:0b.3
+81:0b.4
+81:0b.5
+81:0b.6
+81:0b.7
+81:0c.0
+81:0c.1
+81:0c.2
+81:0c.3
+81:0c.4
+81:0c.5
+81:0c.6
+81:0c.7
+81:0d.0
+81:0d.1
+81:0d.2
+81:0d.3
+81:0d.4
+81:0d.5
+81:0d.6
+81:0d.7
+81:0e.0
+81:0e.1
+81:0e.2
+81:0e.3
+81:0e.4
+81:0e.5
+81:0e.6
+81:0e.7
+81:0f.0
+81:0f.1
+81:0f.2
+81:0f.3
+81:0f.4
+81:0f.5
+81:0f.6
+81:0f.7
+81:10.0
+89:01.0
+89:01.1
+89:01.2
+89:01.3
+
+INFO     root:test_network_sriov_stress.py:152 Succssfully Gotten vf_id list:
+
+INFO     root:sshInstance.py:50 modprobe vfio-pci
+
+INFO     root:sshInstance.py:54 
+INFO     root:test_network_sriov_stress.py:172 start to bind drive in sut1
+INFO     root:sshInstance.py:50 /opt/APP/utility/DPDK/dpdk-21.11/usertools/dpdk-devbind.py -b vfio-pci 81:00.1
+INFO     root:sshInstance.py:54 Notice: 0000:81:00.1 already bound to driver vfio-pci, skipping
+
+INFO     root:test_network_sriov_stress.py:186 Successfuly bound VF to vfio-pci
+INFO     root:sshInstance.py:50 /opt/APP/utility/DPDK/dpdk-21.11/usertools/dpdk-devbind.py -b vfio-pci 81:00.2
+INFO     root:sshInstance.py:54 Notice: 0000:81:00.2 already bound to driver vfio-pci, skipping
+
+INFO     root:test_network_sriov_stress.py:186 Successfuly bound VF to vfio-pci
+INFO     root:test_network_sriov_stress.py:729 lspci -Dnn | grep 81:00.2
+INFO     root:sshInstance.py:50 lspci -Dnn | grep 81:00.2
+INFO     root:sshInstance.py:54 0000:81:00.2 Co-processor [0b40]: Intel Corporation C4XXX Series QAT Virtual Function [8086:18a1]
+
+INFO     root:test_network_sriov_stress.py:741 Successfully get vf device id: 8086:18a1
+INFO     root:test_network_sriov_stress.py:209 get default network info: virsh net-info default | grep "Active" | awk '{print $2;}'
+INFO     root:sshInstance.py:50 virsh net-info default | grep "Active" | awk '{print $2;}'
+INFO     root:sshInstance.py:54 yes
+
+INFO     root:test_network_sriov_stress.py:212 Default network is active? yes
+
+INFO     root:test_network_sriov_stress.py:751 start to create VMs....
+INFO     root:test_network_sriov_stress.py:242 try to create VM with the cmd1: virt-install --name VMtest1 --ram 4096 --cpu host --vcpus=5 --network network=default --hostdev pci_0000_81_00_1 --boot hd --disk path=/home/image/uvm2.img,size=50,format=qcow2 --osinfo ubuntu20.04 --graphics vnc,listen=0.0.0.0,port=5900 --noautoconsole
+
+INFO     root:sshInstance.py:75 virt-install --name VMtest1 --ram 4096 --cpu host --vvcpus=5 --network network=default --hostdev pci_0000_81_00_1 --boot hd --disk patth=/home/image/uvm2.img,size=50,format=qcow2 --osinfo ubuntu20.04 --graphics vnc,,listen=0.0.0.0,port=5900 --noautoconsole
+usage: virt-install --name NAME --memory MB STORAGE INSTALL [options]
+virt-install: error: unrecognized arguments: --osinfo ubuntu20.04
+root@npx-sut3-ice-d-auto:~# 
+INFO     root:test_network_sriov_stress.py:245 cmd1 is not working, try to create VM with the cmd2: virt-install --name VMtest1 --ram 4096 --cpu host --vcpus=5 --network network=default --hostdev pci_0000_81_00_1 --boot hd --disk path=/home/image/uvm2.img,size=50,format=qcow2 --graphics vnc,listen=0.0.0.0,port=5900 --noautoconsole
+
+INFO     root:sshInstance.py:75 virt-install --name VMtest1 --ram 4096 --cpu host --vvcpus=5 --network network=default --hostdev pci_0000_81_00_1 --boot hd --disk patth=/home/image/uvm2.img,size=50,format=qcow2 --graphics vnc,listen=0.0.0.0,port=55900 --noautoconsole
+WARNING  No operating system detected, VM performance may suffer. Specify an OS with --os-variant for optimal results.
+
+Starting install...
+INFO     root:sshInstance.py:75 Domain creation completed.
+INFO     root:sshInstance.py:75 root@npx-sut3-ice-d-auto:~# 
+INFO     root:test_network_sriov_stress.py:253 Successfully created a VM: VMtest1
+INFO     root:test_network_sriov_stress.py:242 try to create VM with the cmd1: virt-install --name VMtest2 --ram 4096 --cpu host --vcpus=5 --network network=default --hostdev pci_0000_81_00_2 --boot hd --disk path=/home/image/uvm1.img,size=50,format=qcow2 --osinfo ubuntu20.04 --graphics vnc,listen=0.0.0.0,port=5901 --noautoconsole
+
+INFO     root:sshInstance.py:75 virt-install --name VMtest2 --ram 4096 --cpu host --vvcpus=5 --network network=default --hostdev pci_0000_81_00_2 --boot hd --disk patth=/home/image/uvm1.img,size=50,format=qcow2 --osinfo ubuntu20.04 --graphics vnc,,listen=0.0.0.0,port=5901 --noautoconsole
+usage: virt-install --name NAME --memory MB STORAGE INSTALL [options]
+virt-install: error: unrecognized arguments: --osinfo ubuntu20.04
+root@npx-sut3-ice-d-auto:~# 
+INFO     root:test_network_sriov_stress.py:245 cmd1 is not working, try to create VM with the cmd2: virt-install --name VMtest2 --ram 4096 --cpu host --vcpus=5 --network network=default --hostdev pci_0000_81_00_2 --boot hd --disk path=/home/image/uvm1.img,size=50,format=qcow2 --graphics vnc,listen=0.0.0.0,port=5901 --noautoconsole
+
+INFO     root:sshInstance.py:75 virt-install --name VMtest2 --ram 4096 --cpu host --vvcpus=5 --network network=default --hostdev pci_0000_81_00_2 --boot hd --disk patth=/home/image/uvm1.img,size=50,format=qcow2 --graphics vnc,listen=0.0.0.0,port=55901 --noautoconsole
+WARNING  No operating system detected, VM performance may suffer. Specify an OS with --os-variant for optimal results.
+
+Starting install...
+INFO     root:sshInstance.py:75 Domain creation completed.
+root@npx-sut3-ice-d-auto:~# 
+INFO     root:test_network_sriov_stress.py:253 Successfully created a VM: VMtest2
+INFO     root:sshInstance.py:50 virsh domifaddr VMtest1 | grep '192.168' | awk '{print $4;}'
+INFO     root:sshInstance.py:54 192.168.122.241/24
+
+INFO     root:test_network_sriov_stress.py:269 Successfully got VMtest1 IP: 192.168.122.241/24
+
+INFO     root:sshInstance.py:50 virsh domifaddr VMtest2 | grep '192.168' | awk '{print $4;}'
+INFO     root:sshInstance.py:54 
+ERROR    root:test_network_sriov_stress.py:274 not found IP of VMtest2
+INFO     root:sshInstance.py:50 virsh domifaddr VMtest2 | grep '192.168' | awk '{print $4;}'
+INFO     root:sshInstance.py:54 192.168.122.254/24
+
+INFO     root:test_network_sriov_stress.py:269 Successfully got VMtest2 IP: 192.168.122.254/24
+
+INFO     root:test_network_sriov_stress.py:770 Start ssh vm1 and conf VM
+INFO     root:sshInstance.py:75 ping -c 5 192.168.122.241
+PING 192.168.122.241 (192.168.122.241) 56(84) bytes of data.
+64 bytes from 192.168.122.241: icmp_seq=1 ttl=64 time=0.107 ms
+INFO     root:sshInstance.py:75 64 bytes from 192.168.122.241: icmp_seq=2 ttl=64 time=0.072 ms
+INFO     root:sshInstance.py:75 64 bytes from 192.168.122.241: icmp_seq=3 ttl=64 time=0.075 ms
+INFO     root:sshInstance.py:75 64 bytes from 192.168.122.241: icmp_seq=4 ttl=64 time=0.071 ms
+INFO     root:sshInstance.py:75 64 bytes from 192.168.122.241: icmp_seq=5 ttl=64 time=0.074 ms
+
+--- 192.168.122.241 ping statistics ---
+5 packets transmitted, 5 received, 0% packet loss, time 4086ms
+rtt min/avg/max/mdev = 0.071/0.079/0.107/0.013 ms
+root@npx-sut3-ice-d-auto:~# 
+INFO     root:sshInstance.py:99 ssh root@192.168.122.241
+root@192.168.122.241's password: 
+INFO     root:sshInstance.py:99 
+Welcome to Ubuntu 20.04 LTS (GNU/Linux 5.4.0-26-generic x86_64)
+ * Documentation:  https://help.ubuntu.com
+ * Management:     https://landscape.canonical.com
+ * Support:        https://ubuntu.com/advantage
+  System information as of Thu 14 Apr 2022 07:38:21 PM EDT
+  System load:  0.41               Processes:             141
+  Usage of /:   40.3% of 19.07GB   Users logged in:       0
+  Memory usage: 4%                 IPv4 address for ens3: 192.168.122.241
+  Swap usage:   0%
+
+383 updates can be installed immediately.
+261 of these updates are security updates.
+To see these additional updates run: apt list --upgradable
+
+Last login: Thu Apr 14 19:24:49 2022 from 192.168.122.1
+root@localhost:~# 
+INFO     root:test_network_sriov_stress.py:352 Successfully ssh VM.
+INFO     root:sshInstance.py:99 lspci -Dnn | grep "8086:18a1" --color=never| awk '{print $1;}' [A        [C        [C        [C        [C        [C        [C        [C        [C        [C        [C        [C        [C        [C        [C        [C        [C        [C        [C        [C        [C        [C        [C        [C        [C        [C        [C        [C        [C        [C        [C        [C        [C        [C        [C        [C        [C        [C        [C        [C        [C        [C        [C        [C        [C        [C        [C        [C        [C        [C        [C        [C        [C        [C        [C        [C        [C        [C        [C        [C        [C        [C        [C        [C        [C        [C        [C        [C        [C        [C        [C        [C        [C        [C        [C        [C        [C        [C        [C        [C        [K            '
+0000:00:05.0
+root@localhost:~# 
+INFO     root:test_network_sriov_stress.py:369 successfully got vf pci id of vm1: 0000:00:05.0
+INFO     root:sshInstance.py:99 ls /sys/bus/pci/devices/0000\:00\:05.0/net/ --color=never
+ls: cannot access '/sys/bus/pci/devices/0000:00:05.0/net/': No such file or directory
+root@localhost:~# 
+INFO     root:test_network_sriov_stress.py:383 Successfully got vf device name of vm1: ls: cannot access '/sys/bus/pci/devices/0000:00:05.0/net/': No such file or directory
+INFO     root:sshInstance.py:99 ifconfig ls: cannot access '/sys/bus/pci/devices/0000:00:05.0/net/': No such file or directory 192.168.10.12
+cannot: Host name lookup failure
+ifconfig: `--help' gives usage information.
+root@localhost:~# 
+INFO     root:test_network_sriov_stress.py:326 Successfully assigned ip to ethernet: ls: cannot access '/sys/bus/pci/devices/0000:00:05.0/net/': No such file or directory
+INFO     root:sshInstance.py:99 ifconfig ls: cannot access '/sys/bus/pci/devices/0000:00:05.0/net/': No such file or directory down
+cannot: Host name lookup failure
+ifconfig: `--help' gives usage information.
+root@localhost:~# 
+INFO     root:sshInstance.py:99 ifconfig ls: cannot access '/sys/bus/pci/devices/0000:00:05.0/net/': No such file or directory hw ether 1234567890ac
+cannot: Host name lookup failure
+ifconfig: `--help' gives usage information.
+root@localhost:~# 
+INFO     root:sshInstance.py:99 ifconfig ls: cannot access '/sys/bus/pci/devices/0000:00:05.0/net/': No such file or directory up
+cannot: Host name lookup failure
+ifconfig: `--help' gives usage information.
+root@localhost:~# 
+INFO     root:sshInstance.py:99 nmcli device connect ls: cannot access '/sys/bus/pci/devices/0000:00:05.0/net/': No such file or directory
+Command 'nmcli' not found, but can be installed with:
+apt install network-manager
+root@localhost:~# 
+INFO     root:sshInstance.py:99 ifconfig ls: cannot access '/sys/bus/pci/devices/0000:00:05.0/net/': No such file or directory
+cannot: Host name lookup failure
+ifconfig: `--help' gives usage information.
+root@localhost:~# 
+INFO     root:sshInstance.py:99 exit
+logout
+Connection to 192.168.122.241 closed.
+root@npx-sut3-ice-d-auto:~#
+=============================== warnings summary ===============================
+npxtester/Tests/testNics/test_iperf_client_4hour.py:88
+  /root/.jenkins/workspace/icx-d-test-nic-sriov-stress-2hours/npxtester/Tests/testNics/test_iperf_client_4hour.py:88: PytestUnknownMarkWarning: Unknown pytest.mark.iperf_tcp - is this a typo?  You can register custom marks to avoid this warning - for details, see https://docs.pytest.org/en/stable/mark.html
+    @pytest.mark.iperf_tcp
+
+npxtester/Tests/testNics/test_iperf_client_4hour.py:137
+  /root/.jenkins/workspace/icx-d-test-nic-sriov-stress-2hours/npxtester/Tests/testNics/test_iperf_client_4hour.py:137: PytestUnknownMarkWarning: Unknown pytest.mark.iperf_udp - is this a typo?  You can register custom marks to avoid this warning - for details, see https://docs.pytest.org/en/stable/mark.html
+    @pytest.mark.iperf_udp
+
+npxtester/Tests/testNics/test_mtu.py:69
+  /root/.jenkins/workspace/icx-d-test-nic-sriov-stress-2hours/npxtester/Tests/testNics/test_mtu.py:69: PytestUnknownMarkWarning: Unknown pytest.mark.two_sut_CVL - is this a typo?  You can register custom marks to avoid this warning - for details, see https://docs.pytest.org/en/stable/mark.html
+    @pytest.mark.two_sut_CVL
+
+npxtester/Tests/testNics/test_mtu.py:70
+  /root/.jenkins/workspace/icx-d-test-nic-sriov-stress-2hours/npxtester/Tests/testNics/test_mtu.py:70: PytestUnknownMarkWarning: Unknown pytest.mark.nicSimple - is this a typo?  You can register custom marks to avoid this warning - for details, see https://docs.pytest.org/en/stable/mark.html
+    @pytest.mark.nicSimple
+
+npxtester/Tests/testNics/test_mtu.py:109
+  /root/.jenkins/workspace/icx-d-test-nic-sriov-stress-2hours/npxtester/Tests/testNics/test_mtu.py:109: PytestUnknownMarkWarning: Unknown pytest.mark.two_sut_CVL - is this a typo?  You can register custom marks to avoid this warning - for details, see https://docs.pytest.org/en/stable/mark.html
+    @pytest.mark.two_sut_CVL
+
+npxtester/Tests/testNics/test_mtu.py:110
+  /root/.jenkins/workspace/icx-d-test-nic-sriov-stress-2hours/npxtester/Tests/testNics/test_mtu.py:110: PytestUnknownMarkWarning: Unknown pytest.mark.nicSimple - is this a typo?  You can register custom marks to avoid this warning - for details, see https://docs.pytest.org/en/stable/mark.html
+    @pytest.mark.nicSimple
+
+npxtester/Tests/testNics/test_network_sriov_stress.py:565
+  /root/.jenkins/workspace/icx-d-test-nic-sriov-stress-2hours/npxtester/Tests/testNics/test_network_sriov_stress.py:565: PytestUnknownMarkWarning: Unknown pytest.mark.nicSriov5times - is this a typo?  You can register custom marks to avoid this warning - for details, see https://docs.pytest.org/en/stable/mark.html
+    @pytest.mark.nicSriov5times
+
+npxtester/Tests/testNics/test_network_sriov_stress.py:691
+  /root/.jenkins/workspace/icx-d-test-nic-sriov-stress-2hours/npxtester/Tests/testNics/test_network_sriov_stress.py:691: PytestUnknownMarkWarning: Unknown pytest.mark.nicSriov2hours - is this a typo?  You can register custom marks to avoid this warning - for details, see https://docs.pytest.org/en/stable/mark.html
+    @pytest.mark.nicSriov2hours
+
+npxtester/Tests/testNics/test_network_sriov_stress.py:931
+  /root/.jenkins/workspace/icx-d-test-nic-sriov-stress-2hours/npxtester/Tests/testNics/test_network_sriov_stress.py:931: PytestUnknownMarkWarning: Unknown pytest.mark.SriovVfIperf - is this a typo?  You can register custom marks to avoid this warning - for details, see https://docs.pytest.org/en/stable/mark.html
+    @pytest.mark.SriovVfIperf
+
+npxtester/Tests/testNics/test_network_sriov_stress.py:1067
+  /root/.jenkins/workspace/icx-d-test-nic-sriov-stress-2hours/npxtester/Tests/testNics/test_network_sriov_stress.py:1067: PytestUnknownMarkWarning: Unknown pytest.mark.nicIperfTcpSUTGuestStress - is this a typo?  You can register custom marks to avoid this warning - for details, see https://docs.pytest.org/en/stable/mark.html
+    @pytest.mark.nicIperfTcpSUTGuestStress
+
+npxtester/Tests/testNics/test_network_sriov_stress.py:1068
+  /root/.jenkins/workspace/icx-d-test-nic-sriov-stress-2hours/npxtester/Tests/testNics/test_network_sriov_stress.py:1068: PytestUnknownMarkWarning: Unknown pytest.mark.SriovVfIperf - is this a typo?  You can register custom marks to avoid this warning - for details, see https://docs.pytest.org/en/stable/mark.html
+    @pytest.mark.SriovVfIperf
+
+npxtester/Tests/testNics/test_nics.py:102
+  /root/.jenkins/workspace/icx-d-test-nic-sriov-stress-2hours/npxtester/Tests/testNics/test_nics.py:102: PytestUnknownMarkWarning: Unknown pytest.mark.nicSimple - is this a typo?  You can register custom marks to avoid this warning - for details, see https://docs.pytest.org/en/stable/mark.html
+    @pytest.mark.nicSimple
+
+npxtester/Tests/testNics/test_nics.py:128
+  /root/.jenkins/workspace/icx-d-test-nic-sriov-stress-2hours/npxtester/Tests/testNics/test_nics.py:128: PytestUnknownMarkWarning: Unknown pytest.mark.nicSimple - is this a typo?  You can register custom marks to avoid this warning - for details, see https://docs.pytest.org/en/stable/mark.html
+    @pytest.mark.nicSimple
+
+npxtester/Tests/testNics/test_nics.py:158
+  /root/.jenkins/workspace/icx-d-test-nic-sriov-stress-2hours/npxtester/Tests/testNics/test_nics.py:158: PytestUnknownMarkWarning: Unknown pytest.mark.nicSimple - is this a typo?  You can register custom marks to avoid this warning - for details, see https://docs.pytest.org/en/stable/mark.html
+    @pytest.mark.nicSimple
+
+npxtester/Tests/testNics/test_nics.py:159
+  /root/.jenkins/workspace/icx-d-test-nic-sriov-stress-2hours/npxtester/Tests/testNics/test_nics.py:159: PytestUnknownMarkWarning: Unknown pytest.mark.test - is this a typo?  You can register custom marks to avoid this warning - for details, see https://docs.pytest.org/en/stable/mark.html
+    @pytest.mark.test
+
+npxtester/Tests/testNics/test_nics.py:244
+  /root/.jenkins/workspace/icx-d-test-nic-sriov-stress-2hours/npxtester/Tests/testNics/test_nics.py:244: PytestUnknownMarkWarning: Unknown pytest.mark.nicSimple - is this a typo?  You can register custom marks to avoid this warning - for details, see https://docs.pytest.org/en/stable/mark.html
+    @pytest.mark.nicSimple
+
+npxtester/Tests/testNics/test_nics.py:270
+  /root/.jenkins/workspace/icx-d-test-nic-sriov-stress-2hours/npxtester/Tests/testNics/test_nics.py:270: PytestUnknownMarkWarning: Unknown pytest.mark.nicSimple - is this a typo?  You can register custom marks to avoid this warning - for details, see https://docs.pytest.org/en/stable/mark.html
+    @pytest.mark.nicSimple
+
+npxtester/Tests/testNics/test_nics.py:313
+  /root/.jenkins/workspace/icx-d-test-nic-sriov-stress-2hours/npxtester/Tests/testNics/test_nics.py:313: PytestUnknownMarkWarning: Unknown pytest.mark.nicSimple - is this a typo?  You can register custom marks to avoid this warning - for details, see https://docs.pytest.org/en/stable/mark.html
+    @pytest.mark.nicSimple
+
+-- Docs: https://docs.pytest.org/en/stable/warnings.html
+- generated html file: file:///root/testconfig/testlogs/HtmlReport/nic_sriov2hours_case_report.html -
+=========================== short test summary info ============================
+FAILED npxtester/Tests/testNics/test_network_sriov_stress.py::Test_Network_SRIOV_Stress::test_PI_Networking_SRIOV_StressTrafficBetweenPFVFAndTestClientFor2Hours_VM_Guest[uvm2.img-uvm1.img]
+========== 1 failed, 18 deselected, 18 warnings in 497.49s (0:08:17) ===========
+[8mha:////4LeiMYyvaTAszhIQ10pdIeDepJ20hGjpoNTSDQ54vTlOAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIi0SCEqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDyFBu95/avQGMKkS1vgAAAA==[0m[Pipeline] }
+[8mha:////4I/tRoD/KV6lJ76TTEJ8vusLD5mbZiDJ1z7tZBIwhHThAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKCQKJBqWgtN7zAJMY4se6C7eBUvIiv8QcsIlGxxWpnm3m9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKZhiFDut7l2hw9mQDtDvgAAAA==[0m[Pipeline] // stage
+[8mha:////4CAP7WQdC2FMpNczqgZSKdPjM+Zu6Lz59I8VEE3/AlUOAAAAph+LCAAAAAAAAP9tjTEOwjAQBM9BKWgpeYQjBB2iorXc8AITG+PEugv2haTiRXyNPxCIRMVWOyut5vmCMic4UPKycdgGzHWQXez91ORAqb1EGmRDZ1kTZopOajdosu44oyZ2MEcUsFCwdFhHygE9w0o15m6qaNBXJ07TtldQBHuDBwg1mdkk/sKYYH3tbSb8ef4KYOwYxI6h2G4+x/INOibpDcEAAAA=[0m[Pipeline] stage
+[8mha:////4Db8sOlSRxZnVxb7xJBDSAteoF0PgC9lkQldzKIJFwYiAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUwIiYukZZOEFoQkgb/V9+UtqJE3E17kBLJSY8WLYl673eUESGE7ETjcXWY6y96ELvpiQG4vYaaBANXURNGClYoeygyNhqqYqShUVZDisJa4t1oOjRJdjIRj90GTS68px42o4Scm/u8IRMTuSkOX3LyLC99SYS/jh/ATB2CfLDbrb9/Cw+2YMO4MIAAAA=[0m[Pipeline] { (collect logs)
+Stage "collect logs" skipped due to earlier failure(s)
+[8mha:////4AfI3SthhIf/wHKBxkZZVuznCBOLGICd+mTaK5J1XhvpAAAAox+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIikRJR0VppeIFJjLFj3Tm2g1PxIr7GHwhEomKL1c4283zBOgY4ctBoFfWGYmvQu1HPCzOH/uo4o+ULtkyRncJG5YY7dVqw4aRgSVHCSsBGUes4GtIJtsLKu6ycJF2dU5i/g4DSdAM8oBCzOcmQvjAF2N3GLjL9PH8FMHmfoKzrT+3fkMfZ274AAAA=[0m[Pipeline] }
+[8mha:////4O1G14z5oV6C9jl1Q5yIn+pZFQRmsElhyj6JiXyHA8ixAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiBB2iSmu54QUmNsaJdWdsh6TiRXyNPxCIRMUWq51t5vmCZYpw5GixNdQ5So3D4Hs7LRw4dhfPA7Z8xoYpsTcozSBZm3pGydnAnKKEhYCVocZzcmQzrEWr7qryimx1ynH6DgJKp2/wgEJM5qxi/sIYYXPtdWL6ef4KYAwhQ7nbf2r7BpKm1V++AAAA[0m[Pipeline] // stage
+[8mha:////4KtBCOpIKS64HlRGbxVDHBnhT4546C6ceKSEgLxKWO63AAAAox+LCAAAAAAAAP9tjTESgjAQRT84FraWHiIUauVY2WZoPEGEGAOZXUwWofJEXs07yMiMlb/67zXv9cYyRRw5OtVYaj2lyqsu9G56auDYXgMPquGLqpgSB6tKO5Rc29OMJYvFvCzHQmNlqQqcPDnBWjfmYYpgyBVniZM7aOS+vuOJTE9lMVG+MEZsbn2dmH6dvwGMXSfIt3tBtvsA/gVtV70AAAA=[0m[Pipeline] }
+[8mha:////4PVa+eOfGCB5ryE2GyokIfyPZOVvh3emQVgJTOuHuCGAAAAAox+LCAAAAAAAAP9tjbEOgjAURS8YB1dHP6IMJC7GybVh8Qsq1Fpo3sP2IUx+kb/mP0gkcfJO95zlvN5Yp4gjR6daS52nVHvVh8HNT40cu2vgUbV8UTVT4mBVZceKG3tasGKxWJblWGlsLNWBkycn2OrWPEwRDLniLHF2B43cN3c8kem5LCbKF6aI3W1oEtOv8zeAqe8FebkXZOUHjeqpjr0AAAA=[0m[Pipeline] // node
+[8mha:////4OyM7hMK6utvbTfbnNkjhtaoCHWCq3+ZbQ+BNe9AvJHZAAAApB+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMKRoKBAVLRWGl5gEmOcWHfBvpBUvIiv8QciIlGx1c4083pjmSKOHJ1qLLWeUuVVF3o3PTVwbK+BB9XwRVVMiYNVpR1Kru1pxpLFYl6WY6GxslQFTp6cYK0b8zBFMOSKs8TJHTRyX9/xRKanspgoXxgjNre+Tky/zt8Axq4T5Lu9INt+AKvzzsS9AAAA[0m[Pipeline] End of Pipeline
+ERROR: script returned exit code 1
+Finished: FAILURE

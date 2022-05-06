@@ -1,0 +1,97 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<flow-build plugin="workflow-job@2.41">
+  <actions>
+    <hudson.model.ParametersAction>
+      <safeParameters class="sorted-set"/>
+      <parameters>
+        <hudson.model.StringParameterValue>
+          <name>token</name>
+          <description>github token</description>
+          <value>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</value>
+        </hudson.model.StringParameterValue>
+        <hudson.model.StringParameterValue>
+          <name>git_repo_url</name>
+          <description>github repo url</description>
+          <value>github.com/intel-innersource/applications.validation.network-platform.npxtester.git</value>
+        </hudson.model.StringParameterValue>
+        <hudson.model.StringParameterValue>
+          <name>sut1_ip</name>
+          <description>测试机IP</description>
+          <value>10.239.182.209</value>
+        </hudson.model.StringParameterValue>
+        <hudson.model.StringParameterValue>
+          <name>os</name>
+          <description>测试机器系统:rehat or ubuntu</description>
+          <value>rehat</value>
+        </hudson.model.StringParameterValue>
+        <hudson.model.StringParameterValue>
+          <name>pf1</name>
+          <description>测试机网口名称</description>
+          <value>ens785f2</value>
+        </hudson.model.StringParameterValue>
+        <hudson.model.StringParameterValue>
+          <name>sut2_ip</name>
+          <description>发报机IP</description>
+          <value>10.239.182.79</value>
+        </hudson.model.StringParameterValue>
+        <hudson.model.StringParameterValue>
+          <name>sut2_pf1</name>
+          <description>发报机网口名称</description>
+          <value>ens787f2</value>
+        </hudson.model.StringParameterValue>
+        <hudson.model.StringParameterValue>
+          <name>pf1_bandwidth</name>
+          <description>网卡带宽</description>
+          <value>25</value>
+        </hudson.model.StringParameterValue>
+        <hudson.model.StringParameterValue>
+          <name>run_time</name>
+          <description>运行时间</description>
+          <value>600</value>
+        </hudson.model.StringParameterValue>
+        <hudson.model.StringParameterValue>
+          <name>drive_version</name>
+          <description>driver version</description>
+          <value>1.6.4</value>
+        </hudson.model.StringParameterValue>
+      </parameters>
+      <parameterDefinitionNames>
+        <string>token</string>
+        <string>git_repo_url</string>
+        <string>sut1_ip</string>
+        <string>os</string>
+        <string>pf1</string>
+        <string>sut2_ip</string>
+        <string>sut2_pf1</string>
+        <string>pf1_bandwidth</string>
+        <string>run_time</string>
+        <string>drive_version</string>
+      </parameterDefinitionNames>
+    </hudson.model.ParametersAction>
+    <hudson.model.CauseAction>
+      <causeBag class="linked-hash-map">
+        <entry>
+          <hudson.model.Cause_-UserIdCause>
+            <userId>root</userId>
+          </hudson.model.Cause_-UserIdCause>
+          <int>1</int>
+        </entry>
+      </causeBag>
+    </hudson.model.CauseAction>
+    <jenkins.metrics.impl.TimeInQueueAction plugin="metrics@4.0.2.8">
+      <queuingDurationMillis>21</queuingDurationMillis>
+      <blockedDurationMillis>0</blockedDurationMillis>
+      <buildableDurationMillis>0</buildableDurationMillis>
+      <waitingDurationMillis>4</waitingDurationMillis>
+    </jenkins.metrics.impl.TimeInQueueAction>
+  </actions>
+  <queueId>5267</queueId>
+  <timestamp>1651735584601</timestamp>
+  <startTime>1651735584603</startTime>
+  <result>FAILURE</result>
+  <duration>156</duration>
+  <charset>UTF-8</charset>
+  <keepLog>false</keepLog>
+  <completed>true</completed>
+  <checkouts class="hudson.util.PersistedList"/>
+</flow-build>
